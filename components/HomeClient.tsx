@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import Sidebar from "./Sidebar";
 import AddressSearch from "./AddressSearch";
 import CommuneCard from "./CommuneCard";
+import CompareView from "./CompareView";
 import TopRanking from "./TopRanking";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation, AddressFeature } from "@/lib/types";
@@ -35,6 +36,10 @@ export default function HomeClient() {
     showGpe,
     selectedCommuneInsee,
     setSelectedCommune,
+    compareCommuneInsee,
+    setCompareCommune,
+    isPickingCompare,
+    setPickingCompare,
   } = useAppStore();
 
   useEffect(() => {
@@ -64,6 +69,17 @@ export default function HomeClient() {
     () => allCommunes.find((c) => c.code_insee === selectedCommuneInsee) ?? null,
     [allCommunes, selectedCommuneInsee],
   );
+
+  const compareCommune = useMemo(
+    () => allCommunes.find((c) => c.code_insee === compareCommuneInsee) ?? null,
+    [allCommunes, compareCommuneInsee],
+  );
+
+  const showCompareView =
+    !!compareCommune &&
+    !!selectedCommune &&
+    compareCommune.code_insee !== selectedCommune.code_insee &&
+    !isPickingCompare;
 
   const handleAddressSelect = async (f: AddressFeature) => {
     setFlyTo({ lat: f.lat, lon: f.lon, zoom: 13 });
@@ -157,6 +173,21 @@ export default function HomeClient() {
                 onClose={() => setSelectedCommune(null)}
               />
             </div>
+          )}
+
+          {showCompareView && selectedCommune && compareCommune && (
+            <CompareView
+              a={compareCommune}
+              b={selectedCommune}
+              onClose={() => {
+                setCompareCommune(null);
+                setPickingCompare(false);
+              }}
+              onSwap={() => {
+                setSelectedCommune(compareCommune.code_insee);
+                setCompareCommune(selectedCommune.code_insee);
+              }}
+            />
           )}
 
           {allCommunes.length > 0 && (

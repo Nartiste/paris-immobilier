@@ -1,6 +1,6 @@
 "use client";
 
-import { X, Train, Car, Clock } from "lucide-react";
+import { X, Train, Car, Clock, ArrowRightLeft } from "lucide-react";
 import type { Commune } from "@/lib/types";
 import { useAppStore } from "@/lib/store";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
@@ -12,7 +12,15 @@ type Props = {
 };
 
 export default function CommuneCard({ commune, onClose }: Props) {
-  const { weights, mode, profile } = useAppStore();
+  const {
+    weights,
+    mode,
+    profile,
+    compareCommuneInsee,
+    setCompareCommune,
+    isPickingCompare,
+    setPickingCompare,
+  } = useAppStore();
   const score = computeCommuneScore(commune, weights, mode, profile);
   const color = scoreToColor(score.total);
 
@@ -40,14 +48,55 @@ export default function CommuneCard({ commune, onClose }: Props) {
             {formatNumber(commune.population)} hab.
           </p>
         </div>
-        <button
-          onClick={onClose}
-          className="ml-2 flex-shrink-0 rounded p-1 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-700"
-          aria-label="Fermer"
-        >
-          <X className="h-4 w-4" />
-        </button>
+        <div className="ml-2 flex flex-shrink-0 items-center gap-1">
+          {compareCommuneInsee && compareCommuneInsee !== commune.code_insee ? (
+            <button
+              onClick={() => setPickingCompare(false)}
+              className="rounded-md bg-emerald-600 px-2 py-1 text-[11px] font-medium text-white hover:bg-emerald-700"
+              title="Comparer ces deux villes"
+            >
+              <ArrowRightLeft className="inline h-3 w-3" />
+              <span className="ml-1">Comparer</span>
+            </button>
+          ) : compareCommuneInsee === commune.code_insee ? (
+            <button
+              onClick={() => {
+                setCompareCommune(null);
+                setPickingCompare(false);
+              }}
+              className="rounded-md bg-neutral-200 px-2 py-1 text-[11px] font-medium text-neutral-700 hover:bg-neutral-300"
+              title="Retirer de la comparaison"
+            >
+              En comparaison
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                setCompareCommune(commune.code_insee);
+                setPickingCompare(true);
+              }}
+              className="rounded-md border border-neutral-200 px-2 py-1 text-[11px] font-medium text-neutral-700 hover:bg-neutral-100"
+              title="Comparer avec une autre commune"
+            >
+              <ArrowRightLeft className="inline h-3 w-3" />
+              <span className="ml-1">Comparer</span>
+            </button>
+          )}
+          <button
+            onClick={onClose}
+            className="rounded p-1 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-700"
+            aria-label="Fermer"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
       </div>
+
+      {isPickingCompare && compareCommuneInsee && compareCommuneInsee !== commune.code_insee && (
+        <div className="mx-4 mb-2 rounded-md bg-emerald-50 px-2 py-1.5 text-[11px] text-emerald-800">
+          Sélectionnez une autre commune sur la carte pour comparer.
+        </div>
+      )}
 
       <div className="px-4 pb-3">
         <div
