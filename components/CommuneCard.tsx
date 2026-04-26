@@ -18,9 +18,9 @@ export default function CommuneCard({ commune, onClose }: Props) {
     profile,
     compareCommuneInsee,
     setCompareCommune,
-    isPickingCompare,
-    setPickingCompare,
   } = useAppStore();
+  const isWaitingForSecond =
+    compareCommuneInsee === commune.code_insee;
   const score = computeCommuneScore(commune, weights, mode, profile);
   const color = scoreToColor(score.total);
 
@@ -49,32 +49,17 @@ export default function CommuneCard({ commune, onClose }: Props) {
           </p>
         </div>
         <div className="ml-2 flex flex-shrink-0 items-center gap-1">
-          {compareCommuneInsee && compareCommuneInsee !== commune.code_insee ? (
+          {isWaitingForSecond ? (
             <button
-              onClick={() => setPickingCompare(false)}
+              onClick={() => setCompareCommune(null)}
               className="rounded-md bg-emerald-600 px-2 py-1 text-[11px] font-medium text-white hover:bg-emerald-700"
-              title="Comparer ces deux villes"
+              title="Annuler la comparaison"
             >
-              <ArrowRightLeft className="inline h-3 w-3" />
-              <span className="ml-1">Comparer</span>
-            </button>
-          ) : compareCommuneInsee === commune.code_insee ? (
-            <button
-              onClick={() => {
-                setCompareCommune(null);
-                setPickingCompare(false);
-              }}
-              className="rounded-md bg-neutral-200 px-2 py-1 text-[11px] font-medium text-neutral-700 hover:bg-neutral-300"
-              title="Retirer de la comparaison"
-            >
-              En comparaison
+              Annuler
             </button>
           ) : (
             <button
-              onClick={() => {
-                setCompareCommune(commune.code_insee);
-                setPickingCompare(true);
-              }}
+              onClick={() => setCompareCommune(commune.code_insee)}
               className="rounded-md border border-neutral-200 px-2 py-1 text-[11px] font-medium text-neutral-700 hover:bg-neutral-100"
               title="Comparer avec une autre commune"
             >
@@ -92,9 +77,10 @@ export default function CommuneCard({ commune, onClose }: Props) {
         </div>
       </div>
 
-      {isPickingCompare && compareCommuneInsee && compareCommuneInsee !== commune.code_insee && (
-        <div className="mx-4 mb-2 rounded-md bg-emerald-50 px-2 py-1.5 text-[11px] text-emerald-800">
-          Sélectionnez une autre commune sur la carte pour comparer.
+      {isWaitingForSecond && (
+        <div className="mx-4 mb-2 flex items-center gap-1.5 rounded-md bg-emerald-50 px-2 py-1.5 text-[11px] text-emerald-800">
+          <ArrowRightLeft className="h-3 w-3" />
+          Choisissez une 2<sup>e</sup> ville (carte, recherche ou Top 10) pour la comparer.
         </div>
       )}
 

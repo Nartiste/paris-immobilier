@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import type { Commune } from "@/lib/types";
 import { RAIL_BY_INSEE } from "@/lib/rail-data";
 
-export const revalidate = 86400;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const PARIS_LAT = 48.8566;
 const PARIS_LON = 2.3522;

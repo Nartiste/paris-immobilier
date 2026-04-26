@@ -38,8 +38,6 @@ export default function HomeClient() {
     setSelectedCommune,
     compareCommuneInsee,
     setCompareCommune,
-    isPickingCompare,
-    setPickingCompare,
   } = useAppStore();
 
   useEffect(() => {
@@ -78,8 +76,7 @@ export default function HomeClient() {
   const showCompareView =
     !!compareCommune &&
     !!selectedCommune &&
-    compareCommune.code_insee !== selectedCommune.code_insee &&
-    !isPickingCompare;
+    compareCommune.code_insee !== selectedCommune.code_insee;
 
   const handleAddressSelect = async (f: AddressFeature) => {
     setFlyTo({ lat: f.lat, lon: f.lon, zoom: 13 });
@@ -179,10 +176,7 @@ export default function HomeClient() {
             <CompareView
               a={compareCommune}
               b={selectedCommune}
-              onClose={() => {
-                setCompareCommune(null);
-                setPickingCompare(false);
-              }}
+              onClose={() => setCompareCommune(null)}
               onSwap={() => {
                 setSelectedCommune(compareCommune.code_insee);
                 setCompareCommune(selectedCommune.code_insee);

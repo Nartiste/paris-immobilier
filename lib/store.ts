@@ -25,8 +25,6 @@ type AppState = {
 
   compareCommuneInsee: string | null;
   setCompareCommune: (insee: string | null) => void;
-  isPickingCompare: boolean;
-  setPickingCompare: (v: boolean) => void;
 
   showGpe: boolean;
   toggleGpe: () => void;
@@ -55,8 +53,6 @@ export const useAppStore = create<AppState>((set) => ({
 
   compareCommuneInsee: null,
   setCompareCommune: (insee) => set({ compareCommuneInsee: insee }),
-  isPickingCompare: false,
-  setPickingCompare: (v) => set({ isPickingCompare: v }),
 
   showGpe: true,
   toggleGpe: () => set((s) => ({ showGpe: !s.showGpe })),
