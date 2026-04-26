@@ -1,15 +1,16 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Search, X } from "lucide-react";
+import { Search, X, Loader2 } from "lucide-react";
 import type { AddressFeature } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 type Props = {
   onSelect: (feature: AddressFeature) => void;
+  loading?: boolean;
 };
 
-export default function AddressSearch({ onSelect }: Props) {
+export default function AddressSearch({ onSelect, loading: externalLoading }: Props) {
   const [query, setQuery] = useState("");
   const [features, setFeatures] = useState<AddressFeature[]>([]);
   const [loading, setLoading] = useState(false);
@@ -54,6 +55,8 @@ export default function AddressSearch({ onSelect }: Props) {
     return () => document.removeEventListener("mousedown", onClick);
   }, []);
 
+  const showSpinner = loading || externalLoading;
+
   return (
     <div ref={containerRef} className="relative w-full">
       <div className="relative">
@@ -70,7 +73,9 @@ export default function AddressSearch({ onSelect }: Props) {
             "shadow-sm transition-colors",
           )}
         />
-        {query && (
+        {showSpinner ? (
+          <Loader2 className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 animate-spin text-neutral-400" />
+        ) : query ? (
           <button
             onClick={() => {
               setQuery("");
@@ -81,7 +86,7 @@ export default function AddressSearch({ onSelect }: Props) {
           >
             <X className="h-3.5 w-3.5" />
           </button>
-        )}
+        ) : null}
       </div>
 
       {open && (features.length > 0 || loading) && (

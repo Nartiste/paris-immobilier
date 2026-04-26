@@ -17,6 +17,9 @@ type AppState = {
   budgetMax: number | null;
   setBudgetMax: (value: number | null) => void;
 
+  tempsMaxParis: number;
+  setTempsMaxParis: (value: number) => void;
+
   selectedCommuneInsee: string | null;
   setSelectedCommune: (insee: string | null) => void;
 
@@ -38,6 +41,9 @@ export const useAppStore = create<AppState>((set) => ({
 
   budgetMax: null,
   setBudgetMax: (value) => set({ budgetMax: value }),
+
+  tempsMaxParis: 120,
+  setTempsMaxParis: (value) => set({ tempsMaxParis: value }),
 
   selectedCommuneInsee: null,
   setSelectedCommune: (insee) => set({ selectedCommuneInsee: insee }),

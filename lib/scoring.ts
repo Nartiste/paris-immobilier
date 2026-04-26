@@ -33,10 +33,9 @@ export function computeCommuneScore(
       ? normalize(commune.prix_m2_median, 1500, 12000, true)
       : normalize(commune.loyer_m2_median, 8, 35, true);
 
-  const transports = clamp(
-    0.6 * normalize(commune.distance_gare_km, 0, 15, true) +
-      0.4 * normalize(commune.distance_autoroute_km, 0, 25, true),
-  );
+  // tempsParis : min 0 (Paris), max 120 min (≈ 2h en TGV/voiture).
+  // Inversé : moins de temps = meilleur score.
+  const tempsParis = normalize(commune.temps_trajet_paris_min, 0, 120, true);
 
   const economie = clamp(
     0.6 * normalize(commune.revenu_median, 18000, 45000) +
@@ -56,7 +55,7 @@ export function computeCommuneScore(
 
   const totalWeight =
     weights.prix +
-    weights.transports +
+    weights.tempsParis +
     weights.economie +
     weights.qualiteVie +
     weights.education +
@@ -66,7 +65,7 @@ export function computeCommuneScore(
 
   const weightedSum =
     (weights.prix * prix +
-      weights.transports * transports +
+      weights.tempsParis * tempsParis +
       weights.economie * economie +
       weights.qualiteVie * qualiteVie +
       weights.education * education +
@@ -77,7 +76,7 @@ export function computeCommuneScore(
 
   if (mode === "rapport_qualite_prix") {
     const qualiteAvg =
-      (transports + economie + qualiteVie + education + futurTransport) / 5;
+      (tempsParis + economie + qualiteVie + education + futurTransport) / 5;
     const prixFactor = prix / 100;
     total = clamp(qualiteAvg * 0.5 + prixFactor * 50);
   }
@@ -85,7 +84,7 @@ export function computeCommuneScore(
   return {
     total: Math.round(total),
     prix: Math.round(prix),
-    transports: Math.round(transports),
+    tempsParis: Math.round(tempsParis),
     economie: Math.round(economie),
     qualiteVie: Math.round(qualiteVie),
     education: Math.round(education),

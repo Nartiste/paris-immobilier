@@ -11,6 +11,7 @@ type Props = {
   mode: ScoreMode;
   profile: Profile;
   budgetMax: number | null;
+  tempsMaxParis: number;
   onSelect: (insee: string) => void;
 };
 
@@ -20,9 +21,11 @@ export default function TopRanking({
   mode,
   profile,
   budgetMax,
+  tempsMaxParis,
   onSelect,
 }: Props) {
   const ranked = communes
+    .filter((c) => c.temps_trajet_paris_min <= tempsMaxParis)
     .filter((c) =>
       budgetMax == null
         ? true
@@ -38,7 +41,7 @@ export default function TopRanking({
     .slice(0, 10);
 
   return (
-    <div className="absolute bottom-4 left-4 z-10 w-[280px] rounded-xl border border-neutral-200 bg-white shadow-xl">
+    <div className="absolute bottom-4 left-4 z-10 w-[300px] rounded-xl border border-neutral-200 bg-white shadow-xl">
       <div className="flex items-center gap-2 border-b border-neutral-100 px-4 py-2.5">
         <TrendingUp className="h-4 w-4 text-emerald-600" />
         <span className="text-sm font-semibold text-neutral-900">
@@ -57,6 +60,9 @@ export default function TopRanking({
               </span>
               <span className="flex-1 truncate text-sm text-neutral-900">
                 {commune.nom}
+              </span>
+              <span className="text-[10px] text-emerald-700 tabular-nums">
+                {commune.temps_trajet_paris_min}min
               </span>
               <span className="text-[10px] text-neutral-400">
                 {profile === "acheteur"

@@ -1,21 +1,21 @@
 "use client";
 
-import { Sliders, RotateCcw, Home, Train } from "lucide-react";
+import { Sliders, RotateCcw, Home, Train, Clock } from "lucide-react";
 import type { Weights } from "@/lib/types";
 import { useAppStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
 const WEIGHT_LABELS: Record<keyof Weights, { label: string; hint: string }> = {
-  prix: { label: "Prix immobilier", hint: "Prix au m² (achat ou loyer selon profil)" },
-  transports: {
-    label: "Transports actuels",
-    hint: "Distance gare et autoroute",
+  tempsParis: {
+    label: "Temps vers Paris",
+    hint: "Temps de trajet (TC ou voiture) vers Paris intra-muros",
   },
-  economie: { label: "Économie locale", hint: "Revenu médian, emploi" },
+  prix: { label: "Prix immobilier", hint: "Prix au m² (achat ou loyer selon profil)" },
   qualiteVie: {
     label: "Qualité de vie",
     hint: "Commerces, médecins, espaces verts, sécurité",
   },
+  economie: { label: "Économie locale", hint: "Revenu médian, emploi" },
   education: { label: "Éducation", hint: "Densité d'écoles" },
   futurTransport: {
     label: "Futurs transports",
@@ -34,6 +34,8 @@ export default function Sidebar() {
     setProfile,
     budgetMax,
     setBudgetMax,
+    tempsMaxParis,
+    setTempsMaxParis,
     showGpe,
     toggleGpe,
   } = useAppStore();
@@ -97,6 +99,30 @@ export default function Sidebar() {
             Score absolu
           </button>
         </div>
+      </div>
+
+      <div>
+        <div className="flex items-center justify-between">
+          <label className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
+            <Clock className="h-4 w-4" />
+            Temps max vers Paris
+          </label>
+          <span className="text-xs tabular-nums text-neutral-500">
+            {tempsMaxParis} min
+          </span>
+        </div>
+        <input
+          type="range"
+          min="10"
+          max="120"
+          step="5"
+          value={tempsMaxParis}
+          onChange={(e) => setTempsMaxParis(Number(e.target.value))}
+          className="mt-2 w-full accent-neutral-900"
+        />
+        <p className="mt-0.5 text-[10px] leading-tight text-neutral-400">
+          Filtre les communes selon le trajet le plus court (TC ou voiture).
+        </p>
       </div>
 
       <div>

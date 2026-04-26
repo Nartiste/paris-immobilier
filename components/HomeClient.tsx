@@ -20,15 +20,18 @@ const MapView = dynamic(() => import("./Map"), {
 
 export default function HomeClient() {
   const [communes, setCommunes] = useState<Commune[]>([]);
+  const [extraCommunes, setExtraCommunes] = useState<Commune[]>([]);
   const [gpeStations, setGpeStations] = useState<GpeStation[]>([]);
   const [flyTo, setFlyTo] = useState<{ lat: number; lon: number; zoom?: number } | null>(null);
   const [dataSource, setDataSource] = useState<string>("loading");
+  const [lookupLoading, setLookupLoading] = useState(false);
 
   const {
     weights,
     mode,
     profile,
     budgetMax,
+    tempsMaxParis,
     showGpe,
     selectedCommuneInsee,
     setSelectedCommune,
@@ -52,16 +55,40 @@ export default function HomeClient() {
     })();
   }, []);
 
-  const selectedCommune = useMemo(
-    () => communes.find((c) => c.code_insee === selectedCommuneInsee) ?? null,
-    [communes, selectedCommuneInsee],
+  const allCommunes = useMemo(
+    () => [...communes, ...extraCommunes],
+    [communes, extraCommunes],
   );
 
-  const handleAddressSelect = (f: AddressFeature) => {
+  const selectedCommune = useMemo(
+    () => allCommunes.find((c) => c.code_insee === selectedCommuneInsee) ?? null,
+    [allCommunes, selectedCommuneInsee],
+  );
+
+  const handleAddressSelect = async (f: AddressFeature) => {
     setFlyTo({ lat: f.lat, lon: f.lon, zoom: 13 });
     const insee = f.citycode;
-    if (insee && communes.some((c) => c.code_insee === insee)) {
+    if (!insee) return;
+
+    if (allCommunes.some((c) => c.code_insee === insee)) {
       setSelectedCommune(insee);
+      return;
+    }
+
+    setLookupLoading(true);
+    try {
+      const res = await fetch(`/api/commune-lookup?insee=${encodeURIComponent(insee)}`);
+      const data = await res.json();
+      if (data?.commune) {
+        setExtraCommunes((prev) =>
+          prev.some((c) => c.code_insee === insee) ? prev : [...prev, data.commune],
+        );
+        setSelectedCommune(insee);
+      }
+    } catch (err) {
+      console.error("Failed to lookup commune", err);
+    } finally {
+      setLookupLoading(false);
     }
   };
 
@@ -72,12 +99,12 @@ export default function HomeClient() {
       </div>
 
       <main className="relative flex-1 overflow-hidden">
-        <header className="absolute left-0 right-0 top-0 z-20 flex items-center gap-3 border-b border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur lg:px-6">
+        <header className="absolute left-0 right-0 top-0 z-40 flex items-center gap-3 border-b border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur lg:px-6">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white text-xs font-bold">
               PI
             </div>
-            <div>
+            <div className="hidden sm:block">
               <h1 className="text-sm font-semibold text-neutral-900">
                 Paris Immobilier
               </h1>
@@ -86,10 +113,10 @@ export default function HomeClient() {
               </p>
             </div>
           </div>
-          <div className="flex-1 max-w-md">
-            <AddressSearch onSelect={handleAddressSelect} />
+          <div className="flex-1 max-w-xl">
+            <AddressSearch onSelect={handleAddressSelect} loading={lookupLoading} />
           </div>
-          <div className="hidden items-center gap-1 text-[10px] text-neutral-400 lg:flex">
+          <div className="hidden items-center gap-1 text-[10px] text-neutral-400 xl:flex">
             <span
               className={`inline-block h-1.5 w-1.5 rounded-full ${
                 dataSource === "supabase"
@@ -100,24 +127,24 @@ export default function HomeClient() {
               }`}
             />
             <span>
-              Source :{" "}
               {dataSource === "supabase"
                 ? "Supabase"
                 : dataSource === "sample"
-                  ? "Échantillon (en attente d'import DVF)"
-                  : "Chargement…"}
+                  ? "Échantillon"
+                  : "…"}
             </span>
           </div>
         </header>
 
         <div className="absolute inset-0 pt-[60px]">
           <MapView
-            communes={communes}
+            communes={allCommunes}
             gpeStations={gpeStations}
             weights={weights}
             mode={mode}
             profile={profile}
             budgetMax={budgetMax}
+            tempsMaxParis={tempsMaxParis}
             showGpe={showGpe}
             onSelectCommune={setSelectedCommune}
             flyTo={flyTo}
@@ -132,17 +159,18 @@ export default function HomeClient() {
             </div>
           )}
 
-          {communes.length > 0 && (
+          {allCommunes.length > 0 && (
             <div className="pointer-events-auto">
               <TopRanking
-                communes={communes}
+                communes={allCommunes}
                 weights={weights}
                 mode={mode}
                 profile={profile}
                 budgetMax={budgetMax}
+                tempsMaxParis={tempsMaxParis}
                 onSelect={(insee) => {
                   setSelectedCommune(insee);
-                  const c = communes.find((x) => x.code_insee === insee);
+                  const c = allCommunes.find((x) => x.code_insee === insee);
                   if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
                 }}
               />

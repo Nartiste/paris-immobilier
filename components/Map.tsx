@@ -13,6 +13,7 @@ type Props = {
   mode: ScoreMode;
   profile: Profile;
   budgetMax: number | null;
+  tempsMaxParis: number;
   showGpe: boolean;
   onSelectCommune: (insee: string | null) => void;
   flyTo: { lat: number; lon: number; zoom?: number } | null;
@@ -25,6 +26,7 @@ export default function Map({
   mode,
   profile,
   budgetMax,
+  tempsMaxParis,
   showGpe,
   onSelectCommune,
   flyTo,
@@ -37,6 +39,7 @@ export default function Map({
     return {
       type: "FeatureCollection" as const,
       features: communes
+        .filter((c) => c.temps_trajet_paris_min <= tempsMaxParis)
         .filter((c) =>
           budgetMax == null
             ? true
@@ -57,6 +60,8 @@ export default function Map({
               nom: c.nom,
               prix_m2: c.prix_m2_median,
               loyer_m2: c.loyer_m2_median,
+              temps_paris: c.temps_trajet_paris_min,
+              ligne: c.ligne_principale ?? "",
               score: score.total,
               color: scoreToColor(score.total),
               label: scoreToLabel(score.total),
@@ -64,7 +69,7 @@ export default function Map({
           };
         }),
     };
-  }, [communes, weights, mode, profile, budgetMax]);
+  }, [communes, weights, mode, profile, budgetMax, tempsMaxParis]);
 
   const gpeGeoJson = useMemo(() => {
     return {
@@ -189,6 +194,8 @@ export default function Map({
         }).coordinates;
         const prix = props.prix_m2 ? formatEuros(props.prix_m2 as number) : "—";
         const score = props.score as number;
+        const tempsParis = props.temps_paris as number;
+        const ligne = props.ligne as string;
         if (popupRef.current) popupRef.current.remove();
         popupRef.current = new maplibregl.Popup({
           closeButton: false,
@@ -197,8 +204,9 @@ export default function Map({
         })
           .setLngLat(coords)
           .setHTML(
-            `<div style="font-family:inherit">
-              <div style="font-weight:600;font-size:14px;margin-bottom:2px">${props.nom}</div>
+            `<div style="font-family:inherit;min-width:180px">
+              <div style="font-weight:600;font-size:14px;margin-bottom:4px">${props.nom}</div>
+              <div style="font-size:12px;color:#0f766e;font-weight:600;margin-bottom:2px">⏱ ${tempsParis} min vers Paris${ligne ? ` <span style="color:#525252;font-weight:400">· ${ligne}</span>` : ""}</div>
               <div style="font-size:12px;color:#525252">Prix médian : <b>${prix}</b>/m²</div>
               <div style="font-size:12px;color:#525252">Score : <b style="color:${props.color}">${score}/100 — ${props.label}</b></div>
             </div>`,
