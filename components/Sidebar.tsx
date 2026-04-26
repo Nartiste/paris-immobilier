@@ -1,0 +1,183 @@
+"use client";
+
+import { Sliders, RotateCcw, Home, Train } from "lucide-react";
+import type { Weights } from "@/lib/types";
+import { useAppStore } from "@/lib/store";
+import { cn } from "@/lib/utils";
+
+const WEIGHT_LABELS: Record<keyof Weights, { label: string; hint: string }> = {
+  prix: { label: "Prix immobilier", hint: "Prix au m² (achat ou loyer selon profil)" },
+  transports: {
+    label: "Transports actuels",
+    hint: "Distance gare et autoroute",
+  },
+  economie: { label: "Économie locale", hint: "Revenu médian, emploi" },
+  qualiteVie: {
+    label: "Qualité de vie",
+    hint: "Commerces, médecins, espaces verts, sécurité",
+  },
+  education: { label: "Éducation", hint: "Densité d'écoles" },
+  futurTransport: {
+    label: "Futurs transports",
+    hint: "Bonus Grand Paris Express + projets en cours",
+  },
+};
+
+export default function Sidebar() {
+  const {
+    weights,
+    setWeight,
+    resetWeights,
+    mode,
+    setMode,
+    profile,
+    setProfile,
+    budgetMax,
+    setBudgetMax,
+    showGpe,
+    toggleGpe,
+  } = useAppStore();
+
+  return (
+    <aside className="flex h-full w-full flex-col gap-5 overflow-y-auto border-r border-neutral-200 bg-white p-5">
+      <div>
+        <h2 className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
+          <Home className="h-4 w-4" />
+          Profil
+        </h2>
+        <div className="mt-2 grid grid-cols-2 gap-2">
+          <button
+            onClick={() => setProfile("acheteur")}
+            className={cn(
+              "rounded-lg border px-3 py-2 text-sm transition-colors",
+              profile === "acheteur"
+                ? "border-neutral-900 bg-neutral-900 text-white"
+                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
+            )}
+          >
+            Acheteur
+          </button>
+          <button
+            onClick={() => setProfile("locataire")}
+            className={cn(
+              "rounded-lg border px-3 py-2 text-sm transition-colors",
+              profile === "locataire"
+                ? "border-neutral-900 bg-neutral-900 text-white"
+                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
+            )}
+          >
+            Locataire
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <h2 className="text-sm font-semibold text-neutral-900">Mode de score</h2>
+        <div className="mt-2 grid grid-cols-2 gap-2">
+          <button
+            onClick={() => setMode("rapport_qualite_prix")}
+            className={cn(
+              "rounded-lg border px-2 py-2 text-xs transition-colors",
+              mode === "rapport_qualite_prix"
+                ? "border-emerald-600 bg-emerald-50 text-emerald-900"
+                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
+            )}
+          >
+            Rapport qualité-prix
+          </button>
+          <button
+            onClick={() => setMode("absolu")}
+            className={cn(
+              "rounded-lg border px-2 py-2 text-xs transition-colors",
+              mode === "absolu"
+                ? "border-emerald-600 bg-emerald-50 text-emerald-900"
+                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
+            )}
+          >
+            Score absolu
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <label className="text-sm font-semibold text-neutral-900">
+          Budget max ({profile === "acheteur" ? "€/m²" : "€/m² loyer"})
+        </label>
+        <input
+          type="number"
+          inputMode="numeric"
+          value={budgetMax ?? ""}
+          onChange={(e) =>
+            setBudgetMax(e.target.value ? Number(e.target.value) : null)
+          }
+          placeholder={profile === "acheteur" ? "ex : 5000" : "ex : 20"}
+          className="mt-2 w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm focus:border-neutral-900 focus:outline-none"
+        />
+      </div>
+
+      <div>
+        <div className="flex items-center justify-between">
+          <h2 className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
+            <Sliders className="h-4 w-4" />
+            Pondération des critères
+          </h2>
+          <button
+            onClick={resetWeights}
+            className="flex items-center gap-1 text-xs text-neutral-500 hover:text-neutral-900"
+          >
+            <RotateCcw className="h-3 w-3" />
+            Réinit.
+          </button>
+        </div>
+        <div className="mt-3 space-y-4">
+          {(Object.keys(WEIGHT_LABELS) as (keyof Weights)[]).map((key) => (
+            <div key={key}>
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-medium text-neutral-800">
+                  {WEIGHT_LABELS[key].label}
+                </span>
+                <span className="tabular-nums text-neutral-500">
+                  {weights[key]}
+                </span>
+              </div>
+              <input
+                type="range"
+                min="0"
+                max="50"
+                value={weights[key]}
+                onChange={(e) => setWeight(key, Number(e.target.value))}
+                className="mt-1 w-full accent-neutral-900"
+              />
+              <p className="mt-0.5 text-[10px] leading-tight text-neutral-400">
+                {WEIGHT_LABELS[key].hint}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="border-t border-neutral-200 pt-4">
+        <button
+          onClick={toggleGpe}
+          className={cn(
+            "flex w-full items-center justify-between rounded-lg border px-3 py-2 text-sm transition-colors",
+            showGpe
+              ? "border-violet-600 bg-violet-50 text-violet-900"
+              : "border-neutral-200 bg-white text-neutral-700",
+          )}
+        >
+          <span className="flex items-center gap-2">
+            <Train className="h-4 w-4" />
+            Futures gares (GPE)
+          </span>
+          <span className="text-xs">{showGpe ? "Affichées" : "Masquées"}</span>
+        </button>
+      </div>
+
+      <div className="mt-auto rounded-lg bg-neutral-50 p-3 text-[11px] leading-relaxed text-neutral-600">
+        <strong className="text-neutral-900">Sources :</strong> DVF (data.gouv.fr),
+        INSEE BPE/FILOSOFI, BAN, Société des Grands Projets, OpenStreetMap.
+      </div>
+    </aside>
+  );
+}
