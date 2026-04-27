@@ -39,7 +39,7 @@ Markdown propre, structuré ainsi :
 - Pas d'emojis, pas de tableaux markdown sauf si vraiment nécessaire.
 - Renvoie UNIQUEMENT le markdown, pas de bloc \`\`\`, pas de balise.
 
-Cible : 1500-2500 mots. Article structuré, dense en information, sans remplissage.`;
+Cible : **1400-1900 mots**. Article dense, sans remplissage, mais qui prend le temps de développer chaque section. Mieux vaut traiter à fond les sections importantes que survoler tout.`;
 
 function buildUserPrompt(slug: string): string {
   const post = BLOG_POSTS_BY_SLUG[slug];
@@ -86,17 +86,17 @@ ${
 
 ${referencedCommunes}
 
-Utilise ces chiffres tels quels dans l'article — ne les modifie pas. Tu peux compléter avec des comparaisons à Paris (Paris ~10500€/m² médian intra-muros 2026).`
+Utilise ces chiffres tels quels — ne les modifie pas. Tu peux comparer à Paris (~10500€/m² médian intra-muros 2026).`
     : ""
 }
 
 # Consignes finales
 
 - Démarre par un § d'accroche (sans titre H2) qui donne envie de lire.
-- Enchaîne avec les sections dans l'ordre du brief, en H2 (sans modifier l'ordre, mais tu peux reformuler les titres).
+- Enchaîne avec les sections dans l'ordre du brief, en H2 (tu peux reformuler les titres).
 - Termine par une mini-conclusion ou ouverture (pas commerciale).
-- Tutoiement obligatoire, ton paris-jetequitte (pro complice).
-- 1500-2500 mots cible.
+- Tutoiement, ton paris-jetequitte (pro complice).
+- **1400-1900 mots**, dense en information.
 - Renvoie UNIQUEMENT le markdown.`;
 }
 
@@ -127,22 +127,45 @@ export async function POST(request: Request) {
 
   try {
     const client = new Anthropic();
-    const response = await client.messages.create({
+    // Streaming pour contourner le timeout Vercel 60s : le client reçoit
+    // le texte au fur et à mesure. Si Sonnet finit avant 60s, l'article
+    // entier est délivré même si la fonction meurt ensuite.
+    const stream = await client.messages.stream({
       model: "claude-sonnet-4-6",
-      max_tokens: 6000,
+      max_tokens: 4096,
       system: SYSTEM,
       messages: [{ role: "user", content: buildUserPrompt(slug) }],
     });
 
-    const block = response.content[0];
-    if (block.type !== "text") throw new Error("Unexpected block type");
+    const encoder = new TextEncoder();
+    const readable = new ReadableStream<Uint8Array>({
+      async start(controller) {
+        try {
+          for await (const event of stream) {
+            if (
+              event.type === "content_block_delta" &&
+              event.delta.type === "text_delta"
+            ) {
+              controller.enqueue(encoder.encode(event.delta.text));
+            }
+          }
+        } catch (err) {
+          controller.enqueue(
+            encoder.encode(
+              `\n\n[ERROR: ${err instanceof Error ? err.message : String(err)}]`,
+            ),
+          );
+        } finally {
+          controller.close();
+        }
+      },
+    });
 
-    return NextResponse.json({
-      slug,
-      content: block.text.trim(),
-      tokens: {
-        input: response.usage.input_tokens,
-        output: response.usage.output_tokens,
+    return new Response(readable, {
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "no-cache, no-transform",
+        "X-Slug": slug,
       },
     });
   } catch (err) {
