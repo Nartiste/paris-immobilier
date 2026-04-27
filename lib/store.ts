@@ -49,6 +49,15 @@ type AppState = {
   setMobileFiltersOpen: (v: boolean) => void;
   mobileTopOpen: boolean;
   setMobileTopOpen: (v: boolean) => void;
+
+  /** Recherche d'adresse — découple AddressSearch du parent */
+  pendingAddress: {
+    insee: string;
+    lat: number;
+    lon: number;
+    label: string;
+  } | null;
+  setPendingAddress: (a: AppState["pendingAddress"]) => void;
 };
 
 export const useAppStore = create<AppState>()(
@@ -95,6 +104,9 @@ export const useAppStore = create<AppState>()(
       setMobileFiltersOpen: (v) => set({ mobileFiltersOpen: v }),
       mobileTopOpen: false,
       setMobileTopOpen: (v) => set({ mobileTopOpen: v }),
+
+      pendingAddress: null,
+      setPendingAddress: (a) => set({ pendingAddress: a }),
     }),
     {
       name: "paris-immo-app",

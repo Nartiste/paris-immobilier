@@ -37,7 +37,7 @@ export default function Sidebar() {
   } = useAppStore();
 
   return (
-    <aside className="flex h-full w-full flex-col gap-5 overflow-y-auto border-r border-neutral-200 bg-white p-5">
+    <div className="flex w-full flex-col gap-5 bg-white p-4">
       <div>
         <div className="flex items-center justify-between">
           <label className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
@@ -137,10 +137,10 @@ export default function Sidebar() {
         </button>
       </div>
 
-      <div className="mt-auto rounded-lg bg-neutral-50 p-3 text-[11px] leading-relaxed text-neutral-600">
+      <div className="rounded-lg bg-neutral-50 p-3 text-[11px] leading-relaxed text-neutral-600">
         <strong className="text-neutral-900">Sources :</strong> DVF (data.gouv.fr),
         INSEE BPE/FILOSOFI, BAN, Société des Grands Projets, OpenStreetMap.
       </div>
-    </aside>
+    </div>
   );
 }

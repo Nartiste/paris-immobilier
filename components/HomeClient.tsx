@@ -2,18 +2,13 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
-import { Home as HomeIcon } from "lucide-react";
 import Sidebar from "./Sidebar";
-import AddressSearch from "./AddressSearch";
 import CommuneCard from "./CommuneCard";
 import CompareView from "./CompareView";
-import TopRanking from "./TopRanking";
 import Concierge from "./Concierge";
 import ConciergeButton from "./ConciergeButton";
-import MobileSheet from "./MobileSheet";
-import MobileControls from "./MobileControls";
 import { useAppStore } from "@/lib/store";
-import type { Commune, GpeStation, AddressFeature } from "@/lib/types";
+import type { Commune, GpeStation } from "@/lib/types";
 
 const MapView = dynamic(() => import("./Map"), {
   ssr: false,
@@ -24,13 +19,37 @@ const MapView = dynamic(() => import("./Map"), {
   ),
 });
 
-export default function HomeClient() {
+type Props = {
+  /** Contenu SEO server-rendered injecté dans le panneau gauche scrollable */
+  leftContent: React.ReactNode;
+  /** Contenu CityFooter à la fin du panneau gauche (server-rendered) */
+  footerContent: React.ReactNode;
+};
+
+/**
+ * Layout principal de la home :
+ *
+ * Desktop (lg+) :
+ *   +-----------------------------+
+ *   | LEFT scroll | RIGHT map     |
+ *   | (480px)     | (sticky)      |
+ *   +-----------------------------+
+ *
+ * Mobile (< lg) :
+ *   +----------------+
+ *   | Map (50vh)     |
+ *   | LEFT content   |
+ *   |  (full scroll) |
+ *   +----------------+
+ *
+ * Le contenu SEO (HomeShell, CityFooter) est injecté en server-render via
+ * les props leftContent + footerContent → HTML disponible aux crawlers.
+ */
+export default function HomeClient({ leftContent, footerContent }: Props) {
   const [communes, setCommunes] = useState<Commune[]>([]);
   const [extraCommunes, setExtraCommunes] = useState<Commune[]>([]);
   const [gpeStations, setGpeStations] = useState<GpeStation[]>([]);
   const [flyTo, setFlyTo] = useState<{ lat: number; lon: number; zoom?: number } | null>(null);
-  const [dataSource, setDataSource] = useState<string>("loading");
-  const [lookupLoading, setLookupLoading] = useState(false);
 
   const {
     weights,
@@ -43,10 +62,8 @@ export default function HomeClient() {
     setSelectedCommune,
     compareCommuneInsee,
     setCompareCommune,
-    mobileFiltersOpen,
-    setMobileFiltersOpen,
-    mobileTopOpen,
-    setMobileTopOpen,
+    pendingAddress,
+    setPendingAddress,
   } = useAppStore();
 
   useEffect(() => {
@@ -60,7 +77,6 @@ export default function HomeClient() {
         const gData = await gRes.json();
         setCommunes(cData.communes ?? []);
         setGpeStations(gData.stations ?? []);
-        setDataSource(cData.source ?? "unknown");
       } catch (err) {
         console.error("Failed to load data", err);
       }
@@ -87,78 +103,42 @@ export default function HomeClient() {
     !!selectedCommune &&
     compareCommune.code_insee !== selectedCommune.code_insee;
 
-  const handleAddressSelect = async (f: AddressFeature) => {
-    setFlyTo({ lat: f.lat, lon: f.lon, zoom: 13 });
-    const insee = f.citycode;
-    if (!insee) return;
+  // Réagit aux sélections d'adresse (TopNav search → store → ici)
+  useEffect(() => {
+    if (!pendingAddress) return;
+    const { insee, lat, lon } = pendingAddress;
+    setFlyTo({ lat, lon, zoom: 13 });
 
     if (allCommunes.some((c) => c.code_insee === insee)) {
       setSelectedCommune(insee);
+      setPendingAddress(null);
       return;
     }
 
-    setLookupLoading(true);
-    try {
-      const res = await fetch(`/api/commune-lookup?insee=${encodeURIComponent(insee)}`);
-      const data = await res.json();
-      if (data?.commune) {
-        setExtraCommunes((prev) =>
-          prev.some((c) => c.code_insee === insee) ? prev : [...prev, data.commune],
-        );
-        setSelectedCommune(insee);
+    void (async () => {
+      try {
+        const res = await fetch(`/api/commune-lookup?insee=${encodeURIComponent(insee)}`);
+        const data = await res.json();
+        if (data?.commune) {
+          setExtraCommunes((prev) =>
+            prev.some((c) => c.code_insee === insee) ? prev : [...prev, data.commune],
+          );
+          setSelectedCommune(insee);
+        }
+      } catch (err) {
+        console.error("Failed to lookup commune", err);
+      } finally {
+        setPendingAddress(null);
       }
-    } catch (err) {
-      console.error("Failed to lookup commune", err);
-    } finally {
-      setLookupLoading(false);
-    }
-  };
+    })();
+  }, [pendingAddress, allCommunes, setSelectedCommune, setPendingAddress]);
 
   return (
-    <div className="flex h-screen w-full overflow-hidden">
-      <div className="hidden w-[320px] flex-shrink-0 lg:block">
-        <Sidebar />
-      </div>
-
-      <main className="relative flex-1 overflow-hidden">
-        <header className="absolute left-0 right-0 top-0 z-40 flex items-center gap-3 border-b border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur lg:px-6">
-          <a href="/" className="flex items-center gap-2 hover:opacity-90">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
-              <HomeIcon className="h-4 w-4" />
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-sm font-semibold text-neutral-900">
-                Vivre près de Paris
-              </h1>
-              <p className="text-[10px] text-neutral-500">
-                Le comparateur des villes pour quitter Paris
-              </p>
-            </div>
-          </a>
-          <div className="flex-1 max-w-xl">
-            <AddressSearch onSelect={handleAddressSelect} loading={lookupLoading} />
-          </div>
-          <div className="hidden items-center gap-1 text-[10px] text-neutral-400 xl:flex">
-            <span
-              className={`inline-block h-1.5 w-1.5 rounded-full ${
-                dataSource === "supabase"
-                  ? "bg-emerald-500"
-                  : dataSource === "sample"
-                    ? "bg-amber-500"
-                    : "bg-neutral-300"
-              }`}
-            />
-            <span>
-              {dataSource === "supabase"
-                ? "Supabase"
-                : dataSource === "sample"
-                  ? "Échantillon"
-                  : "…"}
-            </span>
-          </div>
-        </header>
-
-        <div className="absolute inset-0 pt-[60px]">
+    <div className="lg:relative lg:flex lg:min-h-[calc(100vh-3.5rem)]">
+      {/* PANNEAU GAUCHE — content scrollable (server SEO + filters) */}
+      <aside className="border-b border-neutral-200 bg-white lg:h-[calc(100vh-3.5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-b-0 lg:border-r">
+        {/* Map mobile : montre la carte juste après le hero */}
+        <div className="block h-[50vh] w-full lg:hidden" id="map-mobile">
           <MapView
             communes={allCommunes}
             gpeStations={gpeStations}
@@ -171,93 +151,68 @@ export default function HomeClient() {
             onSelectCommune={setSelectedCommune}
             flyTo={flyTo}
           />
-
-          {selectedCommune && (
-            <div className="pointer-events-auto">
-              <CommuneCard
-                commune={selectedCommune}
-                onClose={() => setSelectedCommune(null)}
-              />
-            </div>
-          )}
-
-          {showCompareView && selectedCommune && compareCommune && (
-            <CompareView
-              a={compareCommune}
-              b={selectedCommune}
-              onClose={() => setCompareCommune(null)}
-              onSwap={() => {
-                setSelectedCommune(compareCommune.code_insee);
-                setCompareCommune(selectedCommune.code_insee);
-              }}
-            />
-          )}
-
-          {allCommunes.length > 0 && (
-            <div className="pointer-events-auto">
-              <TopRanking
-                communes={allCommunes}
-                weights={weights}
-                mode={mode}
-                profile={profile}
-                budgetMax={budgetMax}
-                tempsMaxParis={tempsMaxParis}
-                onSelect={(insee) => {
-                  setSelectedCommune(insee);
-                  const c = allCommunes.find((x) => x.code_insee === insee);
-                  if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
-                }}
-              />
-            </div>
-          )}
-
-          <MobileControls />
-
-          <MobileSheet
-            open={mobileFiltersOpen}
-            onClose={() => setMobileFiltersOpen(false)}
-            title="Filtres et critères"
-            maxHeightVh={90}
-          >
-            <Sidebar />
-          </MobileSheet>
-
-          <MobileSheet
-            open={mobileTopOpen}
-            onClose={() => setMobileTopOpen(false)}
-            title="Top 10 communes"
-            maxHeightVh={75}
-          >
-            {allCommunes.length > 0 && (
-              <TopRanking
-                flat
-                communes={allCommunes}
-                weights={weights}
-                mode={mode}
-                profile={profile}
-                budgetMax={budgetMax}
-                tempsMaxParis={tempsMaxParis}
-                onSelect={(insee) => {
-                  setMobileTopOpen(false);
-                  setSelectedCommune(insee);
-                  const c = allCommunes.find((x) => x.code_insee === insee);
-                  if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
-                }}
-              />
-            )}
-          </MobileSheet>
-
-          <ConciergeButton />
-          <Concierge
-            communes={allCommunes}
-            onPickCommune={(insee) => {
-              setSelectedCommune(insee);
-              const c = allCommunes.find((x) => x.code_insee === insee);
-              if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
-            }}
-          />
         </div>
-      </main>
+
+        {/* Contenu SEO server-rendered */}
+        {leftContent}
+
+        {/* Filtres interactifs (sliders + GPE toggle) */}
+        <section className="border-b border-neutral-100 px-1 py-3" id="filtres">
+          <Sidebar />
+        </section>
+
+        {/* Footer global avec toutes les villes */}
+        {footerContent}
+      </aside>
+
+      {/* PANNEAU DROIT — map fixe sticky desktop only */}
+      <section
+        aria-label="Carte interactive"
+        className="sticky top-14 hidden h-[calc(100vh-3.5rem)] flex-1 lg:block"
+      >
+        <MapView
+          communes={allCommunes}
+          gpeStations={gpeStations}
+          weights={weights}
+          mode={mode}
+          profile={profile}
+          budgetMax={budgetMax}
+          tempsMaxParis={tempsMaxParis}
+          showGpe={showGpe}
+          onSelectCommune={setSelectedCommune}
+          flyTo={flyTo}
+        />
+      </section>
+
+      {/* OVERLAYS — communs aux 2 layouts */}
+      {selectedCommune && (
+        <CommuneCard
+          commune={selectedCommune}
+          onClose={() => setSelectedCommune(null)}
+        />
+      )}
+
+      {showCompareView && selectedCommune && compareCommune && (
+        <CompareView
+          a={compareCommune}
+          b={selectedCommune}
+          onClose={() => setCompareCommune(null)}
+          onSwap={() => {
+            setSelectedCommune(compareCommune.code_insee);
+            setCompareCommune(selectedCommune.code_insee);
+          }}
+        />
+      )}
+
+      <ConciergeButton />
+      <Concierge
+        communes={allCommunes}
+        onPickCommune={(insee) => {
+          setSelectedCommune(insee);
+          const c = allCommunes.find((x) => x.code_insee === insee);
+          if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
+        }}
+      />
     </div>
   );
 }
