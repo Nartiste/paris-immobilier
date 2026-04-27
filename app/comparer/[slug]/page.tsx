@@ -20,7 +20,10 @@ import CityFooter from "@/components/CityFooter";
  * temps Paris similaire). Déduplication par paire ordonnée. ~150 pages.
  */
 
-export const dynamicParams = false;
+// Mode hybride : on pré-génère les paires populaires (voisines de chaque
+// commune), mais on accepte AUSSI n'importe quelle autre paire à la
+// volée (dynamicParams par défaut = true). Ainsi le picker /comparer
+// peut envoyer vers n'importe quelle combinaison sans 404.
 
 function pairKey(a: Commune, b: Commune): string {
   const [first, second] = [a, b].sort((x, y) =>
@@ -34,13 +37,11 @@ function buildPairs(): { a: Commune; b: Commune; slug: string }[] {
   const seen = new Set<string>();
 
   for (const a of SAMPLE_COMMUNES) {
-    // 3 voisines : même département en priorité, sinon temps similaire
     const candidates = SAMPLE_COMMUNES.filter(
       (c) => c.code_insee !== a.code_insee,
     )
       .map((c) => ({
         commune: c,
-        // Score de proximité : même département + différence temps faible
         proximite:
           (c.departement === a.departement ? 10 : 0) -
           Math.abs(c.temps_trajet_paris_min - a.temps_trajet_paris_min) * 0.3,
@@ -53,7 +54,6 @@ function buildPairs(): { a: Commune; b: Commune; slug: string }[] {
       const slug = pairKey(a, b);
       if (seen.has(slug)) continue;
       seen.add(slug);
-      // Trier les éléments de la paire par INSEE pour cohérence
       const [first, second] = [a, b].sort((x, y) =>
         x.code_insee.localeCompare(y.code_insee),
       );
@@ -71,13 +71,46 @@ export async function generateStaticParams() {
   return ALL_PAIRS.map((p) => ({ slug: p.slug }));
 }
 
+/**
+ * Parse un slug `nom-A-INSEE_A-vs-nom-B-INSEE_B` et retourne les 2
+ * communes si elles existent dans le dataset.
+ *
+ * INSEE = 5 caractères [0-9A-Z]+ tout à la fin de chaque demi-slug.
+ */
+function resolvePair(slug: string): { a: Commune; b: Commune } | null {
+  // Cas 1 : paire déjà pré-générée
+  const cached = PAIRS_BY_SLUG[slug];
+  if (cached) return cached;
+
+  // Cas 2 : extraction dynamique depuis le slug
+  const halves = slug.split("-vs-");
+  if (halves.length !== 2) return null;
+  const extractInsee = (s: string): string | null => {
+    const m = s.match(/(\d[A-Z0-9]\d{3})$/i);
+    return m ? m[1].toUpperCase() : null;
+  };
+  const inseeA = extractInsee(halves[0]);
+  const inseeB = extractInsee(halves[1]);
+  if (!inseeA || !inseeB || inseeA === inseeB) return null;
+
+  const ca = SAMPLE_COMMUNES.find((c) => c.code_insee === inseeA);
+  const cb = SAMPLE_COMMUNES.find((c) => c.code_insee === inseeB);
+  if (!ca || !cb) return null;
+
+  // Tri stable par INSEE (cohérent avec le pré-généré)
+  const [first, second] = [ca, cb].sort((x, y) =>
+    x.code_insee.localeCompare(y.code_insee),
+  );
+  return { a: first, b: second };
+}
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const pair = PAIRS_BY_SLUG[slug];
+  const pair = resolvePair(slug);
   if (!pair) return { title: "Comparaison introuvable" };
 
   const title = `${pair.a.nom} ou ${pair.b.nom} : laquelle choisir ?`;
@@ -103,7 +136,7 @@ export default async function PageCompare({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const pair = PAIRS_BY_SLUG[slug];
+  const pair = resolvePair(slug);
   if (!pair) notFound();
 
   const { a, b } = pair;

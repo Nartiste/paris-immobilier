@@ -2,12 +2,14 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Map as MapIcon, X } from "lucide-react";
 import Sidebar from "./Sidebar";
 import CommuneCard from "./CommuneCard";
 import CompareView from "./CompareView";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation } from "@/lib/types";
+import { communeToSlug } from "@/lib/slug";
 
 const MapView = dynamic(() => import("./Map"), {
   ssr: false,
@@ -48,6 +50,7 @@ type Props = {
  *      └─────┘   plein écran
  */
 export default function HomeClient({ leftContent, footerContent }: Props) {
+  const router = useRouter();
   const [communes, setCommunes] = useState<Commune[]>([]);
   const [extraCommunes, setExtraCommunes] = useState<Commune[]>([]);
   const [gpeStations, setGpeStations] = useState<GpeStation[]>([]);
@@ -192,6 +195,16 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
           tempsMaxParis={tempsMaxParis}
           showGpe={showGpe}
           onSelectCommune={(insee) => {
+            // Sur mobile (map en modal full-screen), naviguer direct vers la
+            // fiche : la CommuneCard serait masquée derrière le modal sinon.
+            if (mobileMapOpen) {
+              const c = allCommunes.find((x) => x.code_insee === insee);
+              if (c) {
+                setMobileMapOpen(false);
+                router.push(`/vivre-a/${communeToSlug(c)}`);
+                return;
+              }
+            }
             setSelectedCommune(insee);
           }}
           flyTo={flyTo}

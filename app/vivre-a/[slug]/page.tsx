@@ -329,16 +329,41 @@ export default async function VivreACommunePage({
           </section>
         )}
 
-        <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-neutral-900 to-neutral-700 p-7 text-center text-white shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
-          <p className="text-sm text-neutral-200">
-            <MapPin className="mr-1 inline h-4 w-4" />
-            Compare {commune.nom} à n'importe quelle autre commune
-          </p>
+        <section className="mt-12 grid gap-3 sm:grid-cols-2">
+          <Link
+            href={`/comparer?from=${commune.code_insee}`}
+            className="group flex items-center justify-between overflow-hidden rounded-3xl bg-gradient-to-br from-brand-iris-soft via-white to-brand-vert-soft p-6 shadow-[0_4px_20px_rgba(82,98,122,0.06)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(157,140,242,0.18)]"
+          >
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-iris-strong">
+                Comparer
+              </div>
+              <div className="mt-1 font-display text-lg font-medium leading-snug text-brand-bleu">
+                {commune.nom} <span className="italic text-brand-iris">vs</span>{" "}
+                une autre ville
+              </div>
+              <div className="mt-1 text-xs text-brand-bleu/60">
+                Côte à côte, 9 critères
+              </div>
+            </div>
+            <MapPin className="h-5 w-5 text-brand-iris transition-transform group-hover:translate-x-0.5" />
+          </Link>
           <Link
             href="/"
-            className="mt-3 inline-flex rounded-2xl bg-white px-4 py-2.5 text-sm font-medium text-neutral-900 shadow-[0_2px_8px_rgba(0,0,0,0.15)] transition-transform hover:scale-[1.02]"
+            className="group flex items-center justify-between overflow-hidden rounded-3xl bg-gradient-to-br from-brand-bleu to-brand-bleu/80 p-6 text-white shadow-[0_4px_20px_rgba(82,98,122,0.18)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(82,98,122,0.3)]"
           >
-            Ouvrir le comparateur interactif
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-iris-soft">
+                Carte interactive
+              </div>
+              <div className="mt-1 font-display text-lg font-medium leading-snug">
+                Explore la France entière
+              </div>
+              <div className="mt-1 text-xs text-white/70">
+                Filtre par budget + temps de trajet
+              </div>
+            </div>
+            <MapPin className="h-5 w-5 text-white transition-transform group-hover:translate-x-0.5" />
           </Link>
         </section>
       </article>

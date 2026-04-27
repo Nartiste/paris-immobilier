@@ -62,6 +62,7 @@ export default function TopNav() {
         {/* Desktop nav (md+) */}
         <div className="hidden flex-1 items-center justify-end gap-2 md:flex">
           <nav aria-label="Navigation principale" className="flex items-center gap-1">
+            <NavLink href="/comparer">Comparer</NavLink>
             <NavLink href="/blog">Blog</NavLink>
             <NavDropdown
               label="Quitter Paris"
@@ -127,6 +128,9 @@ export default function TopNav() {
               aria-label="Navigation mobile"
               className="space-y-0.5 px-2 pb-4"
             >
+              <MobileNavLink href="/comparer" onClick={() => setOpen(false)}>
+                Comparer 2 villes
+              </MobileNavLink>
               <MobileNavLink href="/blog" onClick={() => setOpen(false)}>
                 Blog
               </MobileNavLink>
