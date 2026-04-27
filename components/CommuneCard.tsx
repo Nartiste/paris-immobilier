@@ -5,6 +5,7 @@ import type { Commune } from "@/lib/types";
 import { useAppStore } from "@/lib/store";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
+import MonetizeBlock from "./MonetizeBlock";
 
 type Props = {
   commune: Commune;
@@ -203,6 +204,8 @@ export default function CommuneCard({ commune, onClose }: Props) {
           }
         />
       </div>
+
+      <MonetizeBlock commune={commune} profile={profile} />
     </div>
   );
 }

@@ -1,7 +1,10 @@
 "use client";
 
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
 import { DEFAULT_WEIGHTS, type Profile, type ScoreMode, type Weights } from "./types";
+
+export const FREE_COMPARISON_LIMIT = 3;
 
 type AppState = {
   weights: Weights;
@@ -28,32 +31,69 @@ type AppState = {
 
   showGpe: boolean;
   toggleGpe: () => void;
+
+  /** Premium gating */
+  isPremium: boolean;
+  setPremium: (v: boolean) => void;
+  comparisonsUsed: number;
+  incrementComparisons: () => void;
+  showPaywall: boolean;
+  setShowPaywall: (v: boolean) => void;
+
+  /** AI Concierge */
+  conciergeOpen: boolean;
+  setConciergeOpen: (v: boolean) => void;
 };
 
-export const useAppStore = create<AppState>((set) => ({
-  weights: DEFAULT_WEIGHTS,
-  setWeight: (key, value) =>
-    set((s) => ({ weights: { ...s.weights, [key]: value } })),
-  resetWeights: () => set({ weights: DEFAULT_WEIGHTS }),
+export const useAppStore = create<AppState>()(
+  persist(
+    (set) => ({
+      weights: DEFAULT_WEIGHTS,
+      setWeight: (key, value) =>
+        set((s) => ({ weights: { ...s.weights, [key]: value } })),
+      resetWeights: () => set({ weights: DEFAULT_WEIGHTS }),
 
-  mode: "rapport_qualite_prix",
-  setMode: (mode) => set({ mode }),
+      mode: "rapport_qualite_prix",
+      setMode: (mode) => set({ mode }),
 
-  profile: "acheteur",
-  setProfile: (profile) => set({ profile }),
+      profile: "acheteur",
+      setProfile: (profile) => set({ profile }),
 
-  budgetMax: null,
-  setBudgetMax: (value) => set({ budgetMax: value }),
+      budgetMax: null,
+      setBudgetMax: (value) => set({ budgetMax: value }),
 
-  tempsMaxParis: 120,
-  setTempsMaxParis: (value) => set({ tempsMaxParis: value }),
+      tempsMaxParis: 120,
+      setTempsMaxParis: (value) => set({ tempsMaxParis: value }),
 
-  selectedCommuneInsee: null,
-  setSelectedCommune: (insee) => set({ selectedCommuneInsee: insee }),
+      selectedCommuneInsee: null,
+      setSelectedCommune: (insee) => set({ selectedCommuneInsee: insee }),
 
-  compareCommuneInsee: null,
-  setCompareCommune: (insee) => set({ compareCommuneInsee: insee }),
+      compareCommuneInsee: null,
+      setCompareCommune: (insee) => set({ compareCommuneInsee: insee }),
 
-  showGpe: true,
-  toggleGpe: () => set((s) => ({ showGpe: !s.showGpe })),
-}));
+      showGpe: true,
+      toggleGpe: () => set((s) => ({ showGpe: !s.showGpe })),
+
+      isPremium: false,
+      setPremium: (v) => set({ isPremium: v }),
+      comparisonsUsed: 0,
+      incrementComparisons: () =>
+        set((s) => ({ comparisonsUsed: s.comparisonsUsed + 1 })),
+      showPaywall: false,
+      setShowPaywall: (v) => set({ showPaywall: v }),
+
+      conciergeOpen: false,
+      setConciergeOpen: (v) => set({ conciergeOpen: v }),
+    }),
+    {
+      name: "paris-immo-app",
+      partialize: (s) => ({
+        isPremium: s.isPremium,
+        comparisonsUsed: s.comparisonsUsed,
+        profile: s.profile,
+        mode: s.mode,
+        weights: s.weights,
+      }),
+    },
+  ),
+);

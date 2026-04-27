@@ -1,12 +1,16 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { Sparkles } from "lucide-react";
 import Sidebar from "./Sidebar";
 import AddressSearch from "./AddressSearch";
 import CommuneCard from "./CommuneCard";
 import CompareView from "./CompareView";
 import TopRanking from "./TopRanking";
+import Concierge from "./Concierge";
+import ConciergeButton from "./ConciergeButton";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation, AddressFeature } from "@/lib/types";
 
@@ -129,6 +133,13 @@ export default function HomeClient() {
           <div className="flex-1 max-w-xl">
             <AddressSearch onSelect={handleAddressSelect} loading={lookupLoading} />
           </div>
+          <Link
+            href="/pricing"
+            className="inline-flex items-center gap-1.5 rounded-md border border-violet-200 bg-violet-50 px-2.5 py-1.5 text-xs font-medium text-violet-700 hover:border-violet-300 hover:bg-violet-100"
+          >
+            <Sparkles className="h-3 w-3" />
+            <span className="hidden sm:inline">Premium</span>
+          </Link>
           <div className="hidden items-center gap-1 text-[10px] text-neutral-400 xl:flex">
             <span
               className={`inline-block h-1.5 w-1.5 rounded-full ${
@@ -201,6 +212,16 @@ export default function HomeClient() {
               />
             </div>
           )}
+
+          <ConciergeButton />
+          <Concierge
+            communes={allCommunes}
+            onPickCommune={(insee) => {
+              setSelectedCommune(insee);
+              const c = allCommunes.find((x) => x.code_insee === insee);
+              if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
+            }}
+          />
         </div>
       </main>
     </div>
