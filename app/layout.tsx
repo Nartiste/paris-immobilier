@@ -61,6 +61,10 @@ export const metadata: Metadata = {
 };
 
 const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN;
+// URL du script Plausible "tagged" propre au site (généré par Plausible
+// quand on coche outbound-links / file-downloads / form-submissions).
+// Si non défini, on retombe sur le script générique avec data-domain.
+const PLAUSIBLE_SCRIPT_SRC = process.env.NEXT_PUBLIC_PLAUSIBLE_SCRIPT_SRC;
 
 export default function RootLayout({
   children,
@@ -74,14 +78,21 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
-        {PLAUSIBLE_DOMAIN && (
+        {PLAUSIBLE_SCRIPT_SRC ? (
+          <>
+            <Script async src={PLAUSIBLE_SCRIPT_SRC} strategy="afterInteractive" />
+            <Script id="plausible-init" strategy="afterInteractive">
+              {`window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init({});`}
+            </Script>
+          </>
+        ) : PLAUSIBLE_DOMAIN ? (
           <Script
             defer
             src="https://plausible.io/js/script.js"
             data-domain={PLAUSIBLE_DOMAIN}
             strategy="afterInteractive"
           />
-        )}
+        ) : null}
       </body>
     </html>
   );
