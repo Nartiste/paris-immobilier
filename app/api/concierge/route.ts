@@ -20,13 +20,41 @@ const client = new Anthropic();
  * - Format de retour streamé en JSON-SSE pour rendu progressif.
  */
 
+/**
+ * Tente d'extraire un budget en euros depuis un message utilisateur.
+ * Reconnaît : "200k€", "200 000€", "350000 euros", "budget 400k", "1.5M€".
+ */
+function extractBudget(text: string): number | null {
+  const norm = text.toLowerCase().replace(/\s+/g, " ");
+
+  // M€ / millions
+  const millionMatch = norm.match(/(\d+(?:[.,]\d+)?)\s*m(?:€|illions?)/);
+  if (millionMatch) {
+    return Math.round(parseFloat(millionMatch[1].replace(",", ".")) * 1_000_000);
+  }
+
+  // k€ / 200k
+  const kMatch = norm.match(/(\d+(?:[.,]\d+)?)\s*k(?:€|euros?)?/);
+  if (kMatch) {
+    return Math.round(parseFloat(kMatch[1].replace(",", ".")) * 1000);
+  }
+
+  // 200 000 € ou 200000€
+  const fullMatch = norm.match(/(\d{1,3}(?:[\s.]\d{3})+|\d{4,7})\s*(?:€|euros?)/);
+  if (fullMatch) {
+    return parseInt(fullMatch[1].replace(/[\s.]/g, ""), 10);
+  }
+
+  return null;
+}
+
 function compressCommunes(communes: Commune[]): string {
   // Compactifie pour économiser des tokens : 1 ligne = 1 commune.
+  // Bloc STATIQUE (cacheable) — pas de budget, pas de calcul dynamique.
   return communes
     .filter((c) => c.prix_m2_median != null)
     .map((c) => {
-      const dept = c.departement;
-      const prix = c.prix_m2_median;
+      const prix = c.prix_m2_median!;
       const loyer = c.loyer_m2_median ?? "?";
       const temps = c.temps_trajet_paris_min;
       const mode = c.mode_principal;
@@ -36,9 +64,34 @@ function compressCommunes(communes: Commune[]): string {
       const cho = c.taux_chomage ?? "?";
       const ev = c.espaces_verts_pct ?? "?";
       const gpe = c.bonus_gpe ? Math.round(c.bonus_gpe * 100) : 0;
-      return `${c.code_insee}|${c.nom}|${dept}|prix${prix}€/m²|loyer${loyer}€|${temps}min(${mode}${ligne ? " " + ligne : ""})|${pop}hab|rev${rev}€|chom${cho}%|verts${ev}%|gpe${gpe}%`;
+      return `${c.code_insee}|${c.nom}|${c.departement}|prix${prix}€/m²|loyer${loyer}€|${temps}min(${mode}${ligne ? " " + ligne : ""})|${pop}hab|rev${rev}€|chom${cho}%|verts${ev}%|gpe${gpe}%`;
     })
     .join("\n");
+}
+
+/**
+ * Bloc DYNAMIQUE (non caché) : surface≈Nm² par commune pour le budget
+ * détecté. Calculé en TS, copié-collé par le modèle.
+ */
+function buildBudgetContext(communes: Commune[], budget: number): string {
+  const formatBudget = (n: number) =>
+    n >= 1_000_000
+      ? `${(n / 1_000_000).toFixed(n % 1_000_000 === 0 ? 0 : 2)} M€`
+      : n >= 1000
+        ? `${Math.round(n / 1000)} k€`
+        : `${n} €`;
+
+  const lines = communes
+    .filter((c) => c.prix_m2_median != null && c.prix_m2_median > 0)
+    .map((c) => `${c.code_insee}|${Math.round(budget / c.prix_m2_median!)}m²`)
+    .join("\n");
+
+  return `Budget détecté dans le message utilisateur : ${formatBudget(budget)} (${budget} €).
+
+Surfaces théoriques possibles à ce budget, par commune (INSEE|m² approximatif arrondi à l'entier — déjà calculées, NE RECALCULE PAS) :
+${lines}
+
+Si tu mentionnes une surface dans une recommandation, copie-colle exactement la valeur de ce tableau.`;
 }
 
 const SYSTEM = `Tu es le concierge IA de "Vivre près de Paris", un service d'aide à la relocation pour les Parisiens qui cherchent à s'installer ailleurs en France tout en gardant un lien avec Paris.
@@ -62,7 +115,22 @@ JSON.parse(). Exemple exact :
 - follow_up : une question/suggestion pour affiner (toujours présente).
 
 Format des données ci-dessous (1 ligne = 1 commune) :
-INSEE|Nom|Dept|prixX€/m²|loyerY€|Tmin(mode ligne)|popHAB|revR€|chomC%|vertsV%|gpeG%`;
+INSEE|Nom|Dept|prixX€/m²|loyerY€|Tmin(mode ligne)|popHAB|revR€|chomC%|vertsV%|gpeG%[|surface≈Nm² si budget détecté]
+
+# RÈGLE MATHÉMATIQUE ABSOLUE
+
+Tu N'ES PAS bon en arithmétique mentale. Pour cette raison :
+- Tu N'EFFECTUES JAMAIS de division ou de multiplication toi-même.
+- Si l'utilisateur a mentionné un budget, le champ "surface≈Nm²" est déjà
+  pré-calculé pour toi à la fin de chaque ligne de la base. Cite cette
+  valeur littéralement (par exemple "≈ 48 m²"), ne la recalcule pas.
+- Si le champ "surface" est absent (pas de budget détecté), ne mentionne
+  AUCUNE surface en m². Demande plutôt à l'utilisateur de préciser son
+  budget pour que tu puisses lui donner cette info.
+- Tu peux comparer des prix (X €/m² vs Y €/m²) car ce sont des valeurs
+  brutes que tu copies, pas des calculs.
+- Toute valeur que tu cites dans une recommandation DOIT exister telle
+  quelle dans la ligne de données de la commune correspondante.`;
 
 export async function POST(request: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
@@ -91,23 +159,44 @@ export async function POST(request: Request) {
       );
     }
 
+    // Détecte un budget dans n'importe quel message user pour pré-calculer
+    // les surfaces possibles (le modèle ne fait pas l'arithmétique).
+    const userMessages = messages.filter((m) => m.role === "user");
+    const budget =
+      userMessages
+        .map((m) => extractBudget(m.content))
+        .reverse()
+        .find((b) => b != null) ?? null;
+
     const dataset = compressCommunes(SAMPLE_COMMUNES);
+
+    // Bloc 1 : system prompt (cacheable, ne change pas)
+    // Bloc 2 : dataset statique (cacheable, ne change pas)
+    // Bloc 3 : contexte budget (dynamique, non caché) — uniquement si budget
+    const systemBlocks: Anthropic.TextBlockParam[] = [
+      {
+        type: "text",
+        text: SYSTEM,
+        cache_control: { type: "ephemeral" },
+      },
+      {
+        type: "text",
+        text: `Base de communes (mise à jour avril 2026) :\n${dataset}`,
+        cache_control: { type: "ephemeral" },
+      },
+    ];
+
+    if (budget != null) {
+      systemBlocks.push({
+        type: "text",
+        text: buildBudgetContext(SAMPLE_COMMUNES, budget),
+      });
+    }
 
     const stream = await client.messages.stream({
       model: "claude-haiku-4-5",
       max_tokens: 1024,
-      system: [
-        {
-          type: "text",
-          text: SYSTEM,
-          cache_control: { type: "ephemeral" },
-        },
-        {
-          type: "text",
-          text: `Base de communes (mise à jour avril 2026) :\n${dataset}`,
-          cache_control: { type: "ephemeral" },
-        },
-      ],
+      system: systemBlocks,
       messages: messages.map((m) => ({
         role: m.role,
         content: m.content.slice(0, 2000),
