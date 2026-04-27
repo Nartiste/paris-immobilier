@@ -43,6 +43,12 @@ type AppState = {
   /** AI Concierge */
   conciergeOpen: boolean;
   setConciergeOpen: (v: boolean) => void;
+
+  /** Mobile UI sheets */
+  mobileFiltersOpen: boolean;
+  setMobileFiltersOpen: (v: boolean) => void;
+  mobileTopOpen: boolean;
+  setMobileTopOpen: (v: boolean) => void;
 };
 
 export const useAppStore = create<AppState>()(
@@ -84,6 +90,11 @@ export const useAppStore = create<AppState>()(
 
       conciergeOpen: false,
       setConciergeOpen: (v) => set({ conciergeOpen: v }),
+
+      mobileFiltersOpen: false,
+      setMobileFiltersOpen: (v) => set({ mobileFiltersOpen: v }),
+      mobileTopOpen: false,
+      setMobileTopOpen: (v) => set({ mobileTopOpen: v }),
     }),
     {
       name: "paris-immo-app",

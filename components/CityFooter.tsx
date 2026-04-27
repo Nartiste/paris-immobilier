@@ -77,10 +77,10 @@ export default function CityFooter() {
 
   return (
     <footer className="border-t border-neutral-200 bg-neutral-50">
-      <div className="mx-auto max-w-6xl px-6 py-10">
-        <div className="grid gap-10 md:grid-cols-3">
-          {/* Bloc identité */}
-          <div>
+      <div className="mx-auto max-w-6xl px-5 py-8 sm:px-6 sm:py-10">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+          {/* Bloc identité — pleine largeur sur mobile, le reste en col 1 puis 2 */}
+          <div className="sm:col-span-2 md:col-span-1">
             <div className="mb-3 flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
                 <svg

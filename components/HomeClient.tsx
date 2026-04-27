@@ -10,6 +10,8 @@ import CompareView from "./CompareView";
 import TopRanking from "./TopRanking";
 import Concierge from "./Concierge";
 import ConciergeButton from "./ConciergeButton";
+import MobileSheet from "./MobileSheet";
+import MobileControls from "./MobileControls";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation, AddressFeature } from "@/lib/types";
 
@@ -41,6 +43,10 @@ export default function HomeClient() {
     setSelectedCommune,
     compareCommuneInsee,
     setCompareCommune,
+    mobileFiltersOpen,
+    setMobileFiltersOpen,
+    mobileTopOpen,
+    setMobileTopOpen,
   } = useAppStore();
 
   useEffect(() => {
@@ -109,7 +115,7 @@ export default function HomeClient() {
   };
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden">
+    <div className="flex h-screen w-full overflow-hidden">
       <div className="hidden w-[320px] flex-shrink-0 lg:block">
         <Sidebar />
       </div>
@@ -204,6 +210,42 @@ export default function HomeClient() {
               />
             </div>
           )}
+
+          <MobileControls />
+
+          <MobileSheet
+            open={mobileFiltersOpen}
+            onClose={() => setMobileFiltersOpen(false)}
+            title="Filtres et critères"
+            maxHeightVh={90}
+          >
+            <Sidebar />
+          </MobileSheet>
+
+          <MobileSheet
+            open={mobileTopOpen}
+            onClose={() => setMobileTopOpen(false)}
+            title="Top 10 communes"
+            maxHeightVh={75}
+          >
+            {allCommunes.length > 0 && (
+              <TopRanking
+                flat
+                communes={allCommunes}
+                weights={weights}
+                mode={mode}
+                profile={profile}
+                budgetMax={budgetMax}
+                tempsMaxParis={tempsMaxParis}
+                onSelect={(insee) => {
+                  setMobileTopOpen(false);
+                  setSelectedCommune(insee);
+                  const c = allCommunes.find((x) => x.code_insee === insee);
+                  if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
+                }}
+              />
+            )}
+          </MobileSheet>
 
           <ConciergeButton />
           <Concierge
