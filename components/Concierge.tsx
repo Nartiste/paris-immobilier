@@ -258,9 +258,6 @@ export default function Concierge() {
               )}
             </button>
           </div>
-          <p className="mt-1 text-[9px] text-neutral-400">
-            Propulsé par Claude. Les recommandations sont indicatives, vérifiez les données avant tout engagement.
-          </p>
         </form>
       </div>
     </div>

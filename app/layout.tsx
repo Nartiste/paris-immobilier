@@ -62,12 +62,21 @@ export const metadata: Metadata = {
     title: "Vivre près de Paris — Comparateur des villes pour quitter Paris",
     description:
       "Compare 80+ communes pour quitter Paris : prix m², temps de trajet, qualité de vie, futures gares Grand Paris Express. Concierge IA inclus.",
+    images: [{ url: "/brand/og.png", width: 1200, height: 630, alt: "Vivre près de Paris" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Vivre près de Paris — Comparateur des villes",
     description:
       "Tu cherches où vivre près de Paris ? On compare prix, transports, qualité de vie pour t'aider à choisir.",
+    images: ["/brand/og.png"],
+  },
+  icons: {
+    icon: [
+      { url: "/brand/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/brand/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/brand/icon-192.png",
   },
   robots: {
     index: true,

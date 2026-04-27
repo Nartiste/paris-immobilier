@@ -106,18 +106,19 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     !!selectedCommune &&
     compareCommune.code_insee !== selectedCommune.code_insee;
 
-  // Réagit aux sélections d'adresse (TopNav search → store → ici)
+  // Réagit aux pendingAddress dispatchés par AddressSearchClient.
+  //
+  // Note : si la commune est dans notre dataset, AddressSearchClient
+  // navigue directement vers /vivre-a/[slug] (jamais de pendingAddress
+  // dans ce cas). Donc ici on ne traite QUE les communes hors dataset
+  // qui doivent être affichées en card temporaire au-dessus de la map.
+  //
+  // On NE force PAS l'ouverture du map modal mobile : laisse l'utilisateur
+  // garder le contexte du panneau gauche.
   useEffect(() => {
     if (!pendingAddress) return;
     const { insee, lat, lon } = pendingAddress;
-    setFlyTo({ lat, lon, zoom: 13 });
-    setMobileMapOpen(true); // ouvre la map sur mobile pour montrer la zone
-
-    if (allCommunes.some((c) => c.code_insee === insee)) {
-      setSelectedCommune(insee);
-      setPendingAddress(null);
-      return;
-    }
+    setFlyTo({ lat, lon, zoom: 12 });
 
     void (async () => {
       try {
@@ -135,7 +136,7 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         setPendingAddress(null);
       }
     })();
-  }, [pendingAddress, allCommunes, setSelectedCommune, setPendingAddress]);
+  }, [pendingAddress, setSelectedCommune, setPendingAddress]);
 
   // Bloque le scroll body quand le map modal est ouvert
   useEffect(() => {

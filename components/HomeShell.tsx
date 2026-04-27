@@ -247,24 +247,31 @@ export default function HomeShell() {
 
       {/* CONCIERGE IA tease */}
       <section className="bg-white px-5 py-10 sm:px-7">
-        <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-600 p-6 text-white shadow-[0_8px_32px_rgba(124,58,237,0.25)]">
-          <div className="flex items-center gap-2 text-violet-100">
-            <Sparkles className="h-4 w-4" />
-            <span className="text-[10px] font-semibold uppercase tracking-wider">
-              Concierge IA gratuit
-            </span>
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-iris-soft via-white to-brand-vert-soft p-6 text-brand-bleu shadow-[0_4px_20px_rgba(82,98,122,0.06)]">
+          <div
+            aria-hidden
+            className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-brand-iris/15 blur-2xl"
+          />
+          <div className="relative">
+            <div className="flex items-center gap-1.5 text-brand-iris-strong">
+              <Sparkles className="h-4 w-4" />
+              <span className="text-[10px] font-semibold uppercase tracking-[0.18em]">
+                Concierge IA · Gratuit
+              </span>
+            </div>
+            <h3 className="font-display mt-3 text-xl font-medium leading-snug">
+              « J&apos;ai 350 k€, télétravail 2 j/semaine,{" "}
+              <span className="italic text-brand-iris-strong">où aller</span> ? »
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-brand-bleu/80">
+              Décris ton projet en une phrase. Le concierge te recommande 3-5
+              communes, calcule la surface possible et justifie chaque choix.
+            </p>
+            <p className="mt-4 inline-flex items-center gap-1 text-[11px] text-brand-bleu/60">
+              <Sparkles className="h-3 w-3 text-brand-iris" />
+              Bouton iris en bas-droite ↘
+            </p>
           </div>
-          <h3 className="mt-2 text-lg font-bold leading-snug">
-            « J&apos;ai 350 k€, télétravail 2 j/semaine, où aller ? »
-          </h3>
-          <p className="mt-2 text-sm leading-relaxed text-violet-50/90">
-            Décris ton projet en une phrase. Le concierge te recommande 3-5
-            communes, calcule la surface possible et justifie chaque choix.
-          </p>
-          <p className="mt-4 text-[11px] text-violet-100/80">
-            <Sparkles className="mr-1 inline h-3 w-3" />
-            Bouton violet en bas-droite ↘
-          </p>
         </div>
       </section>
 
