@@ -264,14 +264,27 @@ function ChatBubble({
     );
   }
 
+  // Strip optional markdown code fences (```json ... ``` or ``` ... ```)
+  // that the LLM may add even though the prompt says not to.
+  const cleaned = content
+    .replace(/^\s*```(?:json)?\s*\n?/i, "")
+    .replace(/\n?\s*```\s*$/i, "")
+    .trim();
+
   // Try to parse as JSON ConciergeReply
   let parsed: ConciergeReply | null = null;
   try {
-    parsed = JSON.parse(content);
+    parsed = JSON.parse(cleaned);
   } catch {
     // Could be partial JSON during streaming — try to salvage intro
-    const introMatch = content.match(/"intro":\s*"([^"]*)/);
-    if (introMatch) parsed = { intro: introMatch[1] };
+    const introMatch = cleaned.match(/"intro":\s*"([^"]*)/);
+    const followMatch = cleaned.match(/"follow_up":\s*"([^"]*)/);
+    if (introMatch || followMatch) {
+      parsed = {
+        intro: introMatch?.[1],
+        follow_up: followMatch?.[1],
+      };
+    }
   }
 
   return (
