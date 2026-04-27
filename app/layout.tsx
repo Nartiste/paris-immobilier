@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import TopNav from "@/components/TopNav";
+import Concierge from "@/components/Concierge";
+import ConciergeButton from "@/components/ConciergeButton";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -143,7 +146,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }),
           }}
         />
+        <TopNav />
         {children}
+        <ConciergeButton />
+        <Concierge />
         {PLAUSIBLE_SCRIPT_SRC ? (
           <>
             <Script async src={PLAUSIBLE_SCRIPT_SRC} strategy="afterInteractive" />

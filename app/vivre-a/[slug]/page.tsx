@@ -9,6 +9,7 @@ import { DEFAULT_WEIGHTS } from "@/lib/types";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import { buildCTAs } from "@/lib/monetize";
 import { NARRATIVES } from "@/lib/city-narratives";
+import { breadcrumbJsonLd } from "@/lib/seo";
 import CityFooter from "@/components/CityFooter";
 import TransportPanel from "@/components/TransportPanel";
 
@@ -99,8 +100,7 @@ export default async function VivreACommunePage({
     )
     .slice(0, 6);
 
-  // JSON-LD structuré (Place) pour le SEO
-  const jsonLd = {
+  const placeJsonLd = {
     "@context": "https://schema.org",
     "@type": "Place",
     name: commune.nom,
@@ -117,61 +117,71 @@ export default async function VivreACommunePage({
     },
   };
 
+  const breadcrumbsLd = breadcrumbJsonLd([
+    { name: "Accueil", url: "/" },
+    { name: "Communes", url: "/" },
+    { name: commune.nom },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(placeJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsLd) }}
       />
 
-      <header className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2 hover:opacity-90">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
-                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
-            </div>
-            <span className="text-sm font-semibold text-neutral-900">Vivre près de Paris</span>
-          </Link>
-          <Link href="/" className="text-sm text-neutral-600 hover:text-neutral-900">
-            Carte interactive →
-          </Link>
-        </div>
-      </header>
+      {/* HERO — gradient soft + score badge */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-emerald-50/30 px-5 pt-8 pb-10 sm:px-6">
+        <div
+          aria-hidden
+          className="absolute -right-12 -top-12 h-44 w-44 rounded-full bg-violet-200/30 blur-3xl"
+        />
+        <div className="relative mx-auto max-w-4xl">
+          <nav aria-label="Fil d'ariane" className="text-xs text-neutral-500">
+            <Link href="/" className="hover:text-neutral-900">
+              Accueil
+            </Link>
+            {" / "}
+            <Link href="/" className="hover:text-neutral-900">
+              Communes
+            </Link>
+            {" / "}
+            <span className="text-neutral-900">{commune.nom}</span>
+          </nav>
 
-      <article className="mx-auto max-w-4xl px-6 py-10">
-        <nav aria-label="Fil d'ariane" className="mb-6 text-xs text-neutral-500">
-          <Link href="/" className="hover:text-neutral-900">Accueil</Link>
-          {" / "}
-          <Link href="/" className="hover:text-neutral-900">Communes</Link>
-          {" / "}
-          <span className="text-neutral-900">{commune.nom}</span>
-        </nav>
-
-        <div className="flex flex-wrap items-start justify-between gap-4">
-          <div>
-            <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
-              Vivre à {commune.nom}
-            </h1>
-            <p className="mt-1 text-sm text-neutral-500">
-              {commune.code_postal} · {commune.departement} · {commune.region}
-            </p>
-          </div>
-          <div
-            className="flex flex-col items-center rounded-xl px-5 py-3"
-            style={{ backgroundColor: `${color}15`, borderLeft: `3px solid ${color}` }}
-          >
-            <div className="text-3xl font-bold tabular-nums" style={{ color }}>
-              {score.total}
-              <span className="text-sm text-neutral-400">/100</span>
+          <div className="mt-6 flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <h1 className="text-3xl font-bold leading-tight tracking-tight text-neutral-900 sm:text-4xl">
+                Vivre à <span className="bg-gradient-to-br from-violet-700 to-purple-600 bg-clip-text text-transparent">{commune.nom}</span>
+              </h1>
+              <p className="mt-2 text-sm text-neutral-500">
+                {commune.code_postal} · {commune.departement} · {commune.region}
+              </p>
             </div>
-            <div className="text-[11px] font-medium uppercase tracking-wider" style={{ color }}>
-              {scoreToLabel(score.total)}
+            <div
+              className="flex flex-col items-center rounded-2xl bg-white px-5 py-3 shadow-[0_4px_16px_rgba(0,0,0,0.08)]"
+              style={{ borderTop: `3px solid ${color}` }}
+            >
+              <div className="text-3xl font-bold tabular-nums" style={{ color }}>
+                {score.total}
+                <span className="text-sm text-neutral-400">/100</span>
+              </div>
+              <div
+                className="text-[11px] font-semibold uppercase tracking-wider"
+                style={{ color }}
+              >
+                {scoreToLabel(score.total)}
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <article className="mx-auto max-w-4xl px-5 py-8 sm:px-6">
 
         <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <KPI
@@ -283,7 +293,7 @@ export default async function VivreACommunePage({
                   href={cta.url}
                   target="_blank"
                   rel="noopener sponsored"
-                  className="rounded-lg border border-neutral-200 bg-white p-3 hover:border-violet-300 hover:bg-violet-50/50"
+                  className="rounded-2xl bg-white p-3 shadow-[0_1px_3px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_4px_14px_rgba(124,58,237,0.12)]"
                 >
                   <div className="text-sm font-medium text-neutral-900">{cta.label}</div>
                   <div className="text-[11px] text-neutral-500">{cta.description}</div>
@@ -319,14 +329,14 @@ export default async function VivreACommunePage({
           </section>
         )}
 
-        <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
-          <p className="text-sm text-neutral-700">
+        <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-neutral-900 to-neutral-700 p-7 text-center text-white shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
+          <p className="text-sm text-neutral-200">
             <MapPin className="mr-1 inline h-4 w-4" />
-            Comparez {commune.nom} à n'importe quelle autre commune
+            Compare {commune.nom} à n'importe quelle autre commune
           </p>
           <Link
             href="/"
-            className="mt-3 inline-flex rounded-lg bg-neutral-900 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800"
+            className="mt-3 inline-flex rounded-2xl bg-white px-4 py-2.5 text-sm font-medium text-neutral-900 shadow-[0_2px_8px_rgba(0,0,0,0.15)] transition-transform hover:scale-[1.02]"
           >
             Ouvrir le comparateur interactif
           </Link>
@@ -350,7 +360,7 @@ function KPI({
   sub?: string;
 }) {
   return (
-    <div className="rounded-xl border border-neutral-200 bg-white p-4">
+    <div className="rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
       <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-neutral-400">
         {icon}
         {label}
@@ -366,7 +376,7 @@ function NeighborCard({ commune }: { commune: import("@/lib/types").Commune }) {
   return (
     <Link
       href={`/vivre-a/${slug}`}
-      className="block rounded-lg border border-neutral-200 bg-white p-3 hover:border-neutral-300 hover:bg-neutral-50"
+      className="block rounded-2xl bg-white p-3 shadow-[0_1px_3px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_4px_14px_rgba(0,0,0,0.08)]"
     >
       <div className="flex items-baseline justify-between">
         <span className="font-medium text-neutral-900">{commune.nom}</span>

@@ -53,34 +53,6 @@ export default function PersonaPage({ persona }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
-
-      <header className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2 hover:opacity-90">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-4 w-4"
-              >
-                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
-            </div>
-            <span className="text-sm font-semibold text-neutral-900">
-              Vivre près de Paris
-            </span>
-          </Link>
-          <Link href="/" className="text-sm text-neutral-600 hover:text-neutral-900">
-            Carte interactive →
-          </Link>
-        </div>
-      </header>
-
       <article className="mx-auto max-w-4xl px-6 py-10">
         <nav aria-label="Fil d'ariane" className="mb-6 text-xs text-neutral-500">
           <Link href="/" className="hover:text-neutral-900">
@@ -110,7 +82,7 @@ export default function PersonaPage({ persona }: Props) {
             {persona.criteres.map((c) => (
               <div
                 key={c.titre}
-                className="rounded-xl border border-neutral-200 bg-white p-4"
+                className="rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)]"
               >
                 <div className="text-sm font-semibold text-neutral-900">
                   {c.titre}
@@ -136,7 +108,7 @@ export default function PersonaPage({ persona }: Props) {
               <Link
                 key={commune.code_insee}
                 href={`/vivre-a/${communeToSlug(commune)}`}
-                className="flex items-start gap-4 rounded-xl border border-neutral-200 bg-white p-4 transition-colors hover:border-neutral-300 hover:bg-neutral-50"
+                className="flex items-start gap-4 rounded-2xl bg-white p-4 shadow-[0_1px_3px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_4px_14px_rgba(0,0,0,0.08)]"
               >
                 <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-neutral-900 text-sm font-bold text-white tabular-nums">
                   {i + 1}
@@ -188,7 +160,7 @@ export default function PersonaPage({ persona }: Props) {
             {persona.faq.map((q) => (
               <details
                 key={q.question}
-                className="group rounded-xl border border-neutral-200 bg-white p-4"
+                className="group rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)]"
               >
                 <summary className="cursor-pointer list-none text-sm font-semibold text-neutral-900">
                   {q.question}
@@ -201,13 +173,13 @@ export default function PersonaPage({ persona }: Props) {
           </div>
         </section>
 
-        <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+        <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-neutral-900 to-neutral-700 p-7 text-center text-white shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
           <p className="text-sm text-neutral-700">
             Tu veux affiner avec tes propres critères ?
           </p>
           <Link
             href="/"
-            className="mt-3 inline-flex rounded-lg bg-neutral-900 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800"
+            className="mt-3 inline-flex rounded-2xl bg-white px-4 py-2.5 text-sm font-medium text-neutral-900 shadow-[0_2px_8px_rgba(0,0,0,0.15)] transition-transform hover:scale-[1.02]"
           >
             Ouvrir le comparateur interactif
           </Link>

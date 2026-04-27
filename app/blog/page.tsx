@@ -55,34 +55,6 @@ export default function BlogIndexPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
       />
-
-      <header className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2 hover:opacity-90">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-4 w-4"
-              >
-                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
-            </div>
-            <span className="text-sm font-semibold text-neutral-900">
-              Vivre près de Paris
-            </span>
-          </Link>
-          <Link href="/" className="text-sm text-neutral-600 hover:text-neutral-900">
-            Carte interactive →
-          </Link>
-        </div>
-      </header>
-
       <article className="mx-auto max-w-4xl px-6 py-10">
         <nav aria-label="Fil d'ariane" className="mb-6 text-xs text-neutral-500">
           <Link href="/" className="hover:text-neutral-900">
@@ -106,7 +78,7 @@ export default function BlogIndexPage() {
             <Link
               key={p.slug}
               href={`/blog/${p.slug}`}
-              className="block rounded-2xl border border-neutral-200 bg-white p-6 transition-colors hover:border-neutral-300 hover:bg-neutral-50"
+              className="block rounded-2xl bg-white p-6 shadow-[0_2px_8px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
             >
               <div className="flex flex-wrap items-center gap-2 text-xs text-neutral-500">
                 <span className="rounded-full bg-neutral-100 px-2 py-0.5 text-neutral-700">

@@ -6,8 +6,6 @@ import { Map as MapIcon, X } from "lucide-react";
 import Sidebar from "./Sidebar";
 import CommuneCard from "./CommuneCard";
 import CompareView from "./CompareView";
-import Concierge from "./Concierge";
-import ConciergeButton from "./ConciergeButton";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation } from "@/lib/types";
 
@@ -149,12 +147,6 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     };
   }, [mobileMapOpen]);
 
-  const handlePickFromList = (insee: string) => {
-    setSelectedCommune(insee);
-    const c = allCommunes.find((x) => x.code_insee === insee);
-    if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
-  };
-
   return (
     <div className="lg:relative lg:flex lg:min-h-[calc(100vh-3.5rem)]">
       {/* PANNEAU GAUCHE — content scrollable (server SEO + filters) */}
@@ -247,8 +239,6 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         </button>
       )}
 
-      <ConciergeButton />
-      <Concierge communes={allCommunes} onPickCommune={handlePickFromList} />
     </div>
   );
 }

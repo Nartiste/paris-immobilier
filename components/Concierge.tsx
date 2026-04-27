@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Send, Sparkles, X, Loader2 } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { Commune } from "@/lib/types";
 import { track } from "@/lib/analytics";
 import { scoreToColor } from "@/lib/scoring";
+import { communeToSlug } from "@/lib/slug";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
@@ -22,13 +24,37 @@ const SUGGESTIONS = [
   "Quitter Paris pour la nature, train direct disponible",
 ];
 
-type Props = {
-  communes: Commune[];
-  onPickCommune: (insee: string) => void;
-};
+/**
+ * Concierge IA self-contained — peut vivre dans le layout global et
+ * fonctionner sur n'importe quelle page. Fetch ses propres communes,
+ * utilise router.push pour naviguer vers /vivre-a/[slug].
+ */
+export default function Concierge() {
+  const router = useRouter();
+  const { conciergeOpen, setConciergeOpen, setSelectedCommune } = useAppStore();
+  const [communes, setCommunes] = useState<Commune[]>([]);
 
-export default function Concierge({ communes, onPickCommune }: Props) {
-  const { conciergeOpen, setConciergeOpen } = useAppStore();
+  // Charge les communes au premier ouvrir (lazy)
+  useEffect(() => {
+    if (!conciergeOpen || communes.length > 0) return;
+    void (async () => {
+      try {
+        const res = await fetch("/api/communes");
+        const data = await res.json();
+        setCommunes(data.communes ?? []);
+      } catch (err) {
+        console.error("Failed to load communes for concierge", err);
+      }
+    })();
+  }, [conciergeOpen, communes.length]);
+
+  const onPickCommune = (insee: string) => {
+    const c = communes.find((x) => x.code_insee === insee);
+    if (!c) return;
+    setSelectedCommune(insee);
+    setConciergeOpen(false);
+    router.push(`/vivre-a/${communeToSlug(c)}`);
+  };
   const [messages, setMessages] = useState<Msg[]>([]);
   const [draft, setDraft] = useState("");
   const [streaming, setStreaming] = useState(false);
