@@ -1,6 +1,6 @@
 "use client";
 
-import { Sliders, RotateCcw, Home, Train, Clock } from "lucide-react";
+import { Sliders, RotateCcw, Train, Clock } from "lucide-react";
 import type { Weights } from "@/lib/types";
 import { useAppStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
@@ -28,10 +28,6 @@ export default function Sidebar() {
     weights,
     setWeight,
     resetWeights,
-    mode,
-    setMode,
-    profile,
-    setProfile,
     budgetMax,
     setBudgetMax,
     tempsMaxParis,
@@ -42,65 +38,6 @@ export default function Sidebar() {
 
   return (
     <aside className="flex h-full w-full flex-col gap-5 overflow-y-auto border-r border-neutral-200 bg-white p-5">
-      <div>
-        <h2 className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
-          <Home className="h-4 w-4" />
-          Profil
-        </h2>
-        <div className="mt-2 grid grid-cols-2 gap-2">
-          <button
-            onClick={() => setProfile("acheteur")}
-            className={cn(
-              "rounded-lg border px-3 py-2 text-sm transition-colors",
-              profile === "acheteur"
-                ? "border-neutral-900 bg-neutral-900 text-white"
-                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
-            )}
-          >
-            Acheteur
-          </button>
-          <button
-            onClick={() => setProfile("locataire")}
-            className={cn(
-              "rounded-lg border px-3 py-2 text-sm transition-colors",
-              profile === "locataire"
-                ? "border-neutral-900 bg-neutral-900 text-white"
-                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
-            )}
-          >
-            Locataire
-          </button>
-        </div>
-      </div>
-
-      <div>
-        <h2 className="text-sm font-semibold text-neutral-900">Mode de score</h2>
-        <div className="mt-2 grid grid-cols-2 gap-2">
-          <button
-            onClick={() => setMode("rapport_qualite_prix")}
-            className={cn(
-              "rounded-lg border px-2 py-2 text-xs transition-colors",
-              mode === "rapport_qualite_prix"
-                ? "border-emerald-600 bg-emerald-50 text-emerald-900"
-                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
-            )}
-          >
-            Rapport qualité-prix
-          </button>
-          <button
-            onClick={() => setMode("absolu")}
-            className={cn(
-              "rounded-lg border px-2 py-2 text-xs transition-colors",
-              mode === "absolu"
-                ? "border-emerald-600 bg-emerald-50 text-emerald-900"
-                : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400",
-            )}
-          >
-            Score absolu
-          </button>
-        </div>
-      </div>
-
       <div>
         <div className="flex items-center justify-between">
           <label className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
@@ -127,7 +64,7 @@ export default function Sidebar() {
 
       <div>
         <label className="text-sm font-semibold text-neutral-900">
-          Budget max ({profile === "acheteur" ? "€/m²" : "€/m² loyer"})
+          Budget max (€/m²)
         </label>
         <input
           type="number"
@@ -136,7 +73,7 @@ export default function Sidebar() {
           onChange={(e) =>
             setBudgetMax(e.target.value ? Number(e.target.value) : null)
           }
-          placeholder={profile === "acheteur" ? "ex : 5000" : "ex : 20"}
+          placeholder="ex : 5000"
           className="mt-2 w-full rounded-lg border border-neutral-200 px-3 py-2 text-sm focus:border-neutral-900 focus:outline-none"
         />
       </div>
