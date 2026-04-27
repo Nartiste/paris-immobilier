@@ -92,13 +92,15 @@ export function computeCommuneScore(
   };
 }
 
+// Palette alignée sur la charte (Vert Brume + Iris Doux + tons doux).
+// Excellent → vert profond, neutre → iris, faible → rose poussiéreux.
 export function scoreToColor(score: number): string {
-  if (score >= 80) return "#16a34a";
-  if (score >= 70) return "#65a30d";
-  if (score >= 60) return "#ca8a04";
-  if (score >= 50) return "#ea580c";
-  if (score >= 40) return "#dc2626";
-  return "#7f1d1d";
+  if (score >= 80) return "#4d9c7e"; // vert profond
+  if (score >= 70) return "#7bb89e"; // vert brume mid
+  if (score >= 60) return "#9d8cf2"; // iris doux
+  if (score >= 50) return "#c0b5e0"; // iris pâle
+  if (score >= 40) return "#c97e7e"; // rose poussiéreux
+  return "#8b5a5a"; // gris-rouge profond
 }
 
 export function scoreToLabel(score: number): string {

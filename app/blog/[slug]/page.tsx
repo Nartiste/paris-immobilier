@@ -139,7 +139,7 @@ export default async function BlogPostPage({
 
         {related.length > 0 && (
           <section className="mt-16 border-t border-neutral-200 pt-8">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               À lire aussi
             </h2>
             <div className="mt-4 grid gap-3 sm:grid-cols-3">

@@ -235,7 +235,7 @@ export default async function PageCompare({
           </span>
         </nav>
 
-        <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
+        <h1 className="font-display text-3xl font-medium tracking-tight text-brand-bleu sm:text-4xl">
           {a.nom} ou {b.nom} : laquelle choisir ?
         </h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-700">
@@ -251,7 +251,7 @@ export default async function PageCompare({
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Comparaison critère par critère
           </h2>
           <div className="mt-4 overflow-hidden rounded-xl border border-neutral-200">

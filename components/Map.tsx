@@ -156,7 +156,7 @@ export default function Map({
         layout: { visibility: showGpe ? "visible" : "none" },
         paint: {
           "circle-radius": 6,
-          "circle-color": "#7c3aed",
+          "circle-color": "#9D8CF2",
           "circle-stroke-color": "#ffffff",
           "circle-stroke-width": 2,
         },
@@ -174,7 +174,7 @@ export default function Map({
           visibility: showGpe ? "visible" : "none",
         },
         paint: {
-          "text-color": "#7c3aed",
+          "text-color": "#9D8CF2",
           "text-halo-color": "#ffffff",
           "text-halo-width": 1.5,
         },

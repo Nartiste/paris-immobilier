@@ -62,7 +62,7 @@ export default function PersonaPage({ persona }: Props) {
           <span className="text-neutral-900">{persona.shortLabel}</span>
         </nav>
 
-        <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
+        <h1 className="font-display text-3xl font-medium tracking-tight text-brand-bleu sm:text-4xl">
           {persona.h1}
         </h1>
 
@@ -75,7 +75,7 @@ export default function PersonaPage({ persona }: Props) {
         </div>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Les critères qui comptent vraiment
           </h2>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -96,7 +96,7 @@ export default function PersonaPage({ persona }: Props) {
         </section>
 
         <section className="mt-12">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Notre top {ranked.length} pour ce profil
           </h2>
           <p className="mt-2 text-sm text-neutral-500">
@@ -153,7 +153,7 @@ export default function PersonaPage({ persona }: Props) {
         </section>
 
         <section className="mt-12">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Questions fréquentes
           </h2>
           <div className="mt-4 space-y-3">

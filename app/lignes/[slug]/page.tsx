@@ -158,7 +158,7 @@ export default async function LigneDetailPage({
         </div>
 
         <section className="mt-8">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             La {line.code} en un coup d&apos;œil
           </h2>
           <p className="mt-2 text-base leading-relaxed text-neutral-700">
@@ -222,7 +222,7 @@ export default async function LigneDetailPage({
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Caractéristiques de la {line.code}
           </h2>
           <p className="mt-3 text-base leading-relaxed text-neutral-700">
@@ -232,7 +232,7 @@ export default async function LigneDetailPage({
 
         {fastest.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Communes les plus proches de Paris desservies par la {line.code}
             </h2>
             <p className="mt-1 text-sm text-neutral-500">
@@ -248,7 +248,7 @@ export default async function LigneDetailPage({
 
         {cheapest.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Communes les moins chères desservies par la {line.code}
             </h2>
             <p className="mt-1 text-sm text-neutral-500">
@@ -264,7 +264,7 @@ export default async function LigneDetailPage({
 
         {desservies.length > fastest.length && (
           <section className="mt-10">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Toutes les communes ({desservies.length})
             </h2>
             <ul className="mt-3 grid grid-cols-1 gap-x-4 gap-y-1 text-sm sm:grid-cols-2 lg:grid-cols-3">

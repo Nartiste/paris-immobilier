@@ -219,7 +219,7 @@ export default async function VivreACommunePage({
         </div>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Vivre à {commune.nom}
           </h2>
           {NARRATIVES[commune.code_insee] ? (
@@ -305,7 +305,7 @@ export default async function VivreACommunePage({
 
         {voisines.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Communes voisines en {commune.departement}
             </h2>
             <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
@@ -318,7 +318,7 @@ export default async function VivreACommunePage({
 
         {memeTemps.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Autres communes à ~{commune.temps_trajet_paris_min} min de Paris
             </h2>
             <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">

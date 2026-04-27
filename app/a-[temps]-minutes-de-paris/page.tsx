@@ -162,7 +162,7 @@ export default async function PageTemps({
           <span className="text-neutral-900">À {bucket.label} de Paris</span>
         </nav>
 
-        <h1 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
+        <h1 className="font-display text-3xl font-medium tracking-tight text-brand-bleu sm:text-4xl">
           Les villes à {bucket.label} de Paris
         </h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-700">
@@ -171,7 +171,7 @@ export default async function PageTemps({
 
         {cheapest.length > 0 && (
           <section className="mt-10">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Les communes les plus abordables à {bucket.label} de Paris
             </h2>
             <p className="mt-2 text-sm text-neutral-500">
@@ -221,7 +221,7 @@ export default async function PageTemps({
 
         {matched.length > 0 && (
           <section className="mt-12">
-            <h2 className="text-xl font-semibold text-neutral-900">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
               Toutes les communes à {bucket.label} ou moins ({matched.length})
             </h2>
             <p className="mt-2 text-sm text-neutral-500">
@@ -258,7 +258,7 @@ export default async function PageTemps({
         )}
 
         <section className="mt-12">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
             Voir aussi
           </h2>
           <div className="mt-4 flex flex-wrap gap-2">
