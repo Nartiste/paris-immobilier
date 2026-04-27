@@ -1,27 +1,20 @@
 import Link from "next/link";
-import { Train, Home as HomeIcon, Users, Sparkles } from "lucide-react";
+import { Train, Sparkles, Map as MapIcon, ArrowRight } from "lucide-react";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { TRANSPORT_LINES, reputationColor } from "@/lib/transport-lines";
 import { PERSONAS } from "@/lib/persona";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros } from "@/lib/utils";
-import { computeCommuneScore } from "@/lib/scoring";
+import { computeCommuneScore, scoreToColor } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
 
 /**
- * Sections statiques de la home, server-rendered → SEO + GEO friendly.
+ * Sections statiques de la home — server-rendered → SEO + GEO friendly.
  *
- * Inclut :
- * - Hero avec H1
- * - Top 10 communes (calcul build-time)
- * - Cards par persona / par temps / par ligne
- * - Schema.org ItemList pour les recommandations
- *
- * Le layout extérieur (split-screen avec carte) est géré par HomeClient
- * + app/page.tsx.
+ * Style : inspiré Stripe + soft Neumorphism (gradient hero, rounded-2xl,
+ * soft shadows au lieu de borders, typographie généreuse).
  */
 export default function HomeShell() {
-  // Top 10 communes avec score absolu, calcul server-side au build
   const topCommunes = SAMPLE_COMMUNES.map((c) => ({
     commune: c,
     score: computeCommuneScore(c, DEFAULT_WEIGHTS, "absolu", "acheteur"),
@@ -35,7 +28,6 @@ export default function HomeShell() {
       l.reputation.score >= 3,
   ).slice(0, 12);
 
-  // Schema.org ItemList des top communes — pour LLM search
   const topListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -56,28 +48,60 @@ export default function HomeShell() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(topListJsonLd) }}
       />
 
-      {/* HERO — H1 + accroche */}
-      <section className="border-b border-neutral-100 px-5 py-8 sm:px-6 lg:py-10">
-        <div className="text-[11px] font-semibold uppercase tracking-wider text-violet-700">
-          80+ communes comparées · Données INSEE & DVF
+      {/* HERO — gradient soft + H1 généreux */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-emerald-50/40 px-5 pt-10 pb-12 sm:px-7 sm:pt-12 sm:pb-14">
+        {/* Halo décoratif */}
+        <div
+          aria-hidden
+          className="absolute -right-12 -top-12 h-44 w-44 rounded-full bg-violet-200/40 blur-3xl"
+        />
+        <div
+          aria-hidden
+          className="absolute -bottom-16 -left-12 h-44 w-44 rounded-full bg-emerald-200/30 blur-3xl"
+        />
+
+        <div className="relative">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1 text-[11px] font-semibold tracking-wide text-violet-700 shadow-[0_2px_8px_rgba(124,58,237,0.08)] backdrop-blur">
+            <Sparkles className="h-3 w-3" />
+            80+ communes · DVF & INSEE 2026
+          </span>
+          <h1 className="mt-4 text-3xl font-bold leading-[1.1] tracking-tight text-neutral-900 sm:text-4xl">
+            Tu veux quitter Paris ?
+            <br />
+            <span className="bg-gradient-to-br from-violet-700 to-purple-600 bg-clip-text text-transparent">
+              Compare 80+ communes
+            </span>{" "}
+            en un clin d&apos;œil.
+          </h1>
+          <p className="mt-4 max-w-prose text-sm leading-relaxed text-neutral-700">
+            Prix immobilier réel, temps de trajet vers Paris (TGV, RER,
+            voiture), qualité de vie, futures gares Grand Paris Express.
+            Filtre selon tes critères, ouvre la carte interactive ou demande au
+            concierge IA.
+          </p>
+          <div className="mt-5 flex flex-wrap gap-2">
+            <a
+              href="#filtres"
+              className="inline-flex items-center gap-1.5 rounded-2xl bg-neutral-900 px-4 py-2.5 text-sm font-medium text-white shadow-[0_4px_14px_rgba(0,0,0,0.18)] transition-transform hover:scale-[1.02]"
+            >
+              Affiner mes critères
+              <ArrowRight className="h-3.5 w-3.5" />
+            </a>
+            <Link
+              href="/blog/top-10-villes-pour-quitter-paris-2026"
+              className="inline-flex items-center gap-1.5 rounded-2xl bg-white/70 px-4 py-2.5 text-sm font-medium text-neutral-800 shadow-[0_2px_8px_rgba(0,0,0,0.04)] backdrop-blur transition-transform hover:scale-[1.02]"
+            >
+              Lire le top 10
+            </Link>
+          </div>
         </div>
-        <h1 className="mt-2 text-2xl font-bold leading-tight text-neutral-900 sm:text-3xl">
-          Tu veux quitter Paris ?{" "}
-          <span className="text-violet-700">Compare 80+ communes</span> en un clin d&apos;œil.
-        </h1>
-        <p className="mt-3 text-sm leading-relaxed text-neutral-700">
-          Prix immobilier réel (DVF), temps de trajet vers Paris (TGV, RER,
-          voiture), qualité de vie, futures gares Grand Paris Express. Filtre
-          selon tes critères, ouvre la carte interactive ou demande au
-          concierge IA.
-        </p>
       </section>
 
       {/* TOP 10 COMMUNES */}
-      <section className="border-b border-neutral-100 px-5 py-7 sm:px-6">
+      <section className="bg-white px-5 py-10 sm:px-7">
         <div className="flex items-baseline justify-between">
-          <h2 className="text-lg font-semibold text-neutral-900">
-            Top 10 des communes
+          <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
+            Top 10 communes
           </h2>
           <Link
             href="/blog/top-10-villes-pour-quitter-paris-2026"
@@ -89,60 +113,69 @@ export default function HomeShell() {
         <p className="mt-1 text-xs text-neutral-500">
           Score absolu pondéré sur 6 critères. Clique pour ouvrir la fiche.
         </p>
-        <ol className="mt-4 space-y-1">
-          {topCommunes.map((t, i) => (
-            <li key={t.commune.code_insee}>
-              <Link
-                href={`/vivre-a/${communeToSlug(t.commune)}`}
-                className="flex items-center gap-2 rounded-md px-2 py-1.5 text-sm hover:bg-neutral-50"
-              >
-                <span className="w-5 text-center text-xs font-semibold text-neutral-400 tabular-nums">
-                  {i + 1}
-                </span>
-                <span className="flex-1 truncate text-neutral-900">
-                  {t.commune.nom}
-                </span>
-                <span className="text-[11px] tabular-nums text-emerald-700">
-                  {t.commune.temps_trajet_paris_min}min
-                </span>
-                {t.commune.prix_m2_median != null && (
-                  <span className="hidden text-[11px] tabular-nums text-neutral-500 sm:inline">
-                    {formatEuros(t.commune.prix_m2_median)}/m²
-                  </span>
-                )}
-                <span
-                  className="ml-1 rounded-md px-1.5 py-0.5 text-xs font-semibold text-white tabular-nums"
-                  style={{ backgroundColor: reputationColor(Math.min(5, Math.max(1, Math.ceil(t.score.total / 20))) as 1 | 2 | 3 | 4 | 5) }}
+        <ol className="mt-5 space-y-1.5">
+          {topCommunes.map((t, i) => {
+            const color = scoreToColor(t.score.total);
+            return (
+              <li key={t.commune.code_insee}>
+                <Link
+                  href={`/vivre-a/${communeToSlug(t.commune)}`}
+                  className="flex items-center gap-3 rounded-2xl bg-neutral-50/60 px-3 py-2.5 transition-all hover:bg-white hover:shadow-[0_4px_16px_rgba(0,0,0,0.06)]"
                 >
-                  {t.score.total}
-                </span>
-              </Link>
-            </li>
-          ))}
+                  <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-xl bg-white text-xs font-bold tabular-nums text-neutral-400 shadow-[inset_0_0_0_1px_rgba(0,0,0,0.04)]">
+                    {i + 1}
+                  </span>
+                  <span className="flex-1 truncate text-sm font-medium text-neutral-900">
+                    {t.commune.nom}
+                  </span>
+                  <span className="text-[11px] tabular-nums text-emerald-700">
+                    {t.commune.temps_trajet_paris_min}min
+                  </span>
+                  {t.commune.prix_m2_median != null && (
+                    <span className="hidden text-[11px] tabular-nums text-neutral-500 sm:inline">
+                      {formatEuros(t.commune.prix_m2_median)}/m²
+                    </span>
+                  )}
+                  <span
+                    className="ml-1 rounded-xl px-2 py-1 text-xs font-bold tabular-nums text-white shadow-sm"
+                    style={{ backgroundColor: color }}
+                  >
+                    {t.score.total}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ol>
       </section>
 
       {/* PERSONAS */}
-      <section className="border-b border-neutral-100 px-5 py-7 sm:px-6">
-        <h2 className="text-lg font-semibold text-neutral-900">
+      <section className="bg-neutral-50/60 px-5 py-10 sm:px-7">
+        <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
           Tu te reconnais ici ?
         </h2>
         <p className="mt-1 text-xs text-neutral-500">
           Sélections curatées selon ton profil de relocation.
         </p>
-        <div className="mt-4 grid gap-2 sm:grid-cols-3">
+        <div className="mt-5 grid gap-3 sm:grid-cols-3">
           {PERSONAS.map((p) => (
             <Link
               key={p.slug}
               href={`/${p.slug}`}
-              className="rounded-xl border border-neutral-200 bg-white p-3 transition-colors hover:border-violet-300 hover:bg-violet-50/40"
+              className="group rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(124,58,237,0.12)]"
             >
-              <Users className="h-4 w-4 text-violet-600" />
-              <div className="mt-2 text-sm font-semibold text-neutral-900">
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-100 text-violet-700">
+                <Sparkles className="h-4 w-4" />
+              </div>
+              <div className="mt-3 text-sm font-semibold text-neutral-900">
                 {p.shortLabel}
               </div>
               <div className="mt-1 text-[11px] leading-snug text-neutral-500">
                 {p.metaDescription.slice(0, 90)}…
+              </div>
+              <div className="mt-3 inline-flex items-center gap-1 text-[11px] font-medium text-violet-700 opacity-0 transition-opacity group-hover:opacity-100">
+                Découvrir
+                <ArrowRight className="h-3 w-3" />
               </div>
             </Link>
           ))}
@@ -150,11 +183,14 @@ export default function HomeShell() {
       </section>
 
       {/* PAR TEMPS DE TRAJET */}
-      <section className="border-b border-neutral-100 px-5 py-7 sm:px-6">
-        <h2 className="text-lg font-semibold text-neutral-900">
+      <section className="bg-white px-5 py-10 sm:px-7">
+        <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
           Par temps de trajet vers Paris
         </h2>
-        <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
+        <p className="mt-1 text-xs text-neutral-500">
+          De la petite couronne en 15 minutes aux villes TGV à 2 heures.
+        </p>
+        <div className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
           {[
             { t: 15, label: "15 min" },
             { t: 30, label: "30 min" },
@@ -166,42 +202,40 @@ export default function HomeShell() {
             <Link
               key={b.t}
               href={`/a-${b.t}-minutes-de-paris`}
-              className="rounded-lg border border-neutral-200 bg-white px-3 py-2.5 text-center hover:border-emerald-300 hover:bg-emerald-50/40"
+              className="rounded-2xl bg-neutral-50/60 px-3 py-3 text-center transition-all hover:bg-white hover:shadow-[0_4px_16px_rgba(16,185,129,0.12)]"
             >
-              <div className="flex items-center justify-center gap-1 text-xs font-semibold text-neutral-900">
-                <HomeIcon className="h-3 w-3 text-emerald-600" />
+              <div className="text-sm font-bold text-neutral-900">
                 {b.label}
               </div>
-              <div className="mt-0.5 text-[10px] text-neutral-500">de Paris</div>
+              <div className="mt-0.5 text-[10px] text-neutral-500">
+                de Paris
+              </div>
             </Link>
           ))}
         </div>
       </section>
 
       {/* PAR LIGNE */}
-      <section className="border-b border-neutral-100 px-5 py-7 sm:px-6">
-        <div className="flex items-baseline justify-between">
-          <h2 className="text-lg font-semibold text-neutral-900">
-            Par ligne de transport
-          </h2>
-        </div>
+      <section className="bg-neutral-50/60 px-5 py-10 sm:px-7">
+        <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
+          Par ligne de transport
+        </h2>
         <p className="mt-1 text-xs text-neutral-500">
-          Réputation, ponctualité, communes desservies — pour chaque ligne
-          principale.
+          Réputation, ponctualité, communes desservies — pour chaque ligne.
         </p>
-        <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
+        <div className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
           {popularLines.map((l) => (
             <Link
               key={l.id}
               href={`/lignes/${l.id}`}
-              className="flex items-center gap-2 rounded-lg border border-neutral-200 bg-white p-2.5 hover:border-neutral-300 hover:bg-neutral-50"
+              className="flex items-center gap-2 rounded-2xl bg-white px-3 py-2.5 shadow-[0_1px_3px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_4px_14px_rgba(0,0,0,0.08)]"
             >
-              <Train className="h-3.5 w-3.5 text-neutral-500" />
+              <Train className="h-3.5 w-3.5 flex-shrink-0 text-neutral-500" />
               <span className="flex-1 truncate text-xs font-semibold text-neutral-900">
                 {l.code}
               </span>
               <span
-                className="rounded-md px-1.5 py-0.5 text-[10px] font-semibold text-white"
+                className="rounded-lg px-1.5 py-0.5 text-[10px] font-bold text-white shadow-sm"
                 style={{
                   backgroundColor: reputationColor(l.reputation.score),
                 }}
@@ -214,25 +248,33 @@ export default function HomeShell() {
       </section>
 
       {/* CONCIERGE IA tease */}
-      <section className="border-b border-neutral-100 px-5 py-7 sm:px-6" id="concierge-tease">
-        <div className="rounded-2xl border border-violet-200 bg-gradient-to-br from-violet-50 to-white p-5">
-          <div className="flex items-center gap-2 text-violet-700">
+      <section className="bg-white px-5 py-10 sm:px-7">
+        <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-600 p-6 text-white shadow-[0_8px_32px_rgba(124,58,237,0.25)]">
+          <div className="flex items-center gap-2 text-violet-100">
             <Sparkles className="h-4 w-4" />
-            <span className="text-xs font-semibold uppercase tracking-wider">
+            <span className="text-[10px] font-semibold uppercase tracking-wider">
               Concierge IA gratuit
             </span>
           </div>
-          <h3 className="mt-2 text-base font-semibold text-neutral-900">
+          <h3 className="mt-2 text-lg font-bold leading-snug">
             « J&apos;ai 350 k€, télétravail 2 j/semaine, où aller ? »
           </h3>
-          <p className="mt-1 text-xs leading-relaxed text-neutral-600">
+          <p className="mt-2 text-sm leading-relaxed text-violet-50/90">
             Décris ton projet en une phrase. Le concierge te recommande 3-5
-            communes en quelques secondes, calcule la surface possible et
-            justifie chaque choix.
+            communes, calcule la surface possible et justifie chaque choix.
           </p>
-          <p className="mt-3 text-[11px] text-neutral-400">
+          <p className="mt-4 text-[11px] text-violet-100/80">
+            <Sparkles className="mr-1 inline h-3 w-3" />
             Bouton violet en bas-droite ↘
           </p>
+        </div>
+      </section>
+
+      {/* CTA carte mobile (visible < lg, redondant mais rassurant) */}
+      <section className="bg-white px-5 pb-6 pt-2 sm:px-7 lg:hidden">
+        <div className="rounded-2xl border border-neutral-200/70 bg-neutral-50/60 px-4 py-3 text-center text-xs text-neutral-600">
+          <MapIcon className="mr-1 inline h-3.5 w-3.5" />
+          Carte interactive : bouton bas-gauche ↙
         </div>
       </section>
     </>

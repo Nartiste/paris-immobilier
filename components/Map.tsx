@@ -109,6 +109,9 @@ export default function Map({
         [-7, 40],
         [12, 52],
       ],
+      // Mode coopératif : un doigt = scroll de page, 2 doigts = pan map.
+      // Évite que le map "vole" le scroll sur mobile.
+      cooperativeGestures: true,
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");

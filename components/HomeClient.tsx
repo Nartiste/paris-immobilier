@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
+import { Map as MapIcon, X } from "lucide-react";
 import Sidebar from "./Sidebar";
 import CommuneCard from "./CommuneCard";
 import CompareView from "./CompareView";
@@ -27,29 +28,33 @@ type Props = {
 };
 
 /**
- * Layout principal de la home :
+ * Layout principal :
  *
  * Desktop (lg+) :
- *   +-----------------------------+
- *   | LEFT scroll | RIGHT map     |
- *   | (480px)     | (sticky)      |
- *   +-----------------------------+
+ *   ┌──────────────┬──────────────┐
+ *   │ LEFT scroll  │ RIGHT sticky │
+ *   │ (~480 px)    │ map          │
+ *   └──────────────┴──────────────┘
  *
  * Mobile (< lg) :
- *   +----------------+
- *   | Map (50vh)     |
- *   | LEFT content   |
- *   |  (full scroll) |
- *   +----------------+
- *
- * Le contenu SEO (HomeShell, CityFooter) est injecté en server-render via
- * les props leftContent + footerContent → HTML disponible aux crawlers.
+ *   ┌──────────────┐
+ *   │ Tout en      │
+ *   │ scroll       │  (PAS de map embarquée)
+ *   │ vertical     │
+ *   │ : H1, top10, │
+ *   │ filtres,     │
+ *   │ footer…      │
+ *   └──────────────┘
+ *      ┌─────┐  ← bouton flottant
+ *      │Carte│   qui ouvre la map en
+ *      └─────┘   plein écran
  */
 export default function HomeClient({ leftContent, footerContent }: Props) {
   const [communes, setCommunes] = useState<Commune[]>([]);
   const [extraCommunes, setExtraCommunes] = useState<Commune[]>([]);
   const [gpeStations, setGpeStations] = useState<GpeStation[]>([]);
   const [flyTo, setFlyTo] = useState<{ lat: number; lon: number; zoom?: number } | null>(null);
+  const [mobileMapOpen, setMobileMapOpen] = useState(false);
 
   const {
     weights,
@@ -108,6 +113,7 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     if (!pendingAddress) return;
     const { insee, lat, lon } = pendingAddress;
     setFlyTo({ lat, lon, zoom: 13 });
+    setMobileMapOpen(true); // ouvre la map sur mobile pour montrer la zone
 
     if (allCommunes.some((c) => c.code_insee === insee)) {
       setSelectedCommune(insee);
@@ -133,42 +139,55 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     })();
   }, [pendingAddress, allCommunes, setSelectedCommune, setPendingAddress]);
 
+  // Bloque le scroll body quand le map modal est ouvert
+  useEffect(() => {
+    if (!mobileMapOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [mobileMapOpen]);
+
+  const handlePickFromList = (insee: string) => {
+    setSelectedCommune(insee);
+    const c = allCommunes.find((x) => x.code_insee === insee);
+    if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
+  };
+
   return (
     <div className="lg:relative lg:flex lg:min-h-[calc(100vh-3.5rem)]">
       {/* PANNEAU GAUCHE — content scrollable (server SEO + filters) */}
-      <aside className="border-b border-neutral-200 bg-white lg:h-[calc(100vh-3.5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-b-0 lg:border-r">
-        {/* Map mobile : montre la carte juste après le hero */}
-        <div className="block h-[50vh] w-full lg:hidden" id="map-mobile">
-          <MapView
-            communes={allCommunes}
-            gpeStations={gpeStations}
-            weights={weights}
-            mode={mode}
-            profile={profile}
-            budgetMax={budgetMax}
-            tempsMaxParis={tempsMaxParis}
-            showGpe={showGpe}
-            onSelectCommune={setSelectedCommune}
-            flyTo={flyTo}
-          />
-        </div>
-
-        {/* Contenu SEO server-rendered */}
+      <aside className="bg-neutral-50 lg:h-[calc(100vh-3.5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-r lg:border-neutral-200 lg:bg-white">
         {leftContent}
 
-        {/* Filtres interactifs (sliders + GPE toggle) */}
-        <section className="border-b border-neutral-100 px-1 py-3" id="filtres">
-          <Sidebar />
+        {/* Filtres interactifs */}
+        <section
+          id="filtres"
+          className="border-t border-neutral-100 bg-white px-4 py-6 sm:px-6"
+        >
+          <h2 className="px-2 text-lg font-semibold text-neutral-900">
+            Affine ta recherche
+          </h2>
+          <p className="mt-1 px-2 text-xs text-neutral-500">
+            Pondère les critères selon ce qui compte pour toi.
+          </p>
+          <div className="mt-4">
+            <Sidebar />
+          </div>
         </section>
 
-        {/* Footer global avec toutes les villes */}
         {footerContent}
       </aside>
 
-      {/* PANNEAU DROIT — map fixe sticky desktop only */}
+      {/* PANNEAU DROIT — desktop : sticky map. Mobile : modal full-screen */}
       <section
         aria-label="Carte interactive"
-        className="sticky top-14 hidden h-[calc(100vh-3.5rem)] flex-1 lg:block"
+        className={
+          mobileMapOpen
+            ? "fixed inset-0 z-50 bg-white"
+            : "sticky top-14 hidden h-[calc(100vh-3.5rem)] flex-1 lg:block"
+        }
       >
         <MapView
           communes={allCommunes}
@@ -179,12 +198,24 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
           budgetMax={budgetMax}
           tempsMaxParis={tempsMaxParis}
           showGpe={showGpe}
-          onSelectCommune={setSelectedCommune}
+          onSelectCommune={(insee) => {
+            setSelectedCommune(insee);
+          }}
           flyTo={flyTo}
         />
+        {mobileMapOpen && (
+          <button
+            type="button"
+            onClick={() => setMobileMapOpen(false)}
+            className="absolute right-4 top-4 z-[60] flex h-10 w-10 items-center justify-center rounded-full bg-white text-neutral-900 shadow-[0_4px_16px_rgba(0,0,0,0.15)] hover:bg-neutral-50 lg:hidden"
+            aria-label="Fermer la carte"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        )}
       </section>
 
-      {/* OVERLAYS — communs aux 2 layouts */}
+      {/* OVERLAYS */}
       {selectedCommune && (
         <CommuneCard
           commune={selectedCommune}
@@ -204,15 +235,20 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         />
       )}
 
+      {/* Bouton flottant CARTE (mobile only) */}
+      {!mobileMapOpen && (
+        <button
+          type="button"
+          onClick={() => setMobileMapOpen(true)}
+          className="fixed bottom-5 left-5 z-30 flex items-center gap-2 rounded-full bg-neutral-900 px-4 py-3 text-sm font-medium text-white shadow-[0_8px_24px_rgba(0,0,0,0.18)] transition-transform hover:scale-105 lg:hidden"
+        >
+          <MapIcon className="h-4 w-4" />
+          Voir la carte
+        </button>
+      )}
+
       <ConciergeButton />
-      <Concierge
-        communes={allCommunes}
-        onPickCommune={(insee) => {
-          setSelectedCommune(insee);
-          const c = allCommunes.find((x) => x.code_insee === insee);
-          if (c) setFlyTo({ lat: c.lat, lon: c.lon, zoom: 11 });
-        }}
-      />
+      <Concierge communes={allCommunes} onPickCommune={handlePickFromList} />
     </div>
   );
 }

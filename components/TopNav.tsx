@@ -1,26 +1,53 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Menu, X } from "lucide-react";
 import AddressSearchClient from "./AddressSearchClient";
+import { useAppStore } from "@/lib/store";
 
 /**
- * Barre de navigation supérieure, sticky, server-rendered.
+ * Barre de navigation supérieure, sticky.
  *
- * - Logo + brand à gauche → /
- * - Search bar (client island) au centre
- * - Liens de navigation à droite
+ * Desktop (md+) : logo + recherche + nav links + CTA IA
+ * Mobile (< md) : logo + burger → ouvre un panneau plein largeur avec
+ *                 search + tous les liens + CTA IA
  *
- * SEO : tous les liens sont des <Link> Next.js → préfetch + crawlable.
+ * SEO : tous les liens sont des <Link> Next.js, crawlable même quand le
+ * menu est fermé (le panneau mobile reste dans le DOM).
  */
 export default function TopNav() {
+  const [open, setOpen] = useState(false);
+  const { setConciergeOpen } = useAppStore();
+
+  // Ferme le menu si la fenêtre passe en desktop
+  useEffect(() => {
+    const handler = () => {
+      if (window.innerWidth >= 768) setOpen(false);
+    };
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, []);
+
+  // Bloque scroll body quand menu ouvert
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [open]);
+
   return (
-    <header className="sticky top-0 z-40 border-b border-neutral-200 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-neutral-200/60 bg-white/85 shadow-[0_1px_2px_rgba(0,0,0,0.04)] backdrop-blur-xl">
       <div className="mx-auto flex h-14 max-w-[1400px] items-center gap-3 px-4 lg:px-6">
         <Link
           href="/"
-          className="flex flex-shrink-0 items-center gap-2 hover:opacity-90"
+          className="flex flex-shrink-0 items-center gap-2 transition-opacity hover:opacity-80"
           aria-label="Accueil Vivre près de Paris"
         >
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-neutral-900 to-neutral-700 text-white shadow-[0_2px_8px_rgba(0,0,0,0.12)]">
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -45,46 +72,107 @@ export default function TopNav() {
           </div>
         </Link>
 
-        <div className="flex-1" />
-
-        <nav
-          aria-label="Navigation principale"
-          className="hidden items-center gap-1 md:flex"
-        >
-          <NavLink href="/blog">Blog</NavLink>
-          <NavDropdown
-            label="Quitter Paris"
-            items={[
-              { href: "/quitter-paris-en-famille", label: "En famille" },
-              { href: "/quitter-paris-teletravail", label: "En télétravail" },
-              { href: "/quitter-paris-investisseur", label: "Pour investir" },
-            ]}
-          />
-          <NavDropdown
-            label="Par temps"
-            items={[
-              { href: "/a-15-minutes-de-paris", label: "15 minutes" },
-              { href: "/a-30-minutes-de-paris", label: "30 minutes" },
-              { href: "/a-45-minutes-de-paris", label: "45 minutes" },
-              { href: "/a-60-minutes-de-paris", label: "1 heure" },
-              { href: "/a-90-minutes-de-paris", label: "1 h 30" },
-              { href: "/a-120-minutes-de-paris", label: "2 heures" },
-            ]}
-          />
-        </nav>
-
-        <div className="hidden flex-shrink-0 sm:block sm:w-64 md:w-80">
-          <AddressSearchClient />
+        {/* Desktop nav (md+) */}
+        <div className="hidden flex-1 items-center justify-end gap-2 md:flex">
+          <nav aria-label="Navigation principale" className="flex items-center gap-1">
+            <NavLink href="/blog">Blog</NavLink>
+            <NavDropdown
+              label="Quitter Paris"
+              items={[
+                { href: "/quitter-paris-en-famille", label: "En famille" },
+                { href: "/quitter-paris-teletravail", label: "En télétravail" },
+                { href: "/quitter-paris-investisseur", label: "Pour investir" },
+              ]}
+            />
+          </nav>
+          <div className="ml-2 w-64 lg:w-80">
+            <AddressSearchClient />
+          </div>
+          <button
+            type="button"
+            onClick={() => setConciergeOpen(true)}
+            className="ml-1 inline-flex items-center gap-1 rounded-xl bg-gradient-to-br from-violet-600 to-purple-600 px-3 py-1.5 text-xs font-medium text-white shadow-[0_2px_8px_rgba(124,58,237,0.3)] transition-all hover:shadow-[0_4px_12px_rgba(124,58,237,0.45)]"
+          >
+            <Sparkles className="h-3 w-3" />
+            Concierge IA
+          </button>
         </div>
 
-        <Link
-          href="#concierge"
-          className="hidden flex-shrink-0 items-center gap-1 rounded-md bg-violet-600 px-2.5 py-1.5 text-xs font-medium text-white hover:bg-violet-700 sm:inline-flex"
-        >
-          <Sparkles className="h-3 w-3" />
-          IA
-        </Link>
+        {/* Mobile : burger seul */}
+        <div className="ml-auto flex items-center gap-2 md:hidden">
+          <button
+            type="button"
+            onClick={() => setOpen(true)}
+            className="flex h-9 w-9 items-center justify-center rounded-xl text-neutral-700 hover:bg-neutral-100"
+            aria-label="Ouvrir le menu"
+          >
+            <Menu className="h-5 w-5" />
+          </button>
+        </div>
       </div>
+
+      {/* Drawer mobile */}
+      {open && (
+        <div className="fixed inset-0 z-50 md:hidden">
+          <div
+            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+            onClick={() => setOpen(false)}
+            aria-hidden
+          />
+          <div className="absolute inset-x-0 top-0 max-h-[90vh] overflow-y-auto rounded-b-3xl bg-white pb-[env(safe-area-inset-bottom)] shadow-2xl">
+            <div className="flex h-14 items-center justify-between border-b border-neutral-100 px-4">
+              <span className="text-sm font-semibold text-neutral-900">
+                Menu
+              </span>
+              <button
+                type="button"
+                onClick={() => setOpen(false)}
+                className="flex h-9 w-9 items-center justify-center rounded-xl text-neutral-500 hover:bg-neutral-100"
+                aria-label="Fermer le menu"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+            <div className="p-4">
+              <AddressSearchClient />
+            </div>
+            <nav
+              aria-label="Navigation mobile"
+              className="space-y-0.5 px-2 pb-4"
+            >
+              <MobileNavLink href="/blog" onClick={() => setOpen(false)}>
+                Blog
+              </MobileNavLink>
+              <div className="pt-2 pb-1 pl-3 text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
+                Quitter Paris
+              </div>
+              <MobileNavLink href="/quitter-paris-en-famille" onClick={() => setOpen(false)}>
+                En famille
+              </MobileNavLink>
+              <MobileNavLink href="/quitter-paris-teletravail" onClick={() => setOpen(false)}>
+                En télétravail
+              </MobileNavLink>
+              <MobileNavLink href="/quitter-paris-investisseur" onClick={() => setOpen(false)}>
+                Pour investir
+              </MobileNavLink>
+              <div className="pt-2 pb-1 pl-3 text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
+                Outils
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setConciergeOpen(true);
+                  setOpen(false);
+                }}
+                className="flex w-full items-center gap-2 rounded-xl px-3 py-2.5 text-left text-sm text-violet-700 hover:bg-violet-50"
+              >
+                <Sparkles className="h-4 w-4" />
+                Concierge IA
+              </button>
+            </nav>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
@@ -99,7 +187,27 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="rounded-md px-3 py-1.5 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900"
+      className="rounded-xl px-3 py-1.5 text-sm text-neutral-700 transition-colors hover:bg-neutral-100 hover:text-neutral-900"
+    >
+      {children}
+    </Link>
+  );
+}
+
+function MobileNavLink({
+  href,
+  children,
+  onClick,
+}: {
+  href: string;
+  children: React.ReactNode;
+  onClick?: () => void;
+}) {
+  return (
+    <Link
+      href={href}
+      onClick={onClick}
+      className="block rounded-xl px-3 py-2.5 text-sm text-neutral-800 hover:bg-neutral-100"
     >
       {children}
     </Link>
@@ -115,7 +223,7 @@ function NavDropdown({
 }) {
   return (
     <details className="group relative">
-      <summary className="flex cursor-pointer list-none items-center gap-1 rounded-md px-3 py-1.5 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900">
+      <summary className="flex cursor-pointer list-none items-center gap-1 rounded-xl px-3 py-1.5 text-sm text-neutral-700 transition-colors hover:bg-neutral-100 hover:text-neutral-900">
         {label}
         <svg
           className="h-3 w-3 transition-transform group-open:rotate-180"
@@ -126,12 +234,12 @@ function NavDropdown({
           <path d="M6 9 1 4h10z" />
         </svg>
       </summary>
-      <div className="absolute right-0 top-full z-50 mt-1 w-56 rounded-lg border border-neutral-200 bg-white p-1.5 shadow-xl">
+      <div className="absolute right-0 top-full z-50 mt-1 w-56 rounded-2xl border border-neutral-200/60 bg-white p-1.5 shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
         {items.map((it) => (
           <Link
             key={it.href}
             href={it.href}
-            className="block rounded-md px-3 py-1.5 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900"
+            className="block rounded-xl px-3 py-2 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900"
           >
             {it.label}
           </Link>
