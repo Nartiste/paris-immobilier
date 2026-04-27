@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://paris-immobilier-git-main-prception.vercel.app";
+const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
 
 export default function robots(): MetadataRoute.Robots {
   return {

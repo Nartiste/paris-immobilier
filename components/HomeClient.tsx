@@ -1,9 +1,8 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { Sparkles } from "lucide-react";
+import { Home as HomeIcon } from "lucide-react";
 import Sidebar from "./Sidebar";
 import AddressSearch from "./AddressSearch";
 import CommuneCard from "./CommuneCard";
@@ -117,29 +116,22 @@ export default function HomeClient() {
 
       <main className="relative flex-1 overflow-hidden">
         <header className="absolute left-0 right-0 top-0 z-40 flex items-center gap-3 border-b border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur lg:px-6">
-          <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white text-xs font-bold">
-              PI
+          <a href="/" className="flex items-center gap-2 hover:opacity-90">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
+              <HomeIcon className="h-4 w-4" />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-sm font-semibold text-neutral-900">
-                Paris Immobilier
+                Vivre près de Paris
               </h1>
               <p className="text-[10px] text-neutral-500">
-                Trouvez la meilleure commune en France
+                Le comparateur des villes pour quitter Paris
               </p>
             </div>
-          </div>
+          </a>
           <div className="flex-1 max-w-xl">
             <AddressSearch onSelect={handleAddressSelect} loading={lookupLoading} />
           </div>
-          <Link
-            href="/pricing"
-            className="inline-flex items-center gap-1.5 rounded-md border border-violet-200 bg-violet-50 px-2.5 py-1.5 text-xs font-medium text-violet-700 hover:border-violet-300 hover:bg-violet-100"
-          >
-            <Sparkles className="h-3 w-3" />
-            <span className="hidden sm:inline">Premium</span>
-          </Link>
           <div className="hidden items-center gap-1 text-[10px] text-neutral-400 xl:flex">
             <span
               className={`inline-block h-1.5 w-1.5 rounded-full ${

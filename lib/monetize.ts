@@ -13,7 +13,7 @@
 
 import type { Commune } from "./types";
 
-const SITE = "paris-immobilier";
+const SITE = "vivre-pres-de-paris";
 
 function utm(source: string, content: string) {
   const params = new URLSearchParams({

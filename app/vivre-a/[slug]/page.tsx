@@ -8,6 +8,7 @@ import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import { buildCTAs } from "@/lib/monetize";
+import CityFooter from "@/components/CityFooter";
 
 export const dynamicParams = false;
 
@@ -123,14 +124,17 @@ export default async function VivreACommunePage({
 
       <header className="border-b border-neutral-200 bg-white">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-xs font-bold text-white">
-              PI
+          <Link href="/" className="flex items-center gap-2 hover:opacity-90">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 text-white">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9 22 9 12 15 12 15 22" />
+              </svg>
             </div>
-            <span className="text-sm font-semibold text-neutral-900">Paris Immobilier</span>
+            <span className="text-sm font-semibold text-neutral-900">Vivre près de Paris</span>
           </Link>
           <Link href="/" className="text-sm text-neutral-600 hover:text-neutral-900">
-            Comparateur →
+            Carte interactive →
           </Link>
         </div>
       </header>
@@ -306,11 +310,7 @@ export default async function VivreACommunePage({
         </section>
       </article>
 
-      <footer className="border-t border-neutral-200 bg-neutral-50 py-8 text-center text-xs text-neutral-500">
-        Sources : DVF (data.gouv.fr), INSEE FILOSOFI, SNCF Connect, MeilleursAgents.
-        <br />
-        Données indicatives, vérifiez toujours auprès des professionnels avant tout engagement.
-      </footer>
+      <CityFooter />
     </div>
   );
 }

@@ -14,44 +14,47 @@ const geistMono = Geist_Mono({
 });
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  "https://paris-immobilier-git-main-prception.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Où vivre près de Paris ? Comparateur de communes 2026",
-    template: "%s | Paris Immobilier",
+    default: "Vivre près de Paris — Comparateur des villes pour quitter Paris",
+    template: "%s | Vivre près de Paris",
   },
   description:
-    "Comparez plus de 80 communes selon le prix immobilier, le temps de trajet vers Paris (TGV, RER, voiture), la qualité de vie et les futures gares du Grand Paris Express. Concierge IA gratuit.",
+    "Tu rêves de quitter Paris ? On compare 80+ communes selon le prix immobilier, le temps de trajet (TGV, RER, voiture), la qualité de vie et le Grand Paris Express. Avec un concierge IA pour t'aider à choisir.",
   keywords: [
+    "vivre près de Paris",
+    "quitter Paris",
     "où vivre près de Paris",
     "comparateur communes",
-    "quitter Paris",
+    "déménager de Paris",
     "immobilier Île-de-France",
     "prix m² 2026",
     "Grand Paris Express",
     "vivre en banlieue parisienne",
     "TGV Paris",
-    "RER",
+    "RER B avis",
+    "RER E",
+    "ville à 30 minutes de Paris",
   ],
-  authors: [{ name: "Paris Immobilier" }],
+  authors: [{ name: "Vivre près de Paris" }],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: SITE_URL,
-    siteName: "Paris Immobilier",
-    title: "Où vivre près de Paris ? Comparateur de communes 2026",
+    siteName: "Vivre près de Paris",
+    title: "Vivre près de Paris — Comparateur des villes pour quitter Paris",
     description:
-      "Comparez +80 communes : prix m², temps Paris, qualité de vie, futures gares Grand Paris Express. Concierge IA inclus.",
+      "Compare 80+ communes pour quitter Paris : prix m², temps de trajet, qualité de vie, futures gares Grand Paris Express. Concierge IA inclus.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Où vivre près de Paris ? — Paris Immobilier",
+    title: "Vivre près de Paris — Comparateur des villes",
     description:
-      "Le comparateur de communes pour Parisiens en quête d'air frais. Données réelles, IA, gratuit.",
+      "Tu cherches où vivre près de Paris ? On compare prix, transports, qualité de vie pour t'aider à choisir.",
   },
   robots: {
     index: true,

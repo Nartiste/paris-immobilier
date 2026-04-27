@@ -41,7 +41,7 @@ function compressCommunes(communes: Commune[]): string {
     .join("\n");
 }
 
-const SYSTEM = `Tu es le concierge IA de Paris Immobilier, un service d'aide à la relocation pour les Parisiens cherchant à s'installer ailleurs en France tout en gardant un lien avec Paris.
+const SYSTEM = `Tu es le concierge IA de "Vivre près de Paris", un service d'aide à la relocation pour les Parisiens qui cherchent à s'installer ailleurs en France tout en gardant un lien avec Paris.
 
 Ta mission :
 - Comprendre le besoin de l'utilisateur (budget, temps de trajet acceptable vers Paris, profil familial, priorités).
