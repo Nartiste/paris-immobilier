@@ -8,6 +8,7 @@ import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import { buildCTAs } from "@/lib/monetize";
+import { NARRATIVES } from "@/lib/city-narratives";
 import CityFooter from "@/components/CityFooter";
 
 export const dynamicParams = false;
@@ -206,42 +207,59 @@ export default async function VivreACommunePage({
           />
         </div>
 
-        <section className="mt-10 prose prose-neutral max-w-none">
+        <section className="mt-10">
           <h2 className="text-xl font-semibold text-neutral-900">
-            S'installer à {commune.nom} : ce qu'il faut savoir
+            Vivre à {commune.nom}
           </h2>
-          <p className="text-sm leading-relaxed text-neutral-700">
-            {commune.nom} est une commune de {formatNumber(commune.population)}{" "}
-            habitants située dans {prepDept(commune.departement)} ({commune.region}),
-            à {commune.distance_paris_km} km de Paris. Le trajet jusqu'au
-            centre-ville parisien prend{" "}
-            <strong>{commune.temps_trajet_paris_min} minutes</strong>
-            {commune.ligne_principale ? ` via ${commune.ligne_principale}` : ""}
-            {commune.temps_trajet_voiture_min
-              ? ` (et environ ${commune.temps_trajet_voiture_min} min en voiture hors trafic)`
-              : ""}
-            .
-          </p>
-          {commune.prix_m2_median != null && (
-            <p className="text-sm leading-relaxed text-neutral-700">
-              Côté immobilier, le prix médian au m² s'établit à{" "}
-              <strong>{formatEuros(commune.prix_m2_median)} €</strong>
-              {commune.prix_m2_evolution_5y != null
-                ? ` (évolution ${formatPercent(commune.prix_m2_evolution_5y)} sur 5 ans)`
-                : ""}
-              {commune.loyer_m2_median != null
-                ? `. À la location, comptez en moyenne ${formatEuros(commune.loyer_m2_median)} €/m², soit un rendement locatif brut de ${formatPercent(commune.rendement_locatif)}`
-                : ""}
-              .
-            </p>
-          )}
-          {commune.bonus_gpe && commune.bonus_gpe > 0.4 && (
-            <p className="text-sm leading-relaxed text-neutral-700">
-              <strong>Grand Paris Express</strong> : {commune.nom} bénéficie de
-              l'arrivée prochaine d'une ou plusieurs gares du nouveau métro,
-              ce qui devrait améliorer significativement son accessibilité d'ici
-              2026-2030 — un facteur à anticiper dans une décision d'achat.
-            </p>
+          {NARRATIVES[commune.code_insee] ? (
+            <div className="mt-4 space-y-4">
+              {NARRATIVES[commune.code_insee]
+                .split(/\n\n+/)
+                .map((para, i) => (
+                  <p
+                    key={i}
+                    className="text-base leading-relaxed text-neutral-800"
+                  >
+                    {para}
+                  </p>
+                ))}
+            </div>
+          ) : (
+            <div className="mt-4 space-y-3">
+              <p className="text-sm leading-relaxed text-neutral-700">
+                {commune.nom} est une commune de {formatNumber(commune.population)}{" "}
+                habitants située dans {prepDept(commune.departement)} ({commune.region}),
+                à {commune.distance_paris_km} km de Paris. Le trajet jusqu'au
+                centre-ville parisien prend{" "}
+                <strong>{commune.temps_trajet_paris_min} minutes</strong>
+                {commune.ligne_principale ? ` via ${commune.ligne_principale}` : ""}
+                {commune.temps_trajet_voiture_min
+                  ? ` (et environ ${commune.temps_trajet_voiture_min} min en voiture hors trafic)`
+                  : ""}
+                .
+              </p>
+              {commune.prix_m2_median != null && (
+                <p className="text-sm leading-relaxed text-neutral-700">
+                  Côté immobilier, le prix médian au m² s'établit à{" "}
+                  <strong>{formatEuros(commune.prix_m2_median)} €</strong>
+                  {commune.prix_m2_evolution_5y != null
+                    ? ` (évolution ${formatPercent(commune.prix_m2_evolution_5y)} sur 5 ans)`
+                    : ""}
+                  {commune.loyer_m2_median != null
+                    ? `. À la location, comptez en moyenne ${formatEuros(commune.loyer_m2_median)} €/m², soit un rendement locatif brut de ${formatPercent(commune.rendement_locatif)}`
+                    : ""}
+                  .
+                </p>
+              )}
+              {commune.bonus_gpe && commune.bonus_gpe > 0.4 && (
+                <p className="text-sm leading-relaxed text-neutral-700">
+                  <strong>Grand Paris Express</strong> : {commune.nom} bénéficie
+                  de l'arrivée prochaine d'une ou plusieurs gares du nouveau
+                  métro, ce qui devrait améliorer significativement son
+                  accessibilité d'ici 2026-2030.
+                </p>
+              )}
+            </div>
           )}
         </section>
 
