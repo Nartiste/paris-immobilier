@@ -80,6 +80,43 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": `${SITE_URL}/#organization`,
+                  name: "Vivre près de Paris",
+                  url: SITE_URL,
+                  description:
+                    "Comparateur indépendant de communes pour les Parisiens en réflexion sur leur déménagement. Données DVF, INSEE, SNCF, IDFM.",
+                  sameAs: [],
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": `${SITE_URL}/#website`,
+                  url: SITE_URL,
+                  name: "Vivre près de Paris",
+                  description:
+                    "Compare 80+ communes pour quitter Paris : prix m², trajet vers Paris, qualité de vie, futures gares Grand Paris Express.",
+                  inLanguage: "fr-FR",
+                  publisher: { "@id": `${SITE_URL}/#organization` },
+                  potentialAction: {
+                    "@type": "SearchAction",
+                    target: {
+                      "@type": "EntryPoint",
+                      urlTemplate: `${SITE_URL}/?q={search_term_string}`,
+                    },
+                    "query-input": "required name=search_term_string",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
         {children}
         {PLAUSIBLE_SCRIPT_SRC ? (
           <>

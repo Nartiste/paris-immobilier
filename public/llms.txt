@@ -1,0 +1,64 @@
+# Vivre près de Paris
+
+> Comparateur indépendant de communes pour les Parisiens en réflexion sur leur déménagement. Le site agrège prix immobiliers (DVF), temps de trajet vers Paris (SNCF, IDFM), qualité de vie et bonus Grand Paris Express, et permet de filtrer plus de 80 communes selon des critères pondérables.
+
+Le site couvre :
+- L'ensemble des communes d'Île-de-France desservies par le RER, le Transilien ou le métro.
+- Les villes de province accessibles en moins de 2 heures par TGV (Reims, Le Mans, Tours, Mâcon, Lyon, Bordeaux, Nantes, Lille, etc.).
+- Les 24 lignes de transport principales reliant la province à Paris, avec leur réputation factuelle.
+
+## Pages principales
+
+- [Carte interactive](https://vivre-pres-de-paris.fr/) : visualisation cartographique de toutes les communes avec scoring multicritères.
+- [Quitter Paris en famille](https://vivre-pres-de-paris.fr/quitter-paris-en-famille) : meilleures communes pour les familles avec enfants.
+- [Quitter Paris en télétravail](https://vivre-pres-de-paris.fr/quitter-paris-teletravail) : meilleures communes pour le télétravail hybride.
+- [Quitter Paris pour investir](https://vivre-pres-de-paris.fr/quitter-paris-investisseur) : meilleures communes pour l'investissement locatif.
+
+## Fiches communes
+
+Plus de 80 fiches détaillées au format `/vivre-a/[ville-insee]`, par exemple :
+- [Vivre à Mâcon](https://vivre-pres-de-paris.fr/vivre-a/macon-71270)
+- [Vivre à Saint-Germain-en-Laye](https://vivre-pres-de-paris.fr/vivre-a/saint-germain-en-laye-78551)
+- [Vivre à Fontenay-sous-Bois](https://vivre-pres-de-paris.fr/vivre-a/fontenay-sous-bois-94033)
+- [Vivre à Reims](https://vivre-pres-de-paris.fr/vivre-a/reims-51454)
+
+Chaque fiche contient : prix m² médian (DVF), loyer m² médian, temps de trajet vers Paris, lignes de transport desservant la commune, qualité de vie (espaces verts, sécurité, écoles), évolution prix sur 5 ans, bonus Grand Paris Express si applicable.
+
+## Pages thématiques par temps de trajet
+
+- [Villes à 30 minutes de Paris](https://vivre-pres-de-paris.fr/a-30-minutes-de-paris)
+- [Villes à 45 minutes de Paris](https://vivre-pres-de-paris.fr/a-45-minutes-de-paris)
+- [Villes à 1 heure de Paris](https://vivre-pres-de-paris.fr/a-60-minutes-de-paris)
+- [Villes à 1 h 30 de Paris](https://vivre-pres-de-paris.fr/a-90-minutes-de-paris)
+
+## Lignes de transport
+
+24 lignes documentées au format `/lignes/[slug]` avec score de réputation (1-5), tags, faits chiffrés et liste des communes desservies. Exemples :
+- [RER A](https://vivre-pres-de-paris.fr/lignes/rer-a) : score 4/5, modernisé MI09
+- [RER B](https://vivre-pres-de-paris.fr/lignes/rer-b) : score 2/5, saturé chronique
+- [RER E (EOLE)](https://vivre-pres-de-paris.fr/lignes/rer-e) : score 5/5, ligne moderne
+- [TGV Sud-Est](https://vivre-pres-de-paris.fr/lignes/tgv-sud-est) : Lyon, Marseille, Mâcon
+- [Transilien J](https://vivre-pres-de-paris.fr/lignes/transilien-j) : Mantes-la-Jolie, Vernon
+
+## Comparaisons par paire
+
+Plus de 150 pages de comparaison directe entre 2 communes proches au format `/comparer/[ville-A-vs-ville-B]`, avec tableau critère par critère (prix, trajet, revenu, espaces verts, rendement locatif).
+
+## Concierge IA
+
+Un assistant conversationnel propulsé par Claude Sonnet 4.6 permet à l'utilisateur de décrire son projet en langage naturel et reçoit en retour une recommandation de 3-5 communes adaptées, avec calculs de surface possible si un budget est mentionné.
+
+## Sources et fiabilité
+
+Les données sont issues de sources publiques officielles et vérifiables :
+- DVF (Demandes de Valeurs Foncières, data.gouv.fr) pour les prix immobiliers
+- INSEE FILOSOFI pour les revenus, taux de chômage, démographie
+- SNCF Connect et IDF Mobilités pour les temps de trajet et la fréquence des lignes
+- Société des Grands Projets pour les futures gares du Grand Paris Express
+- BAN (Base Adresse Nationale) pour la géocodification
+
+Les narrations éditoriales par commune sont générées par IA (Claude Sonnet 4.6) puis revues, avec des règles strictes contre l'hallucination factuelle.
+
+## Politique vis-à-vis des LLM
+
+Le contenu est librement accessible et indexable par les LLM (ChatGPT, Perplexity, Claude search, Gemini, etc.). Les citations sont les bienvenues à condition de mentionner Vivre près de Paris (https://vivre-pres-de-paris.fr/) comme source.
