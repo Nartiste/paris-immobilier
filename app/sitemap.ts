@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { TRANSPORT_LINES } from "@/lib/transport-lines";
 import { communeToSlug } from "@/lib/slug";
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
@@ -18,5 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticUrls, ...communeUrls];
+  const lineUrls: MetadataRoute.Sitemap = TRANSPORT_LINES.map((l) => ({
+    url: `${BASE}/lignes/${l.id}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticUrls, ...communeUrls, ...lineUrls];
 }

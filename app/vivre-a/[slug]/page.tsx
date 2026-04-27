@@ -10,6 +10,7 @@ import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import { buildCTAs } from "@/lib/monetize";
 import { NARRATIVES } from "@/lib/city-narratives";
 import CityFooter from "@/components/CityFooter";
+import TransportPanel from "@/components/TransportPanel";
 
 export const dynamicParams = false;
 
@@ -262,6 +263,10 @@ export default async function VivreACommunePage({
             </div>
           )}
         </section>
+
+        <div className="mt-10">
+          <TransportPanel ligneStr={commune.ligne_principale} />
+        </div>
 
         {ctas.length > 0 && (
           <section className="mt-10 rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50 to-white p-5">

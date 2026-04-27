@@ -6,6 +6,7 @@ import { useAppStore } from "@/lib/store";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import MonetizeBlock from "./MonetizeBlock";
+import TransportPanel from "./TransportPanel";
 
 type Props = {
   commune: Commune;
@@ -205,6 +206,8 @@ export default function CommuneCard({ commune, onClose }: Props) {
           }
         />
       </div>
+
+      <TransportPanel ligneStr={commune.ligne_principale} compact />
 
       <MonetizeBlock commune={commune} profile={profile} />
     </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { TRANSPORT_LINES } from "@/lib/transport-lines";
 import { communeToSlug } from "@/lib/slug";
 
 /**
@@ -173,6 +174,26 @@ export default function CityFooter() {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Hub lignes de transport */}
+        <div className="mt-10 border-t border-neutral-200 pt-6">
+          <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-neutral-700">
+            Lignes de transport ({TRANSPORT_LINES.length})
+          </h3>
+          <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            {TRANSPORT_LINES.map((l) => (
+              <li key={l.id}>
+                <Link
+                  href={`/lignes/${l.id}`}
+                  className="block truncate text-neutral-600 hover:text-neutral-900 hover:underline"
+                  title={`${l.code} : ${l.reputation.summary}`}
+                >
+                  {l.code}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* Hub principal : toutes les villes */}
