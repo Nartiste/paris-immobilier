@@ -14,7 +14,7 @@ const ICONS: Record<Partner, React.ComponentType<{ className?: string }>> = {
 
 const PARTNER_COLOR: Record<Partner, string> = {
   pretto: "text-emerald-700 bg-emerald-50",
-  luko: "text-violet-700 bg-violet-50",
+  luko: "text-brand-iris-strong bg-brand-iris-soft",
   liberkeys: "text-blue-700 bg-blue-50",
   moveasy: "text-amber-700 bg-amber-50",
 };

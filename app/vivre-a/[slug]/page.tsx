@@ -279,7 +279,7 @@ export default async function VivreACommunePage({
         </div>
 
         {ctas.length > 0 && (
-          <section className="mt-10 rounded-2xl border border-violet-100 bg-gradient-to-br from-violet-50 to-white p-5">
+          <section className="mt-10 rounded-2xl border border-brand-iris/20 bg-gradient-to-br from-violet-50 to-white p-5">
             <h2 className="text-base font-semibold text-neutral-900">
               Vous envisagez de vous installer à {commune.nom} ?
             </h2>

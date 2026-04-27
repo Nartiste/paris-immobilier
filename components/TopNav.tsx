@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Sparkles, Menu, X } from "lucide-react";
 import AddressSearchClient from "./AddressSearchClient";
+import BrandMark from "./BrandMark";
 import { useAppStore } from "@/lib/store";
 
 /**
@@ -40,34 +41,20 @@ export default function TopNav() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-neutral-200/60 bg-white/85 shadow-[0_1px_2px_rgba(0,0,0,0.04)] backdrop-blur-xl">
-      <div className="mx-auto flex h-14 max-w-[1400px] items-center gap-3 px-4 lg:px-6">
+    <header className="sticky top-0 z-40 border-b border-brand-bleu/10 bg-white/85 shadow-[0_1px_2px_rgba(82,98,122,0.06)] backdrop-blur-xl">
+      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-3 px-4 lg:px-6">
         <Link
           href="/"
-          className="flex flex-shrink-0 items-center gap-2 transition-opacity hover:opacity-80"
+          className="flex flex-shrink-0 items-center gap-2.5 transition-opacity hover:opacity-90"
           aria-label="Accueil Vivre près de Paris"
         >
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-neutral-900 to-neutral-700 text-white shadow-[0_2px_8px_rgba(0,0,0,0.12)]">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-4 w-4"
-              aria-hidden
-            >
-              <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-              <polyline points="9 22 9 12 15 12 15 22" />
-            </svg>
-          </div>
+          <BrandMark className="h-10 w-10" />
           <div className="hidden sm:block">
-            <span className="block text-sm font-semibold leading-tight text-neutral-900">
-              Vivre près de Paris
+            <span className="block font-display text-base font-medium leading-none tracking-tight text-brand-bleu">
+              Vivre <span className="italic text-brand-iris">près</span> de Paris
             </span>
-            <span className="block text-[10px] text-neutral-500">
-              Comparateur de communes
+            <span className="mt-0.5 block text-[9px] uppercase tracking-[0.18em] text-brand-bleu/60">
+              Trouver son refuge
             </span>
           </div>
         </Link>
@@ -91,7 +78,7 @@ export default function TopNav() {
           <button
             type="button"
             onClick={() => setConciergeOpen(true)}
-            className="ml-1 inline-flex items-center gap-1 rounded-xl bg-gradient-to-br from-violet-600 to-purple-600 px-3 py-1.5 text-xs font-medium text-white shadow-[0_2px_8px_rgba(124,58,237,0.3)] transition-all hover:shadow-[0_4px_12px_rgba(124,58,237,0.45)]"
+            className="ml-1 inline-flex items-center gap-1.5 rounded-2xl bg-brand-iris px-3.5 py-2 text-xs font-semibold text-white shadow-[0_4px_14px_rgba(157,140,242,0.4)] transition-all hover:bg-brand-iris-strong hover:shadow-[0_6px_18px_rgba(157,140,242,0.55)]"
           >
             <Sparkles className="h-3 w-3" />
             Concierge IA
@@ -164,7 +151,7 @@ export default function TopNav() {
                   setConciergeOpen(true);
                   setOpen(false);
                 }}
-                className="flex w-full items-center gap-2 rounded-xl px-3 py-2.5 text-left text-sm text-violet-700 hover:bg-violet-50"
+                className="flex w-full items-center gap-2 rounded-xl px-3 py-2.5 text-left text-sm text-brand-iris-strong hover:bg-brand-iris-soft"
               >
                 <Sparkles className="h-4 w-4" />
                 Concierge IA

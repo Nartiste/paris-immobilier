@@ -151,9 +151,9 @@ export default function Concierge() {
         onClick={() => setConciergeOpen(false)}
       />
       <div className="relative flex h-full max-h-[640px] w-full max-w-md flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl">
-        <div className="flex items-center justify-between border-b border-neutral-100 bg-gradient-to-r from-violet-50 to-white px-4 py-3">
+        <div className="flex items-center justify-between border-b border-neutral-100 bg-gradient-to-r from-brand-iris-soft to-white px-4 py-3">
           <div className="flex items-center gap-2">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-violet-600 text-white">
+            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-brand-iris text-white">
               <Sparkles className="h-3.5 w-3.5" />
             </div>
             <div>
@@ -186,7 +186,7 @@ export default function Concierge() {
                   <button
                     key={s}
                     onClick={() => send(s)}
-                    className="block w-full rounded-md border border-neutral-200 px-2.5 py-1.5 text-left text-xs text-neutral-700 hover:border-violet-300 hover:bg-violet-50"
+                    className="block w-full rounded-md border border-neutral-200 px-2.5 py-1.5 text-left text-xs text-neutral-700 hover:border-brand-iris/50 hover:bg-brand-iris-soft"
                   >
                     {s}
                   </button>
@@ -248,7 +248,7 @@ export default function Concierge() {
             <button
               type="submit"
               disabled={streaming || !draft.trim()}
-              className="flex h-9 w-9 items-center justify-center rounded-lg bg-violet-600 text-white transition-colors hover:bg-violet-700 disabled:bg-neutral-300"
+              className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-iris text-white transition-colors hover:bg-brand-iris-strong disabled:bg-neutral-300"
               aria-label="Envoyer"
             >
               {streaming ? (
@@ -317,7 +317,7 @@ function ChatBubble({
     <div className="flex justify-start">
       <div className="max-w-[90%] space-y-2">
         {parsed?.intro && (
-          <div className="rounded-2xl rounded-bl-sm bg-violet-50 px-3 py-2 text-sm text-neutral-800">
+          <div className="rounded-2xl rounded-bl-sm bg-brand-iris-soft px-3 py-2 text-sm text-neutral-800">
             {parsed.intro}
             {partial && <span className="ml-1 inline-block h-3 w-1 animate-pulse bg-violet-400" />}
           </div>
@@ -330,7 +330,7 @@ function ChatBubble({
             <button
               key={r.insee}
               onClick={() => onPickCommune(r.insee)}
-              className="flex w-full items-start gap-3 rounded-xl border border-neutral-200 bg-white p-3 text-left transition-colors hover:border-violet-300 hover:bg-violet-50/50"
+              className="flex w-full items-start gap-3 rounded-xl border border-neutral-200 bg-white p-3 text-left transition-colors hover:border-brand-iris/50 hover:bg-brand-iris-soft/50"
             >
               <div
                 className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg text-xs font-bold tabular-nums text-white"
@@ -362,7 +362,7 @@ function ChatBubble({
         )}
 
         {!parsed && !partial && (
-          <div className="rounded-2xl rounded-bl-sm bg-violet-50 px-3 py-2 text-sm text-neutral-800">
+          <div className="rounded-2xl rounded-bl-sm bg-brand-iris-soft px-3 py-2 text-sm text-neutral-800">
             {content}
           </div>
         )}

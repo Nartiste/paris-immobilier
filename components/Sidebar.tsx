@@ -123,10 +123,10 @@ export default function Sidebar() {
         <button
           onClick={toggleGpe}
           className={cn(
-            "flex w-full items-center justify-between rounded-lg border px-3 py-2 text-sm transition-colors",
+            "flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm transition-colors",
             showGpe
-              ? "border-violet-600 bg-violet-50 text-violet-900"
-              : "border-neutral-200 bg-white text-neutral-700",
+              ? "bg-brand-iris-soft text-brand-iris-strong shadow-[0_1px_3px_rgba(157,140,242,0.2)]"
+              : "border border-neutral-200 bg-white text-neutral-700",
           )}
         >
           <span className="flex items-center gap-2">
