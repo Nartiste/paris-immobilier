@@ -184,39 +184,6 @@ export default function HomeShell() {
         </div>
       </section>
 
-      {/* PAR TEMPS DE TRAJET */}
-      <section className="bg-white px-5 py-10 sm:px-7">
-        <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
-          Par temps de trajet vers Paris
-        </h2>
-        <p className="mt-1 text-xs text-neutral-500">
-          De la petite couronne en 15 minutes aux villes TGV à 2 heures.
-        </p>
-        <div className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
-          {[
-            { t: 15, label: "15 min" },
-            { t: 30, label: "30 min" },
-            { t: 45, label: "45 min" },
-            { t: 60, label: "1 heure" },
-            { t: 90, label: "1 h 30" },
-            { t: 120, label: "2 heures" },
-          ].map((b) => (
-            <Link
-              key={b.t}
-              href={`/a-${b.t}-minutes-de-paris`}
-              className="rounded-2xl bg-neutral-50/60 px-3 py-3 text-center transition-all hover:bg-white hover:shadow-[0_4px_16px_rgba(16,185,129,0.12)]"
-            >
-              <div className="text-sm font-bold text-neutral-900">
-                {b.label}
-              </div>
-              <div className="mt-0.5 text-[10px] text-neutral-500">
-                de Paris
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* PAR LIGNE */}
       <section className="bg-neutral-50/60 px-5 py-10 sm:px-7">
         <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
