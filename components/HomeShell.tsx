@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Train, Sparkles, Map as MapIcon, ArrowRight } from "lucide-react";
+import type { ComponentType } from "react";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { TRANSPORT_LINES, reputationColor } from "@/lib/transport-lines";
 import { PERSONAS } from "@/lib/persona";
@@ -156,27 +157,30 @@ export default function HomeShell() {
           Sélections curatées selon ton profil de relocation.
         </p>
         <div className="mt-5 grid gap-3 sm:grid-cols-3">
-          {PERSONAS.map((p) => (
-            <Link
-              key={p.slug}
-              href={`/${p.slug}`}
-              className="group rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(0,0,0,0.04)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(124,58,237,0.12)]"
-            >
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-100 text-violet-700">
-                <Sparkles className="h-4 w-4" />
-              </div>
-              <div className="mt-3 text-sm font-semibold text-neutral-900">
-                {p.shortLabel}
-              </div>
-              <div className="mt-1 text-[11px] leading-snug text-neutral-500">
-                {p.metaDescription.slice(0, 90)}…
-              </div>
-              <div className="mt-3 inline-flex items-center gap-1 text-[11px] font-medium text-violet-700 opacity-0 transition-opacity group-hover:opacity-100">
-                Découvrir
-                <ArrowRight className="h-3 w-3" />
-              </div>
-            </Link>
-          ))}
+          {PERSONAS.map((p) => {
+            const Icon = personaIcon(p.slug);
+            return (
+              <Link
+                key={p.slug}
+                href={`/${p.slug}`}
+                className="group rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(82,98,122,0.05)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(82,98,122,0.12)]"
+              >
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-iris-soft text-brand-bleu">
+                  <Icon />
+                </div>
+                <div className="mt-3 text-sm font-semibold text-neutral-900">
+                  {p.shortLabel}
+                </div>
+                <div className="mt-1 text-[11px] leading-snug text-neutral-500">
+                  {p.metaDescription.slice(0, 90)}…
+                </div>
+                <div className="mt-3 inline-flex items-center gap-1 text-[11px] font-medium text-brand-iris-strong opacity-0 transition-opacity group-hover:opacity-100">
+                  Découvrir
+                  <ArrowRight className="h-3 w-3" />
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -283,5 +287,61 @@ export default function HomeShell() {
         </div>
       </section>
     </>
+  );
+}
+
+/* ───────────────────────────────────────────────────────────────────
+   Icônes personas — line-art on-brand (style cohérent avec le pin)
+   ─────────────────────────────────────────────────────────────────── */
+
+function personaIcon(slug: string): ComponentType {
+  if (slug.includes("famille")) return IconFamille;
+  if (slug.includes("teletravail")) return IconTeletravail;
+  return IconInvestir;
+}
+
+const STROKE = {
+  fill: "none" as const,
+  stroke: "currentColor",
+  strokeWidth: 1.5,
+  strokeLinecap: "round" as const,
+  strokeLinejoin: "round" as const,
+};
+
+function IconFamille() {
+  // Maison à toit pentu + arbre — référence visuelle au pin
+  return (
+    <svg viewBox="0 0 24 24" width={20} height={20} {...STROKE}>
+      <path d="M2.5 11 L8 5.5 L13.5 11" />
+      <path d="M3.5 11 L3.5 19 L12.5 19 L12.5 11" />
+      <rect x="6.5" y="13.5" width="3.5" height="5.5" />
+      <ellipse cx="18" cy="11.5" rx="3" ry="4" />
+      <line x1="18" y1="15.5" x2="18" y2="19" />
+    </svg>
+  );
+}
+
+function IconTeletravail() {
+  // Tasse de café avec vapeur — calme du télétravail à domicile
+  return (
+    <svg viewBox="0 0 24 24" width={20} height={20} {...STROKE}>
+      <path d="M8 3.5 q-1 1.5 0 3" />
+      <path d="M12 2.5 q-1 1.5 0 3" />
+      <path d="M16 3.5 q-1 1.5 0 3" />
+      <path d="M4 9 L4 16.5 q0 2.5 2.5 2.5 L14.5 19 q2.5 0 2.5 -2.5 L17 9 Z" />
+      <path d="M17 11.5 q3 0 3 2.5 q0 2.5 -3 2.5" />
+    </svg>
+  );
+}
+
+function IconInvestir() {
+  // Clé classique — universel pour propriété / investissement
+  return (
+    <svg viewBox="0 0 24 24" width={20} height={20} {...STROKE}>
+      <circle cx="7" cy="12" r="3.5" />
+      <line x1="10.5" y1="12" x2="20.5" y2="12" />
+      <line x1="16" y1="12" x2="16" y2="14.5" />
+      <line x1="20.5" y1="12" x2="20.5" y2="15" />
+    </svg>
   );
 }
