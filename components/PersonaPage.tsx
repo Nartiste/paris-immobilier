@@ -5,6 +5,7 @@ import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros, formatPercent } from "@/lib/utils";
 import CityFooter from "@/components/CityFooter";
+import AffiliateStrip from "@/components/AffiliateStrip";
 
 type Props = {
   persona: Persona;
@@ -172,6 +173,8 @@ export default function PersonaPage({ persona }: Props) {
             ))}
           </div>
         </section>
+
+        <AffiliateStrip page={persona.slug} />
 
         <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-brand-bleu via-brand-bleu to-brand-iris p-7 text-center shadow-[0_8px_24px_rgba(82,98,122,0.18)]">
           <p className="text-base font-medium text-white">

@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticUrls: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
+    { url: `${BASE}/comparer`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
     { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...PERSONAS.map((p) => ({
       url: `${BASE}/${p.slug}`,

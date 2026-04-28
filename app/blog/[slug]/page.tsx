@@ -7,6 +7,7 @@ import remarkGfm from "remark-gfm";
 import { BLOG_POSTS, BLOG_POSTS_BY_SLUG } from "@/lib/blog-posts";
 import { BLOG_CONTENT } from "@/lib/blog-content";
 import CityFooter from "@/components/CityFooter";
+import AffiliateStrip from "@/components/AffiliateStrip";
 
 export const dynamicParams = false;
 
@@ -160,6 +161,8 @@ export default async function BlogPostPage({
             </div>
           </section>
         )}
+
+        <AffiliateStrip page={`blog-${slug}`} />
 
         <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-brand-bleu via-brand-bleu to-brand-iris p-7 text-center shadow-[0_8px_24px_rgba(82,98,122,0.18)]">
           <p className="text-base font-medium text-white">
