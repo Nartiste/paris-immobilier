@@ -93,17 +93,21 @@ export default function HomeShell() {
               Lire le top 10
             </Link>
           </div>
-          <div className="mt-10 flex flex-col items-center gap-1.5 text-brand-bleu/50">
+          <a
+            href="#top-10"
+            className="mt-10 flex flex-col items-center gap-1.5 text-brand-bleu/50 transition-colors hover:text-brand-bleu"
+            aria-label="Faire défiler jusqu'au Top 10 des communes"
+          >
             <span className="text-[10px] font-medium uppercase tracking-[0.2em]">
               Découvre la suite
             </span>
             <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden />
-          </div>
+          </a>
         </div>
       </section>
 
       {/* TOP 10 COMMUNES */}
-      <section className="bg-white px-5 py-10 sm:px-7">
+      <section id="top-10" className="scroll-mt-4 bg-white px-5 py-10 sm:px-7">
         <div className="flex items-baseline justify-between">
           <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
             Top 10 communes
