@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef } from "react";
 import maplibregl, { Map as MapLibreMap, Popup } from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
 import type { Commune, GpeStation, Weights, ScoreMode, Profile } from "@/lib/types";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { formatEuros } from "@/lib/utils";
@@ -109,13 +110,15 @@ export default function Map({
         [-7, 40],
         [12, 52],
       ],
-      // Mode coopératif : un doigt = scroll de page, 2 doigts = pan map.
-      // Évite que le map "vole" le scroll sur mobile.
-      cooperativeGestures: true,
+      cooperativeGestures: false,
+      attributionControl: false,
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
-    map.addControl(new maplibregl.ScaleControl(), "bottom-left");
+    map.addControl(
+      new maplibregl.AttributionControl({ compact: true, customAttribution: "© OpenStreetMap" }),
+      "bottom-right",
+    );
 
     map.on("load", () => {
       map.addSource("communes", {
