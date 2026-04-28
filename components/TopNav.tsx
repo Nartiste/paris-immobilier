@@ -48,7 +48,7 @@ export default function TopNav() {
           className="flex flex-shrink-0 items-center gap-3 transition-opacity hover:opacity-90"
           aria-label="Accueil Vivre près de Paris"
         >
-          <BrandMark className="h-14 w-14 sm:h-16 sm:w-16" />
+          <BrandMark className="h-14 w-14 sm:h-16 sm:w-16" priority />
           <div className="hidden sm:block">
             <span className="block font-display text-lg font-medium leading-none tracking-tight text-brand-bleu">
               Vivre <span className="italic text-brand-iris">près</span> de Paris
