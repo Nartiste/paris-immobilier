@@ -34,7 +34,7 @@ export default function CommuneCard({ commune, onClose }: Props) {
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-30 flex max-h-[80vh] flex-col overflow-y-auto rounded-t-2xl border-t border-neutral-200 bg-white pb-[env(safe-area-inset-bottom)] shadow-2xl
-                    lg:absolute lg:inset-x-auto lg:bottom-auto lg:right-4 lg:top-[76px] lg:max-h-[calc(100vh-96px)] lg:w-[340px] lg:rounded-xl lg:border lg:shadow-xl">
+                    lg:absolute lg:inset-x-auto lg:bottom-auto lg:right-4 lg:top-[92px] lg:max-h-[calc(100vh-112px)] lg:w-[340px] lg:rounded-xl lg:border lg:shadow-xl">
       <div className="flex items-start justify-between p-4 pb-2">
         <div className="min-w-0 flex-1">
           <h2 className="truncate text-lg font-semibold text-neutral-900">

@@ -42,18 +42,18 @@ export default function TopNav() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-brand-bleu/10 bg-white/85 shadow-[0_1px_2px_rgba(82,98,122,0.06)] backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-3 px-4 lg:px-6">
+      <div className="mx-auto flex h-20 max-w-[1400px] items-center gap-3 px-4 lg:px-6">
         <Link
           href="/"
-          className="flex flex-shrink-0 items-center gap-2.5 transition-opacity hover:opacity-90"
+          className="flex flex-shrink-0 items-center gap-3 transition-opacity hover:opacity-90"
           aria-label="Accueil Vivre près de Paris"
         >
-          <BrandMark className="h-11 w-11" />
+          <BrandMark className="h-14 w-14 sm:h-16 sm:w-16" />
           <div className="hidden sm:block">
-            <span className="block font-display text-base font-medium leading-none tracking-tight text-brand-bleu">
+            <span className="block font-display text-lg font-medium leading-none tracking-tight text-brand-bleu">
               Vivre <span className="italic text-brand-iris">près</span> de Paris
             </span>
-            <span className="mt-0.5 block text-[9px] uppercase tracking-[0.18em] text-brand-bleu/60">
+            <span className="mt-1 block text-[10px] uppercase tracking-[0.18em] text-brand-bleu/60">
               Trouver son refuge
             </span>
           </div>

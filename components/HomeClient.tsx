@@ -139,9 +139,9 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
   }, [mobileMapOpen]);
 
   return (
-    <div className="lg:relative lg:flex lg:min-h-[calc(100vh-3.5rem)]">
+    <div className="lg:relative lg:flex lg:min-h-[calc(100vh-5rem)]">
       {/* PANNEAU GAUCHE — content scrollable (server SEO + filters) */}
-      <aside className="bg-neutral-50 lg:h-[calc(100vh-3.5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-r lg:border-neutral-200 lg:bg-white">
+      <aside className="bg-neutral-50 lg:h-[calc(100vh-5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-r lg:border-neutral-200 lg:bg-white">
         {leftContent}
 
         {/* Filtres interactifs */}
@@ -169,7 +169,7 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         className={
           mobileMapOpen
             ? "fixed inset-0 z-50 bg-white"
-            : "sticky top-14 hidden h-[calc(100vh-3.5rem)] flex-1 lg:block"
+            : "sticky top-20 hidden h-[calc(100vh-5rem)] flex-1 lg:block"
         }
       >
         <MapView

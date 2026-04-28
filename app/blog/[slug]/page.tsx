@@ -161,15 +161,15 @@ export default async function BlogPostPage({
           </section>
         )}
 
-        <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-neutral-900 to-neutral-700 p-7 text-center text-white shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
-          <p className="text-sm text-neutral-700">
+        <section className="mt-12 overflow-hidden rounded-3xl bg-gradient-to-br from-brand-bleu via-brand-bleu to-brand-iris p-7 text-center shadow-[0_8px_24px_rgba(82,98,122,0.18)]">
+          <p className="text-base font-medium text-white">
             Tu veux comparer concrètement les villes citées dans cet article ?
           </p>
           <Link
-            href="/"
-            className="mt-3 inline-flex rounded-2xl bg-white px-4 py-2.5 text-sm font-medium text-neutral-900 shadow-[0_2px_8px_rgba(0,0,0,0.15)] transition-transform hover:scale-[1.02]"
+            href="/comparer"
+            className="mt-4 inline-flex items-center gap-1.5 rounded-2xl bg-white px-5 py-2.5 text-sm font-semibold text-brand-bleu shadow-[0_4px_14px_rgba(0,0,0,0.12)] transition-transform hover:scale-[1.02]"
           >
-            <ArrowLeft className="mr-1 h-3.5 w-3.5" />
+            <ArrowLeft className="h-3.5 w-3.5" />
             Ouvrir le comparateur interactif
           </Link>
         </section>
