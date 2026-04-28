@@ -282,5 +282,5 @@ export default function Map({
     });
   }, [flyTo]);
 
-  return <div ref={mapContainerRef} className="absolute inset-0" />;
+  return <div ref={mapContainerRef} className="!absolute inset-0" />;
 }
