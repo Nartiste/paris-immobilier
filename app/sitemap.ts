@@ -28,12 +28,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const communeUrls: MetadataRoute.Sitemap = SAMPLE_COMMUNES.map((c) => ({
-    url: `${BASE}/vivre-a/${communeToSlug(c)}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
+  const seen = new Set<string>();
+  const communeUrls: MetadataRoute.Sitemap = SAMPLE_COMMUNES
+    .filter((c) => {
+      const slug = communeToSlug(c);
+      if (seen.has(slug)) return false;
+      seen.add(slug);
+      return true;
+    })
+    .map((c) => ({
+      url: `${BASE}/vivre-a/${communeToSlug(c)}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    }));
 
   const lineUrls: MetadataRoute.Sitemap = TRANSPORT_LINES.map((l) => ({
     url: `${BASE}/lignes/${l.id}`,
