@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Train, Sparkles, Map as MapIcon, ArrowRight } from "lucide-react";
+import { Train, Sparkles, Map as MapIcon, ArrowRight, ChevronDown } from "lucide-react";
 import type { ComponentType } from "react";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { TRANSPORT_LINES, reputationColor } from "@/lib/transport-lines";
@@ -92,6 +92,12 @@ export default function HomeShell() {
             >
               Lire le top 10
             </Link>
+          </div>
+          <div className="mt-10 flex flex-col items-center gap-1.5 text-brand-bleu/50">
+            <span className="text-[10px] font-medium uppercase tracking-[0.2em]">
+              Découvre la suite
+            </span>
+            <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden />
           </div>
         </div>
       </section>

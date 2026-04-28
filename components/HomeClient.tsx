@@ -141,7 +141,7 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
   return (
     <div className="lg:relative lg:flex lg:min-h-[calc(100vh-5rem)]">
       {/* PANNEAU GAUCHE — content scrollable (server SEO + filters) */}
-      <aside className="bg-neutral-50 lg:h-[calc(100vh-5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-r lg:border-neutral-200 lg:bg-white">
+      <aside className="bg-neutral-50 lg:h-[calc(100vh-5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-r lg:border-neutral-200 lg:bg-white [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-brand-bleu/25 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-brand-bleu/40 [scrollbar-width:thin] [scrollbar-color:rgba(82,98,122,0.25)_transparent]">
         {leftContent}
 
         {/* Filtres interactifs */}
