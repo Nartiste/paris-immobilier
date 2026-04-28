@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import { Map as MapIcon, X } from "lucide-react";
 import Sidebar from "./Sidebar";
 import CommuneCard from "./CommuneCard";
-import CompareView from "./CompareView";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation } from "@/lib/types";
 import { communeToSlug } from "@/lib/slug";
@@ -66,8 +65,6 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     showGpe,
     selectedCommuneInsee,
     setSelectedCommune,
-    compareCommuneInsee,
-    setCompareCommune,
     pendingAddress,
     setPendingAddress,
   } = useAppStore();
@@ -98,16 +95,6 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     () => allCommunes.find((c) => c.code_insee === selectedCommuneInsee) ?? null,
     [allCommunes, selectedCommuneInsee],
   );
-
-  const compareCommune = useMemo(
-    () => allCommunes.find((c) => c.code_insee === compareCommuneInsee) ?? null,
-    [allCommunes, compareCommuneInsee],
-  );
-
-  const showCompareView =
-    !!compareCommune &&
-    !!selectedCommune &&
-    compareCommune.code_insee !== selectedCommune.code_insee;
 
   // Réagit aux pendingAddress dispatchés par AddressSearchClient.
   //
@@ -226,18 +213,6 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         <CommuneCard
           commune={selectedCommune}
           onClose={() => setSelectedCommune(null)}
-        />
-      )}
-
-      {showCompareView && selectedCommune && compareCommune && (
-        <CompareView
-          a={compareCommune}
-          b={selectedCommune}
-          onClose={() => setCompareCommune(null)}
-          onSwap={() => {
-            setSelectedCommune(compareCommune.code_insee);
-            setCompareCommune(selectedCommune.code_insee);
-          }}
         />
       )}
 

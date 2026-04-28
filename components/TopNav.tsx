@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Sparkles, Menu, X } from "lucide-react";
+import { Sparkles, Menu, X, ArrowRightLeft } from "lucide-react";
 import AddressSearchClient from "./AddressSearchClient";
 import BrandMark from "./BrandMark";
 import { useAppStore } from "@/lib/store";
@@ -62,7 +62,6 @@ export default function TopNav() {
         {/* Desktop nav (md+) */}
         <div className="hidden flex-1 items-center justify-end gap-2 md:flex">
           <nav aria-label="Navigation principale" className="flex items-center gap-1">
-            <NavLink href="/comparer">Comparer</NavLink>
             <NavLink href="/blog">Blog</NavLink>
             <NavDropdown
               label="Quitter Paris"
@@ -73,13 +72,20 @@ export default function TopNav() {
               ]}
             />
           </nav>
-          <div className="ml-2 w-64 lg:w-80">
+          <div className="ml-2 w-56 lg:w-64">
             <AddressSearchClient />
           </div>
+          <Link
+            href="/comparer"
+            className="ml-1 inline-flex items-center gap-1.5 rounded-2xl bg-brand-bleu px-3.5 py-2 text-xs font-semibold text-white shadow-[0_4px_14px_rgba(82,98,122,0.25)] transition-all hover:bg-brand-bleu/90 hover:shadow-[0_6px_18px_rgba(82,98,122,0.35)]"
+          >
+            <ArrowRightLeft className="h-3 w-3" />
+            Comparer
+          </Link>
           <button
             type="button"
             onClick={() => setConciergeOpen(true)}
-            className="ml-1 inline-flex items-center gap-1.5 rounded-2xl bg-brand-iris px-3.5 py-2 text-xs font-semibold text-white shadow-[0_4px_14px_rgba(157,140,242,0.4)] transition-all hover:bg-brand-iris-strong hover:shadow-[0_6px_18px_rgba(157,140,242,0.55)]"
+            className="inline-flex items-center gap-1.5 rounded-2xl bg-brand-iris px-3.5 py-2 text-xs font-semibold text-white shadow-[0_4px_14px_rgba(157,140,242,0.4)] transition-all hover:bg-brand-iris-strong hover:shadow-[0_6px_18px_rgba(157,140,242,0.55)]"
           >
             <Sparkles className="h-3 w-3" />
             Concierge IA
@@ -121,16 +127,21 @@ export default function TopNav() {
                 <X className="h-5 w-5" />
               </button>
             </div>
-            <div className="p-4">
+            <div className="space-y-3 p-4">
               <AddressSearchClient />
+              <Link
+                href="/comparer"
+                onClick={() => setOpen(false)}
+                className="flex items-center justify-center gap-1.5 rounded-2xl bg-brand-bleu px-4 py-3 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(82,98,122,0.25)]"
+              >
+                <ArrowRightLeft className="h-4 w-4" />
+                Comparer 2 villes
+              </Link>
             </div>
             <nav
               aria-label="Navigation mobile"
               className="space-y-0.5 px-2 pb-4"
             >
-              <MobileNavLink href="/comparer" onClick={() => setOpen(false)}>
-                Comparer 2 villes
-              </MobileNavLink>
               <MobileNavLink href="/blog" onClick={() => setOpen(false)}>
                 Blog
               </MobileNavLink>

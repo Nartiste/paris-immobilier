@@ -1,10 +1,12 @@
 "use client";
 
-import { X, Train, Car, Clock, ArrowRightLeft } from "lucide-react";
+import Link from "next/link";
+import { X, Train, Car, Clock, ArrowRight, ArrowRightLeft } from "lucide-react";
 import type { Commune } from "@/lib/types";
 import { useAppStore } from "@/lib/store";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
+import { communeToSlug } from "@/lib/slug";
 import MonetizeBlock from "./MonetizeBlock";
 import TransportPanel from "./TransportPanel";
 
@@ -14,15 +16,7 @@ type Props = {
 };
 
 export default function CommuneCard({ commune, onClose }: Props) {
-  const {
-    weights,
-    mode,
-    profile,
-    compareCommuneInsee,
-    setCompareCommune,
-  } = useAppStore();
-  const isWaitingForSecond =
-    compareCommuneInsee === commune.code_insee;
+  const { weights, mode, profile } = useAppStore();
   const score = computeCommuneScore(commune, weights, mode, profile);
   const color = scoreToColor(score.total);
 
@@ -51,41 +45,32 @@ export default function CommuneCard({ commune, onClose }: Props) {
             {formatNumber(commune.population)} hab.
           </p>
         </div>
-        <div className="ml-2 flex flex-shrink-0 items-center gap-1">
-          {isWaitingForSecond ? (
-            <button
-              onClick={() => setCompareCommune(null)}
-              className="rounded-md bg-emerald-600 px-2 py-1 text-[11px] font-medium text-white hover:bg-emerald-700"
-              title="Annuler la comparaison"
-            >
-              Annuler
-            </button>
-          ) : (
-            <button
-              onClick={() => setCompareCommune(commune.code_insee)}
-              className="rounded-md border border-neutral-200 px-2 py-1 text-[11px] font-medium text-neutral-700 hover:bg-neutral-100"
-              title="Comparer avec une autre commune"
-            >
-              <ArrowRightLeft className="inline h-3 w-3" />
-              <span className="ml-1">Comparer</span>
-            </button>
-          )}
-          <button
-            onClick={onClose}
-            className="rounded p-1 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-700"
-            aria-label="Fermer"
-          >
-            <X className="h-4 w-4" />
-          </button>
-        </div>
+        <button
+          onClick={onClose}
+          className="ml-2 flex-shrink-0 rounded p-1.5 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-700"
+          aria-label="Fermer"
+        >
+          <X className="h-4 w-4" />
+        </button>
       </div>
 
-      {isWaitingForSecond && (
-        <div className="mx-4 mb-2 flex items-center gap-1.5 rounded-md bg-emerald-50 px-2 py-1.5 text-[11px] text-emerald-800">
+      {/* CTAs primaires : fiche complète + comparer */}
+      <div className="grid grid-cols-2 gap-2 px-4 pb-3">
+        <Link
+          href={`/vivre-a/${communeToSlug(commune)}`}
+          className="flex items-center justify-center gap-1.5 rounded-xl bg-brand-bleu px-3 py-2 text-xs font-semibold text-white shadow-[0_2px_8px_rgba(82,98,122,0.2)] transition-transform hover:scale-[1.02]"
+        >
+          Voir la fiche
+          <ArrowRight className="h-3 w-3" />
+        </Link>
+        <Link
+          href={`/comparer?from=${commune.code_insee}`}
+          className="flex items-center justify-center gap-1.5 rounded-xl bg-brand-iris-soft px-3 py-2 text-xs font-semibold text-brand-iris-strong transition-colors hover:bg-brand-iris/30"
+        >
           <ArrowRightLeft className="h-3 w-3" />
-          Choisissez une 2<sup>e</sup> ville (carte, recherche ou Top 10) pour la comparer.
-        </div>
-      )}
+          Comparer
+        </Link>
+      </div>
 
       <div className="px-4 pb-3">
         <div
