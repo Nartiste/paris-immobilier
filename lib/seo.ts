@@ -26,3 +26,25 @@ export function breadcrumbJsonLd(items: Breadcrumb[]) {
     })),
   };
 }
+
+/**
+ * Génère le JSON-LD ItemList pour les classements (top N communes, etc.).
+ * Aide Google à comprendre que c'est une liste ordonnée + remonte parfois en
+ * carousel dans les SERP.
+ */
+export function itemListJsonLd(
+  items: { url: string; name: string }[],
+  name: string,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name,
+    itemListElement: items.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: it.url.startsWith("http") ? it.url : `${SITE_URL}${it.url}`,
+      name: it.name,
+    })),
+  };
+}
