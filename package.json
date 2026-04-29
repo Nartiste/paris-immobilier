@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "narratives": "tsx scripts/generate-narratives.ts"
+    "narratives": "tsx scripts/generate-narratives.ts",
+    "regenerate-blog": "tsx scripts/regenerate-blog.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
