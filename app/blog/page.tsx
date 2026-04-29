@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
 import { BLOG_POSTS } from "@/lib/blog-posts";
-import CityFooter from "@/components/CityFooter";
 
 export const metadata: Metadata = {
   title: "Blog : guides pour quitter Paris en 2026",
@@ -111,8 +110,6 @@ export default function BlogIndexPage() {
           ))}
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }

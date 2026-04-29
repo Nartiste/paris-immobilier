@@ -5,7 +5,6 @@ import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug } from "@/lib/slug";
 import { computeCommuneScore } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
-import CityFooter from "@/components/CityFooter";
 import ComparerPicker from "./ComparerPicker";
 
 export const metadata: Metadata = {
@@ -148,8 +147,6 @@ export default async function ComparerIndexPage({
           ))}
         </div>
       </section>
-
-      <CityFooter />
     </div>
   );
 }

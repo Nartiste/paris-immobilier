@@ -12,7 +12,6 @@ import { NARRATIVES } from "@/lib/city-narratives";
 import { breadcrumbJsonLd } from "@/lib/seo";
 import { buildCommuneFAQs, faqJsonLd } from "@/lib/commune-faqs";
 import { computeCommuneStats } from "@/lib/commune-stats";
-import CityFooter from "@/components/CityFooter";
 import TransportPanel from "@/components/TransportPanel";
 
 export const dynamicParams = false;
@@ -458,8 +457,6 @@ export default async function VivreACommunePage({
           </Link>
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }

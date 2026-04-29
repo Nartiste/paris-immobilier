@@ -5,7 +5,6 @@ import { Train, Euro, MapPin } from "lucide-react";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros, formatPercent } from "@/lib/utils";
-import CityFooter from "@/components/CityFooter";
 
 /**
  * Pages thématiques par temps de trajet vers Paris.
@@ -287,8 +286,6 @@ export default async function PageTemps({
           </Link>
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }

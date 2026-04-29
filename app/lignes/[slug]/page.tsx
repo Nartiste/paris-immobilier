@@ -12,7 +12,6 @@ import {
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros, formatNumber } from "@/lib/utils";
-import CityFooter from "@/components/CityFooter";
 
 export const dynamicParams = false;
 
@@ -297,8 +296,6 @@ export default async function LigneDetailPage({
           </Link>
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }

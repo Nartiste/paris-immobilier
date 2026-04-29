@@ -4,7 +4,6 @@ import type { Persona } from "@/lib/persona";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros, formatPercent } from "@/lib/utils";
-import CityFooter from "@/components/CityFooter";
 import AffiliateStrip from "@/components/AffiliateStrip";
 
 type Props = {
@@ -188,8 +187,6 @@ export default function PersonaPage({ persona }: Props) {
           </Link>
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }

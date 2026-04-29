@@ -6,7 +6,6 @@ import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import type { Commune } from "@/lib/types";
-import CityFooter from "@/components/CityFooter";
 
 /**
  * Pages de comparaison statiques entre 2 communes.
@@ -365,8 +364,6 @@ export default async function PageCompare({
           </Link>
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }

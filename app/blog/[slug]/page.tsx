@@ -6,7 +6,6 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { BLOG_POSTS, BLOG_POSTS_BY_SLUG } from "@/lib/blog-posts";
 import { BLOG_CONTENT } from "@/lib/blog-content";
-import CityFooter from "@/components/CityFooter";
 import AffiliateStrip from "@/components/AffiliateStrip";
 
 export const dynamicParams = false;
@@ -177,8 +176,6 @@ export default async function BlogPostPage({
           </Link>
         </section>
       </article>
-
-      <CityFooter />
     </div>
   );
 }
