@@ -10,6 +10,8 @@ import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import { buildCTAs } from "@/lib/monetize";
 import { NARRATIVES } from "@/lib/city-narratives";
 import { breadcrumbJsonLd } from "@/lib/seo";
+import { buildCommuneFAQs, faqJsonLd } from "@/lib/commune-faqs";
+import { computeCommuneStats } from "@/lib/commune-stats";
 import CityFooter from "@/components/CityFooter";
 import TransportPanel from "@/components/TransportPanel";
 
@@ -73,6 +75,8 @@ export default async function VivreACommunePage({
   const score = computeCommuneScore(commune, DEFAULT_WEIGHTS, "absolu", "acheteur");
   const color = scoreToColor(score.total);
   const ctas = buildCTAs(commune, "acheteur");
+  const faqs = buildCommuneFAQs(commune);
+  const stats = computeCommuneStats(commune);
 
   // Communes voisines (mêmes département, distance Paris similaire)
   const voisines = SAMPLE_COMMUNES.filter(
@@ -123,6 +127,8 @@ export default async function VivreACommunePage({
     { name: commune.nom },
   ]);
 
+  const faqLd = faqs.length > 0 ? faqJsonLd(faqs) : null;
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -133,6 +139,12 @@ export default async function VivreACommunePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       {/* HERO — gradient soft + score badge */}
       <section className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-emerald-50/30 px-5 pt-8 pb-10 sm:px-6">
@@ -274,9 +286,88 @@ export default async function VivreACommunePage({
           )}
         </section>
 
+        <section className="mt-10 rounded-3xl bg-gradient-to-br from-brand-iris-soft/40 via-white to-brand-vert-soft/40 p-6">
+          <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
+            {commune.nom} en chiffres
+          </h2>
+          <p className="mt-1 text-xs text-brand-bleu/60">
+            Comparaison avec le département et Paris.
+          </p>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            {stats.prixVsParis != null && (
+              <StatLine
+                label="Prix m² vs Paris"
+                value={
+                  stats.prixVsParis < 0
+                    ? `${formatPercent(Math.abs(stats.prixVsParis))} moins cher qu'à Paris`
+                    : `${formatPercent(stats.prixVsParis)} plus cher qu'à Paris`
+                }
+                positive={stats.prixVsParis < 0}
+              />
+            )}
+            {stats.prixVsDept != null && (
+              <StatLine
+                label={`Prix m² vs ${commune.departement}`}
+                value={
+                  stats.prixVsDept < 0
+                    ? `${formatPercent(Math.abs(stats.prixVsDept))} sous la moyenne du département`
+                    : `${formatPercent(stats.prixVsDept)} au-dessus de la moyenne du département`
+                }
+                positive={stats.prixVsDept < 0}
+              />
+            )}
+            {stats.trajetVsDept != null && (
+              <StatLine
+                label="Trajet Paris vs département"
+                value={
+                  stats.trajetVsDept < 0
+                    ? `${formatPercent(Math.abs(stats.trajetVsDept))} plus rapide que la moyenne`
+                    : `${formatPercent(stats.trajetVsDept)} plus long que la moyenne`
+                }
+                positive={stats.trajetVsDept < 0}
+              />
+            )}
+            {stats.rangPrix && (
+              <StatLine
+                label={`Classement prix en ${commune.departement}`}
+                value={`${stats.rangPrix.rang}ᵉ commune la moins chère sur ${stats.rangPrix.total} référencées`}
+                positive={stats.rangPrix.rang <= stats.rangPrix.total / 2}
+              />
+            )}
+          </div>
+        </section>
+
         <div className="mt-10">
           <TransportPanel ligneStr={commune.ligne_principale} />
         </div>
+
+        {faqs.length > 0 && (
+          <section className="mt-10">
+            <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
+              Questions fréquentes sur {commune.nom}
+            </h2>
+            <div className="mt-4 space-y-3">
+              {faqs.map((f) => (
+                <details
+                  key={f.question}
+                  className="group rounded-2xl border border-neutral-100 bg-white p-4 shadow-[0_1px_3px_rgba(0,0,0,0.03)] transition-shadow hover:shadow-[0_4px_14px_rgba(82,98,122,0.08)]"
+                >
+                  <summary className="cursor-pointer list-none text-sm font-semibold text-neutral-900 marker:hidden">
+                    <span className="flex items-start justify-between gap-3">
+                      <span>{f.question}</span>
+                      <span className="mt-0.5 text-brand-bleu/40 transition-transform group-open:rotate-45">
+                        +
+                      </span>
+                    </span>
+                  </summary>
+                  <p className="mt-3 text-sm leading-relaxed text-neutral-700">
+                    {f.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         {ctas.length > 0 && (
           <section className="mt-10 rounded-2xl border border-brand-iris/20 bg-gradient-to-br from-violet-50 to-white p-5">
@@ -420,6 +511,29 @@ function NeighborCard({ commune }: { commune: import("@/lib/types").Commune }) {
         )}
       </div>
     </Link>
+  );
+}
+
+function StatLine({
+  label,
+  value,
+  positive,
+}: {
+  label: string;
+  value: string;
+  positive: boolean;
+}) {
+  return (
+    <div className="rounded-2xl bg-white p-4 shadow-[0_2px_8px_rgba(82,98,122,0.04)]">
+      <div className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+        {label}
+      </div>
+      <div
+        className={`mt-1 text-sm font-medium ${positive ? "text-emerald-700" : "text-brand-bleu"}`}
+      >
+        {value}
+      </div>
+    </div>
   );
 }
 
