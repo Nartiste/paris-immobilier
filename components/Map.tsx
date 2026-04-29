@@ -158,10 +158,11 @@ export default function Map({
         source: "gpe",
         layout: { visibility: showGpe ? "visible" : "none" },
         paint: {
-          "circle-radius": 6,
+          "circle-radius": 8,
           "circle-color": "#9D8CF2",
-          "circle-stroke-color": "#ffffff",
-          "circle-stroke-width": 2,
+          "circle-stroke-color": "#7A66E0",
+          "circle-stroke-width": 2.5,
+          "circle-opacity": 0.95,
         },
       });
 
@@ -172,14 +173,15 @@ export default function Map({
         layout: {
           "text-field": ["get", "nom"],
           "text-size": 11,
-          "text-offset": [0, 1.2],
+          "text-offset": [0, 1.4],
           "text-anchor": "top",
+          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
           visibility: showGpe ? "visible" : "none",
         },
         paint: {
-          "text-color": "#9D8CF2",
+          "text-color": "#7A66E0",
           "text-halo-color": "#ffffff",
-          "text-halo-width": 1.5,
+          "text-halo-width": 2,
         },
       });
 

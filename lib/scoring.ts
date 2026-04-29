@@ -92,15 +92,16 @@ export function computeCommuneScore(
   };
 }
 
-// Palette alignée sur la charte (Vert Brume + Iris Doux + tons doux).
-// Excellent → vert profond, neutre → iris, faible → rose poussiéreux.
+// Palette alignée sur la charte. L'iris (#9D8CF2) est réservé exclusivement
+// aux marqueurs Grand Paris Express → distinction visuelle claire.
+// Spectre communes : Vert Brume → Bleu Minéral → Rose poussiéreux.
 export function scoreToColor(score: number): string {
-  if (score >= 80) return "#4d9c7e"; // vert profond
-  if (score >= 70) return "#7bb89e"; // vert brume mid
-  if (score >= 60) return "#9d8cf2"; // iris doux
-  if (score >= 50) return "#c0b5e0"; // iris pâle
-  if (score >= 40) return "#c97e7e"; // rose poussiéreux
-  return "#8b5a5a"; // gris-rouge profond
+  if (score >= 80) return "#4D9C7E"; // vert profond (excellent)
+  if (score >= 70) return "#7BB89E"; // vert brume (très bon)
+  if (score >= 60) return "#52627A"; // bleu minéral (bon)
+  if (score >= 50) return "#8C9AAD"; // bleu minéral pâle (correct)
+  if (score >= 40) return "#C97E7E"; // rose poussiéreux (moyen)
+  return "#8B5A5A"; // gris-rouge profond (faible)
 }
 
 export function scoreToLabel(score: number): string {
