@@ -723,6 +723,290 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
+  {
+    slug: "acheter-pres-de-paris-2026-guide",
+    title: "Acheter près de Paris en 2026 : le guide pour ne pas se planter",
+    description:
+      "Budget, transport, négo, frais cachés, neuf vs ancien : un manuel d'action pour acheter en banlieue parisienne en 2026 sans tomber dans les pièges classiques.",
+    publishedAt: "2026-05-07",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Cadre 30-45 ans, primo-accédant ou achat d'un bien plus grand, capacité d'emprunt 250-500 k€, jamais acheté en IDF, peur de se planter sur le quartier ou les frais cachés. Lit Capital, Le Particulier, BFM Immo. A déjà fait 2-3 visites mais hésite à passer à l'acte.",
+      angle:
+        "Guide opérationnel étape par étape pour acheter près de Paris en 2026. Pas un palmarès, un manuel d'action. Aborder les vraies questions : combien je peux mettre, où acheter selon mon métier, comment vérifier un bien, négocier en marché baissier, frais que personne ne calcule. Honnête sur les pièges des promoteurs et le neuf surcoté.",
+      sections: [
+        {
+          titre: "Le vrai budget que tu peux mettre",
+          contenu:
+            "Capacité d'emprunt à 35 % d'endettement, apport minimum 10 % en 2026 (vs 8 % en 2024), frais de notaire (7-8 % ancien, 2-3 % neuf), frais d'agence 4-7 %. Calcul concret pour un cadre Parisien à 75 k€/an : capacité brute environ 320 k€, capacité réelle (après apport et frais) 290 k€. Inclure travaux probables 15-30 k€ si bien ancien.",
+        },
+        {
+          titre: "Où acheter selon ton métier",
+          contenu:
+            "Cadre tech / startup : ouest et nord-ouest (Boulogne, Issy, Levallois, Asnières), accès rapide aux pôles tech. Fonction publique / culturel : 11e parisien, Vincennes, Saint-Maur, axé RER A. Finance / banque : ouest 1ère couronne (Neuilly, Boulogne, Saint-Cloud, Suresnes), accès La Défense. Métiers créatifs : Pantin, Montreuil, Saint-Ouen, communes en gentrification rapide. Justification : minimiser le temps trajet bureau et la fatigue accumulée.",
+        },
+        {
+          titre: "Vérifier la desserte avant de signer",
+          contenu:
+            "La gare est à 800 m sur Google Maps mais 12 minutes à pied avec une côte. Le RER B affiche 15 min de Paris mais ponctualité à 78 %. Test concret : faire le trajet 8h un mardi matin et 18h30 un jeudi soir, pendant 3 semaines avant de signer. Vérifier les statistiques officielles ponctualité IDF Mobilités. Et anticiper : si la commune dépend du Grand Paris Express qui ouvre en 2027-2030, ne pas surpayer en 2026 sur la promesse.",
+        },
+        {
+          titre: "Diagnostiquer un bien : ce qui se voit et ce qui se cache",
+          contenu:
+            "Le visible : DPE, copropriété, fissures, humidité. L'invisible : sinistralité du quartier (police municipale), projet de construction voisin (consulter le PLU à la mairie), travaux de copro votés non encore facturés (faire demander le PV des 3 dernières AG). Frais cachés à anticiper : 5 000 à 15 000 € de travaux énergétiques obligatoires sur DPE F-G d'ici 2028.",
+        },
+        {
+          titre: "Le piège du neuf vs ancien rénové",
+          contenu:
+            "Le neuf en banlieue parisienne se vend 25-40 % plus cher que l'ancien rénové dans la même rue. Les arguments des promoteurs (frais notaire réduits, RT2020, pas de travaux) ne compensent que rarement cet écart de prix d'achat. Sauf cas spécifiques (PTZ, dispositifs Pinel/Loc'Avantages bien dimensionnés), l'ancien rénové reste plus rentable. Calcul à faire : sur 25 ans, écart neuf/ancien = 80-150 k€.",
+        },
+        {
+          titre: "Négocier en 2026 : un marché qui te laisse de la marge",
+          contenu:
+            "Volume des transactions en baisse de 11 %, prix médian -5,5 %. Le rapport de force a basculé côté acheteur. Mais les vendeurs sont en déni : 70 % affichent encore un prix 2022. Stratégie : faire une offre 8-12 % en dessous du prix affiché, motivée par les comparables DVF des 6 derniers mois. Sur 350 k€ affichés, viser 310-320 k€. Si refus net : passer au bien suivant. Le marché est lent, tu as le temps.",
+        },
+        {
+          titre: "Les frais cachés à anticiper",
+          contenu:
+            "Au-delà des frais de notaire et d'agence : caution bancaire 0,5-1 % vs hypothèque 1,5-2 %. Frais courtier crédit (Pretto, Meilleurtaux) : 0,5-1 % parfois offerts. Garantie décennale et assurance dommage-ouvrage si travaux importants : 2 000-4 000 €. Frais de copropriété 6-12 mois d'avance. Travaux énergétiques obligatoires si DPE F-G : 8 000-25 000 € selon surface. Compte 2-4 % du prix affiché en frais imprévus.",
+        },
+        {
+          titre: "Le bon timing dans l'année",
+          contenu:
+            "Décembre-janvier : fenêtre de négociation maximale. Vendeurs qui veulent boucler avant l'année fiscale, acheteurs en pause. Tu peux gratter 5-8 % de plus qu'en mai. Mai-juin : pic d'offre, tu choisis mais tu paies plein tarif. Septembre : retour des familles, demande qui repart. Le pire moment pour acheter : avril, où les prix repartent après le creux hivernal.",
+        },
+        {
+          titre: "Le rôle décisif du courtier",
+          contenu:
+            "En 2026, l'écart entre banques sur le taux atteint 0,3-0,5 % selon ton profil. Sur 350 k€ × 25 ans, c'est 12-20 k€ de différence. Un courtier crédit (Pretto, Meilleurtaux, Empruntis) compare 15-25 banques en 48h. Le service est gratuit pour toi (commission payée par la banque). À ne pas confondre avec courtier en assurance ou courtier en travaux. Spécifique au crédit immobilier.",
+        },
+        {
+          titre: "Notre check-list avant de signer",
+          contenu:
+            "Capacité validée par courtier. Bien visité 2 fois minimum dont une avec un proche du métier (architecte, BTP). Trajet bureau testé en conditions réelles. PV de copro consulté. DVF des 6 derniers mois sur la rue. Diagnostic énergétique vérifié et travaux chiffrés. Offre écrite 8-12 % sous le prix affiché. Compromis avec 30 jours de rétractation. Pas de précipitation, le marché t'attend.",
+        },
+      ],
+      references: [
+        "Boulogne-Billancourt",
+        "Issy-les-Moulineaux",
+        "Levallois-Perret",
+        "Vincennes",
+        "Saint-Maur-des-Fossés",
+        "Pantin",
+        "Montreuil",
+      ],
+    },
+  },
+  {
+    slug: "investir-immobilier-pres-de-paris-2026",
+    title: "Investir près de Paris en 2026 : où et comment, sans se faire avoir",
+    description:
+      "Locatif, LMNP, Pinel, Loc'Avantages, courte durée. On démêle les vraies opportunités d'investissement immobilier en Île-de-France, et les pièges des promoteurs.",
+    publishedAt: "2026-05-08",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur immobilier 35-55 ans, déjà propriétaire de sa résidence principale, capacité 200-400 k€ pour un placement locatif, horizon 8-15 ans. Veut diversifier son patrimoine. Connaît les bases mais se méfie des dispositifs marketés (Pinel sur du neuf surcoté).",
+      angle:
+        "Guide général d'investissement locatif en Île-de-France 2026. Distinguer les vraies opportunités (proche couronne, communes Grand Paris Express, ancien rénové) des pièges classiques (neuf surcoté en zone B1, défisc trompeuse, gestion catastrophique à distance). Approche honnête, données réelles, pas de promesse miraculeuse.",
+      sections: [
+        {
+          titre: "Pourquoi l'IDF reste un bon pari malgré le marché 2026",
+          contenu:
+            "Le marché IDF est en correction (prix -5,5 %, volumes -11 %) mais les fondamentaux locatifs restent solides : tension locative durable (1,4 logement pour 1 demande active à Paris, 1,2 en proche couronne), salaires médians 30 % au-dessus du national, croissance démographique nette. La baisse des prix d'achat sans baisse équivalente des loyers améliore le rendement à l'achat aujourd'hui. C'est une fenêtre, pas un effondrement.",
+        },
+        {
+          titre: "Choisir entre neuf et ancien : le calcul honnête",
+          contenu:
+            "Neuf : frais notaire 2-3 %, RT2020, pas de travaux 10 ans. Ancien : prix 25-40 % moins cher, frais notaire 7-8 %, travaux probables. Sur 10 ans, l'ancien rénové bat le neuf de 80-150 k€ sur un investissement 300 k€, sauf si le neuf est en dispositif Pinel ou Loc'Avantages bien calé. Le neuf en lot promoteur sans dispositif fiscal : presque jamais rentable en IDF en 2026.",
+        },
+        {
+          titre: "Les zones à rendement (>6 %) et leurs risques",
+          contenu:
+            "Aubervilliers 6-7 %, Sevran 7-8 %, Drancy 6,5-7,5 %, Mantes-la-Jolie 6-7 %, Champigny 5,5-7 %. Risques : qualité de vie moyenne, rotation locataires élevée, vacance entre deux locations, parfois dégradations, gestion plus exigeante. Pour investisseur expérimenté qui sait gérer à distance ou via une bonne agence locale. À éviter pour un primo-investisseur.",
+        },
+        {
+          titre: "Les zones à plus-value patrimoniale",
+          contenu:
+            "Boulogne-Billancourt, Vincennes, Issy-les-Moulineaux, Saint-Mandé, Levallois : rendements faibles (3,5-4,5 % bruts) mais valorisation patrimoniale solide sur 10-15 ans (+25-40 % historique). Profil cible : investisseur patrimonial, pas en chasse de cash-flow. Idéal pour défiscaliser via LMNP ou pour transmission successorale future.",
+        },
+        {
+          titre: "LMNP vs nu : quel statut selon profil",
+          contenu:
+            "LMNP (Loueur Meublé Non Professionnel) : amortissement comptable, charges déductibles, fiscalité douce. Convient aux investisseurs avec tranche IR 30 % et plus, ou qui visent du locatif court séjour (étudiant, jeune actif). Location nue : simplicité administrative, déficit foncier intéressant si gros travaux. Convient aux investisseurs en tranche IR 11 %, ou qui veulent louer à un public stable longue durée.",
+        },
+        {
+          titre: "Vrai/faux des dispositifs : Pinel, Loc'Avantages, Denormandie",
+          contenu:
+            "Pinel : terminé pour les nouvelles acquisitions depuis fin 2024 (sauf cas marginaux 2025). Loc'Avantages : intéressant si plafond loyer compatible avec le marché local (souvent vrai en grande couronne, faux en petite couronne). Denormandie : ancien à rénover en zone éligible. Prudence : un dispositif fiscal ne sauve jamais un mauvais investissement. Le bien doit être bon avant la défisc.",
+        },
+        {
+          titre: "Gérer à distance ou agence : les vrais chiffres",
+          contenu:
+            "Gestion personnelle : 5-10 h/mois moyennes, charge mentale élevée, pas de coût direct mais perte temps. Agence locale : 6-9 % des loyers TTC. Comparaison brute : sur un bien à 12 000 € de loyers/an, agence = 720-1 080 € /an. À arbitrer selon ta valeur horaire et ta tolérance à l'imprévu (impayés, dégâts, états des lieux ratés).",
+        },
+        {
+          titre: "Le piège des promoteurs et comment l'éviter",
+          contenu:
+            "Promoteurs qui survendent l'effet GPE pour justifier 25-40 % de surprix sur du neuf. Promesses de loyer garanti 3 ans avec une 'gestion' qui prend 30 %. Faux 'investissement clé-en-main' où on signe sans avoir comparé avec l'ancien rénové de la même rue. Règle : toujours vérifier les transactions DVF des 12 derniers mois sur la rue exacte, et les loyers réels via SeLoger / LocService dans le quartier.",
+        },
+        {
+          titre: "Notre stratégie en 3 lignes",
+          contenu:
+            "Si tu cherches du rendement (>6 %) : Aubervilliers, Champigny, Mantes-la-Jolie, mais expérience requise. Si tu cherches de la plus-value patrimoniale (3-5 %) : ouest 1ère couronne, achat ancien rénové. Si tu n'es pas sûr : commence par un T2 60 m² ancien rénové en RER A ou métro 14 desservi, c'est le compromis qui te plante le moins.",
+        },
+      ],
+      references: [
+        "Aubervilliers",
+        "Sevran",
+        "Mantes-la-Jolie",
+        "Champigny-sur-Marne",
+        "Boulogne-Billancourt",
+        "Vincennes",
+        "Issy-les-Moulineaux",
+        "Levallois-Perret",
+      ],
+    },
+  },
+  {
+    slug: "investir-a-paris-2026-quartiers-rentables",
+    title: "Investir à Paris en 2026 : 5 quartiers encore rentables, 15 à éviter",
+    description:
+      "Paris intra-muros n'est plus rentable en locatif classique (rendement 2-3 %). Mais certains quartiers gardent un sens patrimonial. La carte honnête arrondissement par arrondissement.",
+    publishedAt: "2026-05-09",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur expérimenté 40-60 ans, capacité 400-800 k€, cherche un placement Paris pour valeur patrimoniale ou prestige. Ou primo-investisseur qui pense que 'Paris c'est le must'. Veut un avis honnête, pas un argumentaire commercial.",
+      angle:
+        "Casser le mythe : Paris intra-muros n'est plus rentable en locatif classique. Rendements bruts 2-3 %, donc nets souvent négatifs après charges et impôts. Mais reste pertinent pour patrimoine + plus-value sur 10-15 ans, ou pour locatif courte durée (LMNP touriste). Carte précise quartier par quartier.",
+      sections: [
+        {
+          titre: "Le mythe de Paris-rentable : les vrais chiffres 2026",
+          contenu:
+            "Prix médian Paris 9 520 €/m². Loyer médian 32 €/m². Rendement brut moyen 2,8 %. Après charges, taxe foncière, vacance, impayés et fiscalité IRPP+CSG, le rendement net descend souvent à 0,5-1,2 %. Conclusion : si tu cherches du cash-flow, Paris intra-muros n'est pas la bonne réponse en 2026.",
+        },
+        {
+          titre: "Pourquoi continuer à acheter à Paris quand même",
+          contenu:
+            "Trois raisons valables : 1) Plus-value patrimoniale historique (+25-40 % sur 10 ans, malgré les corrections). 2) Liquidité maximale (revente en 30-45 jours possible vs 90-180 j en banlieue). 3) Transmission successorale (Paris résiste mieux aux cycles). Pour un investisseur en logique long terme, c'est défendable. Pour quelqu'un qui veut du rendement, non.",
+        },
+        {
+          titre: "Les 5 quartiers encore pertinents",
+          contenu:
+            "1) 11e arrondissement (Bastille, Roquette) : prix 9 800-10 500 €/m², rendement 3-3,5 %, jeunesse + dynamisme commerces, valeur sûre. 2) 18e (Lamarck, Jules Joffrin) : 8 200-9 500 €/m², rendement 3,2-3,8 %, gentrification active. 3) 12e Sud (Bercy, Daumesnil) : 9 500-10 500 €/m², rendement 3-3,4 %, Bois de Vincennes + futur RER E. 4) 19e (Buttes-Chaumont) : 8 000-9 000 €/m², rendement 3,5-4 %, sous-coté historique. 5) 13e Est (Olympiades) : 8 800-9 800 €/m², population jeune et active, rendement 3,2-3,7 %.",
+        },
+        {
+          titre: "Les arrondissements à éviter en 2026",
+          contenu:
+            "1er-2e-3e-4e : prix prohibitifs (12 000-16 000 €/m²), rendements <2 %. 7e-8e-16e : valeur prestige mais rendement 1,5-2,5 %, locataires très exigeants, nombreuses normes locales. 5e-6e : étudiants en repli (campus délocalisés), vacance qui monte. 9e-10e : marché stable mais sans potentiel de hausse à court terme. 14e Sud, 15e : trop chers pour le rendement obtenu. 17e Nord (Batignolles) : valorisation déjà encaissée 2018-2024.",
+        },
+        {
+          titre: "LMNP courte durée : le pari Paris",
+          contenu:
+            "AirBnB classique : règlement strict (120 jours/an max sur résidence principale, déclaration mairie obligatoire), risque de réquisition Olympique partagée. Mais résidence service (étudiante, sénior, tourisme d'affaires) : plus stable. Rendements bruts 5-7 % sur résidence service de qualité. Caveat : le Plan Logement de la Ville de Paris durcit les règles tous les 2 ans, vérifier la conformité avant achat.",
+        },
+        {
+          titre: "Saint-Ouen et Pantin : Paris extra-muros qui se comporte comme Paris",
+          contenu:
+            "Saint-Ouen (93) prix 6 800-8 500 €/m², rendement 4-5 %, métro 14 prolongé 2024, gentrification Marché aux Puces, profil locataire jeune actif. Pantin (93) prix 6 200-7 800 €/m², rendement 4,2-5,2 %, métro 5 + RER E + futur tram. Pour un investisseur 'fan de Paris' qui ne peut plus se l'offrir, ces deux communes sont le meilleur compromis qualité de vie / rendement / valorisation.",
+        },
+        {
+          titre: "L'arbitrage Paris vs proche couronne pour patrimoine",
+          contenu:
+            "Avec 600 k€, tu as à Paris un T2 60 m² 11e ou un T3 75 m² 19e. Pour le même budget en proche couronne ouest (Boulogne, Vincennes), tu as un T3 75 m² ou un T4 90 m². Sur 10 ans, la valorisation est comparable mais le rendement banlieue est 1,5-2 points au-dessus. Conclusion : pour patrimoine pur, Paris reste valide. Pour rentabilité plus valorisation, Vincennes ou Boulogne battent Paris.",
+        },
+        {
+          titre: "Le piège de l'achat 'sentimental'",
+          contenu:
+            "Beaucoup d'investisseurs achètent à Paris parce que 'ça fait bien' ou parce qu'ils veulent un pied-à-terre. Si c'est ta motivation, sois honnête sur le calcul : tu paies un coût d'opportunité de 50-80 k€ sur 10 ans vs un placement banlieue ou bourse. Pas grave si tu l'assumes. Grave si tu te racontes que c'est un bon investissement.",
+        },
+        {
+          titre: "Notre conseil opérationnel",
+          contenu:
+            "Tu veux Paris pour patrimoine et tu acceptes 0,5-1 % de rendement net : 11e, 18e, 12e Sud, 19e. Tu veux Paris-feeling avec 4-5 % de rendement : Saint-Ouen ou Pantin (techniquement 93 mais culturellement Paris). Tu veux Paris pour la performance financière : tu n'investis pas à Paris en 2026.",
+        },
+      ],
+      references: [
+        "Saint-Ouen",
+        "Pantin",
+        "Boulogne-Billancourt",
+        "Vincennes",
+      ],
+    },
+  },
+  {
+    slug: "acheter-a-paris-2026-arrondissements-strategies",
+    title: "Acheter à Paris en 2026 : prix par arrondissement et stratégies pour primo-accédants",
+    description:
+      "Marché en correction de 5,5 %, taux stabilisés à 3,2 %. C'est probablement le meilleur moment Paris depuis 2018. Quel arrondissement, quel quartier, quels pièges.",
+    publishedAt: "2026-05-10",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Cadre 35-50 ans ou profession libérale, capacité d'emprunt 500-1 M€, veut acheter à Paris pour des raisons de vie ou pro (proche bureau, école enfants, attache). Jamais acheté à Paris auparavant. Hésite entre arrondissements, type de bien (haussmannien vs récent), étage.",
+      angle:
+        "2026 est une fenêtre rare pour acheter à Paris. Marché à -5,5 %, taux stabilisés. Mais Paris reste cher : 9 520 €/m² médian. Le guide opérationnel : arrondissement par arrondissement, quoi viser, quoi éviter, comment négocier, les pièges du haussmannien et de la copro.",
+      sections: [
+        {
+          titre: "Pourquoi 2026 est probablement le meilleur moment depuis 2018",
+          contenu:
+            "Prix Paris -5,5 % sur 12 mois (vs +8 % cumulés en 2020-2022). Volumes -11 %, donc moins de concurrence sur les bonnes affaires. Taux 20 ans stabilisés à 3,2 %. La fenêtre se refermera quand les taux baisseront vers 2,8 % (T3 2026 selon BCE) car la demande repartira. Conclusion : 2026 est le meilleur trimestre depuis 8 ans pour acheter à Paris si on a la capacité.",
+        },
+        {
+          titre: "Les prix 2026 arrondissement par arrondissement",
+          contenu:
+            "Top 5 par prix médian (en milliers €/m²) : 6e 14,2, 7e 13,8, 4e 13,5, 8e 12,9, 16e 11,8. Médian Paris 9,52. Bas du tableau : 19e 8,1, 13e 8,4, 18e 8,5, 20e 8,6, 12e 9,2. Variation locale énorme : dans le 11e, République à 11 200 €/m² vs Avron à 8 900 €/m². Les arrondissements 'value' : 11e, 12e Sud, 18e, 19e, 20e.",
+        },
+        {
+          titre: "Le 11e, le 18e, le 12e : les arrondissements value",
+          contenu:
+            "11e : Bastille / Voltaire / Roquette, ambiance jeune dynamique, transports excellents, prix 9 800-11 200 €/m². Bonne réserve de hausse. 12e Sud : Bercy / Daumesnil / Picpus, bois de Vincennes, RER E à venir, 9 200-10 500 €/m², prix sous-cotés. 18e : Lamarck / Jules Joffrin / Pigalle Sud, gentrification active, 8 500-10 200 €/m², dynamique très favorable.",
+        },
+        {
+          titre: "Les arrondissements premium",
+          contenu:
+            "7e (Tour Eiffel, Invalides) : 13 500-15 000 €/m². Pour patrimoine pur ou prestige. Liquidité élevée, valorisation lente mais sûre. 8e : 12 500-14 500 €/m², même logique, plus mixte commerce/résidentiel. 16e : 11 500-13 000 €/m², populations établies, transmission patrimoniale. À éviter si tu cherches une plus-value : ces arrondissements ont déjà tout encaissé.",
+        },
+        {
+          titre: "Haussmannien vs récent : ce qu'on ne te dit pas",
+          contenu:
+            "Haussmannien (avant 1914) : volumes nobles, hauteurs sous plafond 3-3,5 m, parquet, moulures. Inconvénients réels : copropriétés vieillissantes (ravalement obligatoire 200-500 k€ tous les 10 ans, à diviser par nombre de lots), absence d'ascenseur dans les petites copros, isolation thermique souvent classée E-F. Récent (post-1980) : moins de charme mais charges plus prévisibles, ascenseur, parking parfois inclus, DPE C-D. À budget égal, le récent t'offre 5-10 m² de plus pour des charges 30-40 % inférieures.",
+        },
+        {
+          titre: "L'étage et la vue : combien ça vaut vraiment",
+          contenu:
+            "Étage : un T3 70 m² au 1er sur cour vaut typiquement 8-12 % moins cher que le même bien au 4e. Vue dégagée : prime de 5-15 % vs vis-à-vis. Ascenseur dans un immeuble haussmannien : prime 6-10 %. À l'inverse, RDC sur rue commerçante : décote 10-15 % (bruit, sécurité). À calibrer selon ton mode de vie, ne pas surpayer la vue 'parce que c'est joli'.",
+        },
+        {
+          titre: "La copropriété : le facteur que personne ne regarde assez",
+          contenu:
+            "Le PV des 3 dernières AG est la lecture la plus rentable de ta vie d'acheteur. Tu y vois : travaux votés non payés, conflits voisinage, gestion calamiteuse, ravalement à venir, fonds de roulement, impayés. Une copro à 12 lots avec impayés de 30 % = bombe à retardement. Une copro à 80 lots bien gérée = sérénité. Demander toujours le PV avant offre, pas après.",
+        },
+        {
+          titre: "Stratégies primo-accédant à Paris",
+          contenu:
+            "PTZ : disponible pour primo-accédants en zone A bis (Paris) sous conditions de revenu, jusqu'à 100 000 € à taux zéro. Loi Pinel ancienne : terminée en 2024 pour le neuf. ZBL (Zone B Loi) : pas applicable Paris. Stratégie pertinente : viser le T3 60-70 m² dans 11e/12e/18e à 600-700 k€, profiter du PTZ + courtier pour optimiser le taux. Anticiper : prévoir une revente / revalorisation horizon 7-10 ans.",
+        },
+        {
+          titre: "Le calendrier idéal en 2026",
+          contenu:
+            "Janvier-février : creux, négociation maximale (-8 à -12 %). Mai-juin : pic de l'offre, choix élargi mais prix tenus. Septembre-octobre : retour des familles, transactions actives. Décembre : opportunité dernière minute (vendeurs qui veulent boucler avant fiscalité). Le pire moment : avril, prix qui repartent et offre limitée.",
+        },
+        {
+          titre: "Notre verdict en une phrase",
+          contenu:
+            "Si tu peux mettre 600 k€ et plus, et que tu vises le 11e, 12e Sud, 18e ou 19e en horizon 7-10 ans : 2026 est ta fenêtre. Si tu vises 7e-8e-16e : achète parce que tu en as l'usage, pas pour la performance financière. Si tu hésites encore : prends rendez-vous avec un courtier et fais valider ta capacité avant de chercher un bien.",
+        },
+      ],
+      references: [],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(

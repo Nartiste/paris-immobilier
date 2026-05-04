@@ -68,7 +68,7 @@ export default function HomeShell() {
  <h1 className="font-display mt-5 text-3xl font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">
  Tu veux vivre près de Paris ?<br />
  <span className="italic font-medium text-brand-iris">
- Trouve ton refuge.
+ Compare 83 villes pour acheter ou investir.
  </span>
  </h1>
  <p className="mt-5 max-w-prose text-sm leading-relaxed text-brand-bleu/80">

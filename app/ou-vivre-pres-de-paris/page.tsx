@@ -15,9 +15,9 @@ const SITE_URL =
  process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
 
 export const metadata: Metadata = {
- title: "Où vivre près de Paris ? Le guide 2026 des 86 meilleures communes",
+ title: "Où vivre près de Paris ? Le guide 2026 des 83 meilleures communes",
  description:
- "Tu veux quitter Paris sans couper avec la capitale ? On compare 86 communes accessibles en 15 min à 2 h : prix immobilier, transports, qualité de vie, futures gares Grand Paris Express. Le guide complet 2026.",
+ "Tu veux quitter Paris sans couper avec la capitale ? On compare 83 communes accessibles en 15 min à 2 h : prix immobilier, transports, qualité de vie, futures gares Grand Paris Express. Le guide complet 2026.",
  keywords: [
  "où vivre près de Paris",
  "où habiter près de Paris",
@@ -35,15 +35,15 @@ export const metadata: Metadata = {
  type: "article",
  locale: "fr_FR",
  url: "/ou-vivre-pres-de-paris",
- title: "Où vivre près de Paris ? Le guide 2026 des 86 meilleures communes",
+ title: "Où vivre près de Paris ? Le guide 2026 des 83 meilleures communes",
  description:
- "Compare 86 communes pour quitter Paris : prix m², trajets, qualité de vie, futures gares Grand Paris Express.",
+ "Compare 83 communes pour quitter Paris : prix m², trajets, qualité de vie, futures gares Grand Paris Express.",
  images: [{ url: "/brand/og.png", width: 1200, height: 630 }],
  },
  twitter: {
  card: "summary_large_image",
  title: "Où vivre près de Paris ? Le guide 2026",
- description: "86 communes comparées : prix, trajets, qualité de vie.",
+ description: "83 communes comparées : prix, trajets, qualité de vie.",
  images: ["/brand/og.png"],
  },
 };
@@ -100,7 +100,7 @@ export default function OuVivreParisPage() {
  const faqs: FAQ[] = [
  {
  question: "Quelle est la meilleure ville pour quitter Paris en 2026 ?",
- answer: `Il n'y a pas de réponse unique : tout dépend de ton budget, de ton temps de trajet maximum acceptable, et de ton profil (famille, télétravail, investisseur). Notre comparateur croise six critères pondérables pour ranker 86 communes. En tête actuellement : ${ranked.slice(0, 3).map((r) => r.commune.nom).join(", ")}, toutes accessibles en moins de 30 minutes du centre de Paris avec un score global supérieur à 65/100.`,
+ answer: `Il n'y a pas de réponse unique : tout dépend de ton budget, de ton temps de trajet maximum acceptable, et de ton profil (famille, télétravail, investisseur). Notre comparateur croise six critères pondérables pour ranker 83 communes. En tête actuellement : ${ranked.slice(0, 3).map((r) => r.commune.nom).join(", ")}, toutes accessibles en moins de 30 minutes du centre de Paris avec un score global supérieur à 65/100.`,
  },
  {
  question: "Quelle ville à 30 minutes de Paris choisir ?",
@@ -108,7 +108,7 @@ export default function OuVivreParisPage() {
  },
  {
  question: "Combien coûte un logement en banlieue parisienne ?",
- answer: `Sur les 86 communes que nous étudions, le prix médian au m² varie de ${formatEuros(prixMin)} à ${formatEuros(prixMax)} €. Les communes les moins chères sont en province (Mâcon, Évreux, Soissons) accessibles en TGV ou Intercités. Les plus chères sont en petite couronne ouest (Neuilly-sur-Seine, Boulogne-Billancourt, Saint-Cloud).`,
+ answer: `Sur les 83 communes que nous étudions, le prix médian au m² varie de ${formatEuros(prixMin)} à ${formatEuros(prixMax)} €. Les communes les moins chères sont en province (Mâcon, Évreux, Soissons) accessibles en TGV ou Intercités. Les plus chères sont en petite couronne ouest (Neuilly-sur-Seine, Boulogne-Billancourt, Saint-Cloud).`,
  },
  {
  question: "Quelles sont les villes à acheter avant le Grand Paris Express ?",
@@ -159,9 +159,9 @@ export default function OuVivreParisPage() {
  const articleLd = {
  "@context": "https://schema.org",
  "@type": "Article",
- headline: "Où vivre près de Paris ? Le guide 2026 des 86 meilleures communes",
+ headline: "Où vivre près de Paris ? Le guide 2026 des 83 meilleures communes",
  description:
- "Comparateur des 86 meilleures communes pour quitter Paris : prix immobilier, transports, qualité de vie, futures gares Grand Paris Express.",
+ "Comparateur des 83 meilleures communes pour quitter Paris : prix immobilier, transports, qualité de vie, futures gares Grand Paris Express.",
  author: { "@type": "Organization", name: "Vivre près de Paris" },
  publisher: {
  "@type": "Organization",
@@ -194,7 +194,7 @@ export default function OuVivreParisPage() {
  <h1 className="mt-5 font-display text-4xl font-medium leading-tight tracking-tight text-brand-bleu sm:text-5xl">
  Où vivre <span className="italic text-brand-iris">près de Paris</span> ?
  <span className="mt-1 block text-2xl font-normal text-brand-bleu/70 sm:text-3xl">
- Le guide 2026 des 86 meilleures communes
+ Le guide 2026 des 83 meilleures communes
  </span>
  </h1>
 
@@ -205,7 +205,7 @@ export default function OuVivreParisPage() {
  une vraie ville de province à une heure de TGV. Tu cherches le bon
  équilibre entre prix immobilier, temps de trajet, qualité de
  vie et perspective d'investissement. Cette page rassemble la
- réponse pour 86 communes, chacune notée sur six critères,
+ réponse pour 83 communes, chacune notée sur six critères,
  avec ses prix réels DVF, ses temps de trajet vérifiés, ses gares
  actuelles et futures.
  </p>
@@ -243,7 +243,7 @@ export default function OuVivreParisPage() {
 
  {/* Stats bar */}
  <div className="mt-8 grid gap-3 sm:grid-cols-4">
- <Stat label="Communes étudiées" value="86" sub="Île-de-France + couronne TGV" />
+ <Stat label="Communes étudiées" value="83" sub="Île-de-France + couronne TGV" />
  <Stat label="Prix m²" value={`${formatEuros(prixMin)}-${formatEuros(prixMax)} €`} sub="Médianes DVF 2026" />
  <Stat label="Temps de trajet" value={`${trajetMin}-${trajetMax} min`} sub="Centre Paris porte-à-porte" />
  <Stat label="Sources" value="DVF · INSEE · SNCF" sub="Données officielles 2025-2026" />

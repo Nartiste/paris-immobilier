@@ -31,19 +31,21 @@ export function computeCommuneStats(commune: Commune): CommuneStats {
       ? sameDept.reduce((s, c) => s + c.temps_trajet_paris_min, 0) / sameDept.length
       : null;
 
+  // Stats retournées en pourcentages (-66.7 = 66,7 % moins cher) pour
+  // s'aligner avec formatPercent() qui n'applique pas de multiplication par 100.
   const prixVsParis =
     commune.prix_m2_median != null
-      ? (commune.prix_m2_median - PARIS_PRIX_M2) / PARIS_PRIX_M2
+      ? ((commune.prix_m2_median - PARIS_PRIX_M2) / PARIS_PRIX_M2) * 100
       : null;
 
   const prixVsDept =
     commune.prix_m2_median != null && deptPrix
-      ? (commune.prix_m2_median - deptPrix) / deptPrix
+      ? ((commune.prix_m2_median - deptPrix) / deptPrix) * 100
       : null;
 
   const trajetVsDept =
     deptTrajet != null
-      ? (commune.temps_trajet_paris_min - deptTrajet) / deptTrajet
+      ? ((commune.temps_trajet_paris_min - deptTrajet) / deptTrajet) * 100
       : null;
 
   // Rang prix (le moins cher = rang 1) parmi les communes du même département
