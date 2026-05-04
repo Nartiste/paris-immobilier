@@ -12,6 +12,7 @@ import { NARRATIVES } from "@/lib/city-narratives";
 import { breadcrumbJsonLd } from "@/lib/seo";
 import { buildCommuneFAQs, faqJsonLd } from "@/lib/commune-faqs";
 import { computeCommuneStats } from "@/lib/commune-stats";
+import { getCommuneImage } from "@/lib/wikipedia-image";
 import TransportPanel from "@/components/TransportPanel";
 
 export const dynamicParams = false;
@@ -76,6 +77,7 @@ export default async function VivreACommunePage({
  const ctas = buildCTAs(commune, "acheteur");
  const faqs = buildCommuneFAQs(commune);
  const stats = computeCommuneStats(commune);
+ const wikiImage = await getCommuneImage(commune.nom, commune.departement);
 
  // Communes voisines (mêmes département, distance Paris similaire)
  const voisines = SAMPLE_COMMUNES.filter(
@@ -143,6 +145,28 @@ export default async function VivreACommunePage({
  type="application/ld+json"
  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
  />
+ )}
+
+ {/* COVER IMAGE Wikipedia (si disponible) */}
+ {wikiImage && (
+ <div className="relative h-56 w-full overflow-hidden sm:h-72">
+ {/* eslint-disable-next-line @next/next/no-img-element */}
+ <img
+ src={wikiImage.thumbnail}
+ alt={`Photo de ${commune.nom}`}
+ className="h-full w-full object-cover"
+ loading="eager"
+ />
+ <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
+ <a
+ href={wikiImage.sourceUrl}
+ target="_blank"
+ rel="noopener noreferrer"
+ className="absolute bottom-2 right-3 rounded-md bg-black/40 px-2 py-1 text-[10px] text-white/90 backdrop-blur-sm hover:bg-black/60"
+ >
+ {wikiImage.credit}
+ </a>
+ </div>
  )}
 
  {/* HERO, gradient soft + score badge */}

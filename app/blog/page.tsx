@@ -23,7 +23,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   transport: "Transport",
   finance: "Finance",
   persona: "Profil",
-  tendance: "Tendance",
+  tendance: "Investir",
 };
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -69,6 +69,7 @@ export default async function BlogIndexPage({ searchParams }: Props) {
   const showFeatured = activeCategory === "all";
 
   // Catégories disponibles avec compte
+  // 'tendance' est le slug interne pour la catégorie 'Investir' (label utilisateur)
   const categories = ["all", "guide", "finance", "tendance", "persona", "transport"] as const;
   const categoryCounts: Record<string, number> = { all: allPosts.length };
   for (const c of categories) {

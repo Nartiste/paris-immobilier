@@ -60,7 +60,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   transport: "Transport",
   finance: "Finance",
   persona: "Profil",
-  tendance: "Tendance",
+  tendance: "Investir",
 };
 
 const CATEGORY_COLORS: Record<string, string> = {
