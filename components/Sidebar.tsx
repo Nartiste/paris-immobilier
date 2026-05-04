@@ -39,31 +39,6 @@ export default function Sidebar() {
   return (
     <div className="flex w-full flex-col gap-5 bg-white p-4">
       <div>
-        <div className="flex items-center justify-between">
-          <label className="flex items-center gap-2 text-sm font-semibold text-neutral-900">
-            <Clock className="h-4 w-4" />
-            Temps max vers Paris
-          </label>
-          <span className="text-xs tabular-nums text-neutral-500">
-            {tempsMaxParis} min
-          </span>
-        </div>
-        <input
-          type="range"
-          min="10"
-          max="120"
-          step="5"
-          value={tempsMaxParis}
-          onChange={(e) => setTempsMaxParis(Number(e.target.value))}
-          className="mt-2 w-full accent-neutral-900"
-          aria-label={`Temps maximum vers Paris : ${tempsMaxParis} minutes`}
-        />
-        <p className="mt-0.5 text-[10px] leading-tight text-neutral-400">
-          Filtre les communes selon le trajet le plus court (TC ou voiture).
-        </p>
-      </div>
-
-      <div>
         <label className="text-sm font-semibold text-neutral-900">
           Budget max (€/m²)
         </label>
@@ -93,10 +68,38 @@ export default function Sidebar() {
             Réinit.
           </button>
         </div>
+
+        {/* Filtre dur 'Temps max vers Paris' regroupé avec les pondérations
+            mais visuellement distinct (encadré + accent iris) car il filtre
+            les communes au lieu de pondérer leur score. */}
+        <div className="mt-3 rounded-xl border border-brand-iris/25 bg-brand-iris-soft/30 p-3">
+          <div className="flex items-center justify-between text-xs">
+            <span className="flex items-center gap-1.5 font-semibold text-brand-bleu">
+              <Clock className="h-3.5 w-3.5" />
+              Temps max vers Paris
+            </span>
+            <span className="tabular-nums font-semibold text-brand-iris-strong">
+              {tempsMaxParis} min
+            </span>
+          </div>
+          <input
+            type="range"
+            min="10"
+            max="120"
+            step="5"
+            value={tempsMaxParis}
+            onChange={(e) => setTempsMaxParis(Number(e.target.value))}
+            className="mt-2 w-full accent-brand-iris-strong"
+            aria-label={`Temps maximum vers Paris : ${tempsMaxParis} minutes`}
+          />
+          <p className="mt-1 text-[10px] leading-tight text-brand-bleu/60">
+            Filtre dur : exclut les communes au-delà de ce temps de trajet.
+          </p>
+        </div>
+
         <div className="mt-3 space-y-4">
           {(Object.keys(WEIGHT_LABELS) as (keyof Weights)[])
-            // Le slider 'tempsParis' fait double-emploi avec le filtre dur
-            // 'Temps max vers Paris' en haut → on l'exclut de la pondération.
+            // 'tempsParis' weight retiré : doublon avec le filtre dur ci-dessus.
             .filter((key) => key !== "tempsParis")
             .map((key) => (
             <div key={key}>
