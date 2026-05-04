@@ -3,10 +3,12 @@ import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import Script from "next/script";
 import TopNav from "@/components/TopNav";
 import dynamic from "next/dynamic";
+import ConciergeButton from "@/components/ConciergeButton";
 
-// Le bouton flottant + le panneau Concierge sont lazy : non critiques
-// au LCP, chargés en parallèle après le first paint.
-const ConciergeButton = dynamic(() => import("@/components/ConciergeButton"));
+// Concierge IA (panneau modal) : code-splitté pour ne pas alourdir le
+// bundle initial. Le bouton flottant reste en import direct (composant
+// léger : un bouton + zustand) pour éviter une Suspense boundary
+// supplémentaire qui ferait gonfler le TBT.
 const Concierge = dynamic(() => import("@/components/Concierge"));
 import "./globals.css";
 
