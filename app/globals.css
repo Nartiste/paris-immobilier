@@ -48,3 +48,52 @@ select {
   font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;
   font-feature-settings: "ss01", "ss02";
 }
+
+/* Animations Concierge IA — attire l'œil sans être agressif */
+@keyframes concierge-halo {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 0;
+  }
+}
+
+@keyframes concierge-wiggle {
+  0%, 92%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  94% {
+    transform: rotate(-12deg) scale(1.1);
+  }
+  96% {
+    transform: rotate(12deg) scale(1.1);
+  }
+  98% {
+    transform: rotate(-6deg) scale(1.05);
+  }
+}
+
+.concierge-halo {
+  animation: concierge-halo 2.4s ease-in-out infinite;
+}
+
+.concierge-wiggle {
+  animation: concierge-wiggle 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Pause sur hover pour laisser l'utilisateur interagir tranquillement */
+.concierge-button:hover .concierge-halo,
+.concierge-button:hover .concierge-wiggle {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .concierge-halo,
+  .concierge-wiggle {
+    animation: none;
+  }
+}

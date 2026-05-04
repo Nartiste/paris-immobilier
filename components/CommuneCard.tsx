@@ -58,14 +58,15 @@ export default function CommuneCard({ commune, onClose }: Props) {
       <div className="grid grid-cols-2 gap-2 px-4 pb-3">
         <Link
           href={`/vivre-a/${communeToSlug(commune)}`}
-          className="flex items-center justify-center gap-1.5 rounded-xl bg-brand-bleu px-3 py-2 text-xs font-semibold text-white shadow-[0_2px_8px_rgba(82,98,122,0.2)] transition-transform hover:scale-[1.02]"
+          className="group relative flex items-center justify-center gap-1.5 overflow-hidden rounded-xl bg-gradient-to-br from-brand-iris to-brand-iris-strong px-3 py-2.5 text-xs font-bold text-white shadow-[0_4px_14px_rgba(157,140,242,0.45)] transition-all hover:scale-[1.03] hover:shadow-[0_6px_20px_rgba(157,140,242,0.6)]"
         >
-          Voir la fiche
-          <ArrowRight className="h-3 w-3" />
+          <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
+          <span className="relative">Voir la fiche</span>
+          <ArrowRight className="relative h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
         </Link>
         <Link
           href={`/comparer?from=${commune.code_insee}`}
-          className="flex items-center justify-center gap-1.5 rounded-xl bg-brand-iris-soft px-3 py-2 text-xs font-semibold text-brand-iris-strong transition-colors hover:bg-brand-iris/30"
+          className="flex items-center justify-center gap-1.5 rounded-xl border border-neutral-200 bg-white px-3 py-2.5 text-xs font-semibold text-neutral-700 transition-colors hover:border-brand-iris/30 hover:text-brand-bleu"
         >
           <ArrowRightLeft className="h-3 w-3" />
           Comparer
