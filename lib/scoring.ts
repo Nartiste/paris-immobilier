@@ -75,10 +75,24 @@ export function computeCommuneScore(
   let total = weightedSum;
 
   if (mode === "rapport_qualite_prix") {
-    const qualiteAvg =
-      (tempsParis + economie + qualiteVie + education + futurTransport) / 5;
+    // Honore les pondérations utilisateur sur la partie qualité (sans le prix)
+    // puis applique un biais 50/50 entre qualité pondérée et prix brut.
+    const qualiteW =
+      weights.tempsParis +
+      weights.economie +
+      weights.qualiteVie +
+      weights.education +
+      weights.futurTransport;
+    const qw = qualiteW > 0 ? qualiteW : 1;
+    const qualitePondere =
+      (weights.tempsParis * tempsParis +
+        weights.economie * economie +
+        weights.qualiteVie * qualiteVie +
+        weights.education * education +
+        weights.futurTransport * futurTransport) /
+      qw;
     const prixFactor = prix / 100;
-    total = clamp(qualiteAvg * 0.5 + prixFactor * 50);
+    total = clamp(qualitePondere * 0.5 + prixFactor * 50);
   }
 
   return {
