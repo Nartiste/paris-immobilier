@@ -94,7 +94,11 @@ export default function Sidebar() {
           </button>
         </div>
         <div className="mt-3 space-y-4">
-          {(Object.keys(WEIGHT_LABELS) as (keyof Weights)[]).map((key) => (
+          {(Object.keys(WEIGHT_LABELS) as (keyof Weights)[])
+            // Le slider 'tempsParis' fait double-emploi avec le filtre dur
+            // 'Temps max vers Paris' en haut → on l'exclut de la pondération.
+            .filter((key) => key !== "tempsParis")
+            .map((key) => (
             <div key={key}>
               <div className="flex items-center justify-between text-xs">
                 <span className="font-medium text-neutral-800">
