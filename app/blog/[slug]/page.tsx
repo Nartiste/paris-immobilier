@@ -303,7 +303,7 @@ export default async function BlogPostPage({
                     Tu hésites encore sur ta ville ?
                   </h2>
                   <p className="mt-1 text-sm text-brand-bleu/70">
-                    Notre concierge IA croise tes critères avec les 83 communes étudiées et te répond en moins d'une minute.
+                    Notre concierge IA croise tes critères avec les 86 communes étudiées et te répond en moins d'une minute.
                   </p>
                   <Link
                     href="/"
