@@ -54,7 +54,7 @@ export default function TopNav() {
               Vivre <span className="italic text-brand-iris">près</span> de Paris
             </span>
             <span className="mt-1 block text-[10px] uppercase tracking-[0.18em] text-brand-bleu/60">
-              Trouver son refuge
+              Trouver où s'installer
             </span>
           </div>
         </Link>
