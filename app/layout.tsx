@@ -3,10 +3,10 @@ import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import Script from "next/script";
 import TopNav from "@/components/TopNav";
 import dynamic from "next/dynamic";
-import ConciergeButton from "@/components/ConciergeButton";
 
-// Concierge IA : composant lourd (état conversation, streaming SSE),
-// code-splitté pour ne pas alourdir le bundle initial des autres pages.
+// Le bouton flottant + le panneau Concierge sont lazy : non critiques
+// au LCP, chargés en parallèle après le first paint.
+const ConciergeButton = dynamic(() => import("@/components/ConciergeButton"));
 const Concierge = dynamic(() => import("@/components/Concierge"));
 import "./globals.css";
 
@@ -181,8 +181,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Concierge />
         {PLAUSIBLE_SCRIPT_SRC ? (
           <>
-            <Script async src={PLAUSIBLE_SCRIPT_SRC} strategy="afterInteractive" />
-            <Script id="plausible-init" strategy="afterInteractive">
+            <Script async src={PLAUSIBLE_SCRIPT_SRC} strategy="lazyOnload" />
+            <Script id="plausible-init" strategy="lazyOnload">
               {`window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init({});`}
             </Script>
           </>
@@ -191,7 +191,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             defer
             src="https://plausible.io/js/script.js"
             data-domain={PLAUSIBLE_DOMAIN}
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           />
         ) : null}
       </body>

@@ -10,15 +10,6 @@
     "narratives": "tsx scripts/generate-narratives.ts",
     "regenerate-blog": "tsx scripts/regenerate-blog.ts"
   },
-  "browserslist": [
-    "chrome >= 110",
-    "firefox >= 110",
-    "safari >= 16.4",
-    "edge >= 110",
-    "ios_saf >= 16.4",
-    "and_chr >= 110",
-    "not dead"
-  ],
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
     "@supabase/ssr": "^0.10.2",
