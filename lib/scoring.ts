@@ -106,16 +106,17 @@ export function computeCommuneScore(
   };
 }
 
-// Palette alignée sur la charte. L'iris (#9D8CF2) est réservé exclusivement
-// aux marqueurs Grand Paris Express → distinction visuelle claire.
-// Spectre communes : Vert Brume → Bleu Minéral → Rose poussiéreux.
+// Gradient thermomètre vert → ambre → rouge pour lisibilité maximale sur
+// la carte, tout en conservant l'iris (#9D8CF2) exclusivement pour les
+// gares Grand Paris Express. Étapes saturées et bien contrastées entre
+// elles : pas de gris fade qui se confond avec le fond carto.
 export function scoreToColor(score: number): string {
-  if (score >= 80) return "#4D9C7E"; // vert profond (excellent)
-  if (score >= 70) return "#7BB89E"; // vert brume (très bon)
-  if (score >= 60) return "#52627A"; // bleu minéral (bon)
-  if (score >= 50) return "#8C9AAD"; // bleu minéral pâle (correct)
-  if (score >= 40) return "#C97E7E"; // rose poussiéreux (moyen)
-  return "#8B5A5A"; // gris-rouge profond (faible)
+  if (score >= 80) return "#2D7A5C"; // vert profond saturé (excellent)
+  if (score >= 70) return "#5BA888"; // vert mid saturé (très bon)
+  if (score >= 60) return "#D4A04A"; // or chaud (bon)
+  if (score >= 50) return "#C77F3D"; // orange terracotta (correct)
+  if (score >= 40) return "#B85959"; // rouge-rose (moyen)
+  return "#8B3939"; // rouge foncé (faible)
 }
 
 export function scoreToLabel(score: number): string {
