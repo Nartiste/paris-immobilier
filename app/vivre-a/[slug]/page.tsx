@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Train, Car, MapPin, Euro, TrendingUp, Users } from "lucide-react";
@@ -147,28 +148,6 @@ export default async function VivreACommunePage({
  />
  )}
 
- {/* COVER IMAGE Wikipedia (si disponible) */}
- {wikiImage && (
- <div className="relative h-56 w-full overflow-hidden sm:h-72">
- {/* eslint-disable-next-line @next/next/no-img-element */}
- <img
- src={wikiImage.thumbnail}
- alt={`Photo de ${commune.nom}`}
- className="h-full w-full object-cover"
- loading="eager"
- />
- <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
- <a
- href={wikiImage.sourceUrl}
- target="_blank"
- rel="noopener noreferrer"
- className="absolute bottom-2 right-3 rounded-md bg-black/40 px-2 py-1 text-[10px] text-white/90 backdrop-blur-sm hover:bg-black/60"
- >
- {wikiImage.credit}
- </a>
- </div>
- )}
-
  {/* HERO, gradient soft + score badge */}
  <section className="relative overflow-hidden bg-gradient-to-br from-violet-50 via-white to-emerald-50/30 px-5 pt-8 pb-10 sm:px-6">
  <div
@@ -217,6 +196,25 @@ export default async function VivreACommunePage({
  </section>
 
  <article className="mx-auto max-w-4xl px-5 py-8 sm:px-6">
+
+ {/* PHOTO COMMUNE (Wikipedia, haute résolution + next/image) */}
+ {wikiImage && (
+ <figure className="mt-2">
+ <div className="relative aspect-[21/9] w-full overflow-hidden rounded-3xl bg-neutral-100 shadow-[0_4px_16px_rgba(82,98,122,0.08)]">
+ <Image
+ src={wikiImage.original}
+ alt={`Photo de ${commune.nom}`}
+ fill
+ sizes="(min-width: 1024px) 896px, 100vw"
+ className="object-cover"
+ priority
+ />
+ </div>
+ <figcaption className="mt-2 text-right text-[11px] text-neutral-400">
+ {wikiImage.credit}
+ </figcaption>
+ </figure>
+ )}
 
  <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
  <KPI
