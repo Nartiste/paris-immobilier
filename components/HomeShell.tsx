@@ -6,7 +6,7 @@ import { TRANSPORT_LINES, reputationColor } from "@/lib/transport-lines";
 import { PERSONAS } from "@/lib/persona";
 import { communeToSlug } from "@/lib/slug";
 import { formatEuros } from "@/lib/utils";
-import { computeCommuneScore, scoreToColor } from "@/lib/scoring";
+import { computeCommuneScore, scoreToColor, contrastTextOn } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
 
 /**
@@ -145,8 +145,8 @@ export default function HomeShell() {
  </span>
  )}
  <span
- className="ml-1 rounded-xl px-2 py-1 text-xs font-bold tabular-nums text-white shadow-sm"
- style={{ backgroundColor: color }}
+ className="ml-1 rounded-xl px-2 py-1 text-xs font-bold tabular-nums shadow-sm"
+ style={{ backgroundColor: color, color: contrastTextOn(color) }}
  >
  {t.score.total}
  </span>
@@ -213,9 +213,10 @@ export default function HomeShell() {
  {l.code}
  </span>
  <span
- className="rounded-lg px-1.5 py-0.5 text-[10px] font-bold text-white shadow-sm"
+ className="rounded-lg px-1.5 py-0.5 text-[10px] font-bold shadow-sm"
  style={{
  backgroundColor: reputationColor(l.reputation.score),
+ color: contrastTextOn(reputationColor(l.reputation.score)),
  }}
  >
  {l.reputation.score}/5

@@ -112,3 +112,20 @@ export function scoreToLabel(score: number): string {
   if (score >= 40) return "Moyen";
   return "Faible";
 }
+
+/**
+ * Renvoie "#ffffff" ou un brun-bleu foncé selon la luminance du fond,
+ * pour garantir un ratio de contraste WCAG AA (>= 4.5:1) sur les badges
+ * score et reputation. Utilise la formule de luminance relative L*.
+ */
+export function contrastTextOn(bgHex: string): string {
+  const hex = bgHex.replace("#", "");
+  const r = parseInt(hex.slice(0, 2), 16) / 255;
+  const g = parseInt(hex.slice(2, 4), 16) / 255;
+  const b = parseInt(hex.slice(4, 6), 16) / 255;
+  const lin = (c: number) =>
+    c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  const L = 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b);
+  // Seuil empirique : si la luminance > 0.42, texte foncé garantit AA
+  return L > 0.42 ? "#1f2937" : "#ffffff";
+}

@@ -56,6 +56,7 @@ export default function Sidebar() {
           value={tempsMaxParis}
           onChange={(e) => setTempsMaxParis(Number(e.target.value))}
           className="mt-2 w-full accent-neutral-900"
+          aria-label={`Temps maximum vers Paris : ${tempsMaxParis} minutes`}
         />
         <p className="mt-0.5 text-[10px] leading-tight text-neutral-400">
           Filtre les communes selon le trajet le plus court (TC ou voiture).
@@ -110,6 +111,7 @@ export default function Sidebar() {
                 value={weights[key]}
                 onChange={(e) => setWeight(key, Number(e.target.value))}
                 className="mt-1 w-full accent-neutral-900"
+                aria-label={`Pondération ${WEIGHT_LABELS[key].label} : ${weights[key]} sur 50`}
               />
               <p className="mt-0.5 text-[10px] leading-tight text-neutral-400">
                 {WEIGHT_LABELS[key].hint}

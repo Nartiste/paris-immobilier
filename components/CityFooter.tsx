@@ -60,19 +60,19 @@ export default function CityFooter() {
             </h3>
             <ul className="space-y-1.5 text-xs">
               <li>
-                <Link href="/" className="text-neutral-600 hover:text-neutral-900">
+                <Link href="/" className="block py-1.5 text-neutral-600 hover:text-neutral-900">
                   Carte interactive
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-neutral-600 hover:text-neutral-900">
+                <Link href="/blog" className="block py-1.5 text-neutral-600 hover:text-neutral-900">
                   Blog : guides et conseils
                 </Link>
               </li>
               <li>
                 <Link
                   href="/quitter-paris-en-famille"
-                  className="text-neutral-600 hover:text-neutral-900"
+                  className="block py-1.5 text-neutral-600 hover:text-neutral-900"
                 >
                   Quitter Paris en famille
                 </Link>
@@ -80,7 +80,7 @@ export default function CityFooter() {
               <li>
                 <Link
                   href="/quitter-paris-teletravail"
-                  className="text-neutral-600 hover:text-neutral-900"
+                  className="block py-1.5 text-neutral-600 hover:text-neutral-900"
                 >
                   Quitter Paris en télétravail
                 </Link>
@@ -88,7 +88,7 @@ export default function CityFooter() {
               <li>
                 <Link
                   href="/quitter-paris-investisseur"
-                  className="text-neutral-600 hover:text-neutral-900"
+                  className="block py-1.5 text-neutral-600 hover:text-neutral-900"
                 >
                   Quitter Paris pour investir
                 </Link>
@@ -110,7 +110,7 @@ export default function CityFooter() {
               <li key={l.id}>
                 <Link
                   href={`/lignes/${l.id}`}
-                  className="block truncate text-neutral-600 hover:text-neutral-900 hover:underline"
+                  className="block truncate py-1.5 text-neutral-600 hover:text-neutral-900 hover:underline"
                   title={`${l.code} : ${l.reputation.summary}`}
                 >
                   {l.code}
@@ -133,7 +133,7 @@ export default function CityFooter() {
               <li key={c.code_insee}>
                 <Link
                   href={`/vivre-a/${communeToSlug(c)}`}
-                  className="block truncate text-neutral-600 hover:text-neutral-900 hover:underline"
+                  className="block truncate py-1.5 text-neutral-600 hover:text-neutral-900 hover:underline"
                   title={`Vivre à ${c.nom}`}
                 >
                   {c.nom}
