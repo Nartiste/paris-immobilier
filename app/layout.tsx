@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import Script from "next/script";
 import TopNav from "@/components/TopNav";
-import Concierge from "@/components/Concierge";
+import dynamic from "next/dynamic";
 import ConciergeButton from "@/components/ConciergeButton";
+
+// Concierge IA : composant lourd (état conversation, streaming SSE),
+// code-splitté pour ne pas alourdir le bundle initial des autres pages.
+const Concierge = dynamic(() => import("@/components/Concierge"));
 import "./globals.css";
 
 const geistSans = Geist({
@@ -109,6 +113,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >
       <head>
+        {/* Preconnect : économise ~300 ms LCP sur les origines tierces */}
+        <link rel="preconnect" href="https://plausible.io" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://a.tile.openstreetmap.org" crossOrigin="anonymous" />
         {GTM_ID && (
           <Script id="gtm-init" strategy="afterInteractive">
             {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

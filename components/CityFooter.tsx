@@ -102,7 +102,10 @@ export default function CityFooter() {
           <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-neutral-700">
             Lignes de transport ({TRANSPORT_LINES.length})
           </h3>
-          <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+          <ul
+            className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            style={{ contentVisibility: "auto", containIntrinsicSize: "auto 200px" }}
+          >
             {TRANSPORT_LINES.map((l) => (
               <li key={l.id}>
                 <Link
@@ -122,7 +125,10 @@ export default function CityFooter() {
           <h3 className="mb-4 text-xs font-semibold uppercase tracking-wider text-neutral-700">
             Toutes les villes ({sorted.length})
           </h3>
-          <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+          <ul
+            className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+            style={{ contentVisibility: "auto", containIntrinsicSize: "auto 600px" }}
+          >
             {sorted.map((c) => (
               <li key={c.code_insee}>
                 <Link

@@ -23,8 +23,9 @@ export default function BrandMark({ className, monochrome = false, priority = fa
     <Image
       src="/brand/icon-512.png"
       alt="Vivre près de Paris"
-      width={128}
-      height={128}
+      width={64}
+      height={64}
+      sizes="(min-width: 640px) 64px, 56px"
       priority={priority}
       className={className}
       style={

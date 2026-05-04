@@ -66,11 +66,10 @@ export default function HomeShell() {
  80+ communes · DVF &amp; INSEE 2026
  </span>
  <h1 className="font-display mt-5 text-3xl font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">
- Tu veux quitter Paris ?<br />
+ Tu veux vivre près de Paris ?<br />
  <span className="italic font-medium text-brand-iris">
- Trouve ton refuge
- </span>{" "}
- près de la capitale.
+ Trouve ton refuge.
+ </span>
  </h1>
  <p className="mt-5 max-w-prose text-sm leading-relaxed text-brand-bleu/80">
  Prix immobilier réel, temps de trajet vers Paris (TGV, RER,
