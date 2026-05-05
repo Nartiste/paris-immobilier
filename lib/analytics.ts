@@ -1,16 +1,16 @@
 /**
- * Analytique légère, compatible Plausible (RGPD-friendly).
+ * Analytique double-feed : Plausible (RGPD-friendly) + Google Tag Manager.
  *
- * Si Plausible est chargé via une balise script (cf. layout.tsx), on
- * pousse les events custom. Sinon, on log dans la console pour le dev.
- *
- * Pour activer en prod : ajouter NEXT_PUBLIC_PLAUSIBLE_DOMAIN=paris-immo.fr
- * et le script <script defer data-domain="..." src="https://plausible.io/js/script.js" />
+ * Plausible : si NEXT_PUBLIC_PLAUSIBLE_DOMAIN est défini.
+ * GTM       : si NEXT_PUBLIC_GTM_ID est défini (cf. layout.tsx). Les events
+ *             sont pushés sur window.dataLayer ; un trigger "Custom Event"
+ *             dans GTM peut les router vers GA4, Meta Pixel, etc.
  */
 
 declare global {
   interface Window {
     plausible?: (event: string, opts?: { props?: Record<string, string | number> }) => void;
+    dataLayer?: Array<Record<string, unknown>>;
   }
 }
 
@@ -28,9 +28,16 @@ export type AnalyticsEvent =
 
 export function track(event: AnalyticsEvent, props?: Record<string, string | number>) {
   if (typeof window === "undefined") return;
+
   if (typeof window.plausible === "function") {
     window.plausible(event, props ? { props } : undefined);
-  } else if (process.env.NODE_ENV !== "production") {
+  }
+
+  if (Array.isArray(window.dataLayer)) {
+    window.dataLayer.push({ event, ...(props ?? {}) });
+  }
+
+  if (process.env.NODE_ENV !== "production") {
     console.debug("[analytics]", event, props);
   }
 }

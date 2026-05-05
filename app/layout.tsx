@@ -4,6 +4,7 @@ import Script from "next/script";
 import TopNav from "@/components/TopNav";
 import dynamic from "next/dynamic";
 import ConciergeButton from "@/components/ConciergeButton";
+import GTMPageview from "@/components/GTMPageview";
 
 // Concierge IA (panneau modal) : code-splitté pour ne pas alourdir le
 // bundle initial. Le bouton flottant reste en import direct (composant
@@ -181,6 +182,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {children}
         <ConciergeButton />
         <Concierge />
+        {GTM_ID && <GTMPageview />}
         {PLAUSIBLE_SCRIPT_SRC ? (
           <>
             <Script async src={PLAUSIBLE_SCRIPT_SRC} strategy="lazyOnload" />
