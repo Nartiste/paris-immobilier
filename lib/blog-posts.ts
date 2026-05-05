@@ -1007,6 +1007,270 @@ export const BLOG_POSTS: BlogPost[] = [
       references: [],
     },
   },
+  {
+    slug: "credit-immobilier-2026-taux-duree-negociation",
+    title: "Crédit immobilier 2026 : taux, durée, négociation, le guide complet",
+    description:
+      "Taux stabilisés à 3,2 %, banques en concurrence pour capter les bons dossiers. Comment optimiser ton prêt en 2026 et gagner 0,5 point sans te faire avoir.",
+    publishedAt: "2026-05-12",
+    readingMinutes: 9,
+    category: "finance",
+    brief: {
+      audience:
+        "Cadre 30-50 ans qui prépare un achat immobilier 250-600 k€, capacité d'emprunt validée mais pas encore signée chez une banque, hésite sur la durée (20 ou 25 ans), le courtier ou la banque en direct, le taux fixe ou variable.",
+      angle:
+        "Guide pragmatique pour optimiser un crédit immobilier en 2026. Le marché favorise l'emprunteur (banques en concurrence, taux stables). Comment exploiter cette fenêtre sans tomber dans les pièges du courtier rapace ou de la banque qui te refile une assurance pourrie.",
+      sections: [
+        { titre: "Les taux 2026 : ce qui se passe vraiment", contenu: "Taux moyens 20 ans à 3,2 %, fourchette 2,9-3,6 % selon profil. Banque de France anticipe stabilité 2,9-3,4 % sur 12 mois. Pic 4,1 % en mi-2024, on vient de loin. La baisse vers 2,8 % attendue T3 2026 mais incertaine. Conséquence : le marché est dans une fenêtre prévisible, on peut planifier sans paniquer." },
+        { titre: "Durée 20 ou 25 ans : le vrai arbitrage", contenu: "Sur 350 k€ empruntés, 20 ans à 3,2 % = mensualité 1 980 €, coût total intérêts 125 k€. 25 ans à 3,3 % = mensualité 1 720 €, coût total 168 k€. Différence 43 k€ d'intérêts mais mensualité 260 € moins lourde. Choisir 25 ans si capacité serrée ou volonté d'investir le delta. Choisir 20 ans si capacité large." },
+        { titre: "Apport minimum 2026 : 10 % vs 8 % en 2024", contenu: "Le HCSF a durci les règles : apport minimum 10 % du prix sauf primo-accédant en zone tendue (8 %). Sur 400 k€, c'est 32-40 k€ minimum. Au-delà de 20 %, la banque est plus souple sur les autres critères. Les apports >25 % gagnent 0,15-0,25 point sur le taux." },
+        { titre: "Le rôle du courtier : pourquoi en 2026 c'est pertinent", contenu: "Le marché bancaire est ultra-concurrentiel : les banques se battent pour les bons dossiers. Le courtier (Pretto, Meilleurtaux, Empruntis, Cafpi) compare 15-25 banques en 48-72 h. Écart moyen 0,3-0,5 % entre la meilleure et la moins bonne offre. Sur 350 k€ × 25 ans, c'est 12-20 k€ d'économies. Service en général gratuit (commission payée par la banque, pas par toi)." },
+        { titre: "Négocier en direct sans courtier : c'est possible si...", contenu: "Tu as déjà une relation longue avec ta banque (10+ ans), un patrimoine déjà chez eux, un dossier impeccable (CDI public ou cadre, 0 découvert sur 12 mois, apport >20 %). Dans ce cas, la banque peut t'aligner sur les meilleures offres du marché. Sinon, courtier obligatoire, sauf si tu veux laisser 10-15 k€ sur la table." },
+        { titre: "L'assurance emprunteur : le poste oublié", contenu: "Sur 350 k€ × 25 ans, l'assurance emprunteur représente 25 000 à 50 000 € selon âge et état de santé. La banque te propose son contrat groupe (souvent cher). La loi Lemoine 2022 te permet de résilier et changer à tout moment. Comparer dès le départ avec un assureur externe (April, MetLife, Generali) peut faire gagner 8-15 k€." },
+        { titre: "Taux fixe ou variable : pas même débat en 2026", contenu: "En 2026 avec des taux à 3,2 % stables, le variable n'a aucun intérêt sauf cas particulier (vente prévue à 5 ans). Le risque d'un variable qui repart à la hausse à 4,5-5 % en cas de choc inflation est trop important. Verrouille ton fixe et oublie le variable jusqu'à ce que les taux fixes redescendent durablement sous 2,5 %." },
+        { titre: "Les frais cachés que tu vas payer", contenu: "Frais de dossier banque : 800-1 500 €. Caution Crédit Logement (alternative à l'hypothèque) : 0,5-1 % du capital, dont 30-40 % récupérables fin de prêt. Hypothèque conventionnelle : 1,5-2 %, non récupérable. Frais courtier : 0,5-1 % parfois offerts. Au total, prévoir 3 000-7 000 € de frais hors notaire pour boucler ton dossier crédit." },
+        { titre: "Notre stratégie en 4 étapes", contenu: "1) Faire valider ta capacité par un courtier dès le début (gratuit, sans engagement). 2) Verrouiller ton taux pendant 4 mois (l'accord de principe te le bloque). 3) Négocier l'assurance dès la signature ou dans les 3 mois. 4) Garder la possibilité de renégocier ton crédit dans 18-24 mois si les taux passent durablement sous 2,8 %." },
+      ],
+      references: ["Boulogne-Billancourt", "Versailles", "Vincennes"],
+    },
+  },
+  {
+    slug: "frais-notaire-ile-de-france-2026-vrai-calcul",
+    title: "Frais de notaire en Île-de-France 2026 : combien ça coûte vraiment",
+    description:
+      "7-8 % dans l'ancien, 2-3 % dans le neuf. Mais entre les frais de mutation, les émoluments, les débours et les nouvelles taxes 2026, le calcul réel surprend.",
+    publishedAt: "2026-05-13",
+    readingMinutes: 8,
+    category: "finance",
+    brief: {
+      audience:
+        "Acheteur primo-accédant ou en deuxième acquisition qui découvre que les 'frais de notaire' qu'on lui annonce ne correspondent jamais aux 7-8 % théoriques. Veut comprendre la décomposition pour anticiper le budget réel.",
+      angle:
+        "Décortiquer ligne par ligne les vrais frais de notaire en 2026 en IDF. Casser les approximations (8 % c'est faux dans le détail), expliquer ce qui revient au notaire vs aux taxes, et montrer comment certaines lignes peuvent être négociées ou réduites.",
+      sections: [
+        { titre: "Le mythe des 8 % : ce que paie vraiment l'acheteur", contenu: "Sur 400 k€ d'achat dans l'ancien, le total annoncé 'frais de notaire' est environ 30 000-32 000 € (7,5-8 %). Mais sur ces 32 000 €, le notaire ne touche que 4 000-5 000 € en émoluments. Le reste : 24 000-26 000 € de droits de mutation pour l'État et les collectivités, 2 000-3 000 € de débours et formalités." },
+        { titre: "Les 4 composantes des frais de notaire", contenu: "1) Droits de mutation (DMTO) : 5,80 % du prix dans la majorité des départements IDF, 4,50 % à Paris intra-muros (taxe modulée). 2) Contribution de sécurité immobilière : 0,10 %. 3) Émoluments du notaire : barème dégressif national, environ 0,80 % sur 400 k€. 4) Débours et formalités : 1 000-2 500 € selon le bien (hypothèques, urbanisme, copropriété)." },
+        { titre: "Pourquoi le neuf coûte 2-3 % seulement", contenu: "Dans le neuf (vente en l'état futur d'achèvement, VEFA), les DMTO sont remplacés par la TVA déjà incluse dans le prix d'achat. Du coup, les vrais frais de notaire dans le neuf : 2-3 %, soit 8 000-12 000 € sur 400 k€. Différence entre neuf et ancien : 18-22 000 € de frais en moins, mais le neuf est 25-40 % plus cher au m². Le calcul global penche presque toujours pour l'ancien." },
+        { titre: "Cas Paris vs banlieue : 1 700 € d'écart sur 400 k€", contenu: "Paris (75) bénéficie d'un DMTO réduit à 4,50 %. Sur un achat 400 k€, frais de notaire ancien = 28 800 € à Paris vs 30 500 € en banlieue (Hauts-de-Seine, Val-de-Marne, etc.). Léger avantage Paris, qui s'efface vite vu le différentiel de prix au m²." },
+        { titre: "Les frais réduits primo-accédant : le cadeau de l'État 2026", contenu: "Loi de finances 2025 : abattement sur les DMTO pour les primo-accédants en zone tendue (Paris + petite couronne) jusqu'à 2 % en moins. Sur 400 k€, économie 8 000 €. Cumul possible avec le PTZ. Conditions : ne pas avoir été propriétaire dans les 24 derniers mois, occuper le bien à titre principal." },
+        { titre: "Négocier les émoluments : possible jusqu'à 20 %", contenu: "Depuis 2016, le notaire peut accorder une remise jusqu'à 20 % sur ses émoluments quand le prix dépasse 100 000 €. Sur un achat 500 k€, c'est 800-1 000 € négociables. Demander explicitement : la plupart ne le proposent pas spontanément. Surtout valable si tu apportes plusieurs dossiers (achat+vente, ou famille qui achète aussi)." },
+        { titre: "Le débours : la zone grise du devis", contenu: "Les débours (1 500-3 000 € en moyenne) couvrent les frais que le notaire avance pour ton compte : extraits cadastraux, hypothèques, état urbanisme, géomètre éventuel. Demander un devis détaillé : certains notaires gonflent cette ligne. Comparer avec le tarif officiel des actes notariés." },
+        { titre: "Comment payer moins, vraiment", contenu: "1) Acheter avec mobilier : déduire la valeur du mobilier du prix soumis aux DMTO (cuisine équipée, électroménager, meubles fixés). Économie 1 500-3 000 € sur 400 k€. 2) Négocier les émoluments si dossier >100 k€. 3) Vérifier l'éligibilité au régime primo-accédant. 4) Acheter dans le neuf si le prix unitaire reste comparable. 5) Choisir un notaire qui pratique la transparence et la concurrence (certaines études 'low cost' existent dans l'IDF)." },
+      ],
+      references: ["Boulogne-Billancourt", "Vincennes", "Saint-Maur-des-Fossés"],
+    },
+  },
+  {
+    slug: "neuf-vs-ancien-banlieue-parisienne-calcul-honnete",
+    title: "Maison neuve vs ancien rénové en banlieue : le calcul honnête",
+    description:
+      "Les promoteurs vendent du neuf 25 à 40 % plus cher que l'ancien rénové. Sur 25 ans, qui gagne vraiment ? On a fait le calcul ligne par ligne.",
+    publishedAt: "2026-05-14",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acheteur en réflexion entre un programme neuf bien commercialisé et un ancien rénové. Capacité 350-600 k€. A entendu les arguments des promoteurs (frais notaire réduits, RT2020, pas de travaux 10 ans) mais doute sur le calcul global.",
+      angle:
+        "Comparer honnêtement neuf et ancien rénové sur tous les critères chiffrables : prix d'achat, frais notaire, travaux à venir, performance énergétique, fiscalité, plus-value sur 10 ans. Avec un cas pratique chiffré T3 70 m² dans la même rue.",
+      sections: [
+        { titre: "Le pitch du promoteur, démonté point par point", contenu: "Argument 1 : 'Pas de travaux 10 ans'. Vrai, mais l'ancien rénové t'évite aussi les travaux structurels 10 ans après une bonne réno. Argument 2 : 'Frais notaire 3 %'. Vrai, mais l'ancien est 25-40 % moins cher au m², le différentiel reste massif. Argument 3 : 'RT2020 c'est ultra performant'. Vrai sur le neuf récent, mais une réno BBC dans l'ancien atteint des perfs proches." },
+        { titre: "Cas pratique : Boulogne-Billancourt, T3 70 m²", contenu: "Bien neuf programme : 9 200 €/m² = 644 000 €. Frais notaire 3 % : 19 320 €. Total : 663 320 €. Ancien rénové même rue : 7 800 €/m² = 546 000 €. Frais notaire 8 % : 43 680 €. Travaux résiduels prévus 5 ans : 12 000 €. Total : 601 680 €. Écart : 61 640 € en faveur de l'ancien rénové." },
+        { titre: "La performance énergétique : le détail qui change tout", contenu: "Neuf RT2020 : DPE A ou B, consommation 50-75 kWh/m²/an. Charges énergie 600-900 €/an pour 70 m². Ancien rénové BBC : DPE B ou C, consommation 80-120 kWh/m²/an. Charges 900-1 400 €/an. Différence sur 25 ans : 7 500-12 000 €. Réel mais loin de combler les 60 k€ d'écart prix d'achat." },
+        { titre: "Les charges de copropriété : le point que les promoteurs cachent", contenu: "Programmes neufs : services premium (concierge, salle de sport, parking automatique), charges 50-80 €/m²/an. Soit 3 500-5 600 €/an pour 70 m². Ancien copropriété classique : charges 25-40 €/m²/an, soit 1 750-2 800 €/an. Différence : 1 750-2 800 €/an × 25 ans = 44 000-70 000 €. Avantage écrasant à l'ancien sur ce poste." },
+        { titre: "La plus-value : ce que disent les chiffres réels", contenu: "Étude FNAIM sur 1 200 transactions IDF entre 2014 et 2024 : neuf revendu 5-8 ans après achat = -3 à -5 % vs prix d'achat (la prime promoteur s'efface). Ancien rénové revendu sur même horizon = +12 à +25 % selon localisation. Le neuf revend bien après 12-15 ans, pas avant." },
+        { titre: "Quand le neuf est vraiment pertinent", contenu: "1) PTZ + dispositif Loc'Avantages cumulés (rare mais possible). 2) Achat patrimonial très long terme (15+ ans), aversion forte aux travaux. 3) Profil senior qui veut zéro souci, accepte de payer la prime. 4) Investissement locatif avec garantie de loyer 9 ans (Loc'Avantages, ex-Pinel)." },
+        { titre: "Quand l'ancien rénové écrase le neuf", contenu: "1) Primo-accédant qui optimise chaque euro. 2) Familles qui veulent du caractère (haussmannien, charme, hauteurs sous plafond). 3) Investisseurs en cash-flow positif. 4) Acheteurs qui prévoient une revente à 7-10 ans. 5) Tous les profils en zone IDF dense (petite couronne) où le différentiel prix est maximal." },
+        { titre: "Les pièges spécifiques au neuf en 2026", contenu: "Programmes 'Grand Paris Express' avec surprime de 15-25 % sur la promesse de valorisation : à éviter, l'effet est déjà dans le prix. VEFA en cours de chantier : risque de retard 6-18 mois, voire abandon en cas de défaut promoteur (rare mais arrive). Lots invendus en fin de programme : possibles décotes 8-12 % si patient." },
+        { titre: "Notre verdict en une phrase", contenu: "Sauf cas spécifique (PTZ + Loc'Avantages, profil ultra-aversion aux travaux, patrimoine 15+ ans), l'ancien rénové bat le neuf de 40 000 à 80 000 € sur 25 ans en banlieue parisienne en 2026." },
+      ],
+      references: ["Boulogne-Billancourt", "Vincennes", "Versailles", "Issy-les-Moulineaux"],
+    },
+  },
+  {
+    slug: "defiscalisation-immobilier-2026-pinel-loc-avantages-denormandie",
+    title: "Défiscalisation immobilière 2026 : Pinel terminé, et après ?",
+    description:
+      "Pinel s'est arrêté fin 2024. Loc'Avantages, Denormandie, LMNP, déficit foncier : panorama des dispositifs encore actifs pour défiscaliser en Île-de-France.",
+    publishedAt: "2026-05-15",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur 40-60 ans en tranche IR 30-41 %, déjà propriétaire de sa résidence principale, capacité 200-450 k€ pour un investissement locatif, cherche à réduire son IRPP via l'immobilier.",
+      angle:
+        "État des lieux complet des dispositifs de défiscalisation immobilière en 2026 après la fin du Pinel. Comparaison ROI (gain fiscal vs contraintes) pour les 4 dispositifs encore actifs. Recommandation par profil et par ville.",
+      sections: [
+        { titre: "Pinel : pourquoi c'est terminé et qui peut encore en profiter", contenu: "Le Pinel s'est éteint le 31 décembre 2024 pour les nouvelles acquisitions. Les Pinel signés avant cette date continuent leurs avantages fiscaux jusqu'à terme (6, 9 ou 12 ans). Pas de relance prévue malgré le lobbying des promoteurs : Bercy considère que le dispositif coûtait trop cher pour des résultats logement modestes." },
+        { titre: "Loc'Avantages : le successeur officieux du Pinel", contenu: "Réduction d'impôt 15 à 65 % du loyer brut selon niveau de loyer plafonné (3 niveaux : intermédiaire, social, très social). Ancien rénové ou neuf. Engagement 6 ans minimum. Sur un T3 65 m² loué 950 €/mois en zone B1 (Reims, Tours), la réduction d'impôt atteint 1 700-2 200 €/an. Cumulable avec le déficit foncier." },
+        { titre: "Denormandie : pour les villes moyennes en revitalisation", contenu: "Variante du Pinel pour l'ancien à rénover dans les villes éligibles (action coeur de ville). En IDF : Mantes-la-Jolie, Provins, Meaux, Sens, Évry, Étampes. Réduction 12-21 % du prix d'achat (plafonné 300 k€) sur 6-12 ans, conditionnée à des travaux représentant 25 % du coût total. Idéal pour primo-investisseur qui veut un cash-flow vite positif." },
+        { titre: "LMNP : pas un dispositif fiscal mais le statut le plus efficace", contenu: "Loueur Meublé Non Professionnel : tu loues meublé, tu déclares en BIC (régime réel), tu amortis le bien comptablement. Résultat : pendant 15-20 ans, tes revenus locatifs sont fiscalement neutres ou très faibles. Convient à investisseur en tranche IR 30-41 %. Pas de plafond de loyer, pas de zone éligible. Limite : dépôt de garantie réduit (1 mois), durée bail 1 an." },
+        { titre: "Déficit foncier : la machine de guerre des gros travaux", contenu: "Si tu achètes ancien à rénover et que tu génères 50 000 € de travaux en année 1, tu peux déduire jusqu'à 10 700 €/an de ton revenu global pendant 4 ans (43 000 € au total). En tranche IR 41 % + CSG 17,2 %, économie d'impôt cumulée : 25 000 €. Reste 25 000 € de déficit reportable sur les revenus fonciers des 10 années suivantes." },
+        { titre: "Cas pratique : 350 k€, tranche IR 41 %", contenu: "Scénario A - Loc'Avantages T3 65 m² Reims, prix 200 k€ + travaux 25 k€, loyer plafonné 850 €/mois : réduction d'impôt 1 800 €/an × 9 ans = 16 200 €. Scénario B - LMNP T2 50 m² Vincennes, prix 400 k€, loyer 1 350 €/mois : économie fiscale via amortissement 4 500 €/an × 15 ans = 67 500 €. Scénario C - Déficit foncier ancien à rénover Pantin, 280 k€ + 80 k€ travaux : économie 25 000 € sur 4 ans + plus-value sur 10 ans." },
+        { titre: "Quel dispositif pour quel profil", contenu: "Cadre 30-45 ans tranche 30 %, premier locatif : Denormandie ou Loc'Avantages, simplicité maximale. Cadre 45-60 ans tranche 41 %, recherche cash-flow neutre fiscalement : LMNP. Investisseur expérimenté avec capacité travaux : déficit foncier en Petite Couronne (Pantin, Saint-Ouen, Bagneux). Senior 60+ qui veut transmettre : SCI familiale + LMNP combinés." },
+        { titre: "Les pièges à éviter en 2026", contenu: "1) Promoteurs qui survendent un 'super-dispositif' inexistant pour caser leur stock invendu (le Pinel ressuscité, ça n'existe pas). 2) Loc'Avantages dans une ville où le loyer plafonné est inférieur au marché : tu perds en cash-flow ce que tu gagnes en impôt. 3) Denormandie sans avoir vérifié la liste exacte des communes éligibles (elle change). 4) LMNP en courte durée saisonnière sans validation du règlement de copropriété." },
+        { titre: "Notre recommandation 2026", contenu: "Pour 80 % des investisseurs IDF en 2026, le LMNP en ancien rénové reste le meilleur compromis : pas de zone tendue, pas de plafond de loyer, fiscalité neutre 15+ ans, flexibilité revente. Ajoute du déficit foncier sur tes deux premières années si tu fais des travaux > 30 k€. Réserve Loc'Avantages et Denormandie aux profils ville moyenne ou ultra-cible primo-accédant assistance." },
+      ],
+      references: ["Reims", "Mantes-la-Jolie", "Vincennes", "Pantin", "Saint-Ouen-sur-Seine"],
+    },
+  },
+  {
+    slug: "ptz-2026-ile-de-france-conditions-plafonds",
+    title: "PTZ 2026 en Île-de-France : conditions, plafonds, qui peut y prétendre",
+    description:
+      "Le PTZ a été élargi en 2025 et reste très puissant en zone tendue. Jusqu'à 100 000 € à taux zéro pour primo-accédant. Conditions précises pour 2026.",
+    publishedAt: "2026-05-16",
+    readingMinutes: 8,
+    category: "finance",
+    brief: {
+      audience:
+        "Primo-accédant 25-40 ans, capacité 250-450 k€, salaires 2 SMIC à 4 SMIC, jamais propriétaire, cherche à acheter en zone IDF mais ne sait pas s'il est éligible au PTZ et combien il peut emprunter à taux zéro.",
+      angle:
+        "Guide pratique du PTZ en Île-de-France pour 2026. Casser les idées reçues (non, ce n'est pas réservé aux modestes), expliquer les vrais plafonds, donner des exemples chiffrés concrets, et lister les pièges de demande.",
+      sections: [
+        { titre: "Le PTZ, c'est quoi vraiment", contenu: "Prêt à Taux Zéro accordé par l'État, jusqu'à 40 % du montant total de l'opération en zone A bis (Paris + petite couronne), 30 % en zone A et B1. Pas d'intérêts, durée 20-25 ans dont 10-15 ans de différé total (tu ne paies rien les 10 premières années). C'est de l'argent gratuit." },
+        { titre: "Les 3 conditions clés en 2026", contenu: "1) Ne pas avoir été propriétaire de sa résidence principale dans les 24 derniers mois. 2) Acheter en résidence principale (pas locatif). 3) Respecter les plafonds de revenus : sous 49 000 € de revenus annuels nets (couple) en zone A bis pour le tranche 1, jusqu'à 79 000 € en tranche 4. Ces plafonds ont été assouplis en 2025." },
+        { titre: "Les plafonds montant en zone A bis (Paris + petite couronne)", contenu: "Personne seule : opération maximum 184 000 €, PTZ jusqu'à 73 600 €. Couple : opération max 257 600 €, PTZ jusqu'à 103 040 €. Couple avec 2 enfants : max 322 000 €, PTZ jusqu'à 128 800 €. Couple avec 4+ enfants : max 386 400 €, PTZ jusqu'à 154 560 €. Le PTZ s'ajoute à ton crédit principal (banque traditionnelle), pas à la place." },
+        { titre: "Cas pratique : couple 2 enfants, 75 k€/an, achat 350 k€ à Vincennes", contenu: "Profil : tranche 3 du PTZ. PTZ accordé jusqu'à 40 % de 322 000 € = 128 800 €. Reste à financer : 350 000 - 128 800 = 221 200 €. Mensualité PTZ pendant les 15 années de différé : 0 €. Mensualité crédit principal sur 25 ans à 3,2 % : 1 075 €. Économie d'intérêts cumulée vs crédit classique : 38 000 € sur 25 ans. C'est massif." },
+        { titre: "Neuf vs ancien : la condition qui change tout en 2026", contenu: "Depuis 2025, le PTZ couvre à nouveau l'ancien (avec ou sans travaux) en zone tendue, en plus du neuf. Avant, il était réservé au neuf. Conséquence : un primo-accédant qui achète un T3 ancien à Saint-Maur-des-Fossés peut désormais cumuler le PTZ avec son crédit principal. Cette extension a été faite pour soutenir l'accession en zone tendue." },
+        { titre: "Comment monter le dossier sans se planter", contenu: "1) Récupérer ton avis d'imposition N-2 (PTZ se base sur le revenu fiscal de référence n-2). 2) Demander une simulation chez un courtier qui maîtrise le PTZ (Pretto, Meilleurtaux, en mentionnant explicitement ta volonté d'inclure le PTZ). 3) Obtenir l'accord PTZ AVANT de signer le compromis (sinon tu rates une échéance). 4) Vérifier l'éligibilité du bien (résidence principale, occupation 6+ mois/an)." },
+        { titre: "Les pièges et limites en 2026", contenu: "1) Le PTZ baisse ton apport effectif disponible aux yeux de la banque qui finance le reste. Du coup la banque peut être plus prudente. 2) Si tu revends dans les 5 ans, tu dois rembourser le solde du PTZ d'un coup (sauf cas exceptionnel). 3) Si tu loues le bien dans les 6 ans, c'est cause de remboursement immédiat. 4) Le PTZ ne couvre pas les frais de notaire, prévoir l'apport en plus." },
+        { titre: "Notre stratégie d'optimisation PTZ", contenu: "Si tu es primo-accédant en zone IDF tendue, le PTZ est un cadeau de 25 000 à 50 000 € sur la durée totale de ton achat. Pas l'utiliser, c'est laisser de l'argent gratuit sur la table. Étape 1 : valider ton éligibilité. Étape 2 : viser le maximum autorisé (zone A bis + composition familiale). Étape 3 : combiner avec un crédit principal optimisé via courtier. Étape 4 : viser un bien que tu garderas 10+ ans pour profiter de tout le différé." },
+      ],
+      references: ["Vincennes", "Saint-Maur-des-Fossés", "Boulogne-Billancourt"],
+    },
+  },
+  {
+    slug: "dpe-passoires-thermiques-banlieue-parisienne-2026",
+    title: "DPE F et G en banlieue parisienne : les communes les plus impactées",
+    description:
+      "Depuis 2025 location interdite des DPE G, 2028 pour les F. Impact sur les prix : -10 à -20 % sur certaines communes. Carte des zones les plus touchées.",
+    publishedAt: "2026-05-17",
+    readingMinutes: 8,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acheteur 30-50 ans qui s'intéresse aux opportunités créées par la décote DPE F-G. Veut comprendre quelle commune est la plus touchée et où trouver des biens à rénover avec le meilleur potentiel.",
+      angle:
+        "État des lieux 2026 du marché des passoires thermiques en banlieue parisienne. Quelles communes sont les plus exposées (parc ancien), quel niveau de décote observable, comment exploiter intelligemment cette inefficience de marché.",
+      sections: [
+        { titre: "Le calendrier réglementaire 2025-2034", contenu: "Janvier 2025 : interdiction de louer les DPE G+ (les pires). Janvier 2028 : interdiction des G. Janvier 2031 : interdiction des F. Janvier 2034 : interdiction des E (2 millions de logements concernés). Conséquence sur le marché : les biens classés F et G perdent de la valeur, créant une fenêtre d'arbitrage pour les acheteurs prêts à rénover." },
+        { titre: "L'ampleur du parc passoire en IDF", contenu: "30 % des logements IDF sont classés F ou G selon l'ADEME 2025. Concentration géographique : grande couronne et ancien populaire (parc 1950-1980 mal isolé) très exposés. Petite couronne ouest et Paris haussmannien moins touchés (rénovations déjà réalisées sur les beaux immeubles)." },
+        { titre: "Les 5 communes les plus impactées par la décote", contenu: "1) Aulnay-sous-Bois : 38 % de F-G dans l'ancien, décote moyenne 15-18 %. 2) Mantes-la-Jolie : 35 % de F-G, décote 12-15 %. 3) Sevran : 40 %, décote 18-20 %. 4) Drancy : 33 %, décote 12-15 %. 5) Évry-Courcouronnes : 30 %, décote 10-12 %. Sur ces communes, un T3 70 m² classé G se trouve 10-25 000 € moins cher qu'un équivalent classé D." },
+        { titre: "Les communes étonnamment épargnées", contenu: "1) Boulogne-Billancourt : <10 % de F-G, parc rénové dans les années 2010 sur la majorité des copropriétés. 2) Versailles : 12 % de F-G, parc ancien mais beaucoup d'investissements de copro. 3) Vincennes : 8 % de F-G, idem. 4) Saint-Mandé : <10 %. Ces communes voient peu d'opportunités d'arbitrage DPE car le marché reste tendu sur tous les classements." },
+        { titre: "Le calcul rénovation : combien et quel ROI", contenu: "Coût moyen pour passer un T3 70 m² de G à D : isolation thermique (combles + murs + fenêtres) 25 000-40 000 €. Pompe à chaleur 12 000-18 000 €. Total 37 000-58 000 €. Aides : MaPrimeRénov' jusqu'à 25 000 € pour les revenus modestes-intermédiaires, CEE 1 500-3 000 €, écoPTZ jusqu'à 50 000 € à 0 %. Reste à charge net : 10 000-25 000 € selon profil." },
+        { titre: "Le ROI de la rénovation en 2026", contenu: "Sur un bien acheté 280 000 € classé G en banlieue, après rénovation 25 000 € (reste à charge), valeur 2026 estimée : 320-340 000 €. Plus-value brute 15-25 000 €. Plus l'économie d'énergie 800-1 200 €/an. Plus la possibilité de louer (interdite avant). Sur 8 ans, ROI total estimé 30-45 000 € sur un investissement initial 25 000 €." },
+        { titre: "Les pièges de la rénovation passoire thermique", contenu: "1) Sous-estimer le coût (les devis dérivent de 20-30 % en cours de chantier dans 60 % des cas). 2) Mauvais artisan : les travaux énergétiques exigent un RGE certifié pour les aides. 3) Copropriété qui refuse : pour isolation par l'extérieur ou changement d'huisseries, accord en AG nécessaire. 4) Perte d'une partie des aides si calendrier mal anticipé (MaPrimeRénov' Sérénité a des conditions strictes)." },
+        { titre: "Notre stratégie d'achat passoire 2026", contenu: "Si tu acceptes de rénover : viser un G en zone Aulnay/Sevran/Drancy avec une copropriété saine (PV des AG validé) à -15-20 % du prix moyen du quartier. Budgéter 35 000 € de rénovation (avec marge). Récupérer 15-25 000 € d'aides selon revenus. ROI sur 5-8 ans très favorable, surtout si tu vises de la location longue durée à terme." },
+      ],
+      references: ["Aulnay-sous-Bois", "Mantes-la-Jolie", "Drancy", "Évry-Courcouronnes"],
+    },
+  },
+  {
+    slug: "acheter-versailles-2026-quartier-par-quartier",
+    title: "Acheter à Versailles en 2026 : le guide quartier par quartier",
+    description:
+      "7 400 €/m² médian, mais l'écart entre Notre-Dame, Saint-Louis et Montreuil dépasse les 1 800 €/m². Carte précise des quartiers, prix réels et arbitrages.",
+    publishedAt: "2026-05-18",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur 35-55 ans CSP+, capacité 600 k€ à 1,2 M€, attiré par Versailles pour son patrimoine, ses écoles, son cadre de vie. Veut comprendre les nuances entre quartiers avant de cibler ses visites.",
+      angle:
+        "Guide précis des 6 quartiers de Versailles avec prix réels 2026, profils habitants, écoles, transports, et conseil d'achat selon le profil. Approche locale d'expert immobilier, pas pour rabâcher 'Versailles c'est cher'.",
+      sections: [
+        { titre: "Versailles en 2026 : le marché en chiffres", contenu: "Prix médian 7 400 €/m², évolution -2,8 % sur 12 mois (correction modérée vs -5,5 % moyenne IDF, signe de résilience patrimoniale). Volumes -8 %. Délai vente moyen 75 jours. Profil acheteur : 65 % familles avec enfants, 20 % cadres expatriés/internationaux, 15 % seniors qui vendent un bien plus grand." },
+        { titre: "Notre-Dame : le coeur historique", contenu: "Prix 8 800-9 500 €/m² (top de la commune). Quartier autour du marché Notre-Dame, rues piétonnes, commerces de bouche, ambiance bourgeoisie traditionnelle. Écoles privées catholiques excellentes (Saint-Jean, Notre-Dame). Pour qui : familles aisées attachées au cadre village, seniors. Risque : très peu d'offre, biens vendus avant publication parfois." },
+        { titre: "Saint-Louis : le quartier d'art de vivre", contenu: "Prix 7 800-8 800 €/m². Autour de la cathédrale Saint-Louis, jardin du Roi, antiquaires. Plus calme que Notre-Dame, ambiance plus discrète. Écoles publiques solides, lycées prestigieux à proximité (Hoche). Pour qui : intellectuels, professions libérales, familles cultivées. Avantage : moins surcoté que Notre-Dame, charme équivalent." },
+        { titre: "Montreuil : le rapport qualité-prix", contenu: "Prix 6 200-7 200 €/m². À l'est de la commune, plus modeste mais tout sauf populaire. Pavillonnaire des années 1900-1950, charme provincial. Bien desservi par RER C (Versailles Rive Droite). Pour qui : primo-accédants Versailles, jeunes familles, télétravailleurs. Pourquoi : 1 500-2 000 €/m² de moins que Notre-Dame pour 80 % du Versailles-feeling." },
+        { titre: "Clagny-Glatigny : familial chic", contenu: "Prix 7 500-8 200 €/m². Autour du parc de Clagny et de l'avenue de Saint-Cloud. Tissu résidentiel pavillonnaire et petits collectifs cossus. Écoles publiques top (groupe scolaire Clagny). Pour qui : familles avec 2-4 enfants, pré-adolescents qui scolarisent au collège Hoche ensuite. Avantage : cadre verdoyant, sentiment 'maison familiale'." },
+        { titre: "Bernard-de-Jussieu : le moins cher, le plus pratique", contenu: "Prix 5 800-6 500 €/m². Sud de Versailles, proche RER C Porchefontaine. Tissu plus mixte (résidences récentes + maisons de ville). Pour qui : primo-accédants stricts, célibataires/jeunes couples, télétravailleurs cherchant Versailles à prix accessible. Limite : moins de patrimoine, moins d'animation commerciale." },
+        { titre: "Porchefontaine : le secret bien gardé", contenu: "Prix 6 800-7 400 €/m². À cheval entre Versailles et la forêt de Meudon, ambiance village balnéaire (constructions XIXe pour bourgeoisie parisienne). Petits commerces, marché. Pour qui : familles qui veulent du calme, contact nature. Risque : éloigné du château et du centre, voiture utile." },
+        { titre: "Comment acheter à Versailles en 2026", contenu: "1) Définir ton quartier cible avant de visiter (les écarts de prix justifient un choix précis). 2) Activer le réseau (40 % des biens Versailles se vendent off-market via notaires et agences locales). 3) Préparer un dossier d'achat clean avant compromis (Versailles attire des concurrents avec capacité validée et apport >25 %). 4) Anticiper les frais notaire élevés sur ancien (8 % moyen). 5) Comparer absolument Saint-Germain-en-Laye, Le Vésinet, Marnes-la-Coquette si ton budget passe." },
+      ],
+      references: ["Versailles", "Saint-Germain-en-Laye"],
+    },
+  },
+  {
+    slug: "vincennes-saint-mande-comparaison-immobilier-2026",
+    title: "Vincennes ou Saint-Mandé : choisir entre les deux pépites du 94",
+    description:
+      "Limitrophes, à 16 minutes de Châtelet, prix entre 9 200 et 10 800 €/m². Mais Vincennes et Saint-Mandé n'attirent pas le même profil. Comparatif honnête.",
+    publishedAt: "2026-05-19",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Cadre 35-55 ans Paris-attaché, capacité 700 k€ à 1,3 M€, refuse de quitter le métro, cherche un cadre familial premium en limite de Paris. Hésite entre les deux communes phares du 94 ouest.",
+      angle:
+        "Comparer honnêtement Vincennes et Saint-Mandé sur tous les critères qui comptent pour un acheteur premium : prix, transports, écoles, ambiance, marchés, sécurité, perspectives. Casser les clichés (Saint-Mandé 'plus chic', Vincennes 'plus jeune'), donner les vrais chiffres.",
+      sections: [
+        { titre: "Le verdict en 30 secondes", contenu: "Saint-Mandé est plus cher (médian 10 200 €/m²), plus petit (24 000 hab), plus uniforme socialement, plus calme. Vincennes est légèrement moins cher (9 200 €/m²), plus grand (49 000 hab), plus diversifié, plus animé commercialement. Le choix dépend de ton attachement au village vs ville moyenne." },
+        { titre: "Prix au m² 2026 : la vraie différence", contenu: "Saint-Mandé : médian 10 200 €/m², fourchette 9 500-11 200 selon quartier. Vincennes centre : 9 800-10 500 €/m². Vincennes Bérault/Diderot : 9 200-9 800 €/m². Vincennes Domaine du Bois : 8 800-9 500 €/m² (plus calme, à la lisière). Sur un T3 75 m², écart 50 000-90 000 € en faveur de Vincennes." },
+        { titre: "Transports : strictement équivalents", contenu: "Saint-Mandé : ligne 1 (Saint-Mandé) à 12 minutes de Châtelet. Vincennes : ligne 1 (Vincennes ou Bérault) à 14-16 minutes de Châtelet. Bois de Vincennes accessible directement à pied des deux côtés. Vincennes a en plus le RER A (gare Vincennes) qui ouvre vers La Défense et vers l'est. Léger avantage Vincennes pour qui travaille à La Défense." },
+        { titre: "Écoles : les deux sont excellentes mais pas pareil", contenu: "Saint-Mandé : groupe scolaire de la République (public, top), école Émilie-du-Châtelet (privée, sélective). Très peu d'écoles, ambiance 'village avec ses 3 écoles'. Vincennes : 6 groupes scolaires publics dont Saint-Exupéry et Roland-Vernaudon excellents, 3 écoles privées (Notre-Dame, Saint-Pierre). Plus de choix, plus d'options." },
+        { titre: "Ambiance et art de vivre", contenu: "Saint-Mandé : marché Saint-Mandé Tourelle (mardi/vendredi/dimanche), avenue du Général de Gaulle (commerces de bouche premium), parc Saint-Mandé. Ambiance plus 'village BCBG'. Vincennes : marché de Vincennes (mardi/vendredi/dimanche), rue du Midi piétonne (commerces, terrasses), Cours Marigny. Ambiance plus 'petite ville à part entière' avec cinéma, théâtre, bibliothèque municipale active." },
+        { titre: "Pour qui Saint-Mandé est le meilleur choix", contenu: "1) Familles avec enfants en bas âge qui veulent l'ambiance village. 2) Cadres seniors qui préfèrent le calme à l'animation. 3) Couples sans enfant CSP+ attirés par l'exclusivité. 4) Profils 'qualité de vie absolue' qui ne regardent pas le prix au m²." },
+        { titre: "Pour qui Vincennes est le meilleur choix", contenu: "1) Familles 30-45 ans qui veulent du choix d'écoles et de l'animation. 2) Primo-accédants premium (T3 75 m² possible à 700-740 k€ sur Bérault). 3) Profils qui apprécient la mixité sociale (Vincennes plus diversifié que Saint-Mandé). 4) Acheteurs qui veulent garder l'option télétravail occasionnel à Paris la Défense (RER A)." },
+        { titre: "Notre conseil tranchant", contenu: "Si ton budget tient à 800 k€, Vincennes Bérault est le meilleur rapport qualité-prix-transport-école d'Île-de-France entière. Si tu peux mettre 1 M€+ et que tu veux le standing absolu, Saint-Mandé est plus exclusif mais tu paies une prime de 5-8 % pour 80 % de la même expérience. Pour 90 % des profils premium, Vincennes." },
+      ],
+      references: ["Vincennes", "Saint-Mandé"],
+    },
+  },
+  {
+    slug: "boulogne-billancourt-2026-acheter-encore-coup",
+    title: "Boulogne-Billancourt en 2026 : vaut-il encore le coup d'acheter ?",
+    description:
+      "Médian 9 200 €/m² (-2,1 % sur 5 ans), correction terminée. Quartiers historiques vs Trapèze, M9 vs M10, école publique vs privée. Le diagnostic complet 2026.",
+    publishedAt: "2026-05-20",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Cadre 35-55 ans francilien, capacité 700 k€ à 1,5 M€, considère Boulogne pour son cadre de vie, sa proximité Paris, ses écoles. Hésite parce que les prix ont l'air élevés et qu'il a entendu parler d'un risque de baisse.",
+      angle:
+        "Faire le diagnostic Boulogne 2026 sans complaisance ni alarmisme. Quartier par quartier, école par école, transport par transport. Donner le verdict honnête : pour qui c'est encore un excellent achat, pour qui ça l'est moins.",
+      sections: [
+        { titre: "Le marché Boulogne en chiffres 2026", contenu: "Prix médian 9 200 €/m² (-2,1 % sur 5 ans, plus stable que la moyenne IDF -5,5 %). Volumes -7 % sur 12 mois. Profil acheteur : 55 % familles aisées, 20 % cadres internationaux/expatriés, 15 % primo-accédants premium, 10 % investisseurs patrimoniaux." },
+        { titre: "Le Trapèze : le quartier neuf qu'on adore détester", contenu: "Prix 9 800-11 200 €/m². Construit sur l'ancienne île Seguin (Renault) entre 2010 et 2024. Architecture moderne, parc de Billancourt, Seine accessible. Critique courante : 'sans âme', 'trop neuf'. Réalité : qualité de construction excellente, charges de copro 60-80 €/m²/an (élevées), DPE A-B partout. Pour qui : familles qui veulent du neuf bien fini, profils internationaux." },
+        { titre: "Centre historique (autour du métro Boulogne Jean-Jaurès)", contenu: "Prix 9 200-10 500 €/m². Tissu haussmannien et art déco, commerces de proximité, petite ambiance village. Écoles publiques excellentes (Émile Zola, Robert Doisneau). Pour qui : familles ancrées dans le tissu local, cadres avec enfants. Avantage : âme et patrimoine, valeur sûre sur 15 ans." },
+        { titre: "Pont de Sèvres / Marcel Sembat", contenu: "Prix 8 200-9 200 €/m². À cheval entre métro 9 (Pont de Sèvres) et 10 (Marcel Sembat). Ancien tissu industriel reconverti en résidentiel, plus diversifié socialement. Beaucoup de programmes neufs récents. Pour qui : primo-accédants premium qui veulent Boulogne sans payer Le Trapèze." },
+        { titre: "Billancourt nord (Jean-Baptiste Clément)", contenu: "Prix 8 800-9 800 €/m². Nord de Boulogne, proche Bois de Boulogne et 16e arrondissement. Tissu pavillonnaire et petits collectifs cossus. Pour qui : profils 'maison à Boulogne', familles avec gros budget qui cherchent maison + jardin sans quitter la commune." },
+        { titre: "Les transports en 2026 : Boulogne reste imbattable", contenu: "Métros 9 et 10 (Boulogne Pont de Saint-Cloud, Marcel Sembat, Boulogne Jean-Jaurès), RER C (Issy-Plaine), accès rapide vers la Défense (15 min) et Paris centre (15-20 min). Tram T2 (Henri Farman) connecte vers Issy-les-Moulineaux. Le futur Grand Paris Express ne passe pas par Boulogne mais la couverture actuelle est déjà excellente." },
+        { titre: "Écoles : la raison principale d'acheter à Boulogne", contenu: "Public : groupes scolaires Robert Doisneau, Glacière, Émile Zola, Marcel Pagnol — tous excellents. Lycée Jacques-Prévert (très bonne réputation). Privé : Notre-Dame, Saint-François d'Assise, Daniélou (féminin, prestigieux). Très peu de carte scolaire problématique. C'est l'argument familial numéro 1." },
+        { titre: "Verdict : pour qui Boulogne 2026 est un excellent achat", contenu: "1) Familles 35-50 ans avec enfants scolarisés ou à scolariser, capacité 850 k€-1,2 M€ : oui, c'est un investissement patrimonial solide. 2) Cadres internationaux qui changent souvent : oui, liquidité revente excellente. 3) Couples seniors qui transmettent : oui, valeur stable sur 20 ans. 4) Primo-accédants premium 700-800 k€ visant Pont de Sèvres : OK avec courtier crédit. 5) Investisseurs locatifs : non, rendements à 3,3 % nets seulement." },
+      ],
+      references: ["Boulogne-Billancourt", "Issy-les-Moulineaux", "Neuilly-sur-Seine"],
+    },
+  },
+  {
+    slug: "sci-familiale-immobilier-ile-de-france-avantages-pieges",
+    title: "Acheter en SCI familiale en Île-de-France : avantages, pièges, démarches",
+    description:
+      "La SCI familiale est l'outil patrimonial le plus puissant pour transmettre. Mais aussi celui où on se plante le plus si on l'utilise mal. Le mode d'emploi 2026.",
+    publishedAt: "2026-05-21",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Couple 40-60 ans avec patrimoine immobilier 600 k€ - 2 M€, deux enfants ou plus, planifie sa transmission. Ou parents 50-70 ans qui veulent aider leurs enfants à acheter sans tout leur donner. Veut comprendre quand SCI ouvre des portes et quand c'est un piège.",
+      angle:
+        "Décortiquer la SCI familiale en 2026 : ce que c'est vraiment, dans quels cas elle est puissante, dans quels cas elle est un boulet administratif coûteux. Approche praticienne, pas théorique. Avec coûts précis et cas pratiques.",
+      sections: [
+        { titre: "La SCI familiale en 30 secondes", contenu: "Société Civile Immobilière dont les associés sont membres d'une même famille. Tu détiens un bien immobilier via la SCI (au lieu de directement). Tu détiens des parts de la SCI (au lieu de la pleine propriété). Avantages clés : transmission progressive sans démembrement compliqué, gestion à plusieurs sans indivision, optimisation fiscale dans certains cas." },
+        { titre: "Cas où la SCI est puissante", contenu: "1) Transmission anticipée à des enfants : tu donnes 10 % des parts par an pendant 10 ans, tu profites des abattements fiscaux successivement (100 000 € par parent par enfant tous les 15 ans). 2) Achat avec plusieurs personnes (couple non marié, fratrie) : la SCI évite l'indivision et ses blocages. 3) Investissement locatif long terme avec optimisation IS : si tu loues nu, tu peux opter pour l'impôt sur les sociétés et amortir le bien." },
+        { titre: "Cas où la SCI est inutile ou contre-productive", contenu: "1) Achat de résidence principale par un couple marié sans enfants à transmettre : aucun gain. 2) Investissement locatif court ou moyen terme (<8 ans) : les frais administratifs (compta annuelle 800-1 500 €, formalisme) bouffent les bénéfices. 3) Bien meublé : la SCI à l'IR perd ses avantages, et la SCI à l'IS impose des règles strictes contraignantes." },
+        { titre: "Les coûts cachés que personne ne te dit", contenu: "Création SCI : 800-1 500 € (notaire ou société de domiciliation). Comptabilité annuelle : 800-1 500 €/an si externalisée. Tenue d'AG annuelle obligatoire. Procès-verbaux à formaliser. Si IS : déclarations fiscales complexes, expert-comptable indispensable. Total annuel : 1 000-2 500 € de frais, à comparer aux gains attendus." },
+        { titre: "Le choix IR ou IS : la vraie ligne de fracture", contenu: "SCI à l'IR : transparence fiscale, les revenus sont imposés au nom des associés à leur tranche IR. Idéal pour transmission patrimoniale et résidence principale. SCI à l'IS : amortissement du bien possible, mais double imposition à la sortie (plus-value société + IRPP sur dividendes). Idéal pour investissement locatif long terme à fort cash-flow." },
+        { titre: "Cas pratique : transmission d'un bien Boulogne 1 M€", contenu: "Couple 55 ans, 2 enfants, achat 2010 à 600 k€, valeur 2026 1 M€. Sans SCI : à leur décès, droits de succession sur 1 M€ moins abattements 200 k€ (2 × 100 k€) = 800 k€ taxé à environ 25 % moyens = 200 k€ de droits. Avec SCI familiale créée en 2026, donation 5 % de parts/an pendant 15 ans : transmission totale sans droit (utilisation pleine des abattements 100 k€/parent/enfant tous les 15 ans). Économie estimée : 150-180 k€." },
+        { titre: "Cas pratique : achat d'un locatif Pantin via SCI", contenu: "Investisseur 45 ans IRPP tranche 41 %, achète T3 350 k€ Pantin via SCI à l'IS. Loyer 1 250 €/mois. Avec amortissement du bien (4 % par an), les revenus locatifs sont fiscalement neutres pendant 12-15 ans. Comparé à de la location nue à l'IR : économie d'impôt cumulée 35-45 k€ sur 15 ans. À comparer aux 1 200 €/an de frais SCI : ROI très positif." },
+        { titre: "Les pièges en pratique", contenu: "1) Créer la SCI APRÈS l'achat (rachat des parts à soi-même) : coûteux fiscalement, à éviter. 2) Mettre la résidence principale en SCI : on perd l'exonération de plus-value. 3) Mélanger usage RP et locatif dans la même SCI : casse-tête comptable et fiscal. 4) Confier la gestion à un seul associé sans procès-verbaux : risque de contestation par les autres en cas de désaccord." },
+        { titre: "Notre cadre de décision en 5 questions", contenu: "1) Tu as plus de 500 k€ de patrimoine immobilier ? 2) Tu veux transmettre à des enfants ? 3) Tu acceptes 1 000-2 000 €/an de frais admin ? 4) Tu vises un horizon 10+ ans ? 5) Tu peux la créer AVANT l'achat ? Si oui à 4 ou 5 questions : SCI très pertinente, valide avec un notaire spécialisé. Si non à 3+ questions : la SCI est probablement plus de complexité que de bénéfice." },
+      ],
+      references: ["Boulogne-Billancourt", "Pantin", "Vincennes"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
