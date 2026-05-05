@@ -35,7 +35,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Top 10 des villes pour quitter Paris en 2026",
     description:
       "On a passé 80 communes au crible : prix m², trajet, qualité de vie, transports. Voici les 10 villes qui sortent du lot pour les Parisiens en 2026.",
-    publishedAt: "2026-04-22",
+    publishedAt: "2026-03-01",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -129,7 +129,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Combien ça coûte vraiment de quitter Paris : le budget complet",
     description:
       "Le déménagement, c'est l'iceberg qui cache la vraie dépense. On chiffre tout : crédit, frais d'agence, déco, transports, école, fiscalité.",
-    publishedAt: "2026-04-15",
+    publishedAt: "2026-02-22",
     readingMinutes: 9,
     category: "finance",
     brief: {
@@ -191,7 +191,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "RER B ou RER E : laquelle choisir pour vivre près de Paris ?",
     description:
       "Tout sépare ces deux lignes : ponctualité, modernité, communes desservies. On démêle laquelle correspond à ton profil.",
-    publishedAt: "2026-04-08",
+    publishedAt: "2026-02-15",
     readingMinutes: 7,
     category: "transport",
     brief: {
@@ -255,7 +255,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quitter Paris en télétravail : comment choisir ta ville en 2026",
     description:
       "Tu vas au bureau 2 jours par semaine. Le bon arbitrage entre temps de trajet et coût de la vie n'est plus le même qu'avant. Mode d'emploi.",
-    publishedAt: "2026-04-01",
+    publishedAt: "2026-02-08",
     readingMinutes: 8,
     category: "persona",
     brief: {
@@ -313,7 +313,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Le Grand Paris Express change-t-il vraiment le marché immobilier ?",
     description:
       "Les nouvelles lignes 14, 15, 16, 17, 18 promettent une révolution. La réalité est plus nuancée. Bilan d'étape en 2026.",
-    publishedAt: "2026-03-25",
+    publishedAt: "2026-02-01",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -377,7 +377,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Le palmarès 2026 : les villes où il fait bon vivre près de Paris",
     description:
       "On a passé 80 communes au crible avec 6 critères pondérés. Voici notre classement honnête des villes franciliennes et limitrophes où la vie tient vraiment ses promesses en 2026.",
-    publishedAt: "2026-05-04",
+    publishedAt: "2026-03-13",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -446,7 +446,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Acheter en Île-de-France en 2026 : faut-il foncer maintenant ou attendre 2027 ?",
     description:
       "Prix en baisse de 5,5 %, volumes au plus bas, taux stabilisés à 3,2 %. On regarde les vrais chiffres pour répondre à la question que tout primo-accédant se pose en 2026.",
-    publishedAt: "2026-05-03",
+    publishedAt: "2026-03-12",
     readingMinutes: 9,
     category: "finance",
     brief: {
@@ -511,7 +511,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Paris ou banlieue : le vrai calcul sur 5 ans",
     description:
       "Loyer, transport, école, voiture, impôts. On simule un couple avec deux enfants à Paris versus en banlieue sur 5 ans, ligne par ligne. Le résultat surprend.",
-    publishedAt: "2026-05-02",
+    publishedAt: "2026-03-11",
     readingMinutes: 9,
     category: "finance",
     brief: {
@@ -580,7 +580,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Investir avant le Grand Paris Express : les 10 communes encore raisonnables fin 2026",
     description:
       "Ligne 15 Sud plus tronçons 16 et 17 ouvrent fin 2026. Reste-t-il des opportunités d'investissement ou tout est-il déjà intégré dans les prix ? On regarde commune par commune.",
-    publishedAt: "2026-05-01",
+    publishedAt: "2026-03-10",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -655,7 +655,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Télétravail 2 jours, 4 jours, 5 jours : à partir de quel rythme tu peux quitter Paris ?",
     description:
       "Le rayon géographique acceptable change radicalement selon que tu vas au bureau 2 ou 4 jours par semaine. Trois scénarios chiffrés pour décider sans se planter.",
-    publishedAt: "2026-04-30",
+    publishedAt: "2026-03-09",
     readingMinutes: 8,
     category: "persona",
     brief: {
@@ -728,7 +728,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Acheter près de Paris en 2026 : le guide pour ne pas se planter",
     description:
       "Budget, transport, négo, frais cachés, neuf vs ancien : un manuel d'action pour acheter en banlieue parisienne en 2026 sans tomber dans les pièges classiques.",
-    publishedAt: "2026-05-07",
+    publishedAt: "2026-03-16",
     readingMinutes: 9,
     category: "guide",
     brief: {
@@ -804,7 +804,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Investir près de Paris en 2026 : où et comment, sans se faire avoir",
     description:
       "Locatif, LMNP, Pinel, Loc'Avantages, courte durée. On démêle les vraies opportunités d'investissement immobilier en Île-de-France, et les pièges des promoteurs.",
-    publishedAt: "2026-05-08",
+    publishedAt: "2026-03-17",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -876,7 +876,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Investir à Paris en 2026 : 5 quartiers encore rentables, 15 à éviter",
     description:
       "Paris intra-muros n'est plus rentable en locatif classique (rendement 2-3 %). Mais certains quartiers gardent un sens patrimonial. La carte honnête arrondissement par arrondissement.",
-    publishedAt: "2026-05-09",
+    publishedAt: "2026-03-18",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -944,7 +944,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Acheter à Paris en 2026 : prix par arrondissement et stratégies pour primo-accédants",
     description:
       "Marché en correction de 5,5 %, taux stabilisés à 3,2 %. C'est probablement le meilleur moment Paris depuis 2018. Quel arrondissement, quel quartier, quels pièges.",
-    publishedAt: "2026-05-10",
+    publishedAt: "2026-03-19",
     readingMinutes: 9,
     category: "guide",
     brief: {
@@ -1012,7 +1012,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Crédit immobilier 2026 : taux, durée, négociation, le guide complet",
     description:
       "Taux stabilisés à 3,2 %, banques en concurrence pour capter les bons dossiers. Comment optimiser ton prêt en 2026 et gagner 0,5 point sans te faire avoir.",
-    publishedAt: "2026-05-12",
+    publishedAt: "2026-03-21",
     readingMinutes: 9,
     category: "finance",
     brief: {
@@ -1039,7 +1039,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Frais de notaire en Île-de-France 2026 : combien ça coûte vraiment",
     description:
       "7-8 % dans l'ancien, 2-3 % dans le neuf. Mais entre les frais de mutation, les émoluments, les débours et les nouvelles taxes 2026, le calcul réel surprend.",
-    publishedAt: "2026-05-13",
+    publishedAt: "2026-03-22",
     readingMinutes: 8,
     category: "finance",
     brief: {
@@ -1065,7 +1065,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Maison neuve vs ancien rénové en banlieue : le calcul honnête",
     description:
       "Les promoteurs vendent du neuf 25 à 40 % plus cher que l'ancien rénové. Sur 25 ans, qui gagne vraiment ? On a fait le calcul ligne par ligne.",
-    publishedAt: "2026-05-14",
+    publishedAt: "2026-03-23",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -1092,7 +1092,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Défiscalisation immobilière 2026 : Pinel terminé, et après ?",
     description:
       "Pinel s'est arrêté fin 2024. Loc'Avantages, Denormandie, LMNP, déficit foncier : panorama des dispositifs encore actifs pour défiscaliser en Île-de-France.",
-    publishedAt: "2026-05-15",
+    publishedAt: "2026-03-24",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -1119,7 +1119,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "PTZ 2026 en Île-de-France : conditions, plafonds, qui peut y prétendre",
     description:
       "Le PTZ a été élargi en 2025 et reste très puissant en zone tendue. Jusqu'à 100 000 € à taux zéro pour primo-accédant. Conditions précises pour 2026.",
-    publishedAt: "2026-05-16",
+    publishedAt: "2026-03-25",
     readingMinutes: 8,
     category: "finance",
     brief: {
@@ -1145,7 +1145,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "DPE F et G en banlieue parisienne : les communes les plus impactées",
     description:
       "Depuis 2025 location interdite des DPE G, 2028 pour les F. Impact sur les prix : -10 à -20 % sur certaines communes. Carte des zones les plus touchées.",
-    publishedAt: "2026-05-17",
+    publishedAt: "2026-03-26",
     readingMinutes: 8,
     category: "tendance",
     brief: {
@@ -1171,7 +1171,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Acheter à Versailles en 2026 : le guide quartier par quartier",
     description:
       "7 400 €/m² médian, mais l'écart entre Notre-Dame, Saint-Louis et Montreuil dépasse les 1 800 €/m². Carte précise des quartiers, prix réels et arbitrages.",
-    publishedAt: "2026-05-18",
+    publishedAt: "2026-03-27",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1197,7 +1197,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Vincennes ou Saint-Mandé : choisir entre les deux pépites du 94",
     description:
       "Limitrophes, à 16 minutes de Châtelet, prix entre 9 200 et 10 800 €/m². Mais Vincennes et Saint-Mandé n'attirent pas le même profil. Comparatif honnête.",
-    publishedAt: "2026-05-19",
+    publishedAt: "2026-03-28",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1223,7 +1223,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Boulogne-Billancourt en 2026 : vaut-il encore le coup d'acheter ?",
     description:
       "Médian 9 200 €/m² (-2,1 % sur 5 ans), correction terminée. Quartiers historiques vs Trapèze, M9 vs M10, école publique vs privée. Le diagnostic complet 2026.",
-    publishedAt: "2026-05-20",
+    publishedAt: "2026-03-29",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1249,7 +1249,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Acheter en SCI familiale en Île-de-France : avantages, pièges, démarches",
     description:
       "La SCI familiale est l'outil patrimonial le plus puissant pour transmettre. Mais aussi celui où on se plante le plus si on l'utilise mal. Le mode d'emploi 2026.",
-    publishedAt: "2026-05-21",
+    publishedAt: "2026-03-30",
     readingMinutes: 9,
     category: "tendance",
     brief: {
@@ -1275,7 +1275,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-saint-germain-en-laye-2026-quartier-par-quartier",
     title: "Acheter à Saint-Germain-en-Laye en 2026 : guide quartier par quartier",
     description: "7 100 €/m² médian, RER A à 25 min de Châtelet, forêt domaniale à 5 min. Centre historique vs Bel Air vs Hennemont, le panorama complet pour acheter dans la plus prestigieuse des Yvelines.",
-    publishedAt: "2026-05-22",
+    publishedAt: "2026-03-31",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1298,7 +1298,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-fontainebleau-2026-quartier-par-quartier",
     title: "Acheter à Fontainebleau en 2026 : le guide pratique pour télétravailleurs et familles",
     description: "4 500 €/m² au cœur d'une forêt mythique, gare Transilien à 40 min de Lyon. Le compromis entre province et Île-de-France pour profils télétravail.",
-    publishedAt: "2026-05-23",
+    publishedAt: "2026-04-01",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1321,7 +1321,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-issy-les-moulineaux-2026-quartier-par-quartier",
     title: "Acheter à Issy-les-Moulineaux en 2026 : le hub tech aux portes de Paris",
     description: "9 500 €/m², 3 lignes de transport, 1er pôle tech francilien après Station F. Quartiers d'Issy : Forum, Plaine, Val de Seine. L'analyse pour cadres tech et familles.",
-    publishedAt: "2026-05-24",
+    publishedAt: "2026-04-02",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1344,7 +1344,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-levallois-perret-2026-quartier-par-quartier",
     title: "Acheter à Levallois-Perret en 2026 : la ville la plus dense d'Europe",
     description: "10 500 €/m², 3 stations de métro, La Défense à pied. Centre vs Front-de-Seine vs Pont-de-Levallois. Pour cadres finance/affaires qui veulent l'efficacité absolue.",
-    publishedAt: "2026-05-25",
+    publishedAt: "2026-04-03",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1367,7 +1367,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-suresnes-2026-quartier-par-quartier",
     title: "Acheter à Suresnes en 2026 : la collégiale de l'ouest parisien",
     description: "8 200 €/m², T2 vers la Défense en 8 min, Mont Valérien et bords de Seine. Centre, Cité Jardins, Liberté, Mont Valérien. Le diagnostic complet pour familles cadres.",
-    publishedAt: "2026-05-26",
+    publishedAt: "2026-04-04",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1390,7 +1390,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-montreuil-2026-quartier-par-quartier",
     title: "Acheter à Montreuil en 2026 : le 21e arrondissement de Paris",
     description: "5 800 €/m², métro 9 direct Paris, gentrification massive depuis 10 ans. Bas-Montreuil, Croix-de-Chavaux, Mairie. Le guide pour créatifs et primo-accédants premium.",
-    publishedAt: "2026-05-27",
+    publishedAt: "2026-04-05",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1413,7 +1413,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-pantin-2026-quartier-par-quartier",
     title: "Acheter à Pantin en 2026 : la nouvelle frontière nord-est",
     description: "6 200 €/m², M5 + RER E + futur tram, gentrification post-Hermès et BETC. Quatre Chemins, Église, Hoche. Le panorama pour primo-accédants et investisseurs.",
-    publishedAt: "2026-05-28",
+    publishedAt: "2026-04-06",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1436,7 +1436,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-saint-cloud-2026-quartier-par-quartier",
     title: "Acheter à Saint-Cloud en 2026 : le standing absolu de l'ouest",
     description: "10 200 €/m², parc de Saint-Cloud, vue sur Paris depuis les coteaux. Centre, Coteaux, Val d'Or, Montretout. Pour familles aisées et profils patrimoniaux.",
-    publishedAt: "2026-05-29",
+    publishedAt: "2026-04-07",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1459,7 +1459,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-asnieres-sur-seine-2026-quartier-par-quartier",
     title: "Acheter à Asnières-sur-Seine en 2026 : le rapport qualité-prix du 92",
     description: "7 800 €/m², métro 13 + Transilien J + tram T1, 20 min de Saint-Lazare. Centre, Bords-de-Seine, Quatre-Routes. Le panorama complet pour primo-accédants 92.",
-    publishedAt: "2026-05-30",
+    publishedAt: "2026-04-08",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1482,7 +1482,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "acheter-sceaux-2026-le-secret-bien-garde",
     title: "Acheter à Sceaux en 2026 : le secret bien gardé du sud parisien",
     description: "Domaine de Sceaux, lycée Lakanal, RER B + bus, prix 7 800 €/m². Centre, Robinson, Pont-Royal. Le diagnostic pour familles cadres et amateurs de patrimoine.",
-    publishedAt: "2026-05-31",
+    publishedAt: "2026-04-09",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1505,7 +1505,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-rer-a-2026-meilleures-communes-fiabilite",
     title: "Vivre sur le RER A en 2026 : la colonne vertébrale de l'Île-de-France",
     description: "1,3 million de voyageurs par jour, ponctualité 88 %. Quelles communes choisir entre Boissy, Saint-Germain et Cergy. Le guide complet 2026.",
-    publishedAt: "2026-06-01",
+    publishedAt: "2026-04-10",
     readingMinutes: 8,
     category: "transport",
     brief: {
@@ -1529,7 +1529,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-rer-c-2026-communes-fiabilite-quotidien",
     title: "Vivre sur le RER C en 2026 : la ligne en Y qui dessert Versailles",
     description: "Le RER C dessert Versailles, Saint-Quentin, Massy, Brétigny. 540 000 voyageurs par jour, ponctualité 84 %. Le panorama des communes selon les branches.",
-    publishedAt: "2026-06-02",
+    publishedAt: "2026-04-11",
     readingMinutes: 8,
     category: "transport",
     brief: {
@@ -1553,7 +1553,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-rer-d-2026-communes-fiabilite-melun-orry",
     title: "Vivre sur le RER D en 2026 : la ligne sud-est qui dessert Melun",
     description: "615 000 voyageurs par jour, ponctualité 80 %. Le RER D relie Orry-la-Ville à Melun via Paris. Communes phares, prix, profils acheteurs.",
-    publishedAt: "2026-06-03",
+    publishedAt: "2026-04-12",
     readingMinutes: 8,
     category: "transport",
     brief: {
@@ -1576,7 +1576,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-metro-14-prolonge-2026-saint-denis-orly",
     title: "Vivre sur le métro 14 prolongé en 2026 : Saint-Denis à Orly en automatique",
     description: "Métro 14 prolongé Saint-Denis Pleyel ↔ Orly depuis 2024. 38 km, 100 % automatique, ponctualité 99 %. Communes desservies, prix, opportunités d'achat.",
-    publishedAt: "2026-06-04",
+    publishedAt: "2026-04-13",
     readingMinutes: 8,
     category: "transport",
     brief: {
@@ -1599,7 +1599,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-transilien-j-2026-saint-lazare-mantes-pontoise",
     title: "Vivre sur le Transilien J en 2026 : la ligne ouest depuis Saint-Lazare",
     description: "Le Transilien J relie Saint-Lazare à Mantes-la-Jolie, Pontoise, Gisors. Ponctualité 92 %. Communes accessibles à 30-60 min, prix, profils.",
-    publishedAt: "2026-06-05",
+    publishedAt: "2026-04-14",
     readingMinutes: 7,
     category: "transport",
     brief: {
@@ -1622,7 +1622,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-transilien-l-2026-saint-lazare-versailles",
     title: "Vivre sur le Transilien L en 2026 : la ligne discrète qui dessert Versailles",
     description: "Le Transilien L relie Saint-Lazare à Saint-Nom-la-Bretèche, Versailles Rive Droite, Cergy. Ponctualité 94 %. Communes prisées des cadres ouest.",
-    publishedAt: "2026-06-06",
+    publishedAt: "2026-04-15",
     readingMinutes: 7,
     category: "transport",
     brief: {
@@ -1645,7 +1645,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-transilien-n-2026-montparnasse-rambouillet",
     title: "Vivre sur le Transilien N en 2026 : la ligne sud-ouest depuis Montparnasse",
     description: "Le Transilien N relie Montparnasse à Rambouillet, Mantes via Plaisir-Grignon. Ponctualité 90 %. Communes prisées par familles cadres sud-ouest 78.",
-    publishedAt: "2026-06-07",
+    publishedAt: "2026-04-16",
     readingMinutes: 7,
     category: "transport",
     brief: {
@@ -1668,7 +1668,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "grand-paris-express-ligne-15-2026-communes-investir",
     title: "Grand Paris Express ligne 15 Sud en 2026 : les communes où investir",
     description: "Ligne 15 Sud ouverte fin 2026 : Pont-de-Sèvres ↔ Noisy-Champs en 35 min. 16 nouvelles gares qui changent la carte du 92, 94, 93. Le guide investisseur.",
-    publishedAt: "2026-06-08",
+    publishedAt: "2026-04-17",
     readingMinutes: 8,
     category: "tendance",
     brief: {
@@ -1692,7 +1692,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "grand-paris-express-lignes-16-17-2026-saint-denis-le-bourget",
     title: "Grand Paris Express lignes 16 et 17 en 2026 : Saint-Denis Pleyel à Le Bourget",
     description: "Tronçon 1 lignes 16/17 ouvert fin 2026. Saint-Denis Pleyel ↔ Clichy-Montfermeil et Saint-Denis Pleyel ↔ Le Bourget. Communes desservies, opportunités, pièges.",
-    publishedAt: "2026-06-09",
+    publishedAt: "2026-04-18",
     readingMinutes: 7,
     category: "tendance",
     brief: {
@@ -1715,7 +1715,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "vivre-transilien-p-2026-est-est-paris-meaux-coulommiers",
     title: "Vivre sur le Transilien P en 2026 : la ligne est depuis Paris-Est",
     description: "Le Transilien P relie Paris-Est à Meaux, Coulommiers, Provins, La Ferté. Ponctualité 89 %. Communes 77 accessibles, prix, profils acheteurs.",
-    publishedAt: "2026-06-10",
+    publishedAt: "2026-04-19",
     readingMinutes: 7,
     category: "transport",
     brief: {
@@ -1739,7 +1739,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quel est le meilleur endroit pour vivre autour de Paris en 2026 ?",
     description:
       "Notre méthode pour identifier le meilleur endroit où vivre autour de Paris : 6 critères mesurables, 86 communes notées, top 10 raisonné selon ton profil.",
-    publishedAt: "2026-06-15",
+    publishedAt: "2026-04-24",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1766,7 +1766,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Où habiter à moins de 30 minutes de Paris en 2026 ? Liste précise par ligne",
     description:
       "Liste exhaustive des communes accessibles en moins de 30 minutes de Paris en 2026 : RER, métro, Transilien, Grand Paris Express. Temps réels et prix m².",
-    publishedAt: "2026-06-16",
+    publishedAt: "2026-04-25",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1793,7 +1793,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Où habiter à la campagne proche de Paris en 2026 ? Vexin, Brie, Chevreuse",
     description:
       "Les vraies communes rurales accessibles depuis Paris en moins d'1h en 2026 : Vexin, vallée de Chevreuse, Brie, Hurepoix. Prix, trajet, écoles, services.",
-    publishedAt: "2026-06-17",
+    publishedAt: "2026-04-26",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1819,7 +1819,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quelles sont les villes sympas autour de Paris en 2026 ? Notre top 10 vivant",
     description:
       "Critère 'ambiance' : centres vivants, marchés réels, vie culturelle, terrasses ouvertes le soir. Notre top 10 des villes sympas autour de Paris en 2026.",
-    publishedAt: "2026-06-18",
+    publishedAt: "2026-04-27",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1847,7 +1847,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quelle est la ville idéale à vivre près de Paris en 2026 ? Réponse par profil",
     description:
       "Pas de réponse universelle : la ville idéale dépend de ton profil. Notre matrice et 5 communes recommandées par profil (jeune actif, famille, retraité).",
-    publishedAt: "2026-06-19",
+    publishedAt: "2026-04-28",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1873,7 +1873,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quelle banlieue parisienne éviter en 2026 ? Approche nuancée et factuelle",
     description:
       "Pas de liste à charge : on regarde les vrais critères mesurables (sécurité, prix vs réputation, gentrification en cours) pour répondre sans cliché en 2026.",
-    publishedAt: "2026-06-20",
+    publishedAt: "2026-04-29",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -1900,7 +1900,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quelle est la ville la plus calme d'Île-de-France en 2026 ?",
     description:
       "Calme = bruit + densité + voisinage. Cartes Bruitparif, densité INSEE, espaces verts. Notre top 5 réel des communes les plus calmes d'Île-de-France en 2026.",
-    publishedAt: "2026-06-21",
+    publishedAt: "2026-04-30",
     readingMinutes: 7,
     category: "guide",
     brief: {
@@ -1927,7 +1927,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quelle ville est surnommée le \"Mini Paris\" en 2026 ? La réponse argumentée",
     description:
       "Versailles, Saint-Germain, Boulogne ? On tranche avec arguments : architecture, mixité, ambiance. La vraie ville surnommée Mini Paris en 2026.",
-    publishedAt: "2026-06-22",
+    publishedAt: "2026-05-01",
     readingMinutes: 6,
     category: "guide",
     brief: {
@@ -1953,7 +1953,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Un salaire de 3000 € est-il bon à Paris en 2026 ? Calculs réels par budget",
     description:
       "3000 € net à Paris : ce que ça donne vraiment en 2026. Loyer, courses, transport, sortie, reste à vivre. Verdict honnête + alternatives en banlieue.",
-    publishedAt: "2026-06-23",
+    publishedAt: "2026-05-02",
     readingMinutes: 7,
     category: "finance",
     brief: {
@@ -1979,7 +1979,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Les 5 villes les plus agréables à vivre en France en 2026 (et leur équivalent près de Paris)",
     description:
       "Top 5 France en 2026 : Annecy, Bordeaux, Nantes, Aix, Rennes. Pour chaque ville, son 'jumeau' à proximité de Paris si tu veux garder ton boulot parisien.",
-    publishedAt: "2026-06-24",
+    publishedAt: "2026-05-03",
     readingMinutes: 8,
     category: "guide",
     brief: {
@@ -2008,7 +2008,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Le syndrome de Paris en 2026 : ce que c'est vraiment et comment savoir si tu l'as",
     description:
       "Syndrome de Paris en 2026 : il ne touche pas que les touristes. Burn-out urbain, désillusion, fatigue chronique. Symptômes, statistiques, et solutions.",
-    publishedAt: "2026-06-25",
+    publishedAt: "2026-05-04",
     readingMinutes: 7,
     category: "persona",
     brief: {
@@ -2034,7 +2034,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Quel salaire pour vivre confortablement à Paris en 2026 ? Grille par profil",
     description:
       "Confortablement = épargner, sortir, voyager 2x/an. Notre grille de salaire net 2026 par profil (célibataire, couple, famille avec enfants).",
-    publishedAt: "2026-06-26",
+    publishedAt: "2026-05-05",
     readingMinutes: 7,
     category: "finance",
     brief: {
