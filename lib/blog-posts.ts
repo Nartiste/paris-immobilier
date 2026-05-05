@@ -2055,6 +2055,137 @@ export const BLOG_POSTS: BlogPost[] = [
       references: ["Vincennes", "Saint-Maur-des-Fossés", "Sceaux"],
     },
   },
+  {
+    slug: "ou-investir-autour-paris-2026-meilleures-communes",
+    title: "Où investir autour de Paris en 2026 ? Top 10 par stratégie (rendement, plus-value, sécurité)",
+    description:
+      "Top 10 communes où investir autour de Paris en 2026 selon ton objectif : rendement locatif brut > 6 %, plus-value 5 ans liée au Grand Paris Express, ou valeur refuge.",
+    publishedAt: "2026-05-05",
+    readingMinutes: 8,
+    category: "finance",
+    brief: {
+      audience:
+        "Investisseur immobilier locatif (LMNP, SCI, classique) avec capacité 200-500 k€. Pas pour résidence principale. Profil : primo-investisseur informé ou investisseur expérimenté qui veut diversifier en IDF.",
+      angle:
+        "La 'meilleure commune où investir' n'existe pas dans l'absolu. Elle dépend de ta stratégie : rendement (cash-flow positif) vs plus-value (capital gain à 5-10 ans) vs sécurité (valeur refuge). On donne 3 top 5 distincts + critères de décision + pièges à éviter. Honnêteté sur les zones à fort rendement mais risque locatif élevé.",
+      sections: [
+        { titre: "Pourquoi investir autour de Paris reste pertinent en 2026", contenu: "Marché tendu locatif (taux vacance < 4 %), demande structurelle (480 000 étudiants, 2 M actifs), Grand Paris Express qui crée 75 km de nouvelles lignes 2024-2030. Vs province : rendements moindres mais sécurité supérieure et liquidité de revente. IDF reste le marché le plus liquide d'Europe continentale." },
+        { titre: "Les 5 critères pour mesurer 'où investir'", contenu: "1) Rendement brut (loyer annuel / prix achat). 2) Plus-value attendue 5 ans (catalyseur transport, gentrification). 3) Demande locative (taux vacance < 5 %, profil locataire stable). 4) Risque (impayés, dégradations, copropriété). 5) Fiscalité (zone Pinel, LMNP éligible, déficit foncier possible). Croiser les 5, jamais un seul." },
+        { titre: "Top 5 RENDEMENT brut > 6 % (cash-flow)", contenu: "1. Aulnay-sous-Bois (RER B + ligne 16) : prix 2 400-3 200 €/m², loyer 14-16 €/m² = rendement brut 7-8 %. 2. Sevran : 2 200 €/m², loyer 13 €/m² = 7 %. 3. Aubervilliers (M12 prolongée) : 4 200 €/m², loyer 22 €/m² = 6,3 %. 4. Bondy : 2 800 €/m², loyer 15 €/m² = 6,4 %. 5. Mantes-la-Jolie (RER E EOLE) : 2 500 €/m², loyer 13 €/m² = 6,2 %. Profil : investisseur expérimenté, gestion locative pro." },
+        { titre: "Top 5 PLUS-VALUE attendue 2026-2030 (effet GPE)", contenu: "1. Champigny-sur-Marne (futur hub ligne 15) : 4 500 €/m² aujourd'hui, projection +25-30 % d'ici 2029. 2. Vitry-sur-Seine (ligne 15) : 4 200 €/m², projection +20-25 %. 3. Saint-Denis Pleyel (M14 + GPE 15-16-17) : 4 500 €/m², projection +20 %. 4. Bagneux (M4 + ligne 15) : 5 200 €/m², projection +15-20 %. 5. Saint-Maur-des-Fossés (RER A + ligne 15) : 6 800 €/m², projection +10-15 %. Profil : investisseur capable d'attendre 5-10 ans, pas de besoin cash immédiat." },
+        { titre: "Top 5 SÉCURITÉ long terme (valeur refuge)", contenu: "1. Vincennes (M1) : 9 200 €/m², rendement 3,5 % mais valeur sanctuarisée, jamais une baisse. 2. Boulogne-Billancourt (M9/M10) : 9 800 €/m², même logique. 3. Saint-Germain-en-Laye (RER A) : 8 000 €/m². 4. Maisons-Laffitte (RER A) : 7 200 €/m². 5. Sceaux (RER B) : 8 500 €/m². Profil : investisseur patrimonial qui privilégie capital sur cash-flow." },
+        { titre: "Stratégies fiscales par zone (2026)", contenu: "Pinel zones A bis et A (la plupart Grand Paris) : éligible jusqu'à 2027 dispositif transitoire, 12 ans = 17,5 % d'économie. LMNP partout : amortissement matériel + bâti, idéal pour étudiants/colocataires. Loc'Avantages partout : abattement 15-65 % selon loyer, zonage 2026 favorable couronnes éloignées. Déficit foncier : travaux > loyers permet imputation 10 700 €/an sur revenu global." },
+        { titre: "Pièges à éviter absolument", contenu: "1) Copropriétés en difficulté (charges > 50 €/m²/an, fonds travaux insuffisant) : Saint-Denis centre, Aubervilliers vieux Aubervilliers. 2) Quartiers avec plan de rénovation urbaine en cours : travaux 5-10 ans = invendable. 3) Zones avec taux délinquance > 50/1000 hab : Sevran-Beaudottes, La Courneuve 4000. 4) 'Effet GPE' surcoté : certaines communes (Noisy-Champs, Bry-sur-Marne) déjà au prix max anticipé." },
+        { titre: "Notre verdict par profil investisseur", contenu: "Primo-investisseur 200-300 k€ : Aubervilliers (rendement + gentrification), studio/T2 vers M12. Investisseur 300-500 k€ rendement : Aulnay T3, gestion pro recommandée. Investisseur 500 k€+ patrimonial : Vincennes T2 (rendement faible mais zéro stress, plus-value 5-7 % par an). Investisseur long terme parieur GPE : Champigny ou Vitry T3 fin chantier 2027-2028. Avis général : ne JAMAIS acheter sans visite + audit copro + analyse 12 quartiers minimum." },
+      ],
+      references: ["Aulnay-sous-Bois", "Aubervilliers", "Champigny-sur-Marne", "Vincennes", "Saint-Denis"],
+    },
+  },
+  {
+    slug: "villes-vont-prendre-valeur-pres-paris-2026-2030",
+    title: "Quelles villes vont prendre de la valeur près de Paris en 2026-2030 ?",
+    description:
+      "Analyse factuelle : Grand Paris Express, gentrification, projets urbains. Notre top 10 des communes qui devraient gagner +15 à +30 % d'ici 2030.",
+    publishedAt: "2026-05-05",
+    readingMinutes: 8,
+    category: "finance",
+    brief: {
+      audience:
+        "Acheteur ou investisseur cherchant à anticiper la plus-value 2026-2030. Veut comprendre les vrais moteurs (transport, gentrification, projets urbains) plutôt que des classements creux.",
+      angle:
+        "Pas de boule de cristal mais analyse factuelle des 4 moteurs de plus-value (transport, gentrification, livraisons logements, démographie). Top 10 commenté avec horizon temporel précis. Honnêteté sur ce qui est déjà priced-in vs ce qui reste à capturer.",
+      sections: [
+        { titre: "Les 4 vrais moteurs de plus-value immobilière en IDF", contenu: "1) NOUVEAU TRANSPORT structurant (gain 10-25 % dans les 3 ans avant ouverture). 2) GENTRIFICATION mesurable (ouverture commerces type cafés spécialité, librairies, +CSP supérieures dans recensements). 3) LIVRAISON LOGEMENTS NEUFS de qualité (effet d'entraînement sur le neuf et l'ancien). 4) DÉMOGRAPHIE positive (solde migratoire net favorable, nombre d'enfants scolarisés en hausse). Quand 3 sur 4 sont alignés, la valorisation est très probable." },
+        { titre: "L'effet Grand Paris Express : qui va vraiment décoller", contenu: "Effet documenté : +15 à +25 % dans les 3 ans entourant l'ouverture d'une nouvelle station (étude OFCE 2024 sur Métro 14). Pour 2026-2030 : ligne 15 Sud (déc 2026), lignes 16-17 tronçon 1 (déc 2026), ligne 18 (2027), prolongement ligne 14 nord (déjà ouvert) et sud (Orly 2024). Communes les plus exposées : Champigny, Vitry, Saint-Maur, Bagneux, Saint-Denis Pleyel, Aulnay." },
+        { titre: "Communes 'early-mover' qui valorisent depuis 5 ans", contenu: "Pantin (+45 % depuis 2018), Saint-Ouen (+38 %), Bagnolet (+32 %), Aubervilliers Front Populaire (+25 %). Effet d'entraînement bobo + travaux Grand Paris. Question 2026 : reste-t-il du potentiel ? Notre lecture : Pantin et Saint-Ouen sont à 80 % de leur potentiel, Aubervilliers et Bagnolet ont encore +15-20 % à capturer d'ici 2028." },
+        { titre: "Communes qui devraient suivre 2026-2028 (les vrais paris)", contenu: "Champigny-sur-Marne : prix actuel 4 500 €/m², projection +25-30 % d'ici 2029. Vitry-sur-Seine : 4 200 €/m², +20-25 %. Bagneux : 5 200 €/m², +15-20 %. Saint-Maur-des-Fossés : 6 800 €/m², +10-15 % (déjà cher). Logique : ouverture station ligne 15 + livraisons logements neufs en chaîne + arrivée CSP+." },
+        { titre: "Le cas spécial 'verdissement urbain'", contenu: "Communes qui investissent massivement dans les espaces verts et la qualité de vie urbaine. Aubervilliers (parc des Cosmonautes étendu, trame verte), Romainville (transformation Marbeuf), L'Île-Saint-Denis (éco-quartier village olympique reconverti). Effet : +10-15 % attendu sur 2026-2030 même sans nouveau transport, simplement par amélioration perception." },
+        { titre: "Communes saturées (plus de potentiel à court terme)", contenu: "Boulogne-Billancourt (9 800 €/m²), Vincennes (9 200 €/m²), Levallois-Perret (10 200 €/m²) : déjà au prix maximum d'IDF. Croissance attendue 2026-2030 : 0 à +5 % seulement. Argument valeur refuge encore valable mais pas plus-value. Neuilly-sur-Seine (12 500 €/m²) : risque baisse 0-10 % d'ici 2030 (segment ultra-haut de gamme sensible aux taux d'intérêt)." },
+        { titre: "Pièges : valoriser ne veut pas dire vivable", contenu: "Aulnay valorise (effet ligne 16) mais reste socialement difficile : excellent investissement, mauvais choix résidence principale famille. Champigny valorise mais zones 'Bois l'Abbé' restent compliquées. Toujours différencier 'plus-value attendue' de 'qualité de vie réelle'. Pour résidence principale : viser convergence des 2." },
+        { titre: "Notre top 10 final + horizon temporel", contenu: "1. Champigny-sur-Marne (+25-30 % d'ici 2029, ligne 15). 2. Vitry-sur-Seine (+20-25 %, ligne 15). 3. Saint-Denis Pleyel (+20 %, M14 + GPE). 4. Aubervilliers Front Populaire (+15-20 %, M12 + verdissement). 5. Bagneux (+15-20 %, M4 + ligne 15). 6. Aulnay-sous-Bois (+15 %, ligne 16, investisseur uniquement). 7. Romainville (+15 %, projets urbains). 8. L'Île-Saint-Denis (+15 %, éco-quartier). 9. Saint-Maur-des-Fossés (+10-15 %, ligne 15 + déjà solide). 10. Cergy-Pontoise (+10 %, dynamique pôle régional)." },
+      ],
+      references: ["Champigny-sur-Marne", "Vitry-sur-Seine", "Saint-Denis", "Aubervilliers", "Bagneux", "Saint-Maur-des-Fossés"],
+    },
+  },
+  {
+    slug: "acheter-moins-30-minutes-paris-2026",
+    title: "Où acheter à moins de 30 minutes de Paris en 2026 ? Notre vraie réponse",
+    description:
+      "Pas seulement 'moins de 30 minutes', mais 'moins de 30 min ET un vrai bon achat'. Top 10 communes qui croisent transport rapide, prix accessible et qualité.",
+    publishedAt: "2026-05-05",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur résidence principale 30-50 ans qui ne veut pas dépasser 30 min de trajet quotidien vers Paris. Capacité 350-700 k€. Cherche le meilleur compromis trajet + prix + qualité de vie.",
+      angle:
+        "Ne pas se contenter de lister les communes < 30 min : croiser TROIS critères (temps + prix + qualité de vie). Distinguer 'transport rapide mais cher' (Boulogne, Vincennes) vs 'prix accessible mais limite 30 min' (Saint-Maur, Asnières). Inclure ce que GPE et Métro 14 prolongé changent en 2026.",
+      sections: [
+        { titre: "30 minutes : qu'est-ce que ça signifie vraiment", contenu: "Beaucoup d'articles citent le 'temps gare-à-gare' (12 min RER A pour Saint-Maur). La réalité du quotidien = porte-à-porte = marche jusqu'à la gare (5-8 min) + attente train (3-5 min) + trajet (12 min) + sortie + marche jusqu'au bureau (5-15 min selon zone Paris). Donc 'gare 12 min' = porte-à-porte 30-40 min. Ici on parle bien des 30 min porte-à-porte effectifs." },
+        { titre: "Top 10 communes < 30 min porte-à-porte AVEC prix < 8 000 €/m²", contenu: "1. Vincennes (M1, 25 min) — 9 200 €/m². 2. Saint-Mandé (M1, 25 min) — 9 800 €/m². 3. Issy-les-Moulineaux (M12, 28 min) — 8 500 €/m². 4. Boulogne-Billancourt (M9/M10, 28 min) — 9 800 €/m². 5. Asnières-sur-Seine (Transilien L, 25 min) — 6 200 €/m². 6. Levallois-Perret (M3, 22 min) — 10 200 €/m². 7. Saint-Maur-des-Fossés (RER A, 30 min) — 6 800 €/m². 8. Pantin (M5, 22 min) — 5 200 €/m². 9. Saint-Ouen-sur-Seine (M14, 18 min) — 6 800 €/m². 10. Charenton-le-Pont (M8, 25 min) — 7 800 €/m²." },
+        { titre: "Cas 'transport ultra-rapide mais prix élevé' (8 000-10 200 €/m²)", contenu: "Vincennes, Saint-Mandé, Boulogne, Levallois, Issy. Trajet < 25 min porte-à-porte mais ticket d'entrée 8 000-10 200 €/m². Pour qui : couples double salaire 100 k€+, achat T2-T3, valeur refuge. Risque : peu de plus-value future, marché déjà saturé." },
+        { titre: "Cas 'prix accessible avec trajet entre 25-30 min'", contenu: "Asnières (6 200 €/m²), Saint-Maur (6 800 €/m²), Pantin (5 200 €/m²), Saint-Ouen (6 800 €/m²). Trajet correct mais nécessite vraiment de viser les bonnes stations (centres-villes proches gare). Pour qui : familles avec enfants scolarisés, primo-accédants budget 400-550 k€." },
+        { titre: "La nouvelle donne 2026 : Grand Paris Express + Métro 14", contenu: "Métro 14 prolongé Saint-Denis Pleyel (10 min Châtelet) ouvert depuis 2024 : Saint-Ouen, Saint-Denis Pleyel, Le Bourget RER deviennent < 25 min Châtelet. Ligne 15 Sud (fin 2026) : Champigny, Vitry, Saint-Maur RER deviennent < 30 min via correspondance. Communes nouvellement éligibles à '< 30 min' en 2026 : Saint-Ouen (déjà), Champigny, Vitry, Bagneux." },
+        { titre: "Conseils micro-quartier : à 100 m près le prix change", contenu: "Saint-Maur : Adamville (proche gare RER) 6 200 €/m² vs La Pie (loin gare) 5 800 €/m². Asnières : centre-ville proche gare 6 800 €/m² vs Asnières-Nord 5 500 €/m². Pantin : centre M5 5 200 €/m² vs Quatre-Chemins (frontière Aubervilliers) 4 500 €/m². Toujours visiter ET tester le trajet réel matin et soir avant achat." },
+        { titre: "Erreurs classiques d'acheteurs sous-pression de trajet", contenu: "1) Acheter sur la fiche 'temps gare-à-gare' sans tester porte-à-porte. 2) Sous-estimer la fréquence (un train toutes les 15 min = +10 min d'attente moyenne). 3) Choisir une commune avec gare unique (panne = naufrage). 4) Ignorer les correspondances (3 changements = 30 min même si trajet brut court). 5) Ne pas tester en heures de pointe réelles." },
+        { titre: "Notre top 5 final + critères", contenu: "Pour TOI famille 350-450 k€ qui veut maison/T4 : Asnières (T4 collectif 380 k€) ou Saint-Maur (T4 maison 480 k€). Pour TOI couple 450-600 k€ T3 : Issy-les-Moulineaux ou Saint-Ouen. Pour TOI investisseur 250-350 k€ : Pantin ou Saint-Ouen (M14, plus-value attendue). Pour TOI ultra-priorité trajet < 20 min : Vincennes ou Boulogne (prix élevé assumé). Le compromis ultime trajet/prix/qualité = Saint-Ouen depuis l'ouverture M14." },
+      ],
+      references: ["Vincennes", "Asnières-sur-Seine", "Saint-Maur-des-Fossés", "Saint-Ouen-sur-Seine", "Pantin", "Issy-les-Moulineaux"],
+    },
+  },
+  {
+    slug: "10-meilleures-villes-investir-banlieue-parisienne-2026",
+    title: "Les 10 meilleures villes où investir en banlieue parisienne en 2026",
+    description:
+      "Top 10 investissement locatif banlieue parisienne 2026 : Aulnay, Aubervilliers, Saint-Denis, Mantes, Bondy. Rendements bruts, futurs transports, alertes.",
+    publishedAt: "2026-05-05",
+    readingMinutes: 8,
+    category: "finance",
+    brief: {
+      audience:
+        "Investisseur locatif débutant à intermédiaire. Capacité 200-400 k€. Veut un classement clair et opérationnel, pas d'analyse philosophique. Cherche cash-flow + plus-value modérée.",
+      angle:
+        "Pas un simple top 10 généraliste. Notre top tient compte du rendement RÉEL (loyer/prix après vacance et charges) + risque locatif + plus-value attendue. Honnêteté maximale : on dit aussi quelles communes éviter malgré leurs rendements affichés. Approche opérationnelle : pour chaque, on indique le type de bien à viser et le profil locataire cible.",
+      sections: [
+        { titre: "Notre méthodo pour 'meilleur investissement'", contenu: "On a noté 50 communes IDF sur 4 critères (note 1-5) : 1) Rendement brut hors charges (loyer / prix). 2) Risque locatif (vacance, impayés, dégradations). 3) Plus-value 5 ans attendue (transport, gentrification). 4) Liquidité revente. Score final pondéré (rendement 35 %, risque 25 %, plus-value 25 %, liquidité 15 %). Top 10 ci-dessous." },
+        { titre: "Top 1 : Aulnay-sous-Bois (93)", contenu: "Prix 2 400-3 200 €/m², loyer 14-16 €/m². Rendement brut 7-8 %. RER B + future ligne 16 (déc 2026) = correspondance Châtelet 25 min. Profil locataire : jeunes actifs, étudiants, familles modestes. Type bien à viser : T2-T3 collectif récent (post-2000) près RER. Risque : qualité quartiers très variable, gestion locative pro recommandée. Plus-value 5 ans : +15 % attendue." },
+        { titre: "Top 2 : Aubervilliers Front Populaire (93)", contenu: "Prix 4 200-4 800 €/m², loyer 22-24 €/m². Rendement brut 6-6,5 %. M12 prolongée (depuis 2022). Gentrification réelle en cours (commerces qualité, livraisons neuf). Profil locataire : jeunes actifs, étudiants, familles bobo. Type bien : T2 neuf ou récent près M12. Plus-value 5 ans : +15-20 % attendue. Risque modéré." },
+        { titre: "Top 3 : Saint-Denis Pleyel (93)", contenu: "Prix 4 200-4 800 €/m², loyer 21-23 €/m². Rendement brut 5,5-6 %. Hub GPE majeur (M14 + lignes 15, 16, 17 d'ici 2030). Quartier en transformation totale (livraisons logements, bureaux, équipements). Profil locataire : jeunes actifs, profession libérale. Type : T2-T3 neuf programme post-2024. Plus-value 5 ans : +20-25 %. Investisseur long terme." },
+        { titre: "Top 4 : Mantes-la-Jolie (78)", contenu: "Prix 2 200-2 800 €/m², loyer 12-14 €/m². Rendement brut 6,5-7 %. RER E EOLE (extension ouest depuis 2024) = Saint-Lazare 30 min. Profil locataire : jeunes familles, ouvriers/employés, salariés Renault Flins. Type : T3 collectif. Risque : marché moins liquide (40 % moins de transactions/mois qu'Aulnay). Plus-value : +10 %." },
+        { titre: "Top 5 : Bondy (93)", contenu: "Prix 2 800-3 400 €/m², loyer 14-16 €/m². Rendement brut 6-6,5 %. RER E + métro 11 prolongée (depuis 2024). Profil locataire : familles modestes, jeunes actifs. Type : T2-T3 collectif. Risque : variable selon quartier (centre-ville OK, Pont de Bondy plus difficile). Plus-value : +10-15 %." },
+        { titre: "Top 6 à 10 : Bobigny, Stains, La Courneuve, Drancy, Le Bourget", contenu: "6. Bobigny (M5, T1 + Tram 1) : 2 600 €/m², rendement 6,8 %. 7. Stains (Tangentielle Nord) : 2 400 €/m², rendement 7 %, mais vacance plus élevée. 8. La Courneuve (RER B + futur M16) : 2 800 €/m², rendement 6,5 %. 9. Drancy (RER B) : 2 800 €/m², rendement 6,3 %. 10. Le Bourget (RER B + futur M17) : 3 200 €/m², rendement 6 %, plus-value future intéressante (effet aéroport revalorisé)." },
+        { titre: "Communes à ÉVITER malgré rendements affichés", contenu: "Sevran-Beaudottes : rendement brut 8 % mais vacance > 12 % et risque impayés majeur. Garges-lès-Gonesse, Sarcelles : rendements 7-8 % mais marchés non-liquides (revente difficile). Clichy-sous-Bois : zones de rénovation urbaine longues, copropriétés en grande difficulté. Trappes, Mantes-la-Ville : marchés trop périphériques, dépendants emploi local volatil." },
+        { titre: "Notre verdict honnête + alertes", contenu: "Vraiment meilleur investissement 2026 = Aulnay-sous-Bois (top rendement) ou Aubervilliers Front Populaire (meilleur compromis rendement + plus-value). Pour profil 'sécurité avant tout' : préférer Saint-Maur-des-Fossés (94) hors top banlieue mais valeur refuge (rendement 4 %, mais zéro risque). ALERTE : tout investissement banlieue 93/95 nécessite gestion pro (taux impayés 2-3x supérieurs au marché Paris). Visite OBLIGATOIRE en semaine 18h-20h avant achat." },
+      ],
+      references: ["Aulnay-sous-Bois", "Aubervilliers", "Saint-Denis", "Mantes-la-Jolie", "Bondy", "Bobigny"],
+    },
+  },
+  {
+    slug: "acheter-paris-intra-muros-ou-banlieue-2026",
+    title: "Faut-il acheter à Paris intra-muros ou en banlieue parisienne en 2026 ?",
+    description:
+      "Comparaison rigoureuse : 600 k€ à Paris vs en banlieue, charges + impôts, qualité de vie, écoles, plus-value. Verdict honnête par profil acheteur en 2026.",
+    publishedAt: "2026-05-05",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur 30-45 ans qui hésite entre rester intra-muros (T2/T3 cher) ou partir en banlieue (T4/maison). Couple ou famille avec 1-2 enfants. Capacité 500-800 k€ typique.",
+      angle:
+        "Comparaison rigoureuse, pas idéologique. Coût total (prix + charges + taxe foncière + énergie), confort (m² par occupant), trajet quotidien, qualité de vie (écoles, espaces verts, bruit), plus-value 10 ans. Verdict tranché par profil acheteur. Le vrai compromis = petite couronne (Vincennes, Boulogne, Issy) mais ce n'est ni Paris ni 'banlieue lointaine'.",
+      sections: [
+        { titre: "Le vrai dilemme : pas seulement le prix", contenu: "Beaucoup pensent que c'est une question de prix m² (10 800 € Paris vs 5 800 € moyenne banlieue). En réalité c'est multi-critères : surface, charges + impôts, trajet, qualité de vie, écoles, plus-value future. Notre comparaison croise les 6 dimensions sur 600 k€ de budget pour donner une vraie réponse." },
+        { titre: "Comparaison brute : 600 k€ obtenu en m² (2026)", contenu: "Paris 11e/12e/15e (médian 10 800 €/m²) : T3 55 m². Paris 18e/19e/20e (médian 9 200 €/m²) : T3 65 m². Petite couronne (Vincennes, Issy, Boulogne, médian 9 200 €/m²) : T3 65 m². Saint-Maur, Asnières (6 500 €/m²) : T4 92 m². Cergy, Mantes (3 000 €/m²) : T5 maison 200 m² avec jardin. Ratio extrême : 1 m² Paris = 3,6 m² grande couronne." },
+        { titre: "Comparaison charges + impôts annuels (T3 60 m²)", contenu: "Paris : taxe foncière 1 200-1 800 €, charges copro 2 800 €, énergie 1 400 €, total 5 400-6 000 €/an. Petite couronne : taxe 1 600-2 200 €, charges 2 400 €, énergie 1 600 €, total 5 600-6 200 €. Banlieue moyenne (Saint-Maur) : taxe 1 800 €, charges 2 200 €, énergie 1 800 €, total 5 800 €. Maison grande couronne : taxe 1 400 €, charges 0 (entretien), énergie 2 800 €, total 4 200 €. Verdict : la maison reste la moins chère en charges totales." },
+        { titre: "Comparaison qualité de vie (densité, vert, bruit)", contenu: "Paris 11e : 39 000 hab/km², 5 % espaces verts, Bruitparif 65 dB jour. Vincennes : 9 200 hab/km², 30 % vert (bois), 56 dB. Saint-Maur : 7 800 hab/km², 25 % vert (Marne), 53 dB. Cergy : 4 200 hab/km², 35 % vert, 51 dB. Différence brutale entre Paris et banlieue : -75 % de densité, +500 % d'espaces verts, -10-15 dB. Pour familles avec enfants : la banlieue gagne haut la main." },
+        { titre: "L'argument trajet : ce que ça change vraiment", contenu: "Paris résidence + Paris bureau : trajet 15-25 min métro = 30-50 min porte-à-porte aller-retour. Petite couronne (Vincennes) : 25-35 min total = +10 min/jour. Banlieue (Saint-Maur) : 35-45 min total = +30 min/jour. Maison grande couronne (Chevreuse) : 1h15-1h30 total = +1h30/jour. Coût annuel temps trajet : Paris 220 h, Saint-Maur 330 h (+110 h = 13 jours travaillés !), Chevreuse 660 h (+440 h !). Le trajet est SOUVENT sous-estimé." },
+        { titre: "L'argument enfants : écoles publiques", contenu: "Paris : sectorisation très fragmentée, écoles 11e bonnes, 13e mixte, 18-19e plus difficile. Petite couronne 92 ouest (Boulogne, Issy) : excellents collèges + lycées publics. Banlieue 78 (Versailles, Saint-Germain) : top France (Lakanal, Hoche, Lycée international). Banlieue 93 (sauf exception) : difficultés mesurées sur résultats brevet/bac. Pour familles avec enfants : 92 ouest et 78 battent largement Paris." },
+        { titre: "L'argument plus-value : qui valorise mieux 10 ans", contenu: "Paris 2014-2024 : +25 % sur 10 ans (effet rareté + attractivité internationale). Petite couronne 92 : +35 % (effet Grand Paris + gentrification). Banlieue Saint-Maur, Vincennes : +30 %. Banlieue Saint-Denis Pleyel : +60 % (effet Métro 14 + GPE). Banlieue 78 résidentiel (Le Vésinet) : +20 %. Verdict : sur 10 ans, banlieue avec catalyseur transport bat Paris. Mais Paris reste plus liquide en cas de besoin de revente urgente." },
+        { titre: "Verdict par profil acheteur", contenu: "Célibataire 30 ans actif Paris : reste intra-muros (T2 13e/19e/20e), mobilité + vie sociale priment. Couple sans enfants 30-40 ans : petite couronne (Vincennes, Boulogne) = meilleur compromis. Famille 1 enfant : petite couronne 92 ouest ou Saint-Maur. Famille 2 enfants : banlieue 78 (Versailles, Saint-Germain) ou achat maison 91 sud. Profil 50+ approchant retraite : banlieue résidentielle (Maisons-Laffitte, Sceaux). Le vrai compromis pour la majorité des familles parisiennes = petite couronne 92/94, ni Paris ni banlieue lointaine." },
+      ],
+      references: ["Vincennes", "Boulogne-Billancourt", "Saint-Maur-des-Fossés", "Versailles", "Cergy", "Issy-les-Moulineaux"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
