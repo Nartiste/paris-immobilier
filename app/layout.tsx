@@ -119,8 +119,11 @@ export default function RootLayout({
         {/* Preconnect : économise ~300 ms LCP sur les origines tierces */}
         <link rel="preconnect" href="https://plausible.io" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://a.tile.openstreetmap.org" crossOrigin="anonymous" />
+        {/* GTM en lazyOnload : charge gtm.js + GA4 quand le browser est idle.
+            Trade-off : on perd ~5-10 % d'analytics (users qui partent avant
+            le idle) mais on récupère 15-25 points PageSpeed sur mobile. */}
         {GTM_ID && (
-          <Script id="gtm-init" strategy="afterInteractive">
+          <Script id="gtm-init" strategy="lazyOnload">
             {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
