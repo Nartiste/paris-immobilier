@@ -1734,6 +1734,327 @@ export const BLOG_POSTS: BlogPost[] = [
       references: ["Chelles", "Meaux", "Coulommiers", "Provins"],
     },
   },
+  {
+    slug: "meilleur-endroit-vivre-autour-paris-2026",
+    title: "Quel est le meilleur endroit pour vivre autour de Paris en 2026 ?",
+    description:
+      "Notre méthode pour identifier le meilleur endroit où vivre autour de Paris : 6 critères mesurables, 86 communes notées, top 10 raisonné selon ton profil.",
+    publishedAt: "2026-06-15",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien 30-50 ans en pleine réflexion sur son déménagement, qui googlise la question directement et veut une réponse claire mais sait qu'il n'y en a pas une seule. Capacité 350-700 k€.",
+      angle:
+        "Il n'y a pas UN meilleur endroit, il y a un meilleur endroit POUR TOI. Méthodo transparente : 6 critères pondérés (prix m², trajet vers Paris, qualité écoles, espaces verts, sécurité, vie locale). Top 10 raisonné avec scores, puis comment ajuster pour son profil. Aucune réponse magique, mais un chemin clair pour décider.",
+      sections: [
+        { titre: "Pourquoi la question 'meilleur endroit' n'a pas une réponse unique", contenu: "Un cadre senior avec 2 enfants au collège ne cherche pas la même chose qu'un jeune actif célibataire. Le 'meilleur' dépend de 4 variables personnelles : ton budget m², ton temps de trajet acceptable, l'âge de tes enfants, ton appétence pour la vie urbaine vs nature. Sans ça, tout classement est creux." },
+        { titre: "Notre méthode : 6 critères mesurables sur 86 communes", contenu: "Prix m² (DVF 2026), trajet médian vers Châtelet (IDFM), qualité écoles (taux réussite brevet/bac), espaces verts (% surface communale), sécurité (taux délinquance pour 1000 hab), vie locale (commerces de proximité). Note 0-100 par critère, puis pondération selon ton profil." },
+        { titre: "Top 10 si pondération par défaut équilibrée", contenu: "1. Versailles (78), 2. Saint-Germain-en-Laye (78), 3. Vincennes (94), 4. Boulogne-Billancourt (92), 5. Sceaux (92), 6. Rueil-Malmaison (92), 7. Maisons-Laffitte (78), 8. Fontainebleau (77), 9. Meudon (92), 10. Saint-Maur-des-Fossés (94). Logique : ces communes sortent dans le top 20 de chaque critère sans excellence absolue dans aucun." },
+        { titre: "Si ton critère #1 est le prix : top 5 différent", contenu: "Pour un budget 250-350 k€, le top 10 par défaut devient inaccessible. Vraie liste accessible : Cergy (95), Conflans-Sainte-Honorine (78), Mantes-la-Jolie (78), Melun (77), Pontoise (95). Trajet 35-50 min Paris, prix 2 500-3 200 €/m², qualité de vie correcte." },
+        { titre: "Si ton critère #1 est le trajet rapide : top 5 différent", contenu: "Sous 25 min porte-à-porte vers Châtelet : Vincennes (8 min), Boulogne (12 min), Issy-les-Moulineaux (15 min), Levallois-Perret (12 min), Montrouge (10 min). Inconvénient : 8 000-10 500 €/m², gros budget." },
+        { titre: "Si ton critère #1 est les écoles : top 5 différent", contenu: "Sceaux (lycée Lakanal, taux mention TB bac > 70 %), Versailles (Hoche, Jules Ferry), Saint-Germain-en-Laye (Lycée international), Marly-le-Roi, Ville-d'Avray. Communes avec écosystème scolaire dense, taux de réussite mesurés." },
+        { titre: "Si ton critère #1 est le calme : top 5 différent", contenu: "Maisons-Laffitte, Le Vésinet, Marly-le-Roi, Croissy-sur-Seine, Bougival. Communes 78 ouest, faible densité, beaucoup de vert, pas de transit poids lourd. Bruitparif < 50 dB jour. Inconvénient : prix 6 500-8 000 €/m²." },
+        { titre: "Si tu es famille avec ados : critère écoles + sport", contenu: "Versailles, Saint-Germain-en-Laye, Sceaux, Antony. Sortir de Paris quand les enfants ont 12-15 ans = bénéfice maximal (lycées de qualité, espace pour respirer, autonomie possible à vélo)." },
+        { titre: "Notre verdict honnête", contenu: "Pour 80 % des familles parisiennes : Versailles ou Saint-Germain-en-Laye. Combo unique de patrimoine + écoles + transport + qualité de vie. Mais c'est cher (7 500-9 000 €/m²). À budget contraint, vise Sceaux (top école), Vincennes (transport), ou Cergy (rapport qualité-prix). Pas de magie : utilise notre comparateur pour voir tes scores selon TES priorités." },
+      ],
+      references: ["Versailles", "Saint-Germain-en-Laye", "Vincennes", "Sceaux", "Cergy"],
+    },
+  },
+  {
+    slug: "habiter-moins-30-minutes-paris-2026",
+    title: "Où habiter à moins de 30 minutes de Paris en 2026 ? Liste précise par ligne",
+    description:
+      "Liste exhaustive des communes accessibles en moins de 30 minutes de Paris en 2026 : RER, métro, Transilien, Grand Paris Express. Temps réels et prix m².",
+    publishedAt: "2026-06-16",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien qui veut quitter Paris mais garder son taf à Paris. Critère #1 absolu : ne pas dépasser 30 min de trajet porte-à-porte. Capacité 400-700 k€.",
+      angle:
+        "Liste précise par ligne, avec temps réels (pas le 'optimiste' Google Maps). Inclure Grand Paris Express qui ouvre fin 2026 et change la donne. Pour chaque commune : trajet réel, prix médian, profil acheteur.",
+      sections: [
+        { titre: "Comment on calcule le 'moins de 30 min'", contenu: "Temps porte-à-porte = marche jusqu'à la gare (5-8 min) + attente (3-5 min) + trajet (à mesurer) + sortie + marche jusqu'au bureau cible (Châtelet ou Saint-Lazare). Donc un trajet 'gare 17 min' = 30-35 min porte-à-porte. On cite ici les trajets gare-à-gare officiels IDFM 2026." },
+        { titre: "Métro Paris intra-muros et limitrophes (8-15 min)", contenu: "Vincennes (M1, 8 min Châtelet), Montreuil (M9, 12 min), Boulogne-Billancourt (M9/M10, 12-15 min), Issy-les-Moulineaux (M12, 15 min), Levallois-Perret (M3, 12 min), Pantin (M5, 10 min), Saint-Mandé (M1, 8 min), Charenton-le-Pont (M8, 10 min), Montrouge (M4, 10 min), Malakoff (M13, 12 min). Prix 6 000-11 000 €/m²." },
+        { titre: "RER A (15-25 min des gares centrales)", contenu: "Nogent-sur-Marne (15 min Auber), Vincennes (10 min), Saint-Maur-Créteil (20 min), Le Perreux-sur-Marne (18 min), Charenton-Écoles (M8). Côté ouest : La Défense (10 min), Nanterre (15 min), Rueil-Malmaison (22 min), Le Vésinet (25 min), Saint-Germain-en-Laye (28 min)." },
+        { titre: "RER B (15-30 min Châtelet)", contenu: "Bourg-la-Reine (18 min), Sceaux (20 min), Antony (25 min), Massy-Palaiseau (28 min) côté sud. Côté nord : Le Bourget (12 min), Aulnay-sous-Bois (22 min). Attention : RER B = ponctualité 86 %, prévoir marge réelle 35-40 min en pointe." },
+        { titre: "RER C (15-30 min)", contenu: "Issy-Val-de-Seine (12 min), Pont du Garigliano, Champ-de-Mars (5 min depuis intra-muros), Versailles-Château (25 min), Versailles-Chantiers (28 min). Branche Pontoise : Saint-Ouen-l'Aumône (28 min)." },
+        { titre: "Métro 14 prolongé (révolution 2024-2026)", contenu: "Saint-Denis-Pleyel (10 min Châtelet), Mairie de Saint-Ouen (8 min), Saint-Ouen RER (8 min), côté sud : Maison-Blanche, Olympiades, Villejuif IGR (12 min), L'Haÿ-les-Roses, Chevilly Larue, Thiais, Orly aéroport (25 min). Métro automatique fréquence 90 sec, ponctualité 99 %." },
+        { titre: "Transilien (15-30 min)", contenu: "L : La Garenne-Colombes (15 min Saint-Lazare), Bois-Colombes (15 min), Asnières (10 min), Courbevoie (12 min). N : Sèvres-Rive-Gauche (15 min Montparnasse), Bellevue (18 min), Meudon-Bellevue (15 min), Versailles-Chantiers (25 min)." },
+        { titre: "Grand Paris Express ligne 15 Sud (ouverture fin 2026)", contenu: "Champigny-sur-Marne (20 min Saint-Lazare via correspondance), Saint-Maur-Créteil (15 min), Créteil-l'Échat, Vitry, Issy-RER (15 min), Bagneux, Châtillon-Montrouge. Ligne 16/17 : Saint-Denis-Pleyel, Le Bourget RER (12 min Châtelet via M14)." },
+        { titre: "Notre verdict pratique", contenu: "Vraies meilleures options 2026 sous 30 min porte-à-porte : Vincennes (M1), Boulogne-Billancourt (M9), Saint-Mandé (M1), Issy-les-Moulineaux (M12), Asnières (Transilien L), Saint-Maur-Créteil (RER A + future GPE 15). Si budget serré : viser une station Métro 14 prolongée côté sud (Olympiades, Villejuif IGR) ou GPE 15 (Champigny, Vitry) où les prix sont encore raisonnables." },
+      ],
+      references: ["Vincennes", "Boulogne-Billancourt", "Saint-Maur-des-Fossés", "Asnières-sur-Seine", "Issy-les-Moulineaux"],
+    },
+  },
+  {
+    slug: "habiter-campagne-proche-paris-2026",
+    title: "Où habiter à la campagne proche de Paris en 2026 ? Vexin, Brie, Chevreuse",
+    description:
+      "Les vraies communes rurales accessibles depuis Paris en moins d'1h en 2026 : Vexin, vallée de Chevreuse, Brie, Hurepoix. Prix, trajet, écoles, services.",
+    publishedAt: "2026-06-17",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Famille 35-55 ans rêvant de campagne, télétravailleurs hybrides 2-3 jours bureau Paris. Veut champs, forêts, animaux, pas de pavillons en lotissement. Capacité 350-550 k€ pour maison avec terrain.",
+      angle:
+        "Vraies communes rurales accessibles, pas banlieues à parcelle de 200 m². 4 zones identifiées : Vexin français (95), vallée de Chevreuse (78), Brie (77 sud), Hurepoix (91 sud). Prix, écoles, services, trajet réaliste. Honnêteté sur les contraintes (voiture obligatoire, services réduits, isolement).",
+      sections: [
+        { titre: "Définir 'campagne' à 1h de Paris", contenu: "Pas un pavillon dans un lotissement de 50 maisons. Vraie campagne = densité < 100 hab/km², majorité d'espaces agricoles ou forestiers visibles, commerces de proximité limités à 2-3 boulangeries + 1 supermarché à 10 min en voiture. Filtre : on retire les communes 'pavillonnaires' déguisées." },
+        { titre: "Zone 1 : Parc naturel régional du Vexin français (95)", contenu: "Le PNR couvre 95 communes, 71 000 hab. Communes phares : Magny-en-Vexin (5 800 hab), Marines, Vigny, Théméricourt. Architecture pierre meulière, fermes, blé. Prix médian 2 200-2 800 €/m². Transport : aucune gare directe, voiture obligatoire jusqu'à Cergy (35 min) ou Pontoise pour RER A/C. Total Paris 1h-1h30." },
+        { titre: "Zone 2 : Vallée de Chevreuse (78)", contenu: "Parc naturel régional de la haute vallée de Chevreuse, 51 communes, 100 000 hab. Communes phares : Chevreuse (5 700), Saint-Rémy-lès-Chevreuse (8 000), Cernay-la-Ville, Bullion, Senlisse. Forêts (50 % du territoire), prix 3 200-4 500 €/m². Transport : RER B (Saint-Rémy terminus, 50 min Châtelet). Le plus accessible des 4 zones." },
+        { titre: "Zone 3 : Brie (77 sud-est)", contenu: "Pays de la Brie, agriculture céréalière + élevage. Communes : Coulommiers (15 000), Provins (12 000, UNESCO), La Ferté-sous-Jouarre, Crécy-la-Chapelle, Tournan-en-Brie. Prix médian 1 800-2 600 €/m² (les moins chers d'IDF). Transport : Transilien P (Provins 1h25 Paris-Est). Voiture obligatoire au quotidien." },
+        { titre: "Zone 4 : Hurepoix et Beauce (91 sud)", contenu: "Hurepoix = plateau agricole entre Beauce et Île-de-France. Communes : Étampes (25 000), Méréville, Étréchy, Dourdan (10 000), Limours. Prix 2 200-3 000 €/m². Transport : RER C (Étampes 1h Paris-Austerlitz), Dourdan via RER C aussi. Vrai sentiment campagne, mais services limités." },
+        { titre: "Trajet réel Paris quotidien : combien de temps ?", contenu: "Vexin : 1h15-1h30 porte-à-porte (15 min voiture + 35 min RER + 15 min métro). Chevreuse : 1h-1h15 (5 min marche + 50 min RER B + 15 min). Brie (Coulommiers) : 1h30 (5 min + 1h Transilien + 15 min). Hurepoix (Étampes) : 1h30 (5 min + 1h RER C + 15 min). Tous nécessitent télétravail majoritaire." },
+        { titre: "Services et écoles : à savoir avant de partir", contenu: "Maternelle/primaire : présentes dans toutes les communes > 1 500 hab. Collège : 1 par canton, transport scolaire. Lycée : à 20-30 min voiture (Cergy, Versailles, Évry, Meaux, Étampes selon zone). Médecin : pénurie réelle, prévoir 30 min voiture. Commerces : boulangerie + supérette OK, hypermarché à 15-20 min. Internet fibre : généralisée 2024-2026." },
+        { titre: "Notre verdict par profil", contenu: "Famille avec petits enfants + télétravail 4j/sem : Chevreuse (Saint-Rémy, Chevreuse, Cernay) — meilleur compromis services + transport + nature. Famille budget serré qui accepte trajet 1h30 : Brie (Coulommiers, Crécy) — prix imbattables. Couple sans enfants ou retraités actifs cherchant pierre + nature : Vexin (Magny-en-Vexin, Marines) — patrimoine architectural exceptionnel. Tu cherches vraiment 'pas un voisin' : Hurepoix (Méréville, Saint-Cyr-sous-Dourdan) — plus rural d'IDF." },
+      ],
+      references: ["Magny-en-Vexin", "Saint-Rémy-lès-Chevreuse", "Coulommiers", "Étampes"],
+    },
+  },
+  {
+    slug: "villes-sympas-autour-paris-2026",
+    title: "Quelles sont les villes sympas autour de Paris en 2026 ? Notre top 10 vivant",
+    description:
+      "Critère 'ambiance' : centres vivants, marchés réels, vie culturelle, terrasses ouvertes le soir. Notre top 10 des villes sympas autour de Paris en 2026.",
+    publishedAt: "2026-06-18",
+    readingMinutes: 7,
+    category: "guide",
+    brief: {
+      audience:
+        "Trentenaire ou jeune quadra qui valorise la 'vibe' plus que les chiffres bruts. Veut savoir où il y a un marché 2x/sem, des terrasses ouvertes le soir, une vie culturelle, une mixité visible. Plutôt sans enfants ou avec petits enfants.",
+      angle:
+        "'Sympa' = ambiance + vie. Critères : marché 2x/sem, vie culturelle (cinéma indépendant, librairies, scène musicale), terrasses ouvertes le soir, mixité sociale visible, présence d'artistes/créateurs. Différencier de 'bon investissement' (Sceaux) ou 'calme' (Le Vésinet) qui peuvent être ennuyeux pour ce profil.",
+      sections: [
+        { titre: "Pourquoi 'sympa' n'est pas mesurable mais ça se sent", contenu: "Aucun classement officiel sur 'sympa'. C'est ce qui rend la question intéressante. Critères qu'on a retenus : densité de bars + restos + cafés au km², présence d'un marché vivant 2x/sem, scène culturelle (au moins 1 cinéma indé + 1 lieu musique vivante), mixité sociale et générationnelle visible dans la rue le soir. Notre liste = retours de terrain croisés avec données INSEE/CCI." },
+        { titre: "1. Vincennes (94) : le pari réussi de la 'mini-Paris vivante'", contenu: "Trois marchés/semaine, terrasses ouvertes jusqu'à minuit, cinéma Le Vincennes (art et essai), bois immense à 5 min à pied, M1 directe. Densité commerciale exceptionnelle. Vibe famille jeune + jeunes actifs. Prix médian 9 200 €/m², le plus cher du top mais justifié." },
+        { titre: "2. Saint-Maur-des-Fossés (94) : le 'village' à 20 min de Paris", contenu: "Quartier Vieux Saint-Maur = village avec marché place Boncourt, restos en bord de Marne, vélos partout. Quartier La Pie + Adamville plus calme. Prix 6 800 €/m². Ambiance plus 'province' que Vincennes, idéal pour qui veut respirer sans s'éloigner." },
+        { titre: "3. Pantin (93) : la nouvelle Brooklyn parisienne", contenu: "Friches industrielles devenues quartiers créatifs (Hermès, Chanel, Pavillons des Canaux). Bars-cafés type Belleville sur le canal de l'Ourcq. Mixité sociale très forte. Prix 5 200 €/m² (en hausse rapide). Profil : créatifs, jeunes actifs design/mode." },
+        { titre: "4. Montreuil (93) : la Mecque des artistes francilienne", contenu: "Friche La Belle Étoile, Méliès (cinéma art et essai majeur), Théâtre 71, festivals. Marché Croix-de-Chavaux gigantesque. Mixité sociale extrême (du quartier Murs-à-Pêches gentrifié au Bas-Montreuil populaire). Prix 5 500 €/m². Ambiance unique mais exigeante (on aime ou on déteste)." },
+        { titre: "5. Versailles (78) : la grandeur historique vivante", contenu: "Pas que le château. Quartier Saint-Louis avec marché Notre-Dame (mardi/vendredi/dimanche), terrasses rue de la Paroisse. Cinéma Le Roxane. Vibe famille bourgeoise mais vivante. Prix 7 800 €/m². Pour ceux qui aiment patrimoine + animation." },
+        { titre: "6. Maisons-Laffitte (78) : le charme hippique anglais", contenu: "Hippodrome, allées cavalières dans la ville, marché central, cafés sympathiques autour de la place Sully. Architecture haussmannienne miniature. Prix 7 200 €/m². Ambiance unique en IDF, presque 'comté anglais'." },
+        { titre: "7. Issy-les-Moulineaux (92) : la rénovation réussie", contenu: "Centre-ville rénové, marché Saint-Étienne, bord de Seine aménagé pour balades, restos et bars dynamiques. Pas le charme historique de Vincennes mais une vibe contemporaine cohérente. Prix 8 500 €/m²." },
+        { titre: "8. Saint-Cloud (92) : discret mais vivant", contenu: "Centre ancien charmant, marché place Magenta, parc immense, vue sur Paris. Moins connu que ses voisins (Boulogne, Saint-Germain). Prix 8 200 €/m². Le 'secret bien gardé' de l'ouest parisien." },
+        { titre: "Notre verdict honnête", contenu: "Top 3 si je devais y poser mes bagages : Vincennes (le combo idéal vie + transport + nature), Saint-Maur (le village apaisé), Pantin (l'énergie créative). Vincennes pour familles, Pantin pour jeunes actifs/créatifs, Saint-Maur pour qui cherche du calme sans s'ennuyer. Évite les communes qu'on cite souvent comme 'bonnes' mais qui sont mortes le soir : Sceaux, Bourg-la-Reine, Le Vésinet — bons pour autre chose, pas pour la vibe." },
+      ],
+      references: ["Vincennes", "Saint-Maur-des-Fossés", "Pantin", "Montreuil", "Versailles", "Maisons-Laffitte"],
+    },
+  },
+  {
+    slug: "ville-ideale-vivre-pres-paris-2026",
+    title: "Quelle est la ville idéale à vivre près de Paris en 2026 ? Réponse par profil",
+    description:
+      "Pas de réponse universelle : la ville idéale dépend de ton profil. Notre matrice et 5 communes recommandées par profil (jeune actif, famille, retraité).",
+    publishedAt: "2026-06-19",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Quelqu'un qui hésite et cherche LA réponse simple, presque magique. On lui apprend qu'il n'y en a pas mais on lui donne quand même un chemin clair selon son profil de vie.",
+      angle:
+        "La ville idéale n'existe pas dans l'absolu. Mais elle existe selon ton profil de vie. Méthodo : 5 profils-types détaillés (jeune actif solo, couple sans enfants, famille petits enfants, famille ados, jeune retraité), pour chacun 1 commune top + 1 alternative + pourquoi c'est ce choix.",
+      sections: [
+        { titre: "Pourquoi cette question piège", contenu: "Si on te répond 'Versailles' alors que tu as 25 ans, célibataire, salaire 35 k€, qui aime sortir 3 soirs/semaine, on te ment. Pareil si on te dit 'Pantin' alors que tu es famille de 4 avec 2 ados qui font de l'équitation. La 'ville idéale' n'existe pas universellement. On a identifié 5 profils, voici les vraies réponses." },
+        { titre: "Profil 1 : Jeune actif solo 25-32 ans, salaire 30-50 k€", contenu: "Critères dominants : trajet court (< 20 min), vie nocturne, prix accessible pour studio/T2 (< 280 k€). Top : Pantin. Alternative : Saint-Ouen. Pourquoi Pantin : M5 + RER E + Tram 3b, 12 min Châtelet. Studios 2 800-3 200 €/m². Bars sur le canal, mixité, énergie créative. Saint-Ouen : M14 (8 min Châtelet), marché aux Puces, ambiance brunch dimanche, prix 4 500 €/m²." },
+        { titre: "Profil 2 : Couple sans enfants 30-40 ans, double salaire 70-110 k€", contenu: "Critères : qualité de vie + animation week-end + capacité à accueillir des amis (T3-T4). Top : Vincennes. Alternative : Saint-Maur-des-Fossés. Pourquoi Vincennes : M1 directe, bois immense, marchés vivants, restos et terrasses, T3 70 m² accessible 480-560 k€. Saint-Maur : RER A + GPE 15 (2026), bord de Marne, ambiance village apaisée, T3 75 m² 420-490 k€." },
+        { titre: "Profil 3 : Famille avec petits enfants (0-6 ans), budget 500-700 k€", contenu: "Critères : maternelle de qualité, espaces verts, sécurité, voisinage familial. Top : Saint-Maur-des-Fossés. Alternative : Sceaux. Pourquoi Saint-Maur : maternelles bien notées, parcs (Île de la Pie), bords de Marne pour balades poussette. Sceaux : Coulée verte, Parc de Sceaux, écoles d'excellence dès maternelle, ambiance jeunes parents." },
+        { titre: "Profil 4 : Famille avec ados (12-17 ans), budget 600-900 k€", contenu: "Critères : LYCÉE de qualité absolu, autonomie ado en transport/vélo, services sportifs/culturels denses. Top : Versailles. Alternative : Saint-Germain-en-Laye. Pourquoi Versailles : Lycée Hoche (filière prépa), Lycée Jules Ferry, conservatoire majeur, RER C + Transilien autonomie, vie culturelle réelle. Saint-Germain-en-Laye : Lycée international, château + forêt, RER A direct, ambiance bourgeoise mais ouverte." },
+        { titre: "Profil 5 : Jeune retraité actif 60-70 ans, budget 400-600 k€", contenu: "Critères : services médicaux denses, vie associative, transport simple, calme + animation. Top : Maisons-Laffitte. Alternative : Fontainebleau. Pourquoi Maisons-Laffitte : RER A direct (45 min), hippodrome + parc 200 ha, marché vivant, gériatrie de qualité (CH Poissy à proximité). Fontainebleau : forêt légendaire, vie culturelle (théâtre, château), TER Paris 40 min, prix accessibles 4 200 €/m²." },
+        { titre: "Profil bonus : Télétravailleur full-remote 30-50 ans", contenu: "Critères inversés : trajet ne compte plus, qualité air/nature primordiale, internet fibre, espace de travail à la maison (T4 ou maison). Top : Saint-Rémy-lès-Chevreuse (78). Alternative : Fontainebleau. Pourquoi : nature absolue (PNR Chevreuse), maison T4 jardin 380-450 k€, télétravail dans des conditions exceptionnelles. Si besoin d'aller à Paris occasionnellement : RER B (50 min) ou TER (40 min Fontainebleau)." },
+        { titre: "Notre verdict sans détour", contenu: "Pour la majorité des familles parisiennes (cas le plus fréquent qu'on rencontre) : Saint-Maur-des-Fossés est la meilleure réponse moyenne. Combo unique transport (RER A + GPE 15 fin 2026) + écoles correctes + nature (Marne) + vie de quartier + prix encore raisonnable (6 800 €/m² médian). Pour les autres profils, suis le tableau. Et utilise notre comparateur pour ajuster selon TES critères réels." },
+      ],
+      references: ["Vincennes", "Saint-Maur-des-Fossés", "Sceaux", "Versailles", "Maisons-Laffitte", "Saint-Rémy-lès-Chevreuse"],
+    },
+  },
+  {
+    slug: "banlieue-parisienne-eviter-2026-ce-quil-faut-savoir",
+    title: "Quelle banlieue parisienne éviter en 2026 ? Approche nuancée et factuelle",
+    description:
+      "Pas de liste à charge : on regarde les vrais critères mesurables (sécurité, prix vs réputation, gentrification en cours) pour répondre sans cliché en 2026.",
+    publishedAt: "2026-06-20",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Quelqu'un qui googlise la question avec des préjugés et risque de faire un mauvais choix par peur (rater une bonne affaire) ou par naïveté (acheter un mauvais quartier). On éclaire plutôt que stigmatiser.",
+      angle:
+        "La vraie réponse n'est pas 'telle commune à éviter' (cliché stérile) mais 'tel micro-quartier dans telle commune, à tel moment, pour tel profil'. Critères factuels : taux délinquance INSEE, qualité écoles, dynamique gentrification. Cas concrets (Pantin, Aubervilliers, Saint-Denis : ce que les chiffres disent vraiment vs réputation).",
+      sections: [
+        { titre: "Pourquoi la question 'à éviter' est mal posée", contenu: "Une commune entière ne s'évite pas : à 200 m près, le profil change. Saint-Denis Pleyel (en transformation, prix grimpent, métro 14) vs Saint-Denis Franc-Moisin (cité difficile à 1 km) sont deux mondes. La vraie question : 'Quel micro-quartier de quelle commune pour mon profil ?' On va te donner les critères pour décider toi-même." },
+        { titre: "Critères factuels à regarder", contenu: "1) Taux de délinquance pour 1 000 hab (INSEE/Ministère Intérieur, données ouvertes). 2) Taux de réussite brevet/bac des collèges/lycées (Éducation nationale, IDX). 3) Gentrification en cours (évolution prix m² 5 ans + ouverture commerces type bobo : cafés spécialité, librairies indé). 4) Densité commerces de proximité au km². 5) Indice de continuité de l'habitat (proportion habitat dégradé)." },
+        { titre: "Cas Pantin (93) : faut-il éviter ?", contenu: "Réputation : 'banlieue 93'. Réalité 2026 : Pantin a explosé en valorisation (+45 % en 7 ans), nouveaux résidents Hermès/Chanel, canaux refaits, restaurants. Quartier Église/Hoche/Quatre-Chemins (côté M5) très valorisé. Quartier Quatre-Chemins côté Aubervilliers plus difficile. Verdict : Pantin n'est PAS à éviter en bloc, c'est même un des meilleurs achats du 93. Mais valider le micro-quartier." },
+        { titre: "Cas Aubervilliers (93) : nuance forte", contenu: "Réputation difficile, prix médian 4 200 €/m² (parmi les plus bas du Grand Paris). Quartier Front Populaire (M12 prolongée) en valorisation forte. Quartier La Plaine (Stade de France) renouvelé. Quartiers Maladrerie, Villette-Quatre-Chemins restent socialement difficiles. Verdict : terrain investisseur expérimenté, à éviter pour primo-accédant résidence principale famille avec enfants scolarisés. Évolution lente mais réelle." },
+        { titre: "Cas Saint-Denis (93) : à découper en 4 zones", contenu: "Saint-Denis Pleyel/Stade de France : zone qui se transforme, métro 14 + GPE 15/16/17, valorisation rapide (prix 4 500 €/m² → projection 5 800 d'ici 2030). Centre historique (basilique) : tissu ancien, qualité variable. Franc-Moisin : cité difficile, à éviter. Saint-Denis Université : étudiant, mixte. Verdict : Pleyel = oui pour investisseur long terme, Franc-Moisin = non absolu, centre = au cas par cas." },
+        { titre: "Cas Sevran, Aulnay-sous-Bois (93) : prudence", contenu: "Sevran-Beaudottes (proche RER B) : zone réellement difficile, taux délinquance 3x moyenne IDF, écoles en grande difficulté. Aulnay : centre-ville correct, mais quartiers Mille-Mille et Etangs problématiques. Verdict : terrain investisseur locatif expérimenté uniquement (rendement 7-8 % brut), AUCUN intérêt en résidence principale famille." },
+        { titre: "Cas Garges-lès-Gonesse, Sarcelles (95) : à éviter pour la majorité", contenu: "Indices socioéconomiques bas, écoles en difficulté, taux chômage élevé. Prix 2 200-2 800 €/m² qui semblent attractifs mais reflètent les fondamentaux. Pas de dynamique de gentrification en cours. Verdict : à éviter pour résidence principale même primo-accédant. Sauf cas spécifique (lien familial, communauté)." },
+        { titre: "Faux clichés à corriger", contenu: "1) Tout le 93 ne se vaut pas : Pantin/Saint-Ouen/Bagnolet sont devenus des achats premium. 2) Le 92 nord (Asnières, Colombes) reste sous-coté à tort. 3) Certaines communes 'bourgeoises' (Le Plessis-Robinson, Châtenay-Malabry) ont des micro-quartiers très difficiles. 4) Les 'nouvelles' communes Grand Paris Express (Champigny, Vitry) cassent les hiérarchies anciennes." },
+        { titre: "Notre méthode pour décider toi-même", contenu: "Étape 1 : viens sur le site, identifie 5 communes candidates selon tes critères (transport + prix + écoles). Étape 2 : pour chaque commune, tape sur Google Maps 'quartier X commune Y' et regarde les commerces, les écoles, l'aspect des immeubles. Étape 3 : VISITE en semaine entre 17h-20h (heure de sortie écoles + retour boulot) pour sentir l'ambiance réelle. Une commune ne s'évite pas, un micro-quartier se choisit." },
+      ],
+      references: ["Pantin", "Aubervilliers", "Saint-Denis", "Sevran", "Aulnay-sous-Bois"],
+    },
+  },
+  {
+    slug: "ville-plus-calme-ile-de-france-2026",
+    title: "Quelle est la ville la plus calme d'Île-de-France en 2026 ?",
+    description:
+      "Calme = bruit + densité + voisinage. Cartes Bruitparif, densité INSEE, espaces verts. Notre top 5 réel des communes les plus calmes d'Île-de-France en 2026.",
+    publishedAt: "2026-06-21",
+    readingMinutes: 7,
+    category: "guide",
+    brief: {
+      audience:
+        "Quelqu'un sensible au bruit, ou qui souffre du bruit à Paris (couloir aérien, périphérique, voisins). Famille avec bébé, télétravailleur en visio toute la journée, retraité. Veut du concret mesurable.",
+      angle:
+        "'Calme' mesurable et pas subjectif : bruit (Bruitparif en dB), densité (INSEE hab/km²), espaces verts (% surface). Top 5 réel + critères. Inclure des communes méconnues. Distinguer 'calme jour' (densité, transit) de 'calme nuit' (couloirs aériens, train, périph).",
+      sections: [
+        { titre: "Comment mesurer 'calme' objectivement", contenu: "Trois données disponibles publiquement : 1) Bruitparif cartes de bruit jour (Lden) et nuit (Ln) en dB(A). Sous 50 dB jour = calme, sous 45 dB nuit = très calme. 2) INSEE densité hab/km². Sous 2 000 hab/km² = peu dense. 3) Géoportail % espaces verts. Au-dessus de 30 % = très vert. Notre top croise les 3." },
+        { titre: "Bruits qu'on néglige souvent", contenu: "Couloirs aériens : Le Bourget, Roissy, Orly génèrent des nuisances jusqu'à 25 km à la ronde. Vincennes, Bois-Colombes, Drancy = zones bruyantes la nuit malgré leur réputation calme. Périphérique : 1 km autour = 65-70 dB jour. Lignes TGV/RER aériennes : Antony (RER B aérien), Massy. Carrefours autoroutiers : A86, A6, A4 — 500 m de part et d'autre dégradés." },
+        { titre: "1. Le Vésinet (78) : la référence indétrônable", contenu: "Densité 4 200 hab/km² (modérée pour IDF), 35 % d'espaces verts, Bruitparif 47 dB jour / 41 dB nuit (parmi les plus bas IDF). Ville-parc créée au XIXe par Pereire, lacs et étangs, voirie en courbes pour ralentir voitures, peu de transit. Pas de couloir aérien direct. Prix 7 500 €/m². Verdict : LE calme en IDF, sans débat." },
+        { titre: "2. Maisons-Laffitte (78) : l'égal hippique", contenu: "Densité 5 800 hab/km² mais 45 % d'espaces verts (parc + hippodrome + forêt). Bruitparif 49 dB jour / 42 dB nuit. Voirie en patte d'oie de Mansart, peu de transit traversant. RER A discret (semi-enterré). Prix 7 200 €/m². Très proche du Vésinet en performance acoustique." },
+        { titre: "3. Marly-le-Roi (78) : la pépite verte", contenu: "Densité 1 800 hab/km² (très faible), 60 % d'espaces verts (forêt de Marly), Bruitparif 46 dB jour / 40 dB nuit. Pas de transport bruyant, transit traversant limité. Prix 5 800 €/m² (plus accessible que Vésinet/Maisons-Laffitte). Verdict : meilleur rapport calme/prix d'IDF." },
+        { titre: "4. Sceaux (92) : le calme dense urbain", contenu: "Densité 8 200 hab/km² (élevée) MAIS Bruitparif 51 dB jour / 44 dB nuit grâce à urbanisme intelligent (peu de transit, voirie pacifiée), 28 % espaces verts (Parc de Sceaux, Coulée Verte). RER B discret. Calme pour une commune dense. Prix 8 500 €/m²." },
+        { titre: "5. Croissy-sur-Seine (78) : le secret bien gardé", contenu: "Densité 4 500 hab/km², 40 % d'espaces verts, Bruitparif 47 dB jour / 42 dB nuit. Communes très résidentielle, pas de transit, RER A discret. Prix 7 800 €/m². Méconnu car éclipsé par voisin Le Vésinet, mais aussi calme." },
+        { titre: "Faux 'calmes' qu'on déconseille", contenu: "Vincennes : très belle ville mais bruit M1 + couloir aérien Le Bourget = 56 dB nuit (perturbant). Boulogne-Billancourt : périphérique + RER C + circulation = 58 dB jour. Saint-Mandé : périph proche, dégradé. Le Plessis-Robinson : autoroute A86 et avions Roissy. Si calme est ton critère #1, élimine ces communes malgré leur réputation." },
+        { titre: "Notre verdict pratique", contenu: "Top absolu : Le Vésinet (si budget) ou Marly-le-Roi (si rapport qualité-prix). Pour télétravailleur en visio toute la journée : Marly-le-Roi (densité faible + forêt). Pour famille bébé qui veut dormir : Le Vésinet ou Croissy-sur-Seine. Pour retraité actif voulant calme + animation : Sceaux. Pour budget serré : Marly-le-Roi reste exceptionnel à ce prix." },
+      ],
+      references: ["Le Vésinet", "Maisons-Laffitte", "Marly-le-Roi", "Sceaux", "Croissy-sur-Seine"],
+    },
+  },
+  {
+    slug: "mini-paris-quelle-ville-surnom-2026",
+    title: "Quelle ville est surnommée le \"Mini Paris\" en 2026 ? La réponse argumentée",
+    description:
+      "Versailles, Saint-Germain, Boulogne ? On tranche avec arguments : architecture, mixité, ambiance. La vraie ville surnommée Mini Paris en 2026.",
+    publishedAt: "2026-06-22",
+    readingMinutes: 6,
+    category: "guide",
+    brief: {
+      audience:
+        "Curieux qui googlise la question, ou Parisien qui cherche un Paris en plus calme/accessible et aimerait identifier la commune qui ressemble le plus à Paris.",
+      angle:
+        "Question piège car plusieurs candidates revendiquent ou se voient revendiquer le titre. Réponse historique = Versailles (architecture haussmannienne miniature, vie culturelle dense). Mais autres prétendantes sérieuses : Saint-Germain-en-Laye, Boulogne-Billancourt, Vincennes, Levallois-Perret. Notre verdict argumenté en 6 critères.",
+      sections: [
+        { titre: "D'où vient ce surnom et pourquoi il intrigue", contenu: "Aucune commune n'a officiellement le titre 'Mini Paris'. Le surnom circule dans les guides immobiliers, articles presse et conversations parisiennes. Désigne une commune qui reproduit l'ADN parisien (architecture, urbanisme, vie culturelle) à plus petite échelle. Plusieurs prétendantes, on tranche avec 6 critères mesurables." },
+        { titre: "Les 6 critères pour mériter le titre", contenu: "1) Architecture haussmannienne ou similaire (façades pierre, balcons filants, immeubles 5-7 étages). 2) Trame urbaine régulière (avenues larges, perspectives). 3) Densité commerciale forte (cafés, librairies, théâtres au km²). 4) Vie culturelle dense (théâtres, cinémas indé, marchés vivants). 5) Mixité sociale visible (pas un ghetto bourgeois). 6) Centralité reconnue dans son territoire." },
+        { titre: "Candidat 1 : Versailles (78)", contenu: "Architecture classique (XVIIe-XVIIIe), pas haussmannienne mais d'une cohérence comparable. Avenues royales (Saint-Cloud, Sceaux, Paris) en patte d'oie depuis le château = trame urbaine puissante. Vie culturelle : Opéra Royal, Théâtre Montansier, cinémas, conservatoire majeur. Marchés Notre-Dame quotidiens. Mixité : oui (étudiants, militaires, familles, classes populaires en franges). 5/6 critères validés." },
+        { titre: "Candidat 2 : Saint-Germain-en-Laye (78)", contenu: "Centre ancien Renaissance + XVIIIe, pas haussmannien. Trame urbaine moyenne (radiale autour du château). Densité commerciale forte (rue de Pologne, place du Marché). Vie culturelle correcte (Théâtre Alexandre Dumas, MJC). Mixité moyenne (très bourgeois). 3/6 critères. Plus 'mini Saint-Germain' que 'mini Paris'." },
+        { titre: "Candidat 3 : Boulogne-Billancourt (92)", contenu: "Architecture mixte (Art déco, immeubles 1930, opérations récentes). Pas de cohérence haussmannienne. Trame urbaine confuse (urbanisme par strates). Densité commerciale très forte (rue d'Aguesseau, Marcel Sembat). Vie culturelle correcte mais sans signature. Mixité forte. 3/6. Plus 'extension de Paris' que 'mini Paris'." },
+        { titre: "Candidat 4 : Vincennes (94)", contenu: "Architecture haussmannienne PARTIELLE (autour de l'Hôtel de Ville). Trame urbaine régulière (rues Faidherbe, Diderot, Cardinal). Densité commerciale très forte (cours Marigny, rue du Midi). Vie culturelle dense pour la taille (Cocteau, marchés 3x/sem, bois immense). Mixité bonne. 4/6. Sérieux prétendant." },
+        { titre: "Candidat 5 : Levallois-Perret (92)", contenu: "Architecture haussmannienne réelle dans le centre (immeubles fin XIXe, balcons filants). Trame urbaine très régulière (avenues larges en damier). Densité commerciale forte (rue du Président Wilson). Vie culturelle correcte (Théâtre L'Avant-Seine). Mixité moyenne (gentrifié). 4/6. Architecturalement le plus proche de Paris." },
+        { titre: "Notre verdict tranché", contenu: "Si 'Mini Paris' = patrimoine + vie culturelle + centralité historique : Versailles gagne. Architecture certes pas haussmannienne mais d'une cohérence et d'une densité culturelle comparables. Si 'Mini Paris' = visuellement haussmannien : Levallois-Perret gagne (architecture la plus proche de Paris). Si 'Mini Paris' = vibe quotidienne (cafés, marchés, vie de quartier) : Vincennes gagne. Le surnom est utilisé pour les trois selon le contexte. Notre vote : Versailles, par cohérence patrimoniale globale." },
+      ],
+      references: ["Versailles", "Saint-Germain-en-Laye", "Boulogne-Billancourt", "Vincennes", "Levallois-Perret"],
+    },
+  },
+  {
+    slug: "salaire-3000-euros-paris-2026-vivre-decemment",
+    title: "Un salaire de 3000 € est-il bon à Paris en 2026 ? Calculs réels par budget",
+    description:
+      "3000 € net à Paris : ce que ça donne vraiment en 2026. Loyer, courses, transport, sortie, reste à vivre. Verdict honnête + alternatives en banlieue.",
+    publishedAt: "2026-06-23",
+    readingMinutes: 7,
+    category: "finance",
+    brief: {
+      audience:
+        "Jeune actif qui démarre carrière à Paris et se demande s'il s'en sortira, ou Parisien qui se demande s'il pourrait s'en sortir mieux ailleurs. Aussi candidat à un poste à Paris qui négocie son salaire.",
+      angle:
+        "Calcul concret transparent : 3000 € net mensuel après impôts. Loyer médian Paris (T2 1300 €), courses (450 €), transport (84 €), sortie (300 €) = reste 866 €. Verdict : difficile mais possible si pas d'enfant. Alternatives : 3000 € en proche couronne = beaucoup mieux. Tableaux comparatifs.",
+      sections: [
+        { titre: "3000 € net à Paris en 2026 : c'est quoi en bas de fiche de paie", contenu: "3000 € net mensuel = environ 3850 € brut (charges sociales 22 %), soit 46 200 € brut annuel. C'est le salaire d'un cadre junior débutant ou d'un employé/profession intermédiaire confirmé. Médiane Paris cadres 2026 : 4 200 € net. Donc 3000 € te place au 35e centile des actifs parisiens (en bas mais pas extrême)." },
+        { titre: "Budget logement réaliste à Paris", contenu: "T1 25 m² Paris médian : 1 050 €/mois (loyer + charges). T2 40 m² : 1 350 €/mois. Si tu vises T2 : 45 % du salaire en logement = sous-tension permanente. Solution réaliste : T1 dans 13e/19e/20e/Belleville à 950-1 050 €. Colocation T3 partagée : 700-850 € ta part. Le logement seul absorbe 30-40 %." },
+        { titre: "Courses et alimentation", contenu: "Courses + lessive + produits hygiène : 350-450 €/mois pour 1 personne avec consommation raisonnable. Restaurant 3-4x/semaine midi (sandwich/plat) : 200 €/mois. Soit alimentation totale : 550-650 € si tu manges normal. Si tu cuisines beaucoup : ramène à 400-500 €." },
+        { titre: "Transport, abonnements obligatoires", contenu: "Pass Navigato 2026 : 90 €/mois (employeur prend 50 % normalement = ton coût 45 €). Forfait téléphone : 25 €. Abonnement streaming/musique : 25 €. Mutuelle complémentaire (si pas couvert) : 35 €. Total fixe : 130 €/mois." },
+        { titre: "Vie sociale et sortie minimale", contenu: "1 sortie resto avec amis/semaine : 35 € moyen = 140 €/mois. 2 verres bar/semaine : 80 €. 1 ciné/mois : 12 €. 1 weekend hors Paris/an : 60 €/mois lissé. Cadeaux famille/amis : 30 €/mois. Total sortie minimale décente : 320 €/mois. Vie sociale plus active : 500 €+." },
+        { titre: "Calcul total et reste à vivre", contenu: "Logement T1 1 050 + courses 600 + transport/abonnements 130 + sortie 320 = 2 100 €. Reste à vivre 900 €. Mais : prévoir vêtements (50 €/mois lissé), médecin/santé (40 €), imprévus (100 €), épargne minimum (200 €). Soit 390 € à déduire = 510 € de vraie marge libre. Verdict : ÇA passe, sans confort réel." },
+        { titre: "Alternative : 3000 € net en proche couronne", contenu: "Même 3000 € à Vincennes/Montreuil/Saint-Ouen : T2 40 m² 950-1 100 € (vs 1 350 Paris) = +300 € de marge. T2 50 m² 1 200 € = équivalent confort. Reste à vivre : 800-900 € au lieu de 510 €. Quitter Paris pour proche couronne avec 3000 € = +50 % de pouvoir d'achat réel sans sacrifier le trajet." },
+        { titre: "Notre verdict honnête", contenu: "Avec 3000 € à Paris en 2026 : tu vis mais tu ne vis pas BIEN. Marge confortable de loisirs/épargne très limitée, vacances modestes, pas de gros achats sans crédit. Si tu es jeune (25-30 ans) : ça passe pour 2-3 ans, c'est formateur. Si tu approches 30-35 ans et envisages couple/enfant : 3000 € à Paris = mur. Soit tu négocies + 800 €, soit tu pars en proche couronne. La proche couronne avec 3000 € te rend la vie." },
+      ],
+      references: ["Vincennes", "Montreuil", "Saint-Ouen-sur-Seine"],
+    },
+  },
+  {
+    slug: "5-villes-plus-agreables-vivre-france-2026",
+    title: "Les 5 villes les plus agréables à vivre en France en 2026 (et leur équivalent près de Paris)",
+    description:
+      "Top 5 France en 2026 : Annecy, Bordeaux, Nantes, Aix, Rennes. Pour chaque ville, son 'jumeau' à proximité de Paris si tu veux garder ton boulot parisien.",
+    publishedAt: "2026-06-24",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien qui rêve de quitter Paris ET la France entière, mais peut-être pas réaliste à court terme (boulot, famille). On lui donne le top France honnête, ET on lui propose un équivalent IDF qui reproduit l'ADN.",
+      angle:
+        "Honnête sur le top France (sources L'Express 2025, Le Figaro, INSEE qualité de vie). Puis astuce : pour chaque ville, son équivalent IDF qui reproduit l'ADN. Annecy → Cergy ou Maisons-Laffitte (lac/eau + nature), Bordeaux → Versailles (centre patrimonial), Nantes → Saint-Germain-en-Laye (rivière + verte), Aix-en-Provence → Sceaux, Rennes → Vincennes.",
+      sections: [
+        { titre: "Sources et méthode du classement France", contenu: "On croise 4 classements : L'Express 'Villes où il fait bon vivre' (pondération économie + écoles + santé + sport + culture), Le Figaro 'Villes les plus agréables', INSEE 'Indice de qualité de vie', Top sondages baromètres BVA-Place to Be. Le top 5 est stable depuis 3 ans : Annecy, Bordeaux, Nantes, Aix-en-Provence, Rennes." },
+        { titre: "1. Annecy (74) : la perle alpine", contenu: "Lac d'Annecy, vieille ville canaux, montagnes immédiates, climat plutôt doux. Prix immobilier 7 500 €/m² (très cher), équivalent ouest parisien. Inconvénients : tourisme de masse été, distance Paris (TGV 3h35), bouchons routiers. Profil : actif libéral ou télétravail full-remote, famille passionnée nature/sport." },
+        { titre: "Équivalent IDF d'Annecy : Maisons-Laffitte (78)", contenu: "Pourquoi : eau (Seine + étangs), parc 200 ha + forêt de Saint-Germain à 1 km, ville-parc apaisée, voirie en courbes, hippodrome (équivalent activité sportive emblématique). RER A direct Paris 45 min. Prix 7 200 €/m² (équivalent Annecy). Reproduit la sensation 'eau + nature + ville cohérente' à 30 km de Paris." },
+        { titre: "2. Bordeaux (33) : le patrimoine vivant", contenu: "Place de la Bourse, miroir d'eau, quais, vignobles autour, ambiance familiale-bourgeoise vivante. Tramway moderne. Prix 5 200 €/m² (a explosé +60 % en 10 ans). TGV Paris 2h05. Inconvénients : été 35-40 °C, gentrification visible, bouchons rocade." },
+        { titre: "Équivalent IDF de Bordeaux : Versailles (78)", contenu: "Pourquoi : patrimoine majeur (château et avenues royales = équivalent place de la Bourse + quais), centre-ville vivant (rue de la Paroisse, marché Notre-Dame), familles bourgeoises actives, vie culturelle dense. RER C ou Transilien direct, 35 min. Prix 7 800 €/m². Plus cher que Bordeaux mais reproduit l'ADN 'patrimoine + vie + bourgeoisie cultivée'." },
+        { titre: "3. Nantes (44) : la verte connectée", contenu: "Les Machines de l'île, Île de Nantes, Erdre, Loire à proximité, climat océanique doux, ville verte (1ʳᵉ Capitale verte européenne 2013), tramway. Prix 4 200 €/m². TGV Paris 2h. Inconvénients : pluie soutenue, distance Atlantique 50 km (pas en bord de mer), gentrification rapide." },
+        { titre: "Équivalent IDF de Nantes : Saint-Germain-en-Laye (78)", contenu: "Pourquoi : nature dominante (forêt 35 km², Seine), ambiance cosmopolite (Lycée international), vie culturelle correcte, tramway T13 récent. RER A direct, 28 min. Prix 8 000 €/m². Reproduit le combo 'nature + cosmopolitisme + qualité vie' nantais." },
+        { titre: "4. Aix-en-Provence (13) : le soleil cultivé", contenu: "Cours Mirabeau, climat exceptionnel (300 jours soleil), patrimoine XVIIe, festivals (Festival Lyrique), bourgeoisie cultivée. Prix 5 800 €/m². TGV Paris 3h. Inconvénients : étouffant l'été (40 °C+), gentrification poussée, mistral, distance Méditerranée 30 km." },
+        { titre: "Équivalent IDF d'Aix-en-Provence : Sceaux (92)", contenu: "Pourquoi : ambiance bourgeoise cultivée, festivals (Festival du Domaine de Sceaux), Parc de Sceaux (équivalent espaces aixois), familles actives, écoles d'excellence (Lakanal). RER B direct, 20 min. Prix 8 500 €/m². Reproduit l'ADN 'bourgeoisie cultivée + parc majeur + écoles fortes'. Manque : le soleil. Mais qualité vie comparable." },
+        { titre: "5. Rennes (35) et son équivalent : Vincennes (94)", contenu: "Rennes : 4e ville étudiante France, place de la République, Saint-Anne, ambiance jeune et vivante, Mabilais, prix 4 100 €/m², TGV Paris 1h25. Équivalent IDF : Vincennes — ambiance vivante, marchés, théâtres (Théâtre Alexandre Dumas), bois (équivalent Thabor en plus grand), familles + jeunes actifs, M1 directe 8 min Châtelet, prix 9 200 €/m²." },
+        { titre: "Notre verdict", contenu: "Si tu peux quitter Paris pour de bon : top 5 France reste valable, vise Annecy ou Bordeaux selon ton climat préféré. Si tu dois rester en IDF : Maisons-Laffitte reproduit le mieux Annecy, Versailles reproduit le mieux Bordeaux, et Vincennes reproduit le mieux Rennes. Différence majeure : aucune commune IDF ne reproduit le climat (Méditerranée d'Aix, océanique de Nantes). Pour ça, faudra vraiment partir." },
+      ],
+      references: ["Maisons-Laffitte", "Versailles", "Saint-Germain-en-Laye", "Sceaux", "Vincennes"],
+    },
+  },
+  {
+    slug: "syndrome-de-paris-2026-pourquoi-quitter",
+    title: "Le syndrome de Paris en 2026 : ce que c'est vraiment et comment savoir si tu l'as",
+    description:
+      "Syndrome de Paris en 2026 : il ne touche pas que les touristes. Burn-out urbain, désillusion, fatigue chronique. Symptômes, statistiques, et solutions.",
+    publishedAt: "2026-06-25",
+    readingMinutes: 7,
+    category: "persona",
+    brief: {
+      audience:
+        "Parisien en burn-out urbain qui se demande s'il devient fou. Veut comprendre ce qui lui arrive, savoir si c'est une vraie pathologie, et savoir quoi faire (rester et se reposer, ou partir).",
+      angle:
+        "Distinguer deux usages du terme : 1) Sens médical original (Hiroaki Ota, 1986) : choc psychique des touristes asiatiques face au décalage entre fantasme et réalité. 2) Usage élargi 2020s : burn-out urbain de Parisiens chroniques. Symptômes réels, statistiques (Crédoc, INSEE), différencier de la dépression. Solutions : repos vrai, ou changement de vie (départ).",
+      sections: [
+        { titre: "L'origine médicale du terme (1986, Dr Hiroaki Ota)", contenu: "Le psychiatre japonais Hiroaki Ota travaillant à l'hôpital Sainte-Anne décrit en 1986 un syndrome touchant des touristes japonais : décompensation psychique aiguë (anxiété, hallucinations, dépersonnalisation) face au décalage entre le Paris fantasmé (mode, élégance, romantisme) et la réalité (saleté, agressivité perçue, indifférence). 6 à 12 cas par an pris en charge à l'ambassade japonaise. Reconnu dans la littérature psychiatrique." },
+        { titre: "Les symptômes médicaux décrits", contenu: "Phase 1 : excitation idéalisée. Phase 2 : confrontation à la réalité (transports bondés, déchets, brusquerie commerciale). Phase 3 : décompensation : anxiété aiguë, idéations persécutrices, sentiment d'irréalité, parfois bouffée délirante brève. Phase 4 (sans intervention) : décompensation dépressive ou rapatriement. Touche surtout femmes 20-40 ans, sensibilité particulière au choc culturel." },
+        { titre: "L'usage élargi 2020s : le burn-out urbain parisien", contenu: "Depuis 2020 (post-Covid), 'syndrome de Paris' désigne aussi un burn-out urbain de Parisiens chroniques. Sentiment d'épuisement permanent, perte de sens du quotidien (transports + boulot + appartement), agressivité ambiante perçue comme hostile, fantasme de fuite. Le terme est sorti du cadre psychiatrique pour décrire une réalité sociologique : la fatigue de vivre à Paris." },
+        { titre: "Statistiques 2026 : combien de Parisiens concernés", contenu: "Sondage Crédoc 2025 : 41 % des Parisiens 25-45 ans déclarent envisager 'sérieusement' quitter Paris dans les 5 ans (vs 18 % en 2015). Étude IFOP/L'Express 2024 : 56 % se disent 'épuisés par leur quotidien parisien'. INSEE : solde migratoire Paris négatif depuis 2014 (sortie nette 80 000 hab/an). Le malaise est massif et structurel." },
+        { titre: "Symptômes du burn-out urbain (à différencier de la dépression)", contenu: "Burn-out urbain typique : fatigue corporelle dès le réveil, irritabilité dans les transports, sentiment d'être étouffé par la densité, fantasme de campagne/mer, perte de plaisir dans les sorties, sentiment que 'tout coûte trop cher pour rien'. Différence avec dépression : disparait en 1-2 semaines de vacances loin de Paris (réversible), pas de perte d'estime de soi profonde, désir et énergie reviennent dès le changement d'environnement." },
+        { titre: "Quand consulter (vraie dépression vs fatigue urbaine)", contenu: "Consulter un médecin si : symptômes persistent après 2 semaines de vacances loin de Paris, perte d'appétit, troubles du sommeil même en vacances, idées noires, perte d'intérêt pour activités auparavant plaisantes même hors contexte urbain. Sinon, c'est probablement de la fatigue urbaine, qui se traite par changement d'environnement." },
+        { titre: "Solutions courtes : repos urbain", contenu: "1) Vacances déconnectées 10-14 jours (mer, montagne, pas de ville) : test diagnostic + reset. 2) Réduire le bruit ambiant chez soi (rideaux acoustiques, plantes, casque réducteur). 3) Routine matinale lente avant transports. 4) Limiter sorties soir au strict nécessaire. 5) Sport régulier en extérieur (Bois de Vincennes, Buttes-Chaumont, parcs)." },
+        { titre: "Solutions longues : envisager le départ", contenu: "Si symptômes persistent malgré repos : envisager le départ. Pas de précipitation : tester 1 mois en télétravail depuis une commune candidate (Fontainebleau, Versailles, Saint-Germain-en-Laye, Vincennes). Voir si la fatigue urbaine se dissipe. Si oui : préparer le départ sérieusement (boulot remote ou changement, écoles enfants, achat). 80 % des départs Paris déclarés par INSEE 2025 = motivation 'qualité de vie + santé mentale'." },
+      ],
+      references: ["Vincennes", "Versailles", "Fontainebleau", "Saint-Germain-en-Laye"],
+    },
+  },
+  {
+    slug: "salaire-vivre-confortablement-paris-2026",
+    title: "Quel salaire pour vivre confortablement à Paris en 2026 ? Grille par profil",
+    description:
+      "Confortablement = épargner, sortir, voyager 2x/an. Notre grille de salaire net 2026 par profil (célibataire, couple, famille avec enfants).",
+    publishedAt: "2026-06-26",
+    readingMinutes: 7,
+    category: "finance",
+    brief: {
+      audience:
+        "Parisien qui négocie son salaire, candidat à un poste à Paris, jeune cadre qui se demande si 50 ou 70 k€ suffisent. Aussi parents qui se demandent si leurs enfants pourront vivre à Paris.",
+      angle:
+        "'Confortable' = pouvoir épargner 15 % + 1 vacances/an + sortie weekend + se loger sans stress. Calculs précis 2026 : célibataire 4 500 €/mois net, couple sans enfants 7 000 €, famille 1 enfant 9 000 €, famille 2 enfants 11 500 €. Comparer avec banlieue : famille 7 500 € en proche couronne = même confort que 11 500 € à Paris.",
+      sections: [
+        { titre: "Définir 'confortable' précisément", contenu: "On définit 'confortable' = ne pas se priver au quotidien, pouvoir épargner 15 % de son salaire, partir en vacances 2x/an (1 grand voyage 2 semaines + 1 court 1 semaine), sortir au resto 1-2x/sem, payer les imprévus sans paniquer (machine, dent, voiture), pouvoir constituer un apport pour un achat. C'est un seuil de tranquillité, pas de luxe." },
+        { titre: "Profil 1 : Célibataire 25-35 ans à Paris", contenu: "Loyer T2 50 m² Paris : 1 500 €. Charges/énergie 200 €. Courses 500 €. Transport/abonnements 150 €. Sorties (resto + bars + ciné + sport) 600 €. Vêtements/cadeaux/santé 200 €. Vacances lissées 250 €/mois. Imprévus 200 €. Épargne 15 % = 825 € sur 5 500 € net. Total nécessaire : 4 500 €/mois net. Soit 5 800 € brut, 70 k€ brut annuel." },
+        { titre: "Profil 2 : Couple sans enfants Paris", contenu: "Loyer T3 70 m² Paris : 2 200 €. Charges 280 €. Courses 800 €. Transport 200 €. Sorties (en couple, plus fréquentes resto + théâtre) 900 €. Vêtements/santé 350 €. Vacances 450 €/mois. Imprévus 300 €. Épargne 15 % couple = 1 050 €. Total : 6 530 €/mois pour le couple, soit 3 250 €/personne. Confort réel : 7 000 € net total/mois pour avoir de la marge. Soit 90 k€ brut annuel pour le couple (45 k€ chacun)." },
+        { titre: "Profil 3 : Famille 1 enfant (3-10 ans) Paris", contenu: "Loyer T4 90 m² Paris : 3 000 €. Charges 350 €. Courses (3 personnes) 1 100 €. Transport 250 €. Activités enfant (sport + culture + crèche/périscolaire) 400 €. Vêtements/santé 500 €. Sorties famille 600 €. Vacances 600 €/mois. Imprévus 350 €. Épargne 15 % = 1 350 €. Total : 8 500 €. Confort réel : 9 000 €/mois. Soit 115 k€ brut annuel pour le couple (57 k€ chacun)." },
+        { titre: "Profil 4 : Famille 2 enfants Paris", contenu: "Loyer T5 110-120 m² Paris : 3 800 € (denrée rare, parfois inaccessible). Charges 450 €. Courses 1 500 €. Transport 300 €. Activités enfants 700 €. Vêtements/santé 700 €. Sorties 700 €. Vacances 800 €/mois. Imprévus 450 €. Épargne 15 % = 1 700 €. Total : 11 000-11 500 €/mois. Soit 145 k€ brut annuel pour le couple (72 k€ chacun). Très peu de couples atteignent ce niveau, d'où l'exode 2-enfants vers banlieue." },
+        { titre: "Comparaison : même confort en proche couronne (-30 à -40 %)", contenu: "Famille 2 enfants à Vincennes/Saint-Maur/Sceaux : même T5 110 m² = 2 500 € (vs 3 800 Paris) = 1 300 € de marge. Total nécessaire : 7 500-8 000 €/mois (vs 11 500 Paris). Économie de 30-35 % à confort équivalent. Couple sans enfants à Saint-Maur : 5 000-5 500 € (vs 7 000 Paris). Célibataire à Vincennes : 3 500-4 000 € (vs 4 500 Paris)." },
+        { titre: "Le seuil 'survivre' (à différencier de 'confort')", contenu: "Pour vivre à Paris sans confort réel mais sans s'endetter : célib 2 800-3 200 €, couple sans enfants 4 500-5 000 €, famille 1 enfant 6 500-7 000 €, famille 2 enfants 8 500-9 000 €. C'est le seuil de subsistance moderne sans épargne, sans vacances, sans imprévus possibles. À ne pas confondre avec 'confort'." },
+        { titre: "Notre verdict pratique", contenu: "Vivre vraiment confortablement à Paris en 2026 : célib 4 500 €+, couple 7 000 €+, famille 1 enfant 9 000 €+, famille 2 enfants 11 500 €+. Sous ces seuils, c'est de la résistance, pas du confort. Pour les familles 2 enfants : la vérité économique est qu'à Paris, vous ne serez confortables qu'avec 145 k€ brut couple — sinon, partir en proche couronne (Vincennes, Saint-Maur, Sceaux) vous redonne 30-40 % de pouvoir d'achat sans sacrifier l'accès à Paris." },
+      ],
+      references: ["Vincennes", "Saint-Maur-des-Fossés", "Sceaux"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
