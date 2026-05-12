@@ -18,6 +18,11 @@ import TransportPanel from "@/components/TransportPanel";
 
 export const dynamicParams = false;
 
+// ISR : régénère chaque page tous les 24h. Permet à la photo Wikipedia
+// de se rattacher automatiquement si le fetch a échoué au build initial
+// (rate-limit Wikipedia, cold start Vercel, etc.).
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
  return SAMPLE_COMMUNES.map((c) => ({ slug: communeToSlug(c) }));
 }
@@ -198,7 +203,7 @@ export default async function VivreACommunePage({
  <article className="mx-auto max-w-4xl px-5 py-8 sm:px-6">
 
  {/* PHOTO COMMUNE (Wikipedia, haute résolution + next/image) */}
- {wikiImage && (
+ {wikiImage ? (
  <figure className="mt-2">
  <div className="relative aspect-[21/9] w-full overflow-hidden rounded-3xl bg-neutral-100 shadow-[0_4px_16px_rgba(82,98,122,0.08)]">
  <Image
@@ -213,6 +218,23 @@ export default async function VivreACommunePage({
  <figcaption className="mt-2 text-right text-[11px] text-neutral-400">
  {wikiImage.credit}
  </figcaption>
+ </figure>
+ ) : (
+ /* Fallback brand : gradient + nom de la commune (quand Wikipedia
+ n'a pas d'image ou que le fetch a échoué au build). */
+ <figure className="mt-2">
+ <div className="relative flex aspect-[21/9] w-full items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-brand-iris-soft via-white to-brand-vert-soft shadow-[0_4px_16px_rgba(82,98,122,0.08)]">
+ <div aria-hidden className="absolute -right-12 -top-8 h-48 w-48 rounded-full bg-brand-iris/15 blur-3xl" />
+ <div aria-hidden className="absolute -bottom-12 -left-12 h-48 w-48 rounded-full bg-brand-vert/20 blur-3xl" />
+ <div className="relative text-center">
+ <p className="font-display text-3xl font-medium tracking-tight text-brand-bleu sm:text-5xl">
+ {commune.nom}
+ </p>
+ <p className="mt-2 text-xs uppercase tracking-wider text-brand-bleu/60">
+ {commune.departement} · {commune.region}
+ </p>
+ </div>
+ </div>
  </figure>
  )}
 
