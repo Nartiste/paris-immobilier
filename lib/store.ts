@@ -36,6 +36,15 @@ type AppState = {
       (TGV/Intercités) dans le ranking et sur la carte. Off par défaut. */
   showCampagne: boolean;
   toggleCampagne: () => void;
+  setShowCampagne: (v: boolean) => void;
+
+  /** Quiz d'onboarding : true = quiz déjà fait OU explicitement skippé.
+      Persisté → s'ouvre auto qu'au premier render. */
+  onboarded: boolean;
+  setOnboarded: (v: boolean) => void;
+  /** Modal d'onboarding ouvert (peut être rouvert manuellement). */
+  onboardingOpen: boolean;
+  setOnboardingOpen: (v: boolean) => void;
 
   /** Premium gating */
   isPremium: boolean;
@@ -96,6 +105,12 @@ export const useAppStore = create<AppState>()(
 
       showCampagne: false,
       toggleCampagne: () => set((s) => ({ showCampagne: !s.showCampagne })),
+      setShowCampagne: (v) => set({ showCampagne: v }),
+
+      onboarded: false,
+      setOnboarded: (v) => set({ onboarded: v }),
+      onboardingOpen: false,
+      setOnboardingOpen: (v) => set({ onboardingOpen: v }),
 
       isPremium: false,
       setPremium: (v) => set({ isPremium: v }),
@@ -124,6 +139,8 @@ export const useAppStore = create<AppState>()(
         profile: s.profile,
         mode: s.mode,
         weights: s.weights,
+        // Onboarding persisté pour ne pas re-ouvrir le quiz à chaque visite
+        onboarded: s.onboarded,
       }),
     },
   ),

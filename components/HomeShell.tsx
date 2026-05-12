@@ -8,6 +8,7 @@ import { communeToSlug } from "@/lib/slug";
 import { formatEuros } from "@/lib/utils";
 import { computeCommuneScore, scoreToColor, contrastTextOn } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
+import OnboardingTriggerButton from "./OnboardingTriggerButton";
 
 /**
  * Sections statiques de la home, server-rendered → SEO + GEO friendly.
@@ -82,6 +83,10 @@ export default function HomeShell() {
  concierge IA.
  </p>
  <div className="mt-6 flex flex-wrap gap-2.5">
+ {/* CTA primary : ouvre le quiz d'onboarding. Plus visible que
+ "Affiner mes critères" pour les nouveaux arrivants qui ne savent
+ pas comment utiliser le comparateur. */}
+ <OnboardingTriggerButton />
  <a
  href="#filtres"
  className="inline-flex items-center gap-1.5 rounded-2xl bg-brand-bleu px-4 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(82,98,122,0.25)] transition-transform hover:scale-[1.02]"

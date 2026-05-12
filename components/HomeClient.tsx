@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Map as MapIcon, X } from "lucide-react";
 import Sidebar from "./Sidebar";
 import CommuneCard from "./CommuneCard";
+import OnboardingQuiz from "./OnboardingQuiz";
 import { useAppStore } from "@/lib/store";
 import type { Commune, GpeStation } from "@/lib/types";
 import { communeToSlug } from "@/lib/slug";
@@ -64,6 +65,8 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     tempsMaxParis,
     showGpe,
     showCampagne,
+    onboarded,
+    setOnboardingOpen,
     selectedCommuneInsee,
     setSelectedCommune,
     pendingAddress,
@@ -147,6 +150,18 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
       document.body.style.overflow = prev;
     };
   }, [mobileMapOpen]);
+
+  // Auto-trigger du quiz d'onboarding au PREMIER render seulement.
+  // `onboarded` est persisté dans localStorage (cf. lib/store.ts partialize)
+  // donc le quiz ne s'ouvre qu'une fois par utilisateur.
+  useEffect(() => {
+    if (!onboarded) {
+      // Petit délai pour ne pas ouvrir le modal AVANT que le rendu
+      // de la home soit fini (sinon ça donne une impression de saccade).
+      const timer = setTimeout(() => setOnboardingOpen(true), 800);
+      return () => clearTimeout(timer);
+    }
+  }, [onboarded, setOnboardingOpen]);
 
   return (
     <div className="lg:relative lg:flex lg:min-h-[calc(100vh-5rem)]">
@@ -265,6 +280,9 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         </button>
       )}
 
+      {/* Quiz d'onboarding : auto-trigger au 1er render, sinon ouvert
+          manuellement via le bouton "Refaire le quiz" dans le hero. */}
+      <OnboardingQuiz />
     </div>
   );
 }
