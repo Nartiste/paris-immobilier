@@ -78,6 +78,18 @@ Renvoie UNIQUEMENT le texte des 4 paragraphes, rien d'autre. Pas de balise, pas 
 type Commune = (typeof SAMPLE_COMMUNES)[number];
 
 async function generate(commune: Commune): Promise<string> {
+  const isCampagne = "gare_acces" in commune && commune.gare_acces;
+  const gareInfo = isCampagne
+    ? `
+
+⚠ CONTEXTE CAMPAGNE TGV — village rural accessible via une gare TGV/Intercités proche :
+Gare de référence : ${commune.gare_acces!.nom}
+Trajet depuis le village jusqu'à la gare : ${commune.gare_acces!.trajet_min} min en ${commune.gare_acces!.mode} (${commune.gare_acces!.distance_km} km)
+→ Le total porte-à-porte vers Paris (${commune.temps_trajet_paris_min} min) inclut ce drive + le TGV/Intercités jusqu'à Paris + Paris last-mile.
+→ Le concept éditorial est "Quitter Paris pour la campagne" : c'est un VRAI village rural (pas une banlieue), accessible 1-2 fois par semaine à Paris via TGV.
+→ La narration doit refléter cette dualité : vraie ruralité + accès Paris.`
+    : "";
+
   const userPrompt = `
 Nom : ${commune.nom}
 Code postal : ${commune.code_postal}
@@ -96,7 +108,7 @@ Espaces verts : ${commune.espaces_verts_pct ?? "—"} % du territoire
 Bonus Grand Paris Express : ${
     commune.bonus_gpe ? Math.round(commune.bonus_gpe * 100) : 0
   } %
-Région : ${commune.region}
+Région : ${commune.region}${gareInfo}
 `.trim();
 
   const response = await client.messages.create({
