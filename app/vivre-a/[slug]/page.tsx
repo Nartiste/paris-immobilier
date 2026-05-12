@@ -6,7 +6,7 @@ import { Train, Car, MapPin, Euro, TrendingUp, Users } from "lucide-react";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { communeToSlug, slugToInsee } from "@/lib/slug";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
-import { DEFAULT_WEIGHTS } from "@/lib/types";
+import { DEFAULT_WEIGHTS, type Commune } from "@/lib/types";
 import { formatEuros, formatNumber, formatPercent } from "@/lib/utils";
 import { buildCTAs } from "@/lib/monetize";
 import { NARRATIVES } from "@/lib/city-narratives";
@@ -16,7 +16,11 @@ import { computeCommuneStats } from "@/lib/commune-stats";
 import { getCommuneImage } from "@/lib/wikipedia-image";
 import TransportPanel from "@/components/TransportPanel";
 
-export const dynamicParams = false;
+// dynamicParams = true : permet à n'importe quelle commune française hors
+// SAMPLE_COMMUNES d'avoir sa fiche via fallback sur l'API commune-lookup
+// (qui s'appuie sur geo.api.gouv.fr). Découvre une commune via la recherche
+// d'adresse → /vivre-a/[slug] répond, plus de 404.
+export const dynamicParams = true;
 
 // ISR : régénère chaque page tous les 24h. Permet à la photo Wikipedia
 // de se rattacher automatiquement si le fetch a échoué au build initial
@@ -27,6 +31,29 @@ export async function generateStaticParams() {
  return SAMPLE_COMMUNES.map((c) => ({ slug: communeToSlug(c) }));
 }
 
+const SITE_URL_LOOKUP =
+ process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
+
+/**
+ * Récupère une commune par INSEE : sample-data en priorité (rapide, statique),
+ * puis fallback sur l'API /api/commune-lookup pour les communes hors dataset.
+ */
+async function resolveCommune(insee: string): Promise<Commune | null> {
+ const sample = SAMPLE_COMMUNES.find((c) => c.code_insee === insee);
+ if (sample) return sample;
+ try {
+ const res = await fetch(
+ `${SITE_URL_LOOKUP}/api/commune-lookup?insee=${encodeURIComponent(insee)}`,
+ { next: { revalidate: 86400 } },
+ );
+ if (!res.ok) return null;
+ const data = (await res.json()) as { commune?: Commune };
+ return data.commune ?? null;
+ } catch {
+ return null;
+ }
+}
+
 export async function generateMetadata({
  params,
 }: {
@@ -34,7 +61,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
  const { slug } = await params;
  const insee = slugToInsee(slug);
- const commune = SAMPLE_COMMUNES.find((c) => c.code_insee === insee);
+ const commune = insee ? await resolveCommune(insee) : null;
  if (!commune) {
  return { title: "Commune introuvable" };
  }
@@ -72,7 +99,7 @@ export default async function VivreACommunePage({
 }) {
  const { slug } = await params;
  const insee = slugToInsee(slug);
- const commune = SAMPLE_COMMUNES.find((c) => c.code_insee === insee);
+ const commune = insee ? await resolveCommune(insee) : null;
 
  if (!commune) {
  notFound();
