@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowLeft, ArrowRight, Sparkles, X } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import { track } from "@/lib/analytics";
@@ -15,10 +15,11 @@ import {
   FREQUENCE_LABELS,
   PROFIL_LABELS,
   computeOnboardingResult,
+  inferTempsMaxParis,
 } from "@/lib/onboarding-presets";
 import { cn } from "@/lib/utils";
 
-const STEPS = 4;
+const STEPS = 5;
 
 const PROFILS: ProfilType[] = [
   "celibataire",
@@ -61,18 +62,29 @@ export default function OnboardingQuiz() {
   const [step, setStep] = useState<number>(1);
   const [profil, setProfil] = useState<ProfilType | null>(null);
   const [frequence, setFrequence] = useState<FrequenceParis | null>(null);
+  const [tempsMax, setTempsMax] = useState<number>(90);
+  const [tempsMaxTouched, setTempsMaxTouched] = useState(false);
   const [budgetMode, setBudgetMode] = useState<BudgetMode>("m2_achat");
   const [budgetValue, setBudgetValue] = useState<number>(5000);
   const [surface, setSurface] = useState<number>(60);
   const [criteres, setCriteres] = useState<CritereId[]>([]);
+
+  // Pré-remplit le slider temps max depuis la fréquence Paris choisie,
+  // tant que l'utilisateur ne l'a pas touché manuellement.
+  useEffect(() => {
+    if (frequence && !tempsMaxTouched) {
+      setTempsMax(inferTempsMaxParis(frequence));
+    }
+  }, [frequence, tempsMaxTouched]);
 
   if (!onboardingOpen) return null;
 
   const canNext =
     (step === 1 && profil !== null) ||
     (step === 2 && frequence !== null) ||
-    (step === 3 && budgetValue > 0) ||
-    (step === 4 && criteres.length === 2);
+    (step === 3 && tempsMax >= 15) ||
+    (step === 4 && budgetValue > 0) ||
+    (step === 5 && criteres.length === 2);
 
   const handleClose = (skipped: boolean) => {
     track("concierge_open", { source: skipped ? "skip" : "complete" });
@@ -85,6 +97,7 @@ export default function OnboardingQuiz() {
     const answers: OnboardingAnswers = {
       profil,
       frequenceParis: frequence,
+      tempsMaxParis: tempsMax,
       budgetMode,
       budgetValue,
       surfaceVisee: surface,
@@ -227,6 +240,65 @@ export default function OnboardingQuiz() {
           {step === 3 && (
             <div>
               <h2 className="font-display text-xl font-medium text-brand-bleu">
+                Temps maximum vers Paris ?
+              </h2>
+              <p className="mt-1 text-sm text-neutral-500">
+                Au-delà de cette durée porte-à-porte, la commune sort du
+                classement. Pré-réglé selon ta fréquence — ajuste si besoin.
+              </p>
+              <div className="mt-6">
+                <div className="flex items-baseline justify-between">
+                  <span className="text-3xl font-semibold tabular-nums text-brand-bleu">
+                    {tempsMax}
+                  </span>
+                  <span className="text-sm text-neutral-500">minutes max</span>
+                </div>
+                <input
+                  type="range"
+                  min={15}
+                  max={180}
+                  step={5}
+                  value={tempsMax}
+                  onChange={(e) => {
+                    setTempsMax(Number(e.target.value));
+                    setTempsMaxTouched(true);
+                  }}
+                  className="mt-3 w-full accent-brand-iris-strong"
+                />
+                <div className="mt-1 flex justify-between text-[10px] text-neutral-400">
+                  <span>15 min</span>
+                  <span>1 h</span>
+                  <span>1 h 30</span>
+                  <span>2 h</span>
+                  <span>3 h</span>
+                </div>
+                <div className="mt-4 grid grid-cols-4 gap-1.5">
+                  {[45, 60, 90, 120].map((preset) => (
+                    <button
+                      key={preset}
+                      type="button"
+                      onClick={() => {
+                        setTempsMax(preset);
+                        setTempsMaxTouched(true);
+                      }}
+                      className={cn(
+                        "rounded-xl border px-2 py-1.5 text-xs font-medium transition-all",
+                        tempsMax === preset
+                          ? "border-brand-iris-strong bg-brand-iris-soft text-brand-iris-strong"
+                          : "border-neutral-200 bg-white text-neutral-600 hover:border-neutral-300",
+                      )}
+                    >
+                      {preset < 60 ? `${preset} min` : `${preset / 60} h${preset % 60 ? ` ${preset % 60}` : ""}`.trim()}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {step === 4 && (
+            <div>
+              <h2 className="font-display text-xl font-medium text-brand-bleu">
                 Quel est ton budget ?
               </h2>
               <p className="mt-1 text-sm text-neutral-500">
@@ -293,7 +365,7 @@ export default function OnboardingQuiz() {
             </div>
           )}
 
-          {step === 4 && (
+          {step === 5 && (
             <div>
               <h2 className="font-display text-xl font-medium text-brand-bleu">
                 Tes 2 critères les plus importants ?

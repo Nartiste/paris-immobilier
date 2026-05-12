@@ -32,6 +32,8 @@ export type CritereId =
 export type OnboardingAnswers = {
   profil: ProfilType;
   frequenceParis: FrequenceParis;
+  /** Temps de trajet max acceptable vers Paris (en minutes) */
+  tempsMaxParis: number;
   budgetMode: BudgetMode;
   budgetValue: number;
   /** Pour mode mensualité ou loyer : surface visée (m²) */
@@ -213,7 +215,9 @@ export function computeOnboardingResult(
     weights: computeFinalWeights(answers),
     budgetMax,
     profile,
-    tempsMaxParis: inferTempsMaxParis(answers.frequenceParis),
+    // Le user choisit explicitement maintenant (step 3 du quiz).
+    // inferTempsMaxParis reste utilisé pour pré-remplir le slider.
+    tempsMaxParis: answers.tempsMaxParis,
     showCampagne: inferShowCampagne(answers.profil, answers.frequenceParis),
   };
 }
