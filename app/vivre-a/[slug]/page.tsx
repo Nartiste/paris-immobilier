@@ -251,6 +251,35 @@ export default async function VivreACommunePage({
  />
  </div>
 
+ {commune.gare_acces && (
+ <aside className="mt-6 rounded-2xl border border-emerald-200 bg-gradient-to-br from-brand-vert-soft/50 to-white p-5">
+ <div className="mb-2 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold tracking-wide text-emerald-800">
+ 🌳 Quitter Paris pour la campagne
+ </div>
+ <p className="text-sm leading-relaxed text-neutral-800">
+ {commune.nom} est un village rural accessible via{" "}
+ <strong>{commune.gare_acces.nom}</strong>. Compte{" "}
+ <strong>
+ {commune.gare_acces.trajet_min} min en{" "}
+ {commune.gare_acces.mode === "voiture"
+ ? "voiture"
+ : commune.gare_acces.mode === "velo"
+ ? "vélo"
+ : commune.gare_acces.mode === "bus"
+ ? "bus"
+ : commune.gare_acces.mode === "marche"
+ ? "marche"
+ : commune.gare_acces.mode === "ter"
+ ? "TER"
+ : "transport mixte"}
+ </strong>{" "}
+ ({commune.gare_acces.distance_km} km) jusqu'à la gare, puis un trajet
+ train direct vers Paris. Total porte-à-porte estimé :{" "}
+ <strong>{commune.temps_trajet_paris_min} min</strong>.
+ </p>
+ </aside>
+ )}
+
  <section className="mt-10">
  <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
  Vivre à {commune.nom}

@@ -1,6 +1,6 @@
 "use client";
 
-import { Sliders, RotateCcw, Train, Clock } from "lucide-react";
+import { Sliders, RotateCcw, Train, Clock, TreePine } from "lucide-react";
 import type { Weights } from "@/lib/types";
 import { useAppStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
@@ -34,6 +34,8 @@ export default function Sidebar() {
     setTempsMaxParis,
     showGpe,
     toggleGpe,
+    showCampagne,
+    toggleCampagne,
   } = useAppStore();
 
   return (
@@ -128,7 +130,7 @@ export default function Sidebar() {
         </div>
       </div>
 
-      <div className="border-t border-neutral-200 pt-4">
+      <div className="border-t border-neutral-200 pt-4 space-y-2">
         <button
           onClick={toggleGpe}
           className={cn(
@@ -143,6 +145,23 @@ export default function Sidebar() {
             Futures gares (GPE)
           </span>
           <span className="text-xs">{showGpe ? "Affichées" : "Masquées"}</span>
+        </button>
+
+        <button
+          onClick={toggleCampagne}
+          className={cn(
+            "flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm transition-colors",
+            showCampagne
+              ? "bg-brand-vert-soft text-emerald-800 shadow-[0_1px_3px_rgba(175,198,190,0.4)]"
+              : "border border-neutral-200 bg-white text-neutral-700",
+          )}
+          aria-label="Inclure les villages campagne accessibles en TGV"
+        >
+          <span className="flex items-center gap-2">
+            <TreePine className="h-4 w-4" />
+            Quitter Paris pour la campagne
+          </span>
+          <span className="text-xs">{showCampagne ? "Incluse" : "Masquée"}</span>
         </button>
       </div>
 

@@ -30,6 +30,18 @@ export type Commune = {
   espaces_verts_pct: number | null;
   taux_criminalite: number | null;
   bonus_gpe: number | null;
+  /**
+   * Pour les communes hors IDF accessibles via TGV/Intercités, indique la gare
+   * de référence + le temps/mode pour y accéder en local depuis la commune.
+   * Quand défini, la commune est traitée comme "Quitter Paris pour la
+   * campagne" et n'apparaît qu'au toggle dédié.
+   */
+  gare_acces?: {
+    nom: string;
+    trajet_min: number;
+    distance_km: number;
+    mode: "voiture" | "velo" | "bus" | "marche" | "ter" | "mixte";
+  };
 };
 
 export type Weights = {

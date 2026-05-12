@@ -16,7 +16,11 @@ import { DEFAULT_WEIGHTS } from "@/lib/types";
  * soft shadows au lieu de borders, typographie généreuse).
  */
 export default function HomeShell() {
- const topCommunes = SAMPLE_COMMUNES.map((c) => ({
+ // Top 10 server-rendered : on exclut les communes "Quitter Paris pour la
+ // campagne" (gare_acces défini, ex: Mâcon-Loché) — elles sont opt-in côté
+ // client via le toggle dans Sidebar.
+ const topCommunes = SAMPLE_COMMUNES.filter((c) => !c.gare_acces)
+ .map((c) => ({
  commune: c,
  score: computeCommuneScore(c, DEFAULT_WEIGHTS, "absolu", "acheteur"),
  }))

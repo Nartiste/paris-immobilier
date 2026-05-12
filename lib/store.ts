@@ -32,6 +32,11 @@ type AppState = {
   showGpe: boolean;
   toggleGpe: () => void;
 
+  /** "Quitter Paris pour la campagne" : inclut les communes avec gare_acces
+      (TGV/Intercités) dans le ranking et sur la carte. Off par défaut. */
+  showCampagne: boolean;
+  toggleCampagne: () => void;
+
   /** Premium gating */
   isPremium: boolean;
   setPremium: (v: boolean) => void;
@@ -88,6 +93,9 @@ export const useAppStore = create<AppState>()(
 
       showGpe: true,
       toggleGpe: () => set((s) => ({ showGpe: !s.showGpe })),
+
+      showCampagne: false,
+      toggleCampagne: () => set((s) => ({ showCampagne: !s.showCampagne })),
 
       isPremium: false,
       setPremium: (v) => set({ isPremium: v }),

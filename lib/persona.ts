@@ -9,7 +9,7 @@ import type { Commune } from "./types";
  * - copy : titres et paragraphes éditoriaux
  */
 
-export type PersonaId = "famille" | "teletravail" | "investisseur";
+export type PersonaId = "famille" | "teletravail" | "investisseur" | "campagne";
 
 export type Persona = {
  id: PersonaId;
@@ -246,6 +246,80 @@ Notre sélection privilégie les communes à fort rendement locatif (au-dessus d
  question: "Quels sont les pièges à éviter pour un investissement locatif hors Paris ?",
  reponse:
  "Trois pièges classiques : (1) acheter dans une commune sans dynamisme local (taux de chômage > 15 %, peu de transactions), (2) parier uniquement sur le GPE sans vérifier la planification réelle des ouvertures, (3) sous-estimer les charges et la fiscalité qui érodent le rendement net jusqu'à 1-1,5 point en dessous du brut.",
+ },
+ ],
+ },
+
+ // ============ QUITTER PARIS POUR LA CAMPAGNE ============
+ {
+ id: "campagne",
+ slug: "quitter-paris-pour-la-campagne",
+ shortLabel: "Quitter Paris pour la campagne",
+ metaTitle: "Quitter Paris pour la campagne en 2026 : les villages avec gare TGV",
+ metaDescription:
+ "Vivre à la vraie campagne et garder l'accès à Paris en 2h. Sélection de villages accessibles via une gare TGV proche en voiture, en vélo ou en bus.",
+ h1: "Quitter Paris pour la campagne",
+ intro: `Tu veux quitter Paris vraiment. Pas la "banlieue verte" avec son pavillon à 200 m du voisin, pas la ville moyenne avec ses zones commerciales et ses rocades. Tu veux la vraie campagne : champs, vignobles, forêts, le silence le matin, le ciel étoilé le soir. Mais tu ne peux pas non plus disparaître à 5 h de Paris, parce que ton métier t'y ramène 1 à 2 fois par semaine, parce que ta famille y est, parce que tu veux pouvoir y revenir facilement.
+
+Cette page est faite pour toi. Elle référence des villages situés à 5 à 20 minutes en voiture, en vélo ou en bus d'une gare TGV qui te ramène à Paris en 1 h 30 à 2 h 30. Le concept tient en une phrase : tu gagnes la qualité de vie d'un village rural, et tu n'as jamais plus de 2 h 30 porte-à-porte pour rejoindre la capitale.
+
+La sélection ci-dessous démarre avec un pilote autour de Mâcon-Loché TGV (1 h 35 de Paris Gare de Lyon). D'autres gares stratégiques arriveront : Vendôme, Le Creusot, Champagne-Ardenne, Tours, Le Mans. Pour chaque village, on indique le temps et la distance jusqu'à la gare, le prix au m², la population, le taux d'espaces verts. Tu choisis selon ton équilibre rural / accessible.`,
+ criteres: [
+ {
+ titre: "Gare TGV ou Intercités directe vers Paris",
+ description:
+ "Trajet train inférieur à 2 h vers Paris Gare de Lyon, Montparnasse, Saint-Lazare ou Est. Ligne fiable, peu d'incidents structurels.",
+ },
+ {
+ titre: "Village rural authentique",
+ description:
+ "Densité inférieure à 500 hab/km², majorité d'espaces agricoles ou forestiers visibles, commerces de proximité présents mais limités.",
+ },
+ {
+ titre: "Accès à la gare en moins de 20 min",
+ description:
+ "Voiture, vélo ou bus selon les communes. C'est la variable critique du quotidien : si tu mets plus de 20 min pour rejoindre la gare, l'aller-retour Paris devient pénible.",
+ },
+ {
+ titre: "Prix accessible",
+ description:
+ "Sous 3 000 €/m² en moyenne. Tu peux acheter une maison ancienne avec jardin entre 200 et 400 k€ selon les régions.",
+ },
+ ],
+ filter: (c) => c.gare_acces !== undefined,
+ score: (c) => {
+ const garetrajet = c.gare_acces?.trajet_min ?? 20;
+ const accessibiliteGare = Math.max(0, 20 - garetrajet); // 20 pts max si gare à 0 min
+ const prixScore = Math.max(0, 3500 - (c.prix_m2_median ?? 3000)) / 30;
+ const verts = (c.espaces_verts_pct ?? 0) * 0.4;
+ const calmeBonus = (c.population ?? 5000) < 1000 ? 10 : 0; // bonus vraie petite commune
+ return accessibiliteGare + prixScore + verts + calmeBonus;
+ },
+ faq: [
+ {
+ question: "Comment quitter Paris pour vivre à la campagne tout en gardant l'accès à Paris ?",
+ reponse:
+ "La meilleure solution combine un village rural avec une gare TGV ou Intercités à moins de 20 minutes en voiture. Tu vis dans un environnement de vraie campagne, et tu rejoins Paris en 1 h 30 à 2 h 30 porte-à-porte. C'est le modèle des télétravailleurs qui descendent au bureau 1 à 2 fois par semaine.",
+ },
+ {
+ question: "Quels villages près d'une gare TGV permettent de rejoindre Paris en moins de 2 h ?",
+ reponse:
+ "Plusieurs zones offrent ce profil : autour de Mâcon-Loché TGV (1 h 35 Paris Gare de Lyon) avec Charnay-lès-Mâcon, Sancé, Prissé, Davayé, Vergisson ou Solutré-Pouilly. Autour de Vendôme Villiers TGV (42 min), du Creusot TGV (1 h 25), de la gare Champagne-Ardenne TGV (45 min). Notre sélection s'étend progressivement.",
+ },
+ {
+ question: "Faut-il une voiture pour vivre à la campagne près d'une gare TGV ?",
+ reponse:
+ "Dans la grande majorité des cas, oui. Quelques villages très proches d'une gare permettent l'accès en vélo (sous 4 km) ou en bus régulier, mais c'est minoritaire. Une voiture reste l'outil de référence, à intégrer au calcul global : coût de la voiture inférieur à l'écart de prix immobilier entre un village et une grande ville desservie.",
+ },
+ {
+ question: "Combien coûte un aller-retour TGV occasionnel pour aller à Paris ?",
+ reponse:
+ "Sur Mâcon-Loché, un aller-retour TGV en réservant 30 jours à l'avance coûte 40 à 70 €. Sur 8 trajets par mois (2 fois par semaine), comptez 350 à 600 €/mois. Souvent compensé par l'écart de prix immobilier : 200 à 300 k€ d'écart sur une maison entre village viticole et petite couronne parisienne.",
+ },
+ {
+ question: "Quels sont les pièges du télétravail à la campagne ?",
+ reponse:
+ "Trois pièges classiques : (1) sous-estimer le temps voiture jusqu'à la gare en hiver ou par mauvais temps, (2) choisir une commune avec une seule gare TGV, donc dépendance totale en cas d'incident sur la ligne, (3) négliger la fibre internet, qui n'est pas garantie dans toutes les communes rurales malgré le plan France Très Haut Débit.",
  },
  ],
  },

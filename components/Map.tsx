@@ -66,6 +66,12 @@ export default function Map({
               score: score.total,
               color: scoreToColor(score.total),
               label: scoreToLabel(score.total),
+              // Flag visuel pour distinguer les communes "Quitter Paris pour la
+              // campagne" (TGV/Intercités) sur la carte.
+              isCampagne: c.gare_acces ? 1 : 0,
+              gare_nom: c.gare_acces?.nom ?? "",
+              gare_trajet: c.gare_acces?.trajet_min ?? 0,
+              gare_distance: c.gare_acces?.distance_km ?? 0,
             },
           };
         }),
@@ -142,8 +148,20 @@ export default function Map({
           ],
           "circle-color": ["get", "color"],
           "circle-opacity": 0.78,
-          "circle-stroke-width": 1.5,
-          "circle-stroke-color": "#ffffff",
+          // Bordure verte épaisse pour les communes "campagne" (TGV), blanche
+          // pour les communes IDF classiques.
+          "circle-stroke-width": [
+            "case",
+            ["==", ["get", "isCampagne"], 1],
+            3,
+            1.5,
+          ],
+          "circle-stroke-color": [
+            "case",
+            ["==", ["get", "isCampagne"], 1],
+            "#5BA888",
+            "#ffffff",
+          ],
         },
       });
 
@@ -204,7 +222,17 @@ export default function Map({
         const score = props.score as number;
         const tempsParis = props.temps_paris as number;
         const ligne = props.ligne as string;
+        const isCampagne = props.isCampagne === 1;
+        const gareNom = props.gare_nom as string;
+        const gareTrajet = props.gare_trajet as number;
+        const gareDistance = props.gare_distance as number;
         if (popupRef.current) popupRef.current.remove();
+        const badge = isCampagne
+          ? `<div style="display:inline-block;background:#e3ede8;color:#2D7A5C;font-size:10px;font-weight:600;padding:2px 6px;border-radius:4px;margin-bottom:4px">🌳 Quitter Paris pour la campagne</div>`
+          : "";
+        const gareLine = isCampagne
+          ? `<div style="font-size:12px;color:#525252;margin-top:2px">🚗 ${gareTrajet} min jusqu'à <b>${gareNom}</b> (${gareDistance} km)</div>`
+          : "";
         popupRef.current = new maplibregl.Popup({
           closeButton: false,
           closeOnClick: false,
@@ -213,10 +241,12 @@ export default function Map({
           .setLngLat(coords)
           .setHTML(
             `<div style="font-family:inherit;min-width:180px">
+              ${badge}
               <div style="font-weight:600;font-size:14px;margin-bottom:4px">${props.nom}</div>
               <div style="font-size:12px;color:#0f766e;font-weight:600;margin-bottom:2px">⏱ ${tempsParis} min vers Paris${ligne ? ` <span style="color:#525252;font-weight:400">· ${ligne}</span>` : ""}</div>
+              ${gareLine}
               <div style="font-size:12px;color:#525252">Prix médian : <b>${prix}</b>/m²</div>
-              <div style="font-size:12px;color:#525252">Score : <b style="color:${props.color}">${score}/100 — ${props.label}</b></div>
+              <div style="font-size:12px;color:#525252">Score : <b style="color:${props.color}">${score}/100 · ${props.label}</b></div>
             </div>`,
           )
           .addTo(map);

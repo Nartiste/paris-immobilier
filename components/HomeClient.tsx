@@ -63,6 +63,7 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     budgetMax,
     tempsMaxParis,
     showGpe,
+    showCampagne,
     selectedCommuneInsee,
     setSelectedCommune,
     pendingAddress,
@@ -90,6 +91,15 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
     () => [...communes, ...extraCommunes],
     [communes, extraCommunes],
   );
+
+  // Filtre "Quitter Paris pour la campagne" : par défaut, on cache les
+  // communes hors IDF accessibles via TGV/Intercités (gare_acces défini).
+  // Le toggle dans Sidebar les fait apparaître sur la carte + dans le
+  // ranking client.
+  const visibleCommunes = useMemo(() => {
+    if (showCampagne) return allCommunes;
+    return allCommunes.filter((c) => !c.gare_acces);
+  }, [allCommunes, showCampagne]);
 
   const selectedCommune = useMemo(
     () => allCommunes.find((c) => c.code_insee === selectedCommuneInsee) ?? null,
@@ -200,7 +210,7 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
         }
       >
         <MapView
-          communes={allCommunes}
+          communes={visibleCommunes}
           gpeStations={gpeStations}
           weights={weights}
           mode={mode}
