@@ -219,7 +219,7 @@ export default function HomeShell() {
  <p className="mt-1 text-xs text-neutral-500">
  Sélections curatées selon ton profil de relocation.
  </p>
- <div className="mt-5 grid gap-3 sm:grid-cols-3">
+ <div className="mt-5 grid gap-3 sm:grid-cols-2">
  {PERSONAS.map((p) => {
  const Icon = personaIcon(p.slug);
  return (

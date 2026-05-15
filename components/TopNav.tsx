@@ -70,6 +70,7 @@ export default function TopNav() {
                 { href: "/quitter-paris-en-famille", label: "En famille" },
                 { href: "/quitter-paris-teletravail", label: "En télétravail" },
                 { href: "/quitter-paris-investisseur", label: "Pour investir" },
+                { href: "/quitter-paris-pour-la-campagne", label: "Pour la campagne" },
               ]}
             />
           </nav>
@@ -160,6 +161,9 @@ export default function TopNav() {
               </MobileNavLink>
               <MobileNavLink href="/quitter-paris-investisseur" onClick={() => setOpen(false)}>
                 Pour investir
+              </MobileNavLink>
+              <MobileNavLink href="/quitter-paris-pour-la-campagne" onClick={() => setOpen(false)}>
+                Pour la campagne
               </MobileNavLink>
               <div className="pt-2 pb-1 pl-3 text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
                 Outils
