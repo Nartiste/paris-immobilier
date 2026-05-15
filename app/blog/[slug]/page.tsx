@@ -12,6 +12,28 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import BlogReadingProgress from "@/components/blog/BlogReadingProgress";
 import BlogTOC from "@/components/blog/BlogTOC";
+import NewsletterGate from "@/components/NewsletterGate";
+
+/** Slugs des articles qui déclenchent l'opt-in newsletter (gated content). */
+const GATED_ARTICLES = new Set<string>(["top-10-villes-pour-quitter-paris-2026"]);
+
+/**
+ * Coupe le markdown au début du N-ième H2 (1-indexé) et retourne (avant, après).
+ * Le H2 lui-même est dans la partie "après" pour que le titre soit blurré.
+ */
+function splitMarkdownAtHeading(
+  markdown: string,
+  headingIndex: number,
+): { before: string; after: string } {
+  const matches = [...markdown.matchAll(/^##\s+.+$/gm)];
+  if (matches.length < headingIndex) return { before: markdown, after: "" };
+  const target = matches[headingIndex - 1];
+  if (!target?.index && target?.index !== 0) return { before: markdown, after: "" };
+  return {
+    before: markdown.slice(0, target.index),
+    after: markdown.slice(target.index),
+  };
+}
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
@@ -281,12 +303,34 @@ export default async function BlogPostPage({
               </aside>
             )}
 
-            {/* Contenu markdown */}
+            {/* Contenu markdown — avec gate newsletter si article gated */}
             <div className="text-neutral-800">
               {content ? (
-                <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
-                  {content}
-                </ReactMarkdown>
+                GATED_ARTICLES.has(slug) ? (
+                  (() => {
+                    // Gate après le 5e H2 : laisse voir intro + items 1, 2, 3, 4
+                    // (intro = H2 #1, puis 4 items = H2 #2, #3, #4, #5)
+                    const { before, after } = splitMarkdownAtHeading(content, 5);
+                    return (
+                      <>
+                        <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+                          {before}
+                        </ReactMarkdown>
+                        {after && (
+                          <NewsletterGate sourceArticleSlug={slug}>
+                            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+                              {after}
+                            </ReactMarkdown>
+                          </NewsletterGate>
+                        )}
+                      </>
+                    );
+                  })()
+                ) : (
+                  <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+                    {content}
+                  </ReactMarkdown>
+                )
               ) : (
                 <p className="text-neutral-500 italic">Article en cours de finalisation. Reviens bientôt.</p>
               )}
