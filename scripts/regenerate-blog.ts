@@ -50,13 +50,15 @@ Le texte doit passer sous le radar des détecteurs IA (Originality.ai, GPTZero, 
 # INTERDICTIONS ABSOLUES (zéro exception)
 
 1. **Tiret cadratin (—) interdit.** Jamais. C'est l'empreinte numéro un d'un texte IA. Si tu as besoin d'incise, utilise une virgule, des parenthèses, ou coupe la phrase.
-2. **Tournures stéréotypées bannies** : "il convient de", "qui plus est", "force est de constater", "en somme", "en définitive", "il est important de noter", "à l'heure actuelle", "dans un monde où", "à l'ère de", "pour conclure".
+2. **Tournures stéréotypées bannies** (banlist élargie) : "il convient de", "qui plus est", "force est de constater", "en somme", "en définitive", "il est important de noter", "à l'heure actuelle", "dans un monde où", "à l'ère de", "pour conclure", "rappelons-le", "in fine", "à n'en pas douter", "de fait", "à juste titre", "de la plus haute importance", "de manière générale", "il n'en demeure pas moins que", "il est crucial de", "il s'agit de", "non sans rappeler", "à bien des égards", "au demeurant", "loin s'en faut", "tant s'en faut", "il va sans dire que", "fort de", "à l'aune de", "à l'heure où", "dans cette optique", "dans cette perspective", "il est indéniable que", "nul ne peut nier", "il est primordial", "c'est ainsi que", "c'est dire si".
 3. **Adverbes en "-ment" excessifs** : "véritablement", "réellement", "particulièrement", "notamment" en transition. Vire-les.
 4. **Verbes mous** : remplace "permettre de", "constituer", "représenter", "s'avérer" par des verbes concrets.
 5. **Rythme à trois stéréotypé** : pas de "X, Y et Z" sur trois éléments à la suite trois fois dans le même paragraphe. Mélange les longueurs.
 6. **Listes à puces excessives** : maximum 1 ou 2 listes par article, et seulement si vraiment justifié. Le reste en prose.
 7. **Pas d'introduction qui résume l'article** ("Dans cet article, nous allons voir..."). Tu rentres dans le vif.
 8. **Pas de conclusion type** ("En conclusion", "Voilà", "Vous l'aurez compris"). La dernière phrase doit prolonger l'argument, pas le résumer.
+9. **Ouverture imposée par le brief.** Le brief contient un champ 'ouverture' qui dicte le TYPE d'ouverture exigé (anecdote, statistique, scène, aveu, contre-évidence, etc.). Respecte-le à la lettre. Ne reprends pas une ouverture déjà utilisée par d'autres articles du même site.
+10. **Structure narrative imposée par le brief.** Le brief contient un champ 'structure' qui dicte la forme générale (chronologique, comparaison, vignettes en cascade, FAQ, enquête, etc.). Respecte-le. Ne tombe pas systématiquement dans "intro + 7 H2 listés + conclusion".
 
 # IMPÉRATIFS DE STYLE
 
@@ -94,6 +96,11 @@ async function generate(post: (typeof BLOG_POSTS)[number]): Promise<string> {
     .map((s: BriefSection, i: number) => `### Section ${i + 1} : ${s.titre}\n${s.contenu}`)
     .join("\n\n");
 
+  const brief = post.brief as typeof post.brief & {
+    ouverture?: string;
+    structure?: string;
+  };
+
   const userPrompt = `# Article à écrire
 
 **Titre** : ${post.title}
@@ -106,7 +113,8 @@ ${post.brief.audience}
 
 # Angle / thèse
 ${post.brief.angle}
-
+${brief.ouverture ? `\n# Ouverture imposée (type d'attaque exigé pour les 2-3 premières phrases)\n${brief.ouverture}\n` : ""}
+${brief.structure ? `\n# Structure narrative imposée\n${brief.structure}\n` : ""}
 # Plan détaillé (à respecter mais avec liberté de fusionner ou réorganiser si plus naturel)
 ${sectionsBlock}
 
@@ -117,6 +125,7 @@ ${post.brief.references && post.brief.references.length > 0 ? `# Communes ou lig
 - Écris en suivant le système de style à la lettre. C'est un texte humain pour Google, pas un essai pour un humain qui sait que c'est un robot.
 - Ne signe pas l'article. Ne mentionne pas que tu es une IA.
 - Ne pose aucune question rhétorique d'ouverture du genre "Tu te demandes... ?". Rentre dans le concret.
+- Respecte le type d'ouverture imposé et la structure narrative imposée (s'ils sont indiqués).
 - Va.`;
 
   console.log(`   Streaming Opus 4.7 (max_tokens 8192)...`);

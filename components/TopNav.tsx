@@ -67,6 +67,7 @@ export default function TopNav() {
             <NavDropdown
               label="Quitter Paris"
               items={[
+                { href: "/quitter-paris", label: "Vue d'ensemble" },
                 { href: "/quitter-paris-en-famille", label: "En famille" },
                 { href: "/quitter-paris-teletravail", label: "En télétravail" },
                 { href: "/quitter-paris-investisseur", label: "Pour investir" },
@@ -153,6 +154,9 @@ export default function TopNav() {
               <div className="pt-2 pb-1 pl-3 text-[10px] font-semibold uppercase tracking-wider text-neutral-400">
                 Quitter Paris
               </div>
+              <MobileNavLink href="/quitter-paris" onClick={() => setOpen(false)}>
+                Vue d'ensemble
+              </MobileNavLink>
               <MobileNavLink href="/quitter-paris-en-famille" onClick={() => setOpen(false)}>
                 En famille
               </MobileNavLink>
