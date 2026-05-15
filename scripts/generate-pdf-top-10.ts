@@ -6,7 +6,6 @@
  * Usage : npm run generate-pdf
  */
 
-// @ts-expect-error - pdfkit n'a pas de typings ESM stricts compatibles tsx
 import PDFDocument from "pdfkit";
 import * as fs from "fs";
 import * as path from "path";
