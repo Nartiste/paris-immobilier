@@ -615,8 +615,8 @@ export default function QuitterParisPillarPage() {
                   <Icon className="h-5 w-5" />
                 </div>
                 <div className="flex-1">
-                  <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-iris-strong">
-                    Cluster {idx + 1} / {CLUSTERS.length}
+                  <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-iris-strong tabular-nums">
+                    {String(idx + 1).padStart(2, "0")} / {String(CLUSTERS.length).padStart(2, "0")}
                   </div>
                   <h2 className="mt-1 font-display text-2xl font-medium tracking-tight text-brand-bleu sm:text-3xl">
                     {cluster.label}
