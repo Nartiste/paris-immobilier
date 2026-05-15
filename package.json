@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "narratives": "tsx scripts/generate-narratives.ts",
-    "regenerate-blog": "tsx scripts/regenerate-blog.ts"
+    "regenerate-blog": "tsx scripts/regenerate-blog.ts",
+    "generate-pdf": "tsx scripts/generate-pdf-top-10.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
@@ -29,10 +30,12 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pdfkit": "^0.17.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
+    "pdfkit": "^0.18.0",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"
