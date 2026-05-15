@@ -158,6 +158,56 @@ const CLUSTERS: Cluster[] = [
         title: "Quelles villes vont prendre de la valeur près de Paris 2026-2030 ?",
         hook: "Le Grand Paris Express, le report nord-est, la rareté du foncier. Les vraies dynamiques 5 ans.",
       },
+      {
+        slug: "quitter-paris-pour-lyon-2026",
+        title: "Quitter Paris pour Lyon en 2026",
+        hook: "Lyon attire 6 800 ex-Parisiens par an. Climat, prix, gastronomie, transports : comparaison sans propagande.",
+      },
+      {
+        slug: "quitter-paris-pour-bordeaux-2026",
+        title: "Quitter Paris pour Bordeaux en 2026",
+        hook: "Bordeaux a porté la vague 2015-2020. 11 ans après, prix x2. Que reste-t-il de la promesse ?",
+      },
+      {
+        slug: "quitter-paris-pour-nantes-2026",
+        title: "Quitter Paris pour Nantes en 2026",
+        hook: "Nantes capte 4 500 ex-Parisiens par an sans le bruit de Bordeaux. Tech, qualité de vie, océan à 1h.",
+      },
+      {
+        slug: "quitter-paris-pour-rennes-2026",
+        title: "Quitter Paris pour Rennes en 2026",
+        hook: "Prix accessibles, tech dynamique, 1h25 TGV. La ville la plus sous-évaluée par les Parisiens.",
+      },
+      {
+        slug: "quitter-paris-pour-lille-2026",
+        title: "Quitter Paris pour Lille en 2026",
+        hook: "1h02 TGV de Paris, prix 3x inférieurs. La ville à 1h qu'on ignore et qu'il faudrait considérer.",
+      },
+      {
+        slug: "quitter-paris-pour-marseille-2026",
+        title: "Quitter Paris pour Marseille en 2026",
+        hook: "Soleil, mer, prix abordables. Et trois angles morts qu'on ne voit qu'une fois sur place.",
+      },
+      {
+        slug: "quitter-paris-pour-toulouse-2026",
+        title: "Quitter Paris pour Toulouse en 2026",
+        hook: "Aéronautique, soleil, prix doux. 4 profils où Toulouse est le meilleur arbitrage hors IDF.",
+      },
+      {
+        slug: "quitter-paris-pour-strasbourg-2026",
+        title: "Quitter Paris pour Strasbourg en 2026",
+        hook: "1h46 TGV, qualité urbaine européenne. La destination méconnue pour profils mobilité Europe.",
+      },
+      {
+        slug: "quitter-paris-pour-reims-2026",
+        title: "Quitter Paris pour Reims en 2026",
+        hook: "46 min TGV de Paris, prix 3,5x moins cher. Mathématiquement la ville la plus pratique.",
+      },
+      {
+        slug: "quitter-paris-pour-tours-2026",
+        title: "Quitter Paris pour Tours en 2026",
+        hook: "1h10 TGV, balcon Val de Loire. Cinq quartiers évalués par profil ex-Parisien.",
+      },
     ],
   },
   {
@@ -188,6 +238,56 @@ const CLUSTERS: Cluster[] = [
         title: "Vivre à Paris ou en banlieue : le vrai calcul sur 5 ans",
         hook: "Tableau Excel honnête. Loyer, trajet, qualité de vie, plus-value. Verdict par profil.",
       },
+      {
+        slug: "quitter-paris-sans-perdre-cdi",
+        title: "Quitter Paris sans perdre ton CDI : méthode en 7 étapes",
+        hook: "Comment partir géographiquement sans démissionner. Négociation, remote, plan B.",
+      },
+      {
+        slug: "quitter-paris-negocier-full-remote",
+        title: "Négocier le full remote pour quitter Paris",
+        hook: "Les phrases qui débloquent la négo. Objections classiques et contre-arguments testés.",
+      },
+      {
+        slug: "quitter-paris-en-couple-convaincre",
+        title: "Quitter Paris en couple quand l'autre ne veut pas",
+        hook: "Comment aligner sans imposer, sans renoncer non plus. 4 couples, 4 trajectoires.",
+      },
+      {
+        slug: "quitter-paris-avec-enfants-scolarises-timing",
+        title: "Quitter Paris avec enfants scolarisés : le timing qui fait tout",
+        hook: "CP, CM2, 6e, 3e. Calendrier optimal par âge pour minimiser le coût scolaire et amical.",
+      },
+      {
+        slug: "quitter-paris-revendre-ou-louer-appartement",
+        title: "Quitter Paris : revendre ou louer ton appartement ?",
+        hook: "Trois scénarios chiffrés : revente, location nue, LMNP. Excel détaillé par profil.",
+      },
+      {
+        slug: "quitter-paris-checklist-12-mois-avant",
+        title: "La checklist complète des 12 mois avant le départ",
+        hook: "87 démarches à planifier sur 12 mois. Mois par mois pour ne rien oublier.",
+      },
+      {
+        slug: "quitter-paris-demarches-administratives",
+        title: "Toutes les démarches administratives, dans l'ordre",
+        hook: "Carte vitale, impôts, école, banque, assurance. 35-50 démarches priorisées.",
+      },
+      {
+        slug: "quitter-paris-impact-couple-statistiques",
+        title: "L'impact sur le couple : les vrais chiffres",
+        hook: "+18 % de risque de séparation la 1ère année. Trois facteurs et leurs mitigations.",
+      },
+      {
+        slug: "quitter-paris-cout-cache-demenagement",
+        title: "Les coûts cachés du déménagement (15 000 € en moyenne)",
+        hook: "Au-delà du devis déménageur, le top 10 des coûts cachés. Le vrai prix.",
+      },
+      {
+        slug: "quitter-paris-epargne-minimum-budget",
+        title: "Combien d'épargne minimum pour partir sereinement",
+        hook: "4-6 mois pour cadre stable, 12-18 mois pour entrepreneur. Calcul par profil.",
+      },
     ],
   },
   {
@@ -217,6 +317,56 @@ const CLUSTERS: Cluster[] = [
         slug: "/quitter-paris-pour-la-campagne",
         title: "Quitter Paris pour la campagne",
         hook: "Villages avec gare TGV, accès Paris en 2 h, prix divisés par 4. La carte complète.",
+      },
+      {
+        slug: "quitter-paris-pour-la-mer-top-10-cotes",
+        title: "Quitter Paris pour la mer : top 10 villes côtières viables",
+        hook: "La Rochelle, Lorient, Saint-Nazaire, Vannes. Pas en touriste mais pour vivre.",
+      },
+      {
+        slug: "quitter-paris-pour-la-montagne-alpes-pyrenees",
+        title: "Quitter Paris pour la montagne : Alpes ou Pyrénées ?",
+        hook: "Annecy, Grenoble, Pau, Tarbes. Comparaison sérieuse pour vivre, pas skier.",
+      },
+      {
+        slug: "quitter-paris-pour-le-sud-mediterrannee",
+        title: "Quitter Paris pour le Sud méditerranéen",
+        hook: "Aix, Nice, Avignon : trois villes radicalement différentes. Verdict par profil.",
+      },
+      {
+        slug: "quitter-paris-pour-le-calme-villages",
+        title: "Quitter Paris pour le calme : 4 vrais villages où vivre",
+        hook: "Pas les cartes-postales : les vrais villages avec école, boulanger, médecin.",
+      },
+      {
+        slug: "quitter-paris-pour-le-climat-2030",
+        title: "Quitter Paris pour le climat : où en 2030 ?",
+        hook: "Le réchauffement redessine la carte. Régions qui gagnent, régions qui perdent.",
+      },
+      {
+        slug: "quitter-paris-pour-l-etranger-lisbonne-bruxelles",
+        title: "Quitter Paris pour l'étranger : 5 destinations qui marchent",
+        hook: "Lisbonne, Bruxelles, Genève, Barcelone, Berlin. Profil-cible par destination.",
+      },
+      {
+        slug: "quitter-paris-pour-la-nature-parcs-naturels",
+        title: "Quitter Paris pour la nature : 7 parcs naturels où vivre",
+        hook: "Vexin, Chevreuse, Cévennes, Morvan, Perche. Viabilité quotidienne et contraintes.",
+      },
+      {
+        slug: "quitter-paris-pour-les-vignes-bourgogne-bordelais",
+        title: "Quitter Paris pour les vignes : Bourgogne ou Bordelais ?",
+        hook: "Vivre dans les vignobles. Bourgogne, Bordelais, Champagne, Rhône comparés.",
+      },
+      {
+        slug: "quitter-paris-pour-le-sport-outdoor",
+        title: "Quitter Paris pour le sport : ce que tu vas vraiment changer",
+        hook: "32 % des ex-Parisiens font MOINS de sport. Pourquoi, et pour qui c'est l'inverse.",
+      },
+      {
+        slug: "quitter-paris-pour-les-enfants-qualite-scolaire",
+        title: "Quitter Paris pour les enfants : la province offre-t-elle mieux ?",
+        hook: "Le mythe démonté. Paris bat la moyenne. Où aller vraiment pour les enfants.",
       },
     ],
   },
