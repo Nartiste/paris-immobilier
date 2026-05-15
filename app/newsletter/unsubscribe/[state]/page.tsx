@@ -31,9 +31,6 @@ export default async function UnsubscribeStatePage({ params }: Props) {
             <p className="mt-4 text-base leading-relaxed text-neutral-700">
               Tu ne recevras plus aucun email de Vivre près de Paris. Tes données restent dans notre base pour respecter les obligations RGPD (preuve du consentement initial et de la désinscription).
             </p>
-            <p className="mt-2 text-sm text-neutral-500">
-              Pour une suppression totale, contacte <a href="mailto:contact@prception.co" className="underline">contact@prception.co</a>.
-            </p>
             <div className="mt-6">
               <Link
                 href="/"
@@ -52,7 +49,7 @@ export default async function UnsubscribeStatePage({ params }: Props) {
               Lien invalide
             </h1>
             <p className="mt-4 text-base leading-relaxed text-neutral-700">
-              Ce lien de désinscription n'est plus valide. Si tu reçois encore nos emails sans le vouloir, écris-nous à <a href="mailto:contact@prception.co" className="underline">contact@prception.co</a>.
+              Ce lien de désinscription n'est plus valide. Si tu reçois encore nos emails sans le vouloir, utilise le lien de désinscription présent dans n'importe quel email récent.
             </p>
           </>
         )}

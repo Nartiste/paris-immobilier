@@ -71,7 +71,7 @@ function shell(title: string, body: string, ctaLabel?: string, ctaUrl?: string):
                 Tu reçois cet email parce que tu as téléchargé un guide depuis <a href="${SITE_URL}" style="color: ${COLORS.irisStrong}; text-decoration: none;">vivre-pres-de-paris.fr</a>. Conformément au RGPD, tu peux te désinscrire en un clic à tout moment depuis le lien en bas de chaque email.
               </p>
               <p style="margin: 12px 0 0 0; color: ${COLORS.textMuted}; font-size: 12px;">
-                © ${new Date().getFullYear()} Vivre près de Paris · Prception · contact@prception.co
+                © ${new Date().getFullYear()} Vivre près de Paris
               </p>
             </td>
           </tr>
