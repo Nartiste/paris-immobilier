@@ -81,35 +81,35 @@ export async function brevoUpsertContact(
   throw new Error(`Brevo upsert failed (${res.status}): ${text}`);
 }
 
-type BrevoSendEmailPayload = {
+type BrevoSendTemplatePayload = {
   to: { email: string; name?: string }[];
-  sender: { email: string; name: string };
-  subject: string;
-  htmlContent: string;
+  templateId: number;
+  params?: Record<string, string | number | boolean | null>;
   attachment?: { url: string; name: string }[];
-  replyTo?: { email: string };
   tags?: string[];
 };
 
 /**
- * Envoie un email transactionnel via Brevo (PAS un mail de campagne).
- * Utilisé pour le mail de confirmation et le mail de bienvenue.
+ * Envoie un email transactionnel via un template Brevo.
+ *
+ * Le template est défini côté Brevo (UI > Templates) et référencé par son ID.
+ * Cela permet à l'utilisateur de modifier les emails depuis Brevo sans toucher au code.
+ *
+ * Les variables {{params.X}} dans le template sont remplacées par les valeurs de `params`.
  */
-export async function brevoSendEmail(
+export async function brevoSendTemplate(
   to: { email: string; name?: string },
-  subject: string,
-  htmlContent: string,
+  templateId: number,
+  params: Record<string, string | number | boolean | null>,
   options?: {
     attachment?: { url: string; name: string }[];
     tags?: string[];
   },
 ): Promise<{ messageId: string }> {
-  const payload: BrevoSendEmailPayload = {
+  const payload: BrevoSendTemplatePayload = {
     to: [to],
-    sender: { email: getSenderEmail(), name: getSenderName() },
-    subject,
-    htmlContent,
-    replyTo: { email: getSenderEmail() },
+    templateId,
+    params,
     tags: options?.tags,
     attachment: options?.attachment,
   };
@@ -126,10 +126,26 @@ export async function brevoSendEmail(
 
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`Brevo send email failed (${res.status}): ${text}`);
+    throw new Error(`Brevo send template failed (${res.status}): ${text}`);
   }
   const data = (await res.json()) as { messageId: string };
   return data;
+}
+
+function getTemplateId(envKey: string): number {
+  const id = Number(process.env[envKey]);
+  if (!id || Number.isNaN(id)) {
+    throw new Error(`${envKey} manquant ou invalide dans .env.local`);
+  }
+  return id;
+}
+
+export function getConfirmationTemplateId(): number {
+  return getTemplateId("BREVO_TEMPLATE_ID_CONFIRMATION");
+}
+
+export function getWelcomeTemplateId(): number {
+  return getTemplateId("BREVO_TEMPLATE_ID_WELCOME");
 }
 
 /** Désinscription côté Brevo : retire le contact de la liste et le marque opt-out. */

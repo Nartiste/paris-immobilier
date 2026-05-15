@@ -1,8 +1,11 @@
 import { NextResponse } from "next/server";
 import { cookies, headers } from "next/headers";
 import { getSupabaseServer } from "@/lib/supabase";
-import { brevoUpsertContact, brevoSendEmail } from "@/lib/brevo";
-import { emailConfirmation } from "@/lib/email-templates";
+import {
+  brevoUpsertContact,
+  brevoSendTemplate,
+  getConfirmationTemplateId,
+} from "@/lib/brevo";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
@@ -135,15 +138,14 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: true, alreadyConfirmed: true });
   }
 
-  // Sinon : envoie l'email de double opt-in
+  // Sinon : envoie l'email de double opt-in via template Brevo
   const confirmUrl = `${SITE_URL}/api/newsletter/confirm/${confirmToken}`;
-  const html = emailConfirmation(prenom, confirmUrl);
 
   try {
-    await brevoSendEmail(
+    await brevoSendTemplate(
       { email, name: `${prenom} ${nom}` },
-      "Confirme ton inscription pour recevoir le Top 10",
-      html,
+      getConfirmationTemplateId(),
+      { prenom, confirmUrl },
       { tags: ["confirmation", "newsletter"] },
     );
   } catch (err) {

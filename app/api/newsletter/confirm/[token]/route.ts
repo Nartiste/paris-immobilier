@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { getSupabaseServer } from "@/lib/supabase";
-import { brevoSendEmail } from "@/lib/brevo";
-import { emailWelcome } from "@/lib/email-templates";
+import { brevoSendTemplate, getWelcomeTemplateId } from "@/lib/brevo";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
@@ -50,16 +49,20 @@ export async function GET(
       console.error("Supabase confirm error:", updateErr);
     }
 
-    // Envoie le mail de bienvenue avec le top 10 + PDF
+    // Envoie le mail de bienvenue via template Brevo + PDF en pièce jointe
     const articleUrl = `${SITE_URL}/blog/${TOP_10_SLUG}`;
-    const unsubUrl = `${SITE_URL}/api/newsletter/unsubscribe/${subscriber.unsubscribe_token}`;
-    const html = emailWelcome(subscriber.prenom, articleUrl, unsubUrl, TOP_10_PDF);
+    const unsubscribeUrl = `${SITE_URL}/api/newsletter/unsubscribe/${subscriber.unsubscribe_token}`;
 
     try {
-      await brevoSendEmail(
+      await brevoSendTemplate(
         { email: subscriber.email, name: `${subscriber.prenom} ${subscriber.nom}` },
-        "Ton Top 10 des villes pour quitter Paris",
-        html,
+        getWelcomeTemplateId(),
+        {
+          prenom: subscriber.prenom,
+          articleUrl,
+          unsubscribeUrl,
+          pdfUrl: TOP_10_PDF,
+        },
         {
           attachment: [
             { url: TOP_10_PDF, name: "Top-10-quitter-paris-2026.pdf" },
