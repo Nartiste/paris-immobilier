@@ -4,7 +4,6 @@ import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Map as MapIcon, X } from "lucide-react";
-import Sidebar from "./Sidebar";
 import CommuneCard from "./CommuneCard";
 import OnboardingQuiz from "./OnboardingQuiz";
 import { useAppStore } from "@/lib/store";
@@ -168,49 +167,6 @@ export default function HomeClient({ leftContent, footerContent }: Props) {
       {/* PANNEAU GAUCHE — content scrollable (server SEO + filters) */}
       <aside className="scroll-smooth bg-neutral-50 lg:h-[calc(100vh-5rem)] lg:w-[480px] lg:flex-shrink-0 lg:overflow-y-auto lg:border-r lg:border-neutral-200 lg:bg-white [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-brand-bleu/25 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-brand-bleu/40 [scrollbar-width:thin] [scrollbar-color:rgba(82,98,122,0.25)_transparent]">
         {leftContent}
-
-        {/* Filtres interactifs */}
-        <section
-          id="filtres"
-          className="border-t border-neutral-100 bg-white px-4 py-6 sm:px-6"
-        >
-          <h2 className="px-2 text-lg font-semibold text-neutral-900">
-            Affine ta recherche
-          </h2>
-          <p className="mt-1 px-2 text-xs text-neutral-500">
-            Pondère les critères selon ce qui compte pour toi.
-          </p>
-
-          {/* Légende couleurs carte — relie sliders aux markers */}
-          <div className="mt-4 px-2">
-            <div className="mb-1.5 flex items-center justify-between text-[9px] font-semibold uppercase tracking-wider text-neutral-400">
-              <span>Faible</span>
-              <span>Score sur la carte</span>
-              <span>Excellent</span>
-            </div>
-            <div className="flex h-2 overflow-hidden rounded-full">
-              <span className="flex-1" style={{ backgroundColor: "#8B3939" }} title="< 40" />
-              <span className="flex-1" style={{ backgroundColor: "#B85959" }} title="40-49" />
-              <span className="flex-1" style={{ backgroundColor: "#C77F3D" }} title="50-59" />
-              <span className="flex-1" style={{ backgroundColor: "#D4A04A" }} title="60-69" />
-              <span className="flex-1" style={{ backgroundColor: "#5BA888" }} title="70-79" />
-              <span className="flex-1" style={{ backgroundColor: "#2D7A5C" }} title="80+" />
-            </div>
-            <div className="mt-1 flex justify-between text-[9px] tabular-nums text-neutral-400">
-              <span>0</span>
-              <span>40</span>
-              <span>50</span>
-              <span>60</span>
-              <span>70</span>
-              <span>80</span>
-              <span>100</span>
-            </div>
-          </div>
-
-          <div className="mt-4">
-            <Sidebar />
-          </div>
-        </section>
 
         {footerContent}
       </aside>

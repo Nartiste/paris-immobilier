@@ -9,6 +9,7 @@ import { formatEuros } from "@/lib/utils";
 import { computeCommuneScore, scoreToColor, contrastTextOn } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS } from "@/lib/types";
 import OnboardingTriggerButton from "./OnboardingTriggerButton";
+import Sidebar from "./Sidebar";
 
 /**
  * Sections statiques de la home, server-rendered → SEO + GEO friendly.
@@ -111,6 +112,50 @@ export default function HomeShell() {
  </span>
  <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden />
  </a>
+ </div>
+ </section>
+
+ {/* FILTRES INTERACTIFS — placés AVANT le top 10 pour qu'un nouveau
+     visiteur comprenne d'emblée que les villes sont pondérables. */}
+ <section
+ id="filtres"
+ className="scroll-mt-4 border-t border-neutral-100 bg-white px-4 py-8 sm:px-6"
+ >
+ <h2 className="px-2 text-lg font-semibold text-neutral-900">
+ Affine ta recherche
+ </h2>
+ <p className="mt-1 px-2 text-xs text-neutral-500">
+ Pondère les critères selon ce qui compte pour toi. Le classement et la carte se mettent à jour en direct.
+ </p>
+
+ {/* Légende couleurs carte — relie sliders aux markers */}
+ <div className="mt-4 px-2">
+ <div className="mb-1.5 flex items-center justify-between text-[9px] font-semibold uppercase tracking-wider text-neutral-400">
+ <span>Faible</span>
+ <span>Score sur la carte</span>
+ <span>Excellent</span>
+ </div>
+ <div className="flex h-2 overflow-hidden rounded-full">
+ <span className="flex-1" style={{ backgroundColor: "#8B3939" }} title="< 40" />
+ <span className="flex-1" style={{ backgroundColor: "#B85959" }} title="40-49" />
+ <span className="flex-1" style={{ backgroundColor: "#C77F3D" }} title="50-59" />
+ <span className="flex-1" style={{ backgroundColor: "#D4A04A" }} title="60-69" />
+ <span className="flex-1" style={{ backgroundColor: "#5BA888" }} title="70-79" />
+ <span className="flex-1" style={{ backgroundColor: "#2D7A5C" }} title="80+" />
+ </div>
+ <div className="mt-1 flex justify-between text-[9px] tabular-nums text-neutral-400">
+ <span>0</span>
+ <span>40</span>
+ <span>50</span>
+ <span>60</span>
+ <span>70</span>
+ <span>80</span>
+ <span>100</span>
+ </div>
+ </div>
+
+ <div className="mt-4">
+ <Sidebar />
  </div>
  </section>
 
