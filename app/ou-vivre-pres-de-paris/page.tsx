@@ -10,6 +10,7 @@ import { DEFAULT_WEIGHTS, type Commune } from "@/lib/types";
 import { formatEuros } from "@/lib/utils";
 import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
 import { faqJsonLd, type FAQ } from "@/lib/commune-faqs";
+import NewsletterGate from "@/components/NewsletterGate";
 
 const SITE_URL =
  process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
@@ -326,7 +327,7 @@ export default function OuVivreParisPage() {
  </tr>
  </thead>
  <tbody>
- {ranked.map((r, i) => {
+ {ranked.slice(0, 3).map((r, i) => {
  const color = scoreToColor(r.score);
  return (
  <tr key={r.commune.code_insee} className="border-t border-neutral-100 hover:bg-brand-iris-soft/30">
@@ -352,6 +353,39 @@ export default function OuVivreParisPage() {
  </tbody>
  </table>
  </div>
+
+ {/* Rangs 4-10 gated derrière le formulaire newsletter */}
+ <NewsletterGate sourceArticleSlug="ou-vivre-pres-de-paris">
+ <div className="mt-3 overflow-hidden rounded-2xl border border-neutral-100">
+ <table className="w-full text-sm">
+ <tbody>
+ {ranked.slice(3).map((r, i) => {
+ const color = scoreToColor(r.score);
+ return (
+ <tr key={r.commune.code_insee} className="border-t border-neutral-100 hover:bg-brand-iris-soft/30">
+ <td className="px-4 py-3 font-semibold text-neutral-400 tabular-nums">{i + 4}</td>
+ <td className="px-4 py-3">
+ <Link href={`/vivre-a/${communeToSlug(r.commune)}`} className="font-semibold text-brand-bleu hover:underline">
+ {r.commune.nom}
+ </Link>
+ <span className="ml-2 text-[11px] text-neutral-500">{r.commune.code_postal}</span>
+ </td>
+ <td className="px-4 py-3 tabular-nums text-neutral-700">{r.commune.temps_trajet_paris_min} min</td>
+ <td className="px-4 py-3 tabular-nums text-neutral-700">
+ {r.commune.prix_m2_median != null ? `${formatEuros(r.commune.prix_m2_median)} €` : ", "}
+ </td>
+ <td className="px-4 py-3">
+ <span className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold tabular-nums" style={{ backgroundColor: `${color}22`, color }}>
+ {r.score}/100
+ </span>
+ </td>
+ </tr>
+ );
+ })}
+ </tbody>
+ </table>
+ </div>
+ </NewsletterGate>
  </section>
 
  {/* PAR PROFIL */}
