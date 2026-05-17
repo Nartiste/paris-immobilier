@@ -85,11 +85,56 @@ export default function OnboardingQuiz() {
   const [criteres, setCriteres] = useState<CritereId[]>([]);
   const [villeChoix, setVilleChoix] = useState<string | null>(null);
   const [villeAutre, setVilleAutre] = useState<string>("");
+  // Autocomplete villes via geo.api.gouv.fr (api publique, CORS ouvert)
+  const [villeSuggestions, setVilleSuggestions] = useState<{ nom: string; dept: string }[]>([]);
+  const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+
+  // Email obligatoire avant validation (sauf si déjà unlock par cookie)
+  const [prenom, setPrenom] = useState("");
+  const [nomLead, setNomLead] = useState("");
+  const [email, setEmail] = useState("");
+  const [alreadyUnlocked, setAlreadyUnlocked] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
+  // Détecte le cookie unlock côté client après hydratation
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    const unlocked = document.cookie
+      .split(";")
+      .some((c) => c.trim().startsWith("vpdp_newsletter_unlocked=1"));
+    setAlreadyUnlocked(unlocked);
+  }, [onboardingOpen]);
 
   // Auto-advance après sélection sur les étapes QCM single-choice
   const advanceAfter = (delay = 200) => {
     setTimeout(() => setStep((s) => Math.min(STEPS, s + 1)), delay);
   };
+
+  // Debounce autocomplete villes
+  useEffect(() => {
+    if (villeChoix !== "autre" || villeAutre.trim().length < 2) {
+      setVilleSuggestions([]);
+      return;
+    }
+    const ctrl = new AbortController();
+    const timer = setTimeout(async () => {
+      try {
+        const url = `https://geo.api.gouv.fr/communes?nom=${encodeURIComponent(villeAutre.trim())}&fields=nom,codeDepartement&boost=population&limit=8`;
+        const res = await fetch(url, { signal: ctrl.signal });
+        if (!res.ok) return;
+        const data: { nom: string; codeDepartement: string }[] = await res.json();
+        setVilleSuggestions(data.map((c) => ({ nom: c.nom, dept: c.codeDepartement })));
+        setSuggestionsOpen(true);
+      } catch {
+        // ignore (abort or network)
+      }
+    }, 250);
+    return () => {
+      ctrl.abort();
+      clearTimeout(timer);
+    };
+  }, [villeAutre, villeChoix]);
 
   // Pré-remplit le slider temps max depuis la fréquence Paris choisie,
   // tant que l'utilisateur ne l'a pas touché manuellement.
@@ -104,13 +149,20 @@ export default function OnboardingQuiz() {
   const villeIsValid =
     villeChoix !== null && (villeChoix !== "autre" || villeAutre.trim().length > 0);
 
+  const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const leadIsValid =
+    alreadyUnlocked ||
+    (prenom.trim().length > 0 &&
+      nomLead.trim().length > 0 &&
+      EMAIL_RE.test(email.trim()));
+
   const canNext =
     (step === 1 && profil !== null) ||
     (step === 2 && frequence !== null) ||
     (step === 3 && tempsMax >= 15) ||
     (step === 4 && budgetValue > 0) ||
     (step === 5 && criteres.length === 2) ||
-    (step === 6 && villeIsValid);
+    (step === 6 && villeIsValid && leadIsValid);
 
   const handleClose = (skipped: boolean) => {
     track("concierge_open", { source: skipped ? "skip" : "complete" });
@@ -118,8 +170,8 @@ export default function OnboardingQuiz() {
     setOnboardingOpen(false);
   };
 
-  const handleSubmit = () => {
-    if (!profil || !frequence || criteres.length !== 2 || !villeIsValid) return;
+  const applyAnswersAndClose = () => {
+    if (!profil || !frequence || criteres.length !== 2) return;
     const answers: OnboardingAnswers = {
       profil,
       frequenceParis: frequence,
@@ -131,7 +183,6 @@ export default function OnboardingQuiz() {
     };
     const result = computeOnboardingResult(answers);
 
-    // Applique au store Zustand
     setWeight("tempsParis", result.weights.tempsParis);
     setWeight("prix", result.weights.prix);
     setWeight("qualiteVie", result.weights.qualiteVie);
@@ -143,8 +194,6 @@ export default function OnboardingQuiz() {
     setTempsMaxParis(result.tempsMaxParis);
     setShowCampagne(result.showCampagne);
 
-    // Stocke la ville envisagée pour la pré-qualification
-    // Valeur envoyée à Supabase + Brevo lors de l'inscription newsletter
     const villeFinal =
       villeChoix === "autre" ? `autre:${villeAutre.trim()}` : (villeChoix as string);
     setVilleEnvisagee(villeFinal);
@@ -152,13 +201,59 @@ export default function OnboardingQuiz() {
     track("concierge_open", { source: "onboarding-complete" });
     handleClose(false);
 
-    // Scroll vers le top 10 personnalisé
     setTimeout(() => {
       const el =
         document.getElementById("filtres") ||
         document.querySelector("[id^='top-']");
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
+  };
+
+  const handleSubmit = async () => {
+    if (!villeIsValid || !leadIsValid) return;
+    setSubmitError(null);
+
+    // Si déjà unlocked (cookie présent), pas besoin de POST l'inscription : on applique juste
+    if (alreadyUnlocked) {
+      applyAnswersAndClose();
+      return;
+    }
+
+    // Sinon : POST l'inscription newsletter avec la ville envisagée comme attribut
+    setSubmitting(true);
+    try {
+      const villeFinal =
+        villeChoix === "autre" ? `autre:${villeAutre.trim()}` : (villeChoix as string);
+
+      const res = await fetch("/api/newsletter/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prenom: prenom.trim(),
+          nom: nomLead.trim(),
+          email: email.trim().toLowerCase(),
+          source_article_slug: "onboarding-quiz",
+          ville_envisagee: villeFinal,
+        }),
+      });
+
+      if (!res.ok) {
+        const data = (await res.json().catch(() => ({}))) as { error?: string };
+        throw new Error(data.error ?? `Erreur ${res.status}`);
+      }
+
+      // Pose le cookie d'unlock côté client (le serveur le pose aussi via Set-Cookie)
+      document.cookie = `vpdp_newsletter_unlocked=1; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=Lax`;
+
+      applyAnswersAndClose();
+    } catch (err) {
+      setSubmitError(
+        err instanceof Error
+          ? err.message
+          : "Une erreur est survenue. Réessaie dans un instant.",
+      );
+      setSubmitting(false);
+    }
   };
 
   const toggleCritere = (c: CritereId) => {
@@ -462,7 +557,10 @@ export default function OnboardingQuiz() {
                     type="button"
                     onClick={() => {
                       setVilleChoix(v.value);
-                      if (v.value !== "autre") setVilleAutre("");
+                      if (v.value !== "autre") {
+                        setVilleAutre("");
+                        setVilleSuggestions([]);
+                      }
                     }}
                     className={cn(
                       "rounded-full border px-4 py-2 text-sm transition-all",
@@ -476,22 +574,103 @@ export default function OnboardingQuiz() {
                 ))}
               </div>
               {villeChoix === "autre" && (
-                <div className="mt-4">
+                <div className="relative mt-4">
                   <label className="text-sm text-neutral-700">
-                    Précise (ville, région, pays…)
+                    Précise (commune française)
                   </label>
                   <input
                     type="text"
                     value={villeAutre}
-                    onChange={(e) => setVilleAutre(e.target.value)}
-                    placeholder="Ex : Aix-en-Provence, Pays Basque, Lisbonne…"
+                    onChange={(e) => {
+                      setVilleAutre(e.target.value);
+                      setSuggestionsOpen(true);
+                    }}
+                    onFocus={() => setSuggestionsOpen(true)}
+                    placeholder="Tape les premières lettres de la ville…"
                     autoFocus
                     className="mt-1 w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-base text-brand-bleu focus:border-brand-iris-strong focus:outline-none"
                   />
+                  {/* Dropdown autocomplete */}
+                  {suggestionsOpen && villeSuggestions.length > 0 && (
+                    <ul className="absolute z-10 mt-1 max-h-64 w-full overflow-y-auto rounded-xl border border-neutral-200 bg-white shadow-[0_8px_24px_rgba(82,98,122,0.12)]">
+                      {villeSuggestions.map((sugg, idx) => (
+                        <li key={`${sugg.nom}-${idx}`}>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setVilleAutre(sugg.nom);
+                              setSuggestionsOpen(false);
+                            }}
+                            className="flex w-full items-center justify-between px-3 py-2 text-left text-sm text-neutral-800 transition-colors hover:bg-brand-iris-soft/40"
+                          >
+                            <span>{sugg.nom}</span>
+                            <span className="text-[11px] text-neutral-400">
+                              {sugg.dept}
+                            </span>
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                   <p className="mt-1 text-[11px] text-neutral-400">
-                    Cette info nous aide à pré-qualifier ton projet, c'est tout.
+                    Suggestions issues du Code Officiel Géographique INSEE.
                   </p>
                 </div>
+              )}
+
+              {/* Formulaire email obligatoire pour valider (sauf si déjà inscrit) */}
+              {villeIsValid && !alreadyUnlocked && (
+                <div className="mt-6 rounded-2xl border border-brand-iris/20 bg-brand-iris-soft/30 p-4">
+                  <p className="text-sm font-semibold text-brand-bleu">
+                    Reçois ta sélection personnalisée par email
+                  </p>
+                  <p className="mt-1 text-xs text-neutral-600">
+                    + le PDF du Top 10 et les évolutions à venir. 1 email/mois max, désinscription en 1 clic.
+                  </p>
+                  <div className="mt-3 grid grid-cols-2 gap-2">
+                    <input
+                      type="text"
+                      required
+                      value={prenom}
+                      onChange={(e) => setPrenom(e.target.value)}
+                      placeholder="Prénom"
+                      autoComplete="given-name"
+                      className="w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none"
+                      disabled={submitting}
+                    />
+                    <input
+                      type="text"
+                      required
+                      value={nomLead}
+                      onChange={(e) => setNomLead(e.target.value)}
+                      placeholder="Nom"
+                      autoComplete="family-name"
+                      className="w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none"
+                      disabled={submitting}
+                    />
+                  </div>
+                  <input
+                    type="email"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="ton@email.fr"
+                    autoComplete="email"
+                    className="mt-2 w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none"
+                    disabled={submitting}
+                  />
+                  {submitError && (
+                    <p className="mt-2 rounded-lg bg-rose-50 px-3 py-2 text-xs text-rose-700">
+                      {submitError}
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {villeIsValid && alreadyUnlocked && (
+                <p className="mt-5 rounded-xl bg-emerald-50 px-4 py-3 text-xs text-emerald-700">
+                  ✓ Tu es déjà inscrit à la newsletter, on applique ta sélection directement.
+                </p>
               )}
             </div>
           )}
@@ -537,16 +716,22 @@ export default function OnboardingQuiz() {
             <button
               type="button"
               onClick={handleSubmit}
-              disabled={!canNext}
+              disabled={!canNext || submitting}
               className={cn(
                 "inline-flex items-center gap-1.5 rounded-2xl px-4 py-2 text-sm font-semibold transition-all",
-                canNext
+                canNext && !submitting
                   ? "bg-gradient-to-br from-brand-iris to-brand-iris-strong text-white shadow-[0_4px_14px_rgba(157,140,242,0.4)] hover:scale-[1.02]"
                   : "cursor-not-allowed bg-neutral-200 text-neutral-400",
               )}
             >
-              <Sparkles className="h-3.5 w-3.5" />
-              Découvrir ma sélection
+              {submitting ? (
+                <>Envoi…</>
+              ) : (
+                <>
+                  <Sparkles className="h-3.5 w-3.5" />
+                  Découvrir ma sélection
+                </>
+              )}
             </button>
           )}
         </div>
