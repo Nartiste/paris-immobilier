@@ -14,8 +14,11 @@ CREATE INDEX IF NOT EXISTS idx_subscribers_ville_envisagee
   ON newsletter_subscribers(ville_envisagee)
   WHERE ville_envisagee IS NOT NULL;
 
--- Mettre à jour la vue d'export pour inclure la nouvelle colonne
-CREATE OR REPLACE VIEW newsletter_subscribers_export AS
+-- Mettre à jour la vue d'export pour inclure la nouvelle colonne.
+-- DROP puis CREATE car CREATE OR REPLACE refuse de réordonner les colonnes existantes.
+DROP VIEW IF EXISTS newsletter_subscribers_export;
+
+CREATE VIEW newsletter_subscribers_export AS
 SELECT
   email,
   prenom,
