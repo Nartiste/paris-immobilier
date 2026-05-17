@@ -182,10 +182,6 @@ export default function NewsletterGate({ children, sourceArticleSlug }: Props) {
                     {errorMsg}
                   </p>
                 )}
-
-                <p className="mt-2 text-[11px] leading-relaxed text-neutral-500">
-                  En t'inscrivant, tu acceptes de recevoir nos emails. Données stockées sécurisées (Supabase), jamais revendues. Conformément au RGPD, tu peux te désinscrire à tout moment.
-                </p>
               </form>
             </>
           )}

@@ -114,7 +114,11 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const content = BLOG_CONTENT[slug];
-  const headings = content ? extractHeadings(content) : [];
+  const allHeadings = content ? extractHeadings(content) : [];
+  // Pour les articles gated, on n'expose que les H2 visibles avant le blur
+  // (les autres seraient la "réponse" qu'on veut justement faire désirer).
+  const isGated = GATED_ARTICLES.has(slug);
+  const headings = isGated ? allHeadings.slice(0, 4) : allHeadings;
 
   // Articles connexes : 3, par catégorie similaire en priorité
   const related = BLOG_POSTS.filter((p) => p.slug !== slug)
