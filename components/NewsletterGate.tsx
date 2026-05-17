@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type ReactNode } from "react";
 import { Lock, Sparkles, ArrowRight, Check } from "lucide-react";
+import { useAppStore } from "@/lib/store";
 
 const COOKIE_NAME = "vpdp_newsletter_unlocked";
 
@@ -42,6 +43,10 @@ export default function NewsletterGate({ children, sourceArticleSlug }: Props) {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
+  // Ville envisagée capturée pendant le quiz d'onboarding (pré-qualification).
+  // Transmise à l'API et stockée en Supabase + Brevo si renseignée.
+  const villeEnvisagee = useAppStore((s) => s.villeEnvisagee);
+
   // Au mount, on lit le cookie pour décider du blur réel
   useEffect(() => {
     setHydrated(true);
@@ -62,6 +67,7 @@ export default function NewsletterGate({ children, sourceArticleSlug }: Props) {
           nom: nom.trim(),
           email: email.trim().toLowerCase(),
           source_article_slug: sourceArticleSlug,
+          ville_envisagee: villeEnvisagee,
         }),
       });
 

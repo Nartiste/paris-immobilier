@@ -46,6 +46,11 @@ type AppState = {
   onboardingOpen: boolean;
   setOnboardingOpen: (v: boolean) => void;
 
+  /** Pré-qualification : ville/zone envisagée par le lead (renseigné dans le quiz).
+      Transmis à Supabase + Brevo lors de l'inscription newsletter. */
+  villeEnvisagee: string | null;
+  setVilleEnvisagee: (v: string | null) => void;
+
   /** Premium gating */
   isPremium: boolean;
   setPremium: (v: boolean) => void;
@@ -112,6 +117,9 @@ export const useAppStore = create<AppState>()(
       onboardingOpen: false,
       setOnboardingOpen: (v) => set({ onboardingOpen: v }),
 
+      villeEnvisagee: null,
+      setVilleEnvisagee: (v) => set({ villeEnvisagee: v }),
+
       isPremium: false,
       setPremium: (v) => set({ isPremium: v }),
       comparisonsUsed: 0,
@@ -141,6 +149,8 @@ export const useAppStore = create<AppState>()(
         weights: s.weights,
         // Onboarding persisté pour ne pas re-ouvrir le quiz à chaque visite
         onboarded: s.onboarded,
+        // Ville envisagée persistée pour qu'elle survive entre le quiz et l'inscription
+        villeEnvisagee: s.villeEnvisagee,
       }),
     },
   ),

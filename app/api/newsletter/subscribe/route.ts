@@ -19,6 +19,7 @@ export async function POST(req: Request) {
     nom?: string;
     email?: string;
     source_article_slug?: string;
+    ville_envisagee?: string | null;
   };
 
   try {
@@ -31,6 +32,8 @@ export async function POST(req: Request) {
   const nom = (body.nom ?? "").trim();
   const email = (body.email ?? "").trim().toLowerCase();
   const sourceSlug = body.source_article_slug?.trim() || null;
+  // Truncate à 200 caractères pour la sécurité (le champ "autre" est libre)
+  const villeEnvisagee = (body.ville_envisagee ?? null)?.toString().slice(0, 200) || null;
 
   if (!prenom || prenom.length > 80) {
     return NextResponse.json({ error: "Prénom invalide" }, { status: 400 });
@@ -75,6 +78,7 @@ export async function POST(req: Request) {
           prenom,
           nom,
           source_article_slug: sourceSlug,
+          ville_envisagee: villeEnvisagee,
           unsubscribed_at: null,
           confirmed_at: null,
           consent_ip: consentIp,
@@ -93,7 +97,12 @@ export async function POST(req: Request) {
       // Toujours pas confirmé, on met juste à jour les infos
       await supabase
         .from("newsletter_subscribers")
-        .update({ prenom, nom, source_article_slug: sourceSlug })
+        .update({
+          prenom,
+          nom,
+          source_article_slug: sourceSlug,
+          ville_envisagee: villeEnvisagee,
+        })
         .eq("id", existing.id);
     }
     // Sinon (déjà confirmé) : on renvoie OK direct sans rien faire de plus
@@ -106,6 +115,7 @@ export async function POST(req: Request) {
         prenom,
         nom,
         source_article_slug: sourceSlug,
+        ville_envisagee: villeEnvisagee,
         consent_ip: consentIp,
         consent_user_agent: consentUa,
       })
@@ -158,7 +168,13 @@ export async function POST(req: Request) {
   // En réalité on l'ajoute à la liste tout de suite pour qu'il apparaisse dans Brevo,
   // mais avec attribute CONFIRMED=false, et on switch à true au moment de la confirmation.
   try {
-    const { contactId } = await brevoUpsertContact(email, prenom, nom, sourceSlug);
+    const { contactId } = await brevoUpsertContact(
+      email,
+      prenom,
+      nom,
+      sourceSlug,
+      villeEnvisagee,
+    );
     if (contactId && isNewSubscriber) {
       await supabase
         .from("newsletter_subscribers")

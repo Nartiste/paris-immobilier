@@ -19,7 +19,7 @@ import {
 } from "@/lib/onboarding-presets";
 import { cn } from "@/lib/utils";
 
-const STEPS = 5;
+const STEPS = 6;
 
 const PROFILS: ProfilType[] = [
   "celibataire",
@@ -27,6 +27,20 @@ const PROFILS: ProfilType[] = [
   "famille",
   "retraite",
   "investisseur",
+];
+
+/** Liste des destinations proposées pour la pré-qualification.
+    Valeurs alignées avec ce qu'on envoie à Brevo/Supabase. "Autre" déclenche un input libre. */
+const VILLES_ENVISAGEES: { value: string; label: string }[] = [
+  { value: "ile-de-france", label: "Île-de-France" },
+  { value: "lyon", label: "Lyon" },
+  { value: "bordeaux", label: "Bordeaux" },
+  { value: "nantes", label: "Nantes" },
+  { value: "rennes", label: "Rennes" },
+  { value: "lille", label: "Lille" },
+  { value: "province-tgv-proche", label: "Reims, Tours, Orléans…" },
+  { value: "pas-encore-decide", label: "Pas encore décidé" },
+  { value: "autre", label: "Autre" },
 ];
 
 const FREQUENCES: FrequenceParis[] = [
@@ -57,6 +71,7 @@ export default function OnboardingQuiz() {
     setProfile,
     setTempsMaxParis,
     setShowCampagne,
+    setVilleEnvisagee,
   } = useAppStore();
 
   const [step, setStep] = useState<number>(1);
@@ -68,6 +83,13 @@ export default function OnboardingQuiz() {
   const [budgetValue, setBudgetValue] = useState<number>(5000);
   const [surface, setSurface] = useState<number>(60);
   const [criteres, setCriteres] = useState<CritereId[]>([]);
+  const [villeChoix, setVilleChoix] = useState<string | null>(null);
+  const [villeAutre, setVilleAutre] = useState<string>("");
+
+  // Auto-advance après sélection sur les étapes QCM single-choice
+  const advanceAfter = (delay = 200) => {
+    setTimeout(() => setStep((s) => Math.min(STEPS, s + 1)), delay);
+  };
 
   // Pré-remplit le slider temps max depuis la fréquence Paris choisie,
   // tant que l'utilisateur ne l'a pas touché manuellement.
@@ -79,12 +101,16 @@ export default function OnboardingQuiz() {
 
   if (!onboardingOpen) return null;
 
+  const villeIsValid =
+    villeChoix !== null && (villeChoix !== "autre" || villeAutre.trim().length > 0);
+
   const canNext =
     (step === 1 && profil !== null) ||
     (step === 2 && frequence !== null) ||
     (step === 3 && tempsMax >= 15) ||
     (step === 4 && budgetValue > 0) ||
-    (step === 5 && criteres.length === 2);
+    (step === 5 && criteres.length === 2) ||
+    (step === 6 && villeIsValid);
 
   const handleClose = (skipped: boolean) => {
     track("concierge_open", { source: skipped ? "skip" : "complete" });
@@ -93,7 +119,7 @@ export default function OnboardingQuiz() {
   };
 
   const handleSubmit = () => {
-    if (!profil || !frequence || criteres.length !== 2) return;
+    if (!profil || !frequence || criteres.length !== 2 || !villeIsValid) return;
     const answers: OnboardingAnswers = {
       profil,
       frequenceParis: frequence,
@@ -117,6 +143,12 @@ export default function OnboardingQuiz() {
     setTempsMaxParis(result.tempsMaxParis);
     setShowCampagne(result.showCampagne);
 
+    // Stocke la ville envisagée pour la pré-qualification
+    // Valeur envoyée à Supabase + Brevo lors de l'inscription newsletter
+    const villeFinal =
+      villeChoix === "autre" ? `autre:${villeAutre.trim()}` : (villeChoix as string);
+    setVilleEnvisagee(villeFinal);
+
     track("concierge_open", { source: "onboarding-complete" });
     handleClose(false);
 
@@ -130,13 +162,16 @@ export default function OnboardingQuiz() {
   };
 
   const toggleCritere = (c: CritereId) => {
-    setCriteres((prev) =>
-      prev.includes(c)
-        ? prev.filter((x) => x !== c)
-        : prev.length < 2
-          ? [...prev, c]
-          : prev,
-    );
+    setCriteres((prev) => {
+      if (prev.includes(c)) return prev.filter((x) => x !== c);
+      if (prev.length < 2) {
+        const next = [...prev, c];
+        // Auto-advance dès que les 2 critères sont sélectionnés
+        if (next.length === 2) advanceAfter(350);
+        return next;
+      }
+      return prev;
+    });
   };
 
   return (
@@ -194,7 +229,10 @@ export default function OnboardingQuiz() {
                   <button
                     key={p}
                     type="button"
-                    onClick={() => setProfil(p)}
+                    onClick={() => {
+                      setProfil(p);
+                      advanceAfter();
+                    }}
                     className={cn(
                       "rounded-full border px-4 py-2 text-sm transition-all",
                       profil === p
@@ -222,7 +260,10 @@ export default function OnboardingQuiz() {
                   <button
                     key={f}
                     type="button"
-                    onClick={() => setFrequence(f)}
+                    onClick={() => {
+                      setFrequence(f);
+                      advanceAfter();
+                    }}
                     className={cn(
                       "rounded-2xl border px-4 py-3 text-left text-sm transition-all",
                       frequence === f
@@ -288,7 +329,7 @@ export default function OnboardingQuiz() {
                           : "border-neutral-200 bg-white text-neutral-600 hover:border-neutral-300",
                       )}
                     >
-                      {preset < 60 ? `${preset} min` : `${preset / 60} h${preset % 60 ? ` ${preset % 60}` : ""}`.trim()}
+                      {preset < 60 ? `${preset} min` : `${Math.floor(preset / 60)} h${preset % 60 ? ` ${preset % 60}` : ""}`.trim()}
                     </button>
                   ))}
                 </div>
@@ -403,6 +444,55 @@ export default function OnboardingQuiz() {
               <p className="mt-3 text-[11px] tabular-nums text-neutral-400">
                 {criteres.length}/2 sélectionnés
               </p>
+            </div>
+          )}
+
+          {step === 6 && (
+            <div>
+              <h2 className="font-display text-xl font-medium text-brand-bleu">
+                Quelle ville envisages-tu ?
+              </h2>
+              <p className="mt-1 text-sm text-neutral-500">
+                On affine les recommandations avec ta destination cible. Pas obligé d'être fixé.
+              </p>
+              <div className="mt-5 flex flex-wrap gap-2">
+                {VILLES_ENVISAGEES.map((v) => (
+                  <button
+                    key={v.value}
+                    type="button"
+                    onClick={() => {
+                      setVilleChoix(v.value);
+                      if (v.value !== "autre") setVilleAutre("");
+                    }}
+                    className={cn(
+                      "rounded-full border px-4 py-2 text-sm transition-all",
+                      villeChoix === v.value
+                        ? "border-brand-iris-strong bg-brand-iris-soft text-brand-iris-strong shadow-[0_2px_8px_rgba(157,140,242,0.25)]"
+                        : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-300",
+                    )}
+                  >
+                    {v.label}
+                  </button>
+                ))}
+              </div>
+              {villeChoix === "autre" && (
+                <div className="mt-4">
+                  <label className="text-sm text-neutral-700">
+                    Précise (ville, région, pays…)
+                  </label>
+                  <input
+                    type="text"
+                    value={villeAutre}
+                    onChange={(e) => setVilleAutre(e.target.value)}
+                    placeholder="Ex : Aix-en-Provence, Pays Basque, Lisbonne…"
+                    autoFocus
+                    className="mt-1 w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-base text-brand-bleu focus:border-brand-iris-strong focus:outline-none"
+                  />
+                  <p className="mt-1 text-[11px] text-neutral-400">
+                    Cette info nous aide à pré-qualifier ton projet, c'est tout.
+                  </p>
+                </div>
+              )}
             </div>
           )}
         </div>

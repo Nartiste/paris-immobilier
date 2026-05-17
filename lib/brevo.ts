@@ -47,6 +47,7 @@ export async function brevoUpsertContact(
   prenom: string,
   nom: string,
   sourceArticleSlug: string | null,
+  villeEnvisagee: string | null = null,
 ): Promise<{ contactId: number | null; alreadyExisted: boolean }> {
   const payload: BrevoContactCreatePayload = {
     email,
@@ -54,6 +55,7 @@ export async function brevoUpsertContact(
       PRENOM: prenom,
       NOM: nom,
       SOURCE_ARTICLE: sourceArticleSlug ?? "",
+      VILLE_ENVISAGEE: villeEnvisagee ?? "",
     },
     listIds: [getListId()],
     updateEnabled: true,
