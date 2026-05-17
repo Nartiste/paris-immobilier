@@ -29,16 +29,19 @@ const PROFILS: ProfilType[] = [
   "investisseur",
 ];
 
-/** Liste des destinations proposées pour la pré-qualification.
-    Valeurs alignées avec ce qu'on envoie à Brevo/Supabase. "Autre" déclenche un input libre. */
+/** Liste curatée des villes à plus forte valeur de monétisation immobilière
+    (densité d'agents locaux × prix m² élevés × flux ex-Parisiens documenté).
+    "Autre" déclenche un input libre avec autocomplete INSEE pour capter toute commune française. */
 const VILLES_ENVISAGEES: { value: string; label: string }[] = [
-  { value: "ile-de-france", label: "Île-de-France" },
-  { value: "lyon", label: "Lyon" },
-  { value: "bordeaux", label: "Bordeaux" },
-  { value: "nantes", label: "Nantes" },
-  { value: "rennes", label: "Rennes" },
-  { value: "lille", label: "Lille" },
-  { value: "province-tgv-proche", label: "Reims, Tours, Orléans…" },
+  { value: "Vincennes", label: "Vincennes" },
+  { value: "Saint-Germain-en-Laye", label: "Saint-Germain-en-Laye" },
+  { value: "Versailles", label: "Versailles" },
+  { value: "Boulogne-Billancourt", label: "Boulogne-Billancourt" },
+  { value: "Sceaux", label: "Sceaux" },
+  { value: "Reims", label: "Reims" },
+  { value: "Lyon", label: "Lyon" },
+  { value: "Bordeaux", label: "Bordeaux" },
+  { value: "Nantes", label: "Nantes" },
   { value: "pas-encore-decide", label: "Pas encore décidé" },
   { value: "autre", label: "Autre" },
 ];
