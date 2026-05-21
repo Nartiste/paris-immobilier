@@ -38,7 +38,8 @@ export async function POST(req: Request) {
   if (!prenom || prenom.length > 80) {
     return NextResponse.json({ error: "Prénom invalide" }, { status: 400 });
   }
-  if (!nom || nom.length > 80) {
+  // Nom optionnel : on accepte vide, on rejette uniquement si trop long
+  if (nom.length > 80) {
     return NextResponse.json({ error: "Nom invalide" }, { status: 400 });
   }
   if (!email || !EMAIL_RE.test(email) || email.length > 254) {
