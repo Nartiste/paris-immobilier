@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowLeft, ArrowRight, Sparkles, X } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ArrowLeft, ArrowRight, Sparkles, X, Zap, Lock, Mail } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import { track } from "@/lib/analytics";
 import {
@@ -65,6 +66,7 @@ const CRITERES: CritereId[] = [
 ];
 
 export default function OnboardingQuiz() {
+  const router = useRouter();
   const {
     onboardingOpen,
     setOnboardingOpen,
@@ -78,6 +80,9 @@ export default function OnboardingQuiz() {
   } = useAppStore();
 
   const [step, setStep] = useState<number>(1);
+  const [generationStep, setGenerationStep] = useState<
+    null | "uploading" | "analyzing" | "writing" | "done"
+  >(null);
   const [profil, setProfil] = useState<ProfilType | null>(null);
   const [frequence, setFrequence] = useState<FrequenceParis | null>(null);
   const [tempsMax, setTempsMax] = useState<number>(90);
@@ -147,17 +152,21 @@ export default function OnboardingQuiz() {
     }
   }, [frequence, tempsMaxTouched]);
 
-  if (!onboardingOpen) return null;
+  // Important : on garde le composant monté pendant la génération même si
+  // onboardingOpen passe à false ailleurs (pour afficher l'overlay de génération
+  // jusqu'au redirect vers /mon-rapport).
+  if (!onboardingOpen && !submitting) return null;
 
   const villeIsValid =
     villeChoix !== null && (villeChoix !== "autre" || villeAutre.trim().length > 0);
 
   const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  // On exige TOUJOURS le triplet prenom/nom/email pour générer le rapport perso,
+  // même pour les revenants (qui auront un rapport régénéré avec leurs nouvelles réponses).
   const leadIsValid =
-    alreadyUnlocked ||
-    (prenom.trim().length > 0 &&
-      nomLead.trim().length > 0 &&
-      EMAIL_RE.test(email.trim()));
+    prenom.trim().length > 0 &&
+    nomLead.trim().length > 0 &&
+    EMAIL_RE.test(email.trim());
 
   const canNext =
     (step === 1 && profil !== null) ||
@@ -173,9 +182,16 @@ export default function OnboardingQuiz() {
     setOnboardingOpen(false);
   };
 
-  const applyAnswersAndClose = () => {
+  const handleSubmit = async () => {
     if (!profil || !frequence || criteres.length !== 2) return;
-    const answers: OnboardingAnswers = {
+    if (!villeIsValid || !leadIsValid) return;
+    setSubmitError(null);
+
+    const villeFinal =
+      villeChoix === "autre" ? `autre:${villeAutre.trim()}` : (villeChoix as string);
+
+    // Construit le payload quiz answers
+    const quizAnswers = {
       profil,
       frequenceParis: frequence,
       tempsMaxParis: tempsMax,
@@ -183,60 +199,39 @@ export default function OnboardingQuiz() {
       budgetValue,
       surfaceVisee: surface,
       criteresPrioritaires: criteres,
+      villeEnvisagee: villeFinal,
     };
-    const result = computeOnboardingResult(answers);
 
-    setWeight("tempsParis", result.weights.tempsParis);
-    setWeight("prix", result.weights.prix);
-    setWeight("qualiteVie", result.weights.qualiteVie);
-    setWeight("economie", result.weights.economie);
-    setWeight("education", result.weights.education);
-    setWeight("futurTransport", result.weights.futurTransport);
-    setBudgetMax(result.budgetMax);
-    setProfile(result.profile);
-    setTempsMaxParis(result.tempsMaxParis);
-    setShowCampagne(result.showCampagne);
-
-    const villeFinal =
-      villeChoix === "autre" ? `autre:${villeAutre.trim()}` : (villeChoix as string);
-    setVilleEnvisagee(villeFinal);
-
-    track("concierge_open", { source: "onboarding-complete" });
-    handleClose(false);
-
-    setTimeout(() => {
-      const el =
-        document.getElementById("filtres") ||
-        document.querySelector("[id^='top-']");
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 100);
-  };
-
-  const handleSubmit = async () => {
-    if (!villeIsValid || !leadIsValid) return;
-    setSubmitError(null);
-
-    // Si déjà unlocked (cookie présent), pas besoin de POST l'inscription : on applique juste
-    if (alreadyUnlocked) {
-      applyAnswersAndClose();
-      return;
-    }
-
-    // Sinon : POST l'inscription newsletter avec la ville envisagée comme attribut
+    // Si déjà unlocked : on applique juste (pas de génération de rapport pour un user existant)
+    // SAUF si la flag REPORT_FOR_ALL = on génère même pour les revenants.
+    // Pour conversion max : on génère TOUJOURS un rapport (chaque visite = nouveau rapport)
     setSubmitting(true);
-    try {
-      const villeFinal =
-        villeChoix === "autre" ? `autre:${villeAutre.trim()}` : (villeChoix as string);
+    setGenerationStep("uploading");
 
-      const res = await fetch("/api/newsletter/subscribe", {
+    track("personal_report_submit", {
+      profil: profil,
+      frequence: frequence,
+      budget_mode: budgetMode,
+      budget: budgetValue,
+      critere_1: criteres[0] ?? "",
+      critere_2: criteres[1] ?? "",
+      ville_envisagee: villeFinal,
+    });
+
+    try {
+      // Étape progressive UI
+      setTimeout(() => setGenerationStep("analyzing"), 1500);
+      setTimeout(() => setGenerationStep("writing"), 4000);
+
+      const res = await fetch("/api/personal-report/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           prenom: prenom.trim(),
           nom: nomLead.trim(),
           email: email.trim().toLowerCase(),
-          source_article_slug: "onboarding-quiz",
-          ville_envisagee: villeFinal,
+          quizAnswers,
+          source: "onboarding-quiz",
         }),
       });
 
@@ -245,17 +240,54 @@ export default function OnboardingQuiz() {
         throw new Error(data.error ?? `Erreur ${res.status}`);
       }
 
-      // Pose le cookie d'unlock côté client (le serveur le pose aussi via Set-Cookie)
+      const data = (await res.json()) as { token: string; reportUrl: string };
+
+      // Cookie unlock client-side
       document.cookie = `vpdp_newsletter_unlocked=1; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=Lax`;
 
-      applyAnswersAndClose();
+      // Applique les pondérations Zustand SANS fermer le modal
+      // (le modal reste monté pour afficher l'overlay jusqu'au redirect).
+      const onboardingAnswersForStore: OnboardingAnswers = {
+        profil,
+        frequenceParis: frequence,
+        tempsMaxParis: tempsMax,
+        budgetMode,
+        budgetValue,
+        surfaceVisee: surface,
+        criteresPrioritaires: criteres,
+      };
+      const result = computeOnboardingResult(onboardingAnswersForStore);
+      setWeight("tempsParis", result.weights.tempsParis);
+      setWeight("prix", result.weights.prix);
+      setWeight("qualiteVie", result.weights.qualiteVie);
+      setWeight("economie", result.weights.economie);
+      setWeight("education", result.weights.education);
+      setWeight("futurTransport", result.weights.futurTransport);
+      setBudgetMax(result.budgetMax);
+      setProfile(result.profile);
+      setTempsMaxParis(result.tempsMaxParis);
+      setShowCampagne(result.showCampagne);
+      setVilleEnvisagee(villeFinal);
+      setOnboarded(true);
+
+      track("concierge_open", { source: "onboarding-complete" });
+      track("personal_report_generated", { token: data.token });
+
+      setGenerationStep("done");
+
+      // Redirige vers la page rapport. Le modal sera démonté quand la route change.
+      router.push(`/mon-rapport/${data.token}`);
+
+      // Ferme le modal après un petit délai pour éviter le flash visuel
+      setTimeout(() => setOnboardingOpen(false), 100);
     } catch (err) {
       setSubmitError(
         err instanceof Error
           ? err.message
-          : "Une erreur est survenue. Réessaie dans un instant.",
+          : "La génération a échoué. Réessaie dans un instant.",
       );
       setSubmitting(false);
+      setGenerationStep(null);
     }
   };
 
@@ -271,6 +303,102 @@ export default function OnboardingQuiz() {
       return prev;
     });
   };
+
+  // Overlay plein écran pendant la génération du rapport IA
+  // Donne une impression de calcul personnalisé (4-15 secondes typiquement)
+  if (submitting && generationStep) {
+    const steps = [
+      { key: "uploading", label: "On envoie ton profil…", chrono: "1 s" },
+      { key: "analyzing", label: `On scanne 173 communes contre tes critères…`, chrono: "5 s" },
+      { key: "writing", label: `Le verdict se rédige pour ${prenom || "toi"}…`, chrono: "10 s" },
+    ];
+    const currentIdx = steps.findIndex((s) => s.key === generationStep);
+    return (
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-brand-bleu via-brand-iris-strong to-brand-iris p-4">
+        <div className="relative w-full max-w-md overflow-hidden rounded-3xl bg-white p-8 shadow-[0_24px_64px_rgba(0,0,0,0.3)]">
+          <div className="flex items-center justify-center">
+            <span className="relative flex h-16 w-16 items-center justify-center">
+              <span
+                aria-hidden
+                className="absolute inset-0 animate-ping rounded-full bg-brand-iris/30"
+              />
+              <span className="relative flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-brand-iris to-brand-iris-strong text-white">
+                <Sparkles className="h-7 w-7 animate-pulse" />
+              </span>
+            </span>
+          </div>
+          <h2 className="mt-5 text-center font-display text-xl font-medium text-brand-bleu">
+            {prenom ? `${prenom}, on démasque ta ville` : "On démasque ta ville"}
+          </h2>
+          <p className="mt-1.5 text-center text-xs text-brand-bleu/65">
+            173 communes au crible. Une seule sort. La tienne.
+          </p>
+
+          <ul className="mt-6 space-y-3">
+            {steps.map((s, i) => {
+              const isDone = i < currentIdx;
+              const isActive = i === currentIdx;
+              return (
+                <li key={s.key} className="flex items-start gap-3">
+                  <span
+                    className={cn(
+                      "mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full text-[10px] font-semibold transition-all",
+                      isDone
+                        ? "bg-emerald-100 text-emerald-700"
+                        : isActive
+                          ? "bg-brand-iris-soft text-brand-iris-strong"
+                          : "bg-neutral-100 text-neutral-400",
+                    )}
+                  >
+                    {isDone ? "✓" : isActive ? (
+                      <span className="h-2 w-2 animate-pulse rounded-full bg-brand-iris-strong" />
+                    ) : (
+                      i + 1
+                    )}
+                  </span>
+                  <div className="flex-1">
+                    <p
+                      className={cn(
+                        "text-sm transition-colors",
+                        isActive
+                          ? "font-medium text-brand-bleu"
+                          : isDone
+                            ? "text-brand-bleu/60"
+                            : "text-neutral-400",
+                      )}
+                    >
+                      {s.label}
+                    </p>
+                  </div>
+                  <span
+                    className={cn(
+                      "text-[10px] tabular-nums",
+                      isActive ? "text-brand-iris-strong" : "text-neutral-400",
+                    )}
+                  >
+                    {s.chrono}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+
+          <div className="mt-6 rounded-2xl bg-brand-iris-soft/40 px-4 py-3">
+            <p className="text-[11px] leading-relaxed text-brand-bleu/75">
+              Pas de top 10 mou. Une recommandation. La tienne. Le calcul est unique à partir
+              de tes 6 réponses au quiz.
+            </p>
+          </div>
+
+          {submitError && (
+            <p className="mt-3 rounded-lg bg-rose-50 px-3 py-2 text-xs text-rose-700">
+              {submitError}
+            </p>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4 backdrop-blur-sm">
@@ -621,16 +749,43 @@ export default function OnboardingQuiz() {
                 </div>
               )}
 
-              {/* Formulaire email obligatoire pour valider (sauf si déjà inscrit) */}
-              {villeIsValid && !alreadyUnlocked && (
-                <div className="mt-6 rounded-2xl border border-brand-iris/20 bg-brand-iris-soft/30 p-4">
-                  <p className="text-sm font-semibold text-brand-bleu">
-                    Reçois ta sélection personnalisée par email
+              {/* Formulaire email : on génère un rapport perso, même pour les revenants */}
+              {villeIsValid && (
+                <div className="mt-6 overflow-hidden rounded-2xl border border-brand-iris/25 bg-gradient-to-br from-brand-iris-soft/40 via-white to-brand-vert-soft/30 p-5 shadow-[0_4px_16px_rgba(157,140,242,0.12)]">
+                  <div className="flex items-center gap-2">
+                    <span className="inline-flex items-center gap-1 rounded-full bg-brand-iris-soft px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-brand-iris-strong">
+                      <Sparkles className="h-2.5 w-2.5" />
+                      Le hack
+                    </span>
+                    <span className="text-[10px] font-medium uppercase tracking-wider text-brand-bleu/55">
+                      Calcul en 30 secondes
+                    </span>
+                  </div>
+                  <p className="mt-3 font-display text-base font-medium leading-snug text-brand-bleu">
+                    On te dit où acheter (vraiment).
                   </p>
-                  <p className="mt-1 text-xs text-neutral-600">
-                    + le PDF du Top 10 et les évolutions à venir. 1 email/mois max, désinscription en 1 clic.
+                  <p className="mt-1.5 text-xs leading-relaxed text-brand-bleu/75">
+                    Pas de top 10 mou. <strong>Une recommandation. Ta recommandation.</strong> <strong>173 communes</strong> scannées
+                    contre TES réponses : <strong>1 ville sort</strong>, plus 2 alternatives backup. Score de match, quartiers à viser, pièges à éviter.
+                    <strong> Aucun autre Parisien n&apos;aura le même verdict.</strong>
                   </p>
-                  <div className="mt-3 grid grid-cols-2 gap-2">
+
+                  <ul className="mt-3 space-y-1.5 text-[12px] leading-relaxed text-brand-bleu/80">
+                    <li className="flex items-start gap-1.5">
+                      <Zap className="mt-0.5 h-3 w-3 flex-shrink-0 text-brand-iris-strong" />
+                      <span><strong>1 ville révélée</strong> (score sur 100) + 2 alternatives, calées sur TON profil</span>
+                    </li>
+                    <li className="flex items-start gap-1.5">
+                      <Mail className="mt-0.5 h-3 w-3 flex-shrink-0 text-brand-iris-strong" />
+                      <span>Envoyé par email + lien permanent que tu peux partager</span>
+                    </li>
+                    <li className="flex items-start gap-1.5">
+                      <Lock className="mt-0.5 h-3 w-3 flex-shrink-0 text-brand-iris-strong" />
+                      <span>1 email/mois max ensuite, désinscription en 1 clic</span>
+                    </li>
+                  </ul>
+
+                  <div className="mt-4 grid grid-cols-2 gap-2">
                     <input
                       type="text"
                       required
@@ -638,7 +793,7 @@ export default function OnboardingQuiz() {
                       onChange={(e) => setPrenom(e.target.value)}
                       placeholder="Prénom"
                       autoComplete="given-name"
-                      className="w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none"
+                      className="w-full rounded-xl border border-neutral-200 bg-white px-3 py-2.5 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none focus:ring-2 focus:ring-brand-iris/20"
                       disabled={submitting}
                     />
                     <input
@@ -648,7 +803,7 @@ export default function OnboardingQuiz() {
                       onChange={(e) => setNomLead(e.target.value)}
                       placeholder="Nom"
                       autoComplete="family-name"
-                      className="w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none"
+                      className="w-full rounded-xl border border-neutral-200 bg-white px-3 py-2.5 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none focus:ring-2 focus:ring-brand-iris/20"
                       disabled={submitting}
                     />
                   </div>
@@ -659,21 +814,22 @@ export default function OnboardingQuiz() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="ton@email.fr"
                     autoComplete="email"
-                    className="mt-2 w-full rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none"
+                    className="mt-2 w-full rounded-xl border border-neutral-200 bg-white px-3 py-2.5 text-sm text-brand-bleu placeholder:text-neutral-400 focus:border-brand-iris-strong focus:outline-none focus:ring-2 focus:ring-brand-iris/20"
                     disabled={submitting}
                   />
+
+                  {alreadyUnlocked && (
+                    <p className="mt-2 text-[11px] text-brand-bleu/55">
+                      Déjà inscrit ? On t&apos;envoie quand même ton nouveau verdict.
+                    </p>
+                  )}
+
                   {submitError && (
                     <p className="mt-2 rounded-lg bg-rose-50 px-3 py-2 text-xs text-rose-700">
                       {submitError}
                     </p>
                   )}
                 </div>
-              )}
-
-              {villeIsValid && alreadyUnlocked && (
-                <p className="mt-5 rounded-xl bg-emerald-50 px-4 py-3 text-xs text-emerald-700">
-                  ✓ Tu es déjà inscrit à la newsletter, on applique ta sélection directement.
-                </p>
               )}
             </div>
           )}
@@ -728,11 +884,15 @@ export default function OnboardingQuiz() {
               )}
             >
               {submitting ? (
-                <>Envoi…</>
+                <>
+                  <span className="h-3 w-3 animate-spin rounded-full border-2 border-white/40 border-t-white" />
+                  Calcul…
+                </>
               ) : (
                 <>
                   <Sparkles className="h-3.5 w-3.5" />
-                  Découvrir ma sélection
+                  Démasquer ma ville idéale
+                  <ArrowRight className="h-3.5 w-3.5" />
                 </>
               )}
             </button>

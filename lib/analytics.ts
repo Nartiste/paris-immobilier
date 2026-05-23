@@ -24,7 +24,10 @@ export type AnalyticsEvent =
   | "concierge_recommendation"
   | "premium_view_pricing"
   | "premium_signup_intent"
-  | "seo_page_view";
+  | "seo_page_view"
+  | "personal_report_submit"
+  | "personal_report_generated"
+  | "personal_report_view";
 
 export function track(event: AnalyticsEvent, props?: Record<string, string | number>) {
   if (typeof window === "undefined") return;
