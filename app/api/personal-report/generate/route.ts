@@ -7,6 +7,7 @@ import { SAMPLE_COMMUNES } from "@/lib/sample-data";
 import {
   selectCandidateCommunes,
   compressCommunesForReport,
+  getBudgetM2Max,
   type QuizAnswersForReport,
 } from "@/lib/personal-report-matcher";
 import {
@@ -54,6 +55,18 @@ const SYSTEM = `Tu es l'expert immobilier de Vivre près de Paris. Tu génères 
 
 - Tu N'EFFECTUES JAMAIS de division ou de multiplication. Tu cites les chiffres bruts du dataset.
 - Si tu veux mentionner une surface ou un prix d'un T3 60m², calcule mentalement seulement les MULTIPLICATIONS SIMPLES (prix m² × surface). Si tu doutes, ne mentionne pas la valeur.
+
+# Règle BUDGET (NON NÉGOCIABLE — règle de cohérence)
+
+Le user fournit son **budget m² max calculé** (champ "Budget m² max recommandé"). Tu DOIS respecter cette discipline :
+
+1. **Si la ville principale a un prix m² ≤ budget m² max × 1.25** : recommandation normale, présente comme "dans ton budget" ou "te laisse de l'air".
+
+2. **Si la ville principale a un prix m² > budget m² max × 1.25** : c'est un COMPROMIS. Tu DOIS l'annoncer dans la première section avec une phrase du type "**Avertissement : à {prix}/m², cette ville dépasse ton budget. Voici ce que ça impliquerait concrètement…**" + expliquer (réduire surface visée, augmenter mensualité, ou accepter ville moins chère mais plus éloignée).
+
+3. **Si TOUTES les candidates dépassent le budget** : ouvre le rapport par une phrase honnête type "**{prenom}, ton budget est très contraint pour {surface}m² en Île-de-France.**" et propose 1 ville en COMPROMIS minimal + 2 alternatives, en expliquant les arbitrages.
+
+4. **JAMAIS** présenter une ville à 7100 €/m² comme "te laisse de l'air" quand le budget m² max est 1375 €/m². Ce serait une faute professionnelle. Le user te fait confiance pour des chiffres honnêtes.
 
 # Format de réponse : LE VERDICT (Markdown strict)
 
@@ -239,6 +252,13 @@ export async function POST(req: Request) {
   // 2) Pré-sélection des communes candidates (top 10)
   const candidates = selectCandidateCommunes(SAMPLE_COMMUNES, quizAnswers, 10);
   const compressed = compressCommunesForReport(candidates);
+  const budgetM2Max = getBudgetM2Max(quizAnswers);
+  const cheapestCandidate = candidates.reduce((min, c) => {
+    if (c.prix_m2_median == null) return min;
+    if (min == null || c.prix_m2_median < min) return c.prix_m2_median;
+    return min;
+  }, null as number | null);
+  const allOverBudget = cheapestCandidate != null && cheapestCandidate > budgetM2Max * 1.25;
 
   // 3) Construction du user prompt
   const profilLabel = PROFIL_LABELS[quizAnswers.profil];
@@ -261,9 +281,11 @@ export async function POST(req: Request) {
 **Profil** : ${profilLabel} (clé: ${quizAnswers.profil})
 **Fréquence Paris** : ${frequenceLabel}
 **Temps max trajet acceptable** : ${quizAnswers.tempsMaxParis} minutes
-**Budget** : ${quizAnswers.budgetValue} € (${budgetModeLabel})${quizAnswers.surfaceVisee ? ` pour ${quizAnswers.surfaceVisee} m²` : ""}
+**Budget brut saisi** : ${quizAnswers.budgetValue} € (${budgetModeLabel})${quizAnswers.surfaceVisee ? ` pour ${quizAnswers.surfaceVisee} m²` : ""}
+**Budget m² max recommandé** : ${budgetM2Max} €/m² (calculé à partir de la mensualité/loyer × surface visée, sur 20 ans à 4 %)
 **Critères prioritaires** (pondérés ×2 dans ton score) : ${criteresLabels}
 **Ville envisagée par le user** : ${villeText}
+${allOverBudget ? `\n⚠️ **ALERTE BUDGET CONTRAINT** : la commune la moins chère du panier est à ${cheapestCandidate} €/m², au-dessus de ton budget m² max de ${budgetM2Max} €/m². Tu DOIS ouvrir le rapport par un avertissement honnête : "${prenom}, ton budget est très contraint pour ${quizAnswers.surfaceVisee ?? 60}m² en IDF/province." Puis propose la moins chère comme compromis + explique les arbitrages possibles (réduire surface, augmenter mensualité, éloigner trajet).` : ""}
 
 # Communes candidates pré-filtrées (top ${candidates.length}, choisis 3 et classe-les)
 

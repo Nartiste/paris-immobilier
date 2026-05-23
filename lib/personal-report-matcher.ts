@@ -73,22 +73,52 @@ export function selectCandidateCommunes(
   // 2) Filtre dur sur budget (avec +25 % de tolérance pour ne pas vider).
   // Pour mode loyer : on compare au loyer m² (×surface). Pour achat/mensualité :
   // on compare au prix m².
-  if (isLoyer) {
-    const loyerMaxM2 = answers.budgetValue / (answers.surfaceVisee ?? 60);
-    filtered = filtered.filter(
-      (c) => (c.loyer_m2_median ?? Infinity) <= loyerMaxM2 * 1.25,
+  const applyBudgetFilter = (list: Commune[], budgetMult: number): Commune[] => {
+    if (isLoyer) {
+      const loyerMaxM2 = answers.budgetValue / (answers.surfaceVisee ?? 60);
+      return list.filter(
+        (c) => (c.loyer_m2_median ?? Infinity) <= loyerMaxM2 * budgetMult,
+      );
+    }
+    return list.filter(
+      (c) => (c.prix_m2_median ?? Infinity) <= budgetM2 * budgetMult,
     );
-  } else {
-    filtered = filtered.filter(
-      (c) => (c.prix_m2_median ?? Infinity) <= budgetM2 * 1.25,
+  };
+
+  filtered = applyBudgetFilter(filtered, 1.25);
+
+  // 3) Fallback INTELLIGENT : si vide, on RELÂCHE LE TEMPS, PAS LE BUDGET.
+  // Le budget est sacré : un user qui dit 1000€/mois ne peut pas se voir proposer
+  // Saint-Germain-en-Laye à 7100€/m². Mieux vaut proposer des communes plus
+  // éloignées dans budget que des communes proches mais 5x trop chères.
+  if (filtered.length < 5) {
+    // Tentative 1 : relâcher temps à 1.5×, garder budget à 1.25×
+    const allCommunesWithPrix = communes.filter((c) => c.prix_m2_median != null);
+    filtered = applyBudgetFilter(
+      allCommunesWithPrix.filter((c) => c.temps_trajet_paris_min <= tempsMax * 1.5),
+      1.25,
     );
   }
 
-  // Fallback si on a vidé : on relâche
   if (filtered.length < 5) {
-    filtered = communes.filter(
-      (c) => c.temps_trajet_paris_min <= tempsMax * 1.4 && c.prix_m2_median != null,
-    );
+    // Tentative 2 : pas de filtre temps, budget à 1.25×
+    const allCommunesWithPrix = communes.filter((c) => c.prix_m2_median != null);
+    filtered = applyBudgetFilter(allCommunesWithPrix, 1.25);
+  }
+
+  if (filtered.length < 3) {
+    // Tentative 3 : budget HORS-LIMITE (jusqu'à 1.5× du budget), pas de filtre temps.
+    // Claude DOIT alors signaler l'avertissement budget dans son rapport.
+    const allCommunesWithPrix = communes.filter((c) => c.prix_m2_median != null);
+    filtered = applyBudgetFilter(allCommunesWithPrix, 1.5);
+  }
+
+  if (filtered.length < 3) {
+    // Tentative finale : on garde au moins quelque chose (les moins chères du dataset)
+    filtered = communes
+      .filter((c) => c.prix_m2_median != null)
+      .sort((a, b) => (a.prix_m2_median ?? Infinity) - (b.prix_m2_median ?? Infinity))
+      .slice(0, 15);
   }
 
   // 3) Score brut : on pondère selon les 2 critères prioritaires
