@@ -260,6 +260,18 @@ export async function POST(req: Request) {
   }, null as number | null);
   const allOverBudget = cheapestCandidate != null && cheapestCandidate > budgetM2Max * 1.25;
 
+  // Alternative "villages campagne TGV" : top 5 villages-gares les moins chers,
+  // à proposer comme plan B explicite si budget très contraint OU si user a coché
+  // "frequenceParis = jamais" (full remote, accepte un trajet plus long).
+  // On les fournit à Claude qui décide de les citer ou non selon contexte.
+  const includesCampagne = candidates.some((c) => c.gare_acces != null);
+  const campagneAlternatives = (!includesCampagne || allOverBudget || quizAnswers.frequenceParis === "jamais")
+    ? SAMPLE_COMMUNES
+        .filter((c) => c.gare_acces != null && c.prix_m2_median != null && c.prix_m2_median <= budgetM2Max * 1.5)
+        .sort((a, b) => (a.prix_m2_median ?? 0) - (b.prix_m2_median ?? 0))
+        .slice(0, 5)
+    : [];
+
   // 3) Construction du user prompt
   const profilLabel = PROFIL_LABELS[quizAnswers.profil];
   const frequenceLabel = FREQUENCE_LABELS[quizAnswers.frequenceParis];
@@ -286,6 +298,17 @@ export async function POST(req: Request) {
 **Critères prioritaires** (pondérés ×2 dans ton score) : ${criteresLabels}
 **Ville envisagée par le user** : ${villeText}
 ${allOverBudget ? `\n⚠️ **ALERTE BUDGET CONTRAINT** : la commune la moins chère du panier est à ${cheapestCandidate} €/m², au-dessus de ton budget m² max de ${budgetM2Max} €/m². Tu DOIS ouvrir le rapport par un avertissement honnête : "${prenom}, ton budget est très contraint pour ${quizAnswers.surfaceVisee ?? 60}m² en IDF/province." Puis propose la moins chère comme compromis + explique les arbitrages possibles (réduire surface, augmenter mensualité, éloigner trajet).` : ""}
+
+${campagneAlternatives.length > 0 ? `\n# Alternative "Quitter Paris pour la campagne" (à proposer si pertinent)
+
+Voici les ${campagneAlternatives.length} villages-gares TGV les moins chers du dataset (accès Paris en train ≥ 1h30 mais prix m² ≤ ${Math.round(budgetM2Max * 1.5)} €/m²). À UTILISER si :
+- Budget très contraint (tu ne trouves rien en cible standard sous ${budgetM2Max} €/m²)
+- ET frequenceParis = "jamais" ou "occasionnel" (le user accepte un trajet long)
+- OU si la ville principale dépasse le budget : tu mentionnes ces villages dans une section "**Alternative : si tu acceptes la vraie campagne**" en plus du verdict principal.
+
+${campagneAlternatives.map((c) => `${c.code_insee}|${c.nom}(${c.code_postal})|prix${c.prix_m2_median}€/m²|trajet${c.temps_trajet_paris_min}min|gare ${c.gare_acces?.nom ?? "TGV"} ${c.gare_acces?.trajet_min ?? "?"}min ${c.gare_acces?.mode ?? ""}`).join("\n")}
+
+Tu ne CITES PAS ces communes comme verdict principal si elles dépassent largement le tempsMax du user. Tu les utilises uniquement comme "voie alternative pour qui veut du sur-mesure budget".` : ""}
 
 # Communes candidates pré-filtrées (top ${candidates.length}, choisis 3 et classe-les)
 
