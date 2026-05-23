@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { breadcrumbJsonLd } from "@/lib/seo";
 import { faqJsonLd, type FAQ } from "@/lib/commune-faqs";
+import OnboardingTriggerButton from "@/components/OnboardingTriggerButton";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://vivre-pres-de-paris.fr";
@@ -556,20 +557,46 @@ export default function QuitterParisPillarPage() {
             </p>
           </div>
 
-          <div className="mt-7 flex flex-wrap gap-2.5">
+          {/* CTA HERO — quiz d'onboarding, premier funnel de conversion.
+              Le visiteur de cette pillar est déjà chaud sur "quitter Paris",
+              donc on lui propose direct le verdict personnalisé. */}
+          <div className="mt-7 max-w-md">
+            <OnboardingTriggerButton variant="hero" source="quitter-paris-hero" />
+          </div>
+
+          <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-brand-bleu/65">
+            <span className="inline-flex items-center gap-1">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-vert" />
+              Rapport IA personnalisé
+            </span>
+            <span className="inline-flex items-center gap-1">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-iris" />
+              Données DVF officielles
+            </span>
+            <span className="inline-flex items-center gap-1">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-bleu/60" />
+              Aucune carte bancaire
+            </span>
+          </div>
+
+          {/* Entrées secondaires en liens texte discrets */}
+          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px]">
+            <span className="text-brand-bleu/50">
+              Tu préfères lire d'abord ?
+            </span>
             <Link
               href="/comparer"
-              className="inline-flex items-center gap-1.5 rounded-2xl bg-brand-bleu px-4 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(82,98,122,0.25)] transition-transform hover:scale-[1.02]"
+              className="inline-flex items-center gap-1 font-medium text-brand-bleu underline-offset-4 hover:underline"
             >
-              <ArrowRightLeft className="h-3.5 w-3.5" />
+              <ArrowRightLeft className="h-3 w-3" />
               Compare 86 communes
             </Link>
             <a
               href="#cluster-pourquoi"
-              className="inline-flex items-center gap-1.5 rounded-2xl bg-white/80 px-4 py-2.5 text-sm font-medium text-brand-bleu shadow-[0_2px_8px_rgba(82,98,122,0.08)] backdrop-blur transition-transform hover:scale-[1.02]"
+              className="inline-flex items-center gap-1 font-medium text-brand-bleu underline-offset-4 hover:underline"
             >
               Commencer par "Pourquoi"
-              <ArrowRight className="h-3.5 w-3.5" />
+              <ArrowRight className="h-3 w-3" />
             </a>
           </div>
         </div>

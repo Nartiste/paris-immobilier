@@ -97,3 +97,48 @@ select {
     animation: none;
   }
 }
+
+/* CTA hero du quiz d'onboarding — pulse subtil pour attirer l'œil
+   sans agresser. Premier élément actionnable au-dessus du fold. */
+@keyframes hero-cta-pulse {
+  0%, 100% {
+    box-shadow:
+      0 10px 32px rgba(122, 102, 224, 0.45),
+      0 0 0 0 rgba(157, 140, 242, 0.5);
+  }
+  50% {
+    box-shadow:
+      0 10px 32px rgba(122, 102, 224, 0.45),
+      0 0 0 12px rgba(157, 140, 242, 0);
+  }
+}
+
+@keyframes hero-cta-halo-ring {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+}
+
+.hero-cta {
+  animation: hero-cta-pulse 2.8s ease-in-out infinite;
+}
+
+.hero-cta-halo {
+  animation: hero-cta-halo-ring 2.8s ease-in-out infinite;
+}
+
+.hero-cta:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-cta,
+  .hero-cta-halo {
+    animation: none;
+  }
+}

@@ -55,11 +55,12 @@ export default function HomeShell() {
  dangerouslySetInnerHTML={{ __html: JSON.stringify(topListJsonLd) }}
  />
 
- {/* HERO, gradient soft + H1 serif élégant */}
- <section className="relative overflow-hidden bg-gradient-to-br from-brand-iris-soft via-brand-blanc to-brand-vert-soft px-5 pt-12 pb-14 sm:px-7">
+ {/* HERO — CTA quiz dominant, premier élément actionnable au-dessus
+     du fold. Tout converge vers "Démasquer ma ville idéale". */}
+ <section className="relative overflow-hidden bg-gradient-to-br from-brand-iris-soft via-brand-blanc to-brand-vert-soft px-5 pt-9 pb-12 sm:px-7 sm:pt-12">
  <div
  aria-hidden
- className="absolute -right-12 -top-12 h-48 w-48 rounded-full bg-brand-iris/25 blur-3xl"
+ className="absolute -right-12 -top-12 h-56 w-56 rounded-full bg-brand-iris/30 blur-3xl"
  />
  <div
  aria-hidden
@@ -69,42 +70,71 @@ export default function HomeShell() {
  <div className="relative">
  <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 px-3 py-1 text-[11px] font-semibold tracking-wide text-brand-iris-strong shadow-[0_2px_8px_rgba(157,140,242,0.15)] backdrop-blur">
  <Sparkles className="h-3 w-3" />
- 80+ communes · DVF &amp; INSEE 2026
+ 173 communes scannées · DVF &amp; INSEE 2026
  </span>
- <h1 className="font-display mt-5 text-3xl font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">
- Tu veux vivre près de Paris ?<br />
+
+ <h1 className="font-display mt-4 text-[2rem] font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">
+ Le hack :{" "}
  <span className="italic font-medium text-brand-iris">
- Le comparateur pour acheter ou investir.
+ on te dit où acheter
  </span>
+ <br />
+ (vraiment).
  </h1>
- <p className="mt-5 max-w-prose text-sm leading-relaxed text-brand-bleu/80">
- Prix immobilier réel, temps de trajet vers Paris (TGV, RER,
- voiture), qualité de vie, futures gares Grand Paris Express.
- Filtre selon tes critères, ouvre la carte interactive ou demande au
- concierge IA.
+
+ <p className="mt-4 max-w-prose text-[15px] leading-relaxed text-brand-bleu/85 sm:text-base">
+ 173 communes scannées contre <strong>tes</strong> critères.{" "}
+ <span className="font-semibold text-brand-bleu">
+ 1 verdict en 4 clics.
+ </span>{" "}
+ Sans bla-bla, sans agent immo, sans inscription compliquée.
  </p>
- <div className="mt-6 flex flex-wrap gap-2.5">
- {/* CTA primary : ouvre le quiz d'onboarding. Plus visible que
- "Affiner mes critères" pour les nouveaux arrivants qui ne savent
- pas comment utiliser le comparateur. */}
- <OnboardingTriggerButton />
+
+ {/* CTA HERO — le bouton dominant de la page entière */}
+ <div className="mt-6 max-w-md">
+ <OnboardingTriggerButton variant="hero" source="home-hero" />
+ </div>
+
+ {/* Proof secondaire sous le bouton */}
+ <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-brand-bleu/65">
+ <span className="inline-flex items-center gap-1">
+ <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-vert" />
+ Rapport IA personnalisé
+ </span>
+ <span className="inline-flex items-center gap-1">
+ <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-iris" />
+ Données DVF officielles
+ </span>
+ <span className="inline-flex items-center gap-1">
+ <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-bleu/60" />
+ Aucune carte bancaire
+ </span>
+ </div>
+
+ {/* Entrées secondaires — déémphasées en liens texte discrets */}
+ <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px]">
+ <span className="text-brand-bleu/50">
+ Tu préfères explorer toi-même ?
+ </span>
  <a
  href="#filtres"
- className="inline-flex items-center gap-1.5 rounded-2xl bg-brand-bleu px-4 py-2.5 text-sm font-semibold text-white shadow-[0_4px_14px_rgba(82,98,122,0.25)] transition-transform hover:scale-[1.02]"
+ className="inline-flex items-center gap-1 font-medium text-brand-bleu underline-offset-4 hover:underline"
  >
- Affiner mes critères
- <ArrowRight className="h-3.5 w-3.5" />
+ Affine les critères
+ <ArrowRight className="h-3 w-3" />
  </a>
  <Link
  href="/blog/top-10-villes-pour-quitter-paris-2026"
- className="inline-flex items-center gap-1.5 rounded-2xl bg-white/80 px-4 py-2.5 text-sm font-medium text-brand-bleu shadow-[0_2px_8px_rgba(82,98,122,0.08)] backdrop-blur transition-transform hover:scale-[1.02]"
+ className="inline-flex items-center gap-1 font-medium text-brand-bleu underline-offset-4 hover:underline"
  >
- Lire le top 10
+ Top 10
+ <ArrowRight className="h-3 w-3" />
  </Link>
  </div>
+
  <a
  href="#top-10"
- className="mt-10 flex flex-col items-center gap-1.5 text-brand-bleu/50 transition-colors hover:text-brand-bleu"
+ className="mt-8 flex flex-col items-center gap-1.5 text-brand-bleu/50 transition-colors hover:text-brand-bleu"
  aria-label="Faire défiler jusqu'au Top 10 des communes"
  >
  <span className="text-[10px] font-medium uppercase tracking-[0.2em]">
