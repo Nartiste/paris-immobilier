@@ -13,6 +13,8 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { getSupabaseServer } from "@/lib/supabase";
+import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { injectCommuneLinks } from "@/lib/personal-report-linkify";
 import RapportAnalytics from "./RapportAnalytics";
 
 export const dynamic = "force-dynamic";
@@ -147,14 +149,23 @@ export default async function MonRapportPage({
     strong: ({ children }) => (
       <strong className="font-semibold text-brand-bleu">{children}</strong>
     ),
-    a: ({ children, href }) => (
-      <a
-        href={href}
-        className="font-medium text-brand-iris-strong underline decoration-brand-iris/30 underline-offset-2 transition-colors hover:decoration-brand-iris-strong"
-      >
-        {children}
-      </a>
-    ),
+    a: ({ children, href }) => {
+      const isInternal = typeof href === "string" && href.startsWith("/");
+      const className =
+        "font-medium text-brand-iris-strong underline decoration-brand-iris/30 underline-offset-2 transition-colors hover:decoration-brand-iris-strong";
+      if (isInternal) {
+        return (
+          <Link href={href} className={className}>
+            {children}
+          </Link>
+        );
+      }
+      return (
+        <a href={href} className={className}>
+          {children}
+        </a>
+      );
+    },
     hr: () => <hr className="my-12 border-t border-neutral-200" />,
   };
 
@@ -204,7 +215,7 @@ export default async function MonRapportPage({
       <div className="mx-auto max-w-3xl px-5 py-12 sm:px-7">
         <article className="text-neutral-800">
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
-            {report.report_markdown}
+            {injectCommuneLinks(report.report_markdown, SAMPLE_COMMUNES)}
           </ReactMarkdown>
         </article>
 
