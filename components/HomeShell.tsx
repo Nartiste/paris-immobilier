@@ -73,21 +73,17 @@ export default function HomeShell() {
  173 communes scannées · DVF &amp; INSEE 2026
  </span>
 
- <h1 className="font-display mt-4 text-[2rem] font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">
- Le hack :{" "}
+ <h1 className="font-display mt-5 text-3xl font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">
+ Tu veux vivre près de Paris ?<br />
  <span className="italic font-medium text-brand-iris">
- on te dit où acheter
+ Le comparateur pour acheter ou investir.
  </span>
- <br />
- (vraiment).
  </h1>
-
- <p className="mt-4 max-w-prose text-[15px] leading-relaxed text-brand-bleu/85 sm:text-base">
- 173 communes scannées contre <strong>tes</strong> critères.{" "}
- <span className="font-semibold text-brand-bleu">
- 1 verdict en 4 clics.
- </span>{" "}
- Sans bla-bla, sans agent immo, sans inscription compliquée.
+ <p className="mt-5 max-w-prose text-sm leading-relaxed text-brand-bleu/80">
+ Prix immobilier réel, temps de trajet vers Paris (TGV, RER,
+ voiture), qualité de vie, futures gares Grand Paris Express.
+ Filtre selon tes critères, ouvre la carte interactive ou demande au
+ concierge IA.
  </p>
 
  {/* CTA HERO — le bouton dominant de la page entière */}
