@@ -891,7 +891,7 @@ export default function OnboardingQuiz() {
               ) : (
                 <>
                   <Sparkles className="h-3.5 w-3.5" />
-                  Démasquer ma ville idéale
+                  Trouve ta ville idéale
                   <ArrowRight className="h-3.5 w-3.5" />
                 </>
               )}

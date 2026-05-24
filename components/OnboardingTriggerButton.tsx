@@ -52,7 +52,7 @@ export default function OnboardingTriggerButton({
           </span>
           <span className="flex flex-1 flex-col">
             <span className="text-base font-semibold leading-tight sm:text-lg">
-              Démasquer ma ville idéale
+              Trouve ta ville idéale
             </span>
             <span className="mt-0.5 text-[11px] font-medium text-white/85 sm:text-xs">
               Gratuit · 4 clics · Sans engagement

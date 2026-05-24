@@ -56,7 +56,7 @@ export default function HomeShell() {
  />
 
  {/* HERO — CTA quiz dominant, premier élément actionnable au-dessus
-     du fold. Tout converge vers "Démasquer ma ville idéale". */}
+     du fold. Tout converge vers "Trouve ta ville idéale". */}
  <section className="relative overflow-hidden bg-gradient-to-br from-brand-iris-soft via-brand-blanc to-brand-vert-soft px-5 pt-9 pb-12 sm:px-7 sm:pt-12">
  <div
  aria-hidden
