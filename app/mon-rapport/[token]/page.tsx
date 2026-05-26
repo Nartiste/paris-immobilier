@@ -75,7 +75,7 @@ export async function generateMetadata({
   }
 
   const title = `${report.prenom}, ton verdict personnalisé`;
-  const description = `Le hack : 173 communes scannées, 1 ville sort. La tienne. Plus 2 alternatives. Score de match, quartiers à viser, pièges à éviter.`;
+  const description = `Le hack : 175 communes scannées, 1 ville sort. La tienne. Plus 2 alternatives. Score de match, quartiers à viser, pièges à éviter.`;
 
   return {
     title,
@@ -205,7 +205,7 @@ export default async function MonRapportPage({
           </div>
 
           <p className="mt-5 text-sm leading-relaxed text-brand-bleu/75">
-            Pas de top 10 mou. Une recommandation. <strong>La tienne, {report.prenom}.</strong> 173 communes
+            Pas de top 10 mou. Une recommandation. <strong>La tienne, {report.prenom}.</strong> 175 communes
             scannées contre tes 6 réponses au quiz. Aucun autre Parisien n&apos;aura exactement le même verdict.
           </p>
         </div>
@@ -230,7 +230,7 @@ export default async function MonRapportPage({
               Voir le ranking complet
             </h3>
             <p className="text-xs leading-relaxed text-brand-bleu/65">
-              173 communes analysées, filtres ajustables.
+              175 communes analysées, filtres ajustables.
             </p>
             <span className="mt-auto inline-flex items-center gap-1 text-xs font-semibold text-brand-iris-strong">
               Explorer

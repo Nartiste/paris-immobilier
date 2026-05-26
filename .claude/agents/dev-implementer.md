@@ -45,7 +45,7 @@ paris-immo/
 ├── lib/                  # Logique partagée
 │   ├── blog-posts.ts     # Briefs articles (édité par content-engineer)
 │   ├── blog-content.ts   # Auto-généré par scripts/regenerate-blog.ts
-│   ├── sample-data.ts    # 173 communes seed
+│   ├── sample-data.ts    # 175 communes seed (173 IDF/TGV + Annecy + Chambéry)
 │   ├── transport-lines.ts # 24 lignes transport
 │   ├── store.ts          # Zustand state
 │   ├── supabase.ts       # Clients Supabase (anon + service_role)

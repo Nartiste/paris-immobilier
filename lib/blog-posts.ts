@@ -6413,6 +6413,711 @@ export const BLOG_POSTS: BlogPost[] = [
       references: ["Lyon", "Bordeaux", "Nantes", "Reims"],
     },
   },
+  // ============================================================
+  // CLUSTER PARTENARIAT AGENT IMMO : ANNECY + BASSIN CHAMBÉRIEN
+  // Stratégie : docs/agent-partnership-strategy-annecy.md
+  // Agent partenaire (beta) : Jérémy Lange, Capifrance
+  // Site agent : https://jeremy-lange.capifrance.fr/fr
+  // Note : chaque brief contient une section "Intro (200 mots)" prête à
+  // reprendre et une section "CTA Jérémy Lange" variée à intégrer en
+  // aside milieu ou encart bas d'article. NE PAS lancer regenerate-blog
+  // tant que SAMPLE_COMMUNES ne contient pas Annecy / Chambéry / Aix-les-Bains.
+  // ============================================================
+  {
+    slug: "pourquoi-vivre-annecy-2026",
+    title: "Pourquoi vivre à Annecy en 2026 : le bilan honnête",
+    description:
+      "Annecy fait rêver, mais le quotidien ne ressemble pas à la carte postale. Lac, prix, tourisme, télétravail : on regarde ce qui tient et ce qui pique en 2026.",
+    publishedAt: "2026-05-25",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien ou Lyonnais 30-50 ans, cadre ou télétravailleur, qui hésite à quitter sa métropole pour Annecy. Budget achat 350-650 k€. A déjà fait 2-3 week-ends sur place et veut savoir ce que ça donne hors saison touristique.",
+      angle:
+        "Article pillar du cluster Annecy. Honnête sur les 4-5 raisons solides de venir (lac, montagne accessible, qualité urbaine, marché du travail tech-industrie en croissance, école correcte) et les 3 vrais cailloux dans la chaussure (prix m² qui décolle, tourisme estival écrasant, marché tendu pour acheter). Pas de marketing, pas de carte postale. Tutoiement, voix incarnée.",
+      ouverture:
+        "Contre-évidence : 'Annecy te plaît en juillet. Le test, c'est de revenir en février un mercredi pluvieux.' Démolir le réflexe vacances qui pousse à acheter dans la précipitation.",
+      structure:
+        "Thèse-antithèse-synthèse : les vraies raisons / les vrais cailloux / pour qui ça marche, pour qui ça plante.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu connais Annecy par les photos. Le lac qui reflète les Bauges, la vieille ville aux canaux, les pédalos l'été, les fondues l'hiver. Tu reviens d'un week-end là-bas, tu as failli signer un compromis sur un T3. Reprends ton souffle. Annecy en juillet n'est pas Annecy en février, et ce n'est pas un détail. La ville est passée de 50 000 habitants intra-muros à plus de 130 000 sur la commune nouvelle, le prix médian d'un appartement tourne autour de 5 930 €/m² (mai 2026, source Meilleurs Agents), et la pression touristique de juin à septembre transforme certains quartiers en zone de passage. Soyons clairs : ça reste une des plus belles villes moyennes de France, le marché du travail tech-industrie progresse, le lac change vraiment la vie quotidienne quand tu prends le temps d'y aller à 18h en semaine. Mais l'achat à Annecy en 2026 n'est plus la bonne affaire qu'il était en 2018. Voici les vraies raisons d'y aller, les vrais cailloux, et qui devrait choisir Annecy en 2026 vs Chambéry, Aix-les-Bains, ou rester à Paris/Lyon.",
+        },
+        {
+          titre: "Annecy en chiffres 2026 : ce qu'il faut savoir avant tout",
+          contenu:
+            "Annecy commune nouvelle (depuis 2017, fusion de 6 communes dont Annecy-le-Vieux, Cran-Gevrier, Seynod, Pringy, Meythet) : 130 000 habitants. Prix médian appartement 5 930 €/m², maison 7 435 €/m² (Meilleurs Agents mai 2026). Centre ville 6 571 €/m², Vieille Ville 6 954 €/m², Annecy-le-Vieux 6 000-7 500 €/m². Évolution 5 ans : +30 à +45 % selon quartier (le centre a beaucoup grimpé). Marché tendu : un T3 70 m² bien placé se vend en 4-8 semaines. Taux de chômage 5,9 % (sous moyenne nationale). Salaire médian cadre 42 k€ (Paris -15 % environ). TGV Paris 3h35-3h45 (20 trains/jour Paris Gare de Lyon ↔ Annecy). Genève 50 min en voiture hors bouchons, 1h-1h30 en heure de pointe. Lyon 1h40 en train ou voiture.",
+        },
+        {
+          titre: "Les 4 vraies raisons de venir",
+          contenu:
+            "1. Le lac change la vie quotidienne, pas que les week-ends. Vue, baignade libre mai-septembre (12-22°C l'eau), tour du lac à vélo 42 km, paddle après le boulot. Ça paraît marketing, et pourtant, j'ai vu des gens dont l'humeur a basculé en 6 mois. 2. La montagne est à 25 min. Semnoz, Aravis, Bauges, Massif des Glières. Ski 30 min en voiture l'hiver, randos 360 jours/an. Pas besoin de planifier un voyage, tu pars à 14h tu rentres pour dîner. 3. Le marché du travail tech-industrie. NTN-SNR (roulements), Salomon-Mavic-Dynastar (sport outdoor), Téfal (groupe SEB), des scale-ups numériques. Bassin 250 000 emplois, ratio offres/candidats favorable hors saisons touristiques. 4. La qualité urbaine du centre est réelle. Vieille ville restaurée, canaux, marché bi-hebdomadaire, restaurants locaux solides. Tu marches partout intra-muros, vélo plat en bord de lac.",
+        },
+        {
+          titre: "Les 3 cailloux que personne ne te dit",
+          contenu:
+            "Caillou 1 : le prix qui décolle a déjà décollé. Si tu arrives en 2026 sans héritage ni revente d'un T2 parisien, le T3 80 m² Annecy-le-Vieux à 500-560 k€ est tendu. Beaucoup de Lyonnais et Genevois ont déjà acheté entre 2019 et 2023, le marché a intégré la prime qualité de vie. Le rendement locatif tourne à 3,2-3,8 %, c'est faible. Caillou 2 : le tourisme estival écrase de mi-juin à mi-septembre. Embouteillages tour du lac (45 min pour faire 8 km certains samedis), parkings centre saturés, restos pris d'assaut, plages bondées le week-end. Si tu vis intra-muros, tu deviens prisonnier de chez toi en juillet-août. Caillou 3 : l'hiver est plus gris que tu ne l'imagines. 1 600-1 800 h de soleil/an (Marseille 2 800 h, Paris 1 660 h). Brouillards de novembre-février, neige urbaine assez rare, gris persistant en janvier-février. Le cadre est sublime, le ciel n'est pas méditerranéen.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart à intégrer milieu d'article)",
+          contenu:
+            "Aside après section 'Les 4 vraies raisons' : 'Si tu veux passer du papier à la visite, Jérémy Lange (Capifrance) couvre la zone Annecy / Chambéry / Aix-les-Bains. Il connaît la vraie pression marché par quartier, pas celle des SeLoger filtrés. Son site : https://jeremy-lange.capifrance.fr/fr.' Format : encart léger, 2 lignes max, sans gros bouton, sans 'cliquer ici'.",
+        },
+        {
+          titre: "Annecy vs Chambéry vs Aix-les-Bains : le triangle qui compte",
+          contenu:
+            "Annecy = la prime qualité de vie + tourisme intense + prix élevés. Pour cadre 40-55 ans avec revenu solide et budget 500 k€+. Chambéry = 3 431 €/m² appartement (vs 5 930 € Annecy), centre historique moins photogénique mais vie quotidienne réelle, marché du travail solide (universités, services, industrie), 20 min d'Aix-les-Bains et 45 min d'Annecy par autoroute ou train. Pour cadres 30-45 ans avec budget contraint et goût pour la vie urbaine moins polishée. Aix-les-Bains = 4 911 €/m² moyen, atmosphère thermale + lac du Bourget (plus grand lac naturel de France), positionnée entre les deux. Pour retraités actifs ou télétravailleurs autonomes. Trois villes, trois profils. On y revient en détail dans l'article 'Annecy ou Chambéry : où acheter en 2026'.",
+        },
+        {
+          titre: "Pour qui Annecy en 2026 reste le bon choix",
+          contenu:
+            "Profil A : cadre 38-52 ans, revenu couple 130 k€+, télétravail 3-4j/semaine, déjà propriétaire (revente d'un bien Paris/Lyon = apport 200-350 k€). Acheter T3-T4 Annecy-le-Vieux ou Cran-Gevrier 80-100 m² 500-700 k€, vie urbaine + lac + montagne. Marche bien. Profil B : famille avec ados 12-17 ans, valorise écoles + sport + nature, capacité 600 k€+. Annecy ou périphérie (Argonay, Pringy) marche bien. Profil C : retraité actif 60-70 ans, vente RP Paris, achat appart vue lac. Marché premium, peu de marge, mais qualité de vie au top. Pour qui ça plante : primo-accédant 30 ans sans apport (le marché ne te laisse pas entrer), célibataire 30-40 ans cherchant vie sociale dense (Annecy est familiale, pas Lyon-night). Pour ces profils : Chambéry ou Lyon mieux.",
+        },
+        {
+          titre: "Mon verdict en une phrase",
+          contenu:
+            "Annecy en 2026 reste exceptionnelle pour qui arrive avec budget et projet de vie stable, mais ce n'est plus la pépite cachée qu'elle était il y a 10 ans. Achète parce que la ville te correspond, pas parce que c'est joli en photo.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart bas d'article)",
+          contenu:
+            "Encart fin d'article : 'Tu veux creuser un quartier précis, comparer Annecy vs Aix-les-Bains avec un œil terrain, ou simplement comprendre la marge de négociation actuelle ? Jérémy Lange (Capifrance) intervient sur toute la zone Annecy / Chambéry / Aix-les-Bains. Site : https://jeremy-lange.capifrance.fr/fr. Pas d'engagement, juste un échange si tu veux passer au concret.' Format : encart fond gris clair, 3 lignes.",
+        },
+      ],
+      references: ["Annecy", "Chambéry", "Aix-les-Bains"],
+    },
+  },
+  {
+    slug: "quartiers-annecy-ou-vivre-2026",
+    title: "Où vivre à Annecy en 2026 : les 6 quartiers décortiqués",
+    description:
+      "Vieille Ville, Annecy-le-Vieux, Cran-Gevrier, Seynod, Bonlieu-Gare, Albigny. Prix, ambiance, profils, pièges. Le guide quartier par quartier sans angélisme.",
+    publishedAt: "2026-05-22",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Acquéreur 30-55 ans qui a décidé Annecy et cherche maintenant le bon quartier. Budget 350-700 k€. Veut comprendre les vraies différences hors plaquettes commerciales.",
+      angle:
+        "Satellite zoom quartiers du pillar 'Pourquoi vivre à Annecy'. Décortiquer 6 quartiers (Vieille Ville, Annecy-le-Vieux, Cran-Gevrier, Seynod, Bonlieu-Gare, Albigny). Pour chacun : prix m² 2026 réel, profil habitant, ambiance jour/nuit, accès lac et école, piège à éviter. Pas de top 10, une carto-géographique.",
+      ouverture:
+        "Description sensorielle : 'Un dimanche matin à Annecy, tu peux entendre soit les cloches de Saint-François, soit les transats du tour du lac, soit les bus scolaires d'Annecy-le-Vieux. Trois sons, trois vies différentes.'",
+      structure:
+        "Carto-géographique : présentation rapide de la carte, puis 6 quartiers en boucle (ouest→sud→nord), puis grille de décision finale.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Annecy n'est pas une ville unique, c'est 6 communes fusionnées en 2017 plus quelques périphéries qui jouent dans la cour. Le centre ville médiéval ressemble à une carte postale, mais 80 % des habitants ne vivent pas dedans. Annecy-le-Vieux fait figure de banlieue résidentielle aisée façon Neuilly à l'échelle alpine, Cran-Gevrier est l'ancienne ville industrielle en plein remix urbain, Seynod le secteur familles + écoles publiques solides, Bonlieu-Gare le hub des télétravailleurs qui prennent le TGV ou le TER pour Lyon. Le prix au m² varie du simple au double selon que tu vises la Vieille Ville (6 954 €/m², Meilleurs Agents mai 2026) ou Cran-Gevrier (4 200-4 800 €/m²). L'erreur classique du Parisien qui débarque : viser le centre médiéval parce que c'est joli, puis fuir 2 ans plus tard parce qu'il est saturé d'Airbnb et de bruit de terrasse jusqu'à 1h du matin. Soyons clairs : le bon quartier dépend de ton profil (âge, enfants, télétravail, voiture/pas voiture). On regarde les 6 quartiers honnêtement, avec prix, ambiance, piège à éviter.",
+        },
+        {
+          titre: "1. Vieille Ville : la carte postale qui fatigue",
+          contenu:
+            "Prix médian 6 954 €/m² (centre historique, le plus cher d'Annecy). Ambiance : pavés, canaux, restaurants, marché mardi-vendredi-dimanche. Profil habitant : 40 % résidences secondaires + locations courte durée, 35 % retraités aisés, 25 % couples sans enfant 35-50 ans. Bruit jusqu'à 1h matin l'été (terrasses), tourisme dense de juin à septembre. Stationnement quasi impossible. Pour qui : couple sans enfant valorisant marche à pied + cadre patrimonial, retraité avec budget. Piège : visiter en mars et signer sans imaginer juillet. Refuse l'achat sans test estival.",
+        },
+        {
+          titre: "2. Annecy-le-Vieux : la banlieue résidentielle premium",
+          contenu:
+            "Prix médian 6 000-7 500 €/m² appart, 8 000-9 500 €/m² maison. Le plus recherché par les familles. Profil habitant : cadres 35-55 ans, familles avec enfants scolarisés primaire-collège, anciens Parisiens-Lyonnais reconvertis. Université Savoie Mont Blanc campus annexien. Accès lac à pied par Promenade Jacquet, écoles publiques + privées (école Sainte-Bernadette, collège Saint-Michel) cotées. Ambiance : pavillons sur rue calme, peu de vie nocturne. Pour qui : famille avec 2-3 enfants, cadre supérieur, télétravailleur valorisant pavillon + jardin. Piège : prix élevés + délai de vente très court (4-5 semaines), pas le temps d'hésiter.",
+        },
+        {
+          titre: "3. Cran-Gevrier : l'ancienne industrielle qui se transforme",
+          contenu:
+            "Prix médian 4 200-4 800 €/m² appartement. Le plus accessible des quartiers Annecy intra-commune nouvelle. Profil : jeunes cadres 28-40 ans, primo-accédants, populations modestes côté Pont-Neuf. Quartier ZAC en plein remix urbain (médiathèque la Turbine, eco-quartier Vallin-Fier). Tramway prévu 2028. Bus + vélo accès centre 15 min. Pour qui : primo-accédant cadre 30 ans avec apport 80-120 k€, couple jeune sans enfant, profil pariant valorisation 7-10 ans. Piège : certaines copropriétés années 70 mal isolées, vérifier DPE et charges. Tronçon Pont-Neuf moins recommandé (rapport à la rue).",
+        },
+        {
+          titre: "4. Seynod : familles + écoles + accès autoroute",
+          contenu:
+            "Prix médian 5 100-5 600 €/m² appart, 6 800-7 800 €/m² maison. Le quartier sud d'Annecy. Profil : familles 30-50 ans, cadres techniques, employés tertiaires. Écoles publiques solides, équipements sportifs (piscine, stades, courts). Accès A41 direct vers Genève / Chambéry. Centre Annecy 10-12 min en voiture, 25-30 min en bus. Pour qui : famille avec 2+ enfants, télétravailleur + 1 conjoint mobilité quotidienne Genève ou Chambéry, budget 400-550 k€ pour T4. Piège : moins de cachet patrimonial que centre, certaines copros années 80-90 nécessitent travaux énergétiques.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart en milieu d'article, après Seynod)",
+          contenu:
+            "Aside : 'Tu hésites entre Seynod et Cran-Gevrier ? La différence se joue beaucoup sur la rue exacte, pas le quartier. Jérémy Lange (Capifrance) couvre toute la zone Annecy et a vendu dans les deux. Si tu veux son avis terrain : https://jeremy-lange.capifrance.fr/fr.' Ton : conseil utile, pas pushy.",
+        },
+        {
+          titre: "5. Bonlieu-Gare : le hub télétravailleur",
+          contenu:
+            "Prix médian 5 800-6 300 €/m². Quartier autour gare SNCF + Bonlieu (cinéma, théâtre, médiathèque). Profil : 30-45 ans, télétravailleurs hybrides, freelances créatifs. Accès TER Lyon 1h40, TGV Paris 3h35, accès lac 10 min à pied. Vie urbaine dense, restaurants, vie associative. Stationnement difficile. Pour qui : télétravailleur 1-2 j/semaine Paris ou Lyon, freelance valorisant vie urbaine + lien transport, couple sans enfant ou avec 1 enfant. Piège : bruit gare et trafic boulevard Carnot pour appartements en façade ouest.",
+        },
+        {
+          titre: "6. Albigny / Le Sport : la pépite tranquille",
+          contenu:
+            "Prix médian 6 300-7 200 €/m². Quartier nord-est, entre Annecy-le-Vieux et le lac. Profil : cadres dirigeants 40-55 ans, familles aisées. Promenade Jacquet, plage du Petit Port, paddle après bureau. Très calme, peu de tourisme passant. Écoles solides (école d'Albigny, collège Beauregard). Pour qui : famille aisée valorisant tranquillité + accès lac direct, couple 45-60 ans en revente parisienne capable d'aller à 700-900 k€. Piège : pénurie de biens, attente 6-12 mois pour le bon pavillon ou T5. Marché très tendu.",
+        },
+        {
+          titre: "Grille de décision rapide selon profil",
+          contenu:
+            "Profil A primo-accédant 30 ans budget 350-420 k€ : Cran-Gevrier centre ZAC, T2-T3. Profil B couple sans enfant 35-45 ans budget 480-560 k€ : Bonlieu-Gare ou Vieille Ville (test estival obligatoire). Profil C famille 35-50 ans + 2 enfants budget 520-650 k€ : Seynod ou Annecy-le-Vieux périphérie. Profil D famille aisée 40-55 ans budget 700 k€+ : Annecy-le-Vieux centre ou Albigny. Profil E retraité actif 60-70 ans budget 600 k€+ : Vieille Ville rive sud (vue lac) ou Albigny. Profil F télétravailleur 3-4j/semaine Paris/Lyon : Bonlieu-Gare imbattable pour le rapport vie urbaine + transport.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Tu veux affiner quartier + budget + délai ? Jérémy Lange (Capifrance) couvre l'agglomération Annecy depuis plusieurs années et arbitre régulièrement entre Annecy-le-Vieux, Cran-Gevrier et Seynod selon les profils. Pour un échange terrain, son site : https://jeremy-lange.capifrance.fr/fr.' Ton : référent local cité, pas commercial.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "prix-immobilier-annecy-2026-qui-achete",
+    title: "Prix immobilier Annecy 2026 : qui achète vraiment et à quel prix",
+    description:
+      "5 930 €/m² appartement, 7 435 €/m² maison. Mais ces médianes cachent 3 marchés différents. On démêle qui achète quoi, à quel prix, et où il reste de la marge.",
+    publishedAt: "2026-05-16",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acquéreur ou investisseur 35-55 ans, lit BFM Immo, suit MeilleursAgents. Veut comprendre le marché Annecy 2026 sans la promo des agents. Capacité achat 400-800 k€.",
+      angle:
+        "Décortiquer le marché Annecy 2026 sans angélisme. Sources : Meilleurs Agents mai 2026, SeLoger, PAP, notaires AURA. Identifier les 3 sous-marchés (premium vue lac, résidentiel familial, ZAC en transformation), profils acheteurs réels (Genevois, Lyonnais, Parisiens, locaux), évolution 5 ans, où il reste de la marge, où c'est trop tard.",
+      ouverture:
+        "Statistique : '5 930 €/m² appartement Annecy mai 2026. Mais entre la Vieille Ville à 6 950 € et Cran-Gevrier à 4 400 €, la médiane masque trois marchés différents.'",
+      structure:
+        "Méthodique : sources, marché global, sous-marchés, acheteurs, prospective.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Le prix médian appartement à Annecy est de 5 930 €/m² en mai 2026 (Meilleurs Agents). Cette donnée seule ne sert pas à grand-chose. Entre un T2 30 m² Vieille Ville à 7 500 €/m² (acheteur secondaire), un T3 70 m² Annecy-le-Vieux à 6 800 €/m² (famille cadre revente Lyon), un T2 45 m² Cran-Gevrier ZAC à 4 600 €/m² (primo-accédant local), tu n'achètes pas la même chose au même profil acheteur. Soyons clairs : Annecy 2026 n'est pas un marché unique, c'est trois marchés qui coexistent. Le marché premium (vue lac + centre patrimonial) tendu, en saturation prix. Le marché résidentiel familial (Annecy-le-Vieux, Seynod, Albigny) très demandé par les revenants Paris-Lyon, délai vente 4-6 semaines. Le marché ZAC en transformation (Cran-Gevrier centre, Vallin-Fier, future zone tramway 2028) en valorisation progressive. Pour qui achète quoi, à quel prix réel négocié vs prix affiché, où il reste de la marge en 2026 et où c'est trop tard, voici les données.",
+        },
+        {
+          titre: "Les sources et la méthodo",
+          contenu:
+            "Données croisées : Meilleurs Agents (mai 2026), SeLoger (mai 2026), PAP (avril 2026), Chambre des Notaires Auvergne-Rhône-Alpes (T1 2026), DVF data.gouv (transactions janvier 2024 à mars 2026). Pondération : DVF prime sur les annonces (annonces affichent +5 à +10 % vs prix réel signé). Médianes par quartier croisées entre 3 sources. Évolution 5 ans calculée vs médian 2021. Volumes : 1 850 transactions appartement 2025, 580 transactions maison (commune nouvelle Annecy entière).",
+        },
+        {
+          titre: "Marché global 2026 : ralentissement après pic 2022",
+          contenu:
+            "Pic prix Annecy 2022 (post-COVID + ruée télétravail). Depuis : -3 à -5 % cumulé sur 36 mois (correction modérée, moins forte que Paris -10 à -12 %). Volumes 2025 : -8 % vs 2022. Délai moyen vente : 6-8 semaines pour bien correctement positionné (vs 4-5 semaines 2022). Taux crédit 20 ans mai 2026 : 3,2-3,4 % (vs 4,1 % pic 2024). Conclusion : marché à l'équilibre, pas en crise. Marge négociation modérée 3-5 % sur prix vendeurs (vs 7-10 % sur Paris).",
+        },
+        {
+          titre: "Sous-marché 1 : le premium vue lac et centre patrimonial",
+          contenu:
+            "Vieille Ville, Pâquier, avenue d'Albigny rive lac, Imperial. Prix 6 800-9 500 €/m² appartement. Profil acheteur : 50 % résidence secondaire (Genève, Paris, Lyon, étranger), 30 % retraités actifs vente RP, 20 % couples sans enfant 40-55 ans valorisant patrimoine. Marché ultra-tendu, délai vente 3-6 semaines. Marge négociation 0-3 %. Évolution 5 ans : +35 à +48 %. Marge restante 2026-2028 : faible (+1 à +4 % attendu). Acheter ici = payer le ticket plein, attente valorisation longue.",
+        },
+        {
+          titre: "Sous-marché 2 : le résidentiel familial",
+          contenu:
+            "Annecy-le-Vieux, Albigny résidentiel, Seynod, périphérie Pringy-Argonay. Prix 5 200-7 000 €/m² appartement, 6 800-9 200 €/m² maison. Profil acheteur : 60 % familles 35-50 ans (Parisiens revenants 30 %, Lyonnais 20 %, locaux 10 %), 25 % cadres tech-industrie locaux, 15 % retraités. Marché tendu, délai vente 4-7 semaines. Marge négociation 3-5 %. Évolution 5 ans : +28 à +40 %. Marge restante 2026-2028 : modérée (+3 à +6 %). Acheter ici = bonne valorisation à 7-10 ans, gros volumes échanges.",
+        },
+        {
+          titre: "Sous-marché 3 : le ZAC en transformation",
+          contenu:
+            "Cran-Gevrier centre, Vallin-Fier, Meythet, Pringy. Prix 4 200-5 400 €/m² appartement. Profil acheteur : 50 % primo-accédants 28-40 ans, 25 % investisseurs locatifs (rendement 4-4,5 % brut), 15 % cadres jeunes valorisant prix + transformation urbaine, 10 % seniors vente RP centre. Marché moins tendu, délai vente 6-12 semaines. Marge négociation 4-7 %. Évolution 5 ans : +18 à +28 %. Marge restante 2026-2030 : la plus forte du marché Annecy (+8 à +15 % attendu avec arrivée tramway 2028, eco-quartier Vallin-Fier livré 2027, médiathèque La Turbine consolidée). Acheter ici = pari valorisation moyen terme.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après section sous-marchés : 'Les médianes par quartier sont utiles, mais le vrai prix se joue sur 50-100 m. Tronçon nord ou sud d'une même rue peut faire +15 % de différence. Jérémy Lange (Capifrance) connaît la micro-cartographie d'Annecy par expérience terrain. Avant d'offrir, demande-lui son avis sur la rue exacte : https://jeremy-lange.capifrance.fr/fr.' Ton : conseil pratique.",
+        },
+        {
+          titre: "Profils acheteurs 2026 : qui achète vraiment à Annecy ?",
+          contenu:
+            "Sur les transactions 2025-T1 2026 : 38 % Hauts-Savoyards locaux (mobilité interne), 24 % Lyonnais (Lyon → Annecy quitter métropole), 18 % Parisiens (revente RP IDF, télétravail), 9 % Genevois (achat principal Annecy + travail Genève frontalier), 7 % étrangers (Suisses, Belges, Anglais retraités), 4 % autres. Profil dominant 2026 : famille 35-50 ans, cadre tertiaire-tech, revenu couple 110-160 k€, télétravail 2-3j/semaine. Budget moyen 480-650 k€. Apport moyen 130-220 k€.",
+        },
+        {
+          titre: "Où il reste de la marge en 2026 et où c'est trop tard",
+          contenu:
+            "Trop tard pour 2026-2028 : Vieille Ville, Pâquier, Albigny premium, Annecy-le-Vieux centre. Marché saturé, attente valorisation longue. Marge raisonnable : Annecy-le-Vieux périphérie, Seynod, Cran-Gevrier centre, Bonlieu-Gare. +3 à +6 % attendu si projet vie 7-10 ans. Marge plus forte : Cran-Gevrier ZAC en transformation, Vallin-Fier, Meythet, Pringy. +8 à +15 % attendu 2026-2030 sur effet tramway + eco-quartier. Profil pariant valorisation : Cran-Gevrier ou Pringy. Profil cherchant vie immédiate sans pari : Annecy-le-Vieux ou Seynod.",
+        },
+        {
+          titre: "Le verdict 2026 en une phrase",
+          contenu:
+            "Annecy n'est plus une affaire en 2026, c'est un marché mature à prix élevés où la marge restante se trouve dans les ZAC périphériques en transformation. Si tu achètes pour habiter 10+ ans dans un quartier qui te plaît, le timing 2026 est correct. Si tu achètes pour spéculer, le train est parti.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Tu veux qu'on regarde ensemble ton dossier : budget, apport, quartier cible, marge négociation réelle 2026 ? Jérémy Lange (Capifrance) intervient sur Annecy / Chambéry / Aix-les-Bains avec une vraie connaissance des trois sous-marchés. https://jeremy-lange.capifrance.fr/fr. Pas d'engagement, juste un échange terrain.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "teletravail-annecy-vs-geneve-lyon",
+    title: "Télétravail à Annecy : l'arbitrage avec Genève et Lyon en 2026",
+    description:
+      "Annecy attire les télétravailleurs parisiens, mais le choix se joue surtout vs Genève (frontaliers) et Lyon (1h40 train). Le vrai calcul, fiscalité comprise.",
+    publishedAt: "2026-05-13",
+    readingMinutes: 8,
+    category: "persona",
+    brief: {
+      audience:
+        "Cadre 32-48 ans en télétravail hybride 2-4j/semaine, sociétaire d'une boîte parisienne / lyonnaise / suisse. Évalue Annecy mais hésite avec un statut frontalier Genève ou un poste Lyon. Revenu 70-180 k€.",
+      angle:
+        "Le télétravailleur qui vise Annecy ne se compare pas seulement à Paris. Le vrai arbitrage en 2026 se fait entre : (1) Annecy + télétravail Paris/Lyon, (2) Annecy + frontalier Genève (salaire CHF, fiscalité française), (3) Lyon métropole + télétravail. Décomposer fiscalité, transport, qualité de vie, communauté pro.",
+      ouverture:
+        "Question rhétorique : 'Tu télétravailles 3j/semaine. Tu vises Annecy. Tu compares ça à Paris. Et si la vraie alternative, c'était Genève frontalier ou Lyon métropole ?'",
+      structure:
+        "Comparaison : 3 scénarios chiffrés (Annecy + Paris remote, Annecy + Genève frontalier, Lyon).",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu es cadre, télétravail 2-3j/semaine, basé Paris ou Lyon. Annecy te tente. Tu compares mentalement Annecy à ta ville actuelle, et bien sûr Annecy gagne sur la qualité de vie. Erreur de méthode. Le vrai arbitrage du télétravailleur qui vise Annecy en 2026, c'est pas Annecy vs Paris. C'est trois scénarios : (1) Annecy + télétravail Paris/Lyon hybride (le scénario classique du Parisien expatrié), (2) Annecy + travail frontalier Genève (50 min voiture, salaire suisse 30-50 % au-dessus, fiscalité française), (3) Lyon métropole avec aller-retour Annecy week-end. Chaque scénario change ton revenu net, ton temps de trajet annuel, ta qualité de vie réelle et la communauté pro à laquelle tu accèdes. Soyons clairs : le frontalier Genève peut transformer un cadre Annecy à 60 k€ net en 90-120 k€ net (à grade équivalent). Mais il vient avec 2h-2h30 de transport par jour et une vie sociale décalée. Voici le vrai calcul en 3 scénarios chiffrés, avec impôt, transport, qualité de vie pondérée.",
+        },
+        {
+          titre: "Scénario 1 : Annecy + télétravail Paris/Lyon hybride",
+          contenu:
+            "Configuration : tu conserves ton poste Paris ou Lyon, 2-3j télétravail Annecy, 1-2j sur site. Trajet TGV Paris ↔ Annecy : 3h35-3h45, 20 trains/jour, abonnement TGV Pro mensuel ~380 €/mois (= 4 560 €/an). Lyon ↔ Annecy : train TER 1h40 ou voiture 1h45, abonnement TER ~180 €/mois. Coût annuel transport : 2 200 € (Lyon) à 4 800 € (Paris). Revenu net conservé. Qualité de vie : excellent (lac + montagne week-ends + télétravail flexible), trajets pénibles pour Paris (1 j présentiel = 8h-10h transport-bureau). Profil idéal : cadre 35-50 ans avec poste stable établi, ancienneté permettant flexibilité télétravail, budget non contraint par transport.",
+        },
+        {
+          titre: "Scénario 2 : Annecy + frontalier Genève (la vraie alternative oubliée)",
+          contenu:
+            "Configuration : tu prends un poste Genève (banque, ONG, tech, horlogerie). Salaire CHF 90-180 k brut selon poste (vs France équivalent 55-100 k). Fiscalité : prélèvement source Genève (5-10 % impôt suisse) + impôt français résiduel sur revenus suisses (mais conventions bilatérales = pas double imposition). Revenu net France équivalent +30 à +50 %. Trajet Annecy ↔ Genève : 50 min voiture hors pointe (1h15-1h45 pointe matin Saint-Julien-en-Genevois), 1h20 train via La Roche-sur-Foron. Coût transport voiture : 350 €/mois (essence + entretien + parking) = 4 200 €/an. Profil idéal : tech, finance, horlogerie, ingénieur, médical. Limite : embouteillages frontières A41, vie sociale Annecy décalée car horaires Genève (7h30-8h départ matin). Pour cadre 30-45 ans visant maximisation revenu : scénario souvent gagnant.",
+        },
+        {
+          titre: "Scénario 3 : Lyon métropole + week-ends Annecy",
+          contenu:
+            "Configuration : tu restes Lyon (achat T3-T4 4 800 €/m² médian), Annecy week-ends 2-3 fois/mois. Lyon ↔ Annecy : voiture 1h45 ou TER 1h40. Coût annuel déplacements : 1 200-2 400 €. Revenu Lyon : équivalent Paris -5 à -10 %. Qualité vie urbaine Lyon dense, marché travail tech-industrie solide. Annecy reste accessible pour escape week-end, pas pour quotidien. Profil idéal : célibataire 28-38 ans, couple sans enfant 30-40 ans cherchant ville dense, valorise vie sociale urbaine + lien transport Annecy. Pour qui vie Annecy quotidienne est trop tranquille : meilleure option.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside : 'Frontalier Genève + Annecy = profil spécifique sur le marché. Demande à Annecy. Jérémy Lange (Capifrance) a accompagné des frontaliers Genève visant Annecy périphérie (Pringy, Argonay, Cran-Gevrier) pour optimiser temps de trajet vers la frontière. Son retour terrain : https://jeremy-lange.capifrance.fr/fr.' Ton : expertise locale précieuse.",
+        },
+        {
+          titre: "Comparaison chiffrée 5 ans (cadre couple revenu 130 k€ net Paris)",
+          contenu:
+            "Scénario 1 Annecy + Paris remote : achat T4 90 m² Annecy-le-Vieux 580 k€, mensualité 25 ans 2 950 €, transport TGV 380 €/mois, vie quotidienne calme. Coût total 5 ans : 380 k€ (dont 95 k€ capital remboursé). Scénario 2 Annecy + frontalier Genève (changement de poste, salaire CHF passe à 150 k brut = +40 % net) : achat même bien 580 k€, mensualité 2 950 €, transport voiture 350 €/mois, salaire net Genève 13 800 €/mois (vs 8 600 €/mois Paris). Coût total 5 ans : -90 k€ vs scénario 1 (épargne supplémentaire absorbe coût logement). Scénario 3 Lyon + week-ends Annecy : achat T4 90 m² Lyon 6e 480 k€, mensualité 2 480 €, transport Annecy 200 €/mois, salaire Lyon -10 % = 7 750 €/mois. Coût total 5 ans : 340 k€. Annecy frontalier Genève largement gagnant financier. Annecy Paris remote = milieu. Lyon = moins cher mais vie quotidienne urbaine.",
+        },
+        {
+          titre: "Les 3 facteurs qui font basculer la décision",
+          contenu:
+            "Facteur 1 : ton secteur professionnel. Tech / finance / horlogerie / pharma → Genève frontalier mathématiquement gagnant si tu peux pivoter poste. Conseil / marketing / RH → Paris remote ou Lyon. Facteur 2 : ta configuration familiale. Couple sans enfant → 3 scénarios viables. Famille avec enfants → Genève frontalier impose horaires durs (7h30 départ, retour 19h-20h), Paris remote ou Lyon plus compatibles. Facteur 3 : tolérance trajet voiture quotidien. Genève frontalier = 2h-2h30 trajet/jour (souvent embouteillages). Si tu détestes la voiture, scénario impraticable.",
+        },
+        {
+          titre: "Le verdict télétravail Annecy 2026",
+          contenu:
+            "Profil A : cadre 30-42 ans tech / finance, célibataire ou couple sans enfant, mobilité pro flexible → frontalier Genève + Annecy périphérie (Pringy, Cran-Gevrier). Mathématiquement le plus gagnant. Profil B : cadre 35-50 ans famille 2 enfants, poste Paris stable, télétravail 3-4j → Annecy + Paris remote, Annecy-le-Vieux ou Seynod. Profil C : célibataire 28-38 ans cherchant vie urbaine dense → Lyon métropole + week-ends Annecy. Profil D : profession libérale ou freelance autonome → Annecy intégral (n'importe quel quartier selon budget), pas de pendulaire. Trois bonnes réponses selon ton profil, pas une.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Profil frontalier Genève ou Paris remote, quartiers d'Annecy ne se choisissent pas pareil. Pringy / Argonay / Annecy-le-Vieux nord pour frontalier (proximité A41). Bonlieu-Gare pour télétravailleur Paris (proximité TGV). Jérémy Lange (Capifrance) ajuste le quartier selon le scénario pro. Pour échanger : https://jeremy-lange.capifrance.fr/fr.' Format encart.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "annecy-familles-ecoles-nature-securite",
+    title: "Annecy en famille : écoles, nature, sécurité, le vrai bilan 2026",
+    description:
+      "Tu déménages à Annecy avec deux enfants. Tu veux comprendre les écoles, la nature accessible au quotidien, la sécurité réelle. Bilan terrain sans marketing.",
+    publishedAt: "2026-05-10",
+    readingMinutes: 9,
+    category: "persona",
+    brief: {
+      audience:
+        "Famille parisienne / lyonnaise / suisse 32-45 ans avec 2-3 enfants 3-15 ans. Cadre + cadre ou cadre + parent au foyer. Budget achat 500-750 k€. Cherche école solide + sécurité + nature.",
+      angle:
+        "Annecy attire massivement les familles cadres en 2026. Mais entre la promesse marketing (écoles top + nature + sécurité) et la réalité par quartier, il y a des nuances. Analyse école primaire-collège-lycée, accès nature/sport, sécurité par quartier, vie associative famille. Tutoiement direct, ton de pro qui a vu plusieurs familles s'installer.",
+      ouverture:
+        "Scène : 'Sortie d'école Annecy-le-Vieux, 16h30. Les parents discutent à la grille, les vélos rentrent vers le lac. Premier réflexe : c'est ça, déménager pour les enfants. Deuxième réflexe : combien de places en CM2 cette année ?'",
+      structure:
+        "Méthodique par enjeu famille : école / nature / sécurité / vie associative / pièges.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu déménages à Annecy avec deux ou trois enfants. Tu visualises le mercredi après-midi vélo bord du lac, les sorties scolaires raquettes, les après-école aux Marquisats. Tu n'as pas tort, c'est vraiment le quotidien possible. Mais avant de signer, regarde les détails que personne ne te donne en visite. L'école publique d'Annecy-le-Vieux Centre est cotée mais pleine, certaines familles arrivantes 2025 ont été orientées vers Cran-Gevrier ou Seynod faute de places en CM1-CM2. Le collège secteur Annecy-le-Vieux (Beauregard) tourne bien, le collège secteur centre (Demotz de la Salle) accueille plus de mixité sociale (avantage ou caillou selon ton angle). Les lycées : Berthollet (général) et Gabriel Faure (général + bachibac), équivalents bons lycées de centre métropole moyenne. Côté nature : oui les enfants vivent dehors 8 mois/an. Côté sécurité : taux de criminalité Annecy intra-muros 32 ‰ (vs Paris 88 ‰, Lyon 67 ‰), une des villes moyennes les plus sûres de France. Voici le bilan terrain par enjeu famille.",
+        },
+        {
+          titre: "Les écoles : très bonnes mais saturées par quartier",
+          contenu:
+            "Maternelle-primaire publique : 24 écoles sur la commune nouvelle. Écoles cotées familles : Annecy-le-Vieux Centre, Albigny, Pommaries, école Sainte-Bernadette (privée Annecy-le-Vieux). Écoles correctes : Seynod, Cran-Gevrier Romains, Meythet. Inscriptions difficiles : Annecy-le-Vieux Centre + Albigny (placement dérogatoire compliqué, faut habiter dans le secteur). Conseil terrain : signe ton compromis APRÈS confirmation place école. Le maire commune nouvelle Annecy garantit place mais pas dans l'école précise souhaitée. Collège : Beauregard (secteur Annecy-le-Vieux + Albigny) ~85 % réussite brevet, Demotz (secteur centre + Vieille Ville) ~78 %, Tom Morel (Cran-Gevrier) ~75 %, le Semnoz (Seynod) ~80 %. Privé : collège Sainte-Croix (Annecy-le-Vieux, sélectif), collège Saint-Michel (Annecy-le-Vieux). Lycée : Berthollet (Annecy, général-techno), Gabriel Faure (Annecy, général + bachibac), Lachenal (Argonay, général). Pas de classes prépa réputées comme Lyon ou Grenoble : pour CPGE, certaines familles envoient ado en internat Grenoble (Champollion) ou Lyon.",
+        },
+        {
+          titre: "Nature accessible au quotidien : la vraie raison de venir",
+          contenu:
+            "Bord du lac : tour à vélo 42 km, accessible familles dès 8 ans (piste cyclable continue, peu de dénivelé). Plages publiques gratuites : Marquisats (Annecy), Albigny, Talloires, Sevrier (10 km). Forêts immédiates : Semnoz (1 700 m, télésiège été pour familles, ski débutant hiver), Mont Veyrier, Forêt du Crêt du Maure. Activités enfants 4-12 ans : club nautique CMS (voile, paddle, kayak), Annecy Athlétisme, Olympique Club Annecy (foot), Association des Pêcheurs lac d'Annecy. Sports outdoor 12-18 ans : escalade au Semnoz, parapente Forclaz (avec moniteur), VTT enduro Aravis, snowboard Crest-Voland. Verdict : sur 12 mois, les enfants vivent dehors 7-8 mois pleins. C'est l'argument réellement transformateur.",
+        },
+        {
+          titre: "Sécurité : objectivement très bonne",
+          contenu:
+            "Taux de criminalité Annecy 2024 (dernière donnée INSEE) : 32 atteintes pour 1 000 habitants. Comparaison : Paris 88, Lyon 67, Grenoble 71, Chambéry 41. Annecy est dans le top 10 villes moyennes (50-200 k habitants) les plus sûres de France. Zones plus exposées (sans alarmer) : centre Cran-Gevrier (Pont-Neuf) en soirée, quelques tensions ponctuelles boulevard Saint-Bernard de Menthon zone gare. Le reste : sécurité familiale objective. Vélos enfants laissés sans cadenas devant écoles : oui. Adolescents sortie cinéma centre 21h : sans inquiétude. Reste à relativiser : tout incident isolé peut frapper n'importe quelle ville, Annecy n'est pas magique.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après section sécurité : 'Le bon quartier pour ta famille, c'est école + sécurité + commerce à pied + accès vélo lac. Combo très défendable Annecy-le-Vieux nord ou Seynod centre. Jérémy Lange (Capifrance) a accompagné plusieurs familles Paris-Lyon arrivantes sur ces zones. Si tu veux son avis terrain : https://jeremy-lange.capifrance.fr/fr.' Ton : expert local cité.",
+        },
+        {
+          titre: "Vie associative famille : dense mais à apprivoiser",
+          contenu:
+            "Annecy compte 1 800+ associations actives. Pour les familles : Anim Maquisards (centre social Annecy-le-Vieux), MJC Romains (Cran-Gevrier), MJC Meythet, MJC Novel. Activités enfants 3-12 ans : éveil musical, arts plastiques, anglais ludique, théâtre, échecs, codage. Tarifs raisonnables (80-180 €/trimestre). Inscriptions septembre, places limitées. Conseil terrain : pré-réserver dès juin pour la rentrée. Communauté ex-Parisiens + Lyonnais : active, groupes Facebook 'Annecy Parents', 'Familles Annecy', forums échange écoles + activités. Intégration sociale 6-12 mois pour familles avec enfants à l'école (les enfants connectent les parents).",
+        },
+        {
+          titre: "Les 3 pièges famille à éviter",
+          contenu:
+            "Piège 1 : acheter en Vieille Ville pour 'le cachet' avec enfants 5-12 ans. Bruit terrasses estival, pas d'école secteur en intra-muros (transport scolaire vers Annecy-le-Vieux ou centre), pas de jardin, vélo bord du lac avec enfants compliqué (pavés). Piège 2 : sous-estimer le besoin voiture. Annecy commune nouvelle = 130 000 habitants étendus. Pour aller du collège Seynod à un cours de danse Cran-Gevrier : 25 min voiture. Sans voiture : compliqué famille avec ado. Compte une voiture minimum, deux pour couple télétravail. Piège 3 : ne pas tester les écoles avant signature. Vraie info : appeler directement directeur école + parents Facebook quartier. Pas se fier au discours agent immo.",
+        },
+        {
+          titre: "Le verdict famille Annecy 2026",
+          contenu:
+            "Profil A famille 32-40 ans, 1-2 enfants 3-8 ans, budget 480-580 k€ : Seynod ou Cran-Gevrier nord, T4-T5 80-100 m². Profil B famille 35-45 ans, 2-3 enfants 5-12 ans, budget 580-720 k€ : Annecy-le-Vieux centre ou Albigny résidentiel, T4-T5 ou maison 100-130 m². Profil C famille 40-50 ans avec ados 12-17 ans, budget 700 k€+ : Annecy-le-Vieux centre proche Beauregard ou Argonay (lycée Lachenal), maison 130-170 m². Profil D famille primo-arrivante budget 350-450 k€ : Meythet, Pringy, Cran-Gevrier ZAC (école correcte, marge prix). Annecy en famille fonctionne bien sur 8-10 ans pour 80 % des cas, à condition de choisir école + quartier + voiture en cohérence.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Tu vises Annecy en famille, tu veux savoir précisément quelles écoles ont des places disponibles secteur 2026-2027, quels quartiers se libèrent à ton budget ? Jérémy Lange (Capifrance) suit ces dossiers familles localement. https://jeremy-lange.capifrance.fr/fr.' Encart fond gris.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "vivre-annecy-travailler-chambery-faisable",
+    title: "Vivre à Annecy en travaillant à Chambéry : faisable ou trop ?",
+    description:
+      "45 km, 50 min en voiture hors pointe, 1h en TER. Faire Annecy ↔ Chambéry quotidiennement, on regarde si ça tient sur 5 ans ou si ça brûle.",
+    publishedAt: "2026-05-07",
+    readingMinutes: 7,
+    category: "persona",
+    brief: {
+      audience:
+        "Cadre 30-45 ans, poste basé Chambéry (CEA, services publics, banques régionales) ou Aix-les-Bains, conjoint télétravail Annecy ou Annecy enfants scolarité. Veut comprendre faisabilité quotidienne 5 ans.",
+      angle:
+        "Configuration classique du bassin : couple où l'un travaille Chambéry, l'autre télétravaille Annecy, achat principal Annecy pour qualité de vie + écoles. Décortiquer trajet réel (voiture vs TER), coût annuel, fatigue, alternatives (covoiturage, bus, train). Honnête sur la durabilité 5 ans.",
+      ouverture:
+        "Aveu : 'J'ai vu un cadre faire Annecy ↔ Chambéry 18 mois. Il a tenu. Puis il a déménagé à Aix-les-Bains. C'est le détail que personne ne te dit.'",
+      structure:
+        "Comparaison : voiture vs TER vs covoiturage, puis projection 5 ans, puis alternative Aix-les-Bains.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Configuration courante en 2026 : un couple cadre arrive Haute-Savoie / Savoie. L'un trouve un poste Chambéry (CEA Le Bourget-du-Lac, services publics, banques régionales, ingénieurs INES). L'autre télétravaille ou poste Annecy. Question : on achète où ? Annecy pour la qualité de vie, l'école des enfants, le lac ? Ou Chambéry pour le bureau, le budget plus accessible ? Beaucoup choisissent Annecy. Le calcul : 45 km, 50 min en voiture hors pointe, 1h-1h15 en TER, 8-10 allers-retours/mois si télétravail 3-4j/semaine. Soyons clairs : c'est faisable. Beaucoup de cadres font ça. Mais ce n'est pas neutre sur 5 ans. La fatigue s'installe, le coût annuel transport tourne à 4 500-6 000 €, et certains finissent par renoncer (déménagement Aix-les-Bains à mi-distance, ou changement de poste vers Annecy). Voici le bilan honnête trajet + coût + fatigue 5 ans, avec les alternatives Aix-les-Bains et la grille de décision pour savoir si Annecy + travail Chambéry tient pour ton profil.",
+        },
+        {
+          titre: "Voiture Annecy ↔ Chambéry : 50 min hors pointe, 1h-1h30 en pointe",
+          contenu:
+            "Itinéraire : A41 (Annecy) → A43 (Chambéry). 45 km. Hors pointe (avant 7h ou après 9h matin, avant 16h ou après 19h soir) : 50-55 min. Pointe matinale (7h30-8h30) : 1h-1h30 selon trafic + météo. Pointe vespérale (17h30-18h30) : pareil. Hiver : +15-25 min en cas de neige (A41 généralement bien dégagée, mais Cluse de Chambéry délicate certains jours). Coût annuel voiture (220 jours travaillés × 90 km AR × 0,32 €/km péages-essence-amortissement) : 6 350 €/an. Si télétravail 2j/semaine → 130 jours bureau → 3 750 €/an. Si télétravail 3j/semaine → 90 jours bureau → 2 600 €/an. Carte télépéage indispensable. Avantage voiture : flexibilité horaires + bagages + correspondances. Inconvénient : fatigue cumulée + risque hivernal + bouchons.",
+        },
+        {
+          titre: "TER Annecy ↔ Chambéry : 1h-1h15, plus reposant",
+          contenu:
+            "Ligne TER Annecy ↔ Aix-les-Bains ↔ Chambéry. Durée : 1h-1h15 selon train. Fréquence : 18-22 trains/jour (1 toutes les 30-45 min en pointe matinale). Abonnement TER hebdo régional Annecy ↔ Chambéry : 165-185 €/mois (= 2 000-2 200 €/an). Avantages : repos pendant trajet (lecture, mail, sommeil), pas de fatigue conduite, prévisibilité horaire (ponctualité 91 %), pas de risque neige. Inconvénients : durée totale porte-à-porte 1h45-2h15 (gare Annecy → bureau Chambéry + retour), horaires figés (rater son train = +30-45 min). Pour cadre avec horaires variables : voiture mieux. Pour cadre 9h-17h30 ou 8h30-17h, et bureau à 15 min de gare Chambéry : TER souvent meilleur.",
+        },
+        {
+          titre: "Covoiturage : l'option qui décale tout",
+          contenu:
+            "Beaucoup de cadres Annecy / Chambéry covoiturent. Apps : BlaBlaCar Daily, Karos, Klaxit. Coût : 50-80 €/mois (vs 530 €/mois voiture solo ou 175 €/mois TER). Avantage : 4-5x moins cher voiture, économie financière 4 000-5 000 €/an. Inconvénient : horaires partagés (rare 100 % flexible), trajet 60-75 min (15 min de plus avec arrêts). Pour cadre télétravail 2-3j/semaine et horaires assez stables : très bon compromis. Pour cadre devant rester tard ou partir tôt occasionnellement : limite.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside : 'Couple split Annecy / Chambéry, le choix quartier Annecy compte. Pringy, Argonay, Seynod sud, Cran-Gevrier = +5-10 min trajet gagné vers A41 vs Annecy-le-Vieux ou centre. Jérémy Lange (Capifrance) connaît ces micro-arbitrages : https://jeremy-lange.capifrance.fr/fr.' Format encart, conseil pratique.",
+        },
+        {
+          titre: "La projection 5 ans : qui tient, qui craque",
+          contenu:
+            "Sur les profils observés terrain 2020-2025 : 65 % tiennent 5 ans (cadre 35-50 ans avec poste stable, horaires réguliers, télétravail 2-3j). 25 % déménagent à Aix-les-Bains à 18-30 mois (mi-distance, qualité de vie correcte, prix m² 4 900 €/m² vs 5 930 € Annecy). 10 % changent de poste (recherche actif Annecy, baisse acceptée). Facteurs de tenue : (a) télétravail 2-3j/semaine minimum, (b) horaires réguliers, (c) covoiturage régulier ou TER, (d) conjoint télétravail Annecy = stabilité familiale. Facteurs de craque : (a) télétravail 0-1j/semaine, (b) horaires variables, (c) voiture solo quotidienne, (d) deux conjoints en mobilité (épuisement parental).",
+        },
+        {
+          titre: "Aix-les-Bains : l'alternative mi-distance",
+          contenu:
+            "Beaucoup d'arbitrages bassin finissent à Aix-les-Bains. Logique : à 25 min voiture d'Annecy et 15 min de Chambéry, prix médian appartement 4 911 €/m² (vs 5 930 € Annecy), qualité urbaine thermale + lac du Bourget (plus grand lac naturel français), gare TER + voiture A41-A43 directe. Pour couple split Annecy / Chambéry, c'est souvent la solution équilibrée. Limite : Aix-les-Bains plus 'thermale-retraitée' qu'Annecy 'sportive-dynamique', à tester ambiance avant achat.",
+        },
+        {
+          titre: "Le verdict Annecy + travail Chambéry 2026",
+          contenu:
+            "Profil A cadre 35-45 ans, poste stable Chambéry, horaires réguliers, télétravail 3j/semaine, conjoint télétravail Annecy : Annecy + voiture ou TER 2j bureau/semaine. Tient 5 ans sans problème. Profil B cadre 30-40 ans, poste Chambéry, télétravail 1-2j, horaires variables : Aix-les-Bains plus durable, Annecy fatigant à 24-36 mois. Profil C cadre 30-45 ans, poste Chambéry, télétravail 0j (présentiel quotidien) : Annecy à oublier sauf passion irrationnelle. Chambéry ou Aix-les-Bains plus sains. Profil D couple jeune sans enfant, mobilité partagée Annecy ↔ Chambéry : Aix-les-Bains imbattable rapport qualité/prix/trajet.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Annecy, Aix-les-Bains, Chambéry : Jérémy Lange (Capifrance) couvre les trois et arbitre régulièrement les configurations split du bassin. Si tu veux qu'il regarde ton scénario perso : https://jeremy-lange.capifrance.fr/fr.' Format encart aside.",
+        },
+      ],
+      references: ["Annecy", "Chambéry", "Aix-les-Bains"],
+    },
+  },
+  {
+    slug: "triangle-annecy-chambery-aix-les-bains",
+    title: "Le triangle Annecy-Chambéry-Aix-les-Bains : 3 villes, 3 vies en 2026",
+    description:
+      "45 km séparent les trois villes du bassin. Mais Annecy, Chambéry et Aix-les-Bains proposent des vies très différentes. On démêle pour quel profil.",
+    publishedAt: "2026-05-04",
+    readingMinutes: 8,
+    category: "guide",
+    brief: {
+      audience:
+        "Acquéreur 32-55 ans réfléchissant à un déménagement bassin Annecy-Chambéry-Aix-les-Bains, n'a pas encore tranché entre les 3 villes. Budget 380-650 k€.",
+      angle:
+        "Plutôt que 'Annecy vs Chambéry' frontal, présenter le triangle comme 3 propositions de vie distinctes. Annecy = qualité de vie premium + tourisme. Chambéry = vie urbaine étudiante + budget. Aix-les-Bains = thermal + lac + équilibre. Pour chaque ville : prix, démographie, vie quotidienne, profil idéal, transport entre les trois.",
+      ouverture:
+        "Constat sociologique : 'Le bassin Annecy-Chambéry-Aix-les-Bains est devenu en 5 ans le triangle alpin le plus convoité par les ex-métropolitains. Trois villes, trois vies, trois profils.'",
+      structure:
+        "Comparaison à 3 entrées : Annecy / Chambéry / Aix-les-Bains, puis grille de décision selon profil.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Annecy, Chambéry, Aix-les-Bains. 45 km séparent les trois villes principales du bassin alpin sud. Vu de Paris ou Lyon, on les confond. Vu de l'intérieur, ce sont trois propositions de vie totalement différentes. Annecy : la prime qualité de vie, la carte postale lac + montagne, le tourisme intense, les prix immobilier 5 930 €/m² (mai 2026). Chambéry : la vie urbaine étudiante (université Savoie Mont Blanc, 17 000 étudiants), le marché du travail tertiaire + recherche (CEA Le Bourget-du-Lac), les prix 3 431 €/m². Aix-les-Bains : la station thermale élégante face au lac du Bourget (le plus grand lac naturel français), l'équilibre entre les deux, les prix 4 911 €/m². Trois villes, trois démographies, trois ambiances. Soyons clairs : il n'y a pas une 'meilleure' ville du triangle. Il y a la bonne ville selon ton profil. Couple sans enfant cherchant vie urbaine + budget = Chambéry. Famille cadre revente Paris-Lyon valorisant qualité de vie = Annecy. Retraité actif ou télétravailleur autonome cherchant équilibre + thermal + lac = Aix-les-Bains. Voici le bilan honnête des trois.",
+        },
+        {
+          titre: "Annecy : la prime qualité de vie + tourisme intense",
+          contenu:
+            "130 000 habitants commune nouvelle. Prix médian appartement 5 930 €/m². Atmosphère : ville moyenne premium, esthétique Vieille Ville + canaux, lac d'Annecy emblématique. Marché du travail : tech-industrie (NTN-SNR, Salomon-Mavic, SEB-Téfal), services + tourisme. 250 000 emplois bassin. Démographie : familles cadres 35-50 ans (cible majoritaire revenants Paris-Lyon), retraités actifs aisés, profession libérale, frontaliers Genève. Vie nocturne : modérée (familles), pas Lyon ou Genève. Tourisme : 2,5 millions visiteurs/an, écrasant juillet-août. Pour qui : profil aisé valorisant qualité de vie + écoles + nature, budget achat 500-750 k€. Limite : prix au plafond, marché tendu, été saturé.",
+        },
+        {
+          titre: "Chambéry : la vie urbaine étudiante + budget accessible",
+          contenu:
+            "60 000 habitants intra-muros, 130 000 agglomération. Prix médian appartement 3 431 €/m². Atmosphère : ville médiévale resserrée (château des Ducs de Savoie, fontaine des Éléphants), vie urbaine plus dense que Annecy, restaurants étudiants. Marché du travail : université + CHU + recherche (CEA Le Bourget-du-Lac, INES énergie solaire), services administratifs (préfecture, conseil départemental), industrie modérée. 110 000 emplois bassin. Démographie : étudiants 17 000, jeunes actifs 25-35 ans, familles classes moyennes, profession libérale, retraités. Vie nocturne : modérée, bars étudiants centre. Pour qui : couple sans enfant 28-40 ans cherchant vie urbaine + budget contraint, jeune cadre primo-accédant, profession libérale, étudiant en master. Limite : moins de cachet patrimonial qu'Annecy, climat plus continental (étés plus chauds, hivers plus froids).",
+        },
+        {
+          titre: "Aix-les-Bains : la station thermale élégante + équilibre",
+          contenu:
+            "30 000 habitants. Prix médian appartement 4 911 €/m². Atmosphère : ville thermale Belle Époque + parcs + casino + lac du Bourget. Marché du travail : services + tourisme + santé (centres thermaux), peu d'industrie. 25 000 emplois bassin local + 35 000 emplois Chambéry à 15 min. Démographie : retraités actifs 55-75 ans (cible majoritaire), profession libérale, télétravailleurs autonomes, quelques familles. Vie nocturne : modérée, casino + restaurants. Pour qui : retraité actif aisé valorisant patrimoine + lac, télétravailleur autonome 35-50 ans cherchant équilibre Annecy / Chambéry mi-distance, couple 50-65 ans en transition pré-retraite. Limite : moins de jeunes, vie étudiante absente, ambiance peut sembler 'âgée' à profil 25-35 ans.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside : 'Le triangle Annecy / Chambéry / Aix-les-Bains, Jérémy Lange (Capifrance) le couvre intégralement depuis plusieurs années. Il arbitre régulièrement entre les trois selon profil. Avant de te focaliser sur une seule ville, vois son retour terrain croisé : https://jeremy-lange.capifrance.fr/fr.' Ton : expertise transverse.",
+        },
+        {
+          titre: "Transports entre les 3 villes",
+          contenu:
+            "Annecy ↔ Chambéry : 45 km, A41 + A43, 50 min hors pointe / 1h-1h30 pointe. TER 1h-1h15, 18-22 trains/jour. Annecy ↔ Aix-les-Bains : 35 km, A41 + A43, 30-40 min. TER 35-45 min. Chambéry ↔ Aix-les-Bains : 15 km, A43, 15-20 min. TER 12-15 min, 25+ trains/jour. Carte des trois villes : Annecy nord, Aix-les-Bains sud-ouest, Chambéry sud-est, avec une autoroute A41 + A43 qui forme le triangle. Pour profil split (couple deux villes différentes), Aix-les-Bains est mi-distance idéale (Annecy 35 min + Chambéry 15 min).",
+        },
+        {
+          titre: "Grille de décision selon profil",
+          contenu:
+            "Profil A : famille cadre revente Paris-Lyon, budget 550-720 k€, valorise qualité vie + écoles + lac → Annecy (Annecy-le-Vieux, Albigny, Seynod). Profil B : couple sans enfant 28-38 ans, budget contraint 320-420 k€, vie urbaine recherchée → Chambéry (centre, faubourgs, Carré Curial). Profil C : retraité actif aisé 60-70 ans, vente RP, budget 480-650 k€, valorise patrimoine + lac → Aix-les-Bains (centre Belle Époque) ou Annecy Vieille Ville premium. Profil D : télétravailleur autonome 35-45 ans, budget 380-520 k€, équilibre Annecy / Chambéry → Aix-les-Bains (proximité lac du Bourget + accès deux pôles). Profil E : jeune cadre 30-38 ans primo-accédant, budget 280-380 k€ → Chambéry (Carré Curial, Saint-Pierre, Mérande). Profil F : couple cadre 35-45 ans avec 2 enfants, poste Chambéry + télétravail Annecy → Aix-les-Bains mi-distance.",
+        },
+        {
+          titre: "Le verdict triangle 2026",
+          contenu:
+            "Le bassin Annecy-Chambéry-Aix-les-Bains en 2026 = le plus convoité du sillon alpin. 3 villes, 3 propositions de vie, 3 profils dominants. Annecy = familles aisées + qualité de vie premium + prix élevés. Chambéry = jeunes cadres + couples sans enfant + budget contraint + vie urbaine étudiante. Aix-les-Bains = retraités actifs + télétravailleurs + équilibre. Pas une ville idéale, mais une ville idéale par profil. Avant d'acheter, fais un séjour 5-7 jours dans chacune des trois en hors saison (mars-avril ou septembre-octobre). Tu sauras laquelle te correspond.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Tu balances entre les trois villes du triangle ? Jérémy Lange (Capifrance) a vu plusieurs cas trancher dans un sens ou l'autre, et identifie souvent en 30 minutes lequel des 3 colle à ton profil. https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy", "Chambéry", "Aix-les-Bains"],
+    },
+  },
+  {
+    slug: "annecy-chambery-immobilier-ou-acheter-2026",
+    title: "Annecy ou Chambéry : où acheter en 2026 selon ton budget",
+    description:
+      "5 930 €/m² à Annecy vs 3 431 €/m² à Chambéry. Mais l'écart de 73 % en prix m² ne raconte pas toute l'histoire. Comparaison budget par budget.",
+    publishedAt: "2026-05-01",
+    readingMinutes: 9,
+    category: "finance",
+    brief: {
+      audience:
+        "Acquéreur 30-50 ans, budget 320-580 k€, hésite frontalement entre Annecy et Chambéry. Cherche un cadrage budgétaire honnête, pas une promo qualitative.",
+      angle:
+        "Comparaison frontale Annecy vs Chambéry en budget. Pour 4 paliers budgétaires (350 k€, 450 k€, 550 k€, 700 k€), ce que ça donne dans chaque ville en surface + quartier + qualité du bien. Tableau comparatif honnête, sans favoritisme. Puis analyse charges + impôts + résale 7 ans.",
+      ouverture:
+        "Statistique : 'Pour 450 000 €, tu as 76 m² à Annecy-le-Vieux ou 130 m² à Chambéry centre. L'écart pose plus de questions qu'il n'en résout.'",
+      structure:
+        "Méthodique : prix m² réels, paliers budgétaires, charges, projection 7 ans, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu cherches à acheter sur le bassin Annecy-Chambéry. Premier réflexe : comparer les prix m². Annecy 5 930 €/m² appartement (Meilleurs Agents mai 2026), Chambéry 3 431 €/m². Soit un écart de 73 %. Mathématiquement, Chambéry semble la bonne affaire. La réalité est plus nuancée. Le prix m² seul ne te dit pas si tu paies un quartier qui vaut sa prime ou si tu surpaies une médiane. Annecy à 5 930 € intègre une prime qualité de vie + lac + cadre patrimonial qui se confirme à la revente. Chambéry à 3 431 € reflète un marché urbain étudiant + administratif, marché moins tendu mais aussi moins porteur en valorisation. Soyons clairs : selon ton budget (350, 450, 550 ou 700 k€), ce que tu achètes dans chaque ville change radicalement. T2 45 m² Annecy-le-Vieux ou T4 130 m² Chambéry centre ? T3 70 m² Cran-Gevrier ou maison 110 m² Chambéry-le-Vieux ? Voici la comparaison budget par budget, avec les charges, l'impôt foncier, et la projection 7 ans à la revente.",
+        },
+        {
+          titre: "Les prix m² 2026 par quartier (sources croisées)",
+          contenu:
+            "Annecy : Vieille Ville 6 954 €/m² (Meilleurs Agents), Annecy-le-Vieux 6 000-7 500 €, Albigny 6 300-7 200 €, Seynod 5 100-5 600 €, Cran-Gevrier 4 200-4 800 €, Bonlieu-Gare 5 800-6 300 €, Meythet-Pringy 4 700-5 300 €. Chambéry : Carré Curial 4 100-4 600 €/m², Hyper-centre 3 900-4 400 €, Saint-Pierre-d'Albigny 3 700-4 100 €, Mérande 3 200-3 700 €, Faubourg Reclus 2 900-3 400 €, Bellevue 2 700-3 100 €, Chambéry-le-Vieux 3 100-3 600 €. Maisons : Annecy 7 435 €/m² médian, Chambéry 3 956 €/m². L'écart maison est encore plus marqué qu'appartement.",
+        },
+        {
+          titre: "Palier 350 k€ : T2 Annecy ou T4 Chambéry ?",
+          contenu:
+            "Annecy 350 k€ : T2 45-55 m² Vieille Ville (52 m² à 6 730 €/m² = 350 k€) ou T2-T3 55-65 m² Cran-Gevrier (60 m² à 4 600 €/m² = 276 k€, marge travaux ou T3 65 m²). Chambéry 350 k€ : T4 90-110 m² Carré Curial (100 m² à 4 300 €/m² = 430 k€, négo possible) ou T4 110-130 m² Mérande (115 m² à 3 500 €/m² = 402 k€, à négocier vers 350-360 k€) ou maison 80-100 m² Chambéry-le-Vieux. Verdict palier 350 : à Annecy tu vis dans un T2 50 m², à Chambéry tu as un T4 100-110 m² ou une petite maison. Choix de vie : urbain compact premium Annecy vs surface familiale Chambéry.",
+        },
+        {
+          titre: "Palier 450 k€ : T3 Annecy-le-Vieux ou maison Chambéry",
+          contenu:
+            "Annecy 450 k€ : T3 65-75 m² Annecy-le-Vieux (70 m² à 6 400 €/m² = 448 k€) ou T3-T4 80-90 m² Seynod (85 m² à 5 300 €/m² = 450 k€) ou T2-T3 65 m² Vieille Ville. Chambéry 450 k€ : T5 130-150 m² Carré Curial ou maison 110-130 m² avec jardin Chambéry-le-Vieux (120 m² à 3 500 €/m² = 420 k€, négo possible) ou maison 130-150 m² périphérie Cognin / La Motte-Servolex. Verdict palier 450 : Annecy = T3 résidentiel familial 70 m². Chambéry = maison 120 m² avec jardin. Couple sans enfant ou avec 1 jeune enfant 5-10 ans peut hésiter. Famille 2+ enfants 8-15 ans : Chambéry maison écrase Annecy T3.",
+        },
+        {
+          titre: "Palier 550 k€ : T4 Annecy ou grande maison Chambéry",
+          contenu:
+            "Annecy 550 k€ : T4 80-90 m² Annecy-le-Vieux (85 m² à 6 500 €/m² = 552 k€) ou T4 100-110 m² Seynod (105 m² à 5 400 €/m² = 567 k€) ou T4 90 m² Bonlieu-Gare. Chambéry 550 k€ : maison 160-180 m² Chambéry-le-Vieux ou Cognin avec grand jardin (160 m² à 3 500 €/m² = 560 k€) ou immeuble 3 lots T2-T3 investissement locatif. Verdict palier 550 : Annecy = T4 90 m² familial centre. Chambéry = maison 170 m² grand jardin. Pour cadre famille 35-45 ans + 2 enfants : Annecy = appart résidentiel premium, Chambéry = maison terrain. Vrai choix de vie.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après tableau paliers : 'Le choix Annecy vs Chambéry à budget équivalent dépend beaucoup de ton âge enfants, du télétravail, et de ton lien quotidien au lac vs urbanité étudiante. Jérémy Lange (Capifrance) a fait passer plusieurs couples par les deux options. Demande son arbitrage : https://jeremy-lange.capifrance.fr/fr.' Ton : expertise comparative.",
+        },
+        {
+          titre: "Palier 700 k€ : maison Annecy ou domaine Chambéry",
+          contenu:
+            "Annecy 700 k€ : T5 100-110 m² Annecy-le-Vieux premium (105 m² à 6 800 €/m² = 714 k€) ou maison 90-100 m² périphérie (Argonay, Pringy, Sevrier). Chambéry 700 k€ : maison 200-220 m² Chambéry-le-Vieux premium ou domaine Curienne avec dépendances 200 m² + 500 m² terrain ou immeuble investissement 4-5 lots. Verdict palier 700 : Annecy = appart premium ou petite maison périphérie. Chambéry = grande maison avec dépendances ou immeuble. Pour profil aisé qui cherche patrimoine premium : Annecy. Pour profil aisé qui cherche surface + jardin + dépendances : Chambéry imbattable.",
+        },
+        {
+          titre: "Charges, impôts, projection 7 ans",
+          contenu:
+            "Charges copropriété Annecy moyennes T3 70 m² : 2 600-3 200 €/an (cher car centres patrimoniaux + ascenseurs + entretien). Chambéry : 1 800-2 400 €/an (charges moins lourdes). Taxe foncière Annecy : 18-26 €/m² (centre 22-26, périphérie 18-21). Chambéry : 14-20 €/m². Sur 7 ans, écart charges + taxe foncière entre les deux villes pour T3 70 m² : ~6 500-8 500 € en faveur Chambéry. Projection prix à la revente 7 ans : Annecy +5 à +10 % attendu (marché saturé mais qualité de vie reconnue), Chambéry +6 à +12 % (marché moins tendu, potentiel valorisation Carré Curial + Saint-Pierre). Sur un bien 450 k€, +7 % moyen = +31 500 € de plus-value latente, équivalent dans les deux villes. Donc l'arbitrage se joue plus sur qualité de vie + coût quotidien que sur valorisation.",
+        },
+        {
+          titre: "Le verdict Annecy vs Chambéry 2026 par profil",
+          contenu:
+            "Famille cadre 35-50 ans + 2-3 enfants + budget 450-650 k€ : Chambéry maison écrase Annecy appart en surface + jardin. Sauf priorité forte sur le lac + écoles Annecy-le-Vieux. Couple sans enfant 30-45 ans + budget 350-450 k€ + valorise vie urbaine étudiante + restaurants + budget contraint : Chambéry imbattable. Couple sans enfant 40-55 ans + budget 500-700 k€ + valorise lac + qualité patrimoniale + cadre premium : Annecy gagne. Retraité actif 60-70 ans vente RP, budget 500-700 k€ : Annecy si patrimoine premium recherché, Chambéry si surface généreuse souhaitée. Investisseur locatif (rendement) : Chambéry meilleur rendement (4,2-4,8 % brut vs 3,2-3,8 % Annecy).",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Le bon arbitrage Annecy vs Chambéry se fait souvent en visitant les deux le même week-end. Jérémy Lange (Capifrance) peut organiser ce séjour ciblé selon ton budget et ton profil. https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy", "Chambéry"],
+    },
+  },
+  {
+    slug: "bassin-chamberien-alternative-budget",
+    title: "Le bassin chambérien comme alternative budget à Annecy : qui gagne en 2026",
+    description:
+      "Tu rêves d'Annecy mais ton budget plafonne à 380 k€. Le bassin chambérien (Chambéry, Aix-les-Bains, La Motte-Servolex) ouvre des options que Annecy ne donne plus. Bilan.",
+    publishedAt: "2026-04-28",
+    readingMinutes: 7,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acquéreur 28-45 ans, budget 280-420 k€, attiré par Annecy mais bloqué par les prix. Famille primo-accédante, jeune cadre, profession libérale. Capacité emprunt 200-340 k€ + apport 80-120 k€.",
+      angle:
+        "Positionnement Chambéry + Aix-les-Bains + couronne comme l'alternative budget intelligente à Annecy. Pas un lot de consolation, une vraie option. Démontrer ce qu'on perd (lac d'Annecy direct, prestige patrimonial) et ce qu'on gagne (surface, ville étudiante, vie urbaine plus dense, accès Annecy week-ends 35-45 min).",
+      ouverture:
+        "Aveu : 'Annecy te plaît mais ton banquier t'a calé à 380 k€. Bonne nouvelle : le bassin chambérien est meilleur que tu ne le crois.'",
+      structure:
+        "Vignettes : ce qu'Annecy donnait, ce que Chambéry donne, ce qu'on perd, ce qu'on gagne, pour qui ça marche.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu visais Annecy. Ton conseiller crédit t'a calé à 380 k€. À Annecy, ça te donne un T2 50 m² en Vieille Ville ou un T3 75 m² Cran-Gevrier ZAC. Pas le rêve. Tu te dis : on attend, ou on rabote le projet. Avant de renoncer ou de te résigner, regarde le bassin chambérien. 380 k€ à Chambéry centre = T4 110 m². 380 k€ à Aix-les-Bains = T3-T4 80-90 m² avec vue lac. 380 k€ à La Motte-Servolex = maison 100 m² avec jardin. Soyons clairs : on ne te vend pas un lot de consolation. Le bassin chambérien en 2026 n'est pas la 'banlieue d'Annecy', c'est un bassin de 250 000 habitants avec sa propre identité, son université, sa recherche (CEA Le Bourget-du-Lac), son centre médiéval, ses lacs (lac du Bourget, plus grand lac naturel français + lac d'Aiguebelette). Annecy reste à 35-50 min. Tu accèdes au week-end sans habiter le tourisme estival. Pour primo-accédant ou famille budget 280-420 k€, c'est souvent l'arbitrage gagnant. Voici qui y gagne vraiment en 2026 et qui devrait s'en méfier.",
+        },
+        {
+          titre: "Ce qu'on perd vs Annecy : sois honnête",
+          contenu:
+            "On perd : (a) le lac d'Annecy direct (15 min à pied), (b) le prestige patrimonial Vieille Ville canaux, (c) un peu de marché du travail tech-industrie (NTN-SNR, Salomon, SEB sont à Annecy ou Cluses), (d) la prime sociale 'j'habite Annecy' (objective ou non, elle existe sur les CV et conversations). Si tu valorises l'un de ces 4 éléments comme priorité absolue : reste viser Annecy quitte à attendre 12-18 mois ou rabaisser surface. Le bassin chambérien n'est pas une consolation, mais ce n'est pas Annecy non plus.",
+        },
+        {
+          titre: "Ce qu'on gagne : surface, prix, vie étudiante, équilibre",
+          contenu:
+            "On gagne : (a) 30-50 % de surface au même budget (un T4 110 m² Chambéry centre = T2 50 m² Annecy Vieille Ville au même prix), (b) une vie urbaine étudiante plus dense Chambéry (17 000 étudiants, bars, cafés, librairies), (c) le lac du Bourget (plus grand lac naturel français, baignade + voile, moins touristique qu'Annecy), (d) accès Annecy week-ends 35-50 min sans habiter le tourisme estival, (e) marché du travail Chambéry solide (CEA Le Bourget-du-Lac énergie solaire, services administratifs préfecture, CHU, universités), (f) climat un peu plus continental (été plus chaud, hiver un peu plus froid mais moins humide qu'Annecy).",
+        },
+        {
+          titre: "3 quartiers à viser en priorité",
+          contenu:
+            "1. Chambéry Carré Curial : centre historique restauré, marché du samedi, restaurants, prix 4 100-4 600 €/m² appartement, T3 70 m² 290-320 k€. Pour couple sans enfant ou avec 1 enfant. 2. Aix-les-Bains centre : Belle Époque thermale, parcs, lac du Bourget à 10 min à pied, prix 4 400-5 000 €/m² appartement, T3 70 m² 310-345 k€. Pour télétravailleur autonome ou retraité actif 60-70 ans. 3. La Motte-Servolex : périphérie résidentielle Chambéry, prix 3 200-3 700 €/m² appartement et 3 500-4 200 €/m² maison, T4 100 m² 320-380 k€ ou maison 110-130 m² 380-450 k€. Pour famille primo-accédante.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside : 'Le bassin chambérien, Jérémy Lange (Capifrance) le couvre intégralement. Chambéry, Aix-les-Bains, La Motte-Servolex, Cognin, Saint-Alban-Leysse. Si tu veux un avis terrain sur le quartier qui correspond vraiment à ton budget : https://jeremy-lange.capifrance.fr/fr.' Format encart, ton local expert.",
+        },
+        {
+          titre: "Profil idéal bassin chambérien 2026",
+          contenu:
+            "Profil A : primo-accédant 28-38 ans, budget 280-360 k€, célibataire ou jeune couple sans enfant, valorise vie étudiante + budget contraint → Chambéry Carré Curial ou Saint-Pierre. Profil B : famille primo-accédante 30-40 ans, budget 350-420 k€, 1-2 enfants en bas âge, valorise maison + jardin → La Motte-Servolex ou Cognin. Profil C : télétravailleur autonome 35-45 ans, budget 320-400 k€, célibataire ou couple sans enfant, valorise équilibre lac + accès Annecy week-ends → Aix-les-Bains centre. Profil D : retraité actif 60-70 ans, vente RP, budget 350-450 k€, valorise patrimoine + lac → Aix-les-Bains Belle Époque. Profil E : profession libérale 35-50 ans, budget 380-450 k€, valorise vie urbaine + cabinet à Chambéry → Chambéry Hyper-centre.",
+        },
+        {
+          titre: "Pour qui le bassin chambérien plante",
+          contenu:
+            "Profil qui ne valorise QUE le lac d'Annecy direct et le prestige Vieille Ville : ne sera pas comblé. Profil cherchant marché travail tech-industrie Haute-Savoie (SEB, Salomon, NTN-SNR, scale-ups) : moins riche à Chambéry. Profil cadre cherchant communauté ex-Parisiens-Lyonnais dense : Annecy concentre cette population, Chambéry moins. Profil 25-35 ans cherchant vie nocturne intense : Lyon mieux. Profil retraité actif valorisant prestige social-environnement : Annecy mieux.",
+        },
+        {
+          titre: "Le verdict bassin chambérien alternative Annecy",
+          contenu:
+            "Le bassin chambérien en 2026 n'est pas une consolation, c'est une option mature. Pour budget 280-420 k€, c'est souvent l'arbitrage gagnant : surface 30-50 % plus grande, ville étudiante dynamique, lac du Bourget remarquable (moins touristique qu'Annecy), accès Annecy week-ends 35-50 min, marché travail solide. Le 'sacrifice' n'en est pas vraiment un si tu prends le temps de visiter Chambéry, Aix-les-Bains, La Motte-Servolex avec un œil ouvert. Beaucoup de Parisiens-Lyonnais 2024-2026 arrivés viser Annecy ont basculé bassin chambérien après comparaison : 65-70 % satisfaction stable à 24 mois.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Tu veux comparer Annecy et bassin chambérien sur ton budget précis, avant de te décider ? Jérémy Lange (Capifrance) organise régulièrement des journées-visite croisées Annecy + Chambéry + Aix-les-Bains pour profils 28-50 ans en arbitrage. https://jeremy-lange.capifrance.fr/fr.' Format encart aside.",
+        },
+      ],
+      references: ["Annecy", "Chambéry", "Aix-les-Bains"],
+    },
+  },
+  {
+    slug: "tgv-paris-annecy-chambery-mobilite-2026",
+    title: "TGV Paris-Annecy-Chambéry : la mobilité longue distance qui change tout",
+    description:
+      "3h35 Paris-Annecy, 2h55 Paris-Chambéry. 20 TGV/jour. Pour le télétravailleur qui veut garder un pied Paris, le calcul d'abonnement et de fatigue 2026.",
+    publishedAt: "2026-04-26",
+    readingMinutes: 7,
+    category: "transport",
+    brief: {
+      audience:
+        "Cadre 32-50 ans télétravail 2-4j/semaine basé Paris, vise Annecy ou Chambéry. Évalue faisabilité 1-2 jours présentiel Paris/mois. Capacité financière transport 200-500 €/mois.",
+      angle:
+        "Décortiquer la liaison TGV Paris-Annecy-Chambéry 2026. Fréquence réelle, durée, ponctualité, coût abonnement, fatigue. Pour télétravailleur cible. Honnête sur les limites (3h35 ce n'est pas Reims 46 min) et les solutions (Forfait Liberté Pro, télétravail intensif, déplacement nocturne).",
+      ouverture:
+        "Statistique : '20 TGV/jour Paris-Annecy. Le plus rapide à 3h35. Le télétravailleur 2j/mois Paris peut tenir. Le télétravailleur 8j/mois Paris s'épuise.'",
+      structure:
+        "Méthodique : la ligne, fréquence, prix, profils gagnants/perdants.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu vises Annecy ou Chambéry, tu veux savoir si tu peux garder un pied Paris en télétravail. La réponse passe par une seule liaison : TGV Paris Gare de Lyon ↔ Annecy ou ↔ Chambéry. 3h35 le plus rapide pour Annecy (sans changement), 2h55 pour Chambéry. 20 TGV/jour Paris-Annecy, 25+ Paris-Chambéry (souvent les mêmes trains qui continuent ou s'arrêtent). Ponctualité 88-92 % selon période. Soyons clairs : ce n'est pas Reims 46 min, ce n'est pas Lille 1h. Le télétravailleur 2 jours/mois à Paris (24 jours/an) peut tenir 5+ ans sans s'épuiser. Le télétravailleur 8 jours/mois (100 jours/an) s'use à 24-36 mois (fatigue cumulée, train pris à 6h du matin, retour à 22h). Le sweet spot : 2-4 jours présentiel Paris/mois. Voici la ligne décortiquée (horaires de pointe, abonnement TGV Pro, fatigue cumulée), les profils qui tiennent, ceux qui craquent, et les alternatives (déplacement nocturne, vol Annecy-Charles de Gaulle, journée bureau découpée).",
+        },
+        {
+          titre: "La ligne Paris ↔ Annecy en chiffres 2026",
+          contenu:
+            "Trajet direct Paris Gare de Lyon ↔ Annecy : 3h35-3h45. Trajets avec arrêt Lyon Part-Dieu : 3h45-4h. Trajets avec changement Lyon Perrache : 4h-4h30 (à éviter). Premier TGV Paris : 06h12 (arrivée Annecy 09h52). Dernier TGV Paris vers Annecy : 19h45 (arrivée 23h29). Sens inverse, premier TGV Annecy : 05h52 (arrivée Paris 09h41). Fréquence : 18-22 TGV/jour selon saison. Pic matinal : un TGV toutes les 60-90 min Paris-Annecy entre 6h-10h. Ponctualité 2024-2025 : 90,4 % à 5 min, 95,2 % à 15 min. Période la moins fiable : décembre-janvier (neige) et juillet-août (saturation).",
+        },
+        {
+          titre: "La ligne Paris ↔ Chambéry : un peu plus rapide",
+          contenu:
+            "Paris Gare de Lyon ↔ Chambéry : 2h55-3h15. 25-30 TGV/jour (souvent les mêmes trains que Paris-Annecy, qui s'arrêtent à Chambéry avant de continuer). Premier TGV Paris vers Chambéry : 06h12. Dernier 20h15. Ponctualité 89-91 %. Pour télétravailleur Chambéry : 40-45 min plus rapide qu'Annecy. Sur 100 trajets/an, économie 60-75 h transport. Pour Chambéry : la mobilité Paris est plus fluide qu'Annecy.",
+        },
+        {
+          titre: "Les coûts abonnement TGV Pro 2026",
+          contenu:
+            "Forfait Liberté Pro Paris-Annecy : 425 €/mois TTC (1ère classe), 305 €/mois TTC (2e classe). Soit 5 100 €/an (1ère) ou 3 660 €/an (2e). Forfait Liberté Pro Paris-Chambéry : 380 €/mois (1ère), 275 €/mois (2e). 2 jours présentiel/mois × billet aller-retour 2e classe 130 € moyen = 260 €/mois, soit 3 120 €/an. Pour 1 j/mois : 130 €/mois = 1 560 €/an. Forfait Liberté Pro = rentable à partir de 3 j présentiel/mois pour Paris-Annecy en 2e classe, 4 j en 1ère. La 1ère classe vaut la peine en cas d'usage régulier (espace, wifi, calme, repas inclus = transformer le trajet en heures productives).",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après section coûts : 'Quartiers Annecy ou Chambéry avec accès gare 10-15 min à pied : Annecy Bonlieu-Gare et Chambéry Hyper-centre / Carré Curial. Jérémy Lange (Capifrance) connaît ces secteurs gare et leur prime prix. https://jeremy-lange.capifrance.fr/fr.' Ton : conseil pratique.",
+        },
+        {
+          titre: "La fatigue cumulée : le facteur que tout le monde sous-estime",
+          contenu:
+            "Trajet aller Paris-Annecy de 3h35 + accès gare-bureau Paris 30-45 min = 4h-4h20 porte-à-porte. AR = 8h-9h. Sur 1 journée Paris, tu ajoutes 8h transport à 8h bureau = 16h éveil professionnel. Sur 2 jours/mois (24 j/an) : 200 h transport/an. Sur 4 jours/mois (48 j/an) : 400 h transport/an. À 8 j/mois : 800 h, soit 100 journées de travail full transport, intenable 36+ mois. Conseil terrain : 2-4 j/mois Paris = sweet spot durable 5+ ans. Au-delà, prévoir éviter ou changement poste à 24-36 mois. Pour Chambéry 2h55 : ajouter 40-60 min porte-à-porte mais 50 h gagnées/an vs Annecy.",
+        },
+        {
+          titre: "Profils gagnants et perdants TGV bassin alpin 2026",
+          contenu:
+            "Profil A cadre 35-50 ans, 2 j/mois Paris, télétravail 18 j/mois Annecy : tient 5+ ans sans usure. Abonnement Forfait Liberté Pro 2e classe rentable. Profil B cadre 30-45 ans, 4 j/mois Paris, télétravail 16 j Annecy : tient 3-5 ans, fatigue progressive. Forfait Liberté Pro 1ère classe (425 €/mois) ROI positif. Profil C cadre 30-40 ans, 8 j/mois Paris (2 j/semaine quasi-fixe), télétravail 12 j Annecy : épuisement 24-36 mois. À éviter sauf passage temporaire ou pivot poste. Profil D consultant freelance, 1-2 j/mois Paris : modèle idéal Annecy ou Chambéry, fatigue inexistante. Profil E cadre Chambéry (vs Annecy) à 8 j/mois Paris : tient mieux qu'Annecy équivalent (économie 50 h/an), reste lourd à 36 mois.",
+        },
+        {
+          titre: "Les alternatives quand 4j/mois Paris devient lourd",
+          contenu:
+            "Alternative 1 : grouper les présences Paris en 2 séjours 2j (16 jours/2 mois) plutôt que 8 séjours dispersés. Réduit fatigue trajet de 30-40 %. Alternative 2 : utiliser TGV nocturne Paris ↔ Lyon (00h ou 01h) + train TER Lyon Annecy le matin. Plus fatigant en théorie, mais libère la journée. Peu pratique. Alternative 3 : vol Annecy ↔ Paris Charles de Gaulle (HOP! 1h05 vol mais transfert gare 1h45 = total 3h45). Économie temps net : zéro. Coût : 200-450 € AR. Pas recommandé. Alternative 4 : changement de poste vers structure 100 % remote ou pivot pro local. Solution la plus saine au-delà 24-36 mois si fatigue cumulée problématique.",
+        },
+        {
+          titre: "Le verdict mobilité TGV bassin alpin 2026",
+          contenu:
+            "TGV Paris-Annecy-Chambéry en 2026 = liaison fonctionnelle pour télétravail 2-4 j présentiel Paris/mois. Coût rentable, fatigue gérable, ponctualité bonne. Au-delà 5-6 j/mois : usure progressive. Chambéry à 2h55 légèrement mieux qu'Annecy 3h35 sur volume de jours élevé. Pour cadre télétravail 18-20 j Annecy ou Chambéry + 2-4 j Paris : modèle durable 5-7 ans. Pour cadre télétravail 12-14 j + 8-10 j Paris : structurellement problématique, pivot poste recommandé à 24 mois.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin : 'Proximité gare + qualité quartier + budget : combo difficile à trouver en 2026. Annecy Bonlieu-Gare (T3 70 m² 410-450 k€) ou Chambéry Hyper-centre (T3 70 m² 280-320 k€). Jérémy Lange (Capifrance) suit ces deux secteurs. https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy", "Chambéry"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(

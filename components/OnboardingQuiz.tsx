@@ -309,7 +309,7 @@ export default function OnboardingQuiz() {
   if (submitting && generationStep) {
     const steps = [
       { key: "uploading", label: "On envoie ton profil…", chrono: "1 s" },
-      { key: "analyzing", label: `On scanne 173 communes contre tes critères…`, chrono: "5 s" },
+      { key: "analyzing", label: `On scanne 175 communes contre tes critères…`, chrono: "5 s" },
       { key: "writing", label: `Le verdict se rédige pour ${prenom || "toi"}…`, chrono: "10 s" },
     ];
     const currentIdx = steps.findIndex((s) => s.key === generationStep);
@@ -331,7 +331,7 @@ export default function OnboardingQuiz() {
             {prenom ? `${prenom}, on démasque ta ville` : "On démasque ta ville"}
           </h2>
           <p className="mt-1.5 text-center text-xs text-brand-bleu/65">
-            173 communes au crible. Une seule sort. La tienne.
+            175 communes au crible. Une seule sort. La tienne.
           </p>
 
           <ul className="mt-6 space-y-3">
@@ -765,7 +765,7 @@ export default function OnboardingQuiz() {
                     On te dit où acheter (vraiment).
                   </p>
                   <p className="mt-1.5 text-xs leading-relaxed text-brand-bleu/75">
-                    Pas de top 10 mou. <strong>Une recommandation. Ta recommandation.</strong> <strong>173 communes</strong> scannées
+                    Pas de top 10 mou. <strong>Une recommandation. Ta recommandation.</strong> <strong>175 communes</strong> scannées
                     contre TES réponses : <strong>1 ville sort</strong>, plus 2 alternatives backup. Score de match, quartiers à viser, pièges à éviter.
                     <strong> Aucun autre Parisien n&apos;aura le même verdict.</strong>
                   </p>

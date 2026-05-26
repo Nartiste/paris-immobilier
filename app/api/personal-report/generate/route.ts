@@ -573,7 +573,7 @@ function buildEmailHtml(prenom: string, reportUrl: string, villeVerdict: string 
           <tr>
             <td style="padding:16px 36px 0 36px;">
               <p style="margin:0;font-size:15px;line-height:1.6;color:#52627a;">
-                Pas de top 10 mou. Une recommandation. <strong>La tienne.</strong> Calculée à partir de TES réponses au quiz (profil, fréquence Paris, budget, critères prioritaires) contre 173 communes.
+                Pas de top 10 mou. Une recommandation. <strong>La tienne.</strong> Calculée à partir de TES réponses au quiz (profil, fréquence Paris, budget, critères prioritaires) contre 175 communes.
               </p>
               <p style="margin:12px 0 0 0;font-size:15px;line-height:1.6;color:#52627a;">
                 Dans ton verdict tu trouveras :

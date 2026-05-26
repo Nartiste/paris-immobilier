@@ -1529,6 +1529,41 @@ export const SAMPLE_COMMUNES: Commune[] = [
     gare_acces: { nom: "Strasbourg", trajet_min: 10, distance_km: 6, mode: "voiture" } },
   { code_insee: "67212", nom: "Hœnheim", code_postal: "67800", departement: "Bas-Rhin", region: "Grand Est", population: 11820, lat: 48.6261, lon: 7.7558, prix_m2_median: 2950, prix_m2_evolution_5y: 2.3, loyer_m2_median: 10.8, rendement_locatif: 4.4, revenu_median: 28500, taux_chomage: 8.0, nb_transactions: 135, temps_trajet_paris_min: 128, temps_trajet_tc_min: 128, temps_trajet_voiture_min: 293, mode_principal: "tgv", ligne_principale: "TGV Strasbourg", distance_paris_km: 406, distance_gare_km: 7, distance_autoroute_km: 5.0, nb_commerces: 32, nb_ecoles: 7, nb_medecins: 11, espaces_verts_pct: 28, taux_criminalite: 22, bonus_gpe: 0.0,
     gare_acces: { nom: "Strasbourg", trajet_min: 11, distance_km: 7, mode: "voiture" } },
+
+  // ============ "QUITTER PARIS POUR LES ALPES" — Annecy & Chambéry ============
+  // TGV direct Paris-Annecy ~3h45 (via Lyon Part-Dieu). TGV Lyria Paris-Chambéry ~3h.
+  // Premier cluster B2B "partenariat agent immo" : Jérémy Lange (Capifrance) couvre
+  // toute la zone Annecy / bassin chambérien. Voir docs/agent-partnership-strategy.md.
+  {
+    code_insee: "74010", nom: "Annecy", code_postal: "74000",
+    departement: "Haute-Savoie", region: "Auvergne-Rhône-Alpes", population: 130721,
+    lat: 45.8992, lon: 6.1294,
+    prix_m2_median: 5800, prix_m2_evolution_5y: 4.2,
+    loyer_m2_median: 17.0, rendement_locatif: 3.5,
+    revenu_median: 28500, taux_chomage: 6.5, nb_transactions: 1850,
+    temps_trajet_paris_min: 225, temps_trajet_tc_min: 225, temps_trajet_voiture_min: 330,
+    mode_principal: "tgv", ligne_principale: "TGV Sud-Est",
+    distance_paris_km: 555,
+    distance_gare_km: 0.5, distance_autoroute_km: 2.5,
+    nb_commerces: 220, nb_ecoles: 35, nb_medecins: 95,
+    espaces_verts_pct: 52, taux_criminalite: 28, bonus_gpe: 0.0,
+    gare_acces: { nom: "Annecy", trajet_min: 8, distance_km: 0.5, mode: "marche" },
+  },
+  {
+    code_insee: "73065", nom: "Chambéry", code_postal: "73000",
+    departement: "Savoie", region: "Auvergne-Rhône-Alpes", population: 58875,
+    lat: 45.5645, lon: 5.9175,
+    prix_m2_median: 3200, prix_m2_evolution_5y: 3.1,
+    loyer_m2_median: 12.0, rendement_locatif: 4.5,
+    revenu_median: 24500, taux_chomage: 8.0, nb_transactions: 920,
+    temps_trajet_paris_min: 180, temps_trajet_tc_min: 180, temps_trajet_voiture_min: 305,
+    mode_principal: "tgv", ligne_principale: "TGV Sud-Est",
+    distance_paris_km: 530,
+    distance_gare_km: 0.4, distance_autoroute_km: 1.8,
+    nb_commerces: 145, nb_ecoles: 22, nb_medecins: 58,
+    espaces_verts_pct: 38, taux_criminalite: 32, bonus_gpe: 0.0,
+    gare_acces: { nom: "Chambéry-Challes-les-Eaux", trajet_min: 6, distance_km: 0.4, mode: "marche" },
+  },
 ];
 
 export const SAMPLE_GPE_STATIONS: GpeStation[] = [

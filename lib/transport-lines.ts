@@ -447,7 +447,7 @@ export const TRANSPORT_LINES: TransportLine[] = [
       frequencePointeMin: 30,
     },
     description:
-      "Le TGV Sud-Est relie Paris à Lyon, Marseille, Avignon, Aix-en-Provence, Nice, Mâcon, Dijon. Service quasi continu en journée. Idéal pour les communes situées sur l'axe (Mâcon, Le Creusot, Dijon) qui se retrouvent à 1h-2h de Paris.",
+      "Le TGV Sud-Est relie Paris à Lyon, Marseille, Avignon, Aix-en-Provence, Nice, Mâcon, Dijon, Chambéry, Annecy. Service quasi continu en journée. Idéal pour les communes situées sur l'axe (Mâcon, Le Creusot, Dijon) qui se retrouvent à 1h-2h de Paris, ou pour les villes alpines (Chambéry 3h, Annecy 3h45) accessibles en demi-journée.",
   },
   {
     id: "tgv-nord",
