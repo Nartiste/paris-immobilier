@@ -42,7 +42,11 @@ ALTER TABLE newsletter_subscribers ENABLE ROW LEVEL SECURITY;
 -- (utilisé dans les API routes Next.js) bypass RLS et peut tout faire.
 
 -- Vue d'export pour l'admin (CSV ready)
-CREATE OR REPLACE VIEW newsletter_subscribers_export AS
+-- security_invoker = true : la vue respecte la RLS de la table sous-jacente
+-- au lieu de tourner avec les privilèges du créateur (postgres superuser).
+-- Cf. migration 004_security_fixes.sql pour le rationale.
+CREATE OR REPLACE VIEW newsletter_subscribers_export
+WITH (security_invoker = true) AS
 SELECT
   email,
   prenom,

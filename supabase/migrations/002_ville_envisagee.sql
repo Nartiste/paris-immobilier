@@ -18,7 +18,10 @@ CREATE INDEX IF NOT EXISTS idx_subscribers_ville_envisagee
 -- DROP puis CREATE car CREATE OR REPLACE refuse de réordonner les colonnes existantes.
 DROP VIEW IF EXISTS newsletter_subscribers_export;
 
-CREATE VIEW newsletter_subscribers_export AS
+-- security_invoker = true : la vue respecte la RLS de la table sous-jacente
+-- au lieu de tourner avec les privilèges du créateur. Cf. migration 004.
+CREATE VIEW newsletter_subscribers_export
+WITH (security_invoker = true) AS
 SELECT
   email,
   prenom,

@@ -45,7 +45,10 @@ CREATE INDEX IF NOT EXISTS idx_personal_reports_subscriber ON personal_reports(s
 ALTER TABLE personal_reports ENABLE ROW LEVEL SECURITY;
 
 -- Vue d'export pour stats (sans le markdown qui est lourd)
-CREATE OR REPLACE VIEW personal_reports_stats AS
+-- security_invoker = true : la vue respecte la RLS de la table sous-jacente
+-- au lieu de tourner avec les privilèges du créateur. Cf. migration 004.
+CREATE OR REPLACE VIEW personal_reports_stats
+WITH (security_invoker = true) AS
 SELECT
   id,
   email,
