@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Clock, Sparkles, ArrowRight, ArrowRightLeft, Calendar, Tag } from "lucide-react";
@@ -7,6 +8,7 @@ import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { BLOG_POSTS, BLOG_POSTS_BY_SLUG } from "@/lib/blog-posts";
 import { BLOG_CONTENT } from "@/lib/blog-content";
+import { getBlogCoverImage } from "@/lib/blog-images";
 import { nameToSlug } from "@/lib/slug";
 import { breadcrumbJsonLd } from "@/lib/seo";
 import AffiliateStrip from "@/components/AffiliateStrip";
@@ -53,6 +55,12 @@ export async function generateMetadata({
   const post = BLOG_POSTS_BY_SLUG[slug];
   if (!post) return { title: "Article introuvable" };
 
+  const cover = getBlogCoverImage(slug);
+  // Si on a une cover image dédiée, on l'utilise comme OG/Twitter ; sinon fallback brand.
+  const ogImage = cover
+    ? { url: cover.url, width: cover.width, height: cover.height, alt: cover.alt }
+    : { url: "/brand/og.png", width: 1200, height: 630, alt: post.title };
+
   return {
     title: post.title,
     description: post.description,
@@ -66,13 +74,13 @@ export async function generateMetadata({
       url: `/blog/${slug}`,
       publishedTime: post.publishedAt,
       authors: ["Vivre près de Paris"],
-      images: [{ url: "/brand/og.png", width: 1200, height: 630, alt: post.title }],
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      images: ["/brand/og.png"],
+      images: [ogImage.url],
     },
   };
 }
@@ -115,6 +123,7 @@ export default async function BlogPostPage({
 
   const content = BLOG_CONTENT[slug];
   const allHeadings = content ? extractHeadings(content) : [];
+  const cover = getBlogCoverImage(slug);
   // Pour les articles gated, on n'expose que les H2 visibles avant le blur
   // (les autres seraient la "réponse" qu'on veut justement faire désirer).
   const isGated = GATED_ARTICLES.has(slug);
@@ -149,7 +158,7 @@ export default async function BlogPostPage({
       name: "Vivre près de Paris",
       logo: { "@type": "ImageObject", url: `${SITE_URL}/brand/icon-512.png` },
     },
-    image: `${SITE_URL}/brand/og.png`,
+    image: cover?.url ?? `${SITE_URL}/brand/og.png`,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_URL}/blog/${slug}`,
@@ -278,6 +287,25 @@ export default async function BlogPostPage({
           </p>
         </div>
       </section>
+
+      {/* HERO IMAGE : optimisée AVIF/WebP via next/image, priority pour LCP */}
+      {cover && (
+        <figure className="mx-auto max-w-5xl px-5 sm:px-7">
+          <div className="relative -mt-6 aspect-[21/9] w-full overflow-hidden rounded-3xl bg-neutral-100 shadow-[0_8px_24px_rgba(82,98,122,0.12)]">
+            <Image
+              src={cover.url}
+              alt={cover.alt}
+              fill
+              sizes="(min-width: 1024px) 1024px, 100vw"
+              className="object-cover"
+              priority
+            />
+          </div>
+          <figcaption className="mt-2 text-right text-[11px] text-neutral-400">
+            {cover.credit}
+          </figcaption>
+        </figure>
+      )}
 
       {/* MAIN LAYOUT : article + TOC sticky */}
       <div className="mx-auto max-w-6xl px-5 py-12 sm:px-7">
