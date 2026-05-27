@@ -39,26 +39,32 @@ ALTER VIEW IF EXISTS public.communes_public
   SET (security_invoker = true);
 
 -- =============================================================================
--- 2) spatial_ref_sys : RLS + policy SELECT publique
+-- 2) spatial_ref_sys : NE PAS exécuter en SQL (limitation Supabase)
 -- =============================================================================
 -- spatial_ref_sys est une table de référence PostGIS qui contient les
--- définitions de projections SRID. Elle DOIT être lisible par tous les rôles
--- pour que les fonctions ST_Transform, ST_SetSRID, etc. fonctionnent.
+-- définitions de projections SRID. Elle est OWNED BY postgres (superuser créé
+-- par l'extension PostGIS), donc le rôle utilisé par le SQL Editor du
+-- dashboard ne peut pas l'ALTER → ERROR 42501 "must be owner of table".
 --
--- Le linter Supabase signale l'absence de RLS comme un risque. On l'active
--- avec une policy permissive pour le SELECT : tout le monde peut lire (c'est
--- de la donnée publique de référence), personne ne peut écrire (les rôles
--- non-superuser n'ont de toute façon pas le INSERT/UPDATE/DELETE dessus).
-
-ALTER TABLE public.spatial_ref_sys ENABLE ROW LEVEL SECURITY;
-
-DROP POLICY IF EXISTS "Public read access to spatial_ref_sys"
-  ON public.spatial_ref_sys;
-
-CREATE POLICY "Public read access to spatial_ref_sys"
-  ON public.spatial_ref_sys
-  FOR SELECT
-  USING (true);
+-- C'est un faux positif du linter Supabase, documenté comme tel :
+--   - La table ne contient AUCUNE donnée sensible (c'est la liste mondiale
+--     des projections géographiques, identique sur tous les projets PostGIS).
+--   - Aucun rôle non-superuser n'a INSERT/UPDATE/DELETE dessus.
+--   - Le risque flaggé par "RLS Disabled in Public" n'existe pas concrètement.
+--
+-- À faire à la place : Dashboard Supabase → Advisors → Security Advisor →
+-- clique sur la ligne 'spatial_ref_sys' → bouton 'Mute' / 'Ignore this lint'.
+-- L'alerte disparaît proprement sans toucher à l'extension PostGIS.
+--
+-- Ne PAS exécuter le bloc ci-dessous (laissé en commentaire pour traçabilité) :
+--
+-- ALTER TABLE public.spatial_ref_sys ENABLE ROW LEVEL SECURITY;
+-- DROP POLICY IF EXISTS "Public read access to spatial_ref_sys"
+--   ON public.spatial_ref_sys;
+-- CREATE POLICY "Public read access to spatial_ref_sys"
+--   ON public.spatial_ref_sys
+--   FOR SELECT
+--   USING (true);
 
 -- =============================================================================
 -- Vérification (optionnel, à lancer après le bloc ci-dessus)
