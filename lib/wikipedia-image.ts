@@ -6,6 +6,10 @@
  *
  * Cache : 24 h (les photos changent rarement). Appelé côté serveur au
  * build via le ISR de Next.js, donc pas de coût client.
+ *
+ * Override : pour les communes "vitrines" où on veut une photo garantie
+ * (pas de dépendance build-time à Wikipedia, qui peut rate-limit), on
+ * hardcode l'URL Wikimedia Commons dans COMMUNE_IMAGE_OVERRIDES.
  */
 
 export type WikiImage = {
@@ -17,6 +21,36 @@ export type WikiImage = {
   credit: string;
   /** Lien vers l'article Wikipedia source */
   sourceUrl: string;
+};
+
+/**
+ * Overrides hardcodés par code INSEE. Utile pour :
+ *  - Garantir une photo sur les communes vitrines (Annecy, Chambéry, etc.)
+ *    sans dépendre du build-time fetch Wikipedia (rate-limits possibles).
+ *  - Choisir une photo plus représentative que celle par défaut de l'article.
+ *
+ * Les URL pointent directement sur upload.wikimedia.org (whitelisté dans
+ * next.config.ts → next/image optimise en WebP/AVIF automatiquement).
+ */
+const COMMUNE_IMAGE_OVERRIDES: Record<string, WikiImage> = {
+  "74010": {
+    // Annecy : vue panoramique du lac et de la vieille ville
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Annecy%2C_France_%2837635411615%29.jpg/1280px-Annecy%2C_France_%2837635411615%29.jpg",
+    original:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Annecy%2C_France_%2837635411615%29.jpg/3840px-Annecy%2C_France_%2837635411615%29.jpg",
+    credit: "Photo : Wikipedia · Annecy",
+    sourceUrl: "https://fr.wikipedia.org/wiki/Annecy",
+  },
+  "73065": {
+    // Chambéry : vue depuis les monts vers le centre-ville
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chamb%C3%A9ry_depuis_les_Monts.JPG/1280px-Chamb%C3%A9ry_depuis_les_Monts.JPG",
+    original:
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/Chamb%C3%A9ry_depuis_les_Monts.JPG",
+    credit: "Photo : Wikipedia · Chambéry",
+    sourceUrl: "https://fr.wikipedia.org/wiki/Chamb%C3%A9ry",
+  },
 };
 
 type WikiSummaryResponse = {
@@ -63,13 +97,19 @@ export async function getWikipediaImage(
 
 /**
  * Tentatives multiples pour trouver l'image d'une commune.
- * Stratégie : essayer le nom direct, puis avec disambiguation
- * "(commune française)" si le nom est ambigu.
+ * Stratégie : override INSEE (déterministe, prioritaire), puis nom direct,
+ * puis disambiguation "(commune française)" si le nom est ambigu.
  */
 export async function getCommuneImage(
   communeName: string,
   departement?: string,
+  insee?: string,
 ): Promise<WikiImage | null> {
+  // 0. Override hardcodé prioritaire (pas de fetch, pas de risque rate-limit)
+  if (insee && COMMUNE_IMAGE_OVERRIDES[insee]) {
+    return COMMUNE_IMAGE_OVERRIDES[insee];
+  }
+
   // 1ère tentative : nom direct
   const direct = await getWikipediaImage(communeName);
   if (direct) return direct;

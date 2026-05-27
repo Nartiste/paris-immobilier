@@ -112,7 +112,11 @@ export default async function VivreACommunePage({
  const ctas = buildCTAs(commune, "acheteur");
  const faqs = buildCommuneFAQs(commune);
  const stats = computeCommuneStats(commune);
- const wikiImage = await getCommuneImage(commune.nom, commune.departement);
+ const wikiImage = await getCommuneImage(
+ commune.nom,
+ commune.departement,
+ commune.code_insee,
+ );
  const localReferent = getReferentForCommune(commune.departement);
 
  // Communes voisines (mêmes département, distance Paris similaire)
