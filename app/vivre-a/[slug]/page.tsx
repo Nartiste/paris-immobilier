@@ -14,7 +14,9 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 import { buildCommuneFAQs, faqJsonLd } from "@/lib/commune-faqs";
 import { computeCommuneStats } from "@/lib/commune-stats";
 import { getCommuneImage } from "@/lib/wikipedia-image";
+import { getReferentForCommune } from "@/lib/local-referents";
 import TransportPanel from "@/components/TransportPanel";
+import LocalReferentCard from "@/components/LocalReferentCard";
 
 // dynamicParams = true : permet à n'importe quelle commune française hors
 // SAMPLE_COMMUNES d'avoir sa fiche via fallback sur l'API commune-lookup
@@ -111,6 +113,7 @@ export default async function VivreACommunePage({
  const faqs = buildCommuneFAQs(commune);
  const stats = computeCommuneStats(commune);
  const wikiImage = await getCommuneImage(commune.nom, commune.departement);
+ const localReferent = getReferentForCommune(commune.departement);
 
  // Communes voisines (mêmes département, distance Paris similaire)
  const voisines = SAMPLE_COMMUNES.filter(
@@ -384,6 +387,13 @@ export default async function VivreACommunePage({
  </div>
  )}
  </section>
+
+ {localReferent && (
+ <LocalReferentCard
+ referent={localReferent}
+ communeNom={commune.nom}
+ />
+ )}
 
  <section className="mt-10 rounded-3xl bg-gradient-to-br from-brand-iris-soft/40 via-white to-brand-vert-soft/40 p-6">
  <h2 className="text-xl font-semibold tracking-tight text-brand-bleu">
