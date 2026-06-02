@@ -47,6 +47,27 @@ type WikiSummary = {
 };
 
 // ============================================================================
+// Overrides par mot-clé de slug (priorité maximale).
+// Pour les villes dont le résumé Wikipedia FR n'a PAS d'image (ex:
+// Boulogne-Billancourt) ou dont le nom court dans les titres ne matche pas le
+// nom complet du dataset. Le 1er match (slug.includes) gagne.
+// ============================================================================
+
+const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
+  {
+    match: "boulogne",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/View_on_Boulogne-Billancourt_from_Parc_de_Saint-Cloud_140411_1.jpg/1920px-View_on_Boulogne-Billancourt_from_Parc_de_Saint-Cloud_140411_1.jpg",
+      width: 1920,
+      height: 478,
+      alt: "Boulogne-Billancourt vue depuis le parc de Saint-Cloud",
+      credit: "Wikipedia · Boulogne-Billancourt",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Boulogne-Billancourt",
+    },
+  },
+];
+
+// ============================================================================
 // Fallbacks pré-curés (Wikimedia Commons, libres de droits)
 // Par catégorie d'article. URL pointent sur upload.wikimedia.org direct.
 // ============================================================================
@@ -211,6 +232,11 @@ async function resolveImageForArticle(post: (typeof BLOG_POSTS)[number]): Promis
   const title = post.title;
   const slug = post.slug;
   const category = post.category;
+
+  // 0. Override par mot-clé de slug (priorité max, pas de fetch)
+  for (const o of SLUG_IMAGE_OVERRIDES) {
+    if (slug.includes(o.match)) return o.image;
+  }
 
   // 1. Commune
   const commune = detectCommune(title, slug);

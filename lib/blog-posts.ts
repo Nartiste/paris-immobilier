@@ -7954,6 +7954,488 @@ export const BLOG_POSTS: BlogPost[] = [
       references: ["Versailles", "Saint-Germain-en-Laye"],
     },
   },
+  {
+    slug: "prix-immobilier-boulogne-2026-par-quartier",
+    title:
+      "Prix immobilier Boulogne-Billancourt 2026 : le vrai prix par quartier",
+    description:
+      "9 200 €/m² de médiane, mais de 8 000 au Point-du-Jour à 12 000 chez les Princes. La grille réelle par quartier, ce que SeLoger ne te montre pas, et où il reste de la marge.",
+    publishedAt: "2026-04-12",
+    readingMinutes: 10,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acheteur 35-55 ans, capacité 600 k€ à 1,5 M€, vise Boulogne et compare déjà les annonces. Lit MeilleursAgents et SeLoger, mais sent que le prix au m2 affiché ne colle pas d'une rue à l'autre. Veut une grille honnête avant de visiter.",
+      angle:
+        "Data moat. Donner la grille de prix réelle des 6 quartiers de Boulogne (Les Princes-Marmottan, Centre-Marcel-Sembat, Parchamp-Albert-Kahn, Billancourt-Le Trapèze, Point-du-Jour-République, Silly-Gallieni), avec commentaire surcote/sous-cote, sources DVF. Ne pas refaire le diagnostic timing du pilier, juste linker dessus. Montrer l'écart Princes vs Point-du-Jour, le neuf Trapèze vs ancien, l'effet ligne 15 Pont de Sèvres, et où il reste de la marge.",
+      ouverture:
+        "Contre-evidence : '9 200 €/m2 médian à Boulogne. Cette ligne ne t'achète rien. Entre un T3 au Point-du-Jour à 8 200 et le même chez les Princes à 11 800, tu ne joues pas dans le meme marché, ni au même prix.'",
+      structure:
+        "Carto-géographique : méthodo DVF, puis quartier par quartier du plus cher au plus abordable, écarts, neuf vs ancien, effet métro, marge.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Le prix médian à Boulogne-Billancourt tourne autour de 9 200 €/m2 début 2026, en recul de 2,1 % sur cinq ans. La correction est derrière nous, le marché s'est stabilisé. Mais cette médiane ne sert à rien quand tu cherches vraiment à acheter. Entre un deux-pièces au Point-du-Jour à 8 200 €/m2 et le meme deux-pièces dans le quartier des Princes-Marmottan à 11 800, tu paies 44 % de plus pour la meme surface, dans la meme commune. Soyons clairs : Boulogne n'a pas un prix, elle en a six, un par grand secteur. SeLoger et MeilleursAgents te donnent une moyenne lissée à l'échelle de la ville, parfois du code postal. Ça gomme exactement l'information qui te fait gagner ou perdre 100 000 € : la micro-géographie. Le quartier qui surcote son prestige, celui qui sous-cote injustement, le neuf du Trapèze qui se paie cash, l'effet de la ligne 15 sur Pont de Sèvres. Voici la grille réelle quartier par quartier, croisée sur les transactions DVF, avec mon commentaire honnête sur ce qui vaut son prix et ce qui ne le vaut pas. Pour savoir si c'est le bon moment d'acheter tout court, va voir [le diagnostic timing complet](/blog/boulogne-billancourt-2026-acheter-encore-coup). Ici, on parle prix réel par adresse.",
+        },
+        {
+          titre: "La méthodo et les sources : pourquoi je ne te donne pas la moyenne SeLoger",
+          contenu:
+            "Données croisées : base DVF (Demande de Valeurs Foncières, data.gouv.fr), transactions signées de janvier 2024 à décembre 2025, recoupées avec les annonces MeilleursAgents et SeLoger de début 2026 et les notaires du Grand Paris. Règle de pondération : DVF prime, parce que c'est le prix réellement signé chez le notaire, pas le prix d'annonce. Sur Boulogne, l'écart annonce vs signé tourne à 3-6 % sur l'ancien, quasi nul sur le neuf et le prestige tendu. Les annonces affichent toujours le haut de la fourchette. Volume de référence : environ 1 400 ventes d'appartements par an sur la commune. La médiane ville à 9 200 €/m2 masque six sous-marchés que je détaille ci-dessous, du plus cher au plus abordable. Pour chaque quartier, je te donne la fourchette réelle, pas le point unique trompeur, parce qu'un rez-de-jardin sombre et un dernier étage avec terrasse dans la meme rue, ce n'est pas le meme prix au m2.",
+        },
+        {
+          titre: "Les Princes-Marmottan : le plus cher, 10 500 à 12 000 €/m2",
+          contenu:
+            "Le nord de Boulogne, collé au Bois de Boulogne et au 16e arrondissement. Le musée Marmottan-Monet, les rues calmes et arborées, le bâti cossu années 30 et hôtels particuliers. C'est le quartier le plus chic de la commune, et le prix le dit : 10 500 à 12 000 €/m2, parfois plus sur un bien d'exception avec vue sur le Bois. Profil de bien : grands appartements familiaux, beaux volumes, parquets et moulures. Profil acheteur : familles aisées, cadres internationaux, profils patrimoniaux qui veulent l'adresse et la proximité immédiate du 16e sans en payer le ticket (le 16e voisin tape 11 000 à 14 000). Mon commentaire honnête : tu paies le prestige et la rareté, la marge de négociation est quasi nulle, et la valorisation future est faible parce que le prix est déjà au plafond. C'est une valeur sûre de conservation, pas un coup. Si tu cherches du rendement ou de la plus-value, regarde ailleurs dans la ville.",
+        },
+        {
+          titre: "Centre-ville et Marcel-Sembat : le cœur, 9 500 à 11 000 €/m2",
+          contenu:
+            "Autour de la mairie, du métro Marcel Sembat (ligne 9) et de la rue de Billancourt. C'est le Boulogne de la vie quotidienne : commerces, marchés, cafés, écoles publiques réputées (Émile Zola, Robert Doisneau pas loin), ambiance de centre-ville animé. Prix 9 500 à 11 000 €/m2 selon l'étage, l'état et la proximité immédiate du métro. Profil acheteur : familles qui veulent tout à pied, cadres qui valorisent les commerces et la ligne 9 directe vers Paris. Mon commentaire : c'est le quartier le plus liquide à la revente, parce que tout le monde veut le centre. Le prix est justifié par les services et la centralité, pas surcoté. La marge de négo reste mince (2-4 %), un peu plus sur un bien à rafraîchir. Si tu hésites entre quartiers selon ton projet de vie, j'ai fait [le classement par profil ici](/blog/meilleur-quartier-boulogne-acheter-2026).",
+        },
+        {
+          titre: "Parchamp-Albert-Kahn et Billancourt-Le Trapèze : 9 000 à 10 500 et 8 500 à 10 000 €/m2",
+          contenu:
+            "Parchamp-Albert-Kahn, à l'ouest vers Saint-Cloud : résidentiel calme, les jardins Albert-Kahn, petits immeubles cossus et quelques maisons. 9 000 à 10 500 €/m2. Quartier familial recherché pour sa tranquillité et ses espaces verts, valorisation stable. Billancourt, Le Trapèze et l'Île Seguin, au sud : l'écoquartier neuf des années 2010, construit sur les anciennes usines Renault. Architecture contemporaine, parc de Billancourt, berges de Seine, métro Billancourt (ligne 9). 8 500 à 10 000 €/m2, parfois plus sur un neuf bien orienté avec terrasse. Le grand écart de prix tient à un point : tu compares de l'ancien rénové et du neuf parfait au meme endroit. Mon commentaire sur le Trapèze : qualité de construction excellente, DPE A ou B partout, mais charges de copropriété lourdes (souvent 50 à 80 €/m2 par an) qui rognent le rendement. Je détaille le calcul neuf vs ancien plus bas.",
+        },
+        {
+          titre: "Point-du-Jour-République et Silly-Gallieni : les plus abordables, 8 000 à 9 800 €/m2",
+          contenu:
+            "Le Point-du-Jour et République, à l'ouest le long de la Seine : 8 000 à 9 500 €/m2, le secteur le plus accessible de Boulogne. Bâti mélangé, quelques copropriétés des années 60-70, mais aussi des rues agréables côté Seine. C'est là qu'un primo-accédant entre dans Boulogne sans payer le centre. Silly-Gallieni, à l'est : 8 500 à 9 800 €/m2, résidentiel discret, bien desservi, sans le cachet du nord mais sans le ticket non plus. Mon commentaire honnête : ces deux secteurs sous-cotent un peu par rapport à leur réalité de vie. Tu es à 18 minutes de Paris, dans une ville premium, pour 25 à 30 % de moins que les Princes. La contrepartie : certaines portions sont plus bruyantes (proximité du quai, du périphérique côté Point-du-Jour), et il faut trier les copros à charges lourdes. C'est précisément là qu'il reste de la marge en 2026.",
+        },
+        {
+          titre: "Le neuf du Trapèze vs l'ancien : le vrai calcul au m2",
+          contenu:
+            "Sur le papier, le Trapèze neuf (8 500 à 10 000 €/m2) peut sembler aligné ou moins cher que le centre ancien (9 500 à 11 000). Piège classique. Le neuf intègre des frais de notaire réduits (2 à 3 % contre 7,5 à 8 % dans l'ancien), pas de travaux, un DPE excellent, donc des charges énergétiques basses. Mais il porte des charges de copropriété élevées (gardien, espaces verts, équipements récents) de 50 à 80 €/m2 par an, contre 30 à 45 dans une copro ancienne classique. Sur un T3 de 65 m2, ça fait 1 000 à 2 300 € de charges en plus par an. À l'inverse, l'ancien du centre te demande souvent 30 000 à 60 000 € de travaux pour atteindre le confort du neuf, plus les frais de notaire pleins. Mon arbitrage : si tu gardes 8 ans et plus, l'ancien rénové du centre rattrape et dépasse souvent le neuf, parce que tu amortis les travaux et les frais. Si tu veux zéro souci et un horizon court, le neuf du Trapèze se défend. Le détail des frais et de la négo, c'est [dans cet article](/blog/frais-notaire-negociation-achat-boulogne).",
+        },
+        {
+          titre: "L'effet ligne 15 Sud à Pont de Sèvres sur les prix",
+          contenu:
+            "Le Grand Paris Express arrive à Pont de Sèvres avec la ligne 15 Sud. La mise en service est attendue autour de 2025-2026. C'est le seul vrai levier de valorisation neuve sur Boulogne, parce que le reste de la ville est déjà très bien desservi (lignes 9 et 10, tram T2 à proximité). Concrètement, le secteur Pont de Sèvres et le sud de Billancourt deviennent un nœud de transport majeur, avec une connexion rapide vers tout l'arc sud du Grand Paris. Sur les prix, l'effet d'anticipation est déjà partiellement intégré dans le sud de la commune, mais il reste du potentiel sur les biens un peu en retrait de la station, dont le prix n'a pas encore totalement absorbé la nouvelle accessibilité. Mon commentaire : ne paie pas une surcote 15 % juste pour le mot Grand Paris Express sur un bien déjà au prix du centre. En revanche, un bien correct à 300-500 m de Pont de Sèvres, acheté avant que la station ne tourne à plein régime, c'est un des rares paris de plus-value rationnels sur Boulogne. Les investisseurs trouveront le calcul détaillé [dans l'article rendement](/blog/investir-boulogne-rendement-locatif-2026).",
+        },
+        {
+          titre: "Où il reste de la marge en 2026",
+          contenu:
+            "Récapitulons par le prix et le potentiel. Marge quasi nulle, prix au plafond : Les Princes-Marmottan. Tu achètes une valeur de conservation, pas un coup. Prix justifié, peu de négo, forte liquidité : Centre-Marcel-Sembat et Parchamp-Albert-Kahn. Tu paies le bon prix pour de la qualité de vie stable. Marge réelle qui subsiste : Point-du-Jour-République et Silly-Gallieni, sous-cotés par rapport à leur réalité (18 min de Paris, ville premium, 25-30 % moins cher que le nord), à condition de trier les copros à charges lourdes et les portions bruyantes. Pari de plus-value : le sud de Billancourt et l'abord de Pont de Sèvres avec l'effet ligne 15, sur un bien pas encore totalement revalorisé. Le neuf du Trapèze : prix juste mais charges lourdes, à arbitrer selon ton horizon. Mon conseil : commence par le quartier qui colle à ton projet, pas par le m2 le moins cher.",
+        },
+        {
+          titre: "Affiner la grille pour ton cas précis",
+          contenu:
+            "Encart milieu d'article. Cette grille te donne les fourchettes par quartier, mais ton vrai prix dépend de ton projet : budget, surface visée, trajet pro, présence d'enfants, horizon de revente. Pour croiser tout ça d'un coup et savoir quel secteur de Boulogne te ressemble (ou si une commune voisine te conviendrait mieux pour le meme budget), [lance le quiz Trouve ta ville idéale](/?concierge=open). Tu réponds à quelques questions sur ta vie réelle, et tu reçois un rapport perso généré par l'IA, avec les quartiers et les prix qui correspondent à ton dossier. C'est gratuit et ça t'évite de visiter au hasard. Ton : aide concrète, pas de vente.",
+        },
+        {
+          titre: "Le verdict prix Boulogne 2026 en une phrase",
+          contenu:
+            "Boulogne, ce n'est pas 9 200 €/m2, c'est une fourchette de 8 000 à 12 000 selon que tu vises le Point-du-Jour ou les Princes, et le bon achat consiste à trouver le quartier sous-coté pour ton projet, pas le m2 le plus cher de la ville. Pour comparer Boulogne à une autre commune sur le meme budget, ouvre le [comparateur de villes](/comparer) et mets-les côte à côte. Et pour tout ce qui concerne la vie au quotidien, les écoles et les transports, la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012) te donne le panorama complet.",
+        },
+      ],
+      references: ["Boulogne-Billancourt", "Issy-les-Moulineaux"],
+    },
+  },
+  {
+    slug: "meilleur-quartier-boulogne-acheter-2026",
+    title: "Meilleur quartier de Boulogne-Billancourt pour acheter en 2026",
+    description:
+      "Pas une carte de prix, un classement par profil. Famille, primo, investisseur, cadre pressé, amateur de calme : à chaque projet son quartier de Boulogne, avec le verdict honnête.",
+    publishedAt: "2026-04-18",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur décidé sur Boulogne mais hésitant sur le quartier. 32-52 ans, projet précis (premier achat, famille qui s'agrandit, placement, cadre qui veut le métro à 3 minutes). Veut un classement par profil, pas une énième grille de prix.",
+      angle:
+        "Classement décision par profil, pas une carte de prix. Pour chaque type de projet (famille, primo budget, prestige, proximité Paris/métro, calme, investisseur), désigner le ou les quartiers qui gagnent et pourquoi. Trapèze pour neuf/familles, Les Princes pour prestige, Point-du-Jour pour budget, Centre pour vie/commerces, Pont de Sèvres pour le pari ligne 15. Linker le pilier et l'article prix.",
+      ouverture:
+        "Question rhétorique : 'Quel est le meilleur quartier de Boulogne ? Mauvaise question. Le bon : meilleur pour qui, pour quel projet, avec quel budget ? Parce que le quartier parfait du primo est le pire choix de l'investisseur.'",
+      structure:
+        "Décomposition par critère puis verdict par profil : critère de choix, top famille, top primo, top prestige, top proximité métro, top calme, le quartier qui monte, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "On me demande tout le temps quel est le meilleur quartier de Boulogne-Billancourt. C'est la mauvaise question. Le meilleur quartier dans l'absolu n'existe pas. Le quartier des Princes-Marmottan est sublime et c'est le pire achat pour un investisseur en quête de rendement. Le Trapèze est parfait pour une famille qui veut du neuf et un cauchemar pour qui déteste les charges de copropriété. Le Point-du-Jour est l'entrée de gamme idéale du primo et un compromis frustrant pour qui peut se payer le centre. La vraie question, c'est : meilleur pour qui, pour quel projet, avec quel budget ? Soyons clairs, Boulogne se découpe en six secteurs aux personnalités tranchées, et ton projet désigne presque mécaniquement le bon. Dans cet article, je ne te redonne pas la grille de prix (elle est [détaillée ici](/blog/prix-immobilier-boulogne-2026-par-quartier)). Je classe les quartiers par profil d'acheteur : famille avec enfants, primo-accédant au budget serré, amateur de prestige, cadre qui veut le métro sous l'immeuble, chercheur de calme, investisseur. Pour chaque profil, le quartier qui gagne, celui qui se défend, et celui à éviter pour toi. À la fin, un verdict par profil que tu peux reprendre tel quel.",
+        },
+        {
+          titre: "Le seul critère qui compte : ton projet, pas le classement",
+          contenu:
+            "Avant de classer, pose les bonnes variables. Un : ton budget réel au m2 (de 8 000 au Point-du-Jour à 12 000 chez les Princes, ça change tout le terrain de jeu). Deux : ta présence ou non d'enfants et leur âge (les écoles et le calme deviennent prioritaires). Trois : ton trajet pro (proximité ligne 9, ligne 10, ou Pont de Sèvres avec la ligne 15 qui arrive). Quatre : ton horizon (8 ans et plus change l'arbitrage neuf vs ancien). Cinq : ta tolérance aux charges et aux travaux. Une fois ces cinq variables posées, le quartier se désigne presque tout seul. Le reste de l'article applique ça à chaque profil. Si tu veux que l'outil croise ces variables pour toi en deux minutes, garde en tete le quiz, j'y reviens plus bas.",
+        },
+        {
+          titre: "Profil famille avec enfants : Centre-ville ou Le Trapèze",
+          contenu:
+            "Tu cherches écoles solides, sécurité, espaces verts, vie de quartier. Deux gagnants selon ton style. Le Centre-ville et Marcel-Sembat (9 500 à 11 000 €/m2) pour la famille qui veut tout à pied : écoles publiques réputées, commerces, marchés, ambiance de centre vivant, ligne 9 directe. C'est le choix de la vie de quartier ancrée. Le Trapèze et Billancourt (8 500 à 10 000 €/m2) pour la famille qui veut du neuf, des appartements aux beaux volumes, le parc de Billancourt, des immeubles aux normes récentes, et une ambiance plus moderne et aérée. Contrepartie du Trapèze : charges de copro lourdes (50 à 80 €/m2 par an). Mon verdict famille : Centre si tu valorises l'âme et les écoles publiques historiques, Trapèze si tu veux du confort neuf et de l'espace. Parchamp-Albert-Kahn est le troisième larron pour les familles qui privilégient le calme absolu et les jardins.",
+        },
+        {
+          titre: "Profil primo-accédant au budget serré : Point-du-Jour ou Silly-Gallieni",
+          contenu:
+            "Tu veux entrer dans Boulogne sans exploser ton budget. Cap sur l'ouest et l'est. Le Point-du-Jour et République (8 000 à 9 500 €/m2) : le secteur le plus accessible, le long de la Seine, parfait pour un premier achat. Tu es à 18 minutes de Paris dans une ville premium pour 25 à 30 % de moins que le nord. Silly-Gallieni (8 500 à 9 800 €/m2) : résidentiel discret, bien desservi, sans cachet mais sans surcoût. Mon conseil primo : vise un bien à rafraîchir, c'est là que la négo est la plus large (3-5 %, parfois plus), et tu te crées de la valeur en rénovant. Évite le neuf du Trapèze en primo serré, les charges lourdes plombent ta capacité d'emprunt. Et trie les copropriétés des années 60-70 : certaines ont des charges et des travaux de ravalement qui transforment la bonne affaire en gouffre. Le détail des frais et de la négo est [ici](/blog/frais-notaire-negociation-achat-boulogne).",
+        },
+        {
+          titre: "Profil prestige : Les Princes-Marmottan, sans hésiter",
+          contenu:
+            "Tu veux l'adresse, le calme cossu, la proximité immédiate du Bois de Boulogne et du 16e. Un seul vrai gagnant : Les Princes-Marmottan (10 500 à 12 000 €/m2, plus sur l'exceptionnel). Rues arborées, bâti années 30 et hôtels particuliers, le musée Marmottan-Monet, l'atmosphère résidentielle haut de gamme. C'est le 16e voisin sans en payer le ticket plein (le 16e tape 11 000 à 14 000). Mon avertissement honnête : tu n'achètes pas un coup, tu achètes une valeur de conservation. La marge de négo est quasi nulle, la plus-value future est faible parce que le prix est déjà au plafond. C'est parfait pour un profil patrimonial qui veut transmettre ou conserver, pas pour qui cherche du rendement ou de la plus-value. Parchamp-Albert-Kahn est l'alternative un cran en dessous pour le calme chic, à 9 000-10 500.",
+        },
+        {
+          titre: "Profil cadre pressé qui veut le métro sous l'immeuble : Centre et Pont de Sèvres",
+          contenu:
+            "Ton critère numéro un, c'est le trajet. Boulogne est déjà excellente sur ce point, mais certains secteurs sortent du lot. Le Centre et Marcel-Sembat (ligne 9) : accès direct vers Paris centre en 15-20 minutes, La Défense à 15. C'est le choix du cadre qui veut le métro à trois minutes et la vie de centre. Le secteur Pont de Sèvres (sud) : déjà sur la ligne 9, et surtout futur nœud du Grand Paris Express avec la ligne 15 Sud qui arrive autour de 2025-2026. Pour un cadre qui bouge dans tout l'arc sud du Grand Paris, ça devient imbattable. Boulogne Jean-Jaurès et Pont de Saint-Cloud (ligne 10) pour qui travaille sur cet axe. Mon verdict proximité : Centre pour la polyvalence, Pont de Sèvres pour qui mise sur la ligne 15 et veut combiner trajet et plus-value.",
+        },
+        {
+          titre: "Profil calme et nature : Parchamp-Albert-Kahn et le nord",
+          contenu:
+            "Tu fuis le bruit, tu veux des rues tranquilles, du vert, une ambiance posée. Parchamp-Albert-Kahn (9 000 à 10 500 €/m2), à l'ouest vers Saint-Cloud : les jardins Albert-Kahn, petits immeubles cossus, quelques maisons, c'est le secteur le plus serein de Boulogne pour un prix raisonnable à l'échelle de la ville. Les Princes-Marmottan (10 500 à 12 000) si le budget suit : calme résidentiel haut de gamme au bord du Bois de Boulogne. À l'inverse, méfie-toi des portions bruyantes que je détaille [dans l'article des quartiers à réfléchir](/blog/quartiers-eviter-boulogne-achat-2026) : certains abords du quai et du périphérique côté Point-du-Jour, certaines artères passantes. Mon verdict calme : Parchamp pour le meilleur rapport tranquillité/prix, le nord si tu peux te le payer.",
+        },
+        {
+          titre: "Le quartier qui monte : Billancourt sud et l'abord de Pont de Sèvres",
+          contenu:
+            "Si tu veux conjuguer projet de vie et pari de valorisation, regarde le sud de la commune. Billancourt sud et l'abord de Pont de Sèvres bénéficient de l'arrivée de la ligne 15 Sud du Grand Paris Express, attendue autour de 2025-2026. C'est le seul vrai levier de valorisation neuve sur Boulogne, le reste de la ville étant déjà très bien desservi. Concrètement, un bien correct à 300-500 m de la future station, dont le prix n'a pas encore totalement absorbé la nouvelle accessibilité, c'est un des rares paris rationnels de plus-value sur la commune. Mon avertissement : ne paie pas une surcote juste pour le label Grand Paris Express sur un bien déjà au prix du centre. Pour qui veut creuser le potentiel d'investissement de ce secteur, le calcul est [détaillé ici](/blog/investir-boulogne-rendement-locatif-2026).",
+        },
+        {
+          titre: "Laisser l'outil croiser ton profil et ton budget",
+          contenu:
+            "Encart milieu d'article. Tu as maintenant la logique par profil, mais ton cas a peut-être plusieurs critères qui se chevauchent (famille ET budget serré, ou calme ET proximité métro). Pour démêler tout ça d'un coup, [lance le quiz Trouve ta ville idéale](/?concierge=open) : tu réponds sur ta famille, ton trajet, ton budget et tes priorités, et tu reçois un rapport perso généré par l'IA qui te dit quel secteur de Boulogne te correspond le mieux, et si une commune voisine ne serait pas plus pertinente pour ton projet. Gratuit, et ça remplace dix visites au hasard. Ton : aide concrète.",
+        },
+        {
+          titre: "Le verdict par profil : ton quartier en une ligne",
+          contenu:
+            "Le résumé que tu peux reprendre. Famille vie de quartier : Centre-Marcel-Sembat. Famille qui veut du neuf et de l'espace : Le Trapèze. Famille calme et jardins : Parchamp-Albert-Kahn. Primo au budget serré : Point-du-Jour ou Silly-Gallieni, sur un bien à rafraîchir. Prestige et patrimoine : Les Princes-Marmottan. Cadre pressé qui veut le métro : Centre, ou Pont de Sèvres pour le pari ligne 15. Calme et nature : Parchamp, le nord si le budget suit. Pari de plus-value : Billancourt sud et abord de Pont de Sèvres. Avant de décider si c'est le bon moment d'acheter tout court, lis [le diagnostic timing](/blog/boulogne-billancourt-2026-acheter-encore-coup), et pour tout savoir sur la vie au quotidien, consulte la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012).",
+        },
+      ],
+      references: ["Boulogne-Billancourt"],
+    },
+  },
+  {
+    slug: "quartiers-eviter-boulogne-achat-2026",
+    title:
+      "Boulogne-Billancourt : les quartiers où je n'achèterais pas (et pourquoi)",
+    description:
+      "Honnête mais juste : la surcote prestige, les copros à charges lourdes, les portions bruyantes, et surtout les faux à éviter, ces secteurs injustement boudés qui sont des bonnes affaires.",
+    publishedAt: "2026-04-24",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur prudent 33-55 ans qui a entendu des on-dit sur tel ou tel secteur de Boulogne et veut le vrai tri. Veut éviter le piège plutôt que trouver la perle. Sensible aux charges, au bruit, à la revente.",
+      angle:
+        "Anti-bullshit honnête mais juste et nuancé. Pas de quartier diabolisé, toujours à éviter POUR QUI / QUEL projet. Couvrir la surcote prestige, les nuisances bord de périph et quai, les copros années 70 à charges lourdes, les portions bruyantes, le neuf Trapèze parfois surévalué. Inclure les faux à éviter, ces secteurs injustement boudés qui sont des opportunités. Linker le pilier et l'article prix.",
+      ouverture:
+        "Aveu : 'Je vais me faire des ennemis. Mais autant te le dire franchement : il y a des coins de Boulogne où je n'achèterais pas, et d'autres qu'on évite à tort. Les deux te coûtent de l'argent si tu te trompes.'",
+      structure:
+        "Thèse-antithèse-synthèse : ce que à éviter veut dire, les secteurs à réfléchir, le piège de la surcote, les copros à charges, les faux à éviter, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Je vais me faire des ennemis avec cet article, mais autant être franc. À Boulogne-Billancourt, il y a des coins où je n'achèterais pas dans certaines conditions, et d'autres qu'on évite à tort et qui sont des bonnes affaires. Les deux erreurs te coûtent de l'argent. Soyons clairs d'entrée : Boulogne n'a pas de quartier dangereux ni de zone sinistrée, c'est une commune premium de bout en bout. Quand je dis à éviter, je ne parle jamais d'un quartier en bloc, je parle d'un type de bien dans un contexte précis, pour un projet précis. Une copro des années 70 à charges lourdes est un piège pour un primo serré et un non-sujet pour un acheteur cash. Un appartement collé au quai bruyant est rédhibitoire pour qui veut le calme et acceptable pour qui n'est jamais chez lui. Le prestige des Princes est une évidence pour un patrimonial et un mauvais calcul pour un investisseur. Dans cet article, je te donne les secteurs et les situations à réfléchir, le piège de la surcote prestige, les copros qui plombent, et surtout les faux à éviter, ces coins injustement boudés. Pour la grille de prix par quartier, c'est [ici](/blog/prix-immobilier-boulogne-2026-par-quartier), et pour le timing global, [là](/blog/boulogne-billancourt-2026-acheter-encore-coup).",
+        },
+        {
+          titre: "Ce que à éviter veut vraiment dire à Boulogne",
+          contenu:
+            "Posons le cadre, parce que sinon cet article serait malhonnête. Boulogne ne se compare pas à une grande ville avec des quartiers sensibles. Le taux de sécurité y est bon, le bâti globalement de qualité, la demande forte partout. Donc à éviter ne signifie jamais ici quartier à fuir. Ça signifie : ce bien, dans ce contexte, pour ton projet, va te coûter cher ou te décevoir. Trois familles de pièges existent. Un : le piège du prix, quand tu surpaies une surcote (le prestige) ou un produit (le neuf vendu trop cher). Deux : le piège des charges et des travaux, quand une copro mal née bouffe ta rentabilité ou ton budget. Trois : le piège du cadre de vie, quand le bruit ou la configuration ne collent pas à ce que tu cherches. Aucun de ces pièges n'est attaché à un quartier entier. Tous dépendent du bien précis et de qui tu es. C'est l'angle de tout l'article.",
+        },
+        {
+          titre: "Les abords bruyants : quai, périphérique et grandes artères",
+          contenu:
+            "Premier point d'attention, le bruit. Boulogne est traversée par des axes passants et bordée d'infrastructures lourdes. Côté Point-du-Jour et bord de Seine ouest, certains immeubles donnent sur le quai et la proximité du périphérique, avec une circulation dense et un fond sonore constant. Sur les grandes artères qui traversent la commune, idem, le premier rang sur rue passante n'a pas la meme valeur d'usage qu'un appartement sur cour ou côté jardin. À éviter pour qui : familles avec jeunes enfants, télétravailleurs, profils sensibles au bruit, qui doivent absolument viser le calme. Acceptable pour qui : actifs très mobiles, peu présents en journée, qui dorment côté cour. Mon conseil terrain : ne juge jamais un bien sur le quartier seul, va l'écouter fenêtre ouverte un soir de semaine et un samedi. Le meme immeuble peut t'offrir un appartement invivable sur rue et un havre côté cour.",
+        },
+        {
+          titre: "Le piège de la surcote prestige : Les Princes au prix plein",
+          contenu:
+            "Voilà le piège le plus cher de Boulogne, et personne ne te le dira en visite. Le quartier des Princes-Marmottan (10 500 à 12 000 €/m2) est magnifique, mais tu y paies le prestige au prix fort, avec une marge de négo quasi nulle et une plus-value future faible parce que le prix est déjà au plafond. À éviter pour qui : l'investisseur (rendement écrasé par le prix), l'acheteur qui compte sur une plus-value à 7-10 ans, le primo qui s'étire au maximum pour l'adresse. Pertinent pour qui : le patrimonial qui veut conserver ou transmettre, qui valorise la stabilité plus que le rendement. Le piège n'est pas le quartier, c'est de croire qu'un quartier prestigieux est forcément un bon achat financier. Pour du rendement, regarde plutôt l'analyse [investir à Boulogne](/blog/investir-boulogne-rendement-locatif-2026). Pour de la plus-value, le pari ligne 15 au sud est plus rationnel que le ticket plein du nord.",
+        },
+        {
+          titre: "Les copropriétés à charges lourdes : années 70 et neuf du Trapèze",
+          contenu:
+            "Deux profils de copro à examiner de très près. Les copropriétés des années 60-70, présentes notamment côté Point-du-Jour et dans certains ensembles : charges parfois lourdes, ascenseurs et façades vieillissants, gros travaux de ravalement ou de mise aux normes qui tombent au pire moment. Une bonne affaire au prix d'achat peut se transformer en gouffre avec un appel de fonds travaux de 20 000 à 50 000 €. À l'autre extrême, le neuf du Trapèze : qualité irréprochable, mais charges de copro élevées (50 à 80 €/m2 par an, gardien, espaces verts, équipements), parfois un prix de vente qui surévalue le produit. À éviter pour qui : le primo serré et l'investisseur en quête de cash-flow, dans les deux cas. Mon réflexe systématique : demande les trois derniers procès-verbaux d'assemblée générale, le montant des charges au m2, et l'état du fonds travaux avant toute offre. C'est là que se cache le vrai coût. Détail dans l'article [frais et négo](/blog/frais-notaire-negociation-achat-boulogne).",
+        },
+        {
+          titre: "Le neuf du Trapèze surévalué : quand attendre l'ancien rénové",
+          contenu:
+            "Le Trapèze mérite une nuance à lui seul, parce qu'on me le présente souvent comme le choix évident. La construction y est excellente, le cadre moderne agréable, le DPE au top. Mais deux choses à surveiller. Un : certains programmes se vendent à un prix qui intègre une prime de neuf qui ne se retrouvera pas forcément à la revente dans dix ans, quand le quartier ne sera plus le dernier né. Deux : les charges lourdes pèsent sur le rendement et sur le budget mensuel. À éviter pour qui : l'investisseur cash-flow et l'acheteur à horizon court qui surpaie la prime de neuf. Pertinent pour qui : la famille qui garde longtemps, veut zéro travaux et valorise le confort immédiat. Mon arbitrage honnête : si tu gardes 8 ans et plus, un ancien rénové du centre rattrape souvent le neuf une fois les travaux et frais amortis. Ce n'est pas à éviter, c'est à acheter au bon prix et pour les bonnes raisons.",
+        },
+        {
+          titre: "Les faux à éviter : ces secteurs boudés qui sont des bonnes affaires",
+          contenu:
+            "La partie que personne ne te dit. Certains secteurs de Boulogne sont injustement boudés, et c'est précisément là qu'il reste de la marge. Le Point-du-Jour et République (8 000 à 9 500 €/m2) souffrent d'une réputation d'entrée de gamme, mais une fois écartés les biens sur quai bruyant et les copros à charges, tu trouves des rues agréables côté Seine, à 18 minutes de Paris, 25 à 30 % moins cher que le nord. Silly-Gallieni (8 500 à 9 800), discret et sans cachet apparent, est bien desservi et offre un bon rapport prix/accessibilité. Le sud de Billancourt, parfois jugé trop neuf ou trop excentré, gagne l'arrivée de la ligne 15 Sud. À acheter pour qui : le primo malin et l'investisseur patient qui trient bien le bien. Mon conseil : ne confonds jamais réputation de quartier et qualité du bien précis. Les meilleures affaires de Boulogne se font dans les secteurs que les autres snobent.",
+        },
+        {
+          titre: "Faire trier les pièges pour ton projet précis",
+          contenu:
+            "Encart milieu d'article. Savoir quel secteur à éviter ou à privilégier dépend entièrement de ton profil : un bruit rédhibitoire pour l'un est un non-sujet pour l'autre, une copro à charges est un piège pour le primo et pas pour l'acheteur cash. Pour que le tri se fasse selon ton cas réel, [lance le quiz Trouve ta ville idéale](/?concierge=open) : tu indiques ta sensibilité au bruit, ton budget, ta présence à la maison, ton horizon, et tu reçois un rapport perso généré par l'IA qui pointe les secteurs adaptés et ceux à écarter pour toi précisément. Gratuit, et bien plus fiable qu'un on-dit. Ton : aide concrète.",
+        },
+        {
+          titre: "Le verdict : à éviter pour toi, pas dans l'absolu",
+          contenu:
+            "Le résumé honnête. À réfléchir selon ton projet : les biens sur quai et grandes artères bruyantes (rédhibitoires pour les familles et télétravailleurs), la surcote prestige des Princes au prix plein (mauvaise pour l'investisseur et le pari plus-value), les copros années 70 à charges et le neuf Trapèze surévalué (pièges pour le primo serré et le cash-flow). À ne surtout pas éviter : le Point-du-Jour, Silly-Gallieni et le sud de Billancourt bien triés, ces faux à éviter où il reste de la marge. La règle qui résume tout : aucun quartier de Boulogne n'est à fuir, c'est toujours un bien précis dans un contexte précis pour un projet précis. Avant de décider du timing, lis [le diagnostic complet](/blog/boulogne-billancourt-2026-acheter-encore-coup), et pour la vie au quotidien, la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012).",
+        },
+      ],
+      references: ["Boulogne-Billancourt"],
+    },
+  },
+  {
+    slug: "investir-boulogne-rendement-locatif-2026",
+    title:
+      "Investir à Boulogne-Billancourt en 2026 : rendement réel par quartier",
+    description:
+      "3 à 3,5 % brut, le rendement est faible. Mais la demande locative de jeunes cadres, le LMNP, le corporate et le pari ligne 15 changent le calcul. Le vrai chiffrage sur un T2.",
+    publishedAt: "2026-04-30",
+    readingMinutes: 11,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur 38-58 ans, capacité 400 k€ à 1 M€, déjà propriétaire de sa RP. Cherche un placement patrimonial solide plus qu'un cash-flow. Hésite entre Boulogne et des villes plus rentables. Connaît le LMNP, veut un calcul réel.",
+      angle:
+        "Investisseur. Dire la vérité sur le rendement faible (3 à 3,5 % brut, prix élevés), puis montrer le jeu réel : valorisation patrimoniale, demande locative jeunes cadres (sièges sociaux, média et TF1, proximité La Défense), corporate rental, meublé LMNP, neuf Trapèze, pari ligne 15 Pont de Sèvres. Comparer nu vs meublé vs colocation. Calcul réel sur un T2 ou T3. Linker le pilier et la grille de prix.",
+      ouverture:
+        "Contre-evidence : 'Si tu cherches du cash-flow, Boulogne est un mauvais choix, 3,3 % brut, point. Mais si tu as compris que l'immobilier patrimonial ne se joue pas sur le rendement affiché, alors Boulogne mérite le détour. Voici pourquoi.'",
+      structure:
+        "Décomposition par critère : la vérité sur le rendement, demande locative par quartier, le pari ligne 15, LMNP et corporate, stratégie par quartier, calcul sur un T2, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Disons-le tout de suite, sans enrobage : si tu cherches du cash-flow, Boulogne-Billancourt est un mauvais choix. Le rendement locatif brut y tourne autour de 3 à 3,5 %, parce que les prix sont élevés (9 200 €/m2 de médiane) et que les loyers, bien que solides, ne suivent pas la meme pente. Tu ne feras pas de l'autofinancement avec un T3 à Boulogne. Maintenant, si tu as compris que l'immobilier patrimonial ne se joue pas sur le rendement affiché mais sur la valorisation, la liquidité à la revente et la sécurité du locataire, alors Boulogne change de visage. La commune est un pôle d'emploi majeur : sièges sociaux, secteur média et tech, TF1, et la proximité immédiate de La Défense. Résultat, une demande locative profonde et fiable de jeunes cadres, peu de vacance, des loyers qui tiennent. À ça s'ajoutent des leviers concrets : le meublé en LMNP, la location corporate pour expatriés, le neuf du Trapèze, et le pari de valorisation de la ligne 15 Sud à Pont de Sèvres. Dans cet article, je te donne la vérité sur le rendement, la demande locative par quartier, les stratégies qui marchent, et un calcul réel sur un T2. La grille de prix complète est [ici](/blog/prix-immobilier-boulogne-2026-par-quartier).",
+        },
+        {
+          titre: "La vérité sur le rendement : 3 à 3,5 % brut, et pourquoi",
+          contenu:
+            "Le chiffre d'abord, brut de décoffrage. Avec un prix d'achat autour de 9 200 €/m2 et un loyer de marché qui se situe en gros entre 28 et 34 €/m2 par mois selon le quartier et le standing, tu obtiens un rendement brut de 3 à 3,5 %. Une fois enlevés la taxe foncière, les charges non récupérables, la gestion et la vacance, le net descend souvent autour de 2,3 à 2,8 %. Ce n'est pas un placement de rendement, c'est un placement de conservation. Pourquoi accepter ça ? Parce que la valorisation patrimoniale a historiquement compensé : Boulogne s'est appréciée sur le long terme, et meme avec la correction récente (-2,1 % sur cinq ans, désormais terminée), le bien reste un actif sûr et hyper liquide. Tu n'achètes pas pour le loyer du mois, tu achètes un actif que tu revendras facilement, qui ne reste jamais vacant longtemps, et qui se transmet bien. C'est un arbitrage assumé : rendement faible contre sécurité et liquidité maximales.",
+        },
+        {
+          titre: "La demande locative par quartier : qui loue, et où",
+          contenu:
+            "C'est le vrai atout de Boulogne, et il varie selon le secteur. Le moteur, c'est l'emploi : sièges sociaux, secteur média et tech, TF1, et la proximité de La Défense, qui drainent une population de jeunes cadres et de cadres mobiles. Centre et Marcel-Sembat : demande très forte de jeunes actifs qui veulent les commerces et la ligne 9, faible vacance, loyers tendus, c'est le secteur le plus liquide à la location. Le Trapèze et Billancourt : très prisé des cadres et des expatriés pour le neuf et le cadre moderne, terrain idéal du corporate rental. Pont de Sèvres : demande qui monte avec l'arrivée de la ligne 15, cadres travaillant sur l'arc sud du Grand Paris. Point-du-Jour et Silly-Gallieni : demande plus large, loyers plus accessibles, locataires plus diversifiés, bon rapport prix d'achat sur loyer. Mon conseil : pour limiter la vacance, vise le Centre ou le Trapèze ; pour optimiser le rapport prix/loyer, regarde l'ouest et l'est.",
+        },
+        {
+          titre: "Le pari ligne 15 Pont de Sèvres : le seul vrai levier de plus-value",
+          contenu:
+            "Pour un investisseur, le rendement faible se compense par la valorisation, et c'est là que Pont de Sèvres entre en jeu. La ligne 15 Sud du Grand Paris Express y arrive, avec une mise en service attendue autour de 2025-2026. C'est le seul vrai levier de revalorisation neuve sur Boulogne, parce que le reste de la commune est déjà très bien desservi. Concrètement, le secteur devient un nœud de transport majeur connectant tout l'arc sud du Grand Paris, ce qui élargit le bassin de locataires potentiels et soutient les prix à la revente. La stratégie d'investisseur : viser un bien correct à 300-500 m de la future station, dont le prix n'a pas encore totalement absorbé la nouvelle accessibilité. Tu combines alors une demande locative qui s'élargit et un potentiel de plus-value. Mon avertissement, le meme que partout : ne paie pas une surcote juste pour le label Grand Paris Express sur un bien déjà au prix du centre. Le pari n'a de sens que sur un bien acheté avant que la station ne tourne à plein régime.",
+        },
+        {
+          titre: "Nu, meublé LMNP ou colocation : quelle stratégie",
+          contenu:
+            "Trois façons de louer, trois logiques. Location nue : la plus simple, la moins fiscalisée à l'effort, mais le rendement brut reste plafonné à 3-3,5 % et les revenus sont imposés en foncier classique. Pertinent pour un patrimonial qui veut zéro gestion et vise la transmission. Meublé en LMNP (Loueur en Meublé Non Professionnel) : tu loues meublé, tu amortis le bien et le mobilier, et tu peux neutraliser fiscalement tes loyers pendant des années. C'est le levier qui transforme le rendement net à Boulogne, parce qu'il efface l'impôt sur des loyers solides. Idéal sur un T2 ou un studio en Centre ou au Trapèze, ciblant jeunes cadres et expatriés. Colocation : sur un grand T4 ou T5 bien placé (Centre, proche métro), louer à la chambre booste le rendement brut de 1 à 1,5 point. Plus de gestion et de rotation, mais une demande réelle de jeunes actifs. Mon conseil : LMNP meublé sur petite surface pour optimiser le net, nu sur grande surface familiale pour la tranquillité et la revente.",
+        },
+        {
+          titre: "Le corporate rental : la niche qui fait la différence",
+          contenu:
+            "Voilà une stratégie sous-exploitée à Boulogne, et pourtant taillée pour la commune. Le corporate rental, c'est la location à des entreprises pour loger leurs cadres en mission, leurs expatriés ou leurs salariés en mobilité. Boulogne coche toutes les cases : pôle d'emploi avec sièges sociaux et secteur média, proximité de La Défense, et un parc neuf au Trapèze parfait pour ce public exigeant. L'avantage : des loyers supérieurs au marché classique (parfois 10 à 20 % de plus), des locataires solvables et encadrés par leur employeur, des baux meublés courts ou moyens, une vacance limitée parce que la demande corporate est constante. La contrepartie : un bien irréprochable, meublé avec soin, idéalement neuf ou rénové haut de gamme, et une gestion plus exigeante (parfois via une agence spécialisée). Le terrain idéal : le Trapèze et le Centre, en T2 ou T3 meublé qualitatif. C'est probablement la meilleure façon de doper le rendement à Boulogne sans sacrifier la qualité du locataire.",
+        },
+        {
+          titre: "Le calcul réel sur un T2 de 45 m2",
+          contenu:
+            "Mettons des chiffres concrets. T2 de 45 m2 en Centre-Marcel-Sembat, acheté à 10 000 €/m2, soit 450 000 €. Frais de notaire ancien à 7,7 %, environ 34 600 €. Coût total d'acquisition autour de 485 000 €, hors travaux. Loyer meublé visé : 32 €/m2 par mois, soit environ 1 440 € par mois, 17 280 € par an. Rendement brut sur le prix d'achat : 3,8 %, un poil au-dessus de la moyenne grâce au meublé. Charges non récupérables, taxe foncière, gestion et provision vacance : comptons 4 500 € par an. Revenu net avant impôt : environ 12 780 €, soit 2,6 % net sur le coût total. Maintenant le levier LMNP : avec l'amortissement du bien et du mobilier, tu peux neutraliser l'impôt sur ces loyers pendant de longues années, ce qui maintient ton net réel autour de 2,6 % au lieu de le voir fondre avec la fiscalité foncière. Sur le neuf du Trapèze, les frais de notaire tombent à 2-3 % (gain de 25 000 à 30 000 € à l'achat), mais les charges lourdes rognent une partie du loyer net. L'arbitrage se joue là. Détail des frais [ici](/blog/frais-notaire-negociation-achat-boulogne).",
+        },
+        {
+          titre: "Vérifier le rendement réel de ton projet d'investissement",
+          contenu:
+            "Encart milieu d'article. Le rendement dépend du quartier, du type de location et de ta fiscalité, et chaque combinaison donne un résultat différent. Pour cadrer ton projet d'investissement et comparer Boulogne à une commune plus rentable sur le meme budget, [ouvre le comparateur de villes](/comparer) et mets-les face à face sur le prix au m2 et le profil locatif. Et si tu veux un avis personnalisé sur le secteur et la stratégie qui collent à ton dossier, le concierge IA en bas à droite de l'écran répond à tes questions sur l'investissement à Boulogne quartier par quartier. Ton : aide concrète, pas de vente.",
+        },
+        {
+          titre: "Le verdict investisseur Boulogne 2026",
+          contenu:
+            "Le bilan, sans détour. Boulogne n'est pas un placement de rendement, c'est un placement de conservation et de sécurité : 3 à 3,5 % brut, 2,3 à 2,8 % net, mais une demande locative profonde de jeunes cadres, une vacance minime et une liquidité de revente excellente. Pour optimiser, le couple gagnant est meublé LMNP sur petite surface en Centre ou au Trapèze, avec une vraie option corporate rental pour les biens haut de gamme. Pour la plus-value, le seul pari rationnel est le sud de Billancourt et l'abord de Pont de Sèvres avec la ligne 15. Si ton objectif premier est le cash-flow, regarde ailleurs ; si c'est un actif patrimonial sûr dans une ville premium, Boulogne tient son rang. Avant d'arbitrer, lis [le diagnostic timing](/blog/boulogne-billancourt-2026-acheter-encore-coup) et consulte la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012).",
+        },
+      ],
+      references: ["Boulogne-Billancourt"],
+    },
+  },
+  {
+    slug: "quitter-paris-pour-boulogne-arbitrage-2026",
+    title: "Quitter Paris pour Boulogne-Billancourt : le vrai calcul en 2026",
+    description:
+      "Boulogne, c'est le quitter Paris le plus doux, presque le 21e arrondissement à 18 minutes. Le vrai gain n'est pas la rupture, c'est 10 à 20 % moins cher que le 16e et plus de surface.",
+    publishedAt: "2026-05-06",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien 34-50 ans, locataire ou propriétaire dans le 15e ou le 16e, famille qui s'agrandit, capacité 700 k€ à 1,3 M€. Veut plus de surface et un cadre plus respirable sans couper le cordon avec Paris. Hésite à franchir le périph.",
+      angle:
+        "Pont éditorial honnête. Boulogne, c'est le quitter Paris le plus doux, quasi le 21e arrondissement (18 min). L'arbitrage réel : quitter le 15e ou 16e pour Boulogne, c'est environ 10 à 20 % moins cher au m2 que le 16e (qui tape 11 000 à 13 000), tout en restant collé à Paris, au Bois de Boulogne, aux écoles, avec plus de surface familiale. Le vrai gain n'est pas la rupture mais la respiration et le rapport surface/prix. Détailler le trajet ligne 9 et ligne 10. Linker le pilier et la grille de prix.",
+      ouverture:
+        "Aveu : 'Quitter Paris pour Boulogne, ce n'est presque pas quitter Paris. À 18 minutes de Châtelet, collé au Bois, c'est plutôt déménager dans le 21e arrondissement. Et c'est précisément ce qui en fait le bon calcul.'",
+      structure:
+        "Comparaison : Boulogne vraiment quitter Paris, le calcul prix vs Paris 15 et 16, surface gagnée, l'argument Bois et écoles, qui y gagne qui ferait mieux de rester, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Quitter Paris pour Boulogne-Billancourt, ce n'est presque pas quitter Paris. À 18 minutes du centre par la ligne 9, collé au Bois de Boulogne et au 16e arrondissement, c'est plutôt comme déménager dans un 21e arrondissement qui n'existe pas. Et c'est exactement ce qui en fait le calcul le plus doux et le plus rationnel pour un Parisien qui étouffe sans vouloir couper le cordon. Soyons clairs : si tu rêves de campagne, de silence et de rupture totale, Boulogne n'est pas pour toi, c'est une ville dense et active. Mais si tu es dans le 15e ou le 16e, que ta famille s'agrandit, que tu manques de mètres carrés et que l'idée de partir à 1h30 de Paris te terrifie, alors Boulogne est la respiration intelligente. Le vrai gain n'est pas la rupture, c'est le rapport surface sur prix. Le 16e voisin tape 11 000 à 13 000 €/m2 ; Boulogne tourne à 9 200 de médiane, soit 10 à 20 % de moins, pour rester à un jet de pierre de Paris, du Bois et des bonnes écoles. Dans cet article, je te donne le vrai calcul : combien tu économises, combien de surface tu gagnes, le trajet réel, et surtout pour qui ça vaut le coup et qui ferait mieux de rester dans Paris. La grille de prix par quartier est [ici](/blog/prix-immobilier-boulogne-2026-par-quartier).",
+        },
+        {
+          titre: "Boulogne, est-ce vraiment quitter Paris ?",
+          contenu:
+            "Posons la question franchement, parce que la réponse change tout. Géographiquement, Boulogne est collée à Paris, séparée seulement par le périphérique et le Bois de Boulogne. En métro, tu es à 15-20 minutes du centre par la ligne 9 (Marcel Sembat, Billancourt, Pont de Sèvres) ou la ligne 10 (Boulogne Jean-Jaurès, Pont de Saint-Cloud), avec La Défense à 15 minutes. Le tram T2 passe à proximité. Sociologiquement, c'est une continuité du 16e : meme type de population, meme densité de services, memes écoles réputées. Donc non, tu ne quittes pas vraiment Paris au sens où on l'entend habituellement (province, grande couronne, changement de vie). Tu franchis le périph, c'est tout. Pour beaucoup, c'est justement l'objectif : garder la vie parisienne, le réseau, le boulot, les habitudes, et juste gagner de l'espace et un peu d'air. C'est le quitter Paris des gens qui ne veulent pas vraiment quitter Paris. Et c'est une stratégie parfaitement valable.",
+        },
+        {
+          titre: "Le calcul prix : Boulogne vs Paris 15e et 16e",
+          contenu:
+            "Le cœur du sujet, en chiffres. Le 16e arrondissement, le voisin direct, tape entre 11 000 et 13 000 €/m2 selon le secteur, parfois plus sur les meilleures adresses. Le 15e tourne autour de 10 000 à 11 500. Boulogne affiche une médiane de 9 200 €/m2, avec une fourchette de 8 000 au Point-du-Jour à 12 000 chez les Princes-Marmottan. Concrètement, pour un bien équivalent, tu économises grosso modo 10 à 20 % au m2 en passant du 16e à Boulogne, et l'écart grimpe encore si tu vises l'ouest de la commune (Point-du-Jour, Silly-Gallieni). Sur un appartement familial de 90 m2, cet écart représente facilement 150 000 à 250 000 € de différence entre le 16e et un bon quartier de Boulogne. Ce n'est pas une fortune divisée par dix, c'est une décote mesurée pour un quasi-non-déménagement. Tu ne changes pas de vie, tu changes de code postal et tu récupères de la marge, soit en budget, soit en surface. C'est tout l'intérêt de l'arbitrage.",
+        },
+        {
+          titre: "La surface gagnée : le vrai bénéfice familial",
+          contenu:
+            "Voilà ce qui fait basculer la plupart des familles. La décote de 10 à 20 % par rapport au 16e, tu peux la prendre de deux façons. Soit tu gardes ton budget et tu paies moins cher. Soit, et c'est le choix le plus fréquent, tu gardes ton effort financier et tu transformes l'écart en mètres carrés. Exemple parlant : avec le budget d'un trois-pièces de 65 m2 dans le 16e, tu vises un quatre-pièces de 80 à 85 m2 dans un bon quartier de Boulogne. Pour une famille avec deux enfants, ça veut dire la chambre en plus, le coin bureau pour le télétravail, ou simplement des pièces où on respire. C'est exactement le besoin qui pousse les familles à quitter Paris intra-muros : pas l'envie de partir, mais le manque de place. Boulogne répond à ce besoin sans imposer le sacrifice du trajet et du déracinement. Tu gagnes la surface d'une grande couronne en restant à 18 minutes de Châtelet. C'est le meilleur rapport mètres carrés sur proximité de toute la première couronne ouest.",
+        },
+        {
+          titre: "L'argument Bois, familles et écoles",
+          contenu:
+            "Au-delà du prix et de la surface, trois atouts scellent souvent la décision. Le Bois de Boulogne, d'abord : il borde le nord de la commune, accessible à pied depuis les Princes-Marmottan et le nord de Boulogne. Pour une famille, c'est un immense poumon vert pour les week-ends, le vélo et le sport, l'équivalent d'un grand parc privé partagé. Les écoles, ensuite : Boulogne a une réputation scolaire solide, avec un mix public et privé réputé et plusieurs lycées prisés. Pour beaucoup de familles, c'est meme l'argument numéro un, à égalité avec le 16e sur ce terrain. La vie de quartier, enfin : commerces, marchés, équipements sportifs et culturels, tu retrouves tout ce que tu avais à Paris, sans la pression du centre. Mon constat terrain : les familles qui franchissent le périph pour Boulogne ne regrettent quasiment jamais, parce qu'elles gardent tout ce qui comptait (écoles, Bois, proximité) en gagnant ce qui manquait (la place). Pour choisir le bon quartier selon ton profil, j'ai fait [le classement ici](/blog/meilleur-quartier-boulogne-acheter-2026).",
+        },
+        {
+          titre: "Le trajet réel : ligne 9, ligne 10 et après",
+          contenu:
+            "Parlons trajet concret, parce que c'est ce qui inquiète avant de franchir le périph. Boulogne est desservie par deux lignes de métro. La ligne 9 (Marcel Sembat, Billancourt, Pont de Sèvres) file vers Paris centre en 15-20 minutes et dessert les grands pôles de l'ouest et du centre. La ligne 10 (Boulogne Jean-Jaurès, Pont de Saint-Cloud) couvre l'autre moitié de la commune et la rive gauche. La Défense est à 15 minutes, ce qui compte si tu y travailles. Le tram T2 passe à proximité et relie l'arc sud-ouest. Et à venir, la ligne 15 Sud du Grand Paris Express arrive à Pont de Sèvres autour de 2025-2026, ce qui connectera Boulogne à tout l'arc sud sans passer par le centre de Paris. Bilan : ta vie de transport ne change quasiment pas par rapport au 15e ou au 16e. Tu restes en zone 1-2, sur le réseau métro, à une vingtaine de minutes de tout. Le quitter Paris qui ne rallonge pas tes trajets, c'est rare, et c'est précisément l'argument de Boulogne.",
+        },
+        {
+          titre: "Qui y gagne, qui ferait mieux de rester dans Paris",
+          contenu:
+            "Soyons honnêtes, ce n'est pas pour tout le monde. Qui y gagne clairement : la famille du 15e ou du 16e qui manque de surface, veut garder les écoles et le Bois, et refuse de s'éloigner ; le couple qui prépare l'arrivée d'enfants et anticipe le besoin de place ; le cadre qui travaille à La Défense ou dans l'ouest parisien et veut raccourcir son trajet. Qui ferait mieux de rester dans Paris : le célibataire ou le couple sans enfant qui valorise la vie nocturne et culturelle du centre, et pour qui le périph reste une frontière psychologique ; celui qui rêve vraiment de rupture, de calme et de nature, à qui Boulogne (dense et active) ne donnera pas satisfaction et qui devrait viser plus loin. Mon verdict de tri : Boulogne est l'arbitrage parfait pour qui veut respirer sans quitter, et un faux bon plan pour qui veut vraiment changer de vie. Identifie ton besoin réel avant de décider.",
+        },
+        {
+          titre: "Savoir si Boulogne est ton bon arbitrage",
+          contenu:
+            "Encart milieu d'article. Quitter Paris pour Boulogne est un excellent calcul pour certains profils et un demi-pas inutile pour d'autres. Pour savoir où tu te situes, [lance le quiz Trouve ta ville idéale](/?concierge=open) : tu réponds sur ta famille, ton trajet pro, ton budget et ce que tu cherches vraiment (respiration douce ou vraie rupture), et tu reçois un rapport perso généré par l'IA qui te dit si Boulogne est ton bon arbitrage, ou si une autre commune correspond mieux à ton projet. Gratuit, et bien plus utile qu'une visite à l'aveugle. Ton : aide concrète.",
+        },
+        {
+          titre: "Le verdict : le quitter Paris le plus doux",
+          contenu:
+            "Pour résumer le calcul. Boulogne, c'est le quitter Paris le plus doux qui existe : 18 minutes du centre, collé au Bois et au 16e, memes écoles, meme réseau, mais 10 à 20 % moins cher au m2 que le 16e, soit la chambre ou le bureau en plus pour une famille. Le vrai bénéfice n'est pas la rupture (il n'y en a pas), c'est la respiration et le rapport surface sur prix sans sacrifier la proximité. Ça vaut le coup pour les familles qui manquent de place et veulent rester arrimées à Paris ; ça ne vaut pas le coup pour qui rêve d'un vrai changement de vie ou d'animation nocturne du centre. Avant de te décider, lis [le diagnostic timing complet](/blog/boulogne-billancourt-2026-acheter-encore-coup), compare avec d'autres communes via le [comparateur](/comparer), et explore la vie au quotidien dans la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012).",
+        },
+      ],
+      references: ["Boulogne-Billancourt"],
+    },
+  },
+  {
+    slug: "frais-notaire-negociation-achat-boulogne",
+    title: "Acheter à Boulogne-Billancourt : frais, notaire et négociation réelle",
+    description:
+      "Frais de notaire 7,5 à 8 % dans l'ancien, 2 à 3 % au Trapèze neuf. Marge de négo 2 à 5 % selon le quartier, quasi nulle chez les Princes. Les calculs et les coûts cachés des copros.",
+    publishedAt: "2026-05-12",
+    readingMinutes: 9,
+    category: "finance",
+    brief: {
+      audience:
+        "Acheteur 33-55 ans en phase de transaction sur Boulogne, capacité 600 k€ à 1,2 M€. Veut savoir combien il paie vraiment au-delà du prix affiché, comment négocier selon le quartier, et quels coûts cachés de copropriété guetter. Souvent primo sur ce niveau de prix.",
+      angle:
+        "Transaction. Détailler les frais de notaire ancien (7,5 à 8 %, calcul chiffré sur 600 k€ et 1 M€) vs neuf Trapèze (2 à 3 %, l'avantage). Marge de négo 2 à 5 % (marché tendu), plus sur l'ancien à rénover, quasi nulle sur le prestige des Princes. Coûts cachés : copros années 30 et 70 (charges, ascenseur, ravalement), parking, travaux DPE. Neuf vs ancien sur les frais. Linker la grille de prix et le pilier.",
+      ouverture:
+        "Statistique : 'Sur un 800 000 € à Boulogne dans l'ancien, compte 61 000 € de frais de notaire. Sur le meme prix au Trapèze neuf, 20 000. Cet écart de 41 000 €, personne ne te l'explique avant l'offre.'",
+      structure:
+        "Méthodique : combien coûtent les frais (calculs), neuf vs ancien, négo par quartier, coûts cachés copro, timing, erreurs primo, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Le prix affiché sur l'annonce n'est jamais ce que tu paies. À Boulogne-Billancourt, où le ticket d'entrée est élevé, l'écart entre le prix et le coût réel se chiffre en dizaines de milliers d'euros, et personne ne te l'explique clairement avant que tu fasses une offre. Premier poste, les frais de notaire : 7,5 à 8 % du prix dans l'ancien, mais seulement 2 à 3 % dans le neuf du Trapèze. Sur un bien à 800 000 €, ça fait environ 61 000 € de frais dans l'ancien contre 20 000 dans le neuf, soit 41 000 € d'écart pour le meme prix d'achat. Deuxième levier, la négociation : le marché boulonnais est tendu, donc la marge est mince (2 à 5 %), plus large sur un ancien à rénover, quasi nulle sur le prestige des Princes-Marmottan. Troisième piège, les coûts cachés de copropriété : charges lourdes, ravalements, ascenseurs vieillissants, travaux de mise aux normes énergétiques. Dans cet article, je te donne les calculs précis des frais sur 600 000 € et 1 million, l'avantage du neuf, la marge de négo réaliste par quartier, et les coûts cachés à débusquer avant de signer. La grille de prix par quartier est [ici](/blog/prix-immobilier-boulogne-2026-par-quartier).",
+        },
+        {
+          titre: "Combien coûtent vraiment les frais de notaire : les calculs",
+          contenu:
+            "Posons les chiffres noir sur blanc, dans l'ancien, où les frais tournent à 7,5-8 %. Sur un bien à 600 000 € : compte environ 46 000 € de frais de notaire (droits de mutation, émoluments, débours), soit un coût total d'acquisition autour de 646 000 €. Sur un bien à 800 000 € : environ 61 000 € de frais, coût total 861 000 €. Sur un bien à 1 million d'euros : environ 77 000 € de frais, coût total 1 077 000 €. Ces frais ne sont quasiment pas négociables (les droits de mutation sont fixes, seuls les émoluments du notaire ont une marge minime depuis la loi qui les a légèrement ouverts). À retenir : sur Boulogne, à chaque tranche de 200 000 € de prix, tu ajoutes environ 15 000 € de frais. Intègre-les dans ton plan de financement dès le départ, parce qu'ils ne sont en général pas couverts par le prêt et sortent de ton apport. Beaucoup de primo se font surprendre en découvrant que leur apport est mangé par les frais.",
+        },
+        {
+          titre: "Neuf vs ancien : l'avantage frais réduits du Trapèze",
+          contenu:
+            "Voilà un argument qui change le calcul, et qu'on oublie souvent. Dans le neuf, les frais de notaire tombent à 2 à 3 % du prix, contre 7,5 à 8 % dans l'ancien. À Boulogne, le neuf, c'est principalement le Trapèze et Billancourt sud. Reprenons les memes tranches. Sur 600 000 € au Trapèze neuf : environ 15 000 € de frais, contre 46 000 dans l'ancien, soit 31 000 € économisés. Sur 800 000 € : environ 20 000 € de frais contre 61 000, soit 41 000 € d'écart. C'est un avantage réel et massif. Mais ne t'arrête pas là, parce que le neuf porte des charges de copropriété élevées (50 à 80 €/m2 par an au Trapèze, contre 30 à 45 dans l'ancien classique), et un prix d'achat parfois supérieur qui peut absorber une partie de l'économie de frais. Mon arbitrage : l'avantage frais du neuf est décisif si tu revends à moyen terme ou si tu veux préserver ton apport ; sur un horizon long, l'ancien rénové peut rattraper une fois les travaux amortis. Le rendement de cet arbitrage est détaillé [côté investisseur](/blog/investir-boulogne-rendement-locatif-2026).",
+        },
+        {
+          titre: "La négociation par quartier : combien tu peux vraiment gratter",
+          contenu:
+            "Le marché de Boulogne est tendu, donc oublie les grosses décotes. La marge de négociation réaliste se situe entre 2 et 5 % du prix affiché, et elle varie nettement selon le secteur et le bien. Quasi nulle (0 à 2 %) : le prestige des Princes-Marmottan, où la demande dépasse l'offre et où les vendeurs ne lâchent rien ; les biens neufs du Trapèze vendus par le promoteur, où le prix est ferme. Mince (2 à 4 %) : le Centre, Marcel-Sembat et Parchamp, secteurs liquides et recherchés. Plus large (4 à 6 %, parfois plus) : un ancien à rénover dans n'importe quel quartier, un bien avec un défaut (rez-de-chaussée, vis-à-vis, travaux lourds à prévoir), une copro à charges élevées qui refroidit les autres acheteurs, ou un secteur moins demandé comme le Point-du-Jour et Silly-Gallieni. Mon conseil de négo : les meilleures marges se font sur les biens que les autres boudent (à rénover, à charges, sur rue), parce que tu négocies le défaut. Sur le bien parfait dans le quartier parfait, attends-toi à payer le prix.",
+        },
+        {
+          titre: "Les coûts cachés des copropriétés : années 30 et 70",
+          contenu:
+            "C'est là que les budgets dérapent, et c'est invisible sur l'annonce. À Boulogne, deux types de copro demandent une vigilance maximale. Les immeubles des années 30 (beau bâti art déco, notamment dans le centre et le nord) : cachet réel, mais charges parfois élevées, ascenseurs anciens à moderniser, ravalements coûteux sur des façades travaillées, isolation à reprendre. Les copropriétés des années 60-70 (présentes côté Point-du-Jour et dans certains ensembles) : charges lourdes, gros travaux de ravalement et de mise aux normes qui tombent par appels de fonds de 20 000 à 50 000 €. Ajoute à ça les coûts souvent oubliés : le parking (15 000 à 40 000 € en sus à Boulogne, ou une location mensuelle), et les travaux de mise à niveau énergétique imposés par le calendrier DPE sur les passoires. Mon réflexe systématique avant toute offre : exige les trois derniers procès-verbaux d'assemblée générale, le carnet d'entretien, le montant des charges au m2 et l'état du fonds travaux. Ces documents valent plus que le ravissement de la visite.",
+        },
+        {
+          titre: "Le timing : quand acheter joue sur ton pouvoir de négo",
+          contenu:
+            "Le moment où tu achètes change ta marge, meme sur un marché tendu. Quelques repères concrets. Un bien qui vient d'arriver sur le marché se vend rarement avec décote, le vendeur teste son prix et la demande est fraîche. Un bien en ligne depuis deux ou trois mois sans vente, en revanche, signale un prix trop haut ou un défaut : c'est là que ta marge s'ouvre, parce que le vendeur commence à douter. Les périodes plus calmes (été, fin d'année) voient moins d'acheteurs en concurrence, donc un léger avantage côté acheteur. Côté financement, les taux de crédit se sont détendus par rapport à leur pic, ce qui élargit les capacités d'emprunt et redonne un peu d'air aux acheteurs. Mon conseil de timing : surveille la date de mise en ligne des annonces (un bien qui traîne est ta meilleure cible de négo), et fais-toi accompagner par un courtier pour optimiser ton taux, parce qu'un demi-point gagné sur le crédit pèse souvent plus que 2 % grattés sur le prix.",
+        },
+        {
+          titre: "Les erreurs de primo-accédant à ne pas commettre",
+          contenu:
+            "Quand on achète à ce niveau de prix pour la première fois, certaines erreurs reviennent en boucle. Une : oublier les frais de notaire dans le plan de financement et découvrir trop tard que l'apport est mangé. Deux : se focaliser sur le prix au m2 affiché en ignorant les charges de copropriété, qui peuvent représenter 1 000 à 2 300 € par an d'écart entre deux biens. Trois : signer le compromis avant d'avoir lu les procès-verbaux d'assemblée générale et de connaître les travaux votés ou à venir. Quatre : négliger le DPE et hériter d'une passoire avec des travaux obligatoires à la clé. Cinq : surpayer le prestige ou le neuf en croyant qu'un beau quartier garantit une bonne affaire financière. Six : négocier le prix mais pas le crédit, alors que le courtier fait souvent gagner plus. Mon résumé : à Boulogne, le vrai prix se cache dans les frais, les charges et le crédit, pas seulement dans le prix d'annonce. Regarde le coût total sur dix ans, pas le ticket d'entrée.",
+        },
+        {
+          titre: "Cadrer ton budget réel avant de faire une offre",
+          contenu:
+            "Encart milieu d'article. Entre les frais de notaire, les charges de copro, le parking et les travaux, ton coût réel à Boulogne peut dépasser de 10 à 15 % le prix affiché. Pour ne pas te tromper, le concierge IA en bas à droite de l'écran répond à tes questions précises sur les frais, la négo et les coûts cachés quartier par quartier à Boulogne. Et pour comparer ton budget total face à une autre commune (parfois moins chère en frais et charges sur le neuf), [ouvre le comparateur de villes](/comparer) et mets-les côte à côte. Ton : aide concrète, pas de vente.",
+        },
+        {
+          titre: "Le verdict transaction Boulogne 2026",
+          contenu:
+            "Pour résumer ce qui compte vraiment au moment de signer. Les frais de notaire pèsent 7,5 à 8 % dans l'ancien (46 000 € sur 600 000, 77 000 sur 1 million) contre 2 à 3 % dans le neuf du Trapèze, un écart décisif à intégrer dans ton apport. La négociation reste mince (2 à 5 %), quasi nulle sur le prestige des Princes, plus large sur l'ancien à rénover et les biens que les autres boudent. Les coûts cachés se logent dans les copropriétés (charges, ravalement, ascenseur), le parking et les travaux DPE, à débusquer via les procès-verbaux avant toute offre. Et le crédit pèse souvent plus que le prix gratté, donc passe par un courtier. À Boulogne, l'acheteur malin raisonne en coût total sur dix ans, pas en prix d'annonce. Avant de te lancer, lis [le diagnostic timing](/blog/boulogne-billancourt-2026-acheter-encore-coup) et explore la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012) pour le cadre de vie.",
+        },
+      ],
+      references: ["Boulogne-Billancourt"],
+    },
+  },
+  {
+    slug: "boulogne-ou-issy-les-moulineaux-acheter-2026",
+    title: "Boulogne ou Issy-les-Moulineaux : où acheter en 2026",
+    description:
+      "Le duel du sud-ouest 92, bord de Seine. Boulogne 9 200 €/m² plus grande et prestige, Issy 8 500 plus tech et jeune. Le match prix, transport, emploi, écoles et invest, pour trancher.",
+    publishedAt: "2026-05-21",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur 33-52 ans qui vise le sud-ouest des Hauts-de-Seine, bord de Seine, et hésite entre les deux villes voisines. Famille ou cadre, capacité 600 k€ à 1,2 M€. Veut un comparatif net pour trancher selon son profil.",
+      angle:
+        "Duel 1v1 du sud-ouest 92, bord de Seine. Boulogne 9 200 €/m2 (plus grande, Bois de Boulogne, lignes 9 et 10, prestige des Princes, plus chère) vs Issy-les-Moulineaux 8 500 €/m2 (plus tech et start-up, ligne 12 plus T2 plus futur Grand Paris Express, bords de Seine réaménagés, un peu moins chère, plus jeune). Match prix, cadre de vie, transport, emploi (média à Boulogne vs tech à Issy), écoles, invest, pour qui l'un et pour qui l'autre. Linker les deux fiches.",
+      ouverture:
+        "Question rhétorique : 'Boulogne ou Issy ? Deux voisines bord de Seine, 700 mètres d'écart, 700 €/m2 d'écart. Et pourtant deux villes au tempérament opposé. Laquelle est faite pour ton projet ?'",
+      structure:
+        "Comparaison : le match prix, transport, emploi et ambiance, écoles, invest, pour qui Boulogne pour qui Issy, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Boulogne ou Issy-les-Moulineaux ? Deux voisines collées l'une à l'autre dans le sud-ouest des Hauts-de-Seine, séparées par quelques centaines de mètres et par environ 700 €/m2, et pourtant deux villes au tempérament franchement différent. Boulogne-Billancourt, c'est la grande sœur : 9 200 €/m2 de médiane, le Bois de Boulogne, le prestige des Princes-Marmottan, les lignes 9 et 10, une réputation établie et familiale, mais un ticket plus élevé. Issy-les-Moulineaux, c'est la voisine plus jeune et plus tech : autour de 8 500 €/m2, un écosystème start-up et numérique dense, la ligne 12 complétée par le tram T2 et l'arrivée du Grand Paris Express, des bords de Seine réaménagés, une ambiance plus contemporaine et un peu plus abordable. Soyons clairs, il n'y a pas de gagnant absolu, il y a un gagnant selon ton projet. Dans ce duel, je compare point par point : le prix, le transport, l'emploi et l'ambiance (média et grands sièges à Boulogne, tech et start-up à Issy), les écoles, et l'investissement. Puis je te dis pour qui penche Boulogne et pour qui penche Issy. Pour creuser chaque ville, garde sous la main la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012) et la [fiche Issy-les-Moulineaux](/vivre-a/issy-les-moulineaux-92040).",
+        },
+        {
+          titre: "Le match prix : 9 200 contre 8 500 €/m2",
+          contenu:
+            "Commençons par le portefeuille. Boulogne affiche une médiane de 9 200 €/m2, avec une fourchette large de 8 000 au Point-du-Jour à 12 000 chez les Princes-Marmottan. Issy-les-Moulineaux tourne autour de 8 500 €/m2, avec ses propres écarts selon les quartiers (le centre et les bords de Seine réaménagés tirant les prix vers le haut, les secteurs plus anciens restant plus accessibles). L'écart de médiane, environ 700 €/m2, représente à peu près 8 %. Sur un appartement familial de 80 m2, ça fait grosso modo 55 000 à 60 000 € de différence en faveur d'Issy. Ce n'est pas un gouffre, mais ce n'est pas rien non plus. À noter : à Boulogne, la correction des prix (-2,1 % sur cinq ans) est terminée, le marché s'est stabilisé. Issy, portée par le dynamisme tech et les projets de transport, reste sur une trajectoire un peu plus tonique. Verdict prix : avantage Issy pour le budget, mais Boulogne offre un plafond de prestige (les Princes) qu'Issy n'a pas. Si le budget est ton critère premier, Issy gagne ce round. La grille détaillée de Boulogne est [ici](/blog/prix-immobilier-boulogne-2026-par-quartier).",
+        },
+        {
+          titre: "Le match transport : lignes 9 et 10 contre ligne 12, T2 et Grand Paris Express",
+          contenu:
+            "Les deux villes sont très bien connectées à Paris, mais différemment. Boulogne joue sur la ligne 9 (Marcel Sembat, Billancourt, Pont de Sèvres) et la ligne 10 (Boulogne Jean-Jaurès, Pont de Saint-Cloud), avec Paris centre à 15-20 minutes et La Défense à 15. Et surtout, la ligne 15 Sud du Grand Paris Express arrive à Pont de Sèvres autour de 2025-2026, un vrai levier pour le sud de la commune. Issy mise sur la ligne 12, le RER C, le tram T2 le long de la Seine, et bénéficie aussi de l'arrivée du Grand Paris Express qui renforce sa connexion à l'arc sud. Concrètement, pour rejoindre le centre de Paris, les deux se valent (autour de 18-20 minutes). Pour La Défense, Boulogne a un léger avantage de proximité. Pour l'arc sud du Grand Paris (Vélizy, Villejuif, l'aéroport d'Orly à terme), les deux gagnent avec le nouveau réseau. Verdict transport : quasi match nul, léger avantage Boulogne vers La Défense, léger avantage Issy pour qui bosse dans l'écosystème tech du sud.",
+        },
+        {
+          titre: "Le match emploi et ambiance : média à Boulogne, tech à Issy",
+          contenu:
+            "C'est ici que les deux villes divergent le plus, et ça pèse lourd dans le choix. Boulogne est un pôle d'emploi historique avec de grands sièges sociaux, un secteur média puissant (TF1 en tete) et une ambiance plus établie, plus familiale, plus bourgeoise par endroits. Tu y croises des cadres confirmés, des familles installées, une vie de ville premium mais classique. Issy-les-Moulineaux s'est construit une identité tech et numérique forte : sièges de groupes du numérique, écosystème start-up dense, image plus jeune, plus innovante, plus dynamique. L'ambiance y est plus contemporaine, plus tournée vers les jeunes actifs et les profils tech. Concrètement, si tu travailles dans le média, la communication ou un grand groupe, Boulogne te parle ; si tu es dans la tech, le numérique ou la start-up, Issy est ton terrain naturel, avec ton bureau souvent à dix minutes. Verdict emploi et ambiance : Boulogne pour le média et l'établi, Issy pour la tech et le jeune. Ce critère départage souvent à lui seul.",
+        },
+        {
+          titre: "Le match écoles et cadre de vie : le Bois contre les bords de Seine",
+          contenu:
+            "Pour une famille, deux atouts s'opposent. Boulogne aligne une réputation scolaire solide, un mix public et privé réputé, plusieurs lycées prisés, et surtout le Bois de Boulogne qui borde le nord de la commune, un immense poumon vert pour les week-ends. C'est un cadre familial classique et rassurant, avec le prestige des quartiers nord. Issy-les-Moulineaux offre des écoles de bon niveau également, et un cadre de vie plus contemporain, avec des bords de Seine réaménagés, des espaces publics modernes, des quartiers neufs bien pensés. L'ambiance y est plus jeune et plus aérée par endroits, moins patrimoniale, plus tournée vers le réaménagement urbain récent. Verdict cadre de vie et écoles : Boulogne pour la famille qui veut le Bois, le prestige et la réputation scolaire établie ; Issy pour la famille qui préfère le moderne, les bords de Seine et une ville plus jeune. Les deux sont sûres et bien équipées, c'est une affaire de tempérament. Pour t'aider à choisir le bon quartier de Boulogne, j'ai fait [ce classement par profil](/blog/meilleur-quartier-boulogne-acheter-2026).",
+        },
+        {
+          titre: "Le match investissement : prestige patrimonial contre dynamique tech",
+          contenu:
+            "Côté placement, deux logiques différentes pour des rendements proches. Les deux villes affichent des rendements locatifs faibles (autour de 3 à 3,5 % brut), parce que les prix sont élevés. À Boulogne, tu joues la carte patrimoniale : valorisation stable, liquidité de revente excellente, demande locative de jeunes cadres et d'expatriés (sièges sociaux, média, proximité de La Défense), avec le pari ligne 15 au sud comme levier de plus-value. À Issy, tu joues plutôt la dynamique : un marché porté par l'attractivité tech, une demande locative jeune et soutenue par l'écosystème numérique, et l'effet des projets urbains et de transport. Verdict invest : Boulogne pour le placement patrimonial sûr et le prestige (les Princes pour conserver, le sud pour le pari ligne 15) ; Issy pour parier sur la dynamique tech et un prix d'entrée un peu plus bas. Dans les deux cas, c'est de la conservation, pas du cash-flow. Le calcul détaillé côté Boulogne est [ici](/blog/investir-boulogne-rendement-locatif-2026).",
+        },
+        {
+          titre: "Faire trancher l'outil selon ton profil",
+          contenu:
+            "Encart milieu d'article. Boulogne et Issy se valent sur beaucoup de critères, et le bon choix dépend de ton métier, de ta famille et de ton budget. Pour les départager sur ton cas précis, [ouvre le comparateur de villes](/comparer) et mets Boulogne et Issy côte à côte sur le prix, les transports et le profil. Et si tu veux un verdict personnalisé qui croise ton trajet pro, ta famille et tes priorités, [lance le quiz Trouve ta ville idéale](/?concierge=open) : tu reçois un rapport perso généré par l'IA qui te dit laquelle des deux te ressemble le plus. Gratuit, et bien plus parlant qu'un tableau de chiffres. Ton : aide concrète.",
+        },
+        {
+          titre: "Pour qui Boulogne, pour qui Issy : le verdict",
+          contenu:
+            "Le tri final, sans détour. Vise Boulogne-Billancourt si tu travailles dans le média, la communication ou un grand groupe, si tu veux le Bois de Boulogne à portée, le prestige des quartiers nord, une réputation scolaire établie, et un placement patrimonial sûr, en acceptant de payer environ 8 % de plus au m2. Vise Issy-les-Moulineaux si tu es dans la tech ou le numérique, si tu préfères une ville plus jeune et contemporaine avec des bords de Seine réaménagés, si le budget pèse dans ta décision (700 €/m2 de moins en médiane), et si tu veux parier sur la dynamique de l'écosystème start-up. La ligne de partage tient en trois mots : métier, tempérament, budget. Réponds honnêtement à ces trois questions et la ville se désigne presque d'elle-même. Pour creuser, garde la [fiche Boulogne-Billancourt](/vivre-a/boulogne-billancourt-92012) et la [fiche Issy-les-Moulineaux](/vivre-a/issy-les-moulineaux-92040), et pour le timing d'achat à Boulogne, lis [le diagnostic complet](/blog/boulogne-billancourt-2026-acheter-encore-coup).",
+        },
+      ],
+      references: ["Boulogne-Billancourt", "Issy-les-Moulineaux"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
