@@ -51,6 +51,15 @@ const COMMUNE_IMAGE_OVERRIDES: Record<string, WikiImage> = {
     credit: "Photo : Wikipedia · Chambéry",
     sourceUrl: "https://fr.wikipedia.org/wiki/Chamb%C3%A9ry",
   },
+  "73008": {
+    // Aix-les-Bains : vue de la ville et du lac du Bourget depuis le Revard
+    thumbnail:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Aix-les-Bains_depuis_Revard_%28mars_2021%29.jpg/1280px-Aix-les-Bains_depuis_Revard_%28mars_2021%29.jpg",
+    original:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Aix-les-Bains_depuis_Revard_%28mars_2021%29.jpg/3840px-Aix-les-Bains_depuis_Revard_%28mars_2021%29.jpg",
+    credit: "Photo : Wikipedia · Aix-les-Bains",
+    sourceUrl: "https://fr.wikipedia.org/wiki/Aix-les-Bains",
+  },
 };
 
 type WikiSummaryResponse = {

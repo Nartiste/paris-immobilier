@@ -7118,6 +7118,480 @@ export const BLOG_POSTS: BlogPost[] = [
       references: ["Annecy", "Chambéry"],
     },
   },
+  // ============================================================
+  // HUB BUYER-INTENT Jérémy Lange (Capifrance) : Annecy + Chambéry + Aix
+  // 7 briefs ciblant des acheteurs intentionnistes (pas du lifestyle).
+  // Site agent : https://jeremy-lange.capifrance.fr/fr
+  // ============================================================
+  {
+    slug: "prix-immobilier-chambery-2026-par-quartier",
+    title: "Prix immobilier Chambéry 2026 : le vrai prix quartier par quartier",
+    description:
+      "Médian 3 200 €/m², mais entre Chambéry-le-Vieux à 4 500 € et Bissy à 2 600 €, la moyenne ment. Le prix réel par quartier, surcote et sous-cote comprises.",
+    publishedAt: "2026-04-20",
+    readingMinutes: 10,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acquéreur ou investisseur 32-55 ans, capacité 200-450 k€, lit SeLoger et MeilleursAgents mais veut la donnée DVF brute. Compare Chambéry à Annecy et cherche un marché moins tendu où il reste de la marge.",
+      angle:
+        "Data moat DVF. Donner le prix RÉEL par quartier de Chambéry, ce que les portails d'annonces ne font pas : commentaire honnête sur surcote et sous-cote quartier par quartier. Croiser DVF data.gouv, notaires AURA, MeilleursAgents. Expliquer pourquoi le médian global 3 200 €/m² est inutilisable seul, pourquoi +12 % sur 2024-2025, et où la cluse (pollution) plombe certains secteurs bas. Moteurs de demande : CEA Le Bourget-du-Lac, INES, université.",
+      ouverture:
+        "Contre-évidence : 'SeLoger t'affiche 3 200 €/m² pour Chambéry. Sauf qu'à ce prix tu n'achètes rien à Chambéry-le-Vieux et tu surpaies Bissy. Le médian, c'est la donnée qui te fait perdre de l'argent.'",
+      structure:
+        "Carto-géographique : méthodo DVF, marché global, prix par quartier détaillé, où reste la marge, le piège du pas cher, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Le prix médian à Chambéry tourne autour de 3 200 €/m² en 2026. Garde ce chiffre cinq secondes, puis oublie-le, parce qu'il ne te sert à rien pour acheter. Entre un appartement à Chambéry-le-Vieux, secteur résidentiel chic à 4 500 €/m², et un T3 à Bissy au nord à 2 600 €/m², tu n'achètes ni le même bien, ni la même vie, ni la même revente. Soyons clairs : Chambéry n'a pas un prix, elle en a cinq, un par grand secteur, et l'écart va du simple à presque le double. Le marché a pris +12 % sur 2024-2025, porté par une demande qui ne vient pas de nulle part : le CEA au Bourget-du-Lac (2 800 emplois), l'INES sur le solaire, une université de 15 000 étudiants. Mais Chambéry reste plus négociable qu'Annecy, 4 à 7 % de marge réelle contre 2 à 5 %. Ici je te donne la donnée DVF quartier par quartier, ce que SeLoger ne fait pas, avec mon commentaire honnête sur ce qui est surcoté et ce qui se sous-cote. Pour comparer avec le voisin, va voir [Annecy ou Chambéry, où acheter](/blog/annecy-chambery-immobilier-ou-acheter-2026).",
+        },
+        {
+          titre: "La méthodo et les sources : pourquoi DVF et pas les annonces",
+          contenu:
+            "Consigne dense, expliquer la hiérarchie des sources. DVF data.gouv (Demandes de Valeurs Foncières) = prix RÉELS signés chez notaire, janvier 2024 à T1 2026. Les annonces SeLoger / PAP affichent +5 à +12 % vs prix signé (prix vendeur avant négo). Croiser DVF avec notaires Auvergne-Rhône-Alpes (T1 2026) et MeilleursAgents. Pondération : DVF prime toujours, l'annonce sert juste à mesurer l'écart de négo. Volumes Chambéry : ordre de grandeur transactions appartement par an à donner. Expliquer pourquoi un médian global mélange des secteurs incomparables et donc ne veut rien dire pour un acheteur ciblé. Préciser le périmètre (Chambéry commune, pas Grand Chambéry).",
+        },
+        {
+          titre: "Le marché global Chambéry 2026 : tendu mais respirable",
+          contenu:
+            "Médian global 3 200 €/m². Évolution +12 % sur 2024-2025 (rattrapage post-correction, demande CEA/INES/étudiants, report d'acheteurs chassés par les prix d'Annecy). Frais de notaire ancien ~7,5-8 % du prix. Marge de négociation réelle 4-7 %, marché nettement moins tendu qu'Annecy où c'est 2-5 %. Délai de vente moyen plus long qu'Annecy (à mettre en perspective avec [les frais et la négo détaillés](/blog/frais-notaire-negociation-achat-annecy-chambery)). Moteurs de demande structurels : CEA Le Bourget-du-Lac 2 800 emplois, INES (Institut national de l'énergie solaire), université 15 000 étudiants, position carrefour A41/A43. Conclusion à poser : marché sain, pas spéculatif, c'est précisément ce qui en fait un bon terrain d'achat raisonné.",
+        },
+        {
+          titre: "Le prix réel quartier par quartier (la vraie carte)",
+          contenu:
+            "Cœur de l'article, détailler chaque secteur avec fourchette DVF + commentaire surcote/sous-cote honnête. Centre historique / Curial : 3 600-4 200 €/m², charme et commerces à pied, mais attention au bâti ancien sans ascenseur et au bruit. Chambéry-le-Vieux (résidentiel chic, nord-ouest) : 3 800-4 500 €/m², le haut du marché, calme, maisons et standing, revente solide mais ticket d'entrée élevé. Bissy (nord, populaire et commercial) : 2 600-3 200 €/m², le moins cher, densité et zones commerciales, à nuancer selon micro-secteur. Buisson-Rond (sud-est, parc) : 2 800-3 400 €/m², proximité parc et verdure, bon rapport qualité-prix familial. Mérande / Joppet : 3 200-3 800 €/m², résidentiel intermédiaire recherché, équilibré. Pour chaque secteur, dire pour qui c'est cohérent et signaler quand le prix affiché dépasse la valeur réelle.",
+        },
+        {
+          titre: "Où il reste vraiment de la marge en 2026",
+          contenu:
+            "Identifier les poches de valeur. Buisson-Rond et certains micro-secteurs de Mérande/Joppet = bon rapport prix/qualité de vie sous-exploité. Bissy sur les segments rénovés ou proches transports = sous-coté si tu sais trier. Le neuf en périphérie sud (proximité technopole/CEA) = frais réduits 2-3 % et locataires assurés. Expliquer la logique : la marge se trouve là où la demande structurelle (emploi CEA, étudiants) rencontre un prix encore raisonnable, pas dans le centre déjà valorisé ni à Chambéry-le-Vieux déjà cher. Renvoyer vers [l'investissement locatif et le rendement](/blog/investir-annecy-rendement-locatif-saisonnier-2026) pour qui vise du locatif, la logique étudiants/jeunes actifs se transpose bien à Chambéry.",
+        },
+        {
+          titre: "Le piège du pas cher : pollution de la cluse et secteurs à requalifier",
+          contenu:
+            "Section honnête, ne pas vendre du rêve sur le bas de gamme. Chambéry est dans une cluse (vallée encaissée), ce qui piège les particules fines : pics PM10 sur 25-30 jours par an concentrés sur les secteurs bas et l'axe de circulation. Un prix très bas peut cacher cette exposition, ou un ensemble années 70 mal isolé (passoire thermique DPE F/G = travaux lourds + revente difficile). Nuancer : tous les secteurs bas ne se valent pas, et la pollution se mesure, elle ne s'invente pas. Conseil terrain : avant d'offrir sur un bien pas cher, vérifie le DPE, l'exposition et la copro. Renvoyer vers [les quartiers où je n'achèterais pas](/blog/quartiers-eviter-annecy-chambery-achat) pour le détail secteur par secteur.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après la carte des prix : 'La donnée DVF te donne la fourchette, pas la vérité sur LE bien que tu vises. À Chambéry, deux immeubles voisins peuvent avoir 600 €/m² d'écart selon l'expo, l'étage, la copro. Jérémy Lange (Capifrance) travaille le terrain chambérien au quotidien et sait lire ces micro-écarts. Avant de te positionner, montre-lui l'annonce : https://jeremy-lange.capifrance.fr/fr. Il te dira vite si le prix tient ou pas.' Ton : conseil pratique, jamais pushy.",
+        },
+        {
+          titre: "Le verdict Chambéry 2026 par quartier",
+          contenu:
+            "Synthèse actionnable par profil. Tu veux du sûr et du standing, budget large : Chambéry-le-Vieux ou Mérande. Tu veux du charme et la ville à pied : Centre historique / Curial, en checkant ascenseur et bruit. Tu veux le meilleur rapport prix/famille : Buisson-Rond. Tu veux le prix plancher et tu sais trier le micro-secteur : Bissy. Phrase de clôture honnête : Chambéry en 2026 récompense l'acheteur qui regarde la donnée réelle et négocie, parce que le marché lui en laisse encore la place, contrairement à Annecy. Renvoyer vers [la fiche complète de Chambéry](/vivre-a/chambery-73065).",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation différente du premier CTA : 'Tu hésites entre deux quartiers de Chambéry, ou entre Chambéry et Annecy pour ton budget ? Jérémy Lange (Capifrance) couvre tout le bassin et n'a aucun intérêt à te pousser sur un bien qui ne te correspond pas, il sait dire non quand le dossier ne tient pas. Un échange terrain, sans engagement : https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Chambéry"],
+    },
+  },
+  {
+    slug: "meilleur-quartier-annecy-investir-2026",
+    title: "Meilleur quartier d'Annecy pour investir en 2026 (pas pour y vivre)",
+    description:
+      "Vivre et investir, ce n'est pas le même classement. Médian 5 930 €/m² : où mettre 400 k€ pour qu'ils valorisent à 7 ans, et où c'est déjà trop tard.",
+    publishedAt: "2026-04-24",
+    readingMinutes: 10,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur 35-60 ans, capacité 350-600 k€, raisonne valorisation patrimoniale + rendement, pas coup de cœur. Connaît déjà Annecy, veut un classement froid des quartiers par potentiel, pas un guide lifestyle.",
+      angle:
+        "Classer les quartiers d'Annecy par POTENTIEL INVESTISSEUR (valorisation 7 ans + rendement), strictement, pas par agrément de vie. Le critère investisseur diffère du critère habitant : un quartier saturé et cher (Vieux Annecy) est un mauvais investissement même s'il est magnifique. Construire un classement type 'où mettre 400 k€ pour valoriser à 7 ans' opposant le pari valorisation (Cran-Gevrier, effet tramway 2028) à la valeur refuge (Annecy-le-Vieux).",
+      ouverture:
+        "Aveu : 'Le plus beau quartier d'Annecy est aussi le pire investissement de 2026. Si tu mets 400 k€ dans le Vieux Annecy en espérant une plus-value, je préfère te le dire maintenant : tu paies le ticket plein pour une valorisation morte.'",
+      structure:
+        "Top ordonné : critère investisseur vs habitant, top valorisation, top sûr, à éviter pour investir, effet tramway, verdict par profil.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "On va être clairs tout de suite : cet article ne te dit pas où il fait bon vivre à Annecy, il te dit où mettre ton argent pour qu'il travaille. Ce n'est pas le même classement, et confondre les deux coûte cher. Le médian appartement à Annecy est de 5 930 €/m² en 2026, mais derrière ce chiffre il y a des quartiers où tu achètes une plus-value déjà encaissée par le vendeur, et d'autres où il reste du chemin. Le Vieux Annecy à 6 950-7 500 €/m² est magnifique et c'est précisément pour ça qu'il est saturé : la valorisation y est faible, tu paies le prix fort pour un actif qui ne bougera quasiment plus. Annecy-le-Vieux à 6 200-6 800 €/m² est la valeur refuge, sûr mais cher. Et puis il y a Cran-Gevrier, 4 400-5 400 €/m², en pleine transformation ZAC, avec le tramway prévu pour 2028 : c'est là que la marge est la plus forte, si tu acceptes le pari. Voici le classement investisseur, quartier par quartier, pour 400 k€ posés à horizon 7 ans. Pour le versant lifestyle, c'est ailleurs : [où vivre à Annecy](/blog/quartiers-annecy-ou-vivre-2026).",
+        },
+        {
+          titre: "Le critère investisseur n'est pas le critère habitant",
+          contenu:
+            "Poser la grille de lecture. L'habitant optimise agrément : vue, calme, commerces, école. L'investisseur optimise deux choses, valorisation à la revente (plus-value) et rendement locatif (loyer/prix). Or les deux divergent souvent : un quartier déjà désirable et cher a peu de marge de hausse et un rendement écrasé par le prix élevé. Le bon investissement se cache souvent dans le quartier en transition, moins glamour aujourd'hui, mais avec un catalyseur identifié (transport, ZAC, équipement). Annoncer la méthode du classement : médian appart Annecy 5 930 €/m², on note chaque quartier sur valorisation potentielle ET sécurité du capital. Renvoyer vers [le détail des prix et profils acheteurs](/blog/prix-immobilier-annecy-2026-qui-achete) qui pose les sous-marchés.",
+        },
+        {
+          titre: "Top valorisation : Cran-Gevrier et l'axe Vallin-Fier",
+          contenu:
+            "Le pari de plus-value. Cran-Gevrier 4 400-5 400 €/m², le ticket d'entrée le plus bas du marché annécien intra, ZAC en transformation, tramway prévu 2028, requalification urbaine en cours. C'est LA marge la plus forte si l'horizon est 7 ans et plus. Expliquer la mécanique : un quartier qui passe de mal-aimé à connecté gagne plus, en pourcentage, qu'un quartier déjà premium. Risque à nommer honnêtement : le pari dépend de la livraison effective du tramway et de la requalification, donc horizon long obligatoire, pas de revente à 2-3 ans. Citer Vallin-Fier comme axe à suivre. Profil : investisseur patient qui encaisse la transformation. Renvoyer vers [l'effet tramway développé plus bas] dans le même article et vers [le rendement locatif](/blog/investir-annecy-rendement-locatif-saisonnier-2026).",
+        },
+        {
+          titre: "Top sécurité du capital : Annecy-le-Vieux, la valeur refuge",
+          contenu:
+            "L'autre stratégie. Annecy-le-Vieux 6 200-6 800 €/m², résidentiel premium, demande structurelle forte (familles cadres, revente Paris/Lyon), liquidité élevée à la revente. La plus-value future y est modérée mais le capital est protégé : tu ne perdras quasiment jamais sur Annecy-le-Vieux, c'est un actif de fond de portefeuille. Opposer clairement à Cran-Gevrier : ici tu paies cher la sécurité, là-bas tu paies peu un pari. Mentionner Seynod (5 000-5 600 €/m²) et Pringy/Argonay (5 200-5 600 €/m²) comme intermédiaires solides, et Meythet (4 600-5 000 €/m²) comme entrée de gamme à surveiller. Profil : investisseur prudent, gros apport, qui veut dormir tranquille.",
+        },
+        {
+          titre: "Les quartiers à éviter quand on investit (pas quand on vit)",
+          contenu:
+            "Section qui assume le titre 'pas pour y vivre'. Le Vieux Annecy 6 950-7 500 €/m² : sublime à habiter, mauvais à investir, valorisation faible car saturée, rendement laminé par le prix, et meublé touristique désormais bridé par la réglementation. Le payer pour spéculer = erreur. Nuancer : si tu cherches une résidence secondaire patrimoniale que tu gardes 20 ans, autre débat. Mais en pur investissement valorisation 7 ans, on évite. Idem pour le haut d'Annecy-le-Vieux déjà au plafond. Le principe : éviter d'acheter une plus-value que quelqu'un a déjà encaissée. Lien vers [les quartiers où je n'achèterais pas](/blog/quartiers-eviter-annecy-chambery-achat).",
+        },
+        {
+          titre: "L'effet tramway 2028 : le seul vrai catalyseur de marge",
+          contenu:
+            "Développer le catalyseur central. Le projet de tramway / transport structurant prévu pour 2028 reconfigure la valeur des quartiers traversés, en particulier l'axe Cran-Gevrier / Vallin-Fier. Logique éprouvée ailleurs : l'arrivée d'un transport lourd valorise le foncier sur un rayon de marche. Expliquer le timing d'investissement : acheter AVANT la mise en service capte la hausse, acheter après = payer la prime. Prudence à poser : un projet de transport peut glisser dans le calendrier, donc marge de sécurité sur l'horizon. C'est ce facteur qui justifie de mettre Cran-Gevrier en tête du classement valorisation malgré son image actuelle.",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après la section tramway : 'Parier sur Cran-Gevrier ou jouer la sécurité Annecy-le-Vieux, ça ne s'arbitre pas sur un tableau Excel, ça se joue sur le bien précis et le tracé exact du tramway. Jérémy Lange (Capifrance) connaît rue par rue ce que la transformation va toucher en premier. Avant de poser 400 k€, demande-lui son lecture du secteur : https://jeremy-lange.capifrance.fr/fr.' Ton : expertise terrain, conseil froid.",
+        },
+        {
+          titre: "Le verdict investisseur par profil",
+          contenu:
+            "Synthèse en classement actionnable. Profil pari valorisation 7-10 ans, tolérance au risque : Cran-Gevrier / Vallin-Fier, ticket bas, upside tramway. Profil sécurité du capital, gros apport : Annecy-le-Vieux, valeur refuge, plus-value modérée mais certaine. Profil rendement locatif d'abord : Seynod, Meythet, Cran-Gevrier pour louer à des étudiants/jeunes actifs (voir l'article rendement). Profil patrimoine de prestige à très long terme uniquement : Vieux Annecy, en sachant que tu n'achètes pas pour la plus-value. Phrase de clôture : à Annecy en 2026, le meilleur quartier pour investir, ce n'est jamais le plus beau, c'est celui dont le prix n'a pas encore rattrapé son avenir.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation distincte : 'Tu veux qu'on chiffre ensemble le scénario valorisation Cran-Gevrier contre la sécurité Annecy-le-Vieux sur ton budget réel ? Jérémy Lange (Capifrance) raisonne investisseur, pas vendeur, et te dira franchement si le pari tient ou s'il vaut mieux passer. https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "quartiers-eviter-annecy-chambery-achat",
+    title: "Annecy et Chambéry : les quartiers où je n'achèterais pas (et pourquoi)",
+    description:
+      "Pas de jugement social, des faits : nuisances, surcote, pollution de la cluse, secteurs à requalifier. Et les faux à éviter qui sont en réalité des opportunités.",
+    publishedAt: "2026-04-28",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur 30-55 ans qui veut la version anti-bullshit avant de visiter, primo ou secondo-accédant, budget 250-600 k€. Cherche un avis honnête sur ce qu'on lui cache, pas un guide à charge.",
+      angle:
+        "Anti-bullshit HONNÊTE mais JUSTE et nuancé, Jérémy-safe, zéro diffamation. Parler factuel uniquement : nuisances mesurables, surcote prix, manque de services, pollution, secteurs en attente de requalification. Toujours formuler 'à éviter POUR QUI et POUR QUEL projet', jamais de jugement social brut. Inclure une section sur les FAUX à éviter, ces quartiers injustement boudés qui sont en réalité des opportunités. Pour Annecy comme pour Chambéry.",
+      ouverture:
+        "Aveu : 'Un agent ne te dira jamais qu'un quartier est à éviter, c'est contre son intérêt. Moi je vais te le dire, mais proprement : à éviter ne veut pas dire mauvais quartier, ça veut dire mauvais pour ton projet précis. Nuance qui change tout.'",
+      structure:
+        "Méthodique : ce que veut dire à éviter, Annecy secteurs à réfléchir, Chambéry secteurs à réfléchir, les faux à éviter, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Je vais faire ce qu'un agent immobilier ne fait jamais : te dire où je n'achèterais pas. Mais attention, on se comprend bien. Quand je dis quartier à éviter, je ne parle pas de jugement social, je parle de faits qui peuvent plomber TON projet : un bruit qu'on ne supporte pas sur la durée, un prix surcoté que tu ne reverras jamais à la revente, un secteur sans services qui t'oblige à deux voitures, une pollution qu'on peut mesurer. Et surtout, à éviter dépend de qui tu es. Le Vieux Annecy est parfait pour un retraité sans enfant et catastrophique pour une famille de quatre. La cluse de Chambéry concentre des particules fines 25 à 30 jours par an sur les secteurs bas, ce qui change la donne pour un asthmatique et pas pour tout le monde. Soyons clairs : il n'y a quasiment pas de quartier mauvais dans l'absolu sur ce bassin, il y a des quartiers mauvais pour un projet donné. Et il y a même des quartiers injustement boudés qui sont des opportunités. Voici ma lecture honnête, Annecy puis Chambéry. Pour les prix bruts, garde sous la main [les prix de Chambéry par quartier](/blog/prix-immobilier-chambery-2026-par-quartier).",
+        },
+        {
+          titre: "À éviter, ça veut dire quoi exactement (la méthodo honnête)",
+          contenu:
+            "Cadrer pour rester juste et factuel. Définir les seuls critères légitimes : nuisance mesurable (bruit trafic ou aéroport, exposition pollution), surcote prix (tu paies au-dessus de la valeur réelle de revente), déficit de services (commerces, école, transport à distance qui impose la voiture), bâti problématique (passoires thermiques DPE F/G = travaux + revente difficile), secteur en attente de requalification (potentiel mais pas encore là, donc risqué à court terme). Exclure explicitement tout jugement sur les habitants. Marteler le principe directeur : on évalue le bien et le contexte pour un projet, pas les gens. Ce cadrage protège l'honnêteté du propos et le rend utile.",
+        },
+        {
+          titre: "Annecy : les secteurs où je réfléchirais à deux fois",
+          contenu:
+            "Annecy, factuel et nuancé. Le centre / Vieux Annecy : surcoté pour de l'investissement (valorisation faible, prix plafond), et inadapté aux familles (bruit terrasses l'été, pavés, pas d'école intra). À éviter POUR investir ou POUR une famille, pas pour un couple patrimonial. Certains secteurs de Cran-Gevrier en attente de requalification : du potentiel réel à terme, mais aujourd'hui encore en chantier, donc à éviter si tu veux du fini tout de suite ou une revente rapide. Les zones sous le couloir de bruit de l'aéroport côté Meythet : nuisance sonore réelle à vérifier sur place, à éviter si tu es sensible au bruit. Toujours conclure chaque cas par à éviter pour qui. Renvoyer vers [le classement investisseur](/blog/meilleur-quartier-annecy-investir-2026) qui détaille la logique de valorisation.",
+        },
+        {
+          titre: "Chambéry : les secteurs où je réfléchirais à deux fois",
+          contenu:
+            "Chambéry, même rigueur. Les secteurs bas dans la cluse : pics de particules fines PM10 sur 25-30 jours par an, concentrés sur le fond de vallée et l'axe de circulation. Fait mesurable, à éviter pour un profil sensible (enfant asthmatique, sportif outdoor exigeant), neutre pour d'autres. Bissy nord : densité et zones commerciales, prix bas justifié, à éviter si tu cherches du calme résidentiel, pertinent si tu cherches le prix plancher et la proximité commerces. Certains ensembles des années 70 mal isolés : risque passoire thermique (DPE F/G), travaux lourds et revente compliquée, à éviter sans budget rénovation. Toujours nuancer : un même immeuble rénové change la donne. Renvoyer vers [le piège du pas cher détaillé](/blog/prix-immobilier-chambery-2026-par-quartier).",
+        },
+        {
+          titre: "Les faux à éviter : ces quartiers boudés qui sont des opportunités",
+          contenu:
+            "Le contre-pied utile. Certains quartiers ont mauvaise réputation par habitude, pas par réalité 2026. À Cran-Gevrier, les secteurs déjà requalifiés ou proches du futur tramway sont sous-cotés par pur retard d'image : opportunité de valorisation. À Chambéry, Buisson-Rond (parc, calme) et certains micro-secteurs de Bissy rénovés offrent un rapport prix/qualité que les acheteurs snobs ratent. Le principe : la réputation a toujours un train de retard sur la réalité du terrain, et c'est exactement là que l'acheteur informé gagne. Conseil : ne jamais éliminer un quartier sur sa seule réputation, vérifie la donnée et va sur place à 18h un mardi. Renvoyer vers [le rendement locatif](/blog/investir-annecy-rendement-locatif-saisonnier-2026).",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après les secteurs Chambéry : 'À éviter ou pas, ça se tranche sur le terrain, pas sur une réputation Facebook. Jérémy Lange (Capifrance) connaît le bruit réel d'une rue, l'expo d'un immeuble, le calendrier d'une requalification. Si un quartier te fait hésiter, demande-lui avant de renoncer ou de foncer : https://jeremy-lange.capifrance.fr/fr. Il sait dire quand un quartier boudé est en fait une bonne affaire.' Ton : honnête, allié de l'acheteur.",
+        },
+        {
+          titre: "Le verdict : aucun quartier mauvais dans l'absolu",
+          contenu:
+            "Synthèse. Récapituler le principe directeur : à éviter est toujours relatif au projet. Famille avec enfants : éviter le centre touristique d'Annecy, viser Annecy-le-Vieux ou Seynod, et côté Chambéry Buisson-Rond ou Mérande. Profil sensible à la pollution : éviter le fond de cluse à Chambéry. Investisseur : éviter le Vieux Annecy saturé, regarder Cran-Gevrier. Chasseur de prix plancher : Bissy assumé. Phrase de clôture : le seul vrai à éviter, c'est acheter sans avoir vérifié si le quartier colle à TON projet. Renvoyer vers [la fiche Annecy](/vivre-a/annecy-74010) et [la fiche Chambéry](/vivre-a/chambery-73065).",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation différente : 'Un quartier te plaît mais un détail t'inquiète, bruit, pollution, revente ? Plutôt que de deviner, parles-en à Jérémy Lange (Capifrance). Il vit le terrain au quotidien et il te dira franchement si ton inquiétude est fondée ou si tu passes à côté d'une opportunité. https://jeremy-lange.capifrance.fr/fr, sans engagement.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy", "Chambéry"],
+    },
+  },
+  {
+    slug: "investir-annecy-rendement-locatif-saisonnier-2026",
+    title: "Investir à Annecy en 2026 : rendement locatif classique vs saisonnier",
+    description:
+      "Rendement classique 3,2-3,8 % brut, plombé par les prix. Le lac fait rêver au saisonnier à 4,5-6 %, sauf que la réglementation 2023 a tout changé. Le vrai calcul.",
+    publishedAt: "2026-05-02",
+    readingMinutes: 11,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur locatif pur 35-60 ans, capacité 250-500 k€, compare rendement classique et saisonnier, sensible à la fiscalité LMNP. Veut un calcul réel, pas une promesse Airbnb.",
+      angle:
+        "Investisseur pur, sans coup de cœur. Dire la vérité : le rendement locatif classique à Annecy est faible (3,2-3,8 % brut) à cause des prix élevés. L'angle lac pousse vers le saisonnier (net potentiel 4,5-6 %) SAUF que la réglementation meublé touristique a été durcie depuis 2023 (compensation, quota, déclaration). Comparer nu longue durée vs meublé LMNP vs saisonnier, avec quartiers selon stratégie et fiscalité LMNP. Finir par le calcul réel sur un T2.",
+      ouverture:
+        "Statistique : '3,2 % de rendement brut sur un T2 à Annecy. Tu mets 280 000 € pour encaisser moins qu'un livret boosté. Voilà la réalité que personne ne met dans les annonces investissement.'",
+      structure:
+        "Méthodique : vérité sur le rendement, longue durée par quartier, le mirage saisonnier, LMNP, quel quartier pour quelle stratégie, calcul réel T2, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Parlons cash, sans le vernis des annonces investissement. À Annecy en 2026, le rendement locatif classique d'un appartement tourne entre 3,2 et 3,8 % brut. C'est faible, et la raison est simple : les prix sont trop hauts (médian 5 930 €/m²) pour que les loyers suivent. Tu poses 280 000 € sur un T2 et tu encaisses un rendement à peine au-dessus d'un placement sans risque. Alors forcément, le lac fait briller les yeux et tout le monde pense saisonnier, Airbnb, 4,5 à 6 % net potentiel. Sauf que depuis 2023, Annecy a sérieusement durci le meublé de tourisme : compensation, quota, déclaration obligatoire. Le mirage saisonnier s'est rétréci, et faire l'impasse là-dessus, c'est se planter. Soyons clairs : investir à Annecy peut marcher, mais pas en répétant les recettes qu'on lit partout. Il faut arbitrer entre nu longue durée, meublé LMNP et saisonnier, choisir le quartier en fonction de la stratégie, et calculer pour de vrai. C'est ce qu'on fait ici, T2 à l'appui. Pour le classement des quartiers par potentiel, vois [où investir à Annecy](/blog/meilleur-quartier-annecy-investir-2026).",
+        },
+        {
+          titre: "La vérité sur le rendement à Annecy : pourquoi c'est faible",
+          contenu:
+            "Poser le diagnostic chiffré. Rendement brut classique 3,2-3,8 % sur Annecy, contre 5-7 % atteignables dans des villes moyennes moins chères. Cause mécanique : le rendement = loyer annuel / prix d'achat, et à Annecy le prix au m² a grimpé bien plus vite que les loyers (plafonnés par le pouvoir d'achat des locataires). Conséquence : à Annecy on n'achète pas pour le rendement immédiat, on achète pour la sécurité locative (vacance quasi nulle, demande structurelle forte) et la valorisation à terme. Comparer honnêtement avec Chambéry, plus abordable et donc potentiellement plus rentable en brut, voir [les prix de Chambéry](/blog/prix-immobilier-chambery-2026-par-quartier). Conclusion de section : à Annecy, le rendement se construit, il ne se trouve pas.",
+        },
+        {
+          titre: "Locatif nu longue durée : le socle par quartier",
+          contenu:
+            "La stratégie la plus simple et la plus sûre. Le nu longue durée vise la stabilité : locataire à l'année, vacance minimale, gestion légère. Quartiers à cibler pour ça : Cran-Gevrier et Seynod (prix d'entrée plus bas donc rendement meilleur, demande de jeunes actifs et étudiants), Meythet. Éviter le premium (Vieux Annecy, Annecy-le-Vieux centre) où le rendement nu est écrasé par le prix. Donner les ordres de grandeur de rendement nu par zone. Fiscalité du nu : revenus fonciers, régime micro-foncier ou réel, moins avantageux que le meublé. Préciser le profil de locataire selon le quartier (étudiant, jeune couple, frontalier). Renvoyer vers [le rendement et le marché chambérien](/blog/prix-immobilier-chambery-2026-par-quartier) en alternative plus rentable.",
+        },
+        {
+          titre: "Le mirage du saisonnier : ce que la réglementation 2023 a changé",
+          contenu:
+            "Section critique, casser le fantasme Airbnb. Sur le papier, le saisonnier au bord du lac promet 4,5-6 % net, bien plus que le classique. Mais Annecy a durci le meublé de tourisme depuis 2023 : obligation de déclaration, mécanisme de compensation (transformer du commercial en habitation pour compenser un meublé touristique), quotas selon les secteurs. Conséquence : monter un Airbnb rentable et légal à Annecy est devenu un parcours réglementaire, pas un coup facile. Expliquer le risque de se lancer sans vérifier : amendes, mise en conformité forcée. Nuance honnête : ça reste possible sur certains biens/secteurs, mais ça se prépare. Le saisonnier n'est plus le raccourci qu'il était. Conseil : vérifier la réglementation du secteur exact avant d'acheter pour louer en courte durée.",
+        },
+        {
+          titre: "Le meublé LMNP : le compromis fiscal souvent gagnant",
+          contenu:
+            "La voie médiane. Le meublé non professionnel (LMNP) au régime réel permet d'amortir le bien et le mobilier, donc d'effacer fiscalement une grande partie des loyers pendant des années. C'est souvent l'optimisation qui sauve le rendement net à Annecy malgré le brut faible. Comparer les trois régimes : nu (revenus fonciers, peu d'avantage), LMNP micro-BIC (abattement forfaitaire), LMNP réel (amortissement, le plus puissant pour qui a un loyer correct). Cibler le meublé sur la demande étudiante (université), jeunes actifs, mobilité frontalière. Préciser les contraintes (meubler, déclaration, comptabilité au réel). Poser le LMNP réel comme l'arbitrage fiscal de référence pour l'investisseur Annecy en 2026.",
+        },
+        {
+          titre: "Quel quartier pour quelle stratégie",
+          contenu:
+            "Croiser stratégie et géographie, c'est le cœur actionnable. Saisonnier (si réglementation OK) : proximité lac et Vieille Ville, là où la demande touristique est maximale, en acceptant le ticket d'achat élevé et la contrainte réglementaire. Longue durée nu ou LMNP étudiants/jeunes actifs : Cran-Gevrier, Seynod, Meythet, prix d'entrée plus doux, demande à l'année solide. Valorisation patrimoniale doublée de location sûre : Annecy-le-Vieux (rendement faible mais capital protégé). Donner une règle simple : plus tu vises le rendement, plus tu t'éloignes du lac et du centre. Renvoyer vers [le classement investisseur](/blog/meilleur-quartier-annecy-investir-2026).",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après quartier/stratégie : 'Le rendement annécien se joue au croisement du quartier, du régime fiscal et de la réglementation meublé, et ça change d'une rue à l'autre. Jérémy Lange (Capifrance) connaît les secteurs où le saisonnier passe encore et ceux où le LMNP longue durée est plus malin. Avant d'acheter pour louer, fais-lui valider ta stratégie : https://jeremy-lange.capifrance.fr/fr.' Ton : conseil d'investisseur à investisseur.",
+        },
+        {
+          titre: "Le calcul réel sur un T2 (chiffres posés)",
+          contenu:
+            "Dérouler un cas concret et transparent. Prendre un T2 à Annecy autour de 280 000 € frais d'agence inclus, ajouter frais de notaire ancien ~7,5-8 % (voir [le détail des frais](/blog/frais-notaire-negociation-achat-annecy-chambery)). Scénario A nu longue durée : loyer mensuel réaliste, rendement brut ~3,2-3,5 %, net après charges/taxe foncière/gestion plus bas. Scénario B LMNP réel : même loyer ou léger premium meublé, mais fiscalité quasi neutralisée par amortissement, net nettement meilleur. Scénario C saisonnier (si autorisé) : revenu potentiel supérieur mais vacance saisonnière, charges de gestion lourdes, risque réglementaire. Comparer les trois nets sur 5 ans. Montrer que le LMNP réel est souvent le gagnant pratique, le saisonnier le plus risqué, le nu le plus simple.",
+        },
+        {
+          titre: "Le verdict investisseur locatif Annecy 2026",
+          contenu:
+            "Synthèse par profil. Tu veux la tranquillité et zéro prise de tête : nu longue durée à Seynod ou Cran-Gevrier. Tu veux optimiser le net et tu acceptes la compta : LMNP réel meublé, étudiants/jeunes actifs. Tu veux jouer le lac et tu es prêt au parcours réglementaire : saisonnier sur un secteur vérifié, en sachant que la marge s'est réduite depuis 2023. Tu cherches surtout à protéger un capital : Annecy-le-Vieux, rendement faible assumé. Phrase de clôture : à Annecy, l'investisseur qui gagne en 2026 n'est pas celui qui court après le rendement affiché, c'est celui qui optimise la fiscalité et choisit le bon quartier pour la bonne stratégie.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation distincte : 'Tu hésites entre du LMNP longue durée et du saisonnier sur Annecy ? Jérémy Lange (Capifrance) a vu passer les deux et il te dira sans détour ce qui tient sur ton budget et ton secteur, quitte à te déconseiller le saisonnier si le quartier ne s'y prête plus. Échange terrain : https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "quitter-paris-pour-annecy-arbitrage-budget-2026",
+    title: "Quitter Paris pour Annecy : le vrai arbitrage budget en 2026",
+    description:
+      "Tu revends ton 55 m² Paris 11e à 600 k€, tu achètes quoi à Annecy à 5 930 €/m² ? Environ 100 m² ou une maison en périphérie. Le calcul honnête, trajet et emploi compris.",
+    publishedAt: "2026-05-06",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien 35-50 ans, cadre fort budget, propriétaire d'un 2-3 pièces parisien, envisage Annecy. Veut savoir ce que sa revente parisienne achète à Annecy et si le move est viable pro.",
+      angle:
+        "Pont éditorial Paris vers Annecy, pré-qualifier le Parisien fort budget. L'arbitrage central : revendre un 2-3 pièces parisien (ex 55 m² Paris 11e à ~600 k€, soit ~10 900 €/m²) achète quoi à Annecy à 5 930 €/m² (environ 100 m² ou une maison en périphérie). Réalité du trajet TGV 3h45 (pas pendulaire, mensuel/trimestriel). Effet Genève 35-50 min en TER comme vrai game-changer emploi. Ce qu'on gagne (surface, lac, air), ce qu'on perd (Paris culturel, certains salaires). Profils qui réussissent vs échouent.",
+      ouverture:
+        "Scène : 'Tu fais visiter ton 55 m² du 11e un samedi matin, sept dossiers en deux heures, 600 000 € quasi assurés. Le soir tu ouvres SeLoger Annecy et tu réalises : la même somme, c'est 100 m² avec le lac à dix minutes. C'est là que le projet devient sérieux.'",
+      structure:
+        "Comparaison : calcul revente Paris = achat Annecy, le piège du job parisien gardé, l'option Genève, surface gagnée, qui réussit, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Faisons le calcul qui décide vraiment de ton départ. Tu possèdes un 2-3 pièces à Paris, disons 55 m² dans le 11e, qui part autour de 600 000 € en 2026, soit près de 10 900 €/m². À Annecy, le médian appartement est de 5 930 €/m². Pose la division : ta revente parisienne t'achète environ 100 m² à Annecy, ou une maison en périphérie. C'est ça, le cœur de l'arbitrage Paris-Annecy, et c'est un quasi-doublement de surface pour le même capital, avec le lac à dix minutes et un air respirable. Mais soyons clairs, le calcul immobilier n'est que la moitié de l'histoire. Le TGV Paris-Annecy, c'est 3h45 : génial pour un week-end famille, intenable en pendulaire. Le vrai game-changer emploi, ce n'est pas Paris en télétravail, c'est Genève à 35-50 min en TER, avec des salaires qui changent l'équation. Ce que tu gagnes, c'est la surface, le lac, l'air. Ce que tu perds, c'est le Paris culturel et, pour certains, du salaire. Voici l'arbitrage complet. Pour comparer Annecy à ses voisines, vois [Annecy ou Aix-les-Bains](/blog/annecy-ou-aix-les-bains-ou-acheter-2026).",
+        },
+        {
+          titre: "Le calcul revente Paris = achat Annecy (la division qui compte)",
+          contenu:
+            "Détailler l'arbitrage chiffré. Point de départ : 55 m² Paris 11e ~600 k€ (~10 900 €/m²). À Annecy 5 930 €/m², ça donne ~100 m² brut, à ajuster selon quartier : ~85 m² en hyper-recherché (Annecy-le-Vieux), ~110-120 m² ou une maison en périphérie (Seynod, Pringy, Cran-Gevrier, Meythet). Insister sur le saut : passer de 55 à 100 m², c'est une chambre de plus, un bureau, un extérieur. Mentionner les frais de notaire ancien ~7,5-8 % à provisionner sur l'achat annécien (voir [frais et négo](/blog/frais-notaire-negociation-achat-annecy-chambery)). Nuancer : viser une maison avec jardin peut imposer la périphérie, choix à assumer. Renvoyer vers [le classement des quartiers à l'achat](/blog/meilleur-quartier-annecy-investir-2026).",
+        },
+        {
+          titre: "Le piège du je garderai mon job parisien",
+          contenu:
+            "Démonter l'illusion la plus fréquente. Le TGV Paris-Annecy = 3h45 porte-à-gare, plus l'accès bureau = 4h-4h30 réelles, soit 8-9h sur un aller-retour. En télétravail avec 1-2 présences Paris par mois, ça tient. En 2 jours par semaine, c'est l'épuisement à 12-18 mois. Le move Paris-Annecy n'est pas un projet pendulaire, c'est un changement de vie qui suppose soit un télétravail quasi total, soit un emploi local, soit Genève. Donner le sweet spot : présentiel Paris mensuel ou trimestriel, oui ; hebdomadaire, non. Conseil : sécuriser le volet professionnel AVANT de signer, pas après. Renvoyer vers [vivre Annecy en travaillant ailleurs](/blog/vivre-annecy-travailler-chambery-faisable).",
+        },
+        {
+          titre: "L'option Genève : le vrai game-changer emploi",
+          contenu:
+            "Section décisive pour le fort budget. Genève est à 35-50 min d'Annecy en TER (et en voiture hors pointe), et c'est elle qui débloque le move sur le plan revenu. Salaires suisses nettement au-dessus des équivalents français, statut frontalier, fiscalité gérée par convention. Pour un cadre tech, finance, médical, horlogerie, pivoter vers Genève transforme l'arbitrage : tu gardes Annecy pour vivre et tu encaisses un salaire suisse. Nuance honnête : trajet quotidien réel, embouteillages frontière aux heures de pointe, horaires décalés. Mais sur la durée, c'est l'option qui rend Annecy soutenable sans dépendre de Paris. Poser Genève comme le plan B emploi le plus solide du dossier annécien.",
+        },
+        {
+          titre: "La surface gagnée, concrètement",
+          contenu:
+            "Rendre tangible le gain de vie. Traduire le passage de 55 m² parisiens à 100 m² annéciens en quotidien : une vraie chambre d'amis ou bureau séparé pour le télétravail, un séjour où la famille tient, souvent un balcon ou un jardin, parfois une place de parking (rare et chère à Paris). Ajouter le hors-surface : le lac à vélo, l'air sans particules permanentes, les week-ends montagne. Mais équilibrer honnêtement avec ce qu'on perd : densité culturelle parisienne, choix de restaurants, certains réseaux pro. Le but de la section : montrer que l'arbitrage n'est pas que des m², c'est un mode de vie, à condition de l'avoir choisi en connaissance de cause. Renvoyer vers [pourquoi vivre à Annecy](/blog/pourquoi-vivre-annecy-2026).",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après la surface gagnée : 'Transformer 600 k€ de Paris en 100 m² à Annecy, ça suppose de viser le bon quartier pour ton budget réel, sans payer la prime touriste. Jérémy Lange (Capifrance) a accompagné des Parisiens sur exactement ce move et connaît les secteurs où le rapport surface/prix est honnête. Avant de te projeter, parle-lui de ton budget de revente : https://jeremy-lange.capifrance.fr/fr.' Ton : passeur de relais, pratique.",
+        },
+        {
+          titre: "Qui réussit le move, qui le regrette",
+          contenu:
+            "Section pré-qualification honnête. Réussissent : les profils avec emploi local ou Genève sécurisé, ou télétravail quasi total ; les familles qui cherchent surface, école, nature et acceptent un quotidien plus calme ; ceux qui ont testé Annecy hors saison touristique avant d'acheter. Regrettent : ceux qui pensaient garder un job parisien en pendulaire ; ceux qui sous-estiment le manque de vie urbaine dense l'hiver ; ceux qui ont acheté sur un coup de cœur de juillet. Donner des signaux d'alerte concrets. Le but : qualifier le lecteur, qu'il sache honnêtement s'il est du bon côté avant d'engager une revente. Renvoyer vers [le bilan honnête d'Annecy](/blog/pourquoi-vivre-annecy-2026).",
+        },
+        {
+          titre: "Le verdict arbitrage Paris-Annecy 2026",
+          contenu:
+            "Synthèse par profil. Cadre Genève-compatible (tech, finance, médical) : move très favorable, surface doublée + salaire suisse, vise Annecy proche frontière. Télétravailleur quasi total avec poste stable : favorable, présentiel parisien mensuel, n'importe quel quartier selon budget. Famille cherchant cadre de vie : favorable si volet pro réglé, viser périphérie pour la maison. Profil dépendant d'un job parisien hebdomadaire : défavorable, le pendulaire ne tient pas. Phrase de clôture : l'arbitrage immobilier Paris-Annecy est presque toujours gagnant sur le papier, le move ne réussit que si le volet emploi tient debout. Renvoyer vers [la fiche Annecy](/vivre-a/annecy-74010).",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation différente : 'Tu connais ton budget de revente parisien et tu veux savoir précisément ce qu'il achète à Annecy, quartier par quartier ? Jérémy Lange (Capifrance) fait ce traduction tous les jours pour des arrivants de Paris, et il te dira franchement si ton attente de surface est réaliste ou s'il faut viser la périphérie. https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy"],
+    },
+  },
+  {
+    slug: "frais-notaire-negociation-achat-annecy-chambery",
+    title: "Acheter à Annecy ou Chambéry : frais, notaire, négociation réelle",
+    description:
+      "Frais de notaire ancien 7,5-8 % sur des prix annéciens, ça pique. Marge de négo réelle 2-5 % à Annecy, 4-7 % à Chambéry. La mécanique d'achat, étape par étape.",
+    publishedAt: "2026-05-12",
+    readingMinutes: 9,
+    category: "finance",
+    brief: {
+      audience:
+        "Acheteur en phase transaction, primo ou secondo-accédant 30-55 ans, sur le point d'offrir sur Annecy, Chambéry ou Aix. Veut la mécanique concrète : combien ça coûte vraiment, combien négocier, dans quel ordre.",
+      angle:
+        "Phase transaction, mécanique d'achat concrète. Frais de notaire ancien ~7,5-8 % (sur des prix annéciens élevés, ça fait une grosse somme), neuf ~2-3 %. Marge de négociation RÉELLE par ville : Annecy tendu 2-5 % (souvent 0 sur le premium), Chambéry 4-7 %, Aix 3-6 %. Délais de vente (Annecy 4-7 semaines, Chambéry 6-10). Coûts cachés : copro avec ascenseur/vue lac, parking obligatoire, travaux DPE. Le bon ordre des étapes, les erreurs de primo-accédant.",
+      ouverture:
+        "Statistique : 'Sur un appartement à 500 000 € à Annecy, les frais de notaire dans l'ancien, c'est 37 500 à 40 000 €. Cette ligne-là, beaucoup d'acheteurs la découvrent trois semaines avant la signature. Mauvaise surprise évitable.'",
+      structure:
+        "Méthodique chronologique : combien coûtent les frais, négo par ville, coûts cachés, le timing, erreurs primo, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "On va parler de la partie que personne n'aime regarder mais qui décide de ton budget réel : les frais, le notaire, la négo. Premier choc à intégrer tout de suite : dans l'ancien, les frais de notaire tournent autour de 7,5 à 8 % du prix. Sur un appartement à 500 000 € à Annecy, ça fait 37 500 à 40 000 € qui s'ajoutent, et beaucoup le découvrent bien trop tard. Dans le neuf, on tombe à 2-3 %, ce qui change l'arbitrage. Deuxième chose à savoir, la négociation n'est pas la même selon la ville : Annecy est tendue, tu négocies 2 à 5 % et souvent zéro sur le premium ; Chambéry te laisse 4 à 7 % ; Aix-les-Bains 3 à 6 %. Ajoute les coûts cachés (charges de copro avec ascenseur ou vue lac, parking parfois obligatoire, travaux imposés par un mauvais DPE) et tu comprends pourquoi deux biens au même prix affiché ne coûtent pas pareil. Soyons clairs : acheter, c'est une mécanique avec un bon ordre d'étapes, et la rater coûte cher. Voici comment ça marche, ville par ville. Pour les prix de base, vois [les prix de Chambéry par quartier](/blog/prix-immobilier-chambery-2026-par-quartier).",
+        },
+        {
+          titre: "Combien coûtent vraiment les frais (calcul chiffré)",
+          contenu:
+            "Détailler la ligne frais. Ancien : ~7,5-8 % du prix (droits de mutation départementaux + émoluments notaire + débours). Donner des exemples chiffrés sur des prix réalistes du bassin : 300 k€ (Chambéry) = ~22 500-24 000 €, 500 k€ (Annecy) = ~37 500-40 000 €, 650 k€ = ~48 750-52 000 €. Neuf : ~2-3 % (frais réduits), à mettre en regard du prix d'achat souvent plus élevé au m². Préciser ce qui est négociable (la petite part émoluments) et ce qui ne l'est pas (les droits). Mentionner les frais de garantie du prêt (hypothèque/caution) en plus. Conseil : provisionner les frais dès le calcul de capacité, pas après. Renvoyer vers [l'arbitrage budget Paris-Annecy](/blog/quitter-paris-pour-annecy-arbitrage-budget-2026).",
+        },
+        {
+          titre: "Négocier à Annecy, Chambéry et Aix : la marge réelle par ville",
+          contenu:
+            "Cœur transactionnel, donner les fourchettes honnêtes. Annecy : marché tendu, marge réelle 2-5 %, et souvent 0 sur le premium vue lac / Vieux Annecy (le vendeur a la main, plusieurs offres). Chambéry : marché plus respirable, 4-7 % de marge, le vendeur attend plus longtemps. Aix-les-Bains : 3-6 %, intermédiaire, avec une vacance saisonnière qui peut jouer en ta faveur hors saison. Expliquer ce qui fait varier la marge dans une même ville : durée depuis mise en vente, DPE, travaux, motivation vendeur (succession, mutation). Conseil tactique : la négo se gagne en connaissant le délai de vente du secteur et l'historique du bien. Renvoyer vers [Annecy ou Aix](/blog/annecy-ou-aix-les-bains-ou-acheter-2026).",
+        },
+        {
+          titre: "Les coûts cachés qui changent le vrai prix",
+          contenu:
+            "Section qui sauve des budgets. Charges de copropriété : un immeuble avec ascenseur, gardien, ou prestations vue lac coûte bien plus en charges mensuelles, à intégrer au coût de détention. Parking : dans certains secteurs d'Annecy il est quasi obligatoire et se paie cher, parfois en sus du bien. Travaux DPE : un bien classé F ou G impose des travaux de rénovation énergétique (et se revend mal/se loue avec restrictions), chiffrer l'enveloppe. Taxe foncière locale, fonds travaux de copro (loi ALUR), éventuels appels de charges votés. Le message : le prix d'achat n'est qu'une partie, le coût réel se mesure sur plusieurs années. Renvoyer vers [les quartiers où je n'achèterais pas](/blog/quartiers-eviter-annecy-chambery-achat) pour les pièges bâti.",
+        },
+        {
+          titre: "Le timing qui fait gagner (délais et ordre des étapes)",
+          contenu:
+            "Chronologie de l'achat. Délais de vente moyens : Annecy 4-7 semaines pour un bien bien positionné (marché rapide, il faut être prêt à offrir vite), Chambéry 6-10 semaines (tu as plus de temps pour négocier). Conséquence stratégique : à Annecy, financement pré-validé indispensable AVANT de visiter le bien qui part vite ; à Chambéry, tu peux prendre le temps. Donner le bon ordre des étapes : capacité d'emprunt et accord de principe banque d'abord, puis recherche ciblée, puis offre avec conditions, puis compromis, puis prêt définitif, puis acte. Insister : visiter avant d'avoir son financement, c'est arriver désarmé sur un marché tendu. Renvoyer vers [le calcul d'arbitrage budget](/blog/quitter-paris-pour-annecy-arbitrage-budget-2026).",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après le timing : 'La marge de négo réelle, ce n'est pas une moyenne de ville, c'est l'histoire du bien précis : depuis combien de temps il est en vente, pourquoi le vendeur vend, ce que cachent les charges. Jérémy Lange (Capifrance) a ces infos terrain qu'aucune annonce ne donne. Avant d'offrir, demande-lui jusqu'où c'est négociable : https://jeremy-lange.capifrance.fr/fr.' Ton : tactique d'achat, allié.",
+        },
+        {
+          titre: "Les erreurs de primo-accédant qui coûtent cher",
+          contenu:
+            "Liste utile et concrète. Erreur 1 : oublier de provisionner les frais de notaire dans le plan de financement (et se retrouver court à la signature). Erreur 2 : visiter sans accord bancaire et perdre le bien sur un marché Annecy rapide. Erreur 3 : négocier à l'aveugle sans connaître le délai de vente du secteur (offrir trop bas et vexer, ou trop haut inutilement). Erreur 4 : ignorer le DPE et hériter de travaux à cinq chiffres. Erreur 5 : sous-estimer les charges de copro sur un bien avec ascenseur/services. Erreur 6 : signer un compromis sans bien lire les conditions suspensives. Pour chaque erreur, donner le réflexe correctif. Renvoyer vers [la fiche Aix-les-Bains](/vivre-a/aix-les-bains-73008) et [la fiche Annecy](/vivre-a/annecy-74010).",
+        },
+        {
+          titre: "Le verdict transaction Annecy / Chambéry / Aix",
+          contenu:
+            "Synthèse actionnable. Annecy : prépare ton financement à fond, agis vite, n'espère pas négocier le premium, budgète 7,5-8 % de frais sur un prix élevé. Chambéry : tu as le temps et la marge (4-7 %), négocie sereinement, le ticket plus bas allège les frais. Aix : entre les deux, joue la saisonnalité (hors saison curistes) pour négocier. Dans tous les cas : capacité + frais + coûts cachés intégrés AVANT de tomber amoureux d'un bien. Phrase de clôture : à l'achat, ce n'est pas le prix affiché qui te ruine ou te sauve, c'est tout ce qu'il y a autour et l'ordre dans lequel tu t'y prends.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation distincte : 'Tu es sur le point d'offrir et tu veux savoir si le prix tient, combien viser, quels coûts cachés guetter ? Jérémy Lange (Capifrance) connaît la mécanique d'achat sur Annecy, Chambéry et Aix, et il te dira franchement si l'affaire est bonne ou s'il faut passer ton tour. Un échange avant de signer, sans engagement : https://jeremy-lange.capifrance.fr/fr.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy", "Chambéry"],
+    },
+  },
+  {
+    slug: "annecy-ou-aix-les-bains-ou-acheter-2026",
+    title: "Annecy ou Aix-les-Bains : où acheter quand on vient de Paris",
+    description:
+      "Aix, l'alternative budget à 25 min : médian ~4 900 €/m² contre 5 930 à Annecy. Tu gardes le lac et la montagne, tu gagnes 1 000 €/m². Le match, critère par critère.",
+    publishedAt: "2026-05-17",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Acheteur venant de Paris 35-55 ans, hésite entre Annecy et Aix-les-Bains, sensible au budget et au cadre de vie lac. Veut un comparatif 1v1 honnête, pas un classement à trois villes.",
+      angle:
+        "Comparaison 1v1 stricte Annecy vs Aix-les-Bains (PAS Chambéry, déjà couvert ailleurs). Aix = l'alternative budget à 25 min, sur le lac du Bourget (plus grand lac naturel de France), médian ~4 900 €/m² contre 5 930 à Annecy. Aix = thermal, posé, population plus âgée, contre Annecy sport, jeune, effervescent. Tu gardes le lac + la montagne, tu gagnes ~1 000 €/m², tu perds l'effervescence et un marché locatif annuel plus mou (vacance saisonnière curistes). TGV Aix ~3h Paris.",
+      ouverture:
+        "Contre-évidence : 'Tout le monde vise Annecy. À 25 minutes, Aix-les-Bains a le plus grand lac naturel de France et coûte 1 000 €/m² de moins. La question n'est pas laquelle est la plus jolie, c'est laquelle correspond à ta vie.'",
+      structure:
+        "Comparaison décomposée par critère : prix, cadre de vie, transport/emploi, investissement, pour qui chacune, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Tu viens de Paris, tu vises Annecy comme tout le monde, et personne ne t'a parlé d'Aix-les-Bains. C'est dommage, parce qu'à 25 minutes de Chambéry, posée sur le lac du Bourget (le plus grand lac naturel de France), Aix coûte environ 4 900 €/m² contre 5 930 à Annecy. Fais le calcul : c'est près de 1 000 €/m² de moins, et tu gardes le lac et la montagne. Mais soyons clairs, ce n'est pas le même film. Annecy, c'est sport, jeune, effervescent, un centre qui bouge toute l'année. Aix, c'est thermal, posé, une population plus âgée, un rythme tranquille. Tu y gagnes de la surface et du calme, tu y perds l'effervescence et un marché locatif annuel plus solide (Aix vit une vacance saisonnière liée aux curistes). Côté train, Aix est à environ 3h de Paris. La vraie question n'est donc pas laquelle est la plus belle, les deux le sont, mais laquelle colle à ta vie et à ton budget. On fait le match critère par critère. Pour comparer avec la troisième larronne, c'est par ici : [Annecy ou Chambéry](/blog/annecy-chambery-immobilier-ou-acheter-2026).",
+        },
+        {
+          titre: "Le match prix : Aix gagne ~1 000 €/m²",
+          contenu:
+            "Comparer froidement les niveaux de prix. Annecy médian appartement 5 930 €/m². Aix-les-Bains médian ~4 900 €/m², soit ~1 000 €/m² d'écart, c'est-à-dire ~17 % moins cher. Détailler les quartiers d'Aix avec fourchettes : centre / bord de lac 5 200-6 500 €/m² (le haut, proximité thermes et Petit Port), Marlioz 4 400-4 900 €/m² (résidentiel, proche parc thermal), Choudy / Sierroz 3 800-4 400 €/m² (plus abordable, vers le lac et le nord). Traduire l'écart en surface concrète : à budget égal, Aix offre nettement plus de m² qu'Annecy. Mentionner les frais de notaire ancien ~7,5-8 % identiques (voir [frais et négo](/blog/frais-notaire-negociation-achat-annecy-chambery)). Renvoyer vers [les prix d'Annecy par profil](/blog/prix-immobilier-annecy-2026-qui-achete).",
+        },
+        {
+          titre: "Le match cadre de vie : effervescence contre tranquillité",
+          contenu:
+            "Opposer les deux ambiances sans hiérarchie. Annecy : ville sport et jeune, centre animé toute l'année, restaurants, événements, vélo autour du lac, glisse l'hiver, démographie active. Aix-les-Bains : ville thermale historique, rythme posé, population plus âgée, ambiance station de cure, casino, parcs, bord du lac du Bourget plus sauvage et vaste. Les deux gardent le combo lac + montagne. Le critère qui tranche : ton énergie de vie. Tu veux du mouvement et une vie sociale dense ? Annecy. Tu veux du calme, de l'espace, un quotidien apaisé ? Aix. Nuancer : Aix se réveille en saison thermale, Annecy sature en saison touristique. Renvoyer vers [pourquoi vivre à Annecy](/blog/pourquoi-vivre-annecy-2026) pour le détail annécien.",
+        },
+        {
+          titre: "Le match transport et emploi",
+          contenu:
+            "Comparer connectivité et bassin d'emploi. TGV : Aix-les-Bains ~3h de Paris, Annecy ~3h35-3h45, léger avantage Aix sur le train. Mais Annecy a l'atout Genève frontalier (35-50 min) qui dope les salaires, alors qu'Aix est plus tournée vers le bassin Chambéry (CEA, INES, université, à 25 min). Pour un cadre cherchant un emploi local fort ou frontalier : Annecy/Genève a plus à offrir. Pour quelqu'un en télétravail quasi total ou proche de la retraite : Aix et son meilleur temps de train suffisent. Voiture : Aix carrefour A41/A43 vers Chambéry, Lyon, Grenoble. Renvoyer vers [vivre Annecy en travaillant à Chambéry](/blog/vivre-annecy-travailler-chambery-faisable), la logique pendulaire vaut aussi pour Aix.",
+        },
+        {
+          titre: "Le match investissement : Annecy plus sûr, Aix plus risqué",
+          contenu:
+            "Comparer le potentiel investisseur. Annecy : prix élevés donc rendement faible (3,2-3,8 % brut) mais demande locative annuelle solide, vacance quasi nulle, valorisation portée par Genève et le tramway (voir [le rendement détaillé](/blog/investir-annecy-rendement-locatif-saisonnier-2026)). Aix : ticket d'entrée plus bas donc rendement brut potentiellement meilleur, MAIS marché locatif annuel plus mou et vacance saisonnière liée aux curistes (forte demande en saison thermale, plus creux hors saison). Le saisonnier curiste est une stratégie spécifique à Aix, à manier prudemment. Conclusion : Annecy = capital plus sûr, Aix = rendement potentiellement supérieur mais demande plus irrégulière. Renvoyer vers [le classement quartiers investisseurs Annecy](/blog/meilleur-quartier-annecy-investir-2026).",
+        },
+        {
+          titre: "CTA Jérémy Lange (encart milieu d'article)",
+          contenu:
+            "Aside après le match investissement : 'Annecy ou Aix, ça ne se décide pas sur une moyenne de prix, ça se joue sur ton budget réel, ton rapport au calme et ton projet pro. Jérémy Lange (Capifrance) couvre les deux villes et n'a aucun intérêt à te pousser vers la plus chère, il te dira honnêtement laquelle colle à ta vie. Avant d'arbitrer, parle-lui de ton projet : https://jeremy-lange.capifrance.fr/fr.' Ton : conseiller neutre, terrain.",
+        },
+        {
+          titre: "Pour qui Annecy, pour qui Aix-les-Bains",
+          contenu:
+            "Pré-qualification claire. Annecy pour : cadre actif Genève-compatible, famille jeune cherchant écoles et vie animée, profil sportif, investisseur visant capital sûr, budget confortable. Aix pour : budget plus serré voulant garder le lac, profil cherchant calme et espace, télétravailleur quasi total ou pré-retraité, amateur de thermalisme et de grand lac, acheteur prêt à plus de m² contre moins d'effervescence. Donner des signaux concrets pour que le lecteur se range d'un côté. Insister : aucune des deux n'est meilleure dans l'absolu, elles répondent à deux modes de vie différents. Renvoyer vers [la fiche Aix-les-Bains](/vivre-a/aix-les-bains-73008) et [la fiche Annecy](/vivre-a/annecy-74010).",
+        },
+        {
+          titre: "Le verdict Annecy ou Aix 2026",
+          contenu:
+            "Trancher proprement par profil. Tu as le budget et tu veux du mouvement, de l'emploi local/frontalier, une revente liquide : Annecy. Tu veux maximiser tes m², garder le lac et la montagne, vivre plus calme, et le train rapide vers Paris : Aix-les-Bains. Tu investis pour la sécurité du capital : Annecy. Tu investis pour le rendement et tu maîtrises le saisonnier curiste : Aix, prudemment. Phrase de clôture honnête : Aix-les-Bains n'est pas une Annecy au rabais, c'est une autre proposition, plus posée et moins chère, et pour beaucoup de Parisiens c'est exactement ce qu'ils cherchaient sans le savoir.",
+        },
+        {
+          titre: "CTA Jérémy Lange (bas d'article)",
+          contenu:
+            "Encart fin, formulation différente : 'Tu hésites encore entre Annecy et Aix-les-Bains pour ton budget ? Plutôt que de trancher seul, mets ton projet sur la table avec Jérémy Lange (Capifrance). Il connaît les deux marchés et te dira sans détour laquelle des deux villes sert vraiment ta vie et ton portefeuille. https://jeremy-lange.capifrance.fr/fr, échange sans engagement.' Format encart fond gris.",
+        },
+      ],
+      references: ["Annecy", "Aix-les-Bains"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(

@@ -1564,6 +1564,21 @@ export const SAMPLE_COMMUNES: Commune[] = [
     espaces_verts_pct: 38, taux_criminalite: 32, bonus_gpe: 0.0,
     gare_acces: { nom: "Chambéry-Challes-les-Eaux", trajet_min: 6, distance_km: 0.4, mode: "marche" },
   },
+  {
+    code_insee: "73008", nom: "Aix-les-Bains", code_postal: "73100",
+    departement: "Savoie", region: "Auvergne-Rhône-Alpes", population: 30516,
+    lat: 45.6885, lon: 5.9156,
+    prix_m2_median: 4900, prix_m2_evolution_5y: 3.6,
+    loyer_m2_median: 14.5, rendement_locatif: 4.0,
+    revenu_median: 23800, taux_chomage: 8.5, nb_transactions: 540,
+    temps_trajet_paris_min: 175, temps_trajet_tc_min: 175, temps_trajet_voiture_min: 300,
+    mode_principal: "tgv", ligne_principale: "TGV Sud-Est",
+    distance_paris_km: 520,
+    distance_gare_km: 0.5, distance_autoroute_km: 2.0,
+    nb_commerces: 95, nb_ecoles: 14, nb_medecins: 42,
+    espaces_verts_pct: 45, taux_criminalite: 26, bonus_gpe: 0.0,
+    gare_acces: { nom: "Aix-les-Bains-Le Revard", trajet_min: 7, distance_km: 0.5, mode: "marche" },
+  },
 ];
 
 export const SAMPLE_GPE_STATIONS: GpeStation[] = [

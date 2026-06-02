@@ -8,6 +8,7 @@ import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { BLOG_POSTS, BLOG_POSTS_BY_SLUG } from "@/lib/blog-posts";
 import { BLOG_CONTENT } from "@/lib/blog-content";
+import { PUBLISHED_BLOG_POSTS } from "@/lib/blog-published";
 import { getBlogCoverImage } from "@/lib/blog-images";
 import { nameToSlug } from "@/lib/slug";
 import { breadcrumbJsonLd } from "@/lib/seo";
@@ -43,7 +44,8 @@ const SITE_URL =
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  return BLOG_POSTS.map((p) => ({ slug: p.slug }));
+  // Seuls les articles avec contenu réel sont pré-générés.
+  return PUBLISHED_BLOG_POSTS.map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -122,6 +124,8 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const content = BLOG_CONTENT[slug];
+  // Brief existant mais contenu pas encore généré : on ne publie pas de page vide.
+  if (!content || content.trim().length === 0) notFound();
   const allHeadings = content ? extractHeadings(content) : [];
   const cover = getBlogCoverImage(slug);
   // Pour les articles gated, on n'expose que les H2 visibles avant le blur

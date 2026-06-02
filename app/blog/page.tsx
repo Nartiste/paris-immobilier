@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { BookOpen } from "lucide-react";
-import { BLOG_POSTS } from "@/lib/blog-posts";
+import { PUBLISHED_BLOG_POSTS } from "@/lib/blog-published";
 import { getBlogSearchDocs } from "@/lib/blog-search";
 import BlogClientShell, { type PostListItem } from "@/components/BlogClientShell";
 
@@ -49,7 +49,7 @@ const CATEGORY_GRADIENTS: Record<string, string> = {
 const CATEGORIES = ["all", "guide", "finance", "tendance", "persona", "transport"] as const;
 
 export default async function BlogIndexPage() {
-  const allPosts = [...BLOG_POSTS].sort(
+  const allPosts = [...PUBLISHED_BLOG_POSTS].sort(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
@@ -68,7 +68,7 @@ export default async function BlogIndexPage() {
   const searchDocs = getBlogSearchDocs();
 
   // Stats
-  const totalMinutes = BLOG_POSTS.reduce((sum, p) => sum + p.readingMinutes, 0);
+  const totalMinutes = PUBLISHED_BLOG_POSTS.reduce((sum, p) => sum + p.readingMinutes, 0);
 
   // Catégories disponibles avec compte
   const categoryCounts: Record<string, number> = { all: allPosts.length };
@@ -145,7 +145,7 @@ export default async function BlogIndexPage() {
           {/* Stats */}
           <div className="mt-8 flex flex-wrap gap-6 text-sm text-brand-bleu/80">
             <span>
-              <strong className="text-brand-bleu">{BLOG_POSTS.length}</strong>{" "}
+              <strong className="text-brand-bleu">{PUBLISHED_BLOG_POSTS.length}</strong>{" "}
               articles
             </span>
             <span>

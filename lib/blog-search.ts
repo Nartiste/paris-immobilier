@@ -12,7 +12,7 @@
  * pour 211 articles avec excerpt + métadonnées.
  */
 
-import { BLOG_POSTS } from "./blog-posts";
+import { PUBLISHED_BLOG_POSTS } from "./blog-published";
 import { BLOG_CONTENT } from "./blog-content";
 
 export type BlogSearchableDoc = {
@@ -38,7 +38,7 @@ function stripMarkdown(s: string): string {
 }
 
 export function getBlogSearchDocs(): BlogSearchableDoc[] {
-  return BLOG_POSTS.map((post) => {
+  return PUBLISHED_BLOG_POSTS.map((post) => {
     const briefParts: string[] = [];
     if (post.brief?.audience) briefParts.push(post.brief.audience);
     if (post.brief?.angle) briefParts.push(post.brief.angle);
