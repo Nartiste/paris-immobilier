@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Train, Sparkles, Map as MapIcon, ArrowRight, ChevronDown } from "lucide-react";
 import type { ComponentType } from "react";
-import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { SAMPLE_COMMUNES, COMMUNE_COUNT } from "@/lib/sample-data";
 import { TRANSPORT_LINES, reputationColor } from "@/lib/transport-lines";
 import { PERSONAS } from "@/lib/persona";
 import { communeToSlug } from "@/lib/slug";
@@ -70,7 +70,7 @@ export default function HomeShell() {
  <div className="relative">
  <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 px-3 py-1 text-[11px] font-semibold tracking-wide text-brand-iris-strong shadow-[0_2px_8px_rgba(157,140,242,0.15)] backdrop-blur">
  <Sparkles className="h-3 w-3" />
- 175 communes scannées · DVF &amp; INSEE 2026
+ {COMMUNE_COUNT} communes scannées · DVF &amp; INSEE 2026
  </span>
 
  <h1 className="font-display mt-5 text-3xl font-medium leading-[1.05] tracking-tight text-brand-bleu sm:text-[2.6rem]">

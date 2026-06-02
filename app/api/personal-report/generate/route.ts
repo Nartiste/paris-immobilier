@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { cookies, headers } from "next/headers";
 import { getSupabaseServer } from "@/lib/supabase";
 import { brevoUpsertContact, brevoSendTemplate } from "@/lib/brevo";
-import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { SAMPLE_COMMUNES, COMMUNE_COUNT } from "@/lib/sample-data";
 import {
   selectCandidateCommunes,
   compressCommunesForReport,
@@ -573,7 +573,7 @@ function buildEmailHtml(prenom: string, reportUrl: string, villeVerdict: string 
           <tr>
             <td style="padding:16px 36px 0 36px;">
               <p style="margin:0;font-size:15px;line-height:1.6;color:#52627a;">
-                Pas de top 10 mou. Une recommandation. <strong>La tienne.</strong> Calculée à partir de TES réponses au quiz (profil, fréquence Paris, budget, critères prioritaires) contre 175 communes.
+                Pas de top 10 mou. Une recommandation. <strong>La tienne.</strong> Calculée à partir de TES réponses au quiz (profil, fréquence Paris, budget, critères prioritaires) contre ${COMMUNE_COUNT} communes.
               </p>
               <p style="margin:12px 0 0 0;font-size:15px;line-height:1.6;color:#52627a;">
                 Dans ton verdict tu trouveras :

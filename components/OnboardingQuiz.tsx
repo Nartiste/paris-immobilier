@@ -309,7 +309,11 @@ export default function OnboardingQuiz() {
   if (submitting && generationStep) {
     const steps = [
       { key: "uploading", label: "On envoie ton profil…", chrono: "1 s" },
-      { key: "analyzing", label: `On scanne 175 communes contre tes critères…`, chrono: "5 s" },
+      // NB: 176 = COMMUNE_COUNT (lib/sample-data.ts). Codé en dur ici car ce
+      // composant est "use client" : importer le dataset embarquerait tout
+      // SAMPLE_COMMUNES dans le bundle client. À synchroniser à la main si le
+      // dataset change.
+      { key: "analyzing", label: `On scanne 176 communes contre tes critères…`, chrono: "5 s" },
       { key: "writing", label: `Le verdict se rédige pour ${prenom || "toi"}…`, chrono: "10 s" },
     ];
     const currentIdx = steps.findIndex((s) => s.key === generationStep);
@@ -331,7 +335,7 @@ export default function OnboardingQuiz() {
             {prenom ? `${prenom}, on démasque ta ville` : "On démasque ta ville"}
           </h2>
           <p className="mt-1.5 text-center text-xs text-brand-bleu/65">
-            175 communes au crible. Une seule sort. La tienne.
+            176 communes au crible. Une seule sort. La tienne.
           </p>
 
           <ul className="mt-6 space-y-3">
@@ -765,7 +769,7 @@ export default function OnboardingQuiz() {
                     On te dit où acheter (vraiment).
                   </p>
                   <p className="mt-1.5 text-xs leading-relaxed text-brand-bleu/75">
-                    Pas de top 10 mou. <strong>Une recommandation. Ta recommandation.</strong> <strong>175 communes</strong> scannées
+                    Pas de top 10 mou. <strong>Une recommandation. Ta recommandation.</strong> <strong>176 communes</strong> scannées
                     contre TES réponses : <strong>1 ville sort</strong>, plus 2 alternatives backup. Score de match, quartiers à viser, pièges à éviter.
                     <strong> Aucun autre Parisien n&apos;aura le même verdict.</strong>
                   </p>

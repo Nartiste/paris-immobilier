@@ -13,7 +13,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { getSupabaseServer } from "@/lib/supabase";
-import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { SAMPLE_COMMUNES, COMMUNE_COUNT } from "@/lib/sample-data";
 import { injectCommuneLinks } from "@/lib/personal-report-linkify";
 import RapportAnalytics from "./RapportAnalytics";
 
@@ -75,7 +75,7 @@ export async function generateMetadata({
   }
 
   const title = `${report.prenom}, ton verdict personnalisé`;
-  const description = `Le hack : 175 communes scannées, 1 ville sort. La tienne. Plus 2 alternatives. Score de match, quartiers à viser, pièges à éviter.`;
+  const description = `Le hack : ${COMMUNE_COUNT} communes scannées, 1 ville sort. La tienne. Plus 2 alternatives. Score de match, quartiers à viser, pièges à éviter.`;
 
   return {
     title,
@@ -205,7 +205,7 @@ export default async function MonRapportPage({
           </div>
 
           <p className="mt-5 text-sm leading-relaxed text-brand-bleu/75">
-            Pas de top 10 mou. Une recommandation. <strong>La tienne, {report.prenom}.</strong> 175 communes
+            Pas de top 10 mou. Une recommandation. <strong>La tienne, {report.prenom}.</strong> {COMMUNE_COUNT} communes
             scannées contre tes 6 réponses au quiz. Aucun autre Parisien n&apos;aura exactement le même verdict.
           </p>
         </div>
@@ -230,7 +230,7 @@ export default async function MonRapportPage({
               Voir le ranking complet
             </h3>
             <p className="text-xs leading-relaxed text-brand-bleu/65">
-              175 communes analysées, filtres ajustables.
+              {COMMUNE_COUNT} communes analysées, filtres ajustables.
             </p>
             <span className="mt-auto inline-flex items-center gap-1 text-xs font-semibold text-brand-iris-strong">
               Explorer

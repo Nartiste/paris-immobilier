@@ -263,7 +263,7 @@ function main(): void {
   doc.moveDown(0.5);
   doc.fillColor(COLORS.textDark).font("Helvetica").fontSize(12);
   doc.text(
-    "Tu as les 10 villes en main. Pour aller plus loin, utilise notre comparateur interactif qui croise 86 communes IDF et 87 villages-gares TGV sur 6 critères que tu pondères toi-même.",
+    "Tu as les 10 villes en main. Pour aller plus loin, utilise notre comparateur interactif qui croise 86 communes d'Île-de-France et 90 villes accessibles en TGV sur 6 critères que tu pondères toi-même.",
     {
       width: contentWidth,
       lineGap: 3,

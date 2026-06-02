@@ -131,7 +131,7 @@ const CLUSTERS: Cluster[] = [
     label: "Où aller",
     question: "Où aller selon ton budget et ton temps de trajet ?",
     intro:
-      "C'est la question la plus pratique, mais aussi la plus mal traitée. Quitter Paris ne veut pas dire le même choix selon que tu vas à Paris 5 jours par semaine ou jamais. Notre comparateur croise 86 communes IDF + 87 villages-gares TGV sur six critères mesurables.",
+      "C'est la question la plus pratique, mais aussi la plus mal traitée. Quitter Paris ne veut pas dire le même choix selon que tu vas à Paris 5 jours par semaine ou jamais. Notre comparateur croise 86 communes d'Île-de-France et 90 villes accessibles en TGV sur six critères mesurables.",
     Icon: MapIcon,
     articles: [
       {
@@ -471,7 +471,7 @@ export default function QuitterParisPillarPage() {
     {
       question: "Est-ce vraiment une bonne idée de quitter Paris en 2026 ?",
       answer:
-        "Tout dépend de cinq variables : ton rythme de présence à Paris (si tu y vas 5 jours par semaine, partir trop loin coûte cher en temps), ton secteur professionnel (certains métiers se font remoter, d'autres pas), ta situation familiale (enfants scolarisés = rentrée à caler), ton patrimoine (acheter en banlieue à 6 000 €/m² vs vendre Paris à 10 800 €/m² change l'équation) et ton réseau social. Notre comparateur croise ces critères sur 86 communes IDF + 87 villages-gares.",
+        "Tout dépend de cinq variables : ton rythme de présence à Paris (si tu y vas 5 jours par semaine, partir trop loin coûte cher en temps), ton secteur professionnel (certains métiers se font remoter, d'autres pas), ta situation familiale (enfants scolarisés = rentrée à caler), ton patrimoine (acheter en banlieue à 6 000 €/m² vs vendre Paris à 10 800 €/m² change l'équation) et ton réseau social. Notre comparateur croise ces critères sur 86 communes d'Île-de-France et 90 villes accessibles en TGV.",
     },
     {
       question: "Combien de personnes regrettent et reviennent à Paris ?",
@@ -589,7 +589,7 @@ export default function QuitterParisPillarPage() {
               className="inline-flex items-center gap-1 font-medium text-brand-bleu underline-offset-4 hover:underline"
             >
               <ArrowRightLeft className="h-3 w-3" />
-              Compare 86 communes
+              Compare 176 communes
             </Link>
             <a
               href="#cluster-pourquoi"
@@ -723,7 +723,7 @@ export default function QuitterParisPillarPage() {
             Prêt à passer du doute à la décision ?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-neutral-800">
-            Notre comparateur croise 86 communes IDF et 87 villages-gares TGV
+            Notre comparateur croise 86 communes d'Île-de-France et 90 villes accessibles en TGV
             sur six critères que tu pondères toi-même. Tu auras un classement
             personnalisé en moins d'une minute, sans inscription.
           </p>

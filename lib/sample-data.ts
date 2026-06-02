@@ -1581,6 +1581,17 @@ export const SAMPLE_COMMUNES: Commune[] = [
   },
 ];
 
+/**
+ * Nombre total de communes étudiées dans le dataset.
+ * Source unique de vérité pour tous les compteurs affichés côté serveur
+ * (home, pillar /ou-vivre, rapport perso, etc.). À utiliser à la place de
+ * tout chiffre codé en dur pour qu'aucun compteur ne devienne obsolète quand
+ * on ajoute une commune. Les composants CLIENT (ex: OnboardingQuiz) ne doivent
+ * PAS importer ceci (ça embarquerait tout le dataset dans le bundle) : ils
+ * gardent le chiffre en dur avec un commentaire de synchro.
+ */
+export const COMMUNE_COUNT = SAMPLE_COMMUNES.length;
+
 export const SAMPLE_GPE_STATIONS: GpeStation[] = [
   { id: "l15-noisy", nom: "Noisy-Champs", ligne: "15", lat: 48.8417, lon: 2.5793, annee_ouverture: 2026 },
   { id: "l15-saint-maur", nom: "Saint-Maur-Créteil", ligne: "15", lat: 48.7986, lon: 2.4882, annee_ouverture: 2026 },
