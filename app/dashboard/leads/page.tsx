@@ -43,6 +43,15 @@ type ReportRow = {
 
 const INSEE_TO_NAME = new Map(SAMPLE_COMMUNES.map((c) => [c.code_insee, c.nom]));
 
+// Emails internes / QA exclus par défaut (ne polluent pas les vrais leads).
+// Domaine de l'équipe + convention des tests de diagnostic (diag-*).
+const TEST_EMAIL_DOMAINS = ["prception.co"];
+function isTestEmail(email: string): boolean {
+  const e = (email ?? "").toLowerCase();
+  if (e.startsWith("diag-")) return true;
+  return TEST_EMAIL_DOMAINS.some((d) => e.endsWith("@" + d));
+}
+
 function maskEmail(email: string): string {
   const [user, domain] = email.split("@");
   if (!domain) return "***";
@@ -85,9 +94,10 @@ type CityAgg = {
 export default async function LeadsDashboardPage({
   searchParams,
 }: {
-  searchParams: Promise<{ token?: string }>;
+  searchParams: Promise<{ token?: string; test?: string }>;
 }) {
-  const { token } = await searchParams;
+  const { token, test } = await searchParams;
+  const includeTest = test === "1";
   const expected = process.env.ADMIN_DASHBOARD_TOKEN;
 
   // Refus si pas de token configuré ou mauvais token : pas d'exposition accidentelle.
@@ -103,7 +113,7 @@ export default async function LeadsDashboardPage({
     .limit(1000);
 
   const reports = (error || !data ? [] : (data as ReportRow[])).filter(
-    (r) => r.quiz_answers != null,
+    (r) => r.quiz_answers != null && (includeTest || !isTestEmail(r.email)),
   );
 
   // Agrégation par commune recommandée
@@ -254,7 +264,10 @@ export default async function LeadsDashboardPage({
 
         <p className="mt-8 text-[11px] text-neutral-400">
           Emails masqués pour la confidentialité. Détail complet dans Supabase.
-          Page non indexée, accès par token.
+          Page non indexée, accès par token.{" "}
+          {includeTest
+            ? "Mode test : emails internes (prception.co, diag-) inclus."
+            : "Emails internes (prception.co, diag-) exclus. Ajoute ?test=1 pour les réafficher."}
         </p>
       </div>
     </div>
