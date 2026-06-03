@@ -8436,6 +8436,505 @@ export const BLOG_POSTS: BlogPost[] = [
       references: ["Boulogne-Billancourt", "Issy-les-Moulineaux"],
     },
   },
+  {
+    slug: "acheter-vincennes-2026-guide-complet",
+    title: "Acheter à Vincennes en 2026 : le guide complet",
+    description:
+      "9 200 €/m² médian, le Bois à pied, Châtelet en 10 minutes. Marché, quartiers, transport, écoles, budget : tout ce qu'il faut savoir avant d'acheter à Vincennes.",
+    publishedAt: "2026-04-10",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Acquéreur 32-50 ans, couple ou famille, capacité 500-900 k€, qui vise l'est parisien premium et hésite entre rester Paris et passer la porte. Veut une vue d'ensemble honnête avant de creuser quartier par quartier.",
+      angle:
+        "Money page Vincennes : poser le décor complet (marché 2026, les 4 quartiers en bref, le combo M1 plus RER A, écoles, profils acheteurs, budget type, l'atout Bois) et router vers les guides détaillés. Pas de carte de prix fine ici, c'est le rôle de l'article prix par quartier. Ton de synthèse claire, pas de survente.",
+      ouverture:
+        "Constat : 'À Vincennes tu n'achètes pas une commune de banlieue, tu achètes un arrondissement de l'est parisien avec un bois de 995 hectares en bas de chez toi et le donjon en toile de fond.'",
+      structure:
+        "Méthodique : marché, quartiers en bref, transport, écoles, qui achète, atout Bois, verdict avec liens.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Vincennes tient dans 1,9 km carré et 49 900 habitants, collée au 12e arrondissement, et c'est précisément ce qui en fait un des marchés les plus tendus de l'est parisien. Le prix médian s'établit à 9 200 €/m² en 2026, au niveau des beaux arrondissements de Paris est, pas en dessous. Si tu cherches une affaire, passe ton chemin. Si tu cherches Paris en plus calme, avec le Bois de Vincennes en bas de l'immeuble, le château en repère et le RER A qui te crache à Châtelet en 10 minutes, tu es au bon endroit. Vincennes attire des familles, des cadres et des couples qui refusent de couper le cordon avec la capitale mais veulent de l'air, des écoles solides et une vraie vie de quartier. Le marché est rapide : un bien correct au bon prix part en deux à trois semaines, et la marge de négociation dépasse rarement 2 à 4 %. Avant de te lancer, il faut comprendre les quatre quartiers, le vrai temps de trajet selon ta ligne, et à quel budget tu joues. Ce guide pose le décor, les articles détaillés font le reste."
+        },
+        {
+          titre: "Vincennes en 2026 : un marché mature et tendu",
+          contenu:
+            "Médian 9 200 €/m², stabilité voire légère baisse sur 5 ans (le premium parisien a un peu corrigé), mais Vincennes résiste mieux que Paris intra-muros grâce à la rareté du foncier (commune minuscule, quasi aucune construction neuve). Délai de vente 2-3 semaines pour un bien bien positionné. Volumes faibles. Conclure : marché de report et de valeur refuge, pas de spéculation."
+        },
+        {
+          titre: "Les 4 quartiers en un coup d'oeil",
+          contenu:
+            "Cœur de Ville autour de la mairie et de la rue du Midi (commerçant, M1 Château de Vincennes) 9 500-11 000 €/m². Nord et Domaine du Bois (résidentiel chic, av. de Paris, le plus cher) 9 800-11 500. Sud Diderot-République (M1 Bérault, proche RER A) 9 000-10 200. Est, quartier des Vignerons (vers Montreuil, le plus abordable) 8 800-9 800. Pour le détail rue par rue, renvoyer vers [le guide des prix par quartier](/blog/prix-immobilier-vincennes-2026-par-quartier)."
+        },
+        {
+          titre: "Le combo transport imbattable : M1 plus RER A",
+          contenu:
+            "Deux atouts rares cumulés. La ligne 1 (terminus Château de Vincennes, plus station Bérault) te met à Châtelet en 13-16 minutes, et au terminus tu pars assis. Le RER A (gare de Vincennes) fait Châtelet en 10 minutes et La Défense en 20. Peu de communes de l'est cumulent métro terminus et RER. C'est ce qui justifie une partie de la prime de prix."
+        },
+        {
+          titre: "Écoles et profil familial",
+          contenu:
+            "Écoles publiques et privées réputées, plusieurs collèges et lycées bien notés, ambiance familiale-bourgeoise assumée. C'est un moteur d'achat majeur : beaucoup de familles parisiennes viennent à Vincennes pour la carte scolaire plus le Bois, sans s'éloigner du centre. Mentionner que la demande familiale tient les prix."
+        },
+        {
+          titre: "Qui achète à Vincennes et à quel budget",
+          contenu:
+            "Profil dominant : famille 35-50 ans, couple biactif cadres, revenu 110-180 k€, budget 550-850 k€ pour un 3-4 pièces. Aussi des cadres seuls ou jeunes couples sur du 2-pièces 9 000-10 000 €/m². Peu d'investisseurs purs (rendement faible). Apport souvent élevé (revente d'un bien parisien)."
+        },
+        {
+          titre: "L'atout Bois de Vincennes",
+          contenu:
+            "995 hectares en lisière : lac Daumesnil, parc floral, pistes, hippodrome. Pour une famille, c'est un jardin géant qui remplace le manque de surface privative. Argument de vie quotidienne que les acheteurs sous-estiment avant de venir et qui pèse lourd après."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside après la section quartiers : 'Pas sûr que Vincennes colle à ton budget et à ton mode de vie ? Lance le quiz Trouve ta ville idéale : en 4 clics, on calcule la surface que tu peux viser ici, et on te propose des alternatives si le ticket d'entrée est trop haut. C'est le bouton iris en bas à droite.' Ton aide concrète."
+        },
+        {
+          titre: "Le verdict, et par où continuer",
+          contenu:
+            "Vincennes 2026, c'est cher mais cohérent pour qui veut Paris en mode familial sans rupture. Router vers les guides : [prix par quartier](/blog/prix-immobilier-vincennes-2026-par-quartier), [meilleur quartier pour acheter](/blog/meilleur-quartier-vincennes-acheter-2026), et la comparaison avec sa jumelle premium [Vincennes ou Saint-Mandé](/blog/vincennes-saint-mande-comparaison-immobilier-2026)."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin, fond gris : 'Tu veux comparer Vincennes à d'autres communes de l'est sur prix, trajet et qualité de vie ? Le comparateur croise les données DVF et transport sur 176 communes, tu pondères tes critères toi-même : [ouvrir le comparateur](/comparer).' Pas de mention d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
+  {
+    slug: "prix-immobilier-vincennes-2026-par-quartier",
+    title: "Prix immobilier Vincennes 2026 : le vrai prix par quartier",
+    description:
+      "9 200 €/m² de médiane, mais 2 700 €/m² d'écart entre le Domaine du Bois et les Vignerons. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    publishedAt: "2026-04-16",
+    readingMinutes: 9,
+    category: "tendance",
+    brief: {
+      audience:
+        "Acquéreur qui a décidé que ce serait Vincennes et veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces. Capacité 450-900 k€.",
+      angle:
+        "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, avec commentaire honnête de surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre). Identifier où le prix est justifié et où c'est de la prime de nom.",
+      ouverture:
+        "Statistique : '9 200 €/m² de médiane à Vincennes. Mais entre un T3 au Domaine du Bois à 11 200 €/m² et le même T3 aux Vignerons à 9 100 €/m², tu n'achètes pas la même ville.'",
+      structure:
+        "Méthodique : sources, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "À Vincennes, la médiane à 9 200 €/m² ne te sert à rien tant que tu ne sais pas dans quelle rue tu regardes. La commune est minuscule, 1,9 km carré, mais l'écart de prix entre ses quartiers dépasse 2 700 €/m², soit le prix d'une chambre entière sur un 70 m². Le Domaine du Bois, au nord, contre le Bois de Vincennes, tutoie les 11 500 €/m² et joue dans la cour de Paris 16e. Les Vignerons, à l'est vers Montreuil, restent autour de 8 800-9 800 €/m², ce qui à Vincennes ressemble à une affaire. Entre les deux, le Cœur de Ville et le Sud Diderot oscillent selon la proximité du M1 et du RER A. Ces chiffres viennent du croisement des transactions DVF des dix-huit derniers mois et des annonces en cours, en gardant à l'esprit que les annonces affichent toujours 3 à 8 % de plus que le prix réellement signé. On va décortiquer chaque quartier, dire où le prix est justifié par le cadre et où tu paies surtout le nom, et pointer les rares poches où il reste de la marge en 2026."
+        },
+        {
+          titre: "Les sources et la méthode",
+          contenu:
+            "DVF data.gouv (transactions janvier 2025 à aujourd'hui), croisé avec annonces SeLoger et PAP en cours. Les annonces surévaluent de 3-8 % vs prix signé : on raisonne sur le signé. Médianes par quartier, pas par commune. Préciser la limite : volumes faibles à Vincennes, donc fourchettes plutôt que chiffre unique."
+        },
+        {
+          titre: "Domaine du Bois et Nord : le haut du marché",
+          contenu:
+            "9 800-11 500 €/m². Avenue de Paris, rues contre le Bois, beaux immeubles bourgeois et hôtels particuliers. Acheteurs : familles aisées, certains revendeurs Paris 16e ou 12e. Prix justifié par le cadre (Bois à pied, calme, prestige) mais marge de revalorisation faible : tu paies déjà le plein tarif."
+        },
+        {
+          titre: "Cœur de Ville : payer la vie de quartier",
+          contenu:
+            "9 500-11 000 €/m². Autour de la mairie, rue du Midi commerçante, M1 Château de Vincennes. Tu paies l'animation, les commerces, le marché. Idéal vie quotidienne sans voiture. Prime justifiée pour qui valorise le commerce de proximité, moins si tu cherches le calme."
+        },
+        {
+          titre: "Sud Diderot-République : le bon compromis",
+          contenu:
+            "9 000-10 200 €/m². M1 Bérault, proche RER A et de Saint-Mandé. Résidentiel, un peu moins cher que le Cœur de Ville pour une accessibilité quasi identique. Souvent le meilleur rapport emplacement/prix pour un primo-accédant qui veut rester central."
+        },
+        {
+          titre: "Les Vignerons et l'Est : là où il reste de la marge",
+          contenu:
+            "8 800-9 800 €/m². Vers Montreuil et Fontenay, tissu plus mélangé, quelques copropriétés des années 60-70. C'est le quartier injustement boudé : à 1 200-1 500 €/m² sous le Domaine du Bois pour 10-12 minutes de marche en plus. Pour un budget contraint qui veut Vincennes, c'est ici que ça se joue."
+        },
+        {
+          titre: "Où le prix est justifié, où c'est la prime de nom",
+          contenu:
+            "Justifié : proximité réelle du Bois, du M1 terminus, du RER A. Prime de nom : certaines rues du Cœur de Ville surcotées sur le simple prestige Vincennes sans atout concret. Conseil : raisonner en minutes réelles à pied du RER A et du Bois, pas en étiquette de quartier."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside : 'Tu veux voir comment le prix de Vincennes se compare à Saint-Mandé, Montreuil ou Fontenay pour ton budget ? Le comparateur met les communes côte à côte sur le prix m2 réel et le trajet : [comparer](/comparer).' Ton pratique."
+        },
+        {
+          titre: "Le verdict prix 2026",
+          contenu:
+            "Vincennes est un marché de report cher mais stable. La marge restante est aux Vignerons et dans le Sud-est, pas dans le premium nord déjà au plafond. Pour le classement des quartiers selon ton projet, va voir [meilleur quartier de Vincennes pour acheter](/blog/meilleur-quartier-vincennes-acheter-2026)."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Vincennes et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris bas-droite. Pas d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
+  {
+    slug: "meilleur-quartier-vincennes-acheter-2026",
+    title: "Meilleur quartier de Vincennes pour acheter en 2026",
+    description:
+      "Famille, primo, investisseur, amoureux du Bois ou accro au RER A : à Vincennes le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    publishedAt: "2026-04-23",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Acquéreur qui sait que ce sera Vincennes mais hésite entre les quartiers, et veut un classement orienté décision selon SON profil, pas une carte de prix.",
+      angle:
+        "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres détaillés.",
+      ouverture:
+        "Question rhétorique retournée : 'Le meilleur quartier de Vincennes n'existe pas dans l'absolu. Il existe pour ton projet. Une famille avec deux enfants et un investisseur ne devraient jamais acheter dans la même rue.'",
+      structure:
+        "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "On te vend toujours le même classement de quartiers, comme s'il y avait une vérité unique. À Vincennes, c'est faux. La commune est tellement petite et homogène que le vrai sujet n'est pas la sécurité ou la qualité, partout correctes, mais l'arbitrage entre ton budget, ta proximité au Bois, ta dépendance au RER A et ton besoin de commerces. Une famille avec deux enfants qui cherche le calme et l'école ne vise pas la même chose qu'un jeune couple qui veut un 2-pièces et le métro à 3 minutes, ni qu'un acheteur qui place 600 000 euros en valeur refuge. Le Domaine du Bois, le Cœur de Ville, le Sud Diderot et les Vignerons répondent à des projets différents, et le bon choix se fait en croisant ce que tu peux mettre et ce qui compte vraiment pour toi au quotidien. Cet article ne te donne pas une carte des prix, pour ça va voir le guide dédié. Il tranche, profil par profil, en disant où je mettrais mon argent à ta place selon ce que tu cherches. Et il assume une opinion, parce qu'un classement qui ne choisit pas ne sert à rien."
+        },
+        {
+          titre: "Le seul critère qui compte : ton projet",
+          contenu:
+            "Poser le cadre : à Vincennes on n'arbitre pas le risque (faible partout) mais le compromis budget/Bois/RER A/commerces. Lister les 5 profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-vincennes-2026-par-quartier)."
+        },
+        {
+          titre: "Si tu es une famille : Domaine du Bois ou Sud résidentiel",
+          contenu:
+            "Priorité calme, école, espace, Bois à pied. Domaine du Bois si le budget suit (10 000-11 500 €/m²), Sud Diderot si tu veux la même logique 1 000 €/m² moins cher. Argument : un enfant qui va au Bois à pied vaut de l'or."
+        },
+        {
+          titre: "Si tu es primo-accédant : les Vignerons",
+          contenu:
+            "Budget contraint qui veut Vincennes : Vignerons et Est, 8 800-9 800 €/m². Tu entres dans la commune pour 1 200-1 500 €/m² de moins que le nord, contre 10 minutes de marche. Le meilleur ticket d'entrée."
+        },
+        {
+          titre: "Si tu cherches le prestige et la valeur refuge : Domaine du Bois",
+          contenu:
+            "Avenue de Paris, rues contre le Bois. Tu paies le plein tarif mais tu achètes le bien qui se revendra toujours, même marché mou. Pour qui privilégie la sécurité patrimoniale sur le rendement."
+        },
+        {
+          titre: "Si le trajet est ta religion : Sud Diderot et Cœur de Ville",
+          contenu:
+            "Proximité M1 Bérault et Château, RER A. Châtelet 10-13 minutes, La Défense 20. Pour cadre qui fait Paris ou La Défense tous les jours, ces quartiers évitent les 8 minutes de marche supplémentaires qui, sur 220 trajets par an, comptent."
+        },
+        {
+          titre: "Le quartier qui monte : l'Est vers Montreuil",
+          contenu:
+            "La frange est profite de la dynamique Montreuil sans en payer le prix. Encore décoté, en voie de normalisation. Pari raisonnable pour qui achète à 7-10 ans et accepte un environnement plus mélangé."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside : 'Tu ne sais pas quel profil tu es vraiment, ni quelle surface ton budget t'offre dans chaque quartier ? Le quiz Trouve ta ville idéale te le calcule en 4 clics et te dit si Vincennes tient dans ton budget. Bouton iris en bas à droite.'"
+        },
+        {
+          titre: "Le verdict par profil",
+          contenu:
+            "Synthèse en prose : Famille budget large = Domaine du Bois. Famille budget mesuré = Sud Diderot. Primo = Vignerons. Patrimoine = Domaine du Bois. Trajet quotidien = Sud Diderot. Pari valorisation = Est. Renvoyer vers [Vincennes ou Saint-Mandé](/blog/vincennes-saint-mande-comparaison-immobilier-2026) si l'acheteur hésite encore de commune."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin, fond gris : 'Compare Vincennes quartier par quartier et avec les communes voisines sur le comparateur, tu pondères prix, trajet et qualité de vie : [ouvrir le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
+  {
+    slug: "quartiers-eviter-vincennes-achat-2026",
+    title: "Vincennes : les quartiers où je n'achèterais pas (et pourquoi)",
+    description:
+      "À Vincennes le risque n'est pas l'insécurité, c'est de payer 11 000 €/m² pour une prime de nom ou un appartement sur un axe bruyant. Les vrais pièges, et les faux quartiers à éviter.",
+    publishedAt: "2026-04-30",
+    readingMinutes: 9,
+    category: "guide",
+    brief: {
+      audience:
+        "Acquéreur prudent qui veut connaître les pièges avant d'offrir, et ne pas surpayer. Cherche un avis franc, pas un argumentaire de vente.",
+      angle:
+        "Anti-bullshit honnête mais juste. Vincennes est homogène et sûre, donc l'angle n'est pas l'insécurité (ce serait malhonnête) mais où tu paies trop cher pour ce que tu as, et les micro-nuisances réelles. Inclure les faux à éviter (opportunités). Toujours à éviter pour qui ou pour quel projet.",
+      ouverture:
+        "Aveu : 'À Vincennes, personne ne va te dire d'éviter un quartier pour l'insécurité, ce serait mentir. Le vrai piège est ailleurs : payer le prix du Domaine du Bois pour un appartement qui donne sur le périph.'",
+      structure:
+        "Thèse-antithèse : ce que à éviter veut dire ici, la surcote, les micro-nuisances, les copros à charges, les faux à éviter, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Soyons clairs d'entrée : à Vincennes, il n'y a pas de quartier dangereux, pas de zone à fuir, pas de secteur sinistré. La commune est petite, dense, bourgeoise et homogène. Te raconter le contraire pour faire du clic serait malhonnête. Le vrai risque, à Vincennes, n'est pas pour ta sécurité, il est pour ton portefeuille. Tu peux payer 11 000 euros le mètre carré une adresse prestigieuse dont l'appartement donne sur un axe passant, ou hériter de charges de copropriété qui plombent ton budget réel pendant dix ans, ou surpayer une étiquette de quartier sans bénéficier d'aucun de ses atouts concrets. C'est ça, le piège vincennois : la prime de nom déconnectée de la réalité du bien. Et puis il y a l'inverse, les quartiers injustement boudés que les acheteurs zappent par réflexe et qui offrent le meilleur rapport de la commune. Cet article ne te liste pas des endroits à fuir, il te dit où, à Vincennes, tu risques de payer trop cher pour ce que tu obtiens, et où au contraire il y a une vraie marge. Avec, à chaque fois, le pour qui : un piège pour l'un est parfois le bon choix pour l'autre."
+        },
+        {
+          titre: "Ce que à éviter veut dire à Vincennes",
+          contenu:
+            "Recadrer : pas d'insécurité, pas de ghetto. À éviter = surpayer, ou subir une nuisance qu'on n'avait pas anticipée, ou acheter une copro à charges lourdes. C'est un article sur le bon achat, pas sur la peur."
+        },
+        {
+          titre: "Le piège numéro 1 : la surcote de prestige",
+          contenu:
+            "Certaines rues du Cœur de Ville et le seul nom Domaine du Bois se vendent 10-15 % plus cher sur le prestige, sans atout concret (ni vue Bois, ni calme réel, ni proximité gare). Conseil : vérifier ce que l'adresse t'apporte vraiment vs une rue voisine moins cotée."
+        },
+        {
+          titre: "Les micro-nuisances à vérifier avant d'offrir",
+          contenu:
+            "Les abords de l'A4 et de la limite du périphérique à l'ouest et au nord (bruit, qualité d'air). Certaines rues autour du château avec flux touristiques et circulation. Les étages bas sur axes passants. À Vincennes la nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          titre: "Les copropriétés à charges lourdes",
+          contenu:
+            "Beaux immeubles anciens avec gardien, ascenseur, ravalements réguliers : charges qui peuvent dépasser 50-60 €/m²/an. Sur le budget réel d'achat, ça change l'équation. Demander les 3 derniers PV d'AG et le montant des charges avant de signer."
+        },
+        {
+          titre: "Les faux quartiers à éviter : les Vignerons et l'Est",
+          contenu:
+            "L'Est vers Montreuil est boudé par réflexe de prestige. C'est une erreur : 1 200-1 500 €/m² moins cher, même sécurité, mêmes écoles, dynamique positive. Pour un primo ou un investisseur, c'est le meilleur rapport de Vincennes, pas un quartier à fuir."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside : 'Avant de surpayer une adresse, vérifie ce que ton budget t'offre ailleurs : le comparateur met Vincennes face à Saint-Mandé, Montreuil et Fontenay sur prix réel et trajet. [Comparer](/comparer).'"
+        },
+        {
+          titre: "Le verdict : où je mettrais mon argent",
+          contenu:
+            "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges à la rue près, ne pas snober l'Est. Le bon achat à Vincennes est rarement l'adresse la plus prestigieuse. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-vincennes-acheter-2026)."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin : 'Pas certain que Vincennes soit le bon arbitrage pour toi ? Lance le quiz Trouve ta ville idéale, 4 clics, et on te dit où ton budget travaille le mieux.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
+  {
+    slug: "investir-vincennes-rendement-locatif-2026",
+    title: "Investir à Vincennes en 2026 : rendement réel par quartier",
+    description:
+      "3 à 3,5 % brut, c'est faible. Mais Vincennes est une valeur refuge avec une demande locative qui ne faiblit jamais. Où, comment et pour quel profil ça vaut le coup.",
+    publishedAt: "2026-05-07",
+    readingMinutes: 10,
+    category: "tendance",
+    brief: {
+      audience:
+        "Investisseur 35-60 ans, patrimonial plus que rendementiste, capacité 300-700 k€, qui cherche la sécurité du capital et une demande locative béton, pas le cash-flow.",
+      angle:
+        "Dire la vérité : le rendement est faible (prix élevés). L'intérêt de Vincennes est la valeur refuge et la demande locative permanente (familles, cadres RER A vers La Défense). Comparer nu, meublé LMNP, colocation. Où le rendement est le moins mauvais (Vignerons) vs valeur refuge (Domaine du Bois).",
+      ouverture:
+        "Contre-évidence : 'À 3 % brut, Vincennes est un mauvais placement sur le papier. Sauf que tu ne loues jamais à vide, tu ne revends jamais à perte, et ton bien prend la valeur d'un actif rare. C'est un autre métier que le rendement.'",
+      structure:
+        "Méthodique : la vérité sur le rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Si tu cherches du rendement brut à deux chiffres, ferme cet onglet et regarde du côté de la grande couronne. À Vincennes, avec un médian à 9 200 euros le mètre carré, le rendement locatif tourne entre 3 et 3,5 % brut, et après charges, taxe foncière et vacance, tu descends vite vers du 2 à 2,5 % net. Sur le papier, c'est faible. Dans la réalité d'un patrimoine, c'est autre chose. Vincennes ne se loue jamais à vide : familles en mutation, cadres qui bossent à La Défense via le RER A, jeunes actifs qui veulent Paris sans le prix de Paris, la demande dépasse en permanence l'offre. Tu ne connais pas la vacance, tu choisis ton locataire, et ton bien prend tranquillement la valeur d'un actif rare dans une commune où l'on ne construit quasiment plus. C'est un investissement de protection du capital, pas de cash-flow. Pour un patrimonial qui veut dormir tranquille et transmettre, c'est pertinent. Pour qui doit vivre des loyers, non. On va voir où le rendement est le moins mauvais, quel montage choisir, et ce que donne le calcul réel sur un T2."
+        },
+        {
+          titre: "La vérité sur le rendement vincennois",
+          contenu:
+            "3-3,5 % brut, 2-2,5 % net après charges, TF et vacance. Comparer à la grande couronne (5-7 %). Assumer : Vincennes n'est pas un placement de rendement. Préciser que la faible vacance et la liquidité à la revente compensent en partie."
+        },
+        {
+          titre: "Une demande locative qui ne faiblit jamais",
+          contenu:
+            "Familles en mutation pro, cadres La Défense (RER A 20 min), jeunes actifs, proximité Paris. Loyers solides, locataires de qualité, vacance quasi nulle. C'est le vrai argument : sécurité du revenu, pas son montant."
+        },
+        {
+          titre: "Valeur refuge vs rendement : choisir son camp",
+          contenu:
+            "Domaine du Bois et Cœur de Ville = valeur refuge maximale, rendement minimal, revente garantie. Vignerons et Est = rendement un peu meilleur (prix d'achat plus bas, loyers proches), pari valorisation. À chaque objectif son quartier."
+        },
+        {
+          titre: "Nu, meublé LMNP ou colocation ?",
+          contenu:
+            "Nu : simplicité, locataire famille stable, rendement le plus bas. Meublé LMNP : fiscalité avantageuse (amortissement), loyer plus élevé, cible cadres en mobilité. Colocation : sur grands appartements, optimise le rendement mais gestion plus lourde. Pour Vincennes, LMNP cadre en mobilité est souvent le meilleur compromis."
+        },
+        {
+          titre: "Le calcul réel sur un T2",
+          contenu:
+            "Exemple chiffré : T2 45 m2 aux Vignerons à 9 000 €/m2 = 405 000 € plus frais. Loyer meublé réaliste 1 250-1 400 €/mois. Brut autour de 3,7-4 %. Charges, TF, gestion : net autour de 2,5-3 %. Montrer le calcul honnêtement, sans enjoliver."
+        },
+        {
+          titre: "Quelle stratégie selon ton quartier cible",
+          contenu:
+            "Patrimonial pur : Domaine du Bois, nu, locataire famille. Optimiseur fiscal : Vignerons, LMNP meublé cadre. Pari valorisation : Est vers Montreuil. Préciser : à Vincennes on n'achète pas pour le rendement immédiat mais pour l'actif."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside : 'Tu veux comparer le rendement de Vincennes à des communes plus rentables à trajet égal ? Le comparateur affiche rendement, prix et trajet sur 176 communes : [comparer](/comparer).'"
+        },
+        {
+          titre: "Le verdict investisseur",
+          contenu:
+            "Vincennes = protection du capital et revenu sécurisé, pas cash-flow. Pertinent pour patrimonial et transmission, à éviter pour qui vit des loyers. Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-vincennes-2026-par-quartier) pour caler le ticket d'entrée."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin, fond gris : 'Hésites entre placer à Vincennes ou viser plus de rendement ailleurs ? Lance le quiz Trouve ta ville idéale, on calibre selon ton objectif patrimonial.' Bouton iris bas-droite. Pas d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
+  {
+    slug: "quitter-paris-pour-vincennes-arbitrage-2026",
+    title: "Quitter Paris pour Vincennes : le vrai calcul en 2026",
+    description:
+      "Vincennes, c'est le quitter Paris le plus doux : 10 minutes de Châtelet en RER A. Mais à 9 200 €/m², tu ne gagnes pas en prix. Le vrai gain, et pour qui le move vaut le coup.",
+    publishedAt: "2026-05-13",
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience:
+        "Parisien de l'est (11e, 12e, 20e) en couple ou jeune famille, qui étouffe en appartement et envisage Vincennes sans vraiment quitter Paris. Budget 500-850 k€.",
+      angle:
+        "Pont éditorial honnête. Vincennes est le quitter Paris le plus doux (RER A 10 min, M1). Mais ce n'est PAS moins cher que Paris est. Le vrai gain n'est pas le prix, c'est le Bois, les familles, les écoles, le M1 terminus assis, le château. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      ouverture:
+        "Scène : 'Tu quittes ton 60 m2 du 12e un dimanche, tu traverses le Bois de Vincennes à vélo avec les enfants, et tu réalises que tu n'as pas vraiment quitté Paris. Tu l'as juste rendu vivable.'",
+      structure:
+        "Récit-arbitrage : Vincennes est-ce vraiment quitter Paris, le calcul prix vs Paris est, l'atout Bois, familles et écoles, le confort transport, qui gagne qui reste, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Quitter Paris pour Vincennes, c'est le déménagement le plus doux qui existe. Tu ne pars pas, tu glisses d'un kilomètre. Le RER A te ramène à Châtelet en 10 minutes, la ligne 1 part assise du terminus Château de Vincennes, et le Bois de 995 hectares remplace le square bondé du dimanche. Mais soyons honnêtes tout de suite, parce que c'est le coeur du calcul : tu ne déménages pas à Vincennes pour payer moins cher. À 9 200 euros le mètre carré de médiane, tu es au niveau du 12e ou du 11e, parfois au-dessus. Si ton moteur est l'économie, Vincennes n'est pas la réponse, il faut aller plus loin. Le vrai gain est ailleurs : un bois en bas de l'immeuble, des écoles solides, une vie de quartier familiale, et la sensation de respirer sans couper le cordon. C'est un arbitrage qualité de vie, pas un arbitrage budget. Pour une famille qui étouffe dans 60 m2 parisiens mais refuse la grande couronne, c'est souvent le meilleur compromis de toute la région. Pour un célibataire qui sort tous les soirs dans le 11e, c'est sans doute une erreur. On déroule le calcul, sans te vendre du rêve."
+        },
+        {
+          titre: "Vincennes, est-ce vraiment quitter Paris ?",
+          contenu:
+            "Honnêteté : Vincennes est collée au 12e, RER A 10 min, M1. Ce n'est pas une rupture, c'est une respiration. Poser que l'article s'adresse à qui veut rester dans l'orbite immédiate de Paris."
+        },
+        {
+          titre: "Le calcul prix vs Paris est",
+          contenu:
+            "Vincennes 9 200 €/m2 vs Paris 12e environ 10 500-11 000, Paris 11e environ 11 000-12 000. Vincennes est légèrement moins cher au mètre, mais pas l'affaire qu'on imagine. Revendre 55 m2 dans le 11e (environ 620 k€) finance environ 65-70 m2 à Vincennes. Tu gagnes un peu de surface, pas une maison."
+        },
+        {
+          titre: "L'atout qui change tout : le Bois de Vincennes",
+          contenu:
+            "995 ha en lisière. Pour une famille, c'est un jardin géant : vélo, course, lac, parc floral, plaines de jeux. L'argument numéro un du move, celui qui transforme le quotidien avec enfants. Détailler concrètement."
+        },
+        {
+          titre: "Familles et écoles : le vrai moteur",
+          contenu:
+            "Carte scolaire réputée, ambiance familiale, autonomie des enfants (ville à taille humaine et sûre). Beaucoup de Parisiens de l'est viennent pour ça au moment de l'entrée au collège. C'est souvent le déclencheur."
+        },
+        {
+          titre: "Le confort transport : M1 terminus plus RER A",
+          contenu:
+            "Partir assis du terminus M1 le matin, Châtelet en 10 min en RER A, La Défense en 20. Pour un cadre, c'est un quotidien plus confortable que depuis beaucoup de quartiers de Paris est. Argument sous-estimé."
+        },
+        {
+          titre: "Qui y gagne, qui ferait mieux de rester à Paris",
+          contenu:
+            "Y gagne : famille avec enfants, couple qui veut de l'air et le Bois, cadre La Défense. Ferait mieux de rester : célibataire vie nocturne, qui cherche l'économie (Vincennes n'est pas moins cher), qui a besoin de la densité culturelle parisienne immédiate. Verdict nuancé."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside : 'Vincennes te tente mais le budget coince ? Lance le quiz Trouve ta ville idéale : on calcule ta surface possible ici, et on te propose des alternatives est-parisiennes moins chères si besoin. Bouton iris en bas à droite.'"
+        },
+        {
+          titre: "Le verdict du move",
+          contenu:
+            "Vincennes = le quitter Paris pour qui ne veut pas vraiment partir. Gain qualité de vie réel, gain budget quasi nul. Renvoyer vers [Vincennes ou Saint-Mandé](/blog/vincennes-saint-mande-comparaison-immobilier-2026) pour qui hésite entre les deux jumelles, et vers [le guide complet](/blog/acheter-vincennes-2026-guide-complet)."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin, fond gris : 'Compare Vincennes à d'autres options de l'est et de la petite couronne sur le comparateur, prix et trajet réels : [ouvrir le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
+  {
+    slug: "frais-notaire-negociation-achat-vincennes",
+    title: "Acheter à Vincennes : frais, notaire et négociation réelle",
+    description:
+      "Frais de notaire à 7,5-8 %, marge de négo à peine 2 à 4 % sur un marché où les biens partent en deux semaines. Le coût réel d'un achat à Vincennes, et comment être prêt à dégainer.",
+    publishedAt: "2026-05-19",
+    readingMinutes: 9,
+    category: "finance",
+    brief: {
+      audience:
+        "Acheteur en phase d'offre à Vincennes, qui veut le coût total réel (pas juste le prix affiché) et comprendre pourquoi la négo est si serrée ici.",
+      angle:
+        "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés. Négo très faible (2-4 %) car marché ultra-tendu, biens partent vite : la vraie compétence à Vincennes n'est pas négocier, c'est être prêt à dégainer vite et propre. Coûts cachés copro, parking rare.",
+      ouverture:
+        "Constat chiffré : 'À Vincennes, espérer 10 % de négo, c'est rater l'appartement. Ici le bien correct part en deux semaines au prix, parfois au-dessus. Ta marge se joue sur ta réactivité, pas sur ton bagout.'",
+      structure:
+        "Méthodique : combien coûtent les frais, pourquoi la négo est serrée, coûts cachés, le parking, être prêt à dégainer, erreurs primo, verdict.",
+      sections: [
+        {
+          titre: "Intro (200 mots, prête à reprendre)",
+          contenu:
+            "Le prix affiché d'un appartement à Vincennes n'est pas ce qu'il te coûte. Sur de l'ancien, qui est la quasi-totalité du marché ici, les frais de notaire représentent 7,5 à 8 % du prix, soit 45 000 à 48 000 euros sur un bien à 600 000, et près de 70 000 sur un bien à 900 000. C'est la première ligne à intégrer dans ton plan de financement, avant même de penser négociation. Et la négociation, justement, est le deuxième piège : à Vincennes, elle est minuscule. Le marché est tellement tendu, la commune tellement petite et recherchée, qu'un bien correctement positionné part en deux à trois semaines, parfois au prix, parfois au-dessus avec plusieurs offres. Espérer 8 ou 10 % de remise comme dans une ville molle, c'est tout simplement rater l'appartement pendant qu'un autre signe. Ta vraie marge de manoeuvre n'est pas dans le marchandage, elle est dans ta préparation : financement bouclé, visite rapide, offre propre et ferme. À Vincennes, on n'achète pas en négociant fort, on achète en étant prêt à dégainer vite et bien. On déroule les chiffres, les coûts cachés que personne ne mentionne, et la méthode pour ne pas perdre le bien."
+        },
+        {
+          titre: "Combien coûtent vraiment les frais de notaire",
+          contenu:
+            "Ancien 7,5-8 %. Calcul chiffré : sur 600 000 € = 45 000-48 000 € ; sur 900 000 € = 67 500-72 000 €. Détailler la compo (droits de mutation, émoluments, débours). Préciser que le neuf (quasi inexistant à Vincennes) serait à 2-3 % mais qu'il n'y en a presque pas."
+        },
+        {
+          titre: "Pourquoi la négociation est si serrée à Vincennes",
+          contenu:
+            "Marché ultra-tendu, commune minuscule sans construction neuve, demande supérieure à l'offre. Délai de vente 2-3 semaines. Marge réaliste 2-4 %, souvent 0 sur les beaux biens avec offres multiples. Un peu plus (5-8 %) seulement sur l'ancien à gros travaux ou les passoires DPE."
+        },
+        {
+          titre: "Les coûts cachés des copropriétés",
+          contenu:
+            "Immeubles anciens avec gardien, ascenseur, ravalements : charges 40-60 €/m2/an. Sur le budget réel d'achat, ça pèse. Demander 3 derniers PV d'AG, fonds travaux, montant des charges. Une passoire DPE = travaux d'isolation à prévoir, à intégrer dans l'offre."
+        },
+        {
+          titre: "Le parking, rare et cher",
+          contenu:
+            "Vincennes est dense, le stationnement tendu. Un bien avec parking ou box se paie une vraie prime (20 000-40 000 €) mais se revend mieux. Si tu as une voiture, c'est un critère structurant, pas un détail."
+        },
+        {
+          titre: "Être prêt à dégainer vite et bien",
+          contenu:
+            "La méthode qui fait gagner à Vincennes : accord de principe banque avant de chercher, dossier complet prêt, disponibilité pour visiter sous 48h, offre ferme et propre. La réactivité bat la négociation. Conseil concret étape par étape."
+        },
+        {
+          titre: "Les erreurs de primo-accédant",
+          contenu:
+            "Sous-estimer les frais et viser un prix qu'on ne peut plus financer une fois les 8 % ajoutés. Vouloir négocier fort et perdre le bien. Zapper les charges de copro. Acheter sans parking en ayant une voiture. Lister pour éviter."
+        },
+        {
+          titre: "CTA acheteur (encart milieu d'article)",
+          contenu:
+            "Aside : 'Avant de te lancer, vérifie que ton budget tient frais inclus : le quiz Trouve ta ville idéale calcule ta capacité réelle et la surface accessible à Vincennes. Bouton iris en bas à droite.'"
+        },
+        {
+          titre: "Le verdict transaction",
+          contenu:
+            "À Vincennes, budgète 8 % de frais, n'espère pas plus de 2-4 % de négo, vérifie charges et parking, et surtout sois prêt à signer vite. Renvoyer vers [le guide complet d'achat](/blog/acheter-vincennes-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-vincennes-2026-par-quartier)."
+        },
+        {
+          titre: "CTA acheteur (bas d'article)",
+          contenu:
+            "Encart fin, fond gris : 'Compare le coût total d'un achat à Vincennes vs les communes voisines sur le comparateur : [ouvrir le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      references: ["Vincennes"],
+    },
+  },
 ];
 
 export const BLOG_POSTS_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
