@@ -10,6 +10,7 @@
     "narratives": "tsx scripts/generate-narratives.ts",
     "regenerate-blog": "tsx scripts/regenerate-blog.ts",
     "generate-blog-images": "tsx scripts/generate-blog-images.ts",
+    "scaffold-hub": "tsx scripts/scaffold-city-hub.ts",
     "generate-pdf": "tsx scripts/generate-pdf-top-10.ts"
   },
   "dependencies": {
