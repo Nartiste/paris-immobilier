@@ -138,4 +138,49 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     // (le slug acheter-montreuil-quartier-par-quartier reste le pilier).
     skipSlots: [],
   },
+
+  versailles: {
+    city: "Versailles",
+    cityShort: "Versailles",
+    base: "versailles",
+    ficheSlug: "versailles-78646",
+    departement: "Yvelines",
+    median: 7400,
+    evolutionNote: "stable à légèrement en baisse sur 5 ans, marché de prestige",
+    quartiers: [
+      { nom: "Notre-Dame", fourchette: "8 000-9 500 €/m²", note: "centre nord, marché Notre-Dame, le plus cher et le plus demandé" },
+      { nom: "Saint-Louis", fourchette: "7 500-9 000 €/m²", note: "centre sud, quartier des antiquaires, cathédrale, calme bourgeois" },
+      { nom: "Clagny-Glatigny", fourchette: "7 500-8 800 €/m²", note: "résidentiel chic nord, proche du château et du parc" },
+      { nom: "Porchefontaine", fourchette: "6 500-7 800 €/m²", note: "sud-est, esprit village très prisé des familles" },
+      { nom: "Chantiers", fourchette: "6 000-7 200 €/m²", note: "autour de la gare des Chantiers, en mutation, plus jeune et abordable" },
+      { nom: "Montreuil (quartier de Versailles)", fourchette: "6 000-7 200 €/m²", note: "est, plus populaire, en hausse" },
+    ],
+    transport:
+      "trois gares (Versailles Rive Gauche, RER C vers Invalides en 35 min ; Versailles-Chantiers, Transilien N/U et TER vers Montparnasse en 15-30 min plus le tram T13 ; Versailles Rive Droite, Transilien L vers Saint-Lazare en 30 min), et la future ligne 18 du Grand Paris Express à Satory vers 2030",
+    contexte:
+      "ville de prestige autour du château, écoles et lycées réputés (Hoche, La Bruyère), université UVSQ, marché Notre-Dame, cadre patrimonial et familial recherché par les Parisiens en quête d'espace et d'écoles",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-6 % (tendu sur le centre, plus sur l'ancien à rénover et les passoires DPE)",
+    comparison: {
+      city: "Saint-Germain-en-Laye",
+      base: "saint-germain-en-laye",
+      ficheSlug: "saint-germain-en-laye-78551",
+      price: 7100,
+      angle:
+        "Versailles (3 gares, château, marché, plus urbaine, 7 400 €/m²) face à Saint-Germain-en-Laye (RER A direct, forêt, lycée international, 7 100 €/m²), le duel prestige des Yvelines",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-11",
+      "2026-04-13",
+      "2026-04-16",
+      "2026-04-23",
+      "2026-04-30",
+      "2026-05-08",
+      "2026-05-14",
+      "2026-05-21",
+    ],
+    skipSlots: [],
+  },
 };
