@@ -45,6 +45,7 @@ export type CityHubConfig = {
   datasetCount: number; // pour la copy comparateur (176)
   dates: string[]; // 8 dates publishedAt (passées, ≤ aujourd'hui), une par slot
   skipSlots?: HubSlot[]; // slots déjà couverts par un article existant
+  includePilier?: boolean; // ajoute un 8e article pilier "acheter X" (off par défaut)
 };
 
 export const CITY_HUBS: Record<string, CityHubConfig> = {
@@ -133,6 +134,8 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
       "2026-05-18",
       "2026-05-23",
     ],
-    skipSlots: ["pilier", "s1"],
+    // S2-S7 déjà générés ; on laisse le générateur compléter le S1 manquant
+    // (le slug acheter-montreuil-quartier-par-quartier reste le pilier).
+    skipSlots: [],
   },
 };

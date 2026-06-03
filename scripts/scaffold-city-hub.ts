@@ -285,7 +285,11 @@ const BUILDERS: Record<HubSlot, (c: CityHubConfig) => Brief> = {
   }),
 };
 
-const ALL_SLOTS: HubSlot[] = ["pilier", "s1", "s2", "s3", "s4", "s5", "s6", "s7"];
+// Règle : chaque ville = 7 articles, S1 à S7. Le pilier (guide "acheter X")
+// n'est PAS généré par défaut (la fiche /vivre-a ou un article "acheter X"
+// existant joue ce rôle). Mettre includePilier: true dans la config pour
+// l'ajouter en bonus (8 articles).
+const DEFAULT_SLOTS: HubSlot[] = ["s1", "s2", "s3", "s4", "s5", "s6", "s7"];
 
 // ── main ──────────────────────────────────────────────────────────────────
 
@@ -299,12 +303,19 @@ function main(): void {
   const postsPath = path.resolve(__dirname, "..", "lib", "blog-posts.ts");
   const src = fs.readFileSync(postsPath, "utf-8");
 
-  // slugs déjà présents (anti-cannibalisation + idempotence)
-  const existing = new Set([...src.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]));
+  // slugs déjà présents (anti-cannibalisation + idempotence).
+  // Matche les 2 styles de clé : `slug: "..."` (écrit main) ET `"slug": "..."`
+  // (style JSON produit par ce générateur), sinon les re-runs dupliquent.
+  const existing = new Set(
+    [...src.matchAll(/"?slug"?\s*:\s*"([^"]+)"/g)].map((m) => m[1]),
+  );
 
   const skip = new Set(c.skipSlots ?? []);
+  const slots: HubSlot[] = c.includePilier
+    ? ["pilier", ...DEFAULT_SLOTS]
+    : DEFAULT_SLOTS;
   const briefs: Brief[] = [];
-  for (const slot of ALL_SLOTS) {
+  for (const slot of slots) {
     if (skip.has(slot)) continue;
     const b = BUILDERS[slot](c);
     if (existing.has(b.slug)) {

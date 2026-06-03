@@ -8,6 +8,7 @@ import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { BLOG_POSTS, BLOG_POSTS_BY_SLUG } from "@/lib/blog-posts";
 import { BLOG_CONTENT } from "@/lib/blog-content";
+import { COMMUNE_COUNT } from "@/lib/sample-data";
 import { PUBLISHED_BLOG_POSTS } from "@/lib/blog-published";
 import { getBlogCoverImage } from "@/lib/blog-images";
 import { nameToSlug } from "@/lib/slug";
@@ -383,7 +384,7 @@ export default async function BlogPostPage({
                     Tu hésites encore sur ta ville ?
                   </h2>
                   <p className="mt-1 text-sm text-brand-bleu/70">
-                    Notre concierge IA croise tes critères avec les 86 communes étudiées et te répond en moins d'une minute.
+                    Notre concierge IA croise tes critères avec les {COMMUNE_COUNT} communes étudiées et te répond en moins d'une minute.
                   </p>
                   <Link
                     href="/"
