@@ -183,4 +183,48 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     ],
     skipSlots: [],
   },
+
+  "rueil-malmaison": {
+    city: "Rueil-Malmaison",
+    cityShort: "Rueil-Malmaison",
+    base: "rueil-malmaison",
+    ficheSlug: "rueil-malmaison-92063",
+    departement: "Hauts-de-Seine",
+    median: 6900,
+    evolutionNote: "stable sur 5 ans, marché résidentiel familial",
+    quartiers: [
+      { nom: "Centre-ville", fourchette: "7 000-8 000 €/m²", note: "autour de la mairie, commerces, le plus animé" },
+      { nom: "Mont-Valérien", fourchette: "7 000-8 200 €/m²", note: "hauteurs, pavillonnaire chic, le plus coté" },
+      { nom: "Buzenval", fourchette: "6 800-7 800 €/m²", note: "résidentiel calme, proche du parc" },
+      { nom: "Rueil-sur-Seine / Plaine-Gare", fourchette: "6 500-7 500 €/m²", note: "autour du RER A, écoquartier des bords de Seine" },
+      { nom: "Coteaux / Belle-Rive", fourchette: "6 300-7 200 €/m²", note: "bords de Seine, plus abordable" },
+    ],
+    transport:
+      "le RER A (gare Rueil-Malmaison) qui rejoint La Défense en 7 minutes et Châtelet en 25 minutes, un réseau de bus dense vers La Défense, et l'accès à l'A86",
+    contexte:
+      "grande ville résidentielle bourgeoise des Hauts-de-Seine (80 000 habitants), château de Malmaison de Napoléon et Joséphine, bords de Seine, parcs, proximité immédiate de La Défense, profil familial avec des écoles correctes",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-6 % (tendu sur les hauteurs, plus sur l'ancien à rénover)",
+    comparison: {
+      city: "Saint-Cloud",
+      base: "saint-cloud",
+      ficheSlug: "saint-cloud-92064",
+      price: 8400,
+      angle:
+        "Rueil-Malmaison, plus grande, plus abordable et tournée vers la Seine (6 900 €/m²), face à Saint-Cloud, plus chic, plus chère et perchée sur ses hauteurs boisées (8 400 €/m²), deux options de l'ouest proches de La Défense",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-07",
+      "2026-04-10",
+      "2026-04-17",
+      "2026-04-24",
+      "2026-05-01",
+      "2026-05-09",
+      "2026-05-15",
+      "2026-05-22",
+    ],
+    skipSlots: [],
+  },
 };
