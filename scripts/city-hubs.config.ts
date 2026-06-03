@@ -91,4 +91,48 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     ],
     skipSlots: [],
   },
+
+  montreuil: {
+    city: "Montreuil",
+    cityShort: "Montreuil",
+    base: "montreuil",
+    ficheSlug: "montreuil-93048",
+    departement: "Seine-Saint-Denis",
+    median: 5800,
+    evolutionNote: "en hausse sur 5 ans (gentrification du Bas-Montreuil), marché contrasté est-ouest",
+    quartiers: [
+      { nom: "Bas-Montreuil", fourchette: "6 500-7 500 €/m²", note: "ouest, collé à Paris et au métro 9, gentrifié, ateliers d'artistes, le plus cher" },
+      { nom: "Croix-de-Chavaux", fourchette: "5 500-6 500 €/m²", note: "centre vivant, métro 9, marché, commerces" },
+      { nom: "Bel-Air / Signac", fourchette: "5 200-6 000 €/m²", note: "hauteurs résidentielles, calme, vues" },
+      { nom: "La Boissière", fourchette: "4 600-5 400 €/m²", note: "est, populaire, désservi par le prolongement du métro 11 (2024)" },
+      { nom: "Hauts-de-Montreuil / Murs-à-Pêches", fourchette: "4 500-5 300 €/m²", note: "est, en mutation, jardins historiques des Murs-à-Pêches, le plus abordable" },
+    ],
+    transport:
+      "le métro 9 (Mairie de Montreuil, Croix-de-Chavaux, Robespierre) qui rejoint le centre de Paris en 20-25 minutes, le prolongement du métro 11 ouvert en 2024 vers l'est (stations Montreuil-Hôpital et La Dhuys), et un réseau de bus dense",
+    contexte:
+      "la commune la plus peuplée de Seine-Saint-Denis avec Saint-Denis (110 000 habitants), capitale culturelle alternative de l'est parisien (cinéma, plus forte densité d'artistes d'Île-de-France, marchés bio), gentrification rapide du Bas-Montreuil mais contrastes sociaux et scolaires marqués entre l'ouest collé à Paris et l'est populaire",
+    rendement: "4-4,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 % (variable selon le secteur, plus à l'est)",
+    comparison: {
+      city: "Vincennes",
+      base: "vincennes",
+      ficheSlug: "vincennes-94080",
+      price: 9200,
+      angle:
+        "Montreuil, gentrifiant, créatif et abordable (5 800 €/m²), face à Vincennes, établie, bourgeoise et premium (9 200 €/m²), deux voisines de l'est aux profils opposés",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-09",
+      "2026-04-15",
+      "2026-04-22",
+      "2026-04-29",
+      "2026-05-06",
+      "2026-05-12",
+      "2026-05-18",
+      "2026-05-23",
+    ],
+    skipSlots: ["pilier", "s1"],
+  },
 };

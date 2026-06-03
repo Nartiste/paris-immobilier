@@ -65,6 +65,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
       sourceUrl: "https://fr.wikipedia.org/wiki/Boulogne-Billancourt",
     },
   },
+  {
+    // "Montreuil" tout court est une page d'homonymie sans image.
+    match: "montreuil",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/H%C3%B4tel_ville_Montreuil_Seine_St_Denis_15.jpg/1920px-H%C3%B4tel_ville_Montreuil_Seine_St_Denis_15.jpg",
+      width: 1920,
+      height: 1394,
+      alt: "Hôtel de ville de Montreuil, Seine-Saint-Denis",
+      credit: "Wikipedia · Montreuil",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Montreuil_(Seine-Saint-Denis)",
+    },
+  },
 ];
 
 // ============================================================================
