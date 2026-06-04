@@ -315,4 +315,48 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     ],
     skipSlots: [],
   },
+
+  "issy-les-moulineaux": {
+    city: "Issy-les-Moulineaux",
+    cityShort: "Issy-les-Moulineaux",
+    base: "issy-les-moulineaux",
+    ficheSlug: "issy-les-moulineaux-92040",
+    departement: "Hauts-de-Seine",
+    median: 8500,
+    evolutionNote: "stable à légèrement en baisse sur 5 ans, marché premium très demandé",
+    quartiers: [
+      { nom: "Centre-ville / Corentin Celton", fourchette: "8 500-10 000 €/m²", note: "M12, mairie, commerces, le plus demandé" },
+      { nom: "Les Hauts d'Issy", fourchette: "8 200-9 500 €/m²", note: "résidentiel sur les hauteurs, calme, vues" },
+      { nom: "Val de Seine / Les Épinettes", fourchette: "8 000-9 500 €/m²", note: "bords de Seine, tours média, immeubles récents" },
+      { nom: "Quartier du Fort", fourchette: "7 800-9 000 €/m²", note: "écoquartier en mutation, plus abordable" },
+      { nom: "Île Saint-Germain", fourchette: "8 500-9 800 €/m²", note: "cadre vert au bord de la Seine, recherché" },
+    ],
+    transport:
+      "le métro 12 (Mairie d'Issy, Corentin Celton), le tram T2, le RER C (gares Issy et Issy-Val de Seine), et la proximité immédiate du 15e arrondissement de Paris (Châtelet en 20-25 minutes)",
+    contexte:
+      "pôle média et tech majeur de la petite couronne (sièges sociaux, la vallée de la com), bords de Seine réaménagés et Île Saint-Germain, tissu dense et prisé quasi parisien, recherché par les cadres et les jeunes actifs",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-5 % (marché tendu, plus sur l'ancien à rénover)",
+    comparison: {
+      city: "Suresnes",
+      base: "suresnes",
+      ficheSlug: "suresnes-92073",
+      price: 7800,
+      angle:
+        "Issy-les-Moulineaux, pôle média dense et quasi parisien au sud-ouest (8 500 €/m²), face à Suresnes, plus résidentielle et un peu moins chère sur les pentes du Mont-Valérien (7 800 €/m²), deux options de bord de Seine dans les Hauts-de-Seine",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-04",
+      "2026-04-07",
+      "2026-04-14",
+      "2026-04-21",
+      "2026-04-28",
+      "2026-05-05",
+      "2026-05-11",
+      "2026-05-18",
+    ],
+    skipSlots: [],
+  },
 };
