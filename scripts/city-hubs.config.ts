@@ -403,4 +403,62 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     ],
     skipSlots: [],
   },
+
+  // Configs ajoutées a posteriori (Hubs construits avant le générateur) pour
+  // backfiller l'article "Vivre à X". Leurs S1-S7 existent déjà : le générateur
+  // les skippe et n'insère que le slot vivre.
+  boulogne: {
+    city: "Boulogne-Billancourt",
+    cityShort: "Boulogne-Billancourt",
+    base: "boulogne",
+    ficheSlug: "boulogne-billancourt-92012",
+    departement: "Hauts-de-Seine",
+    median: 9200,
+    evolutionNote: "stable sur 5 ans après correction, marché premium",
+    quartiers: [
+      { nom: "Les Princes-Marmottan", fourchette: "10 500-12 000 €/m²", note: "nord chic, proche du Bois de Boulogne, le plus prestigieux" },
+      { nom: "Centre-ville / Marcel-Sembat", fourchette: "9 500-11 000 €/m²", note: "commerces, métro 9, animé" },
+      { nom: "Parchamp-Albert-Kahn", fourchette: "9 000-10 500 €/m²", note: "résidentiel, jardins Albert-Kahn" },
+      { nom: "Billancourt / Le Trapèze", fourchette: "8 500-10 000 €/m²", note: "sud, écoquartier neuf, Île Seguin, moderne" },
+      { nom: "Point-du-Jour / République", fourchette: "8 000-9 500 €/m²", note: "ouest, bords de Seine, plus abordable" },
+    ],
+    transport:
+      "les métros 9 et 10, la future ligne 15 Sud du Grand Paris Express à Pont de Sèvres, le tram T2, et la proximité immédiate de Paris (18 minutes)",
+    contexte:
+      "plus grande ville de banlieue parisienne (121 000 habitants), pôle média et sièges sociaux, Bois de Boulogne et bords de Seine, profil familial et cadre, quasi parisien",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-5 %",
+    comparison: { city: "Issy-les-Moulineaux", base: "issy-les-moulineaux", ficheSlug: "issy-les-moulineaux-92040", price: 8500, angle: "duel sud-ouest 92" },
+    datasetCount: 176,
+    dates: ["2026-03-30", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30", "2026-05-07", "2026-05-14"],
+    skipSlots: [],
+  },
+
+  vincennes: {
+    city: "Vincennes",
+    cityShort: "Vincennes",
+    base: "vincennes",
+    ficheSlug: "vincennes-94080",
+    departement: "Val-de-Marne",
+    median: 9200,
+    evolutionNote: "stable sur 5 ans, marché de report premium",
+    quartiers: [
+      { nom: "Domaine du Bois / Nord", fourchette: "9 800-11 500 €/m²", note: "contre le Bois de Vincennes, résidentiel chic, le plus cher" },
+      { nom: "Cœur de Ville", fourchette: "9 500-11 000 €/m²", note: "autour de la mairie et du métro 1, rue du Midi commerçante" },
+      { nom: "Sud / Diderot-République", fourchette: "9 000-10 200 €/m²", note: "métro 1 Bérault, proche RER A" },
+      { nom: "Est / Quartier des Vignerons", fourchette: "8 800-9 800 €/m²", note: "vers Montreuil, le plus abordable" },
+    ],
+    transport:
+      "le métro 1 en terminus (Château de Vincennes, plus station Bérault, Châtelet en 13-16 minutes) et le RER A (Châtelet en 10 minutes, La Défense en 20), avec le Bois de Vincennes en lisière",
+    contexte:
+      "ville premium et familiale de l'est (50 000 habitants) collée au 12e arrondissement, château, Bois de Vincennes de 995 hectares, écoles réputées, ambiance bourgeoise, transport exceptionnel",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-4 %",
+    comparison: { city: "Saint-Mandé", base: "saint-mande", ficheSlug: "saint-mande-94067", price: 9400, angle: "déjà couvert par un article existant" },
+    datasetCount: 176,
+    dates: ["2026-03-29", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29", "2026-05-06", "2026-05-13"],
+    skipSlots: ["s7"],
+  },
 };
