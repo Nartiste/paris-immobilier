@@ -75,6 +75,34 @@ const CTA_BOTTOM = (c: CityHubConfig, i: number): string => {
 // ── builders par slot ────────────────────────────────────────────────────
 
 const BUILDERS: Record<HubSlot, (c: CityHubConfig) => Brief> = {
+  vivre: (c) => ({
+    slug: `vivre-a-${c.base}-2026`,
+    title: `Vivre à ${c.city} en 2026 : le quotidien, les quartiers, pour qui`,
+    description: `À quoi ressemble vraiment la vie à ${c.cityShort} ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.`,
+    publishedAt: c.dates[0],
+    readingMinutes: 10,
+    category: "guide",
+    brief: {
+      audience: `Personne qui envisage de s'installer à ${c.cityShort} et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.`,
+      angle: `Guide lifestyle et expérientiel 'vivre à ${c.cityShort}' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).`,
+      ouverture: `Scène de vie concrète qui campe l'ambiance de ${c.cityShort} : un matin, un lieu, un rythme.`,
+      structure: "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      sections: [
+        { titre: "Intro (200 mots, prête à reprendre)", contenu: `Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à ${c.city} : ${c.contexte}. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (${c.median} €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite.` },
+        { titre: `Le quotidien à ${c.cityShort}`, contenu: "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)." },
+        { titre: "Les quartiers où vivre (par style de vie)", contenu: `Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : ${quartiersList(c)}. Pour le détail prix et achat, renvoyer vers ${lien(`prix-immobilier-${c.base}-2026-par-quartier`, "les prix par quartier")} et ${lien(`meilleur-quartier-${c.base}-acheter-2026`, "le meilleur quartier pour acheter")}.` },
+        { titre: "Se déplacer au quotidien", contenu: `${c.transport}. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied.` },
+        { titre: "Écoles, familles et services", contenu: `${c.contexte}. Écoles, santé, équipements, ce qui compte pour une famille au quotidien.` },
+        { titre: "Commerces, marchés, loisirs et culture", contenu: "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque." },
+        { titre: "Les vrais plus et les vrais moins", contenu: `Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à ${c.cityShort} (nuisances, prix, ce qui manque). Pas de carte postale.` },
+        { titre: `Pour qui ${c.cityShort} est faite (et pour qui non)`, contenu: "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie." },
+        { titre: "CTA acheteur (encart milieu d'article)", contenu: CTA_MID(c, 0) },
+        { titre: "Et si tu veux t'installer", contenu: `Transition vers le projet concret : renvoyer vers la fiche ${fiche(c)} (données détaillées) et vers ${lien(`prix-immobilier-${c.base}-2026-par-quartier`, "les prix par quartier")} ou ${lien(`quitter-paris-pour-${c.base}-arbitrage-2026`, `l'arbitrage quitter Paris pour ${c.cityShort}`)}.` },
+        { titre: "CTA acheteur (bas d'article)", contenu: CTA_BOTTOM(c, 0) },
+      ],
+      references: [c.city],
+    },
+  }),
   pilier: (c) => ({
     slug: `acheter-${c.base}-2026-guide-complet`,
     title: `Acheter à ${c.city} en 2026 : le guide complet`,
@@ -285,11 +313,11 @@ const BUILDERS: Record<HubSlot, (c: CityHubConfig) => Brief> = {
   }),
 };
 
-// Règle : chaque ville = 7 articles, S1 à S7. Le pilier (guide "acheter X")
-// n'est PAS généré par défaut (la fiche /vivre-a ou un article "acheter X"
-// existant joue ce rôle). Mettre includePilier: true dans la config pour
-// l'ajouter en bonus (8 articles).
-const DEFAULT_SLOTS: HubSlot[] = ["s1", "s2", "s3", "s4", "s5", "s6", "s7"];
+// Règle : chaque ville = la brique lifestyle "Vivre à X" (SEO informationnel)
+// + les 7 satellites buyer-intent S1 à S7. Le pilier (guide "acheter X") n'est
+// PAS généré par défaut (la fiche /vivre-a ou un article "acheter X" existant
+// joue ce rôle). Mettre includePilier: true dans la config pour l'ajouter.
+const DEFAULT_SLOTS: HubSlot[] = ["vivre", "s1", "s2", "s3", "s4", "s5", "s6", "s7"];
 
 // ── main ──────────────────────────────────────────────────────────────────
 

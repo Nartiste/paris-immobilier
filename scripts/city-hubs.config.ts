@@ -19,7 +19,7 @@ export type Quartier = {
   note: string; // ex: "boucle de la Marne, le plus prisé"
 };
 
-export type HubSlot = "pilier" | "s1" | "s2" | "s3" | "s4" | "s5" | "s6" | "s7";
+export type HubSlot = "vivre" | "pilier" | "s1" | "s2" | "s3" | "s4" | "s5" | "s6" | "s7";
 
 export type CityHubConfig = {
   city: string; // nom complet, ex: "Saint-Maur-des-Fossés"
