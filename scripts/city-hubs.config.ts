@@ -359,4 +359,48 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     ],
     skipSlots: [],
   },
+
+  "saint-germain-en-laye": {
+    city: "Saint-Germain-en-Laye",
+    cityShort: "Saint-Germain-en-Laye",
+    base: "saint-germain-en-laye",
+    ficheSlug: "saint-germain-en-laye-78551",
+    departement: "Yvelines",
+    median: 7100,
+    evolutionNote: "stable sur 5 ans, marché de prestige familial",
+    quartiers: [
+      { nom: "Centre-ville / Château", fourchette: "7 500-9 000 €/m²", note: "autour du château et du RER A, commerces, le plus demandé" },
+      { nom: "Saint-Léger", fourchette: "8 000-9 500 €/m²", note: "villas bourgeoises près de la forêt, le plus coté" },
+      { nom: "Hennemont / Lisière Pereire", fourchette: "7 200-8 500 €/m²", note: "résidentiel chic en lisière de forêt" },
+      { nom: "Fourqueux", fourchette: "6 500-7 800 €/m²", note: "ouest pavillonnaire (commune fusionnée en 2019), plus familial" },
+      { nom: "Bords de Seine / lisière Le Pecq", fourchette: "6 500-7 500 €/m²", note: "plus abordable, proche de la Seine" },
+    ],
+    transport:
+      "le RER A en terminus (Saint-Germain-en-Laye, La Défense en 20 minutes et Châtelet en 30, avec une place assise au départ), le Transilien L, le tram T13 vers Saint-Cyr et Achères, et la forêt domaniale de 3 500 hectares en lisière",
+    contexte:
+      "ville royale de prestige (château, terrasse Le Nôtre, forêt de 3 500 hectares), Lycée International réputé mondialement pour ses sections étrangères, profil familial aisé et expatrié, RER A en terminus très recherché des Parisiens en quête d'espace et d'écoles",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-6 % (tendu sur le centre et Saint-Léger, plus sur l'ancien à rénover)",
+    comparison: {
+      city: "Poissy",
+      base: "poissy",
+      ficheSlug: "poissy-78498",
+      price: 4200,
+      angle:
+        "Saint-Germain-en-Laye, prestige royal avec forêt et Lycée International (7 100 €/m²), face à Poissy, accessible et en plein essor avec l'arrivée d'EOLE et ses bords de Seine (4 200 €/m²), deux options de la même ligne RER A à deux niveaux de budget",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-03",
+      "2026-04-06",
+      "2026-04-13",
+      "2026-04-20",
+      "2026-04-27",
+      "2026-05-04",
+      "2026-05-10",
+      "2026-05-17",
+    ],
+    skipSlots: [],
+  },
 };
