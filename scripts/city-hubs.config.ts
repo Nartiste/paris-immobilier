@@ -227,4 +227,92 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     ],
     skipSlots: [],
   },
+
+  antony: {
+    city: "Antony",
+    cityShort: "Antony",
+    base: "antony",
+    ficheSlug: "antony-92002",
+    departement: "Hauts-de-Seine",
+    median: 6100,
+    evolutionNote: "stable sur 5 ans, marché familial du sud",
+    quartiers: [
+      { nom: "Centre-ville", fourchette: "6 300-7 200 €/m²", note: "autour de la mairie et du marché, gare RER B Antony, le plus animé" },
+      { nom: "Pajeaud / Parc de Sceaux", fourchette: "6 500-7 500 €/m²", note: "résidentiel chic au nord, proche du parc de Sceaux, le plus coté" },
+      { nom: "La Fontaine", fourchette: "6 000-6 900 €/m²", note: "résidentiel pavillonnaire, calme" },
+      { nom: "Les Baconnets", fourchette: "5 800-6 700 €/m²", note: "sud, gare RER B Les Baconnets, pavillonnaire familial" },
+      { nom: "Croix de Berny", fourchette: "5 800-6 800 €/m²", note: "est, RER B et tram T7, en mutation, plus abordable" },
+    ],
+    transport:
+      "le RER B (gares Antony et Les Baconnets, Châtelet en 25-30 minutes), l'Orlyval qui rejoint l'aéroport d'Orly en 8 minutes, le tram T7 à la Croix de Berny, et l'accès rapide à l'A86 et l'A6",
+    contexte:
+      "grande ville résidentielle et familiale du sud des Hauts-de-Seine (63 000 habitants), à deux pas du parc de Sceaux, lycées réputés (lycée Descartes), marché animé, accès direct à l'aéroport d'Orly, bon équilibre prix-qualité sur l'axe RER B sud",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 % (plus de marge sur l'ancien et la Croix de Berny)",
+    comparison: {
+      city: "Massy",
+      base: "massy",
+      ficheSlug: "massy-91377",
+      price: 4900,
+      angle:
+        "Antony, résidentielle, familiale et établie proche du parc de Sceaux (6 100 €/m²), face à Massy, plus abordable et en plein essor avec son pôle TGV et la future ligne 18 du Grand Paris Express (4 900 €/m²), deux options du sud RER B",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-06",
+      "2026-04-09",
+      "2026-04-16",
+      "2026-04-23",
+      "2026-04-30",
+      "2026-05-07",
+      "2026-05-13",
+      "2026-05-20",
+    ],
+    skipSlots: [],
+  },
+
+  nanterre: {
+    city: "Nanterre",
+    cityShort: "Nanterre",
+    base: "nanterre",
+    ficheSlug: "nanterre-92050",
+    departement: "Hauts-de-Seine",
+    median: 5400,
+    evolutionNote: "en hausse sur 5 ans, ville en pleine transformation près de La Défense",
+    quartiers: [
+      { nom: "Plateau-Mont-Valérien", fourchette: "6 000-7 000 €/m²", note: "sud résidentiel sur les hauteurs, le plus coté" },
+      { nom: "Centre / Mairie", fourchette: "5 500-6 500 €/m²", note: "cœur de ville, commerces, RER A Nanterre-Ville" },
+      { nom: "Préfecture / Université", fourchette: "5 200-6 200 €/m²", note: "RER A, lisière de La Défense et campus Paris-Nanterre" },
+      { nom: "Vieux-Pont / Provinces Françaises", fourchette: "5 000-6 000 €/m²", note: "résidentiel, en normalisation" },
+      { nom: "Petit-Nanterre", fourchette: "4 500-5 300 €/m²", note: "nord, populaire, le plus abordable, secteur en rénovation" },
+    ],
+    transport:
+      "trois gares RER A (Nanterre-Ville, Nanterre-Université, Nanterre-Préfecture, La Défense à une ou deux stations, Châtelet en 25 minutes), le prolongement du RER E à Nanterre-La Folie ouvert en 2024 vers Saint-Lazare, le tram T2 et la proximité immédiate de La Défense",
+    contexte:
+      "grande ville des Hauts-de-Seine (96 000 habitants) collée au premier quartier d'affaires d'Europe, université Paris-Nanterre, en pleine mutation avec l'écoquartier des Groues et l'Arena, contrastes entre un nord populaire et un sud résidentiel, l'option la plus abordable du croissant ouest proche de La Défense",
+    rendement: "4-4,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 % (forte marge au nord, plus tendu sur le Plateau)",
+    comparison: {
+      city: "Suresnes",
+      base: "suresnes",
+      ficheSlug: "suresnes-92073",
+      price: 7800,
+      angle:
+        "Nanterre, plus grande, plus abordable et en pleine transformation au pied de La Défense (5 400 €/m²), face à Suresnes, plus chic et plus chère sur les pentes du Mont-Valérien avec vue sur Paris (7 800 €/m²), deux options de l'ouest proches du quartier d'affaires",
+    },
+    datasetCount: 176,
+    dates: [
+      "2026-04-05",
+      "2026-04-08",
+      "2026-04-15",
+      "2026-04-22",
+      "2026-04-29",
+      "2026-05-06",
+      "2026-05-12",
+      "2026-05-19",
+    ],
+    skipSlots: [],
+  },
 };
