@@ -8,11 +8,12 @@ import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { BLOG_POSTS, BLOG_POSTS_BY_SLUG } from "@/lib/blog-posts";
 import { BLOG_CONTENT } from "@/lib/blog-content";
-import { COMMUNE_COUNT } from "@/lib/sample-data";
+import { COMMUNE_COUNT, SAMPLE_COMMUNES } from "@/lib/sample-data";
 import { PUBLISHED_BLOG_POSTS } from "@/lib/blog-published";
 import { getBlogCoverImage } from "@/lib/blog-images";
 import { nameToSlug } from "@/lib/slug";
 import { breadcrumbJsonLd } from "@/lib/seo";
+import { buildCommuneFAQs, faqJsonLd, type FAQ } from "@/lib/commune-faqs";
 import AffiliateStrip from "@/components/AffiliateStrip";
 import BlogReadingProgress from "@/components/blog/BlogReadingProgress";
 import BlogTOC from "@/components/blog/BlogTOC";
@@ -115,6 +116,52 @@ function extractHeadings(markdown: string): { id: string; text: string }[] {
   return headings;
 }
 
+const FAQ_HEADING_RE = /^##\s+(questions fr[ée]quentes|faq)\b/i;
+
+/** Vrai si l'article contient déjà une section FAQ rédigée (futurs articles). */
+function hasInlineFaq(markdown: string): boolean {
+  return markdown.split("\n").some((l) => FAQ_HEADING_RE.test(l.trim()));
+}
+
+/** Nettoie le markdown inline (gras, liens) pour le texte de schema. */
+function stripInlineMarkdown(s: string): string {
+  return s
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/** Parse une section "## Questions fréquentes" (### question / réponse) en FAQ. */
+function extractFaq(markdown: string): FAQ[] {
+  const lines = markdown.split("\n");
+  const start = lines.findIndex((l) => FAQ_HEADING_RE.test(l.trim()));
+  if (start === -1) return [];
+  const out: FAQ[] = [];
+  let q: string | null = null;
+  let buf: string[] = [];
+  const flush = () => {
+    const answer = stripInlineMarkdown(buf.join(" "));
+    if (q && answer) out.push({ question: stripInlineMarkdown(q), answer });
+    q = null;
+    buf = [];
+  };
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^##\s+/.test(line)) break; // fin de la section FAQ
+    const h3 = line.match(/^###\s+(.+)$/);
+    if (h3) {
+      flush();
+      q = h3[1].trim();
+      continue;
+    }
+    if (q) buf.push(line.trim());
+  }
+  flush();
+  return out;
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -133,6 +180,20 @@ export default async function BlogPostPage({
   // (les autres seraient la "réponse" qu'on veut justement faire désirer).
   const isGated = GATED_ARTICLES.has(slug);
   const headings = isGated ? allHeadings.slice(0, 4) : allHeadings;
+
+  // === GEO : FAQ (FAQPage JSON-LD + bloc visible) ===
+  // Futurs articles : FAQ rédigée dans le markdown ("## Questions fréquentes").
+  // Articles existants : on dérive une FAQ des données réelles de la commune
+  // (1re référence du brief) pour le schema + un bloc visible, sans régénérer.
+  const inlineFaq = hasInlineFaq(content);
+  const refCommune = !inlineFaq
+    ? SAMPLE_COMMUNES.find((c) => c.nom === post.brief.references?.[0])
+    : undefined;
+  const fallbackFaq = refCommune ? buildCommuneFAQs(refCommune).slice(0, 5) : [];
+  const faqs: FAQ[] = inlineFaq ? extractFaq(content) : fallbackFaq;
+  const faqLd = !isGated && faqs.length >= 2 ? faqJsonLd(faqs) : null;
+  // Bloc FAQ visible uniquement en fallback (sinon elle est déjà dans le markdown).
+  const showFaqBlock = !inlineFaq && !isGated && fallbackFaq.length >= 2;
 
   // Articles connexes : 3, par catégorie similaire en priorité
   const related = BLOG_POSTS.filter((p) => p.slug !== slug)
@@ -245,6 +306,9 @@ export default async function BlogPostPage({
     <div className="min-h-screen bg-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsLd) }} />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
 
       <BlogReadingProgress />
 
@@ -425,6 +489,31 @@ export default async function BlogPostPage({
                 </Link>
               </div>
             </section>
+
+            {/* FAQ (GEO) — bloc visible dérivé des données commune pour les
+                articles sans FAQ rédigée. Schema FAQPage émis en parallèle. */}
+            {showFaqBlock && (
+              <section className="mt-16 border-t border-neutral-100 pt-10">
+                <h2 className="font-display text-2xl font-medium tracking-tight text-brand-bleu">
+                  Questions fréquentes
+                </h2>
+                <div className="mt-5 space-y-3">
+                  {faqs.map((f, i) => (
+                    <details
+                      key={i}
+                      className="group rounded-2xl border border-neutral-100 bg-white p-5 shadow-[0_2px_8px_rgba(82,98,122,0.04)]"
+                    >
+                      <summary className="cursor-pointer list-none font-display text-base font-medium text-brand-bleu marker:content-none">
+                        {f.question}
+                      </summary>
+                      <p className="mt-3 text-sm leading-relaxed text-neutral-700">
+                        {f.answer}
+                      </p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            )}
 
             {/* Articles connexes */}
             {related.length > 0 && (

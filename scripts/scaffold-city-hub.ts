@@ -72,6 +72,42 @@ const CTA_BOTTOM = (c: CityHubConfig, i: number): string => {
   return pool[i % pool.length];
 };
 
+// ── GEO : FAQ + tableaux injectés dans chaque article ──────────────────────
+
+// Section FAQ ("## Questions fréquentes") adaptée au type d'article. Rendue en
+// FAQPage JSON-LD par app/blog/[slug]/page.tsx (parsing des "### question ?").
+function geoFaqSection(c: CityHubConfig, slot: HubSlot): Section {
+  const q: Partial<Record<HubSlot, string>> = {
+    vivre: `est-ce agréable de vivre à ${c.cityShort}, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris`,
+    s1: `quel est le prix au m² à ${c.cityShort} en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils`,
+    s2: `quel est le meilleur quartier de ${c.cityShort}, lequel pour une famille, lequel pour investir, lequel pour un budget serré`,
+    s3: `quels quartiers éviter à ${c.cityShort} et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur`,
+    s4: `quel rendement locatif à ${c.cityShort}, est-ce rentable d'y investir, quel quartier viser, nu ou meublé`,
+    s5: `vaut-il le coup de quitter Paris pour ${c.cityShort}, combien de surface en plus, combien de temps de trajet, pour qui`,
+    s6: `quels sont les frais de notaire à ${c.cityShort}, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien`,
+    s7: `${c.cityShort} ou ${c.comparison.city} : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie`,
+  };
+  return {
+    titre: "Questions fréquentes",
+    contenu: `Termine l'article par une section FAQ titrée EXACTEMENT "Questions fréquentes" (rendue en ## par toi). Pose 4 questions sur : ${q[slot] ?? q.s1}. Format STRICT et obligatoire : chaque question commence par "### " et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA.`,
+  };
+}
+
+// Tableau markdown (s1 et s7) que les moteurs IA extraient en priorité.
+function geoTableSection(c: CityHubConfig, slot: HubSlot): Section | null {
+  if (slot === "s1")
+    return {
+      titre: "Le tableau récapitulatif des prix par quartier",
+      contenu: `Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : ${quartiersList(c)}. Données réelles, lisibles d'un coup d'œil.`,
+    };
+  if (slot === "s7")
+    return {
+      titre: "Le match en un tableau",
+      contenu: `Insère un tableau markdown comparatif (colonnes : Critère | ${c.cityShort} | ${c.comparison.city}) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil.`,
+    };
+  return null;
+}
+
 // ── builders par slot ────────────────────────────────────────────────────
 
 const BUILDERS: Record<HubSlot, (c: CityHubConfig) => Brief> = {
@@ -350,6 +386,10 @@ function main(): void {
       console.log(`skip (déjà présent) : ${b.slug}`);
       continue;
     }
+    // GEO : tableau (s1/s7) inséré après l'intro, FAQ ajoutée avant le CTA final.
+    const table = geoTableSection(c, slot);
+    if (table) b.brief.sections.splice(1, 0, table);
+    b.brief.sections.splice(b.brief.sections.length - 1, 0, geoFaqSection(c, slot));
     briefs.push(b);
   }
 
