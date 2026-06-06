@@ -687,4 +687,144 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-28", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28", "2026-05-04", "2026-05-11"],
     skipSlots: [],
   },
+
+  // Vague ouest premium + est (juin 2026). Levallois & Saint-Mandé ont déjà des
+  // articles (slugs différents) : skipSlots évite la cannibalisation.
+  "levallois-perret": {
+    city: "Levallois-Perret",
+    cityShort: "Levallois-Perret",
+    base: "levallois-perret",
+    ficheSlug: "levallois-perret-92044",
+    departement: "Hauts-de-Seine",
+    median: 9100,
+    evolutionNote: "stable sur 5 ans après correction, marché premium très tendu",
+    quartiers: [
+      { nom: "Front de Seine / Eiffel", fourchette: "9 500-10 800 €/m²", note: "ouest, haussmannien et front de Seine, le plus prisé" },
+      { nom: "Bords de Seine / Île de la Jatte", fourchette: "9 300-10 500 €/m²", note: "cadre vert au bord de l'eau, côté Levallois de l'île, très coté" },
+      { nom: "Centre / Mairie", fourchette: "9 200-10 200 €/m²", note: "autour de l'hôtel de ville et du métro 3, commerces, animé" },
+      { nom: "Marché / Aristide Briand", fourchette: "9 000-10 000 €/m²", note: "quartier du marché couvert, recherché des familles" },
+      { nom: "Planchette / Collange", fourchette: "8 700-9 700 €/m²", note: "nord-est, plus calme, proche de Clichy, le plus abordable" },
+    ],
+    transport:
+      "le métro 3 (Anatole France, Louise Michel, Pont de Levallois-Bécon en terminus, Saint-Lazare en 12 minutes et Opéra en 18), le Transilien L à Clichy-Levallois, et la proximité immédiate de Paris 17e et de La Défense",
+    contexte:
+      "l'une des villes les plus densément peuplées d'Europe (64 000 habitants sur 2,4 km²), profil jeune cadre et famille aisée, Île de la Jatte et bords de Seine, marché couvert et commerces, un quasi-arrondissement parisien au nord-ouest",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-5 % (marché tendu, un peu plus sur l'ancien à rénover et les passoires DPE)",
+    comparison: {
+      city: "Neuilly-sur-Seine",
+      base: "neuilly-sur-seine",
+      ficheSlug: "neuilly-sur-seine-92051",
+      price: 12100,
+      angle:
+        "Levallois-Perret, dense, jeune et un peu plus accessible (9 100 €/m²), face à Neuilly-sur-Seine, plus prestigieuse, plus verte et nettement plus chère contre le Bois (12 100 €/m²), les deux références de l'ouest huppé",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01", "2026-05-08", "2026-05-15"],
+    skipSlots: ["vivre", "s1", "s5"],
+  },
+
+  suresnes: {
+    city: "Suresnes",
+    cityShort: "Suresnes",
+    base: "suresnes",
+    ficheSlug: "suresnes-92073",
+    departement: "Hauts-de-Seine",
+    median: 7800,
+    evolutionNote: "stable sur 5 ans, marché résidentiel des coteaux",
+    quartiers: [
+      { nom: "Mont-Valérien", fourchette: "8 200-9 200 €/m²", note: "hauteurs boisées, vues sur Paris, le plus chic" },
+      { nom: "Centre-ville", fourchette: "7 800-8 700 €/m²", note: "autour de la mairie et du marché Caron, commerces, animé" },
+      { nom: "République / Carnot", fourchette: "7 400-8 300 €/m²", note: "résidentiel, proche du tram T2" },
+      { nom: "Cité-jardins", fourchette: "7 200-8 100 €/m²", note: "patrimoine classé des années 1920-30, recherché des familles" },
+      { nom: "Bords de Seine / Quartier de la Gare", fourchette: "7 200-8 000 €/m²", note: "le plus abordable, proche de la passerelle vers La Défense" },
+    ],
+    transport:
+      "le tram T2 (Suresnes-Longchamp, Belvédère, vers La Défense en 5 minutes et Paris rive gauche), le Transilien L (Suresnes-Mont-Valérien, Saint-Lazare en 12 minutes), et une passerelle piétonne directe vers La Défense",
+    contexte:
+      "ville des coteaux de l'ouest perchée sur le Mont-Valérien (49 000 habitants), célèbre cité-jardins classée, vignoble municipal, vues panoramiques sur Paris, profil familial et cadre, à un pont de La Défense",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Saint-Cloud",
+      base: "saint-cloud",
+      ficheSlug: "saint-cloud-92064",
+      price: 8400,
+      angle:
+        "Suresnes, plus accessible et plus jeune sur les pentes du Mont-Valérien avec sa cité-jardins (7 800 €/m²), face à Saint-Cloud, plus chic et plus chère sur ses hauteurs avec son parc (8 400 €/m²), deux voisines de l'ouest reliées par le tram T2",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30", "2026-05-07", "2026-05-14"],
+    skipSlots: [],
+  },
+
+  "saint-mande": {
+    city: "Saint-Mandé",
+    cityShort: "Saint-Mandé",
+    base: "saint-mande",
+    ficheSlug: "saint-mande-94067",
+    departement: "Val-de-Marne",
+    median: 9400,
+    evolutionNote: "stable sur 5 ans, micro-marché premium très tendu",
+    quartiers: [
+      { nom: "Tourelle / Lac de Saint-Mandé", fourchette: "9 800-11 000 €/m²", note: "contre le Bois de Vincennes et le lac, le plus prisé" },
+      { nom: "Mairie / Demi-Lune", fourchette: "9 500-10 800 €/m²", note: "centre autour de l'hôtel de ville, métro 1, le plus demandé" },
+      { nom: "Alphand / Général de Gaulle", fourchette: "9 200-10 300 €/m²", note: "résidentiel, proche du RER A à Vincennes" },
+      { nom: "Cailletet / Sud", fourchette: "9 000-10 000 €/m²", note: "vers Charenton, le plus abordable relativement" },
+    ],
+    transport:
+      "le métro 1 (Saint-Mandé, Bérault, Châtelet en 12 minutes et La Défense en 22), le RER A tout proche à Vincennes, et le Bois de Vincennes en lisière directe",
+    contexte:
+      "micro-commune ultra-résidentielle et bourgeoise collée au 12e arrondissement (22 000 habitants sur moins d'1 km²), l'une des plus chères de l'est, lac et Bois de Vincennes en lisière, écoles réputées, profil familial aisé quasi parisien",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-4 % (très tendu)",
+    comparison: {
+      city: "Vincennes",
+      base: "vincennes",
+      ficheSlug: "vincennes-94080",
+      price: 9200,
+      angle: "déjà couvert par l'article vincennes-saint-mande-comparaison-immobilier-2026",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29", "2026-05-06", "2026-05-13"],
+    skipSlots: ["vivre", "s1", "s5", "s7"],
+  },
+
+  "fontenay-sous-bois": {
+    city: "Fontenay-sous-Bois",
+    cityShort: "Fontenay-sous-Bois",
+    base: "fontenay-sous-bois",
+    ficheSlug: "fontenay-sous-bois-94033",
+    departement: "Val-de-Marne",
+    median: 6500,
+    evolutionNote: "en légère hausse sur 5 ans, marché familial porté par le RER A",
+    quartiers: [
+      { nom: "Plateau / Village", fourchette: "6 800-7 600 €/m²", note: "esprit village autour de l'église et de la mairie, le plus prisé" },
+      { nom: "Bois / lisière Bois de Vincennes", fourchette: "6 600-7 400 €/m²", note: "résidentiel calme proche du bois" },
+      { nom: "Les Rigollots", fourchette: "6 500-7 300 €/m²", note: "limite Vincennes-Montreuil, commerçant, recherché" },
+      { nom: "Val de Fontenay", fourchette: "6 000-6 800 €/m²", note: "pôle RER A et E plus bureaux, immeubles, pratique" },
+      { nom: "Larris / Jean Zay", fourchette: "5 600-6 400 €/m²", note: "secteur de logements collectifs, le plus abordable" },
+    ],
+    transport:
+      "le RER A (Fontenay-sous-Bois, Châtelet en 16 minutes) et le pôle de Val de Fontenay (RER A et E, l'un des plus fréquentés d'Île-de-France, future ligne 15 Est et prolongement du tram T1), avec le Bois de Vincennes à l'ouest",
+    contexte:
+      "grande ville résidentielle de l'est collée à Vincennes et au Bois (53 000 habitants), esprit village sur le plateau, pôle d'emploi et de transport majeur à Val de Fontenay, bon compromis prix-accès de l'est parisien",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Nogent-sur-Marne",
+      base: "nogent-sur-marne",
+      ficheSlug: "nogent-sur-marne-94052",
+      price: 7600,
+      angle:
+        "Fontenay-sous-Bois, plus grande, plus verte et plus accessible avec son village et le Bois (6 500 €/m²), face à Nogent-sur-Marne, plus bourgeoise et plus chère au bord de la Marne (7 600 €/m²), deux voisines de l'est sur le RER A",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28", "2026-05-05", "2026-05-12"],
+    skipSlots: [],
+  },
 };

@@ -16339,6 +16339,1560 @@ export const BLOG_POSTS: BlogPost[] = [
         "Créteil"
       ]
     }
+  },
+  {
+    "slug": "meilleur-quartier-levallois-perret-acheter-2026",
+    "title": "Meilleur quartier de Levallois-Perret pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Levallois-Perret le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-10",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Levallois-Perret mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Levallois-Perret n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Levallois-Perret le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Front de Seine / Eiffel, Bords de Seine / Île de la Jatte, Centre / Mairie, Marché / Aristide Briand, Planchette / Collange. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-levallois-perret-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Planchette / Collange et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Front de Seine / Eiffel et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le métro 3 (Anatole France). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Levallois-Perret ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Levallois-Perret ou Neuilly-sur-Seine](/blog/levallois-perret-ou-neuilly-sur-seine-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Levallois-Perret, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Levallois-Perret se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Levallois-Perret"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-levallois-perret-achat-2026",
+    "title": "Levallois-Perret : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Levallois-Perret, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-17",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Levallois-Perret (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Levallois-Perret est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Levallois-Perret",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Planchette / Collange et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Levallois-Perret colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-levallois-perret-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Levallois-Perret et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Levallois-Perret aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Levallois-Perret"
+      ]
+    }
+  },
+  {
+    "slug": "investir-levallois-perret-rendement-locatif-2026",
+    "title": "Investir à Levallois-Perret en 2026 : rendement réel par quartier",
+    "description": "2,8-3,3 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Levallois-Perret a du sens.",
+    "publishedAt": "2026-04-24",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (2,8-3,3 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Levallois-Perret (2,8-3,3 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le métro 3 (Anatole France) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Levallois-Perret",
+          "contenu": "2,8-3,3 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le métro 3 (Anatole France, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Front de Seine / Eiffel = valeur refuge, rendement minimal. Planchette / Collange = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Levallois-Perret à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Levallois-Perret a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-levallois-perret-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Levallois-Perret, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Levallois-Perret et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Levallois-Perret"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-levallois-perret",
+    "title": "Acheter à Levallois-Perret : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 2-5 % (marché tendu, un peu plus sur l'ancien à rénover et les passoires DPE). Le coût total réel d'un achat à Levallois-Perret, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-08",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Levallois-Perret, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 2-5 % (marché tendu, un peu plus sur l'ancien à rénover et les passoires DPE), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 2-5 % (marché tendu, un peu plus sur l'ancien à rénover et les passoires DPE). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Levallois-Perret",
+          "contenu": "Marge réaliste 2-5 % (marché tendu, un peu plus sur l'ancien à rénover et les passoires DPE). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Levallois-Perret colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-levallois-perret-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-levallois-perret-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Levallois-Perret, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Levallois-Perret aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Levallois-Perret"
+      ]
+    }
+  },
+  {
+    "slug": "levallois-perret-ou-neuilly-sur-seine-acheter-2026",
+    "title": "Levallois-Perret ou Neuilly-sur-Seine : où acheter en 2026",
+    "description": "Levallois-Perret, dense, jeune et un peu plus accessible (9 100 €/m²), face à Neuilly-sur-Seine, plus prestigieuse, plus verte et nettement plus chère contre le Bois (12 100 €/m²), les deux références de l'ouest huppé. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-15",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Levallois-Perret et Neuilly-sur-Seine, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Levallois-Perret, dense, jeune et un peu plus accessible (9 100 €/m²), face à Neuilly-sur-Seine, plus prestigieuse, plus verte et nettement plus chère contre le Bois (12 100 €/m²), les deux références de l'ouest huppé. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Levallois-Perret, dense, jeune et un peu plus accessible (9 100 €/m²), face à Neuilly-sur-Seine, plus prestigieuse, plus verte et nettement plus chère contre le Bois (12 100 €/m²), les deux références de l'ouest huppé. Levallois-Perret 9100 €/m² vs Neuilly-sur-Seine 12100 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Levallois-Perret | Neuilly-sur-Seine) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Levallois-Perret 9100 €/m² vs Neuilly-sur-Seine 12100 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le métro 3 (Anatole France, Louise Michel, Pont de Levallois-Bécon en terminus, Saint-Lazare en 12 minutes et Opéra en 18), le Transilien L à Clichy-Levallois, et la proximité immédiate de Paris 17e et de La Défense côté Levallois-Perret. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "l'une des villes les plus densément peuplées d'Europe (64 000 habitants sur 2,4 km²), profil jeune cadre et famille aisée, Île de la Jatte et bords de Seine, marché couvert et commerces, un quasi-arrondissement parisien au nord-ouest côté Levallois-Perret. Décrire le contraste d'ambiance avec Neuilly-sur-Seine."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (2,8-3,3 % brut côté Levallois-Perret). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Levallois-Perret à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Levallois-Perret, pour qui Neuilly-sur-Seine",
+          "contenu": "Verdict par profil. Linker les deux fiches [Levallois-Perret](/vivre-a/levallois-perret-92044) et [Neuilly-sur-Seine](/vivre-a/neuilly-sur-seine-92051)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Levallois-Perret ou Neuilly-sur-Seine : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Levallois-Perret et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Levallois-Perret",
+        "Neuilly-sur-Seine"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-suresnes-2026",
+    "title": "Vivre à Suresnes en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Suresnes ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-26",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Suresnes et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Suresnes' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Suresnes : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Suresnes : ville des coteaux de l'ouest perchée sur le Mont-Valérien (49 000 habitants), célèbre cité-jardins classée, vignoble municipal, vues panoramiques sur Paris, profil familial et cadre, à un pont de La Défense. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (7800 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Suresnes",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Mont-Valérien (8 200-9 200 €/m², hauteurs boisées, vues sur Paris, le plus chic) ; Centre-ville (7 800-8 700 €/m², autour de la mairie et du marché Caron, commerces, animé) ; République / Carnot (7 400-8 300 €/m², résidentiel, proche du tram T2) ; Cité-jardins (7 200-8 100 €/m², patrimoine classé des années 1920-30, recherché des familles) ; Bords de Seine / Quartier de la Gare (7 200-8 000 €/m², le plus abordable, proche de la passerelle vers La Défense). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-suresnes-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-suresnes-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le tram T2 (Suresnes-Longchamp, Belvédère, vers La Défense en 5 minutes et Paris rive gauche), le Transilien L (Suresnes-Mont-Valérien, Saint-Lazare en 12 minutes), et une passerelle piétonne directe vers La Défense. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville des coteaux de l'ouest perchée sur le Mont-Valérien (49 000 habitants), célèbre cité-jardins classée, vignoble municipal, vues panoramiques sur Paris, profil familial et cadre, à un pont de La Défense. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Suresnes (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Suresnes est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Suresnes colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Suresnes](/vivre-a/suresnes-92073) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-suresnes-2026-par-quartier) ou [l'arbitrage quitter Paris pour Suresnes](/blog/quitter-paris-pour-suresnes-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Suresnes, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Suresnes aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-suresnes-2026-par-quartier",
+    "title": "Prix immobilier Suresnes 2026 : le vrai prix par quartier",
+    "description": "7800 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-02",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Suresnes qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '7800 €/m² de médiane à Suresnes, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 7800 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Mont-Valérien) et le plus abordable (Bords de Seine / Quartier de la Gare). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Mont-Valérien (8 200-9 200 €/m², hauteurs boisées, vues sur Paris, le plus chic) ; Centre-ville (7 800-8 700 €/m², autour de la mairie et du marché Caron, commerces, animé) ; République / Carnot (7 400-8 300 €/m², résidentiel, proche du tram T2) ; Cité-jardins (7 200-8 100 €/m², patrimoine classé des années 1920-30, recherché des familles) ; Bords de Seine / Quartier de la Gare (7 200-8 000 €/m², le plus abordable, proche de la passerelle vers La Défense). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Mont-Valérien : 8 200-9 200 €/m²",
+          "contenu": "hauteurs boisées, vues sur Paris, le plus chic. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Centre-ville : 7 800-8 700 €/m²",
+          "contenu": "autour de la mairie et du marché Caron, commerces, animé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "République / Carnot : 7 400-8 300 €/m²",
+          "contenu": "résidentiel, proche du tram T2. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Cité-jardins : 7 200-8 100 €/m²",
+          "contenu": "patrimoine classé des années 1920-30, recherché des familles. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bords de Seine / Quartier de la Gare : 7 200-8 000 €/m²",
+          "contenu": "le plus abordable, proche de la passerelle vers La Défense. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Suresnes à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-suresnes-acheter-2026) et la fiche [Suresnes](/vivre-a/suresnes-92073)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Suresnes en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Suresnes et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-suresnes-acheter-2026",
+    "title": "Meilleur quartier de Suresnes pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Suresnes le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-09",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Suresnes mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Suresnes n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Suresnes le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Mont-Valérien, Centre-ville, République / Carnot, Cité-jardins, Bords de Seine / Quartier de la Gare. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-suresnes-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Bords de Seine / Quartier de la Gare et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Mont-Valérien et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le tram T2 (Suresnes-Longchamp). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Suresnes ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Suresnes ou Saint-Cloud](/blog/suresnes-ou-saint-cloud-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Suresnes, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Suresnes se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-suresnes-achat-2026",
+    "title": "Suresnes : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Suresnes, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-16",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Suresnes (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Suresnes est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Suresnes",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Bords de Seine / Quartier de la Gare et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Suresnes colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-suresnes-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Suresnes et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Suresnes aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "investir-suresnes-rendement-locatif-2026",
+    "title": "Investir à Suresnes en 2026 : rendement réel par quartier",
+    "description": "3-3,5 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Suresnes a du sens.",
+    "publishedAt": "2026-04-23",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3-3,5 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Suresnes (3-3,5 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le tram T2 (Suresnes-Longchamp) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Suresnes",
+          "contenu": "3-3,5 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le tram T2 (Suresnes-Longchamp, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Mont-Valérien = valeur refuge, rendement minimal. Bords de Seine / Quartier de la Gare = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Suresnes à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Suresnes a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-suresnes-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Suresnes, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Suresnes et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-suresnes-arbitrage-2026",
+    "title": "Quitter Paris pour Suresnes : le vrai calcul en 2026",
+    "description": "Suresnes face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-30",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Suresnes.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Suresnes et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Suresnes : ville des coteaux de l'ouest perchée sur le Mont-Valérien (49 000 habitants), célèbre cité-jardins classée, vignoble municipal, vues panoramiques sur Paris, profil familial et cadre, à un pont de La Défense. Desserte le tram T2 (Suresnes-Longchamp, Belvédère, vers La Défense en 5 minutes et Paris rive gauche), le Transilien L (Suresnes-Mont-Valérien, Saint-Lazare en 12 minutes), et une passerelle piétonne directe vers La Défense. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 7800 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Suresnes, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Suresnes (7800 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville des coteaux de l'ouest perchée sur le Mont-Valérien (49 000 habitants), célèbre cité-jardins classée, vignoble municipal, vues panoramiques sur Paris, profil familial et cadre, à un pont de La Défense. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le tram T2 (Suresnes-Longchamp, Belvédère, vers La Défense en 5 minutes et Paris rive gauche), le Transilien L (Suresnes-Mont-Valérien, Saint-Lazare en 12 minutes), et une passerelle piétonne directe vers La Défense. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Suresnes ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-suresnes-2026-guide-complet) et [Suresnes ou Saint-Cloud](/blog/suresnes-ou-saint-cloud-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Suresnes, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Suresnes se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-suresnes",
+    "title": "Acheter à Suresnes : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 3-5 %. Le coût total réel d'un achat à Suresnes, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-07",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Suresnes, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 3-5 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 3-5 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Suresnes",
+          "contenu": "Marge réaliste 3-5 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Suresnes colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-suresnes-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-suresnes-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Suresnes, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Suresnes aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes"
+      ]
+    }
+  },
+  {
+    "slug": "suresnes-ou-saint-cloud-acheter-2026",
+    "title": "Suresnes ou Saint-Cloud : où acheter en 2026",
+    "description": "Suresnes, plus accessible et plus jeune sur les pentes du Mont-Valérien avec sa cité-jardins (7 800 €/m²), face à Saint-Cloud, plus chic et plus chère sur ses hauteurs avec son parc (8 400 €/m²), deux voisines de l'ouest reliées par le tram T2. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-14",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Suresnes et Saint-Cloud, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Suresnes, plus accessible et plus jeune sur les pentes du Mont-Valérien avec sa cité-jardins (7 800 €/m²), face à Saint-Cloud, plus chic et plus chère sur ses hauteurs avec son parc (8 400 €/m²), deux voisines de l'ouest reliées par le tram T2. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Suresnes, plus accessible et plus jeune sur les pentes du Mont-Valérien avec sa cité-jardins (7 800 €/m²), face à Saint-Cloud, plus chic et plus chère sur ses hauteurs avec son parc (8 400 €/m²), deux voisines de l'ouest reliées par le tram T2. Suresnes 7800 €/m² vs Saint-Cloud 8400 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Suresnes | Saint-Cloud) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Suresnes 7800 €/m² vs Saint-Cloud 8400 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le tram T2 (Suresnes-Longchamp, Belvédère, vers La Défense en 5 minutes et Paris rive gauche), le Transilien L (Suresnes-Mont-Valérien, Saint-Lazare en 12 minutes), et une passerelle piétonne directe vers La Défense côté Suresnes. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville des coteaux de l'ouest perchée sur le Mont-Valérien (49 000 habitants), célèbre cité-jardins classée, vignoble municipal, vues panoramiques sur Paris, profil familial et cadre, à un pont de La Défense côté Suresnes. Décrire le contraste d'ambiance avec Saint-Cloud."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3-3,5 % brut côté Suresnes). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Suresnes à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Suresnes, pour qui Saint-Cloud",
+          "contenu": "Verdict par profil. Linker les deux fiches [Suresnes](/vivre-a/suresnes-92073) et [Saint-Cloud](/vivre-a/saint-cloud-92064)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Suresnes ou Saint-Cloud : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Suresnes et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Suresnes",
+        "Saint-Cloud"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-saint-mande-acheter-2026",
+    "title": "Meilleur quartier de Saint-Mandé pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Saint-Mandé le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-08",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Saint-Mandé mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Saint-Mandé n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Saint-Mandé le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Tourelle / Lac de Saint-Mandé, Mairie / Demi-Lune, Alphand / Général de Gaulle, Cailletet / Sud. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-saint-mande-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Cailletet / Sud et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Tourelle / Lac de Saint-Mandé et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le métro 1 (Saint-Mandé). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Saint-Mandé ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Saint-Mandé ou Vincennes](/blog/saint-mande-ou-vincennes-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Saint-Mandé, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Saint-Mandé se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Mandé"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-saint-mande-achat-2026",
+    "title": "Saint-Mandé : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Saint-Mandé, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-15",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Saint-Mandé (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Saint-Mandé est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Saint-Mandé",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Cailletet / Sud et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Saint-Mandé colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-saint-mande-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Saint-Mandé et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Saint-Mandé aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Mandé"
+      ]
+    }
+  },
+  {
+    "slug": "investir-saint-mande-rendement-locatif-2026",
+    "title": "Investir à Saint-Mandé en 2026 : rendement réel par quartier",
+    "description": "2,8-3,3 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Saint-Mandé a du sens.",
+    "publishedAt": "2026-04-22",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (2,8-3,3 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Saint-Mandé (2,8-3,3 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le métro 1 (Saint-Mandé) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Saint-Mandé",
+          "contenu": "2,8-3,3 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le métro 1 (Saint-Mandé, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Tourelle / Lac de Saint-Mandé = valeur refuge, rendement minimal. Cailletet / Sud = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Saint-Mandé à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Saint-Mandé a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-saint-mande-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Saint-Mandé, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Saint-Mandé et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Mandé"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-saint-mande",
+    "title": "Acheter à Saint-Mandé : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 2-4 % (très tendu). Le coût total réel d'un achat à Saint-Mandé, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-06",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Saint-Mandé, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 2-4 % (très tendu), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 2-4 % (très tendu). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Saint-Mandé",
+          "contenu": "Marge réaliste 2-4 % (très tendu). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Saint-Mandé colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-saint-mande-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-saint-mande-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Saint-Mandé, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Saint-Mandé aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Mandé"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-fontenay-sous-bois-2026",
+    "title": "Vivre à Fontenay-sous-Bois en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Fontenay-sous-Bois ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-24",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Fontenay-sous-Bois et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Fontenay-sous-Bois' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Fontenay-sous-Bois : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Fontenay-sous-Bois : grande ville résidentielle de l'est collée à Vincennes et au Bois (53 000 habitants), esprit village sur le plateau, pôle d'emploi et de transport majeur à Val de Fontenay, bon compromis prix-accès de l'est parisien. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (6500 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Fontenay-sous-Bois",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Plateau / Village (6 800-7 600 €/m², esprit village autour de l'église et de la mairie, le plus prisé) ; Bois / lisière Bois de Vincennes (6 600-7 400 €/m², résidentiel calme proche du bois) ; Les Rigollots (6 500-7 300 €/m², limite Vincennes-Montreuil, commerçant, recherché) ; Val de Fontenay (6 000-6 800 €/m², pôle RER A et E plus bureaux, immeubles, pratique) ; Larris / Jean Zay (5 600-6 400 €/m², secteur de logements collectifs, le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-fontenay-sous-bois-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-fontenay-sous-bois-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER A (Fontenay-sous-Bois, Châtelet en 16 minutes) et le pôle de Val de Fontenay (RER A et E, l'un des plus fréquentés d'Île-de-France, future ligne 15 Est et prolongement du tram T1), avec le Bois de Vincennes à l'ouest. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "grande ville résidentielle de l'est collée à Vincennes et au Bois (53 000 habitants), esprit village sur le plateau, pôle d'emploi et de transport majeur à Val de Fontenay, bon compromis prix-accès de l'est parisien. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Fontenay-sous-Bois (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Fontenay-sous-Bois est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Fontenay-sous-Bois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Fontenay-sous-Bois](/vivre-a/fontenay-sous-bois-94033) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-fontenay-sous-bois-2026-par-quartier) ou [l'arbitrage quitter Paris pour Fontenay-sous-Bois](/blog/quitter-paris-pour-fontenay-sous-bois-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Fontenay-sous-Bois, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Fontenay-sous-Bois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-fontenay-sous-bois-2026-par-quartier",
+    "title": "Prix immobilier Fontenay-sous-Bois 2026 : le vrai prix par quartier",
+    "description": "6500 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-31",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Fontenay-sous-Bois qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '6500 €/m² de médiane à Fontenay-sous-Bois, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 6500 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Plateau / Village) et le plus abordable (Larris / Jean Zay). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Plateau / Village (6 800-7 600 €/m², esprit village autour de l'église et de la mairie, le plus prisé) ; Bois / lisière Bois de Vincennes (6 600-7 400 €/m², résidentiel calme proche du bois) ; Les Rigollots (6 500-7 300 €/m², limite Vincennes-Montreuil, commerçant, recherché) ; Val de Fontenay (6 000-6 800 €/m², pôle RER A et E plus bureaux, immeubles, pratique) ; Larris / Jean Zay (5 600-6 400 €/m², secteur de logements collectifs, le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Plateau / Village : 6 800-7 600 €/m²",
+          "contenu": "esprit village autour de l'église et de la mairie, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bois / lisière Bois de Vincennes : 6 600-7 400 €/m²",
+          "contenu": "résidentiel calme proche du bois. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Les Rigollots : 6 500-7 300 €/m²",
+          "contenu": "limite Vincennes-Montreuil, commerçant, recherché. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Val de Fontenay : 6 000-6 800 €/m²",
+          "contenu": "pôle RER A et E plus bureaux, immeubles, pratique. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Larris / Jean Zay : 5 600-6 400 €/m²",
+          "contenu": "secteur de logements collectifs, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Fontenay-sous-Bois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-fontenay-sous-bois-acheter-2026) et la fiche [Fontenay-sous-Bois](/vivre-a/fontenay-sous-bois-94033)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Fontenay-sous-Bois en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Fontenay-sous-Bois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-fontenay-sous-bois-acheter-2026",
+    "title": "Meilleur quartier de Fontenay-sous-Bois pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Fontenay-sous-Bois le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-07",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Fontenay-sous-Bois mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Fontenay-sous-Bois n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Fontenay-sous-Bois le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Plateau / Village, Bois / lisière Bois de Vincennes, Les Rigollots, Val de Fontenay, Larris / Jean Zay. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-fontenay-sous-bois-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Larris / Jean Zay et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Plateau / Village et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER A (Fontenay-sous-Bois). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Fontenay-sous-Bois ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Fontenay-sous-Bois ou Nogent-sur-Marne](/blog/fontenay-sous-bois-ou-nogent-sur-marne-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Fontenay-sous-Bois, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Fontenay-sous-Bois se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-fontenay-sous-bois-achat-2026",
+    "title": "Fontenay-sous-Bois : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Fontenay-sous-Bois, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-14",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Fontenay-sous-Bois (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Fontenay-sous-Bois est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Fontenay-sous-Bois",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Larris / Jean Zay et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Fontenay-sous-Bois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-fontenay-sous-bois-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Fontenay-sous-Bois et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Fontenay-sous-Bois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "investir-fontenay-sous-bois-rendement-locatif-2026",
+    "title": "Investir à Fontenay-sous-Bois en 2026 : rendement réel par quartier",
+    "description": "3,5-4 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Fontenay-sous-Bois a du sens.",
+    "publishedAt": "2026-04-21",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,5-4 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Fontenay-sous-Bois (3,5-4 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER A (Fontenay-sous-Bois) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Fontenay-sous-Bois",
+          "contenu": "3,5-4 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER A (Fontenay-sous-Bois, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Plateau / Village = valeur refuge, rendement minimal. Larris / Jean Zay = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Fontenay-sous-Bois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Fontenay-sous-Bois a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-fontenay-sous-bois-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Fontenay-sous-Bois, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Fontenay-sous-Bois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-fontenay-sous-bois-arbitrage-2026",
+    "title": "Quitter Paris pour Fontenay-sous-Bois : le vrai calcul en 2026",
+    "description": "Fontenay-sous-Bois face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-28",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Fontenay-sous-Bois.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Fontenay-sous-Bois et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Fontenay-sous-Bois : grande ville résidentielle de l'est collée à Vincennes et au Bois (53 000 habitants), esprit village sur le plateau, pôle d'emploi et de transport majeur à Val de Fontenay, bon compromis prix-accès de l'est parisien. Desserte le RER A (Fontenay-sous-Bois, Châtelet en 16 minutes) et le pôle de Val de Fontenay (RER A et E, l'un des plus fréquentés d'Île-de-France, future ligne 15 Est et prolongement du tram T1), avec le Bois de Vincennes à l'ouest. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 6500 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Fontenay-sous-Bois, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Fontenay-sous-Bois (6500 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "grande ville résidentielle de l'est collée à Vincennes et au Bois (53 000 habitants), esprit village sur le plateau, pôle d'emploi et de transport majeur à Val de Fontenay, bon compromis prix-accès de l'est parisien. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER A (Fontenay-sous-Bois, Châtelet en 16 minutes) et le pôle de Val de Fontenay (RER A et E, l'un des plus fréquentés d'Île-de-France, future ligne 15 Est et prolongement du tram T1), avec le Bois de Vincennes à l'ouest. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Fontenay-sous-Bois ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-fontenay-sous-bois-2026-guide-complet) et [Fontenay-sous-Bois ou Nogent-sur-Marne](/blog/fontenay-sous-bois-ou-nogent-sur-marne-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Fontenay-sous-Bois, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Fontenay-sous-Bois se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-fontenay-sous-bois",
+    "title": "Acheter à Fontenay-sous-Bois : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Fontenay-sous-Bois, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-05",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Fontenay-sous-Bois, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Fontenay-sous-Bois",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Fontenay-sous-Bois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-fontenay-sous-bois-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-fontenay-sous-bois-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Fontenay-sous-Bois, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Fontenay-sous-Bois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "fontenay-sous-bois-ou-nogent-sur-marne-acheter-2026",
+    "title": "Fontenay-sous-Bois ou Nogent-sur-Marne : où acheter en 2026",
+    "description": "Fontenay-sous-Bois, plus grande, plus verte et plus accessible avec son village et le Bois (6 500 €/m²), face à Nogent-sur-Marne, plus bourgeoise et plus chère au bord de la Marne (7 600 €/m²), deux voisines de l'est sur le RER A. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-12",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Fontenay-sous-Bois et Nogent-sur-Marne, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Fontenay-sous-Bois, plus grande, plus verte et plus accessible avec son village et le Bois (6 500 €/m²), face à Nogent-sur-Marne, plus bourgeoise et plus chère au bord de la Marne (7 600 €/m²), deux voisines de l'est sur le RER A. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Fontenay-sous-Bois, plus grande, plus verte et plus accessible avec son village et le Bois (6 500 €/m²), face à Nogent-sur-Marne, plus bourgeoise et plus chère au bord de la Marne (7 600 €/m²), deux voisines de l'est sur le RER A. Fontenay-sous-Bois 6500 €/m² vs Nogent-sur-Marne 7600 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Fontenay-sous-Bois | Nogent-sur-Marne) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Fontenay-sous-Bois 6500 €/m² vs Nogent-sur-Marne 7600 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER A (Fontenay-sous-Bois, Châtelet en 16 minutes) et le pôle de Val de Fontenay (RER A et E, l'un des plus fréquentés d'Île-de-France, future ligne 15 Est et prolongement du tram T1), avec le Bois de Vincennes à l'ouest côté Fontenay-sous-Bois. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "grande ville résidentielle de l'est collée à Vincennes et au Bois (53 000 habitants), esprit village sur le plateau, pôle d'emploi et de transport majeur à Val de Fontenay, bon compromis prix-accès de l'est parisien côté Fontenay-sous-Bois. Décrire le contraste d'ambiance avec Nogent-sur-Marne."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,5-4 % brut côté Fontenay-sous-Bois). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Fontenay-sous-Bois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Fontenay-sous-Bois, pour qui Nogent-sur-Marne",
+          "contenu": "Verdict par profil. Linker les deux fiches [Fontenay-sous-Bois](/vivre-a/fontenay-sous-bois-94033) et [Nogent-sur-Marne](/vivre-a/nogent-sur-marne-94052)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Fontenay-sous-Bois ou Nogent-sur-Marne : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Fontenay-sous-Bois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Fontenay-sous-Bois",
+        "Nogent-sur-Marne"
+      ]
+    }
   }
 ];
 
