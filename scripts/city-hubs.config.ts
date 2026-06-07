@@ -1110,4 +1110,145 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04"],
     skipSlots: [],
   },
+
+  // Vague boucle nord-ouest (juin 2026). 4 fiches dataset créées (Bezons en Val-d'Oise).
+  colombes: {
+    city: "Colombes",
+    cityShort: "Colombes",
+    base: "colombes",
+    ficheSlug: "colombes-92025",
+    departement: "Hauts-de-Seine",
+    median: 5600,
+    evolutionNote: "en hausse sur 5 ans, ville populaire en valorisation",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "5 800-6 600 €/m²", note: "autour de la gare et de la mairie, Transilien, le plus prisé" },
+      { nom: "Bords de Seine / Île Marante", fourchette: "5 600-6 400 €/m²", note: "cadre vert au bord de l'eau, résidentiel" },
+      { nom: "Europe / Stade Yves-du-Manoir", fourchette: "5 400-6 200 €/m²", note: "site olympique 2024, en valorisation" },
+      { nom: "Petit-Colombes", fourchette: "4 800-5 600 €/m²", note: "ouest populaire, prolongement du T1 à venir, en mutation" },
+      { nom: "Fossés-Jean / Aristide Briand", fourchette: "4 700-5 400 €/m²", note: "nord populaire, le plus abordable" },
+    ],
+    transport:
+      "le Transilien J et L (gares de Colombes, du Stade et Le Stade-Colombes, Saint-Lazare en 15-20 minutes), le tram T2 en limite (Charlebourg), et le futur prolongement du tram T1 vers le Petit-Colombes",
+    contexte:
+      "grande ville populaire en valorisation du nord-ouest (85 000 habitants), bords de Seine, stade Yves-du-Manoir rénové pour les JO 2024, marché accessible et en hausse, contrastes entre un centre prisé et des secteurs populaires à l'ouest",
+    rendement: "3,8-4,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 % (plus de marge à l'ouest et sur l'ancien)",
+    comparison: {
+      city: "Bois-Colombes",
+      base: "bois-colombes",
+      ficheSlug: "bois-colombes-92009",
+      price: 7000,
+      angle:
+        "Colombes, grande, populaire et accessible (5 600 €/m²), face à Bois-Colombes, plus petite, plus chic et nettement plus chère (7 000 €/m²), deux voisines du nord-ouest aux profils opposés",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19", "2026-04-26", "2026-05-03"],
+    skipSlots: [],
+  },
+
+  "bois-colombes": {
+    city: "Bois-Colombes",
+    cityShort: "Bois-Colombes",
+    base: "bois-colombes",
+    ficheSlug: "bois-colombes-92009",
+    departement: "Hauts-de-Seine",
+    median: 7000,
+    evolutionNote: "stable sur 5 ans, marché familial-chic recherché",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "7 200-8 100 €/m²", note: "autour de l'hôtel de ville et du marché, le plus prisé" },
+      { nom: "Les Bruyères", fourchette: "7 000-7 900 €/m²", note: "résidentiel pavillonnaire, calme" },
+      { nom: "Petit-Bois / Gare", fourchette: "6 900-7 700 €/m²", note: "autour de la gare Transilien, pratique" },
+      { nom: "Les Bourguignons", fourchette: "6 900-7 600 €/m²", note: "rues pavillonnaires prisées des familles" },
+      { nom: "Gramme / Pierre Joigneaux", fourchette: "6 800-7 500 €/m²", note: "résidentiel, le plus abordable" },
+    ],
+    transport:
+      "le Transilien J et L (gare de Bois-Colombes, Saint-Lazare en 12 minutes), et la proximité d'Asnières et de la future ligne 15 du Grand Paris Express",
+    contexte:
+      "petite ville résidentielle et familiale-chic du nord-ouest (29 000 habitants), maisons de ville et rues pavillonnaires prisées, écoles réputées, esprit village calme à 12 minutes de Saint-Lazare, l'une des plus recherchées de la boucle nord",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "La Garenne-Colombes",
+      base: "la-garenne-colombes",
+      ficheSlug: "la-garenne-colombes-92035",
+      price: 7400,
+      angle:
+        "Bois-Colombes, village pavillonnaire familial autour de Saint-Lazare (7 000 €/m²), face à La Garenne-Colombes, plus chic, plus dense et un peu plus chère côté La Défense (7 400 €/m²), les deux pépites familiales de la boucle nord",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02"],
+    skipSlots: [],
+  },
+
+  "la-garenne-colombes": {
+    city: "La Garenne-Colombes",
+    cityShort: "La Garenne-Colombes",
+    base: "la-garenne-colombes",
+    ficheSlug: "la-garenne-colombes-92035",
+    departement: "Hauts-de-Seine",
+    median: 7400,
+    evolutionNote: "stable sur 5 ans, marché familial-bourgeois prisé",
+    quartiers: [
+      { nom: "Centre / Place de Belgique", fourchette: "7 500-8 400 €/m²", note: "cœur de ville commerçant, le plus prisé" },
+      { nom: "Faubourg de l'Arche", fourchette: "7 500-8 600 €/m²", note: "immeubles récents en lisière de La Défense, le plus coté" },
+      { nom: "Charlebourg", fourchette: "7 200-8 000 €/m²", note: "tram T2, résidentiel, proche La Défense" },
+      { nom: "Les Vallées", fourchette: "7 100-7 900 €/m²", note: "rues pavillonnaires familiales" },
+      { nom: "Champs-Philippe", fourchette: "7 000-7 800 €/m²", note: "pavillonnaire calme, le plus abordable" },
+    ],
+    transport:
+      "le Transilien L (gare de La Garenne-Colombes, Saint-Lazare en 15 minutes), le tram T2 (Charlebourg vers La Défense et Paris rive gauche), et la proximité immédiate de La Défense et de Courbevoie",
+    contexte:
+      "petite ville résidentielle et bourgeoise du nord-ouest (29 000 habitants), centre commerçant animé autour de la place de Belgique, rues pavillonnaires prisées des familles, à un pas de La Défense, très recherchée pour son équilibre village-emploi",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Courbevoie",
+      base: "courbevoie",
+      ficheSlug: "courbevoie-92026",
+      price: 7500,
+      angle:
+        "La Garenne-Colombes, village familial bourgeois à un pas de La Défense (7 400 €/m²), face à Courbevoie, plus grande, plus dense et adossée au quartier d'affaires (7 500 €/m²), deux voisines du pied de La Défense",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01"],
+    skipSlots: [],
+  },
+
+  bezons: {
+    city: "Bezons",
+    cityShort: "Bezons",
+    base: "bezons",
+    ficheSlug: "bezons-95063",
+    departement: "Val-d'Oise",
+    median: 4300,
+    evolutionNote: "en hausse sur 5 ans, ville en transformation portée par le tram T2",
+    quartiers: [
+      { nom: "Cœur de ville / Bords de Seine", fourchette: "4 800-5 500 €/m²", note: "écoquartier neuf au bord de l'eau, terminus T2, le plus prisé" },
+      { nom: "Centre / Mairie", fourchette: "4 500-5 200 €/m²", note: "autour de l'hôtel de ville, commerces" },
+      { nom: "Bords de Seine est", fourchette: "4 600-5 300 €/m²", note: "résidentiel récent" },
+      { nom: "Agriculture / limite Sartrouville", fourchette: "4 200-4 900 €/m²", note: "pavillonnaire" },
+      { nom: "Val Notre-Dame", fourchette: "4 000-4 700 €/m²", note: "nord, le plus abordable" },
+    ],
+    transport:
+      "le tram T2 en terminus (Bezons, vers La Défense en 15 minutes et Paris rive gauche jusqu'à Porte de Versailles), et l'accès à l'A86 et au pont de Bezons vers Argenteuil",
+    contexte:
+      "ville populaire du Val-d'Oise en pleine transformation (30 000 habitants), nouveau cœur de ville et écoquartier des bords de Seine autour du terminus du tram T2, l'une des entrées les plus abordables de la boucle de Seine reliées à La Défense",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché plus négociable)",
+    comparison: {
+      city: "Nanterre",
+      base: "nanterre",
+      ficheSlug: "nanterre-92050",
+      price: 5400,
+      angle:
+        "Bezons, populaire, en transformation et la plus accessible au terminus du T2 (4 300 €/m²), face à Nanterre, plus grande, plus chère et adossée à La Défense (5 400 €/m²), deux options abordables de l'ouest reliées au quartier d'affaires",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30"],
+    skipSlots: [],
+  },
 };
