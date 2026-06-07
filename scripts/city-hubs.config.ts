@@ -827,4 +827,146 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28", "2026-05-05", "2026-05-12"],
     skipSlots: [],
   },
+
+  // Vague premium-absentes (juin 2026) : fiches créées dans le dataset
+  // (Courbevoie, Puteaux, Montrouge, Vanves) puis hubs complets S1-S7 + vivre.
+  courbevoie: {
+    city: "Courbevoie",
+    cityShort: "Courbevoie",
+    base: "courbevoie",
+    ficheSlug: "courbevoie-92026",
+    departement: "Hauts-de-Seine",
+    median: 7500,
+    evolutionNote: "stable sur 5 ans, marché porté par La Défense",
+    quartiers: [
+      { nom: "Bécon-les-Bruyères", fourchette: "7 500-8 500 €/m²", note: "autour de la gare, esprit village prisé, le plus recherché" },
+      { nom: "Faubourg de l'Arche", fourchette: "7 200-8 200 €/m²", note: "neuf, au pied de La Défense, immeubles récents" },
+      { nom: "Cœur de ville / Charras", fourchette: "7 200-8 000 €/m²", note: "centre, mairie, commerces" },
+      { nom: "Bords de Seine", fourchette: "7 200-8 200 €/m²", note: "façade sur la Seine, vues, recherché" },
+      { nom: "Gambetta / Marceau", fourchette: "6 900-7 700 €/m²", note: "résidentiel, le plus abordable" },
+    ],
+    transport:
+      "le Transilien L (Courbevoie et Bécon-les-Bruyères, Saint-Lazare en 10-12 minutes), le tram T2, et La Défense limitrophe (RER A, métro 1, Châtelet en 20 minutes)",
+    contexte:
+      "grande ville au pied de La Défense (82 000 habitants), entre tours du quartier d'affaires et esprit village à Bécon-les-Bruyères, bords de Seine, profil jeune actif et famille, l'une des portes d'entrée abordables de l'ouest d'affaires",
+    rendement: "3,3-3,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-6 % (plus de marge sur l'ancien, tendu autour de Bécon)",
+    comparison: {
+      city: "Puteaux",
+      base: "puteaux",
+      ficheSlug: "puteaux-92062",
+      price: 8300,
+      angle:
+        "Courbevoie, plus grande, plus familiale et plus accessible avec son village de Bécon (7 500 €/m²), face à Puteaux, plus chère et plus dense collée à La Défense (8 300 €/m²), les deux communes du pied du quartier d'affaires",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04", "2026-05-11"],
+    skipSlots: [],
+  },
+
+  puteaux: {
+    city: "Puteaux",
+    cityShort: "Puteaux",
+    base: "puteaux",
+    ficheSlug: "puteaux-92062",
+    departement: "Hauts-de-Seine",
+    median: 8300,
+    evolutionNote: "stable sur 5 ans, marché premium adossé à La Défense",
+    quartiers: [
+      { nom: "Île de Puteaux / Bords de Seine", fourchette: "8 600-9 600 €/m²", note: "cadre vert au bord de l'eau, île de loisirs, le plus prisé" },
+      { nom: "Vieux Puteaux / Centre", fourchette: "8 300-9 300 €/m²", note: "cœur historique, commerces, esprit village" },
+      { nom: "Chantecoq", fourchette: "8 000-9 000 €/m²", note: "résidentiel pavillonnaire sur les hauteurs" },
+      { nom: "La Défense / Boieldieu", fourchette: "7 900-8 900 €/m²", note: "tours et dalle, au cœur du quartier d'affaires" },
+      { nom: "Bergères", fourchette: "7 800-8 700 €/m²", note: "résidentiel, le plus abordable" },
+    ],
+    transport:
+      "le RER A et le métro 1 à La Défense (limitrophe, Châtelet en 15 minutes), le tram T2 (Puteaux, Belvédère), le Transilien L (Puteaux), et l'île de loisirs sur la Seine",
+    contexte:
+      "ville dense et prospère adossée à La Défense (45 000 habitants), entre vieux village commerçant, île de loisirs sur la Seine et tours du quartier d'affaires, profil cadre et jeune actif, équipements et services réputés généreux",
+    rendement: "3,1-3,6 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-5 % (tendu, plus sur l'ancien à rénover)",
+    comparison: {
+      city: "Suresnes",
+      base: "suresnes",
+      ficheSlug: "suresnes-92073",
+      price: 7800,
+      angle:
+        "Puteaux, plus dense, plus urbaine et collée à La Défense (8 300 €/m²), face à Suresnes, plus résidentielle et un peu moins chère sur les coteaux du Mont-Valérien (7 800 €/m²), deux voisines de l'ouest reliées par le tram T2",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19", "2026-04-26", "2026-05-03", "2026-05-10"],
+    skipSlots: [],
+  },
+
+  montrouge: {
+    city: "Montrouge",
+    cityShort: "Montrouge",
+    base: "montrouge",
+    ficheSlug: "montrouge-92049",
+    departement: "Hauts-de-Seine",
+    median: 8000,
+    evolutionNote: "stable sur 5 ans, marché tendu collé à Paris 14e",
+    quartiers: [
+      { nom: "Jean Jaurès / porte d'Orléans", fourchette: "8 300-9 300 €/m²", note: "collé au 14e, le plus cher" },
+      { nom: "Mairie / Centre", fourchette: "8 200-9 200 €/m²", note: "métro 4 Mairie de Montrouge, commerces, le plus demandé" },
+      { nom: "Ferry / Gautier", fourchette: "7 800-8 700 €/m²", note: "résidentiel familial" },
+      { nom: "Plateau / République", fourchette: "7 700-8 600 €/m²", note: "axe commerçant, animé" },
+      { nom: "Périchaux / sud", fourchette: "7 500-8 300 €/m²", note: "vers Bagneux et la future ligne 15, le plus abordable" },
+    ],
+    transport:
+      "le métro 4 en terminus (Mairie de Montrouge, Châtelet en 15 minutes et Montparnasse en 8), la proximité immédiate de Paris 14e à pied, et le tram T6 à Châtillon tout proche",
+    contexte:
+      "ville dense et prisée collée à la porte d'Orléans (50 000 habitants), quasi un arrondissement parisien, marché et commerces dynamiques, profil jeune cadre et famille en report direct du 14e, prix juste sous ceux de Paris",
+    rendement: "3,2-3,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-5 % (marché très tendu, un peu plus au sud)",
+    comparison: {
+      city: "Vanves",
+      base: "vanves",
+      ficheSlug: "vanves-92075",
+      price: 8200,
+      angle:
+        "Montrouge, plus grande et plus animée collée à la porte d'Orléans et au métro 4 (8 000 €/m²), face à Vanves, plus petite et plus résidentielle côté 15e (8 200 €/m²), deux reports directs du sud de Paris",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02", "2026-05-09"],
+    skipSlots: [],
+  },
+
+  vanves: {
+    city: "Vanves",
+    cityShort: "Vanves",
+    base: "vanves",
+    ficheSlug: "vanves-92075",
+    departement: "Hauts-de-Seine",
+    median: 8200,
+    evolutionNote: "stable sur 5 ans, petit marché tendu côté Paris 15e",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "8 300-9 300 €/m²", note: "autour de l'hôtel de ville, commerces, le plus demandé" },
+      { nom: "Plateau / Métro 13", fourchette: "8 200-9 200 €/m²", note: "M13 Malakoff-Plateau de Vanves, pratique" },
+      { nom: "Quartier de la gare", fourchette: "8 000-9 000 €/m²", note: "Transilien N vers Montparnasse en 4 minutes, recherché" },
+      { nom: "Cabourg / Larmeroux", fourchette: "7 900-8 800 €/m²", note: "résidentiel pavillonnaire calme" },
+      { nom: "Saint-Remy / lisière Issy", fourchette: "7 800-8 700 €/m²", note: "le plus abordable, proche d'Issy" },
+    ],
+    transport:
+      "le métro 13 (Malakoff-Plateau de Vanves), le Transilien N (gare de Vanves-Malakoff, Montparnasse en 4 minutes), et la proximité immédiate de Paris 15e à pied",
+    contexte:
+      "petite ville résidentielle et familiale côté Paris 15e (27 000 habitants), esprit village avec son lycée et son marché, Transilien express vers Montparnasse, l'une des plus recherchées du sud par les familles qui quittent le 15e",
+    rendement: "3,1-3,6 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-5 % (marché tendu et de petite taille)",
+    comparison: {
+      city: "Issy-les-Moulineaux",
+      base: "issy-les-moulineaux",
+      ficheSlug: "issy-les-moulineaux-92040",
+      price: 8500,
+      angle:
+        "Vanves, plus petite, plus village et un peu moins chère côté 15e (8 200 €/m²), face à Issy-les-Moulineaux, plus grande, plus tertiaire et plus chère sur la Seine (8 500 €/m²), deux voisines du sud-ouest très prisées des familles",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01", "2026-05-08"],
+    skipSlots: [],
+  },
 };

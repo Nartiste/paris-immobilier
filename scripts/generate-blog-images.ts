@@ -77,6 +77,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
       sourceUrl: "https://fr.wikipedia.org/wiki/Montreuil_(Seine-Saint-Denis)",
     },
   },
+  {
+    // La page "Montrouge" n'a pas d'image d'infobox : on force le Beffroi, son landmark.
+    match: "montrouge",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Le_Beffroi_%28Montrouge%29_2017.jpg/1280px-Le_Beffroi_%28Montrouge%29_2017.jpg",
+      width: 1280,
+      height: 853,
+      alt: "Le Beffroi, équipement culturel emblématique de Montrouge",
+      credit: "Wikipedia · Montrouge",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Montrouge",
+    },
+  },
 ];
 
 // ============================================================================
