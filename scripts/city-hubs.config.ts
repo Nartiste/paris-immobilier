@@ -969,4 +969,145 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01", "2026-05-08"],
     skipSlots: [],
   },
+
+  // Vague sud-ouest 92 famille (juin 2026). 4 fiches dataset créées en amont.
+  malakoff: {
+    city: "Malakoff",
+    cityShort: "Malakoff",
+    base: "malakoff",
+    ficheSlug: "malakoff-92046",
+    departement: "Hauts-de-Seine",
+    median: 7400,
+    evolutionNote: "en hausse sur 5 ans, gentrification continue côté Paris 14e",
+    quartiers: [
+      { nom: "Centre / Hôtel de ville", fourchette: "7 500-8 300 €/m²", note: "autour de la mairie et du marché, métro 13 Étienne Dolet, le plus prisé" },
+      { nom: "Barreau / porte de Vanves", fourchette: "7 300-8 100 €/m²", note: "collé à Paris 14e, très demandé" },
+      { nom: "Pierre Larousse", fourchette: "7 100-7 900 €/m²", note: "pavillonnaire et ateliers d'artistes, recherché" },
+      { nom: "Plateau de Vanves", fourchette: "7 200-8 000 €/m²", note: "métro 13, pratique" },
+      { nom: "Sud / Prévert-Stalingrad", fourchette: "6 900-7 600 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves, Montparnasse en 8 minutes et Saint-Lazare en 20), le Transilien N à Vanves-Malakoff, et la proximité immédiate de Paris 14e à pied",
+    contexte:
+      "petite ville dense et bobo-populaire collée à Paris 14e (31 000 habitants), esprit village avec son marché et ses maisons d'artistes, gentrification continue, profil jeune cadre et famille, l'une des entrées sud de Paris les plus prisées",
+    rendement: "3,3-3,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 % (marché tendu et de petite taille)",
+    comparison: {
+      city: "Montrouge",
+      base: "montrouge",
+      ficheSlug: "montrouge-92049",
+      price: 8000,
+      angle:
+        "Malakoff, plus bobo-populaire et un peu plus abordable contre Paris 14e (7 400 €/m²), face à Montrouge, plus bourgeoise et plus chère juste à côté (8 000 €/m²), deux entrées sud de Paris très prisées des familles",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30", "2026-05-07"],
+    skipSlots: [],
+  },
+
+  chatillon: {
+    city: "Châtillon",
+    cityShort: "Châtillon",
+    base: "chatillon",
+    ficheSlug: "chatillon-92020",
+    departement: "Hauts-de-Seine",
+    median: 6900,
+    evolutionNote: "en hausse sur 5 ans, marché porté par la ligne 15 à venir",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "7 000-7 800 €/m²", note: "autour de l'hôtel de ville, métro 13 Châtillon-Montrouge, le plus prisé" },
+      { nom: "Division Leclerc", fourchette: "6 800-7 500 €/m²", note: "axe commerçant, tram T6" },
+      { nom: "Coteaux / Parc", fourchette: "6 700-7 400 €/m²", note: "pavillonnaire calme sur les hauteurs" },
+      { nom: "Sablons / limite Bagneux", fourchette: "6 500-7 200 €/m²", note: "résidentiel" },
+      { nom: "Est / Vauban", fourchette: "6 400-7 100 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 13 en terminus (Châtillon-Montrouge, Montparnasse en 10 minutes), le tram T6 vers Vélizy et Viroflay, la future ligne 15 Sud du Grand Paris Express à Châtillon-Montrouge (mise en service vers 2025-2026), et l'accès à l'A86",
+    contexte:
+      "ville résidentielle et familiale du sud (37 000 habitants), terminus du métro 13, pôle de transport renforcé par la ligne 15, commerces sur l'avenue de la Division Leclerc, bon rapport accès-prix de la première couronne sud",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Clamart",
+      base: "clamart",
+      ficheSlug: "clamart-92023",
+      price: 6500,
+      angle:
+        "Châtillon, dense, en terminus du métro 13 et boostée par la ligne 15 (6 900 €/m²), face à Clamart, plus grande, plus verte et un peu plus abordable (6 500 €/m²), deux voisines du sud-ouest reliées par le tram T6",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29", "2026-05-06"],
+    skipSlots: [],
+  },
+
+  sceaux: {
+    city: "Sceaux",
+    cityShort: "Sceaux",
+    base: "sceaux",
+    ficheSlug: "sceaux-92071",
+    departement: "Hauts-de-Seine",
+    median: 7600,
+    evolutionNote: "stable sur 5 ans, marché de prestige familial",
+    quartiers: [
+      { nom: "Parc de Sceaux / Coulée verte", fourchette: "7 800-9 200 €/m²", note: "villas en lisière du parc, le plus coté" },
+      { nom: "Centre / Rue Houdan", fourchette: "7 800-9 000 €/m²", note: "cœur historique piéton, commerces, le plus demandé" },
+      { nom: "Charaire / Musiciens", fourchette: "7 200-8 200 €/m²", note: "résidentiel pavillonnaire" },
+      { nom: "Petit-Chambord", fourchette: "7 200-8 000 €/m²", note: "calme, proche du RER Sceaux" },
+      { nom: "Blagis / limite Fontenay-aux-Roses", fourchette: "6 800-7 600 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER B (gares Sceaux, Robinson en terminus et Parc de Sceaux, Châtelet en 20-25 minutes et Denfert-Rochereau en 15), et le parc de Sceaux de 180 hectares dessiné par Le Nôtre",
+    contexte:
+      "ville bourgeoise et verdoyante du sud (20 000 habitants), célèbre parc de Sceaux, lycées Lakanal et Marie Curie réputés, rue Houdan piétonne, profil familial aisé très recherché des Parisiens en quête d'écoles et de verdure",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 % (tendu sur le centre et le parc, plus sur l'ancien à rénover)",
+    comparison: {
+      city: "Antony",
+      base: "antony",
+      ficheSlug: "antony-92002",
+      price: 6100,
+      angle:
+        "Sceaux, bourgeoise, verte et prestigieuse autour de son parc et de ses lycées (7 600 €/m²), face à Antony, plus grande, plus accessible et plus diverse sur le RER B (6 100 €/m²), deux voisines du sud qui se partagent le parc de Sceaux",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28", "2026-05-05"],
+    skipSlots: [],
+  },
+
+  clamart: {
+    city: "Clamart",
+    cityShort: "Clamart",
+    base: "clamart",
+    ficheSlug: "clamart-92023",
+    departement: "Hauts-de-Seine",
+    median: 6500,
+    evolutionNote: "en hausse sur 5 ans, marché porté par les écoquartiers et la ligne 15",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "6 800-7 600 €/m²", note: "autour de la gare Transilien N, commerces, le plus prisé" },
+      { nom: "Jardin Parisien / Panorama", fourchette: "6 500-7 400 €/m²", note: "écoquartiers neufs près de la future gare ligne 15, en valorisation" },
+      { nom: "Trivaux / Garenne", fourchette: "6 200-7 000 €/m²", note: "en lisière de la forêt de Meudon, résidentiel" },
+      { nom: "Percy / Schneider", fourchette: "6 300-7 100 €/m²", note: "pavillonnaire familial" },
+      { nom: "Le Petit-Clamart", fourchette: "5 800-6 600 €/m²", note: "sud, plus excentré, le plus abordable" },
+    ],
+    transport:
+      "le Transilien N (gare de Clamart, Montparnasse en 8 minutes), le tram T6 (Châtillon vers Vélizy-Viroflay), la future ligne 15 Sud du Grand Paris Express à Fort d'Issy-Vanves-Clamart (vers 2025-2026), et la forêt domaniale de Meudon-Clamart",
+    contexte:
+      "grande ville résidentielle et verte du sud-ouest (53 000 habitants), entre la forêt de Meudon et les écoquartiers neufs (Jardin Parisien, Panorama), pôle renforcé par la ligne 15, profil familial, bon compromis prix-nature de la première couronne",
+    rendement: "3,3-3,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Issy-les-Moulineaux",
+      base: "issy-les-moulineaux",
+      ficheSlug: "issy-les-moulineaux-92040",
+      price: 8500,
+      angle:
+        "Clamart, plus verte, plus familiale et nettement plus accessible (6 500 €/m²), face à Issy-les-Moulineaux, plus dense, plus chère et quasi parisienne (8 500 €/m²), deux options du sud-ouest des Hauts-de-Seine",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04"],
+    skipSlots: [],
+  },
 };

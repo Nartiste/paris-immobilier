@@ -78,6 +78,31 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Malakoff" est une page d'homonymie (bataille de Crimée…) sans image : on force l'hôtel de ville.
+    // Placé avant "montrouge" pour que malakoff-ou-montrouge prenne bien l'image de Malakoff.
+    match: "malakoff",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/H%C3%B4tel_ville_Malakoff_Hauts_Seine_1.jpg/1280px-H%C3%B4tel_ville_Malakoff_Hauts_Seine_1.jpg",
+      width: 1280,
+      height: 960,
+      alt: "Hôtel de ville de Malakoff, Hauts-de-Seine",
+      credit: "Wikipedia · Malakoff",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Malakoff_(Hauts-de-Seine)",
+    },
+  },
+  {
+    // "Châtillon" est une page d'homonymie : on force l'église Notre-Dame-du-Calvaire (monument classé).
+    match: "chatillon",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%C3%89glise_Notre-Dame-du-Calvaire_-_Ch%C3%A2tillon_-_Haut-de-Seine_%E2%80%93_France_%E2%80%93_M%C3%A9rim%C3%A9e_PA92000012_%282%29.jpg/1280px-%C3%89glise_Notre-Dame-du-Calvaire_-_Ch%C3%A2tillon_-_Haut-de-Seine_%E2%80%93_France_%E2%80%93_M%C3%A9rim%C3%A9e_PA92000012_%282%29.jpg",
+      width: 1280,
+      height: 960,
+      alt: "Église Notre-Dame-du-Calvaire de Châtillon, monument classé",
+      credit: "Wikipedia · Châtillon",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Ch%C3%A2tillon_(Hauts-de-Seine)",
+    },
+  },
+  {
     // La page "Montrouge" n'a pas d'image d'infobox : on force le Beffroi, son landmark.
     match: "montrouge",
     image: {

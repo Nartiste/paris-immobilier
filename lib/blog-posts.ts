@@ -19913,6 +19913,2026 @@ export const BLOG_POSTS: BlogPost[] = [
         "Issy-les-Moulineaux"
       ]
     }
+  },
+  {
+    "slug": "vivre-a-malakoff-2026",
+    "title": "Vivre à Malakoff en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Malakoff ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-19",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Malakoff et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Malakoff' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Malakoff : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Malakoff : petite ville dense et bobo-populaire collée à Paris 14e (31 000 habitants), esprit village avec son marché et ses maisons d'artistes, gentrification continue, profil jeune cadre et famille, l'une des entrées sud de Paris les plus prisées. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (7400 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Malakoff",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Hôtel de ville (7 500-8 300 €/m², autour de la mairie et du marché, métro 13 Étienne Dolet, le plus prisé) ; Barreau / porte de Vanves (7 300-8 100 €/m², collé à Paris 14e, très demandé) ; Pierre Larousse (7 100-7 900 €/m², pavillonnaire et ateliers d'artistes, recherché) ; Plateau de Vanves (7 200-8 000 €/m², métro 13, pratique) ; Sud / Prévert-Stalingrad (6 900-7 600 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-malakoff-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-malakoff-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves, Montparnasse en 8 minutes et Saint-Lazare en 20), le Transilien N à Vanves-Malakoff, et la proximité immédiate de Paris 14e à pied. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "petite ville dense et bobo-populaire collée à Paris 14e (31 000 habitants), esprit village avec son marché et ses maisons d'artistes, gentrification continue, profil jeune cadre et famille, l'une des entrées sud de Paris les plus prisées. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Malakoff (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Malakoff est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Malakoff colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Malakoff](/vivre-a/malakoff-92046) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-malakoff-2026-par-quartier) ou [l'arbitrage quitter Paris pour Malakoff](/blog/quitter-paris-pour-malakoff-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Malakoff, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Malakoff aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-malakoff-2026-par-quartier",
+    "title": "Prix immobilier Malakoff 2026 : le vrai prix par quartier",
+    "description": "7400 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-26",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Malakoff qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '7400 €/m² de médiane à Malakoff, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 7400 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Hôtel de ville) et le plus abordable (Sud / Prévert-Stalingrad). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Hôtel de ville (7 500-8 300 €/m², autour de la mairie et du marché, métro 13 Étienne Dolet, le plus prisé) ; Barreau / porte de Vanves (7 300-8 100 €/m², collé à Paris 14e, très demandé) ; Pierre Larousse (7 100-7 900 €/m², pavillonnaire et ateliers d'artistes, recherché) ; Plateau de Vanves (7 200-8 000 €/m², métro 13, pratique) ; Sud / Prévert-Stalingrad (6 900-7 600 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Hôtel de ville : 7 500-8 300 €/m²",
+          "contenu": "autour de la mairie et du marché, métro 13 Étienne Dolet, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Barreau / porte de Vanves : 7 300-8 100 €/m²",
+          "contenu": "collé à Paris 14e, très demandé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Pierre Larousse : 7 100-7 900 €/m²",
+          "contenu": "pavillonnaire et ateliers d'artistes, recherché. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau de Vanves : 7 200-8 000 €/m²",
+          "contenu": "métro 13, pratique. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Sud / Prévert-Stalingrad : 6 900-7 600 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Malakoff à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-malakoff-acheter-2026) et la fiche [Malakoff](/vivre-a/malakoff-92046)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Malakoff en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Malakoff et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-malakoff-acheter-2026",
+    "title": "Meilleur quartier de Malakoff pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Malakoff le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-02",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Malakoff mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Malakoff n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Malakoff le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Hôtel de ville, Barreau / porte de Vanves, Pierre Larousse, Plateau de Vanves, Sud / Prévert-Stalingrad. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-malakoff-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Sud / Prévert-Stalingrad et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Hôtel de ville et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Malakoff ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Malakoff ou Montrouge](/blog/malakoff-ou-montrouge-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Malakoff, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Malakoff se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-malakoff-achat-2026",
+    "title": "Malakoff : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Malakoff, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-09",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Malakoff (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Malakoff est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Malakoff",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Sud / Prévert-Stalingrad et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Malakoff colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-malakoff-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Malakoff et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Malakoff aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "investir-malakoff-rendement-locatif-2026",
+    "title": "Investir à Malakoff en 2026 : rendement réel par quartier",
+    "description": "3,3-3,8 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Malakoff a du sens.",
+    "publishedAt": "2026-04-16",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,3-3,8 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Malakoff (3,3-3,8 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Malakoff",
+          "contenu": "3,3-3,8 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Hôtel de ville = valeur refuge, rendement minimal. Sud / Prévert-Stalingrad = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Malakoff à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Malakoff a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-malakoff-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Malakoff, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Malakoff et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-malakoff-arbitrage-2026",
+    "title": "Quitter Paris pour Malakoff : le vrai calcul en 2026",
+    "description": "Malakoff face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-23",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Malakoff.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Malakoff et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Malakoff : petite ville dense et bobo-populaire collée à Paris 14e (31 000 habitants), esprit village avec son marché et ses maisons d'artistes, gentrification continue, profil jeune cadre et famille, l'une des entrées sud de Paris les plus prisées. Desserte le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves, Montparnasse en 8 minutes et Saint-Lazare en 20), le Transilien N à Vanves-Malakoff, et la proximité immédiate de Paris 14e à pied. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 7400 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Malakoff, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Malakoff (7400 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "petite ville dense et bobo-populaire collée à Paris 14e (31 000 habitants), esprit village avec son marché et ses maisons d'artistes, gentrification continue, profil jeune cadre et famille, l'une des entrées sud de Paris les plus prisées. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves, Montparnasse en 8 minutes et Saint-Lazare en 20), le Transilien N à Vanves-Malakoff, et la proximité immédiate de Paris 14e à pied. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Malakoff ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-malakoff-2026-guide-complet) et [Malakoff ou Montrouge](/blog/malakoff-ou-montrouge-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Malakoff, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Malakoff se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-malakoff",
+    "title": "Acheter à Malakoff : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 3-5 % (marché tendu et de petite taille). Le coût total réel d'un achat à Malakoff, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-30",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Malakoff, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 3-5 % (marché tendu et de petite taille), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 3-5 % (marché tendu et de petite taille). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Malakoff",
+          "contenu": "Marge réaliste 3-5 % (marché tendu et de petite taille). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Malakoff colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-malakoff-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-malakoff-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Malakoff, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Malakoff aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff"
+      ]
+    }
+  },
+  {
+    "slug": "malakoff-ou-montrouge-acheter-2026",
+    "title": "Malakoff ou Montrouge : où acheter en 2026",
+    "description": "Malakoff, plus bobo-populaire et un peu plus abordable contre Paris 14e (7 400 €/m²), face à Montrouge, plus bourgeoise et plus chère juste à côté (8 000 €/m²), deux entrées sud de Paris très prisées des familles. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-07",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Malakoff et Montrouge, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Malakoff, plus bobo-populaire et un peu plus abordable contre Paris 14e (7 400 €/m²), face à Montrouge, plus bourgeoise et plus chère juste à côté (8 000 €/m²), deux entrées sud de Paris très prisées des familles. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Malakoff, plus bobo-populaire et un peu plus abordable contre Paris 14e (7 400 €/m²), face à Montrouge, plus bourgeoise et plus chère juste à côté (8 000 €/m²), deux entrées sud de Paris très prisées des familles. Malakoff 7400 €/m² vs Montrouge 8000 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Malakoff | Montrouge) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Malakoff 7400 €/m² vs Montrouge 8000 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le métro 13 (Malakoff-Rue Étienne Dolet et Malakoff-Plateau de Vanves, Montparnasse en 8 minutes et Saint-Lazare en 20), le Transilien N à Vanves-Malakoff, et la proximité immédiate de Paris 14e à pied côté Malakoff. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "petite ville dense et bobo-populaire collée à Paris 14e (31 000 habitants), esprit village avec son marché et ses maisons d'artistes, gentrification continue, profil jeune cadre et famille, l'une des entrées sud de Paris les plus prisées côté Malakoff. Décrire le contraste d'ambiance avec Montrouge."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,3-3,8 % brut côté Malakoff). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Malakoff à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Malakoff, pour qui Montrouge",
+          "contenu": "Verdict par profil. Linker les deux fiches [Malakoff](/vivre-a/malakoff-92046) et [Montrouge](/vivre-a/montrouge-92049)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Malakoff ou Montrouge : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Malakoff et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Malakoff",
+        "Montrouge"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-chatillon-2026",
+    "title": "Vivre à Châtillon en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Châtillon ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-18",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Châtillon et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Châtillon' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Châtillon : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Châtillon : ville résidentielle et familiale du sud (37 000 habitants), terminus du métro 13, pôle de transport renforcé par la ligne 15, commerces sur l'avenue de la Division Leclerc, bon rapport accès-prix de la première couronne sud. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (6900 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Châtillon",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Mairie (7 000-7 800 €/m², autour de l'hôtel de ville, métro 13 Châtillon-Montrouge, le plus prisé) ; Division Leclerc (6 800-7 500 €/m², axe commerçant, tram T6) ; Coteaux / Parc (6 700-7 400 €/m², pavillonnaire calme sur les hauteurs) ; Sablons / limite Bagneux (6 500-7 200 €/m², résidentiel) ; Est / Vauban (6 400-7 100 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-chatillon-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-chatillon-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le métro 13 en terminus (Châtillon-Montrouge, Montparnasse en 10 minutes), le tram T6 vers Vélizy et Viroflay, la future ligne 15 Sud du Grand Paris Express à Châtillon-Montrouge (mise en service vers 2025-2026), et l'accès à l'A86. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville résidentielle et familiale du sud (37 000 habitants), terminus du métro 13, pôle de transport renforcé par la ligne 15, commerces sur l'avenue de la Division Leclerc, bon rapport accès-prix de la première couronne sud. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Châtillon (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Châtillon est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Châtillon colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Châtillon](/vivre-a/chatillon-92020) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-chatillon-2026-par-quartier) ou [l'arbitrage quitter Paris pour Châtillon](/blog/quitter-paris-pour-chatillon-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Châtillon, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Châtillon aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-chatillon-2026-par-quartier",
+    "title": "Prix immobilier Châtillon 2026 : le vrai prix par quartier",
+    "description": "6900 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-25",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Châtillon qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '6900 €/m² de médiane à Châtillon, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 6900 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Mairie) et le plus abordable (Est / Vauban). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Mairie (7 000-7 800 €/m², autour de l'hôtel de ville, métro 13 Châtillon-Montrouge, le plus prisé) ; Division Leclerc (6 800-7 500 €/m², axe commerçant, tram T6) ; Coteaux / Parc (6 700-7 400 €/m², pavillonnaire calme sur les hauteurs) ; Sablons / limite Bagneux (6 500-7 200 €/m², résidentiel) ; Est / Vauban (6 400-7 100 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Mairie : 7 000-7 800 €/m²",
+          "contenu": "autour de l'hôtel de ville, métro 13 Châtillon-Montrouge, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Division Leclerc : 6 800-7 500 €/m²",
+          "contenu": "axe commerçant, tram T6. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Coteaux / Parc : 6 700-7 400 €/m²",
+          "contenu": "pavillonnaire calme sur les hauteurs. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Sablons / limite Bagneux : 6 500-7 200 €/m²",
+          "contenu": "résidentiel. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Est / Vauban : 6 400-7 100 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Châtillon à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-chatillon-acheter-2026) et la fiche [Châtillon](/vivre-a/chatillon-92020)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Châtillon en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Châtillon et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-chatillon-acheter-2026",
+    "title": "Meilleur quartier de Châtillon pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Châtillon le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-01",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Châtillon mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Châtillon n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Châtillon le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Mairie, Division Leclerc, Coteaux / Parc, Sablons / limite Bagneux, Est / Vauban. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-chatillon-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Est / Vauban et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Mairie et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le métro 13 en terminus (Châtillon-Montrouge). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Châtillon ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Châtillon ou Clamart](/blog/chatillon-ou-clamart-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Châtillon, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Châtillon se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-chatillon-achat-2026",
+    "title": "Châtillon : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Châtillon, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-08",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Châtillon (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Châtillon est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Châtillon",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Est / Vauban et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Châtillon colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-chatillon-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Châtillon et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Châtillon aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "investir-chatillon-rendement-locatif-2026",
+    "title": "Investir à Châtillon en 2026 : rendement réel par quartier",
+    "description": "3,5-4 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Châtillon a du sens.",
+    "publishedAt": "2026-04-15",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,5-4 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Châtillon (3,5-4 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le métro 13 en terminus (Châtillon-Montrouge) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Châtillon",
+          "contenu": "3,5-4 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le métro 13 en terminus (Châtillon-Montrouge, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Mairie = valeur refuge, rendement minimal. Est / Vauban = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Châtillon à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Châtillon a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-chatillon-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Châtillon, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Châtillon et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-chatillon-arbitrage-2026",
+    "title": "Quitter Paris pour Châtillon : le vrai calcul en 2026",
+    "description": "Châtillon face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-22",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Châtillon.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Châtillon et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Châtillon : ville résidentielle et familiale du sud (37 000 habitants), terminus du métro 13, pôle de transport renforcé par la ligne 15, commerces sur l'avenue de la Division Leclerc, bon rapport accès-prix de la première couronne sud. Desserte le métro 13 en terminus (Châtillon-Montrouge, Montparnasse en 10 minutes), le tram T6 vers Vélizy et Viroflay, la future ligne 15 Sud du Grand Paris Express à Châtillon-Montrouge (mise en service vers 2025-2026), et l'accès à l'A86. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 6900 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Châtillon, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Châtillon (6900 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville résidentielle et familiale du sud (37 000 habitants), terminus du métro 13, pôle de transport renforcé par la ligne 15, commerces sur l'avenue de la Division Leclerc, bon rapport accès-prix de la première couronne sud. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le métro 13 en terminus (Châtillon-Montrouge, Montparnasse en 10 minutes), le tram T6 vers Vélizy et Viroflay, la future ligne 15 Sud du Grand Paris Express à Châtillon-Montrouge (mise en service vers 2025-2026), et l'accès à l'A86. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Châtillon ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-chatillon-2026-guide-complet) et [Châtillon ou Clamart](/blog/chatillon-ou-clamart-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Châtillon, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Châtillon se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-chatillon",
+    "title": "Acheter à Châtillon : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Châtillon, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-29",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Châtillon, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Châtillon",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Châtillon colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-chatillon-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-chatillon-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Châtillon, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Châtillon aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon"
+      ]
+    }
+  },
+  {
+    "slug": "chatillon-ou-clamart-acheter-2026",
+    "title": "Châtillon ou Clamart : où acheter en 2026",
+    "description": "Châtillon, dense, en terminus du métro 13 et boostée par la ligne 15 (6 900 €/m²), face à Clamart, plus grande, plus verte et un peu plus abordable (6 500 €/m²), deux voisines du sud-ouest reliées par le tram T6. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-06",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Châtillon et Clamart, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Châtillon, dense, en terminus du métro 13 et boostée par la ligne 15 (6 900 €/m²), face à Clamart, plus grande, plus verte et un peu plus abordable (6 500 €/m²), deux voisines du sud-ouest reliées par le tram T6. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Châtillon, dense, en terminus du métro 13 et boostée par la ligne 15 (6 900 €/m²), face à Clamart, plus grande, plus verte et un peu plus abordable (6 500 €/m²), deux voisines du sud-ouest reliées par le tram T6. Châtillon 6900 €/m² vs Clamart 6500 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Châtillon | Clamart) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Châtillon 6900 €/m² vs Clamart 6500 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le métro 13 en terminus (Châtillon-Montrouge, Montparnasse en 10 minutes), le tram T6 vers Vélizy et Viroflay, la future ligne 15 Sud du Grand Paris Express à Châtillon-Montrouge (mise en service vers 2025-2026), et l'accès à l'A86 côté Châtillon. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville résidentielle et familiale du sud (37 000 habitants), terminus du métro 13, pôle de transport renforcé par la ligne 15, commerces sur l'avenue de la Division Leclerc, bon rapport accès-prix de la première couronne sud côté Châtillon. Décrire le contraste d'ambiance avec Clamart."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,5-4 % brut côté Châtillon). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Châtillon à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Châtillon, pour qui Clamart",
+          "contenu": "Verdict par profil. Linker les deux fiches [Châtillon](/vivre-a/chatillon-92020) et [Clamart](/vivre-a/clamart-92023)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Châtillon ou Clamart : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Châtillon et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Châtillon",
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-sceaux-2026",
+    "title": "Vivre à Sceaux en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Sceaux ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-17",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Sceaux et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Sceaux' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Sceaux : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Sceaux : ville bourgeoise et verdoyante du sud (20 000 habitants), célèbre parc de Sceaux, lycées Lakanal et Marie Curie réputés, rue Houdan piétonne, profil familial aisé très recherché des Parisiens en quête d'écoles et de verdure. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (7600 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Sceaux",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Parc de Sceaux / Coulée verte (7 800-9 200 €/m², villas en lisière du parc, le plus coté) ; Centre / Rue Houdan (7 800-9 000 €/m², cœur historique piéton, commerces, le plus demandé) ; Charaire / Musiciens (7 200-8 200 €/m², résidentiel pavillonnaire) ; Petit-Chambord (7 200-8 000 €/m², calme, proche du RER Sceaux) ; Blagis / limite Fontenay-aux-Roses (6 800-7 600 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-sceaux-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-sceaux-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER B (gares Sceaux, Robinson en terminus et Parc de Sceaux, Châtelet en 20-25 minutes et Denfert-Rochereau en 15), et le parc de Sceaux de 180 hectares dessiné par Le Nôtre. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville bourgeoise et verdoyante du sud (20 000 habitants), célèbre parc de Sceaux, lycées Lakanal et Marie Curie réputés, rue Houdan piétonne, profil familial aisé très recherché des Parisiens en quête d'écoles et de verdure. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Sceaux (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Sceaux est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sceaux colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Sceaux](/vivre-a/sceaux-92071) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-sceaux-2026-par-quartier) ou [l'arbitrage quitter Paris pour Sceaux](/blog/quitter-paris-pour-sceaux-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Sceaux, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sceaux aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-sceaux-2026-par-quartier",
+    "title": "Prix immobilier Sceaux 2026 : le vrai prix par quartier",
+    "description": "7600 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-24",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Sceaux qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '7600 €/m² de médiane à Sceaux, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 7600 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Parc de Sceaux / Coulée verte) et le plus abordable (Blagis / limite Fontenay-aux-Roses). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Parc de Sceaux / Coulée verte (7 800-9 200 €/m², villas en lisière du parc, le plus coté) ; Centre / Rue Houdan (7 800-9 000 €/m², cœur historique piéton, commerces, le plus demandé) ; Charaire / Musiciens (7 200-8 200 €/m², résidentiel pavillonnaire) ; Petit-Chambord (7 200-8 000 €/m², calme, proche du RER Sceaux) ; Blagis / limite Fontenay-aux-Roses (6 800-7 600 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Parc de Sceaux / Coulée verte : 7 800-9 200 €/m²",
+          "contenu": "villas en lisière du parc, le plus coté. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Centre / Rue Houdan : 7 800-9 000 €/m²",
+          "contenu": "cœur historique piéton, commerces, le plus demandé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Charaire / Musiciens : 7 200-8 200 €/m²",
+          "contenu": "résidentiel pavillonnaire. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Petit-Chambord : 7 200-8 000 €/m²",
+          "contenu": "calme, proche du RER Sceaux. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Blagis / limite Fontenay-aux-Roses : 6 800-7 600 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sceaux à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-sceaux-acheter-2026) et la fiche [Sceaux](/vivre-a/sceaux-92071)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Sceaux en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sceaux et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-sceaux-acheter-2026",
+    "title": "Meilleur quartier de Sceaux pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Sceaux le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-31",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Sceaux mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Sceaux n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Sceaux le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Parc de Sceaux / Coulée verte, Centre / Rue Houdan, Charaire / Musiciens, Petit-Chambord, Blagis / limite Fontenay-aux-Roses. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-sceaux-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Blagis / limite Fontenay-aux-Roses et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Parc de Sceaux / Coulée verte et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER B (gares Sceaux). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Sceaux ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Sceaux ou Antony](/blog/sceaux-ou-antony-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Sceaux, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Sceaux se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-sceaux-achat-2026",
+    "title": "Sceaux : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Sceaux, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-07",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Sceaux (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Sceaux est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Sceaux",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Blagis / limite Fontenay-aux-Roses et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sceaux colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-sceaux-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Sceaux et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sceaux aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "investir-sceaux-rendement-locatif-2026",
+    "title": "Investir à Sceaux en 2026 : rendement réel par quartier",
+    "description": "2,8-3,3 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Sceaux a du sens.",
+    "publishedAt": "2026-04-14",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (2,8-3,3 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Sceaux (2,8-3,3 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER B (gares Sceaux) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Sceaux",
+          "contenu": "2,8-3,3 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER B (gares Sceaux, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Parc de Sceaux / Coulée verte = valeur refuge, rendement minimal. Blagis / limite Fontenay-aux-Roses = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sceaux à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Sceaux a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-sceaux-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Sceaux, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sceaux et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-sceaux-arbitrage-2026",
+    "title": "Quitter Paris pour Sceaux : le vrai calcul en 2026",
+    "description": "Sceaux face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-21",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Sceaux.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Sceaux et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Sceaux : ville bourgeoise et verdoyante du sud (20 000 habitants), célèbre parc de Sceaux, lycées Lakanal et Marie Curie réputés, rue Houdan piétonne, profil familial aisé très recherché des Parisiens en quête d'écoles et de verdure. Desserte le RER B (gares Sceaux, Robinson en terminus et Parc de Sceaux, Châtelet en 20-25 minutes et Denfert-Rochereau en 15), et le parc de Sceaux de 180 hectares dessiné par Le Nôtre. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 7600 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Sceaux, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Sceaux (7600 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville bourgeoise et verdoyante du sud (20 000 habitants), célèbre parc de Sceaux, lycées Lakanal et Marie Curie réputés, rue Houdan piétonne, profil familial aisé très recherché des Parisiens en quête d'écoles et de verdure. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER B (gares Sceaux, Robinson en terminus et Parc de Sceaux, Châtelet en 20-25 minutes et Denfert-Rochereau en 15), et le parc de Sceaux de 180 hectares dessiné par Le Nôtre. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Sceaux ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-sceaux-2026-guide-complet) et [Sceaux ou Antony](/blog/sceaux-ou-antony-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Sceaux, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Sceaux se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-sceaux",
+    "title": "Acheter à Sceaux : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 3-5 % (tendu sur le centre et le parc, plus sur l'ancien à rénover). Le coût total réel d'un achat à Sceaux, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-28",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Sceaux, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 3-5 % (tendu sur le centre et le parc, plus sur l'ancien à rénover), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 3-5 % (tendu sur le centre et le parc, plus sur l'ancien à rénover). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Sceaux",
+          "contenu": "Marge réaliste 3-5 % (tendu sur le centre et le parc, plus sur l'ancien à rénover). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sceaux colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-sceaux-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-sceaux-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Sceaux, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sceaux aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux"
+      ]
+    }
+  },
+  {
+    "slug": "sceaux-ou-antony-acheter-2026",
+    "title": "Sceaux ou Antony : où acheter en 2026",
+    "description": "Sceaux, bourgeoise, verte et prestigieuse autour de son parc et de ses lycées (7 600 €/m²), face à Antony, plus grande, plus accessible et plus diverse sur le RER B (6 100 €/m²), deux voisines du sud qui se partagent le parc de Sceaux. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-05",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Sceaux et Antony, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Sceaux, bourgeoise, verte et prestigieuse autour de son parc et de ses lycées (7 600 €/m²), face à Antony, plus grande, plus accessible et plus diverse sur le RER B (6 100 €/m²), deux voisines du sud qui se partagent le parc de Sceaux. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Sceaux, bourgeoise, verte et prestigieuse autour de son parc et de ses lycées (7 600 €/m²), face à Antony, plus grande, plus accessible et plus diverse sur le RER B (6 100 €/m²), deux voisines du sud qui se partagent le parc de Sceaux. Sceaux 7600 €/m² vs Antony 6100 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Sceaux | Antony) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Sceaux 7600 €/m² vs Antony 6100 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER B (gares Sceaux, Robinson en terminus et Parc de Sceaux, Châtelet en 20-25 minutes et Denfert-Rochereau en 15), et le parc de Sceaux de 180 hectares dessiné par Le Nôtre côté Sceaux. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville bourgeoise et verdoyante du sud (20 000 habitants), célèbre parc de Sceaux, lycées Lakanal et Marie Curie réputés, rue Houdan piétonne, profil familial aisé très recherché des Parisiens en quête d'écoles et de verdure côté Sceaux. Décrire le contraste d'ambiance avec Antony."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (2,8-3,3 % brut côté Sceaux). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sceaux à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Sceaux, pour qui Antony",
+          "contenu": "Verdict par profil. Linker les deux fiches [Sceaux](/vivre-a/sceaux-92071) et [Antony](/vivre-a/antony-92002)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Sceaux ou Antony : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sceaux et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sceaux",
+        "Antony"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-clamart-2026",
+    "title": "Vivre à Clamart en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Clamart ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-16",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Clamart et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Clamart' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Clamart : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Clamart : grande ville résidentielle et verte du sud-ouest (53 000 habitants), entre la forêt de Meudon et les écoquartiers neufs (Jardin Parisien, Panorama), pôle renforcé par la ligne 15, profil familial, bon compromis prix-nature de la première couronne. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (6500 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Clamart",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (6 800-7 600 €/m², autour de la gare Transilien N, commerces, le plus prisé) ; Jardin Parisien / Panorama (6 500-7 400 €/m², écoquartiers neufs près de la future gare ligne 15, en valorisation) ; Trivaux / Garenne (6 200-7 000 €/m², en lisière de la forêt de Meudon, résidentiel) ; Percy / Schneider (6 300-7 100 €/m², pavillonnaire familial) ; Le Petit-Clamart (5 800-6 600 €/m², sud, plus excentré, le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-clamart-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-clamart-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le Transilien N (gare de Clamart, Montparnasse en 8 minutes), le tram T6 (Châtillon vers Vélizy-Viroflay), la future ligne 15 Sud du Grand Paris Express à Fort d'Issy-Vanves-Clamart (vers 2025-2026), et la forêt domaniale de Meudon-Clamart. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "grande ville résidentielle et verte du sud-ouest (53 000 habitants), entre la forêt de Meudon et les écoquartiers neufs (Jardin Parisien, Panorama), pôle renforcé par la ligne 15, profil familial, bon compromis prix-nature de la première couronne. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Clamart (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Clamart est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Clamart colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Clamart](/vivre-a/clamart-92023) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-clamart-2026-par-quartier) ou [l'arbitrage quitter Paris pour Clamart](/blog/quitter-paris-pour-clamart-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Clamart, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Clamart aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-clamart-2026-par-quartier",
+    "title": "Prix immobilier Clamart 2026 : le vrai prix par quartier",
+    "description": "6500 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-23",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Clamart qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '6500 €/m² de médiane à Clamart, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 6500 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Le Petit-Clamart). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (6 800-7 600 €/m², autour de la gare Transilien N, commerces, le plus prisé) ; Jardin Parisien / Panorama (6 500-7 400 €/m², écoquartiers neufs près de la future gare ligne 15, en valorisation) ; Trivaux / Garenne (6 200-7 000 €/m², en lisière de la forêt de Meudon, résidentiel) ; Percy / Schneider (6 300-7 100 €/m², pavillonnaire familial) ; Le Petit-Clamart (5 800-6 600 €/m², sud, plus excentré, le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 6 800-7 600 €/m²",
+          "contenu": "autour de la gare Transilien N, commerces, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Jardin Parisien / Panorama : 6 500-7 400 €/m²",
+          "contenu": "écoquartiers neufs près de la future gare ligne 15, en valorisation. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Trivaux / Garenne : 6 200-7 000 €/m²",
+          "contenu": "en lisière de la forêt de Meudon, résidentiel. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Percy / Schneider : 6 300-7 100 €/m²",
+          "contenu": "pavillonnaire familial. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Le Petit-Clamart : 5 800-6 600 €/m²",
+          "contenu": "sud, plus excentré, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Clamart à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-clamart-acheter-2026) et la fiche [Clamart](/vivre-a/clamart-92023)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Clamart en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Clamart et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-clamart-acheter-2026",
+    "title": "Meilleur quartier de Clamart pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Clamart le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-30",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Clamart mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Clamart n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Clamart le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, Jardin Parisien / Panorama, Trivaux / Garenne, Percy / Schneider, Le Petit-Clamart. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-clamart-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Le Petit-Clamart et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le Transilien N (gare de Clamart). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Clamart ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Clamart ou Issy-les-Moulineaux](/blog/clamart-ou-issy-les-moulineaux-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Clamart, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Clamart se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-clamart-achat-2026",
+    "title": "Clamart : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Clamart, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-06",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Clamart (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Clamart est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Clamart",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Le Petit-Clamart et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Clamart colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-clamart-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Clamart et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Clamart aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "investir-clamart-rendement-locatif-2026",
+    "title": "Investir à Clamart en 2026 : rendement réel par quartier",
+    "description": "3,3-3,8 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Clamart a du sens.",
+    "publishedAt": "2026-04-13",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,3-3,8 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Clamart (3,3-3,8 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le Transilien N (gare de Clamart) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Clamart",
+          "contenu": "3,3-3,8 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le Transilien N (gare de Clamart, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Le Petit-Clamart = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Clamart à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Clamart a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-clamart-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Clamart, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Clamart et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-clamart-arbitrage-2026",
+    "title": "Quitter Paris pour Clamart : le vrai calcul en 2026",
+    "description": "Clamart face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-20",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Clamart.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Clamart et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Clamart : grande ville résidentielle et verte du sud-ouest (53 000 habitants), entre la forêt de Meudon et les écoquartiers neufs (Jardin Parisien, Panorama), pôle renforcé par la ligne 15, profil familial, bon compromis prix-nature de la première couronne. Desserte le Transilien N (gare de Clamart, Montparnasse en 8 minutes), le tram T6 (Châtillon vers Vélizy-Viroflay), la future ligne 15 Sud du Grand Paris Express à Fort d'Issy-Vanves-Clamart (vers 2025-2026), et la forêt domaniale de Meudon-Clamart. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 6500 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Clamart, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Clamart (6500 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "grande ville résidentielle et verte du sud-ouest (53 000 habitants), entre la forêt de Meudon et les écoquartiers neufs (Jardin Parisien, Panorama), pôle renforcé par la ligne 15, profil familial, bon compromis prix-nature de la première couronne. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le Transilien N (gare de Clamart, Montparnasse en 8 minutes), le tram T6 (Châtillon vers Vélizy-Viroflay), la future ligne 15 Sud du Grand Paris Express à Fort d'Issy-Vanves-Clamart (vers 2025-2026), et la forêt domaniale de Meudon-Clamart. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Clamart ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-clamart-2026-guide-complet) et [Clamart ou Issy-les-Moulineaux](/blog/clamart-ou-issy-les-moulineaux-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Clamart, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Clamart se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-clamart",
+    "title": "Acheter à Clamart : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Clamart, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-27",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Clamart, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Clamart",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Clamart colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-clamart-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-clamart-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Clamart, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Clamart aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Clamart"
+      ]
+    }
+  },
+  {
+    "slug": "clamart-ou-issy-les-moulineaux-acheter-2026",
+    "title": "Clamart ou Issy-les-Moulineaux : où acheter en 2026",
+    "description": "Clamart, plus verte, plus familiale et nettement plus accessible (6 500 €/m²), face à Issy-les-Moulineaux, plus dense, plus chère et quasi parisienne (8 500 €/m²), deux options du sud-ouest des Hauts-de-Seine. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-04",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Clamart et Issy-les-Moulineaux, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Clamart, plus verte, plus familiale et nettement plus accessible (6 500 €/m²), face à Issy-les-Moulineaux, plus dense, plus chère et quasi parisienne (8 500 €/m²), deux options du sud-ouest des Hauts-de-Seine. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Clamart, plus verte, plus familiale et nettement plus accessible (6 500 €/m²), face à Issy-les-Moulineaux, plus dense, plus chère et quasi parisienne (8 500 €/m²), deux options du sud-ouest des Hauts-de-Seine. Clamart 6500 €/m² vs Issy-les-Moulineaux 8500 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Clamart | Issy-les-Moulineaux) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Clamart 6500 €/m² vs Issy-les-Moulineaux 8500 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le Transilien N (gare de Clamart, Montparnasse en 8 minutes), le tram T6 (Châtillon vers Vélizy-Viroflay), la future ligne 15 Sud du Grand Paris Express à Fort d'Issy-Vanves-Clamart (vers 2025-2026), et la forêt domaniale de Meudon-Clamart côté Clamart. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "grande ville résidentielle et verte du sud-ouest (53 000 habitants), entre la forêt de Meudon et les écoquartiers neufs (Jardin Parisien, Panorama), pôle renforcé par la ligne 15, profil familial, bon compromis prix-nature de la première couronne côté Clamart. Décrire le contraste d'ambiance avec Issy-les-Moulineaux."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,3-3,8 % brut côté Clamart). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Clamart à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Clamart, pour qui Issy-les-Moulineaux",
+          "contenu": "Verdict par profil. Linker les deux fiches [Clamart](/vivre-a/clamart-92023) et [Issy-les-Moulineaux](/vivre-a/issy-les-moulineaux-92040)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Clamart ou Issy-les-Moulineaux : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Clamart et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Clamart",
+        "Issy-les-Moulineaux"
+      ]
+    }
   }
 ];
 
