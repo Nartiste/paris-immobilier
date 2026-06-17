@@ -1251,4 +1251,145 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30"],
     skipSlots: [],
   },
+
+  // Vague ouest 92 huppé (juin 2026). 4 fiches dataset premium créées.
+  garches: {
+    city: "Garches",
+    cityShort: "Garches",
+    base: "garches",
+    ficheSlug: "garches-92033",
+    departement: "Hauts-de-Seine",
+    median: 7500,
+    evolutionNote: "stable sur 5 ans, marché résidentiel bourgeois",
+    quartiers: [
+      { nom: "Plateau / lisière de forêt", fourchette: "7 600-8 600 €/m²", note: "villas en lisière de Fausses-Reposes, le plus coté" },
+      { nom: "Centre / Mairie", fourchette: "7 500-8 400 €/m²", note: "cœur de ville commerçant autour de la gare, le plus prisé" },
+      { nom: "Vignes-Benettes / Pasteur", fourchette: "7 300-8 100 €/m²", note: "résidentiel pavillonnaire, proche de l'hôpital Raymond-Poincaré" },
+      { nom: "Les Quatre Vents", fourchette: "7 200-8 000 €/m²", note: "résidentiel calme" },
+      { nom: "Bas de Garches / limite Vaucresson", fourchette: "7 200-7 900 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le Transilien L (gare de Garches-Marnes-la-Coquette, Saint-Lazare en 20 minutes via La Défense), des bus vers Saint-Cloud et Rueil, l'accès à l'A13, et la forêt domaniale de Fausses-Reposes en lisière",
+    contexte:
+      "ville résidentielle bourgeoise et verdoyante de l'ouest (18 000 habitants), villas et maisons de maître, hôpital Raymond-Poincaré, lisière de la forêt de Fausses-Reposes et du parc de Saint-Cloud, profil familial aisé, calme à 20 minutes de Saint-Lazare",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 % (tendu, davantage sur l'ancien à rénover)",
+    comparison: {
+      city: "Saint-Cloud",
+      base: "saint-cloud",
+      ficheSlug: "saint-cloud-92064",
+      price: 8400,
+      angle:
+        "Garches, plus confidentielle, plus verte et un peu plus accessible (7 500 €/m²), face à Saint-Cloud, plus grande, plus chic et plus chère sur ses hauteurs avec son parc (8 400 €/m²), deux voisines résidentielles de l'ouest",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29"],
+    skipSlots: [],
+  },
+
+  vaucresson: {
+    city: "Vaucresson",
+    cityShort: "Vaucresson",
+    base: "vaucresson",
+    ficheSlug: "vaucresson-92076",
+    departement: "Hauts-de-Seine",
+    median: 8500,
+    evolutionNote: "stable sur 5 ans, micro-marché de prestige",
+    quartiers: [
+      { nom: "Parc Princesse / villas", fourchette: "8 800-9 800 €/m²", note: "grandes propriétés sous les arbres, le plus prestigieux" },
+      { nom: "Bois / lisière forêt", fourchette: "8 600-9 700 €/m²", note: "villas en lisière de Fausses-Reposes et Saint-Cucufa" },
+      { nom: "Centre / Mairie", fourchette: "8 500-9 500 €/m²", note: "cœur de ville autour de la gare, le plus demandé" },
+      { nom: "La Marche", fourchette: "8 200-9 200 €/m²", note: "résidentiel, proche du golf" },
+      { nom: "Limite Garches", fourchette: "8 200-9 100 €/m²", note: "le plus abordable relativement" },
+    ],
+    transport:
+      "le Transilien L (gare de Vaucresson, Saint-Lazare en 22 minutes via La Défense), l'accès rapide à l'A13, et les forêts de Fausses-Reposes et de Saint-Cucufa en lisière",
+    contexte:
+      "petite commune résidentielle parmi les plus huppées de l'ouest (9 000 habitants), villas et grandes propriétés sous les arbres, golf, lycée Toulouse-Lautrec, cadre forestier, profil de cadres dirigeants et familles fortunées",
+    rendement: "2,5-3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-4 % (très tendu, marché de petite taille)",
+    comparison: {
+      city: "Garches",
+      base: "garches",
+      ficheSlug: "garches-92033",
+      price: 7500,
+      angle:
+        "Vaucresson, micro-commune de villas la plus chère du secteur (8 500 €/m²), face à Garches, plus grande, plus commerçante et un peu plus accessible (7 500 €/m²), les deux voisines huppées de la forêt de Fausses-Reposes",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28"],
+    skipSlots: [],
+  },
+
+  "ville-d-avray": {
+    city: "Ville-d'Avray",
+    cityShort: "Ville-d'Avray",
+    base: "ville-d-avray",
+    ficheSlug: "ville-d-avray-92077",
+    departement: "Hauts-de-Seine",
+    median: 7500,
+    evolutionNote: "stable sur 5 ans, marché résidentiel verdoyant",
+    quartiers: [
+      { nom: "Étangs de Corot", fourchette: "7 800-8 800 €/m²", note: "villas près des étangs peints par Corot, le plus prisé" },
+      { nom: "Centre / Mairie", fourchette: "7 500-8 400 €/m²", note: "cœur de ville, commerces" },
+      { nom: "La Colline / lisière forêt", fourchette: "7 400-8 300 €/m²", note: "villas sous les arbres, calme" },
+      { nom: "Le Parc de Lesser", fourchette: "7 300-8 100 €/m²", note: "résidentiel chic" },
+      { nom: "Gare / limite Sèvres", fourchette: "7 200-8 000 €/m²", note: "pratique, le plus abordable" },
+    ],
+    transport:
+      "le Transilien L (gares de Sèvres-Ville-d'Avray et Ville-d'Avray, Saint-Lazare en 20 minutes via La Défense), des bus vers Saint-Cloud et Versailles, et la forêt de Fausses-Reposes avec les étangs de Corot",
+    contexte:
+      "commune résidentielle verdoyante et arty de l'ouest (11 000 habitants), célèbres étangs de Corot peints par l'artiste, forêt de Fausses-Reposes, villas sous les arbres, profil familial aisé en quête de nature à 20 minutes de Saint-Lazare",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 % (tendu, davantage sur l'ancien à rénover)",
+    comparison: {
+      city: "Saint-Cloud",
+      base: "saint-cloud",
+      ficheSlug: "saint-cloud-92064",
+      price: 8400,
+      angle:
+        "Ville-d'Avray, confidentielle, arty et nichée dans la forêt avec ses étangs de Corot (7 500 €/m²), face à Saint-Cloud, plus grande, plus urbaine et plus chère avec son parc et ses vues (8 400 €/m²), deux voisines vertes de l'ouest",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27"],
+    skipSlots: [],
+  },
+
+  "le-plessis-robinson": {
+    city: "Le Plessis-Robinson",
+    cityShort: "Le Plessis-Robinson",
+    base: "le-plessis-robinson",
+    ficheSlug: "le-plessis-robinson-92060",
+    departement: "Hauts-de-Seine",
+    median: 6500,
+    evolutionNote: "en hausse sur 5 ans, marché porté par la rénovation du cœur de ville",
+    quartiers: [
+      { nom: "Cœur de Ville", fourchette: "6 800-7 600 €/m²", note: "centre néo-traditionnel primé, le plus prisé" },
+      { nom: "Cité-jardins", fourchette: "6 500-7 300 €/m²", note: "patrimoine classé des années 1930, recherché" },
+      { nom: "Robinson / limite Sceaux", fourchette: "6 500-7 400 €/m²", note: "proche du RER B à Robinson, résidentiel" },
+      { nom: "Les Hauts-du-Plessis", fourchette: "6 300-7 100 €/m²", note: "résidentiel familial" },
+      { nom: "Le Pierrier", fourchette: "6 200-7 000 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le tram T6 (vers Châtillon-Montrouge et Viroflay) et le tram T10 ouvert en 2023 (vers Antony), des bus vers le RER B à Robinson et Sceaux, et le parc Henri Sellier ainsi que le bois de la Garenne",
+    contexte:
+      "ville familiale de l'ouest sud (30 000 habitants) célèbre pour la rénovation primée de son cœur de ville d'architecture néo-traditionnelle, sa Cité-jardins historique classée et ses nombreux parcs, desservie par les trams T6 et T10, très prisée des familles",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Clamart",
+      base: "clamart",
+      ficheSlug: "clamart-92023",
+      price: 6500,
+      angle:
+        "Le Plessis-Robinson, cœur de ville rénové, Cité-jardins et très familiale (6 500 €/m²), face à Clamart, plus grande, plus variée et adossée à la forêt de Meudon (6 500 €/m²), deux options vertes du sud-ouest au même budget",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19", "2026-04-26"],
+    skipSlots: [],
+  },
 };
