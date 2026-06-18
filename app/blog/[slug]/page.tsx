@@ -186,9 +186,13 @@ export default async function BlogPostPage({
   // Articles existants : on dérive une FAQ des données réelles de la commune
   // (1re référence du brief) pour le schema + un bloc visible, sans régénérer.
   const inlineFaq = hasInlineFaq(content);
-  const refCommune = !inlineFaq
-    ? SAMPLE_COMMUNES.find((c) => c.nom === post.brief.references?.[0])
-    : undefined;
+  // Commune de référence de l'article (1re référence du brief). Sert au bloc
+  // data "en bref" des pages « Vivre à … » (data moat) et à la FAQ dérivée.
+  const articleCommune = SAMPLE_COMMUNES.find(
+    (c) => c.nom === post.brief.references?.[0],
+  );
+  const isVivreA = slug.startsWith("vivre-a-");
+  const refCommune = !inlineFaq ? articleCommune : undefined;
   const fallbackFaq = refCommune ? buildCommuneFAQs(refCommune).slice(0, 5) : [];
   const faqs: FAQ[] = inlineFaq ? extractFaq(content) : fallbackFaq;
   const faqLd = !isGated && faqs.length >= 2 ? faqJsonLd(faqs) : null;
@@ -231,6 +235,27 @@ export default async function BlogPostPage({
     },
     wordCount: content?.split(/\s+/).length ?? 0,
     articleSection: CATEGORY_LABELS[post.category] ?? post.category,
+    // Entité ville : ancre la page sur la commune (utile pour "Vivre à {Ville}").
+    ...(articleCommune
+      ? {
+          about: {
+            "@type": "City",
+            name: articleCommune.nom,
+            address: {
+              "@type": "PostalAddress",
+              postalCode: articleCommune.code_postal,
+              addressLocality: articleCommune.nom,
+              addressRegion: articleCommune.departement,
+              addressCountry: "FR",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: articleCommune.lat,
+              longitude: articleCommune.lon,
+            },
+          },
+        }
+      : {}),
   };
 
   const breadcrumbsLd = breadcrumbJsonLd([
@@ -380,6 +405,99 @@ export default async function BlogPostPage({
       <div className="mx-auto max-w-6xl px-5 py-12 sm:px-7">
         <div className="lg:grid lg:grid-cols-[1fr_240px] lg:gap-12">
           <article className="min-w-0 max-w-3xl">
+            {/* "Vivre à {Ville} en bref" — données réelles (data moat), answer-first.
+                Snippet / AI Overview friendly, propre aux pages vivre-a. */}
+            {isVivreA && articleCommune && (
+              <section
+                aria-label={`Vivre à ${articleCommune.nom} en bref`}
+                className="mb-10 rounded-3xl border border-brand-iris/15 bg-gradient-to-br from-brand-iris-soft/30 via-white to-brand-vert-soft/20 p-6"
+              >
+                <h2 className="mb-3 font-display text-lg font-medium text-brand-bleu">
+                  Vivre à {articleCommune.nom} en bref
+                </h2>
+                <p className="text-base leading-relaxed text-brand-bleu/85">
+                  {(() => {
+                    const c = articleCommune;
+                    const bits: string[] = [];
+                    if (c.prix_m2_median)
+                      bits.push(
+                        `compter environ ${c.prix_m2_median.toLocaleString("fr-FR")} €/m² à l'achat`,
+                      );
+                    bits.push(
+                      `Paris en ${c.temps_trajet_paris_min} min${c.ligne_principale ? ` via ${c.ligne_principale}` : ""}`,
+                    );
+                    bits.push(`${c.population.toLocaleString("fr-FR")} habitants`);
+                    return `Vivre à ${c.nom} (${c.code_postal}, ${c.departement}), c'est ${bits.join(", ")}.`;
+                  })()}
+                </p>
+                <dl className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                  {articleCommune.prix_m2_median != null && (
+                    <div className="rounded-2xl bg-white/70 p-3 ring-1 ring-brand-bleu/5">
+                      <dt className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+                        Prix médian
+                      </dt>
+                      <dd className="mt-0.5 font-display text-lg font-medium text-brand-bleu">
+                        {articleCommune.prix_m2_median.toLocaleString("fr-FR")} €/m²
+                      </dd>
+                    </div>
+                  )}
+                  <div className="rounded-2xl bg-white/70 p-3 ring-1 ring-brand-bleu/5">
+                    <dt className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+                      Paris en
+                    </dt>
+                    <dd className="mt-0.5 font-display text-lg font-medium text-brand-bleu">
+                      {articleCommune.temps_trajet_paris_min} min
+                    </dd>
+                  </div>
+                  <div className="rounded-2xl bg-white/70 p-3 ring-1 ring-brand-bleu/5">
+                    <dt className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+                      Population
+                    </dt>
+                    <dd className="mt-0.5 font-display text-lg font-medium text-brand-bleu">
+                      {articleCommune.population.toLocaleString("fr-FR")}
+                    </dd>
+                  </div>
+                  {articleCommune.ligne_principale && (
+                    <div className="rounded-2xl bg-white/70 p-3 ring-1 ring-brand-bleu/5">
+                      <dt className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+                        Transport
+                      </dt>
+                      <dd className="mt-0.5 font-display text-lg font-medium text-brand-bleu">
+                        {articleCommune.ligne_principale}
+                      </dd>
+                    </div>
+                  )}
+                  {articleCommune.espaces_verts_pct != null && (
+                    <div className="rounded-2xl bg-white/70 p-3 ring-1 ring-brand-bleu/5">
+                      <dt className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+                        Espaces verts
+                      </dt>
+                      <dd className="mt-0.5 font-display text-lg font-medium text-brand-bleu">
+                        {articleCommune.espaces_verts_pct} %
+                      </dd>
+                    </div>
+                  )}
+                  {articleCommune.rendement_locatif != null && (
+                    <div className="rounded-2xl bg-white/70 p-3 ring-1 ring-brand-bleu/5">
+                      <dt className="text-[10px] font-semibold uppercase tracking-wider text-brand-bleu/50">
+                        Rendement locatif
+                      </dt>
+                      <dd className="mt-0.5 font-display text-lg font-medium text-brand-bleu">
+                        {articleCommune.rendement_locatif} %
+                      </dd>
+                    </div>
+                  )}
+                </dl>
+                <Link
+                  href={`/vivre-a/${nameToSlug(articleCommune.nom)}-${articleCommune.code_insee}`}
+                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-iris-strong hover:underline"
+                >
+                  Voir la fiche data complète de {articleCommune.nom}
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </section>
+            )}
+
             {/* TLDR / Points clés */}
             {headings.length >= 3 && (
               <aside
