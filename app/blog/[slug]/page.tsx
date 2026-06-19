@@ -256,6 +256,17 @@ export default async function BlogPostPage({
           },
         }
       : {}),
+    isAccessibleForFree: true,
+    // GEO : indique aux moteurs (voice / AI Overviews) le passage "réponse"
+    // à citer en priorité sur les pages « Vivre à … ».
+    ...(isVivreA
+      ? {
+          speakable: {
+            "@type": "SpeakableSpecification",
+            cssSelector: ["h1", "#vivre-en-bref"],
+          },
+        }
+      : {}),
   };
 
   const breadcrumbsLd = breadcrumbJsonLd([
@@ -409,6 +420,7 @@ export default async function BlogPostPage({
                 Snippet / AI Overview friendly, propre aux pages vivre-a. */}
             {isVivreA && articleCommune && (
               <section
+                id="vivre-en-bref"
                 aria-label={`Vivre à ${articleCommune.nom} en bref`}
                 className="mb-10 rounded-3xl border border-brand-iris/15 bg-gradient-to-br from-brand-iris-soft/30 via-white to-brand-vert-soft/20 p-6"
               >
@@ -495,6 +507,9 @@ export default async function BlogPostPage({
                   Voir la fiche data complète de {articleCommune.nom}
                   <ArrowRight className="h-3.5 w-3.5" />
                 </Link>
+                <p className="mt-3 text-[11px] text-brand-bleu/40">
+                  Sources : prix DVF, population INSEE, desserte Île-de-France Mobilités · repères {new Date(post.publishedAt).getFullYear()}.
+                </p>
               </section>
             )}
 
@@ -611,7 +626,7 @@ export default async function BlogPostPage({
             {/* FAQ (GEO) — bloc visible dérivé des données commune pour les
                 articles sans FAQ rédigée. Schema FAQPage émis en parallèle. */}
             {showFaqBlock && (
-              <section className="mt-16 border-t border-neutral-100 pt-10">
+              <section id="faq-vivre" className="mt-16 border-t border-neutral-100 pt-10">
                 <h2 className="font-display text-2xl font-medium tracking-tight text-brand-bleu">
                   Questions fréquentes
                 </h2>
