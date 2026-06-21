@@ -1530,4 +1530,142 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22"],
     skipSlots: [],
   },
+
+  // Vague plateau / tranchée Paris-Versailles (juin 2026). Vélizy déjà en base ; 3 fiches créées.
+  "velizy-villacoublay": {
+    city: "Vélizy-Villacoublay",
+    cityShort: "Vélizy-Villacoublay",
+    base: "velizy-villacoublay",
+    ficheSlug: "velizy-villacoublay-78640",
+    departement: "Yvelines",
+    median: 5200,
+    evolutionNote: "stable sur 5 ans, marché porté par l'emploi et le tram T6",
+    quartiers: [
+      { nom: "Mozart / Centre", fourchette: "5 500-6 300 €/m²", note: "cœur de ville rénové, tram T6, le plus prisé" },
+      { nom: "Europe / Inovel Parc", fourchette: "5 400-6 200 €/m²", note: "près du pôle d'emploi et de Vélizy 2" },
+      { nom: "Le Clos / Provinces", fourchette: "5 400-6 200 €/m²", note: "résidentiel pavillonnaire" },
+      { nom: "Louvois", fourchette: "5 300-6 000 €/m²", note: "résidentiel" },
+      { nom: "Mail / Villacoublay", fourchette: "5 200-5 900 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le tram T6 (de Châtillon-Montrouge à Viroflay, qui traverse la ville), le Transilien N à Chaville et Versailles tout proche, l'accès direct à l'A86 et à la N118, et le pôle d'emploi de Vélizy (Dassault, Thales, centre commercial Vélizy 2)",
+    contexte:
+      "ville résidentielle et premier pôle tertiaire de l'ouest (22 000 habitants), employeur majeur (Dassault, Thales, Eiffage) et grand centre commercial Vélizy 2, desservie par le tram T6, en lisière de la forêt de Meudon, bon rapport prix-emploi du plateau",
+    rendement: "4-4,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Viroflay",
+      base: "viroflay",
+      ficheSlug: "viroflay-78686",
+      price: 6800,
+      angle:
+        "Vélizy-Villacoublay, pôle d'emploi accessible et bien desservi par le T6 (5 200 €/m²), face à Viroflay, plus résidentielle, plus chic et plus chère (6 800 €/m²), deux voisines du plateau reliées par le tram",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21"],
+    skipSlots: [],
+  },
+
+  viroflay: {
+    city: "Viroflay",
+    cityShort: "Viroflay",
+    base: "viroflay",
+    ficheSlug: "viroflay-78686",
+    departement: "Yvelines",
+    median: 6800,
+    evolutionNote: "stable sur 5 ans, marché familial résidentiel",
+    quartiers: [
+      { nom: "Rive Droite", fourchette: "7 000-7 800 €/m²", note: "autour de la gare Transilien L, résidentiel chic, le plus prisé" },
+      { nom: "Centre", fourchette: "6 800-7 600 €/m²", note: "cœur de ville commerçant" },
+      { nom: "Rive Gauche", fourchette: "6 600-7 400 €/m²", note: "autour du RER C et du T6, pratique" },
+      { nom: "Les Arnauds / lisière forêt", fourchette: "6 500-7 300 €/m²", note: "le plus abordable, proche des bois" },
+    ],
+    transport:
+      "le Transilien L (Viroflay Rive Droite, Saint-Lazare en 20 minutes), le Transilien N et le RER C (Viroflay Rive Gauche, vers Montparnasse et Austerlitz), le tram T6, et la forêt de Fausses-Reposes en lisière",
+    contexte:
+      "ville résidentielle et familiale chic entre Versailles et Paris (16 000 habitants), quatre gares et le tram T6, esprit village avec ses commerces, en lisière de la forêt de Fausses-Reposes, très prisée des familles pour son accessibilité",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Versailles",
+      base: "versailles",
+      ficheSlug: "versailles-78646",
+      price: 7400,
+      angle:
+        "Viroflay, plus petite, plus confidentielle et un peu plus accessible (6 800 €/m²), face à Versailles, plus grande, royale et plus chère avec son château (7 400 €/m²), deux voisines bien desservies de l'ouest",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20"],
+    skipSlots: [],
+  },
+
+  chaville: {
+    city: "Chaville",
+    cityShort: "Chaville",
+    base: "chaville",
+    ficheSlug: "chaville-92022",
+    departement: "Hauts-de-Seine",
+    median: 6500,
+    evolutionNote: "stable sur 5 ans, marché familial verdoyant",
+    quartiers: [
+      { nom: "Rive Droite / Centre", fourchette: "6 600-7 400 €/m²", note: "autour de la gare Transilien L, le plus prisé" },
+      { nom: "Rive Gauche", fourchette: "6 500-7 300 €/m²", note: "autour du RER C, pratique" },
+      { nom: "Atrium / Forêt", fourchette: "6 400-7 200 €/m²", note: "résidentiel en lisière de bois" },
+      { nom: "Doisu / Brise-Pain", fourchette: "6 300-7 100 €/m²", note: "pavillonnaire, le plus abordable" },
+    ],
+    transport:
+      "le Transilien L (Chaville Rive Droite, Saint-Lazare en 20 minutes), le Transilien N et le RER C (Chaville Rive Gauche), et les forêts de Fausses-Reposes et de Meudon qui couvrent une grande partie de la commune",
+    contexte:
+      "ville résidentielle et familiale très verte entre Versailles et Sèvres (20 000 habitants), à moitié couverte par les forêts de Meudon et Fausses-Reposes, trois gares, esprit village calme prisé des familles qui quittent Paris pour la nature",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Sèvres",
+      base: "sevres",
+      ficheSlug: "sevres-92072",
+      price: 7000,
+      angle:
+        "Chaville, plus verte, plus calme et un peu plus accessible (6 500 €/m²), face à Sèvres, plus animée, plus tournée vers la Seine et un peu plus chère (7 000 €/m²), deux voisines boisées de l'ouest",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19"],
+    skipSlots: [],
+  },
+
+  sevres: {
+    city: "Sèvres",
+    cityShort: "Sèvres",
+    base: "sevres",
+    ficheSlug: "sevres-92072",
+    departement: "Hauts-de-Seine",
+    median: 7000,
+    evolutionNote: "stable sur 5 ans, marché résidentiel des bords de Seine",
+    quartiers: [
+      { nom: "Brimborion / bords de Seine", fourchette: "7 200-8 000 €/m²", note: "coteaux et bord de Seine, vues, le plus prisé" },
+      { nom: "Centre / Ville", fourchette: "7 000-7 800 €/m²", note: "cœur de ville autour de la Manufacture, commerces" },
+      { nom: "Les Bruyères", fourchette: "6 800-7 600 €/m²", note: "résidentiel sur les hauteurs" },
+      { nom: "Ernest Renan / Gare basse", fourchette: "6 800-7 500 €/m²", note: "pratique, le plus abordable" },
+    ],
+    transport:
+      "le tram T2 (Brimborion, Musée de Sèvres, vers La Défense et Paris rive gauche), le Transilien L (Sèvres-Ville-d'Avray et Sèvres Rive Gauche), le métro 9 tout proche à Pont de Sèvres, et le domaine national de Saint-Cloud en lisière",
+    contexte:
+      "ville résidentielle de coteaux au bord de la Seine (24 000 habitants), célèbre Manufacture nationale de porcelaine, parc de Saint-Cloud et forêt de Meudon en lisière, tram T2 vers La Défense, profil familial à 20 minutes de Paris",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Boulogne-Billancourt",
+      base: "boulogne",
+      ficheSlug: "boulogne-billancourt-92012",
+      price: 9200,
+      angle:
+        "Sèvres, résidentielle, verte et bien plus accessible sur ses coteaux (7 000 €/m²), face à Boulogne-Billancourt, dense, premium et bien plus chère de l'autre côté de la Seine (9 200 €/m²), deux options du sud-ouest reliées par le pont de Sèvres",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18"],
+    skipSlots: [],
+  },
 };
