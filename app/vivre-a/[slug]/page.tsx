@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Train, Car, MapPin, Euro, TrendingUp, Users } from "lucide-react";
+import { Train, Car, MapPin, Euro, TrendingUp, Users, BookOpen, ArrowRight } from "lucide-react";
 import { SAMPLE_COMMUNES } from "@/lib/sample-data";
+import { PUBLISHED_BLOG_POSTS } from "@/lib/blog-published";
 import { communeToSlug, slugToInsee } from "@/lib/slug";
 import { computeCommuneScore, scoreToColor, scoreToLabel } from "@/lib/scoring";
 import { DEFAULT_WEIGHTS, type Commune } from "@/lib/types";
@@ -118,6 +119,19 @@ export default async function VivreACommunePage({
  commune.code_insee,
  );
  const localReferent = getReferentForCommune(commune.departement);
+ // Maillage interne : article de blog « Vivre à {Ville} » correspondant (si publié).
+ // Priorité au slug canonique vivre-a-… ; sinon un vrai guide-ville vivre-*
+ // (on exclut les guides de LIGNE, catégorie "transport", pour ne pas lier à tort).
+ const guideArticle =
+ PUBLISHED_BLOG_POSTS.find(
+ (p) => p.slug.startsWith("vivre-a-") && p.brief.references?.[0] === commune.nom,
+ ) ??
+ PUBLISHED_BLOG_POSTS.find(
+ (p) =>
+ p.slug.startsWith("vivre-") &&
+ p.category !== "transport" &&
+ p.brief.references?.[0] === commune.nom,
+ );
 
  // Communes voisines (mêmes département, distance Paris similaire)
  const voisines = SAMPLE_COMMUNES.filter(
@@ -391,6 +405,31 @@ export default async function VivreACommunePage({
  </div>
  )}
  </section>
+
+ {guideArticle && (
+ <Link
+ href={`/blog/${guideArticle.slug}`}
+ className="group mt-6 flex items-center justify-between gap-4 overflow-hidden rounded-3xl border border-brand-iris/20 bg-gradient-to-br from-brand-iris-soft/40 via-white to-brand-vert-soft/30 p-6 shadow-[0_4px_20px_rgba(82,98,122,0.06)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(157,140,242,0.18)]"
+ >
+ <div className="flex items-start gap-4">
+ <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-brand-iris text-white shadow-[0_4px_14px_rgba(157,140,242,0.4)]">
+ <BookOpen className="h-4 w-4" />
+ </div>
+ <div>
+ <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-iris-strong">
+ Guide complet
+ </div>
+ <div className="mt-1 font-display text-lg font-medium leading-snug text-brand-bleu">
+ {guideArticle.title}
+ </div>
+ <div className="mt-1 text-xs text-brand-bleu/60">
+ Notre dossier détaillé · {guideArticle.readingMinutes} min de lecture
+ </div>
+ </div>
+ </div>
+ <ArrowRight className="h-5 w-5 flex-shrink-0 text-brand-iris transition-transform group-hover:translate-x-0.5" />
+ </Link>
+ )}
 
  {localReferent && (
  <LocalReferentCard
