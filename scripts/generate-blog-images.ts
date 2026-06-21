@@ -103,6 +103,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Le Vésinet" : page sans image d'infobox exploitable → on force le Grand Lac des Ibis (sa ville-parc).
+    match: "le-vesinet",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Grand_Lac_des_Ibis_Le_V%C3%A9sinet_002.JPG/1280px-Grand_Lac_des_Ibis_Le_V%C3%A9sinet_002.JPG",
+      width: 1280,
+      height: 850,
+      alt: "Le Grand Lac des Ibis au Vésinet, ville-parc des Yvelines",
+      credit: "Wikipedia · Le Vésinet",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Le_V%C3%A9sinet",
+    },
+  },
+  {
     // La page "Montrouge" n'a pas d'image d'infobox : on force le Beffroi, son landmark.
     match: "montrouge",
     image: {

@@ -1392,4 +1392,142 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19", "2026-04-26"],
     skipSlots: [],
   },
+
+  // Vague boucle RER A Yvelines premium (juin 2026). 4 fiches dataset créées.
+  "le-vesinet": {
+    city: "Le Vésinet",
+    cityShort: "Le Vésinet",
+    base: "le-vesinet",
+    ficheSlug: "le-vesinet-78650",
+    departement: "Yvelines",
+    median: 7800,
+    evolutionNote: "stable sur 5 ans, marché de prestige ville-parc",
+    quartiers: [
+      { nom: "Les Ibis / les lacs", fourchette: "8 000-9 500 €/m²", note: "villas autour des lacs et rivières artificielles, le plus prisé" },
+      { nom: "Centre / Église", fourchette: "7 800-9 000 €/m²", note: "autour de l'église Sainte-Marguerite et du RER, commerces" },
+      { nom: "Princesse", fourchette: "7 500-8 600 €/m²", note: "résidentiel chic, proche de la gare Le Vésinet-Le Pecq" },
+      { nom: "Grandchamp", fourchette: "7 400-8 400 €/m²", note: "villas sous les arbres, calme" },
+      { nom: "La Borde", fourchette: "7 300-8 200 €/m²", note: "le plus abordable relativement" },
+    ],
+    transport:
+      "le RER A (gares Le Vésinet-Centre et Le Vésinet-Le Pecq, La Défense en 12 minutes et Châtelet en 25), au cœur d'un cadre de ville-parc classé avec lacs, rivières et milliers d'arbres",
+    contexte:
+      "ville-parc résidentielle parmi les plus huppées des Yvelines (16 000 habitants), villas sous les arbres autour de lacs et rivières artificielles classés, l'une des communes les plus vertes et les plus aisées d'Île-de-France, RER A direct vers La Défense",
+    rendement: "2,5-3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-4 % (très tendu, marché de villas)",
+    comparison: {
+      city: "Saint-Germain-en-Laye",
+      base: "saint-germain-en-laye",
+      ficheSlug: "saint-germain-en-laye-78551",
+      price: 7100,
+      angle:
+        "Le Vésinet, ville-parc confidentielle de villas autour de ses lacs (7 800 €/m²), face à Saint-Germain-en-Laye, plus grande, plus animée et royale avec sa forêt et son château (7 100 €/m²), deux références premium du RER A",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18", "2026-04-25"],
+    skipSlots: [],
+  },
+
+  "maisons-laffitte": {
+    city: "Maisons-Laffitte",
+    cityShort: "Maisons-Laffitte",
+    base: "maisons-laffitte",
+    ficheSlug: "maisons-laffitte-78358",
+    departement: "Yvelines",
+    median: 6800,
+    evolutionNote: "stable sur 5 ans, marché familial de prestige",
+    quartiers: [
+      { nom: "Le Parc", fourchette: "7 000-8 200 €/m²", note: "villas dans le parc classé, le plus prisé et le plus coté" },
+      { nom: "Centre / Gare", fourchette: "6 600-7 500 €/m²", note: "autour du RER et du château, commerces" },
+      { nom: "Vieux Maisons", fourchette: "6 300-7 200 €/m²", note: "rues pavillonnaires anciennes" },
+      { nom: "Le Mesnil", fourchette: "6 200-7 000 €/m²", note: "résidentiel, le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare Maisons-Laffitte, La Défense en 18 minutes et Châtelet en 30), le château de Mansart, le parc classé et le célèbre centre d'entraînement hippique",
+    contexte:
+      "ville résidentielle et familiale de prestige des Yvelines (24 000 habitants), surnommée la Cité du cheval pour son hippodrome et son centre d'entraînement, château de Mansart, vaste parc classé de villas, profil familial aisé sur le RER A",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Saint-Germain-en-Laye",
+      base: "saint-germain-en-laye",
+      ficheSlug: "saint-germain-en-laye-78551",
+      price: 7100,
+      angle:
+        "Maisons-Laffitte, cité du cheval avec son parc de villas et son château de Mansart (6 800 €/m²), face à Saint-Germain-en-Laye, plus chère, plus animée et royale avec sa forêt (7 100 €/m²), deux voisines premium du nord des Yvelines",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24"],
+    skipSlots: [],
+  },
+
+  chatou: {
+    city: "Chatou",
+    cityShort: "Chatou",
+    base: "chatou",
+    ficheSlug: "chatou-78146",
+    departement: "Yvelines",
+    median: 6500,
+    evolutionNote: "stable sur 5 ans, marché familial des bords de Seine",
+    quartiers: [
+      { nom: "Bords de Seine / Île des Impressionnistes", fourchette: "6 800-7 600 €/m²", note: "le long de la Seine, Maison Fournaise, le plus prisé" },
+      { nom: "Centre / Gare", fourchette: "6 600-7 400 €/m²", note: "autour du RER A Chatou-Croissy, commerces" },
+      { nom: "Les Coteaux / limite Le Vésinet", fourchette: "6 400-7 200 €/m²", note: "résidentiel pavillonnaire chic" },
+      { nom: "Les Landes", fourchette: "6 200-7 000 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare Chatou-Croissy, La Défense en 12 minutes et Châtelet en 22), les bords de Seine et l'Île des Impressionnistes avec la Maison Fournaise",
+    contexte:
+      "ville résidentielle et familiale des bords de Seine (30 000 habitants), berceau de l'impressionnisme avec l'Île et la Maison Fournaise, marché aux puces de Chatou, profil familial-bourgeois à 12 minutes de La Défense en RER A",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Croissy-sur-Seine",
+      base: "croissy-sur-seine",
+      ficheSlug: "croissy-sur-seine-78190",
+      price: 7000,
+      angle:
+        "Chatou, plus grande, plus commerçante et un peu plus accessible (6 500 €/m²), face à Croissy-sur-Seine, plus confidentielle et résidentielle au bord de la Seine (7 000 €/m²), les deux voisines de la gare Chatou-Croissy",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23"],
+    skipSlots: [],
+  },
+
+  "croissy-sur-seine": {
+    city: "Croissy-sur-Seine",
+    cityShort: "Croissy-sur-Seine",
+    base: "croissy-sur-seine",
+    ficheSlug: "croissy-sur-seine-78190",
+    departement: "Yvelines",
+    median: 7000,
+    evolutionNote: "stable sur 5 ans, marché résidentiel chic",
+    quartiers: [
+      { nom: "Bords de Seine / Grenouillère", fourchette: "7 200-8 000 €/m²", note: "le long de la Seine, ancien lieu de villégiature impressionniste, le plus prisé" },
+      { nom: "Centre / Chiquette", fourchette: "7 000-7 800 €/m²", note: "cœur résidentiel, écoles" },
+      { nom: "Les Ponts", fourchette: "6 800-7 600 €/m²", note: "proche de Chatou et du RER" },
+      { nom: "Hauts de Croissy", fourchette: "6 700-7 500 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare Chatou-Croissy, La Défense en 12 minutes et Châtelet en 22), les bords de Seine et le parc des Impressionnistes",
+    contexte:
+      "commune résidentielle chic des bords de Seine (10 000 habitants), ancien lieu de villégiature des impressionnistes avec la Grenouillère, profil familial aisé et calme, RER A direct vers La Défense",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Le Vésinet",
+      base: "le-vesinet",
+      ficheSlug: "le-vesinet-78650",
+      price: 7800,
+      angle:
+        "Croissy-sur-Seine, paisible et résidentielle au bord de la Seine (7 000 €/m²), face au Vésinet, ville-parc plus huppée autour de ses lacs (7 800 €/m²), deux voisines premium du RER A à l'ouest",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22"],
+    skipSlots: [],
+  },
 };
