@@ -1668,4 +1668,141 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18"],
     skipSlots: [],
   },
+
+  // Vague ceinture de villas ouest (juin 2026). 4 fiches dataset premium créées.
+  louveciennes: {
+    city: "Louveciennes",
+    cityShort: "Louveciennes",
+    base: "louveciennes",
+    ficheSlug: "louveciennes-78350",
+    departement: "Yvelines",
+    median: 7300,
+    evolutionNote: "stable sur 5 ans, marché de prestige villageois",
+    quartiers: [
+      { nom: "Coteaux / bords de Seine", fourchette: "7 400-8 400 €/m²", note: "villas avec vues sur la Seine, le plus coté" },
+      { nom: "Village / Centre", fourchette: "7 300-8 200 €/m²", note: "cœur historique autour de l'église, le plus prisé" },
+      { nom: "Le Prieuré", fourchette: "7 200-8 100 €/m²", note: "résidentiel chic sous les arbres" },
+      { nom: "Voisins / lisière forêt de Marly", fourchette: "7 000-7 900 €/m²", note: "le plus abordable, proche des bois" },
+    ],
+    transport:
+      "le Transilien L (gare de Louveciennes, Saint-Lazare en 30 minutes via La Défense), l'accès à l'A86 et la N186, et la forêt domaniale de Marly ainsi que les coteaux de Seine peints par Sisley et Renoir",
+    contexte:
+      "petit village résidentiel de prestige de la boucle de Seine (7 000 habitants), villas et propriétés sous les arbres, coteaux peints par les impressionnistes, forêt de Marly, l'un des cadres les plus confidentiels et les plus aisés de l'ouest",
+    rendement: "2,5-3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "2-4 % (très tendu, marché de villas)",
+    comparison: {
+      city: "Marly-le-Roi",
+      base: "marly-le-roi",
+      ficheSlug: "marly-le-roi-78372",
+      price: 6200,
+      angle:
+        "Louveciennes, village confidentiel de villas sur les coteaux de Seine (7 300 €/m²), face à Marly-le-Roi, plus grande, plus familiale et un peu plus accessible autour de son domaine royal (6 200 €/m²), deux voisines huppées de la forêt de Marly",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17"],
+    skipSlots: [],
+  },
+
+  bougival: {
+    city: "Bougival",
+    cityShort: "Bougival",
+    base: "bougival",
+    ficheSlug: "bougival-78092",
+    departement: "Yvelines",
+    median: 6500,
+    evolutionNote: "stable sur 5 ans, marché résidentiel des bords de Seine",
+    quartiers: [
+      { nom: "Bords de Seine / Île de la Chaussée", fourchette: "6 800-7 600 €/m²", note: "au bord de l'eau, ancienne Grenouillère, le plus prisé" },
+      { nom: "Coteaux / La Jonchère", fourchette: "6 600-7 400 €/m²", note: "villas sur les hauteurs, vues sur la Seine" },
+      { nom: "Centre / Village", fourchette: "6 500-7 300 €/m²", note: "cœur historique, commerces" },
+      { nom: "Les Hauts de Bougival", fourchette: "6 300-7 000 €/m²", note: "résidentiel, le plus abordable" },
+    ],
+    transport:
+      "le RER A tout proche à Rueil-Malmaison et le Transilien L à Louveciennes (vers Saint-Lazare et La Défense), un réseau de bus vers les gares, l'accès à l'A86, et les bords de Seine chers aux impressionnistes",
+    contexte:
+      "village résidentiel des bords de Seine (8 500 habitants), berceau de l'impressionnisme avec la Grenouillère et la datcha de Tourgueniev, coteaux boisés et Île de la Chaussée, profil familial aisé entre Rueil et la boucle de Saint-Germain",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Croissy-sur-Seine",
+      base: "croissy-sur-seine",
+      ficheSlug: "croissy-sur-seine-78190",
+      price: 7000,
+      angle:
+        "Bougival, village impressionniste des coteaux de Seine (6 500 €/m²), face à Croissy-sur-Seine, plus résidentielle et un peu plus chère sur l'autre rive (7 000 €/m²), deux voisines de la Grenouillère au bord de la Seine",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16"],
+    skipSlots: [],
+  },
+
+  "marly-le-roi": {
+    city: "Marly-le-Roi",
+    cityShort: "Marly-le-Roi",
+    base: "marly-le-roi",
+    ficheSlug: "marly-le-roi-78372",
+    departement: "Yvelines",
+    median: 6200,
+    evolutionNote: "stable sur 5 ans, marché familial autour du domaine royal",
+    quartiers: [
+      { nom: "Centre / Village", fourchette: "6 400-7 200 €/m²", note: "cœur historique près du parc, le plus prisé" },
+      { nom: "Montval", fourchette: "6 200-7 000 €/m²", note: "résidentiel pavillonnaire" },
+      { nom: "Le Cœur Volant / lisière forêt", fourchette: "6 100-6 900 €/m²", note: "proche des bois de Marly" },
+      { nom: "Les Grandes-Terres", fourchette: "6 000-6 800 €/m²", note: "grand ensemble résidentiel des années 50 signé Lopez, le plus abordable" },
+    ],
+    transport:
+      "le Transilien L (gare de Marly-le-Roi, Saint-Lazare en 30 minutes via La Défense), l'accès à l'A13 et la N186, et le parc et la forêt de Marly (domaine royal de Louis XIV) qui bordent la ville",
+    contexte:
+      "ville résidentielle et familiale des Yvelines (16 000 habitants), ancien domaine royal de Louis XIV avec son parc et son abreuvoir, forêt de Marly, écoles réputées, esprit village à 30 minutes de Saint-Lazare, prisée des familles",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Saint-Germain-en-Laye",
+      base: "saint-germain-en-laye",
+      ficheSlug: "saint-germain-en-laye-78551",
+      price: 7100,
+      angle:
+        "Marly-le-Roi, plus villageoise, plus verte et plus accessible autour de son domaine royal (6 200 €/m²), face à Saint-Germain-en-Laye, plus grande, plus animée et plus chère avec son château et son RER A (7 100 €/m²), deux voisines royales des Yvelines",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-25", "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15"],
+    skipSlots: [],
+  },
+
+  "le-pecq": {
+    city: "Le Pecq",
+    cityShort: "Le Pecq",
+    base: "le-pecq",
+    ficheSlug: "le-pecq-78481",
+    departement: "Yvelines",
+    median: 6500,
+    evolutionNote: "stable sur 5 ans, marché résidentiel des bords de Seine",
+    quartiers: [
+      { nom: "Bords de Seine / Mexique", fourchette: "6 800-7 500 €/m²", note: "au bord de l'eau au pied de Saint-Germain, le plus prisé" },
+      { nom: "Canada / Ermitage", fourchette: "6 400-7 100 €/m²", note: "résidentiel sur les hauteurs, vues sur la Seine" },
+      { nom: "Centre / Vignes-Benettes", fourchette: "6 500-7 200 €/m²", note: "cœur de ville, commerces" },
+      { nom: "Le Pecq bas / gare", fourchette: "6 300-7 000 €/m²", note: "pratique, proche du RER A, le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare Le Vésinet-Le Pecq en limite, La Défense en 12 minutes et Châtelet en 25), le Transilien L à Saint-Germain tout proche, et les bords de Seine au pied de la terrasse de Saint-Germain avec la base de loisirs nautiques",
+    contexte:
+      "ville résidentielle des bords de Seine au pied de Saint-Germain-en-Laye (16 000 habitants), la plus basse de la boucle avec ses berges et sa base nautique, profil familial, RER A direct vers La Défense",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Le Vésinet",
+      base: "le-vesinet",
+      ficheSlug: "le-vesinet-78650",
+      price: 7800,
+      angle:
+        "Le Pecq, résidentielle et accessible au bord de la Seine (6 500 €/m²), face au Vésinet, ville-parc plus huppée autour de ses lacs juste à côté (7 800 €/m²), deux voisines de la gare Le Vésinet-Le Pecq",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-24", "2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14"],
+    skipSlots: [],
+  },
 };
