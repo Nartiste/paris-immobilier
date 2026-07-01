@@ -1805,4 +1805,141 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-24", "2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14"],
     skipSlots: [],
   },
+
+  // Vague sud RER B (juin 2026). Arcueil déjà en base ; 3 fiches créées.
+  "bourg-la-reine": {
+    city: "Bourg-la-Reine",
+    cityShort: "Bourg-la-Reine",
+    base: "bourg-la-reine",
+    ficheSlug: "bourg-la-reine-92014",
+    departement: "Hauts-de-Seine",
+    median: 7000,
+    evolutionNote: "stable sur 5 ans, marché résidentiel chic du sud",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "7 200-8 000 €/m²", note: "autour du RER B et du marché, le plus prisé" },
+      { nom: "Nord / limite Sceaux", fourchette: "7 000-7 800 €/m²", note: "résidentiel chic, proche du parc de Sceaux" },
+      { nom: "La Faïencerie / L'Yser", fourchette: "6 800-7 600 €/m²", note: "pavillonnaire recherché" },
+      { nom: "Sud / Grand Chemin", fourchette: "6 800-7 500 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER B (gare Bourg-la-Reine, Châtelet en 18 minutes et Denfert-Rochereau en 12), l'accès à l'A86, et la proximité immédiate du parc de Sceaux",
+    contexte:
+      "ville résidentielle chic et familiale du sud (20 000 habitants), marché réputé, rues pavillonnaires, proximité du parc de Sceaux et de bons lycées, l'une des adresses les plus prisées du RER B sud à 18 minutes de Châtelet",
+    rendement: "2,8-3,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Sceaux",
+      base: "sceaux",
+      ficheSlug: "sceaux-92071",
+      price: 7600,
+      angle:
+        "Bourg-la-Reine, chic, commerçante et bien reliée par le RER B (7 000 €/m²), face à Sceaux, plus verte, plus bourgeoise et un peu plus chère autour de son parc (7 600 €/m²), deux voisines prisées du sud",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-23", "2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13"],
+    skipSlots: [],
+  },
+
+  "fontenay-aux-roses": {
+    city: "Fontenay-aux-Roses",
+    cityShort: "Fontenay-aux-Roses",
+    base: "fontenay-aux-roses",
+    ficheSlug: "fontenay-aux-roses-92032",
+    departement: "Hauts-de-Seine",
+    median: 6500,
+    evolutionNote: "stable sur 5 ans, marché familial verdoyant",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "6 600-7 400 €/m²", note: "cœur de ville autour du RER B, le plus prisé" },
+      { nom: "Scarron / Ormeaux", fourchette: "6 500-7 300 €/m²", note: "résidentiel pavillonnaire, écoles" },
+      { nom: "Les Pervenches", fourchette: "6 400-7 200 €/m²", note: "résidentiel calme" },
+      { nom: "Blagis / limite Sceaux-Bagneux", fourchette: "6 300-7 100 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER B (gare Fontenay-aux-Roses, Châtelet en 20 minutes et Denfert-Rochereau en 14), la Coulée verte du sud parisien, et l'accès à l'A86",
+    contexte:
+      "ville résidentielle et familiale verdoyante du sud (25 000 habitants), Coulée verte, rues pavillonnaires, écoles réputées et proximité du parc de Sceaux, esprit village prisé des familles sur le RER B",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Châtillon",
+      base: "chatillon",
+      ficheSlug: "chatillon-92020",
+      price: 6900,
+      angle:
+        "Fontenay-aux-Roses, verte, familiale et calme sur le RER B (6 500 €/m²), face à Châtillon, plus dense et boostée par la ligne 15 sur le métro 13 (6 900 €/m²), deux voisines du sud proche",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-22", "2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12"],
+    skipSlots: [],
+  },
+
+  bagneux: {
+    city: "Bagneux",
+    cityShort: "Bagneux",
+    base: "bagneux",
+    ficheSlug: "bagneux-92007",
+    departement: "Hauts-de-Seine",
+    median: 5800,
+    evolutionNote: "en forte hausse sur 5 ans, marché transformé par le métro 4 et la ligne 15",
+    quartiers: [
+      { nom: "Quartier Nord / Barbara", fourchette: "6 000-6 800 €/m²", note: "autour des nouvelles stations du métro 4, en pleine valorisation, le plus prisé" },
+      { nom: "Centre / Marché", fourchette: "5 800-6 600 €/m²", note: "cœur de ville, commerces" },
+      { nom: "Tertres-Cuverons", fourchette: "5 600-6 300 €/m²", note: "résidentiel" },
+      { nom: "Pierre Plate / Sud", fourchette: "5 500-6 200 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 4 prolongé en 2022 (stations Barbara et Bagneux-Lucie Aubrac, Montparnasse en 15 minutes et Châtelet en 25), la future ligne 15 Sud du Grand Paris Express à Bagneux-Lucie Aubrac (mise en service vers 2025-2026), le RER B tout proche à Arcueil-Cachan, et l'accès à l'A86",
+    contexte:
+      "ville populaire du sud en pleine transformation (42 000 habitants), désenclavée par l'arrivée du métro 4 et bientôt de la ligne 15, marché en forte hausse, l'un des meilleurs rapports prix-accès du sud proche à moins de 6 000 €/m²",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Montrouge",
+      base: "montrouge",
+      ficheSlug: "montrouge-92049",
+      price: 8000,
+      angle:
+        "Bagneux, populaire, en pleine valorisation avec le métro 4 et la ligne 15 (5 800 €/m²), face à Montrouge, plus bourgeoise et bien plus chère juste au nord (8 000 €/m²), deux options du sud proche à deux niveaux de budget",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-21", "2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11"],
+    skipSlots: [],
+  },
+
+  arcueil: {
+    city: "Arcueil",
+    cityShort: "Arcueil",
+    base: "arcueil",
+    ficheSlug: "arcueil-94003",
+    departement: "Val-de-Marne",
+    median: 6800,
+    evolutionNote: "en hausse sur 5 ans, marché porté par la ligne 15 à venir",
+    quartiers: [
+      { nom: "Centre / Aqueduc", fourchette: "6 800-7 500 €/m²", note: "autour de l'aqueduc Médicis et du centre, le plus prisé" },
+      { nom: "Vache Noire / limite Montrouge", fourchette: "6 700-7 400 €/m²", note: "résidentiel, proche du centre commercial" },
+      { nom: "Laplace / RER", fourchette: "6 600-7 300 €/m²", note: "autour de la gare Arcueil-Cachan, pratique" },
+      { nom: "Berthollet / Irlandais", fourchette: "6 500-7 200 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER B (gare Arcueil-Cachan, Châtelet en 18 minutes et Denfert-Rochereau en 10), la future ligne 15 Sud du Grand Paris Express à Arcueil-Cachan (vers 2025-2026), l'aqueduc Médicis, et l'accès à l'A6 et l'A6b",
+    contexte:
+      "ville en mutation du sud proche (22 000 habitants), aqueducs Médicis et de la Vanne, scène culturelle avec l'Anis Gras, désenclavement par la future ligne 15, collée à Montrouge et Gentilly, à 10 minutes de Denfert-Rochereau en RER B",
+    rendement: "3,3-3,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Cachan",
+      base: "cachan",
+      ficheSlug: "cachan-94016",
+      price: 5800,
+      angle:
+        "Arcueil, en mutation et bien reliée par le RER B et bientôt la ligne 15 (6 800 €/m²), face à Cachan, résidentielle, étudiante et un peu plus abordable juste à côté (autour de 5 800 €/m²), les deux communes de la gare Arcueil-Cachan",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-20", "2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10"],
+    skipSlots: [],
+  },
 };

@@ -103,6 +103,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Bagneux" est une page d'homonymie sans image : on force l'église Saint-Hermeland (monument classé).
+    match: "bagneux",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%C3%89glise_Saint_Hermeland_-_Bagneux_%28FR92%29_-_2023-07-30_-_1.jpg/1280px-%C3%89glise_Saint_Hermeland_-_Bagneux_%28FR92%29_-_2023-07-30_-_1.jpg",
+      width: 1280,
+      height: 960,
+      alt: "Église Saint-Hermeland de Bagneux, monument classé",
+      credit: "Wikipedia · Bagneux",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Bagneux_(Hauts-de-Seine)",
+    },
+  },
+  {
     // "Le Vésinet" : page sans image d'infobox exploitable → on force le Grand Lac des Ibis (sa ville-parc).
     match: "le-vesinet",
     image: {
