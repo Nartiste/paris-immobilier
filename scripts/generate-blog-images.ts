@@ -103,6 +103,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Bagnolet" : page sans image d'infobox exploitable → on force l'hôtel de ville.
+    match: "bagnolet",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/H%C3%B4tel_Ville_-_Bagnolet_%28FR93%29_-_2021-04-30_-_1.jpg/1280px-H%C3%B4tel_Ville_-_Bagnolet_%28FR93%29_-_2021-04-30_-_1.jpg",
+      width: 1280,
+      height: 960,
+      alt: "Hôtel de ville de Bagnolet, Seine-Saint-Denis",
+      credit: "Wikipedia · Bagnolet",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Bagnolet",
+    },
+  },
+  {
     // "Bagneux" est une page d'homonymie sans image : on force l'église Saint-Hermeland (monument classé).
     match: "bagneux",
     image: {

@@ -1942,4 +1942,141 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-20", "2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10"],
     skipSlots: [],
   },
+
+  // Vague 93 gentrifié (juin 2026). Saint-Ouen déjà en base ; 3 fiches créées.
+  "les-lilas": {
+    city: "Les Lilas",
+    cityShort: "Les Lilas",
+    base: "les-lilas",
+    ficheSlug: "les-lilas-93045",
+    departement: "Seine-Saint-Denis",
+    median: 7500,
+    evolutionNote: "en hausse sur 5 ans, marché prisé collé à Paris",
+    quartiers: [
+      { nom: "Mairie des Lilas", fourchette: "7 600-8 400 €/m²", note: "terminus du métro 11, cœur de ville, le plus prisé" },
+      { nom: "Centre / Marché", fourchette: "7 400-8 200 €/m²", note: "commerces, esprit village" },
+      { nom: "Les Bruyères / hauteurs", fourchette: "7 300-8 100 €/m²", note: "résidentiel, vues sur Paris" },
+      { nom: "Sente des Cornettes / limite Romainville", fourchette: "7 000-7 800 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 11 (Mairie des Lilas en terminus, République en 12 minutes et Châtelet en 15), son prolongement vers l'est ouvert en 2024, et un réseau de bus dense vers Paris",
+    contexte:
+      "petite ville prisée et bobo collée à Paris 19e-20e (23 000 habitants), esprit village avec ses commerces et son théâtre du Garde-Chasse, profil créatif et familial, l'une des adresses les plus recherchées de l'est à 12 minutes de République",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Le Pré-Saint-Gervais",
+      base: "le-pre-saint-gervais",
+      ficheSlug: "le-pre-saint-gervais-93061",
+      price: 7000,
+      angle:
+        "Les Lilas, village bobo prisé au terminus du métro 11 (7 500 €/m²), face au Pré-Saint-Gervais, plus petit, plus confidentiel et un peu plus abordable juste à côté (7 000 €/m²), deux pépites de l'est collées à Paris",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-19", "2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09"],
+    skipSlots: [],
+  },
+
+  "le-pre-saint-gervais": {
+    city: "Le Pré-Saint-Gervais",
+    cityShort: "Le Pré-Saint-Gervais",
+    base: "le-pre-saint-gervais",
+    ficheSlug: "le-pre-saint-gervais-93061",
+    departement: "Seine-Saint-Denis",
+    median: 7000,
+    evolutionNote: "en hausse sur 5 ans, marché confidentiel prisé",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "7 100-7 900 €/m²", note: "cœur de ville village, le plus prisé" },
+      { nom: "Les Hauts / Danton", fourchette: "7 000-7 800 €/m²", note: "résidentiel sur les hauteurs" },
+      { nom: "Sept-Arpents / limite Pantin", fourchette: "6 800-7 500 €/m²", note: "proche du métro 5, pratique" },
+      { nom: "Jean Jaurès", fourchette: "6 800-7 400 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 5 (Hoche à Pantin tout proche) et le métro 7bis (Pré-Saint-Gervais, Danube), un réseau de bus vers Paris 19e, et la proximité immédiate des Buttes-Chaumont",
+    contexte:
+      "l'une des plus petites communes de France par la superficie (18 000 habitants sur 0,7 km²), village bobo confidentiel collé à Paris 19e et aux Buttes-Chaumont, esprit hameau prisé des familles créatives, en pleine valorisation",
+    rendement: "3-3,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Pantin",
+      base: "pantin",
+      ficheSlug: "pantin-93055",
+      price: 5900,
+      angle:
+        "Le Pré-Saint-Gervais, village bobo confidentiel collé aux Buttes-Chaumont (7 000 €/m²), face à Pantin, plus grande, plus branchée le long du canal et plus abordable (5 900 €/m²), deux voisines de l'est en pleine hausse",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-18", "2026-02-25", "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08"],
+    skipSlots: [],
+  },
+
+  "saint-ouen": {
+    city: "Saint-Ouen-sur-Seine",
+    cityShort: "Saint-Ouen",
+    base: "saint-ouen",
+    ficheSlug: "saint-ouen-sur-seine-93070",
+    departement: "Seine-Saint-Denis",
+    median: 7400,
+    evolutionNote: "en forte hausse sur 5 ans, gentrification rapide portée par le métro 14",
+    quartiers: [
+      { nom: "Vieux Saint-Ouen / Puces", fourchette: "7 600-8 500 €/m²", note: "autour des Puces et du marché, le plus prisé" },
+      { nom: "Les Docks", fourchette: "7 400-8 300 €/m²", note: "écoquartier neuf au bord de Seine, moderne" },
+      { nom: "Centre / Mairie", fourchette: "7 200-8 000 €/m²", note: "métro 13, commerces" },
+      { nom: "Debain / Michelet", fourchette: "6 800-7 600 €/m²", note: "en mutation, le plus abordable" },
+    ],
+    transport:
+      "le métro 14 prolongé (Saint-Ouen, Mairie de Saint-Ouen, Saint-Lazare en 8 minutes et Châtelet en 12), le métro 13, le RER C, et l'écoquartier des Docks au bord de la Seine",
+    contexte:
+      "ville en gentrification rapide du nord (52 000 habitants), célèbre pour ses Puces (plus grand marché d'antiquités du monde), désenclavée et valorisée par le métro 14, écoquartier des Docks au bord de Seine, collée à Paris 17e-18e, l'une des plus fortes hausses de la petite couronne",
+    rendement: "3,3-3,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Asnières-sur-Seine",
+      base: "asnieres-sur-seine",
+      ficheSlug: "asnieres-sur-seine-92004",
+      price: 6800,
+      angle:
+        "Saint-Ouen-sur-Seine, en pleine gentrification avec ses Puces, ses Docks et le métro 14 (7 400 €/m²), face à Asnières-sur-Seine, plus résidentielle et un peu plus abordable sur l'autre rive (6 800 €/m²), deux villes du nord-ouest en valorisation",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-17", "2026-02-24", "2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07"],
+    skipSlots: [],
+  },
+
+  bagnolet: {
+    city: "Bagnolet",
+    cityShort: "Bagnolet",
+    base: "bagnolet",
+    ficheSlug: "bagnolet-93006",
+    departement: "Seine-Saint-Denis",
+    median: 6000,
+    evolutionNote: "en hausse sur 5 ans, marché en valorisation collé à Paris",
+    quartiers: [
+      { nom: "Centre / Gallieni", fourchette: "6 200-7 000 €/m²", note: "autour du métro 3 Gallieni, le plus prisé" },
+      { nom: "Les Coutures / hauteurs", fourchette: "6 000-6 800 €/m²", note: "résidentiel, vues sur Paris" },
+      { nom: "La Noue / limite Montreuil", fourchette: "5 800-6 500 €/m²", note: "en mutation" },
+      { nom: "Le Plateau / Malassis", fourchette: "5 700-6 400 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 3 en terminus (Gallieni, République en 15 minutes et Havre-Caumartin en 20), la gare routière internationale de Gallieni, et l'accès immédiat au périphérique et à l'A3",
+    contexte:
+      "ville populaire en valorisation collée à Paris 20e (36 000 habitants), hauteurs avec vues sur Paris, secteurs en mutation le long du métro 3, profil jeune et créatif attiré par les prix, gentrification progressive dans le sillage de Montreuil",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Montreuil",
+      base: "montreuil",
+      ficheSlug: "montreuil-93048",
+      price: 5800,
+      angle:
+        "Bagnolet, populaire, perchée avec vues sur Paris et portée par le métro 3 (6 000 €/m²), face à Montreuil, plus grande, plus gentrifiée et à peine moins chère (5 800 €/m²), deux voisines de l'est qui montent",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-16", "2026-02-23", "2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06"],
+    skipSlots: [],
+  },
 };

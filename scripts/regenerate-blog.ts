@@ -128,9 +128,10 @@ ${post.brief.references && post.brief.references.length > 0 ? `# Communes ou lig
 - Respecte le type d'ouverture imposé et la structure narrative imposée (s'ils sont indiqués).
 - Va.`;
 
-  console.log(`   Streaming Opus 4.7 (max_tokens 8192)...`);
+  const model = process.env.BLOG_MODEL ?? "claude-opus-4-7";
+  console.log(`   Streaming ${model} (max_tokens 8192)...`);
   const stream = await client.messages.stream({
-    model: "claude-opus-4-7",
+    model,
     max_tokens: 8192,
     system: SYSTEM,
     messages: [{ role: "user", content: userPrompt }],
@@ -201,7 +202,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  console.log(`📝 Régénération de ${targets.length} article(s) avec claude-opus-4-7\n`);
+  console.log(`📝 Régénération de ${targets.length} article(s) avec ${process.env.BLOG_MODEL ?? "claude-opus-4-7"}\n`);
 
   for (let i = 0; i < targets.length; i++) {
     const post = targets[i];
