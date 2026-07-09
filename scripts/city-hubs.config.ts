@@ -2079,4 +2079,143 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-16", "2026-02-23", "2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06"],
     skipSlots: [],
   },
+
+  // Vague boucle de la Marne / 94 est (juillet 2026). Les 4 villes étaient déjà dans le dataset.
+  "joinville-le-pont": {
+    city: "Joinville-le-Pont",
+    cityShort: "Joinville-le-Pont",
+    base: "joinville-le-pont",
+    ficheSlug: "joinville-le-pont-94042",
+    departement: "Val-de-Marne",
+    median: 6800,
+    evolutionNote: "en légère hausse sur 5 ans, marché familial des bords de Marne",
+    quartiers: [
+      { nom: "Bords de Marne / Île Fanac", fourchette: "7 000-7 800 €/m²", note: "guinguettes, aviron, l'île au milieu de la Marne, le plus prisé" },
+      { nom: "Centre / Mairie", fourchette: "6 800-7 500 €/m²", note: "autour du RER A et des commerces" },
+      { nom: "Polangis", fourchette: "6 600-7 400 €/m²", note: "quartier pavillonnaire calme sous les arbres, très familial" },
+      { nom: "Palissy / Hauts de Joinville", fourchette: "6 500-7 200 €/m²", note: "le plus abordable, en hauteur" },
+    ],
+    transport:
+      "le RER A (gare de Joinville-le-Pont, Châtelet en 20 minutes), les bords de Marne et leurs guinguettes, le bois de Vincennes en lisière et l'accès à l'A4",
+    contexte:
+      "petite ville des bords de Marne au passé de cinéma (20 000 habitants, les anciens studios de Joinville), guinguettes et clubs d'aviron sur l'Île Fanac, quartier pavillonnaire de Polangis, coincée entre le bois de Vincennes et la Marne, très prisée des familles",
+    rendement: "3,2-3,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Saint-Maur-des-Fossés",
+      base: "saint-maur",
+      ficheSlug: "saint-maur-des-fosses-94068",
+      price: 6800,
+      angle:
+        "Joinville-le-Pont, petite, cinéphile et animée autour de ses guinguettes (6 800 €/m²), face à Saint-Maur-des-Fossés, plus grande, plus bourgeoise dans sa boucle de la Marne, au même prix (6 800 €/m²), deux voisines de bord de Marne au coude à coude",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-15", "2026-02-22", "2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05"],
+    skipSlots: [],
+  },
+
+  "champigny-sur-marne": {
+    city: "Champigny-sur-Marne",
+    cityShort: "Champigny",
+    base: "champigny-sur-marne",
+    ficheSlug: "champigny-sur-marne-94017",
+    departement: "Val-de-Marne",
+    median: 5500,
+    evolutionNote: "en forte hausse sur 5 ans, marché porté par l'arrivée de la ligne 15",
+    quartiers: [
+      { nom: "Bords de Marne / Centre", fourchette: "5 800-6 500 €/m²", note: "cœur de ville près de la Marne, le plus prisé" },
+      { nom: "Cœuilly", fourchette: "5 500-6 300 €/m²", note: "plateau pavillonnaire familial recherché" },
+      { nom: "Le Tremblay / Polangis", fourchette: "5 500-6 200 €/m²", note: "limite Joinville et Nogent, résidentiel" },
+      { nom: "Le Plant / Les Simonettes", fourchette: "5 200-5 900 €/m²", note: "en valorisation avec la ligne 15" },
+      { nom: "Bois l'Abbé / Les Mordacs", fourchette: "4 800-5 500 €/m²", note: "grands ensembles, le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare de Champigny à Saint-Maur en limite, Châtelet en 25-30 minutes), le RER E aux Boullereaux, et surtout deux gares de la future ligne 15 Sud du Grand Paris Express (Champigny Centre et Saint-Maur-Créteil en lisière), avec l'A4 à proximité",
+    contexte:
+      "grande ville populaire et familiale des bords de Marne (78 000 habitants), plateau pavillonnaire de Cœuilly, secteurs en pleine valorisation avec l'arrivée de la ligne 15 (site de maintenance et gare Champigny Centre), l'un des marchés les plus dynamiques du Val-de-Marne en évolution de prix",
+    rendement: "3,8-4,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 % (plus de marge sur les grands ensembles)",
+    comparison: {
+      city: "Saint-Maur-des-Fossés",
+      base: "saint-maur",
+      ficheSlug: "saint-maur-des-fosses-94068",
+      price: 6800,
+      angle:
+        "Champigny-sur-Marne, populaire, grande et en pleine valorisation avec la ligne 15 (5 500 €/m²), face à Saint-Maur-des-Fossés, bourgeoise et établie dans sa boucle (6 800 €/m²), les deux rives d'une même Marne à 1 300 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04"],
+    skipSlots: [],
+  },
+
+  alfortville: {
+    city: "Alfortville",
+    cityShort: "Alfortville",
+    base: "alfortville",
+    ficheSlug: "alfortville-94002",
+    departement: "Val-de-Marne",
+    median: 5400,
+    evolutionNote: "en hausse sur 5 ans, marché porté par le RER D et la ligne 15 à venir",
+    quartiers: [
+      { nom: "Nord / limite Charenton", fourchette: "5 600-6 300 €/m²", note: "le plus proche de Paris, recherché" },
+      { nom: "Centre / Mairie", fourchette: "5 400-6 100 €/m²", note: "cœur de ville commerçant le long de la rue Véron" },
+      { nom: "Île au Cointre / bords de Seine", fourchette: "5 300-6 000 €/m²", note: "berges réaménagées, résidentiel" },
+      { nom: "Sud / Val de Seine, Chinagora", fourchette: "5 000-5 700 €/m²", note: "au confluent Seine-Marne, le plus abordable" },
+    ],
+    transport:
+      "le RER D (gares de Maisons-Alfort-Alfortville et Le Vert de Maisons, Gare de Lyon en 10 minutes), la future ligne 15 Sud du Grand Paris Express au Vert de Maisons, le métro 8 tout proche à Maisons-Alfort, et les berges de Seine et de Marne",
+    contexte:
+      "ville-presqu'île entre Seine et Marne (44 000 habitants), coincée entre les deux fleuves face à Charenton et Ivry, forte communauté arménienne et vie de quartier autour de la rue Véron, à 10 minutes de Gare de Lyon en RER D et bientôt sur la ligne 15, marché accessible aux portes de Paris",
+    rendement: "3,8-4,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Maisons-Alfort",
+      base: "maisons-alfort",
+      ficheSlug: "maisons-alfort-94046",
+      price: 6600,
+      angle:
+        "Alfortville, presqu'île populaire entre Seine et Marne, accessible et bien reliée (5 400 €/m²), face à Maisons-Alfort, plus résidentielle et plus chère de l'autre côté des voies (6 600 €/m²), deux jumelles séparées par une gare commune et 1 200 €/m²",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-13", "2026-02-20", "2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03"],
+    skipSlots: [],
+  },
+
+  creteil: {
+    city: "Créteil",
+    cityShort: "Créteil",
+    base: "creteil",
+    ficheSlug: "creteil-94028",
+    departement: "Val-de-Marne",
+    median: 4800,
+    evolutionNote: "en forte hausse sur 5 ans, préfecture portée par le métro 8 et la ligne 15 à venir",
+    quartiers: [
+      { nom: "Vieux Créteil / Bords de Marne", fourchette: "5 200-6 000 €/m²", note: "le village historique près de la Marne, le plus prisé" },
+      { nom: "Lac / Pointe du Lac", fourchette: "5 000-5 700 €/m²", note: "autour du lac de 40 hectares, métro 8, cadre unique" },
+      { nom: "L'Échat / Université", fourchette: "4 800-5 500 €/m²", note: "UPEC, CHU Mondor, future gare ligne 15, en valorisation" },
+      { nom: "Préfecture / Palais", fourchette: "4 600-5 300 €/m²", note: "les célèbres immeubles Choux, commerces de Créteil Soleil" },
+      { nom: "Mont-Mesly / Habette", fourchette: "4 200-4 900 €/m²", note: "grands ensembles en rénovation, le plus abordable" },
+    ],
+    transport:
+      "le métro 8 (quatre stations dont Créteil-Préfecture et Pointe du Lac, Bastille en 30 minutes), la future ligne 15 Sud du Grand Paris Express à Créteil-L'Échat (vers 2026), le TVM et un réseau de bus dense, avec l'A86 qui traverse la ville",
+    contexte:
+      "préfecture du Val-de-Marne et deuxième ville de la petite couronne sud (93 000 habitants), lac de 40 hectares avec base nautique, université UPEC et CHU Henri-Mondor, immeubles Choux emblématiques, centre commercial Créteil Soleil, marché le plus abordable de notre sélection à moins de 5 000 €/m² avec un métro direct",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 % (variable selon le quartier)",
+    comparison: {
+      city: "Champigny-sur-Marne",
+      base: "champigny-sur-marne",
+      ficheSlug: "champigny-sur-marne-94017",
+      price: 5500,
+      angle:
+        "Créteil, préfecture équipée avec son lac, son métro et ses 93 000 habitants (4 800 €/m²), face à Champigny-sur-Marne, plus pavillonnaire au bord de la Marne (5 500 €/m²), deux grandes villes du 94 portées par la ligne 15",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-12", "2026-02-19", "2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02"],
+    skipSlots: [],
+  },
 };
