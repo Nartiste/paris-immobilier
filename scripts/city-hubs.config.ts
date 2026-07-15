@@ -2218,4 +2218,143 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-12", "2026-02-19", "2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02"],
     skipSlots: [],
   },
+
+  // Vague 94 ligne 14 / RER B (juillet 2026). KB + Gentilly créées ; Villejuif a déjà
+  // vivre/prix/déménager (slugs -effet-ligne-14 et demenager-) : skip anti-cannibal.
+  villejuif: {
+    city: "Villejuif",
+    cityShort: "Villejuif",
+    base: "villejuif",
+    ficheSlug: "villejuif-94076",
+    departement: "Val-de-Marne",
+    median: 5800,
+    evolutionNote: "en forte hausse sur 5 ans, marché transformé par les métros 14 et 15",
+    quartiers: [
+      { nom: "Centre / Paul Vaillant-Couturier", fourchette: "6 000-6 800 €/m²", note: "cœur de ville, métro 7 et institut Gustave-Roussy, le plus prisé" },
+      { nom: "Louis Aragon / entrée de ville", fourchette: "5 900-6 600 €/m²", note: "terminus M7, hub de bus, pratique" },
+      { nom: "IGR / Hautes-Bruyères", fourchette: "5 800-6 500 €/m²", note: "autour de la gare M14-M15 Villejuif-Gustave Roussy, en pleine valorisation" },
+      { nom: "Les Esselières", fourchette: "5 500-6 200 €/m²", note: "résidentiel" },
+      { nom: "Alexandre Dumas / Lebon-Lamartine", fourchette: "5 200-5 900 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 7 (trois stations dont Villejuif-Louis Aragon en terminus), le métro 14 prolongé en 2024 (Villejuif-Gustave Roussy, Châtelet en 15 minutes), la future ligne 15 Sud au même endroit, et l'institut Gustave-Roussy premier centre européen de lutte contre le cancer",
+    contexte:
+      "ville en pleine transformation du sud (60 000 habitants), portée par l'arrivée du métro 14 et bientôt de la ligne 15 autour de l'institut Gustave-Roussy, l'une des plus fortes évolutions de prix du Val-de-Marne, marché encore accessible qui se valorise vite",
+    rendement: "3,8-4,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Le Kremlin-Bicêtre",
+      base: "le-kremlin-bicetre",
+      ficheSlug: "le-kremlin-bicetre-94043",
+      price: 7200,
+      angle:
+        "Villejuif, en pleine mutation avec les métros 14 et 15 et encore accessible (5 800 €/m²), face au Kremlin-Bicêtre, collé à Paris 13e et plus cher (7 200 €/m²), deux étapes du même corridor sud à 1 400 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-11", "2026-02-18", "2026-02-25", "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01"],
+    skipSlots: ["vivre", "s1", "s5"],
+  },
+
+  "le-kremlin-bicetre": {
+    city: "Le Kremlin-Bicêtre",
+    cityShort: "Le Kremlin-Bicêtre",
+    base: "le-kremlin-bicetre",
+    ficheSlug: "le-kremlin-bicetre-94043",
+    departement: "Val-de-Marne",
+    median: 7200,
+    evolutionNote: "stable à légère hausse sur 5 ans, marché tendu collé à Paris",
+    quartiers: [
+      { nom: "Porte d'Italie / Nord", fourchette: "7 400-8 200 €/m²", note: "collé au 13e arrondissement, le plus cher" },
+      { nom: "Centre / Mairie", fourchette: "7 200-7 900 €/m²", note: "métro 7, commerces du cœur de ville" },
+      { nom: "CHU Bicêtre", fourchette: "7 000-7 700 €/m²", note: "autour de l'hôpital, pratique" },
+      { nom: "Sud / limite Villejuif", fourchette: "6 800-7 500 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le métro 7 (Le Kremlin-Bicêtre, Place d'Italie en 5 minutes et Châtelet en 15), la proximité immédiate de la porte d'Italie et du 13e arrondissement à pied, et le CHU Bicêtre",
+    contexte:
+      "petite ville dense collée à Paris 13e (26 000 habitants), CHU Bicêtre, profil jeune et étudiant avec une vie de quartier animée autour du métro 7, un quasi-arrondissement au sud de la porte d'Italie",
+    rendement: "3,2-3,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 % (marché tendu)",
+    comparison: {
+      city: "Gentilly",
+      base: "gentilly",
+      ficheSlug: "gentilly-94037",
+      price: 6800,
+      angle:
+        "Le Kremlin-Bicêtre, animé et desservi par le métro 7 (7 200 €/m²), face à Gentilly, plus villageoise sur le RER B et un peu plus accessible (6 800 €/m²), deux communes collées au 13e arrondissement",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-10", "2026-02-17", "2026-02-24", "2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31"],
+    skipSlots: [],
+  },
+
+  gentilly: {
+    city: "Gentilly",
+    cityShort: "Gentilly",
+    base: "gentilly",
+    ficheSlug: "gentilly-94037",
+    departement: "Val-de-Marne",
+    median: 6800,
+    evolutionNote: "en hausse sur 5 ans, petit marché prisé aux portes de Paris",
+    quartiers: [
+      { nom: "Centre / Frileuse", fourchette: "7 000-7 700 €/m²", note: "cœur de village autour de la mairie, le plus prisé" },
+      { nom: "Plateau / Mazagran", fourchette: "6 800-7 500 €/m²", note: "hauteurs résidentielles, proche Cité Universitaire" },
+      { nom: "Gare / Vallée de la Bièvre", fourchette: "6 600-7 300 €/m²", note: "autour du RER B, pratique" },
+      { nom: "Victor Hugo / Reims", fourchette: "6 400-7 100 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER B (gare de Gentilly, Denfert-Rochereau en 5 minutes et Châtelet en 10), la Cité Internationale Universitaire et le parc Montsouris juste de l'autre côté du périphérique, et le tram T3a à la porte de Gentilly",
+    contexte:
+      "petit village urbain aux portes de Paris 13e-14e (19 000 habitants), vallée de la Bièvre, esprit village avec ses ruelles et son marché, siège de Sanofi, à 5 minutes de Denfert en RER B, l'une des communes les plus proches du cœur de Paris",
+    rendement: "3,2-3,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Arcueil",
+      base: "arcueil",
+      ficheSlug: "arcueil-94003",
+      price: 6800,
+      angle:
+        "Gentilly, village urbain collé à Paris à 5 minutes de Denfert (6 800 €/m²), face à Arcueil, sa voisine de la vallée de la Bièvre au même prix mais dopée par la future ligne 15 (6 800 €/m²), deux options jumelles du RER B sud",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-09", "2026-02-16", "2026-02-23", "2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30"],
+    skipSlots: [],
+  },
+
+  cachan: {
+    city: "Cachan",
+    cityShort: "Cachan",
+    base: "cachan",
+    ficheSlug: "cachan-94016",
+    departement: "Val-de-Marne",
+    median: 6300,
+    evolutionNote: "en légère hausse sur 5 ans, marché familial et étudiant",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "6 500-7 200 €/m²", note: "cœur de ville commerçant, le plus prisé" },
+      { nom: "Coteau / Aqueduc", fourchette: "6 300-7 000 €/m²", note: "hauteurs résidentielles sous l'aqueduc" },
+      { nom: "Gare / Arcueil-Cachan", fourchette: "6 200-6 900 €/m²", note: "RER B et future ligne 15, en valorisation" },
+      { nom: "Ouest / Grange Ory", fourchette: "6 000-6 700 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER B (gares Arcueil-Cachan et Bagneux-Pont-Royal, Denfert-Rochereau en 12 minutes), la future ligne 15 Sud à Arcueil-Cachan (vers 2026), et l'aqueduc de la Vanne qui traverse la ville",
+    contexte:
+      "ville familiale et étudiante de la vallée de la Bièvre (31 000 habitants), ancien berceau de l'ENS Cachan devenue CentraleSupélec-ENS Paris-Saclay historique, aqueduc monumental, marchés et coteaux, bien reliée par le RER B et bientôt la ligne 15",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Bourg-la-Reine",
+      base: "bourg-la-reine",
+      ficheSlug: "bourg-la-reine-92014",
+      price: 7000,
+      angle:
+        "Cachan, familiale et étudiante avec son aqueduc et la ligne 15 à venir (6 300 €/m²), face à Bourg-la-Reine, plus bourgeoise et plus chère deux stations plus loin (7 000 €/m²), deux valeurs sûres du RER B sud",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-08", "2026-02-15", "2026-02-22", "2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29"],
+    skipSlots: [],
+  },
 };

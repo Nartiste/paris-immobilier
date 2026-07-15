@@ -103,6 +103,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Gentilly" est une page d'homonymie sans image : on force l'église Saint-Saturnin.
+    match: "gentilly",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%C3%89glise_Saint-Saturnin_de_Gentilly_%2811%29.jpg/1280px-%C3%89glise_Saint-Saturnin_de_Gentilly_%2811%29.jpg",
+      width: 1280,
+      height: 720,
+      alt: "Église Saint-Saturnin de Gentilly, Val-de-Marne",
+      credit: "Wikipedia · Gentilly",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Gentilly_(Val-de-Marne)",
+    },
+  },
+  {
     // "Bagnolet" : page sans image d'infobox exploitable → on force l'hôtel de ville.
     match: "bagnolet",
     image: {
