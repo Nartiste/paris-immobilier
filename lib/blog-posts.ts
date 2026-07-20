@@ -39820,6 +39820,2010 @@ export const BLOG_POSTS: BlogPost[] = [
         "Bourg-la-Reine"
       ]
     }
+  },
+  {
+    "slug": "vivre-a-sartrouville-2026",
+    "title": "Vivre à Sartrouville en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Sartrouville ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-07",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Sartrouville et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Sartrouville' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Sartrouville : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Sartrouville : grande ville pavillonnaire et familiale de la boucle de Seine (52 000 habitants), deuxième ville des Yvelines, marché accessible autour de 4 100 €/m² avec un RER A direct, secteurs pavillonnaires calmes et grands ensembles en rénovation au Plateau. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4100 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Sartrouville",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (4 300-4 900 €/m², autour du RER A, commerces, le plus prisé) ; La Vaudoire / Debussy (4 100-4 700 €/m², pavillonnaire familial) ; Bords de Seine (4 000-4 600 €/m², berges réaménagées, résidentiel) ; Le Plateau / Indes (3 800-4 400 €/m², grands ensembles en rénovation, le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-sartrouville-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-sartrouville-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER A (gare de Sartrouville, Châtelet en 25 minutes), le Transilien L, la future arrivée du RER E prolongé (EOLE), et l'A14 toute proche. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "grande ville pavillonnaire et familiale de la boucle de Seine (52 000 habitants), deuxième ville des Yvelines, marché accessible autour de 4 100 €/m² avec un RER A direct, secteurs pavillonnaires calmes et grands ensembles en rénovation au Plateau. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Sartrouville (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Sartrouville est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sartrouville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Sartrouville](/vivre-a/sartrouville-78586) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-sartrouville-2026-par-quartier) ou [l'arbitrage quitter Paris pour Sartrouville](/blog/quitter-paris-pour-sartrouville-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Sartrouville, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sartrouville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-sartrouville-2026-par-quartier",
+    "title": "Prix immobilier Sartrouville 2026 : le vrai prix par quartier",
+    "description": "4100 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-02-14",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Sartrouville qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4100 €/m² de médiane à Sartrouville, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4100 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Le Plateau / Indes). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (4 300-4 900 €/m², autour du RER A, commerces, le plus prisé) ; La Vaudoire / Debussy (4 100-4 700 €/m², pavillonnaire familial) ; Bords de Seine (4 000-4 600 €/m², berges réaménagées, résidentiel) ; Le Plateau / Indes (3 800-4 400 €/m², grands ensembles en rénovation, le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 4 300-4 900 €/m²",
+          "contenu": "autour du RER A, commerces, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "La Vaudoire / Debussy : 4 100-4 700 €/m²",
+          "contenu": "pavillonnaire familial. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bords de Seine : 4 000-4 600 €/m²",
+          "contenu": "berges réaménagées, résidentiel. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Le Plateau / Indes : 3 800-4 400 €/m²",
+          "contenu": "grands ensembles en rénovation, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sartrouville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-sartrouville-acheter-2026) et la fiche [Sartrouville](/vivre-a/sartrouville-78586)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Sartrouville en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sartrouville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-sartrouville-acheter-2026",
+    "title": "Meilleur quartier de Sartrouville pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Sartrouville le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-02-21",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Sartrouville mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Sartrouville n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Sartrouville le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, La Vaudoire / Debussy, Bords de Seine, Le Plateau / Indes. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-sartrouville-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Le Plateau / Indes et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER A (gare de Sartrouville). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Sartrouville ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Sartrouville ou Houilles](/blog/sartrouville-ou-houilles-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Sartrouville, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Sartrouville se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-sartrouville-achat-2026",
+    "title": "Sartrouville : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Sartrouville, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-02-28",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Sartrouville (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Sartrouville est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Sartrouville",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Le Plateau / Indes et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sartrouville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-sartrouville-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Sartrouville et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sartrouville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "investir-sartrouville-rendement-locatif-2026",
+    "title": "Investir à Sartrouville en 2026 : rendement réel par quartier",
+    "description": "4,3-4,8 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Sartrouville a du sens.",
+    "publishedAt": "2026-03-07",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,3-4,8 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Sartrouville (4,3-4,8 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER A (gare de Sartrouville) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Sartrouville",
+          "contenu": "4,3-4,8 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER A (gare de Sartrouville, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Le Plateau / Indes = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sartrouville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Sartrouville a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-sartrouville-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Sartrouville, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sartrouville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-sartrouville-arbitrage-2026",
+    "title": "Quitter Paris pour Sartrouville : le vrai calcul en 2026",
+    "description": "Sartrouville face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-03-14",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Sartrouville.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Sartrouville et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Sartrouville : grande ville pavillonnaire et familiale de la boucle de Seine (52 000 habitants), deuxième ville des Yvelines, marché accessible autour de 4 100 €/m² avec un RER A direct, secteurs pavillonnaires calmes et grands ensembles en rénovation au Plateau. Desserte le RER A (gare de Sartrouville, Châtelet en 25 minutes), le Transilien L, la future arrivée du RER E prolongé (EOLE), et l'A14 toute proche. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4100 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Sartrouville, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Sartrouville (4100 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "grande ville pavillonnaire et familiale de la boucle de Seine (52 000 habitants), deuxième ville des Yvelines, marché accessible autour de 4 100 €/m² avec un RER A direct, secteurs pavillonnaires calmes et grands ensembles en rénovation au Plateau. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER A (gare de Sartrouville, Châtelet en 25 minutes), le Transilien L, la future arrivée du RER E prolongé (EOLE), et l'A14 toute proche. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Sartrouville ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-sartrouville-2026-guide-complet) et [Sartrouville ou Houilles](/blog/sartrouville-ou-houilles-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Sartrouville, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Sartrouville se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-sartrouville",
+    "title": "Acheter à Sartrouville : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-7 %. Le coût total réel d'un achat à Sartrouville, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-03-21",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Sartrouville, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Sartrouville",
+          "contenu": "Marge réaliste 4-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sartrouville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-sartrouville-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-sartrouville-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Sartrouville, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sartrouville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville"
+      ]
+    }
+  },
+  {
+    "slug": "sartrouville-ou-houilles-acheter-2026",
+    "title": "Sartrouville ou Houilles : où acheter en 2026",
+    "description": "Sartrouville, grande, pavillonnaire et la plus accessible de la boucle (4 100 €/m²), face à Houilles, plus petite, plus chic et mieux cotée une gare plus loin (5 200 €/m²), deux voisines du RER A à 1 100 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-03-28",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Sartrouville et Houilles, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Sartrouville, grande, pavillonnaire et la plus accessible de la boucle (4 100 €/m²), face à Houilles, plus petite, plus chic et mieux cotée une gare plus loin (5 200 €/m²), deux voisines du RER A à 1 100 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Sartrouville, grande, pavillonnaire et la plus accessible de la boucle (4 100 €/m²), face à Houilles, plus petite, plus chic et mieux cotée une gare plus loin (5 200 €/m²), deux voisines du RER A à 1 100 € d'écart. Sartrouville 4100 €/m² vs Houilles 5200 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Sartrouville | Houilles) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Sartrouville 4100 €/m² vs Houilles 5200 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER A (gare de Sartrouville, Châtelet en 25 minutes), le Transilien L, la future arrivée du RER E prolongé (EOLE), et l'A14 toute proche côté Sartrouville. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "grande ville pavillonnaire et familiale de la boucle de Seine (52 000 habitants), deuxième ville des Yvelines, marché accessible autour de 4 100 €/m² avec un RER A direct, secteurs pavillonnaires calmes et grands ensembles en rénovation au Plateau côté Sartrouville. Décrire le contraste d'ambiance avec Houilles."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,3-4,8 % brut côté Sartrouville). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sartrouville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Sartrouville, pour qui Houilles",
+          "contenu": "Verdict par profil. Linker les deux fiches [Sartrouville](/vivre-a/sartrouville-78586) et [Houilles](/vivre-a/houilles-78311)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Sartrouville ou Houilles : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sartrouville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sartrouville",
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-houilles-2026",
+    "title": "Vivre à Houilles en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Houilles ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-06",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Houilles et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Houilles' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Houilles : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Houilles : ville pavillonnaire familiale et recherchée de la boucle de Seine (33 000 habitants), la ville de Victor Schoelcher, gare exceptionnelle à trois lignes qui met Saint-Lazare à 12 minutes, marché porté par les familles qui quittent Paris et Levallois-Asnières. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (5200 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Houilles",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (5 400-6 000 €/m², autour de la gare trois lignes, commerces, le plus prisé) ; Réveil Matin (5 200-5 800 €/m², pavillonnaire familial recherché) ; Les Blanches / Belles-Vues (5 000-5 600 €/m², résidentiel calme) ; Sud / limite Carrières (4 900-5 500 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-houilles-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-houilles-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes, Transilien J et L vers Saint-Lazare en 12-15 minutes), et l'arrivée à terme du RER E prolongé. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville pavillonnaire familiale et recherchée de la boucle de Seine (33 000 habitants), la ville de Victor Schoelcher, gare exceptionnelle à trois lignes qui met Saint-Lazare à 12 minutes, marché porté par les familles qui quittent Paris et Levallois-Asnières. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Houilles (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Houilles est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Houilles colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Houilles](/vivre-a/houilles-78311) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-houilles-2026-par-quartier) ou [l'arbitrage quitter Paris pour Houilles](/blog/quitter-paris-pour-houilles-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Houilles, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Houilles aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-houilles-2026-par-quartier",
+    "title": "Prix immobilier Houilles 2026 : le vrai prix par quartier",
+    "description": "5200 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-02-13",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Houilles qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '5200 €/m² de médiane à Houilles, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 5200 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Sud / limite Carrières). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (5 400-6 000 €/m², autour de la gare trois lignes, commerces, le plus prisé) ; Réveil Matin (5 200-5 800 €/m², pavillonnaire familial recherché) ; Les Blanches / Belles-Vues (5 000-5 600 €/m², résidentiel calme) ; Sud / limite Carrières (4 900-5 500 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 5 400-6 000 €/m²",
+          "contenu": "autour de la gare trois lignes, commerces, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Réveil Matin : 5 200-5 800 €/m²",
+          "contenu": "pavillonnaire familial recherché. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Les Blanches / Belles-Vues : 5 000-5 600 €/m²",
+          "contenu": "résidentiel calme. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Sud / limite Carrières : 4 900-5 500 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Houilles à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-houilles-acheter-2026) et la fiche [Houilles](/vivre-a/houilles-78311)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Houilles en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Houilles et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-houilles-acheter-2026",
+    "title": "Meilleur quartier de Houilles pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Houilles le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-02-20",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Houilles mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Houilles n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Houilles le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, Réveil Matin, Les Blanches / Belles-Vues, Sud / limite Carrières. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-houilles-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Sud / limite Carrières et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Houilles ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Houilles ou Maisons-Laffitte](/blog/houilles-ou-maisons-laffitte-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Houilles, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Houilles se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-houilles-achat-2026",
+    "title": "Houilles : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Houilles, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-02-27",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Houilles (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Houilles est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Houilles",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Sud / limite Carrières et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Houilles colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-houilles-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Houilles et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Houilles aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "investir-houilles-rendement-locatif-2026",
+    "title": "Investir à Houilles en 2026 : rendement réel par quartier",
+    "description": "3,7-4,2 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Houilles a du sens.",
+    "publishedAt": "2026-03-06",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,7-4,2 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Houilles (3,7-4,2 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Houilles",
+          "contenu": "3,7-4,2 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Sud / limite Carrières = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Houilles à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Houilles a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-houilles-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Houilles, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Houilles et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-houilles-arbitrage-2026",
+    "title": "Quitter Paris pour Houilles : le vrai calcul en 2026",
+    "description": "Houilles face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-03-13",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Houilles.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Houilles et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Houilles : ville pavillonnaire familiale et recherchée de la boucle de Seine (33 000 habitants), la ville de Victor Schoelcher, gare exceptionnelle à trois lignes qui met Saint-Lazare à 12 minutes, marché porté par les familles qui quittent Paris et Levallois-Asnières. Desserte la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes, Transilien J et L vers Saint-Lazare en 12-15 minutes), et l'arrivée à terme du RER E prolongé. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 5200 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Houilles, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Houilles (5200 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville pavillonnaire familiale et recherchée de la boucle de Seine (33 000 habitants), la ville de Victor Schoelcher, gare exceptionnelle à trois lignes qui met Saint-Lazare à 12 minutes, marché porté par les familles qui quittent Paris et Levallois-Asnières. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes, Transilien J et L vers Saint-Lazare en 12-15 minutes), et l'arrivée à terme du RER E prolongé. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Houilles ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-houilles-2026-guide-complet) et [Houilles ou Maisons-Laffitte](/blog/houilles-ou-maisons-laffitte-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Houilles, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Houilles se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-houilles",
+    "title": "Acheter à Houilles : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 3-5 %. Le coût total réel d'un achat à Houilles, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-03-20",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Houilles, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 3-5 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 3-5 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Houilles",
+          "contenu": "Marge réaliste 3-5 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Houilles colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-houilles-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-houilles-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Houilles, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Houilles aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Houilles"
+      ]
+    }
+  },
+  {
+    "slug": "houilles-ou-maisons-laffitte-acheter-2026",
+    "title": "Houilles ou Maisons-Laffitte : où acheter en 2026",
+    "description": "Houilles, pavillonnaire pratique avec sa gare trois lignes (5 200 €/m²), face à Maisons-Laffitte, prestige équestre avec parc et château juste au nord (6 800 €/m²), deux profils de la boucle à 1 600 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-03-27",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Houilles et Maisons-Laffitte, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Houilles, pavillonnaire pratique avec sa gare trois lignes (5 200 €/m²), face à Maisons-Laffitte, prestige équestre avec parc et château juste au nord (6 800 €/m²), deux profils de la boucle à 1 600 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Houilles, pavillonnaire pratique avec sa gare trois lignes (5 200 €/m²), face à Maisons-Laffitte, prestige équestre avec parc et château juste au nord (6 800 €/m²), deux profils de la boucle à 1 600 € d'écart. Houilles 5200 €/m² vs Maisons-Laffitte 6800 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Houilles | Maisons-Laffitte) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Houilles 5200 €/m² vs Maisons-Laffitte 6800 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes, Transilien J et L vers Saint-Lazare en 12-15 minutes), et l'arrivée à terme du RER E prolongé côté Houilles. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville pavillonnaire familiale et recherchée de la boucle de Seine (33 000 habitants), la ville de Victor Schoelcher, gare exceptionnelle à trois lignes qui met Saint-Lazare à 12 minutes, marché porté par les familles qui quittent Paris et Levallois-Asnières côté Houilles. Décrire le contraste d'ambiance avec Maisons-Laffitte."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,7-4,2 % brut côté Houilles). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Houilles à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Houilles, pour qui Maisons-Laffitte",
+          "contenu": "Verdict par profil. Linker les deux fiches [Houilles](/vivre-a/houilles-78311) et [Maisons-Laffitte](/vivre-a/maisons-laffitte-78358)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Houilles ou Maisons-Laffitte : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Houilles et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Houilles",
+        "Maisons-Laffitte"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-conflans-sainte-honorine-2026",
+    "title": "Vivre à Conflans-Sainte-Honorine en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Conflans ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-05",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Conflans et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Conflans' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Conflans : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Conflans-Sainte-Honorine : capitale française de la batellerie au confluent de la Seine et de l'Oise (36 000 habitants), musée et pardon national des mariniers, vieux centre perché avec vue sur les fleuves, marché parmi les plus accessibles de notre sélection sous 4 000 €/m² avec deux gares. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (3900 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Conflans",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Vieux Conflans (4 100-4 700 €/m², cœur historique au-dessus de la Seine, le plus prisé) ; Fin d'Oise / Pointe (3 900-4 500 €/m², au confluent, gare RER A, pratique) ; Chennevières / Plateau (3 800-4 400 €/m², pavillonnaire familial) ; Renouveau / Roches (3 600-4 200 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-conflans-sainte-honorine-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-conflans-sainte-honorine-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER A (gare de Conflans-Fin-d'Oise, La Défense en 30 minutes), le Transilien J (Conflans-Sainte-Honorine vers Saint-Lazare), la confluence Seine-Oise et l'A15 toute proche. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "capitale française de la batellerie au confluent de la Seine et de l'Oise (36 000 habitants), musée et pardon national des mariniers, vieux centre perché avec vue sur les fleuves, marché parmi les plus accessibles de notre sélection sous 4 000 €/m² avec deux gares. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Conflans (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Conflans est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Conflans colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Conflans](/vivre-a/conflans-sainte-honorine-78172) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-conflans-sainte-honorine-2026-par-quartier) ou [l'arbitrage quitter Paris pour Conflans](/blog/quitter-paris-pour-conflans-sainte-honorine-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Conflans, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Conflans aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-conflans-sainte-honorine-2026-par-quartier",
+    "title": "Prix immobilier Conflans-Sainte-Honorine 2026 : le vrai prix par quartier",
+    "description": "3900 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-02-12",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Conflans qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '3900 €/m² de médiane à Conflans, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 3900 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Vieux Conflans) et le plus abordable (Renouveau / Roches). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Vieux Conflans (4 100-4 700 €/m², cœur historique au-dessus de la Seine, le plus prisé) ; Fin d'Oise / Pointe (3 900-4 500 €/m², au confluent, gare RER A, pratique) ; Chennevières / Plateau (3 800-4 400 €/m², pavillonnaire familial) ; Renouveau / Roches (3 600-4 200 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Vieux Conflans : 4 100-4 700 €/m²",
+          "contenu": "cœur historique au-dessus de la Seine, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Fin d'Oise / Pointe : 3 900-4 500 €/m²",
+          "contenu": "au confluent, gare RER A, pratique. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Chennevières / Plateau : 3 800-4 400 €/m²",
+          "contenu": "pavillonnaire familial. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Renouveau / Roches : 3 600-4 200 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Conflans à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-conflans-sainte-honorine-acheter-2026) et la fiche [Conflans](/vivre-a/conflans-sainte-honorine-78172)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Conflans en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Conflans et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-conflans-sainte-honorine-acheter-2026",
+    "title": "Meilleur quartier de Conflans-Sainte-Honorine pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Conflans le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-02-19",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Conflans mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Conflans n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Conflans le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Vieux Conflans, Fin d'Oise / Pointe, Chennevières / Plateau, Renouveau / Roches. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-conflans-sainte-honorine-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Renouveau / Roches et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Vieux Conflans et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER A (gare de Conflans-Fin-d'Oise). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Conflans ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Conflans ou Poissy](/blog/conflans-sainte-honorine-ou-poissy-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Conflans, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Conflans se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-conflans-sainte-honorine-achat-2026",
+    "title": "Conflans-Sainte-Honorine : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Conflans, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-02-26",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Conflans (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Conflans est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Conflans",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Renouveau / Roches et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Conflans colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-conflans-sainte-honorine-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Conflans et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Conflans aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "investir-conflans-sainte-honorine-rendement-locatif-2026",
+    "title": "Investir à Conflans-Sainte-Honorine en 2026 : rendement réel par quartier",
+    "description": "4,4-4,9 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Conflans a du sens.",
+    "publishedAt": "2026-03-05",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,4-4,9 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Conflans (4,4-4,9 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER A (gare de Conflans-Fin-d'Oise) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Conflans",
+          "contenu": "4,4-4,9 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER A (gare de Conflans-Fin-d'Oise, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Vieux Conflans = valeur refuge, rendement minimal. Renouveau / Roches = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Conflans à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Conflans a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-conflans-sainte-honorine-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Conflans, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Conflans et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-conflans-sainte-honorine-arbitrage-2026",
+    "title": "Quitter Paris pour Conflans-Sainte-Honorine : le vrai calcul en 2026",
+    "description": "Conflans face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-03-12",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Conflans.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Conflans et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Conflans : capitale française de la batellerie au confluent de la Seine et de l'Oise (36 000 habitants), musée et pardon national des mariniers, vieux centre perché avec vue sur les fleuves, marché parmi les plus accessibles de notre sélection sous 4 000 €/m² avec deux gares. Desserte le RER A (gare de Conflans-Fin-d'Oise, La Défense en 30 minutes), le Transilien J (Conflans-Sainte-Honorine vers Saint-Lazare), la confluence Seine-Oise et l'A15 toute proche. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 3900 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Conflans, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Conflans (3900 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "capitale française de la batellerie au confluent de la Seine et de l'Oise (36 000 habitants), musée et pardon national des mariniers, vieux centre perché avec vue sur les fleuves, marché parmi les plus accessibles de notre sélection sous 4 000 €/m² avec deux gares. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER A (gare de Conflans-Fin-d'Oise, La Défense en 30 minutes), le Transilien J (Conflans-Sainte-Honorine vers Saint-Lazare), la confluence Seine-Oise et l'A15 toute proche. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Conflans ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-conflans-sainte-honorine-2026-guide-complet) et [Conflans ou Poissy](/blog/conflans-sainte-honorine-ou-poissy-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Conflans, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Conflans se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-conflans-sainte-honorine",
+    "title": "Acheter à Conflans-Sainte-Honorine : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 5-8 % (marché plus négociable). Le coût total réel d'un achat à Conflans, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-03-19",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Conflans, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 5-8 % (marché plus négociable), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 5-8 % (marché plus négociable). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Conflans",
+          "contenu": "Marge réaliste 5-8 % (marché plus négociable). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Conflans colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-conflans-sainte-honorine-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-conflans-sainte-honorine-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Conflans, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Conflans aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine"
+      ]
+    }
+  },
+  {
+    "slug": "conflans-sainte-honorine-ou-poissy-acheter-2026",
+    "title": "Conflans-Sainte-Honorine ou Poissy : où acheter en 2026",
+    "description": "Conflans-Sainte-Honorine, batelière et abordable au confluent Seine-Oise (3 900 €/m²), face à Poissy, plus grande et portée par EOLE et son usine Stellantis en mutation (4 200 €/m²), deux villes de Seine accessibles de l'ouest. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-03-26",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Conflans et Poissy, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Conflans-Sainte-Honorine, batelière et abordable au confluent Seine-Oise (3 900 €/m²), face à Poissy, plus grande et portée par EOLE et son usine Stellantis en mutation (4 200 €/m²), deux villes de Seine accessibles de l'ouest. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Conflans-Sainte-Honorine, batelière et abordable au confluent Seine-Oise (3 900 €/m²), face à Poissy, plus grande et portée par EOLE et son usine Stellantis en mutation (4 200 €/m²), deux villes de Seine accessibles de l'ouest. Conflans 3900 €/m² vs Poissy 4200 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Conflans | Poissy) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Conflans 3900 €/m² vs Poissy 4200 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER A (gare de Conflans-Fin-d'Oise, La Défense en 30 minutes), le Transilien J (Conflans-Sainte-Honorine vers Saint-Lazare), la confluence Seine-Oise et l'A15 toute proche côté Conflans. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "capitale française de la batellerie au confluent de la Seine et de l'Oise (36 000 habitants), musée et pardon national des mariniers, vieux centre perché avec vue sur les fleuves, marché parmi les plus accessibles de notre sélection sous 4 000 €/m² avec deux gares côté Conflans. Décrire le contraste d'ambiance avec Poissy."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,4-4,9 % brut côté Conflans). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Conflans à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Conflans, pour qui Poissy",
+          "contenu": "Verdict par profil. Linker les deux fiches [Conflans](/vivre-a/conflans-sainte-honorine-78172) et [Poissy](/vivre-a/poissy-78498)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Conflans ou Poissy : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Conflans et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Conflans-Sainte-Honorine",
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-poissy-2026",
+    "title": "Vivre à Poissy en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Poissy ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-04",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Poissy et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Poissy' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Poissy : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Poissy : ville royale de naissance de Saint Louis au bord de la Seine (38 000 habitants), collégiale, villa Savoye de Le Corbusier classée, site historique Stellantis en reconversion, terminus EOLE qui redessine son marché, l'un des meilleurs potentiels de valorisation de l'ouest. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4200 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Poissy",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Collégiale (4 500-5 100 €/m², cœur historique autour de la collégiale et du marché, le plus prisé) ; Gare / EOLE (4 300-4 900 €/m², RER A et terminus du RER E prolongé, en valorisation) ; Bords de Seine / Villa Savoye (4 200-4 800 €/m², près de la villa Le Corbusier et de l'île) ; Beauregard / La Coudraie (3 800-4 400 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-poissy-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-poissy-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER A (gare de Poissy, La Défense en 25 minutes), le Transilien J, le terminus ouest du RER E prolongé (EOLE) qui met La Défense à 20 minutes directes, et l'A14. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville royale de naissance de Saint Louis au bord de la Seine (38 000 habitants), collégiale, villa Savoye de Le Corbusier classée, site historique Stellantis en reconversion, terminus EOLE qui redessine son marché, l'un des meilleurs potentiels de valorisation de l'ouest. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Poissy (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Poissy est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Poissy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Poissy](/vivre-a/poissy-78498) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-poissy-2026-par-quartier) ou [l'arbitrage quitter Paris pour Poissy](/blog/quitter-paris-pour-poissy-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Poissy, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Poissy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-poissy-2026-par-quartier",
+    "title": "Prix immobilier Poissy 2026 : le vrai prix par quartier",
+    "description": "4200 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-02-11",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Poissy qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4200 €/m² de médiane à Poissy, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4200 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Collégiale) et le plus abordable (Beauregard / La Coudraie). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Collégiale (4 500-5 100 €/m², cœur historique autour de la collégiale et du marché, le plus prisé) ; Gare / EOLE (4 300-4 900 €/m², RER A et terminus du RER E prolongé, en valorisation) ; Bords de Seine / Villa Savoye (4 200-4 800 €/m², près de la villa Le Corbusier et de l'île) ; Beauregard / La Coudraie (3 800-4 400 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Collégiale : 4 500-5 100 €/m²",
+          "contenu": "cœur historique autour de la collégiale et du marché, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Gare / EOLE : 4 300-4 900 €/m²",
+          "contenu": "RER A et terminus du RER E prolongé, en valorisation. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bords de Seine / Villa Savoye : 4 200-4 800 €/m²",
+          "contenu": "près de la villa Le Corbusier et de l'île. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Beauregard / La Coudraie : 3 800-4 400 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Poissy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-poissy-acheter-2026) et la fiche [Poissy](/vivre-a/poissy-78498)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Poissy en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Poissy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-poissy-acheter-2026",
+    "title": "Meilleur quartier de Poissy pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Poissy le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-02-18",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Poissy mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Poissy n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Poissy le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Collégiale, Gare / EOLE, Bords de Seine / Villa Savoye, Beauregard / La Coudraie. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-poissy-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Beauregard / La Coudraie et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Collégiale et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER A (gare de Poissy). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Poissy ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Poissy ou Sartrouville](/blog/poissy-ou-sartrouville-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Poissy, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Poissy se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-poissy-achat-2026",
+    "title": "Poissy : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Poissy, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-02-25",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Poissy (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Poissy est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Poissy",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Beauregard / La Coudraie et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Poissy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-poissy-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Poissy et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Poissy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "investir-poissy-rendement-locatif-2026",
+    "title": "Investir à Poissy en 2026 : rendement réel par quartier",
+    "description": "4,2-4,7 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Poissy a du sens.",
+    "publishedAt": "2026-03-04",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,2-4,7 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Poissy (4,2-4,7 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER A (gare de Poissy) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Poissy",
+          "contenu": "4,2-4,7 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER A (gare de Poissy, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Collégiale = valeur refuge, rendement minimal. Beauregard / La Coudraie = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Poissy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Poissy a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-poissy-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Poissy, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Poissy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-poissy-arbitrage-2026",
+    "title": "Quitter Paris pour Poissy : le vrai calcul en 2026",
+    "description": "Poissy face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-03-11",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Poissy.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Poissy et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Poissy : ville royale de naissance de Saint Louis au bord de la Seine (38 000 habitants), collégiale, villa Savoye de Le Corbusier classée, site historique Stellantis en reconversion, terminus EOLE qui redessine son marché, l'un des meilleurs potentiels de valorisation de l'ouest. Desserte le RER A (gare de Poissy, La Défense en 25 minutes), le Transilien J, le terminus ouest du RER E prolongé (EOLE) qui met La Défense à 20 minutes directes, et l'A14. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4200 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Poissy, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Poissy (4200 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville royale de naissance de Saint Louis au bord de la Seine (38 000 habitants), collégiale, villa Savoye de Le Corbusier classée, site historique Stellantis en reconversion, terminus EOLE qui redessine son marché, l'un des meilleurs potentiels de valorisation de l'ouest. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER A (gare de Poissy, La Défense en 25 minutes), le Transilien J, le terminus ouest du RER E prolongé (EOLE) qui met La Défense à 20 minutes directes, et l'A14. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Poissy ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-poissy-2026-guide-complet) et [Poissy ou Sartrouville](/blog/poissy-ou-sartrouville-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Poissy, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Poissy se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-poissy",
+    "title": "Acheter à Poissy : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-7 %. Le coût total réel d'un achat à Poissy, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-03-18",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Poissy, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Poissy",
+          "contenu": "Marge réaliste 4-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Poissy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-poissy-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-poissy-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Poissy, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Poissy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Poissy"
+      ]
+    }
+  },
+  {
+    "slug": "poissy-ou-sartrouville-acheter-2026",
+    "title": "Poissy ou Sartrouville : où acheter en 2026",
+    "description": "Poissy, historique et dopée par le terminus EOLE (4 200 €/m²), face à Sartrouville, plus grande et pavillonnaire sur le RER A (4 100 €/m²), deux grandes villes accessibles de la boucle de Seine au coude à coude. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-03-25",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Poissy et Sartrouville, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Poissy, historique et dopée par le terminus EOLE (4 200 €/m²), face à Sartrouville, plus grande et pavillonnaire sur le RER A (4 100 €/m²), deux grandes villes accessibles de la boucle de Seine au coude à coude. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Poissy, historique et dopée par le terminus EOLE (4 200 €/m²), face à Sartrouville, plus grande et pavillonnaire sur le RER A (4 100 €/m²), deux grandes villes accessibles de la boucle de Seine au coude à coude. Poissy 4200 €/m² vs Sartrouville 4100 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Poissy | Sartrouville) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Poissy 4200 €/m² vs Sartrouville 4100 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER A (gare de Poissy, La Défense en 25 minutes), le Transilien J, le terminus ouest du RER E prolongé (EOLE) qui met La Défense à 20 minutes directes, et l'A14 côté Poissy. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville royale de naissance de Saint Louis au bord de la Seine (38 000 habitants), collégiale, villa Savoye de Le Corbusier classée, site historique Stellantis en reconversion, terminus EOLE qui redessine son marché, l'un des meilleurs potentiels de valorisation de l'ouest côté Poissy. Décrire le contraste d'ambiance avec Sartrouville."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,2-4,7 % brut côté Poissy). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Poissy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Poissy, pour qui Sartrouville",
+          "contenu": "Verdict par profil. Linker les deux fiches [Poissy](/vivre-a/poissy-78498) et [Sartrouville](/vivre-a/sartrouville-78586)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Poissy ou Sartrouville : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Poissy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Poissy",
+        "Sartrouville"
+      ]
+    }
   }
 ];
 

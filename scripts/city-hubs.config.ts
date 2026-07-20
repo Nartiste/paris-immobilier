@@ -2357,4 +2357,141 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-08", "2026-02-15", "2026-02-22", "2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29"],
     skipSlots: [],
   },
+
+  // Vague boucle RER A / EOLE ouest (juillet 2026). Houilles + Conflans créées.
+  sartrouville: {
+    city: "Sartrouville",
+    cityShort: "Sartrouville",
+    base: "sartrouville",
+    ficheSlug: "sartrouville-78586",
+    departement: "Yvelines",
+    median: 4100,
+    evolutionNote: "en légère hausse sur 5 ans, grand marché familial accessible",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "4 300-4 900 €/m²", note: "autour du RER A, commerces, le plus prisé" },
+      { nom: "La Vaudoire / Debussy", fourchette: "4 100-4 700 €/m²", note: "pavillonnaire familial" },
+      { nom: "Bords de Seine", fourchette: "4 000-4 600 €/m²", note: "berges réaménagées, résidentiel" },
+      { nom: "Le Plateau / Indes", fourchette: "3 800-4 400 €/m²", note: "grands ensembles en rénovation, le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare de Sartrouville, Châtelet en 25 minutes), le Transilien L, la future arrivée du RER E prolongé (EOLE), et l'A14 toute proche",
+    contexte:
+      "grande ville pavillonnaire et familiale de la boucle de Seine (52 000 habitants), deuxième ville des Yvelines, marché accessible autour de 4 100 €/m² avec un RER A direct, secteurs pavillonnaires calmes et grands ensembles en rénovation au Plateau",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Houilles",
+      base: "houilles",
+      ficheSlug: "houilles-78311",
+      price: 5200,
+      angle:
+        "Sartrouville, grande, pavillonnaire et la plus accessible de la boucle (4 100 €/m²), face à Houilles, plus petite, plus chic et mieux cotée une gare plus loin (5 200 €/m²), deux voisines du RER A à 1 100 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-07", "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28"],
+    skipSlots: [],
+  },
+
+  houilles: {
+    city: "Houilles",
+    cityShort: "Houilles",
+    base: "houilles",
+    ficheSlug: "houilles-78311",
+    departement: "Yvelines",
+    median: 5200,
+    evolutionNote: "en hausse sur 5 ans, marché familial recherché de la boucle",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "5 400-6 000 €/m²", note: "autour de la gare trois lignes, commerces, le plus prisé" },
+      { nom: "Réveil Matin", fourchette: "5 200-5 800 €/m²", note: "pavillonnaire familial recherché" },
+      { nom: "Les Blanches / Belles-Vues", fourchette: "5 000-5 600 €/m²", note: "résidentiel calme" },
+      { nom: "Sud / limite Carrières", fourchette: "4 900-5 500 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "la gare de Houilles-Carrières-sur-Seine desservie par trois lignes (RER A vers Châtelet en 20 minutes, Transilien J et L vers Saint-Lazare en 12-15 minutes), et l'arrivée à terme du RER E prolongé",
+    contexte:
+      "ville pavillonnaire familiale et recherchée de la boucle de Seine (33 000 habitants), la ville de Victor Schoelcher, gare exceptionnelle à trois lignes qui met Saint-Lazare à 12 minutes, marché porté par les familles qui quittent Paris et Levallois-Asnières",
+    rendement: "3,7-4,2 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Maisons-Laffitte",
+      base: "maisons-laffitte",
+      ficheSlug: "maisons-laffitte-78358",
+      price: 6800,
+      angle:
+        "Houilles, pavillonnaire pratique avec sa gare trois lignes (5 200 €/m²), face à Maisons-Laffitte, prestige équestre avec parc et château juste au nord (6 800 €/m²), deux profils de la boucle à 1 600 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-06", "2026-02-13", "2026-02-20", "2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27"],
+    skipSlots: [],
+  },
+
+  "conflans-sainte-honorine": {
+    city: "Conflans-Sainte-Honorine",
+    cityShort: "Conflans",
+    base: "conflans-sainte-honorine",
+    ficheSlug: "conflans-sainte-honorine-78172",
+    departement: "Yvelines",
+    median: 3900,
+    evolutionNote: "en légère hausse sur 5 ans, marché accessible au confluent Seine-Oise",
+    quartiers: [
+      { nom: "Centre / Vieux Conflans", fourchette: "4 100-4 700 €/m²", note: "cœur historique au-dessus de la Seine, le plus prisé" },
+      { nom: "Fin d'Oise / Pointe", fourchette: "3 900-4 500 €/m²", note: "au confluent, gare RER A, pratique" },
+      { nom: "Chennevières / Plateau", fourchette: "3 800-4 400 €/m²", note: "pavillonnaire familial" },
+      { nom: "Renouveau / Roches", fourchette: "3 600-4 200 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare de Conflans-Fin-d'Oise, La Défense en 30 minutes), le Transilien J (Conflans-Sainte-Honorine vers Saint-Lazare), la confluence Seine-Oise et l'A15 toute proche",
+    contexte:
+      "capitale française de la batellerie au confluent de la Seine et de l'Oise (36 000 habitants), musée et pardon national des mariniers, vieux centre perché avec vue sur les fleuves, marché parmi les plus accessibles de notre sélection sous 4 000 €/m² avec deux gares",
+    rendement: "4,4-4,9 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché plus négociable)",
+    comparison: {
+      city: "Poissy",
+      base: "poissy",
+      ficheSlug: "poissy-78498",
+      price: 4200,
+      angle:
+        "Conflans-Sainte-Honorine, batelière et abordable au confluent Seine-Oise (3 900 €/m²), face à Poissy, plus grande et portée par EOLE et son usine Stellantis en mutation (4 200 €/m²), deux villes de Seine accessibles de l'ouest",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-05", "2026-02-12", "2026-02-19", "2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26"],
+    skipSlots: [],
+  },
+
+  poissy: {
+    city: "Poissy",
+    cityShort: "Poissy",
+    base: "poissy",
+    ficheSlug: "poissy-78498",
+    departement: "Yvelines",
+    median: 4200,
+    evolutionNote: "stable sur 5 ans, marché porté par l'arrivée du RER E",
+    quartiers: [
+      { nom: "Centre / Collégiale", fourchette: "4 500-5 100 €/m²", note: "cœur historique autour de la collégiale et du marché, le plus prisé" },
+      { nom: "Gare / EOLE", fourchette: "4 300-4 900 €/m²", note: "RER A et terminus du RER E prolongé, en valorisation" },
+      { nom: "Bords de Seine / Villa Savoye", fourchette: "4 200-4 800 €/m²", note: "près de la villa Le Corbusier et de l'île" },
+      { nom: "Beauregard / La Coudraie", fourchette: "3 800-4 400 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER A (gare de Poissy, La Défense en 25 minutes), le Transilien J, le terminus ouest du RER E prolongé (EOLE) qui met La Défense à 20 minutes directes, et l'A14",
+    contexte:
+      "ville royale de naissance de Saint Louis au bord de la Seine (38 000 habitants), collégiale, villa Savoye de Le Corbusier classée, site historique Stellantis en reconversion, terminus EOLE qui redessine son marché, l'un des meilleurs potentiels de valorisation de l'ouest",
+    rendement: "4,2-4,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Sartrouville",
+      base: "sartrouville",
+      ficheSlug: "sartrouville-78586",
+      price: 4100,
+      angle:
+        "Poissy, historique et dopée par le terminus EOLE (4 200 €/m²), face à Sartrouville, plus grande et pavillonnaire sur le RER A (4 100 €/m²), deux grandes villes accessibles de la boucle de Seine au coude à coude",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-04", "2026-02-11", "2026-02-18", "2026-02-25", "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25"],
+    skipSlots: [],
+  },
 };
