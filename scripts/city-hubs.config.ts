@@ -2634,4 +2634,279 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07", "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07"],
     skipSlots: [],
   },
+
+  // Batch double août 2026 : Essonne RER B/C/D + est 93. Massy a déjà vivre/prix/déménager.
+  // NB : Palaiseau garde le code 91471 du dataset (erroné mais en ligne, fiche indexée).
+  massy: {
+    city: "Massy",
+    cityShort: "Massy",
+    base: "massy",
+    ficheSlug: "massy-91377",
+    departement: "Essonne",
+    median: 4900,
+    evolutionNote: "en hausse sur 5 ans, hub TGV du sud francilien porté par la ligne 18",
+    quartiers: [
+      { nom: "Atlantis / Gare TGV", fourchette: "5 200-5 900 €/m²", note: "quartier d'affaires et gare TGV-RER, le plus moderne" },
+      { nom: "Centre / Villaine", fourchette: "4 900-5 500 €/m²", note: "cœur historique, marché" },
+      { nom: "Vilmorin / Graviers", fourchette: "4 800-5 400 €/m²", note: "résidentiel proche RER B" },
+      { nom: "Opéra / Grand Ouest", fourchette: "4 600-5 200 €/m²", note: "autour de l'opéra, en renouvellement" },
+      { nom: "Massy-Verrières / limite Antony", fourchette: "4 500-5 100 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "les RER B et C (Massy-Palaiseau et Massy-Verrières), la gare TGV Massy-Palaiseau (seule gare TGV au sud de Paris, Bordeaux et Lyon directs), la future ligne 18 du Grand Paris Express (2026-2027), et l'A6-A10",
+    contexte:
+      "hub ferroviaire unique du sud francilien (51 000 habitants), seule gare TGV de banlieue sud, quartier d'affaires Atlantis, opéra, future ligne 18 vers Saclay et Orly, le marché essonnien le plus dynamique porté par les cadres du plateau de Saclay",
+    rendement: "4,2-4,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Palaiseau",
+      base: "palaiseau",
+      ficheSlug: "palaiseau-91471",
+      price: 4500,
+      angle:
+        "Massy, hub TGV urbain et tertiaire (4 900 €/m²), face à Palaiseau, plus résidentielle et étudiante au pied du plateau de Saclay (4 500 €/m²), les deux portes d'entrée du pôle scientifique du sud",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20"],
+    skipSlots: ["vivre", "s1", "s5"],
+  },
+
+  palaiseau: {
+    city: "Palaiseau",
+    cityShort: "Palaiseau",
+    base: "palaiseau",
+    ficheSlug: "palaiseau-91471",
+    departement: "Essonne",
+    median: 4500,
+    evolutionNote: "en hausse sur 5 ans, portée par le plateau de Saclay et la future ligne 18",
+    quartiers: [
+      { nom: "Centre / Vieux Palaiseau", fourchette: "4 800-5 400 €/m²", note: "cœur historique commerçant, RER B, le plus prisé" },
+      { nom: "Plateau / Polytechnique-Camille Claudel", fourchette: "4 600-5 300 €/m²", note: "écoquartier neuf près des grandes écoles, future ligne 18" },
+      { nom: "Lozère", fourchette: "4 500-5 100 €/m²", note: "RER B, montée mythique vers Polytechnique, résidentiel" },
+      { nom: "Le Pileu / Les Garennes", fourchette: "4 200-4 800 €/m²", note: "pavillonnaire, le plus abordable" },
+    ],
+    transport:
+      "le RER B (gares Palaiseau, Palaiseau-Villebon et Lozère, Denfert en 25 minutes), la future ligne 18 du Grand Paris Express sur le plateau (2026-2027), et les grandes écoles du plateau de Saclay (Polytechnique, ENSTA, AgroParisTech)",
+    contexte:
+      "ville universitaire au pied du plateau de Saclay (36 000 habitants), Polytechnique et le cluster scientifique en surplomb, vieux centre commerçant, vallée de l'Yvette, profil famille-chercheurs porté par l'écosystème Saclay et la ligne 18 à venir",
+    rendement: "4,2-4,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Antony",
+      base: "antony",
+      ficheSlug: "antony-92002",
+      price: 6100,
+      angle:
+        "Palaiseau, universitaire et accessible au pied de Saclay (4 500 €/m²), face à Antony, plus établie et plus chère dans les Hauts-de-Seine (6 100 €/m²), deux étapes du même RER B à 1 600 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19"],
+    skipSlots: [],
+  },
+
+  "savigny-sur-orge": {
+    city: "Savigny-sur-Orge",
+    cityShort: "Savigny-sur-Orge",
+    base: "savigny-sur-orge",
+    ficheSlug: "savigny-sur-orge-91589",
+    departement: "Essonne",
+    median: 3200,
+    evolutionNote: "en légère hausse sur 5 ans, grand marché pavillonnaire accessible",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "3 400-3 900 €/m²", note: "autour du RER C, commerces, le plus prisé" },
+      { nom: "Grand-Vaux", fourchette: "2 900-3 400 €/m²", note: "grand ensemble en rénovation, le plus abordable" },
+      { nom: "Plateau / Champagne", fourchette: "3 200-3 700 €/m²", note: "pavillonnaire familial" },
+      { nom: "Bords de l'Orge / Clairefontaine", fourchette: "3 100-3 600 €/m²", note: "près des berges vertes de l'Orge" },
+    ],
+    transport:
+      "le RER C (gare de Savigny-sur-Orge, Bibliothèque François-Mitterrand en 25 minutes et Invalides en 35), les berges de l'Orge aménagées, et l'A6 toute proche",
+    contexte:
+      "grande ville pavillonnaire de l'Essonne (37 000 habitants), l'un des marchés les plus accessibles de notre comparateur à 3 200 €/m², berges de l'Orge, lycée Corot réputé, profil primo-accédant et famille qui veut une maison à moins de 30 minutes de Paris",
+    rendement: "4,7-5,2 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché négociable)",
+    comparison: {
+      city: "Massy",
+      base: "massy",
+      ficheSlug: "massy-91377",
+      price: 4900,
+      angle:
+        "Savigny-sur-Orge, pavillonnaire et très accessible sur le RER C (3 200 €/m²), face à Massy, hub TGV plus cher et plus tertiaire (4 900 €/m²), deux visages de l'Essonne nord à 1 700 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18"],
+    skipSlots: [],
+  },
+
+  yerres: {
+    city: "Yerres",
+    cityShort: "Yerres",
+    base: "yerres",
+    ficheSlug: "yerres-91691",
+    departement: "Essonne",
+    median: 4100,
+    evolutionNote: "stable sur 5 ans, marché familial des bords de l'Yerres",
+    quartiers: [
+      { nom: "Centre / Caillebotte", fourchette: "4 300-4 900 €/m²", note: "autour de la propriété Caillebotte et du centre, le plus prisé" },
+      { nom: "Gare / RER D", fourchette: "4 100-4 700 €/m²", note: "pratique, commerces" },
+      { nom: "Bords de l'Yerres", fourchette: "4 000-4 600 €/m²", note: "résidentiel au bord de la rivière" },
+      { nom: "Plateau / Gros Bois", fourchette: "3 900-4 500 €/m²", note: "pavillonnaire près de la forêt, le plus abordable" },
+    ],
+    transport:
+      "le RER D (gare d'Yerres, Gare de Lyon en 25 minutes), la vallée de l'Yerres et ses berges classées, et la forêt de Sénart en lisière",
+    contexte:
+      "ville familiale des bords de l'Yerres (29 000 habitants), célèbre propriété Caillebotte peinte par l'impressionniste, vallée classée et forêt de Sénart, esprit village résidentiel très recherché des familles du Val d'Yerres, l'une des meilleures notes qualité-prix du sud-est",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Savigny-sur-Orge",
+      base: "savigny-sur-orge",
+      ficheSlug: "savigny-sur-orge-91589",
+      price: 3200,
+      angle:
+        "Yerres, bourgeoise et impressionniste au bord de sa rivière (4 100 €/m²), face à Savigny-sur-Orge, plus simple et plus accessible sur le RER C (3 200 €/m²), deux options famille de l'Essonne à comparer selon le budget",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17"],
+    skipSlots: [],
+  },
+
+  romainville: {
+    city: "Romainville",
+    cityShort: "Romainville",
+    base: "romainville",
+    ficheSlug: "romainville-93063",
+    departement: "Seine-Saint-Denis",
+    median: 5500,
+    evolutionNote: "en forte hausse sur 5 ans, gentrification portée par le métro 11 prolongé",
+    quartiers: [
+      { nom: "Carnot / Mairie", fourchette: "5 700-6 400 €/m²", note: "cœur de ville, métro 11 depuis 2024, le plus prisé" },
+      { nom: "Bas-Pays / Fiminco", fourchette: "5 500-6 200 €/m²", note: "fondation d'art Fiminco, anciens laboratoires en reconversion" },
+      { nom: "Les Bas-Longchamps", fourchette: "5 300-6 000 €/m²", note: "résidentiel" },
+      { nom: "Youri Gagarine / Marcel Cachin", fourchette: "5 000-5 700 €/m²", note: "en renouvellement, le plus abordable" },
+    ],
+    transport:
+      "le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot, République en 15 minutes), la Corniche des Forts et sa base de loisirs, et la proximité immédiate des Lilas et de Montreuil",
+    contexte:
+      "ville en pleine gentrification de l'est (31 000 habitants), désenclavée par le métro 11, fondation d'art contemporain Fiminco dans les anciens laboratoires Roussel, Corniche des Forts boisée, dans le sillage direct des Lilas et de Montreuil",
+    rendement: "3,8-4,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Les Lilas",
+      base: "les-lilas",
+      ficheSlug: "les-lilas-93045",
+      price: 7500,
+      angle:
+        "Romainville, en pleine gentrification avec le métro 11 tout neuf (5 500 €/m²), face aux Lilas, village bobo déjà établi une station plus près (7 500 €/m²), le même axe métro à 2 000 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16"],
+    skipSlots: [],
+  },
+
+  "noisy-le-sec": {
+    city: "Noisy-le-Sec",
+    cityShort: "Noisy-le-Sec",
+    base: "noisy-le-sec",
+    ficheSlug: "noisy-le-sec-93053",
+    departement: "Seine-Saint-Denis",
+    median: 4300,
+    evolutionNote: "en hausse sur 5 ans, nœud ferroviaire de l'est en valorisation",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "4 500-5 100 €/m²", note: "RER E et tram T1, le plus prisé" },
+      { nom: "Plateau d'Avron / limite Rosny", fourchette: "4 300-4 900 €/m²", note: "pavillonnaire sur les hauteurs" },
+      { nom: "Petit-Noisy / Boissière", fourchette: "4 100-4 700 €/m²", note: "en mutation, future station M11" },
+      { nom: "Londeau / La Renardière", fourchette: "3 800-4 400 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER E (gare de Noisy-le-Sec, Haussmann-Saint-Lazare en 15 minutes), le tram T1, la station Boissière du métro 11 prolongé en limite, et le canal de l'Ourcq au nord",
+    contexte:
+      "nœud ferroviaire historique de l'est (46 000 habitants), reconstruite après-guerre avec ses maisons préfabriquées expérimentales classées, RER E direct vers le cœur de Paris, tram T1, dans la dynamique de valorisation de l'axe Pantin-Romainville",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Pantin",
+      base: "pantin",
+      ficheSlug: "pantin-93055",
+      price: 5900,
+      angle:
+        "Noisy-le-Sec, nœud ferroviaire encore accessible sur le RER E (4 300 €/m²), face à Pantin, le Brooklyn parisien déjà valorisé le long du canal (5 900 €/m²), deux étapes du même RER E à 1 600 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-25", "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15"],
+    skipSlots: [],
+  },
+
+  "rosny-sous-bois": {
+    city: "Rosny-sous-Bois",
+    cityShort: "Rosny-sous-Bois",
+    base: "rosny-sous-bois",
+    ficheSlug: "rosny-sous-bois-93064",
+    departement: "Seine-Saint-Denis",
+    median: 4400,
+    evolutionNote: "en hausse sur 5 ans, portée par l'arrivée du métro 11 et la ligne 15 Est",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "4 600-5 200 €/m²", note: "cœur de ville commerçant, le plus prisé" },
+      { nom: "Bois-Perrier / Rosny 2", fourchette: "4 400-5 000 €/m²", note: "terminus du métro 11 prolongé, centre commercial régional, en valorisation" },
+      { nom: "Plateau d'Avron", fourchette: "4 400-5 000 €/m²", note: "pavillonnaire sur les hauteurs, recherché" },
+      { nom: "La Boissière / Les Marnaudes", fourchette: "4 000-4 600 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois, Haussmann en 18 minutes), le métro 11 prolongé jusqu'à Rosny-Bois-Perrier, la future ligne 15 Est au même endroit, le centre commercial Rosny 2 et l'A86",
+    contexte:
+      "grande ville de l'est en pleine montée en desserte (47 000 habitants), centre commercial régional Rosny 2, terminus du métro 11 et future gare de la ligne 15 Est à Bois-Perrier, plateau d'Avron pavillonnaire, l'un des meilleurs potentiels transport de l'est",
+    rendement: "4,2-4,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Montreuil",
+      base: "montreuil",
+      ficheSlug: "montreuil-93048",
+      price: 5800,
+      angle:
+        "Rosny-sous-Bois, familiale et boostée par le métro 11 et la ligne 15 (4 400 €/m²), face à Montreuil, plus urbaine, créative et chère collée à Paris (5 800 €/m²), deux marchés de l'est à 1 400 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-24", "2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14"],
+    skipSlots: [],
+  },
+
+  "le-raincy": {
+    city: "Le Raincy",
+    cityShort: "Le Raincy",
+    base: "le-raincy",
+    ficheSlug: "le-raincy-93062",
+    departement: "Seine-Saint-Denis",
+    median: 5300,
+    evolutionNote: "stable sur 5 ans, le marché bourgeois de l'est du 93",
+    quartiers: [
+      { nom: "Centre / Rond-Point Thiers", fourchette: "5 500-6 200 €/m²", note: "avenue de la Résistance commerçante, le plus prisé" },
+      { nom: "Plateau / Église Notre-Dame", fourchette: "5 300-6 000 €/m²", note: "autour du chef-d'œuvre de béton des frères Perret, résidentiel chic" },
+      { nom: "Villas / allées historiques", fourchette: "5 200-5 900 €/m²", note: "les allées pavillonnaires de l'ancien parc du château" },
+      { nom: "Limite Villemomble / Gagny", fourchette: "5 000-5 700 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER E (gare Le Raincy-Villemomble-Montfermeil, Haussmann-Saint-Lazare en 20 minutes), les allées plantées de l'ancien parc princier, et un tissu commerçant dense sur l'avenue de la Résistance",
+    contexte:
+      "le Neuilly de l'est du 93 (15 000 habitants), ville-parc bourgeoise tracée dans l'ancien domaine princier, église Notre-Dame du Raincy des frères Perret classée, allées de villas, revenus parmi les plus élevés du département, l'exception premium de la Seine-Saint-Denis",
+    rendement: "3,4-3,9 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 %",
+    comparison: {
+      city: "Rosny-sous-Bois",
+      base: "rosny-sous-bois",
+      ficheSlug: "rosny-sous-bois-93064",
+      price: 4400,
+      angle:
+        "Le Raincy, ville-parc bourgeoise et son église Perret (5 300 €/m²), face à Rosny-sous-Bois, plus grande, plus commerçante et mieux desservie avec le métro 11 (4 400 €/m²), deux voisines de l'est aux profils opposés",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-23", "2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13"],
+    skipSlots: [],
+  },
 };

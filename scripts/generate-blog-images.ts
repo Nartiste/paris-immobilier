@@ -103,6 +103,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Massy" est une page d'homonymie sans image : on force sa gare TGV, son identité.
+    match: "massy",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Massy_TGV_station.jpg/1280px-Massy_TGV_station.jpg",
+      width: 1280,
+      height: 853,
+      alt: "Gare de Massy TGV, hub ferroviaire du sud francilien",
+      credit: "Wikipedia · Massy",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Massy_(Essonne)",
+    },
+  },
+  {
     // "Saint-Denis" est une page d'homonymie (La Réunion…) : on force la basilique royale.
     match: "saint-denis",
     image: {

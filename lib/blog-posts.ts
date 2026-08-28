@@ -43840,6 +43840,3817 @@ export const BLOG_POSTS: BlogPost[] = [
         "Noisy-le-Grand"
       ]
     }
+  },
+  {
+    "slug": "meilleur-quartier-massy-acheter-2026",
+    "title": "Meilleur quartier de Massy pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Massy le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-16",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Massy mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Massy n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Massy le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Atlantis / Gare TGV, Centre / Villaine, Vilmorin / Graviers, Opéra / Grand Ouest, Massy-Verrières / limite Antony. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-massy-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Massy-Verrières / limite Antony et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Atlantis / Gare TGV et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (les RER B et C (Massy-Palaiseau et Massy-Verrières)). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Massy ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Massy ou Palaiseau](/blog/massy-ou-palaiseau-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Massy, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Massy se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Massy"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-massy-achat-2026",
+    "title": "Massy : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Massy, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-23",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Massy (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Massy est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Massy",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Massy-Verrières / limite Antony et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Massy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-massy-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Massy et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Massy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Massy"
+      ]
+    }
+  },
+  {
+    "slug": "investir-massy-rendement-locatif-2026",
+    "title": "Investir à Massy en 2026 : rendement réel par quartier",
+    "description": "4,2-4,7 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Massy a du sens.",
+    "publishedAt": "2026-03-30",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,2-4,7 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Massy (4,2-4,7 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, les RER B et C (Massy-Palaiseau et Massy-Verrières)) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Massy",
+          "contenu": "4,2-4,7 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via les RER B et C (Massy-Palaiseau et Massy-Verrières), jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Atlantis / Gare TGV = valeur refuge, rendement minimal. Massy-Verrières / limite Antony = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Massy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Massy a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-massy-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Massy, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Massy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Massy"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-massy",
+    "title": "Acheter à Massy : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Massy, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-13",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Massy, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Massy",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Massy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-massy-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-massy-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Massy, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Massy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Massy"
+      ]
+    }
+  },
+  {
+    "slug": "massy-ou-palaiseau-acheter-2026",
+    "title": "Massy ou Palaiseau : où acheter en 2026",
+    "description": "Massy, hub TGV urbain et tertiaire (4 900 €/m²), face à Palaiseau, plus résidentielle et étudiante au pied du plateau de Saclay (4 500 €/m²), les deux portes d'entrée du pôle scientifique du sud. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-20",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Massy et Palaiseau, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Massy, hub TGV urbain et tertiaire (4 900 €/m²), face à Palaiseau, plus résidentielle et étudiante au pied du plateau de Saclay (4 500 €/m²), les deux portes d'entrée du pôle scientifique du sud. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Massy, hub TGV urbain et tertiaire (4 900 €/m²), face à Palaiseau, plus résidentielle et étudiante au pied du plateau de Saclay (4 500 €/m²), les deux portes d'entrée du pôle scientifique du sud. Massy 4900 €/m² vs Palaiseau 4500 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Massy | Palaiseau) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Massy 4900 €/m² vs Palaiseau 4500 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : les RER B et C (Massy-Palaiseau et Massy-Verrières), la gare TGV Massy-Palaiseau (seule gare TGV au sud de Paris, Bordeaux et Lyon directs), la future ligne 18 du Grand Paris Express (2026-2027), et l'A6-A10 côté Massy. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "hub ferroviaire unique du sud francilien (51 000 habitants), seule gare TGV de banlieue sud, quartier d'affaires Atlantis, opéra, future ligne 18 vers Saclay et Orly, le marché essonnien le plus dynamique porté par les cadres du plateau de Saclay côté Massy. Décrire le contraste d'ambiance avec Palaiseau."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,2-4,7 % brut côté Massy). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Massy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Massy, pour qui Palaiseau",
+          "contenu": "Verdict par profil. Linker les deux fiches [Massy](/vivre-a/massy-91377) et [Palaiseau](/vivre-a/palaiseau-91471)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Massy ou Palaiseau : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Massy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Massy",
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-palaiseau-2026",
+    "title": "Vivre à Palaiseau en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Palaiseau ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-01",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Palaiseau et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Palaiseau' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Palaiseau : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Palaiseau : ville universitaire au pied du plateau de Saclay (36 000 habitants), Polytechnique et le cluster scientifique en surplomb, vieux centre commerçant, vallée de l'Yvette, profil famille-chercheurs porté par l'écosystème Saclay et la ligne 18 à venir. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4500 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Palaiseau",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Vieux Palaiseau (4 800-5 400 €/m², cœur historique commerçant, RER B, le plus prisé) ; Plateau / Polytechnique-Camille Claudel (4 600-5 300 €/m², écoquartier neuf près des grandes écoles, future ligne 18) ; Lozère (4 500-5 100 €/m², RER B, montée mythique vers Polytechnique, résidentiel) ; Le Pileu / Les Garennes (4 200-4 800 €/m², pavillonnaire, le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-palaiseau-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-palaiseau-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER B (gares Palaiseau, Palaiseau-Villebon et Lozère, Denfert en 25 minutes), la future ligne 18 du Grand Paris Express sur le plateau (2026-2027), et les grandes écoles du plateau de Saclay (Polytechnique, ENSTA, AgroParisTech). La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville universitaire au pied du plateau de Saclay (36 000 habitants), Polytechnique et le cluster scientifique en surplomb, vieux centre commerçant, vallée de l'Yvette, profil famille-chercheurs porté par l'écosystème Saclay et la ligne 18 à venir. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Palaiseau (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Palaiseau est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Palaiseau colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Palaiseau](/vivre-a/palaiseau-91471) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-palaiseau-2026-par-quartier) ou [l'arbitrage quitter Paris pour Palaiseau](/blog/quitter-paris-pour-palaiseau-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Palaiseau, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Palaiseau aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-palaiseau-2026-par-quartier",
+    "title": "Prix immobilier Palaiseau 2026 : le vrai prix par quartier",
+    "description": "4500 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-08",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Palaiseau qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4500 €/m² de médiane à Palaiseau, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4500 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Vieux Palaiseau) et le plus abordable (Le Pileu / Les Garennes). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Vieux Palaiseau (4 800-5 400 €/m², cœur historique commerçant, RER B, le plus prisé) ; Plateau / Polytechnique-Camille Claudel (4 600-5 300 €/m², écoquartier neuf près des grandes écoles, future ligne 18) ; Lozère (4 500-5 100 €/m², RER B, montée mythique vers Polytechnique, résidentiel) ; Le Pileu / Les Garennes (4 200-4 800 €/m², pavillonnaire, le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Vieux Palaiseau : 4 800-5 400 €/m²",
+          "contenu": "cœur historique commerçant, RER B, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau / Polytechnique-Camille Claudel : 4 600-5 300 €/m²",
+          "contenu": "écoquartier neuf près des grandes écoles, future ligne 18. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Lozère : 4 500-5 100 €/m²",
+          "contenu": "RER B, montée mythique vers Polytechnique, résidentiel. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Le Pileu / Les Garennes : 4 200-4 800 €/m²",
+          "contenu": "pavillonnaire, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Palaiseau à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-palaiseau-acheter-2026) et la fiche [Palaiseau](/vivre-a/palaiseau-91471)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Palaiseau en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Palaiseau et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-palaiseau-acheter-2026",
+    "title": "Meilleur quartier de Palaiseau pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Palaiseau le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-15",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Palaiseau mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Palaiseau n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Palaiseau le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Vieux Palaiseau, Plateau / Polytechnique-Camille Claudel, Lozère, Le Pileu / Les Garennes. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-palaiseau-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Le Pileu / Les Garennes et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Vieux Palaiseau et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER B (gares Palaiseau). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Palaiseau ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Palaiseau ou Antony](/blog/palaiseau-ou-antony-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Palaiseau, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Palaiseau se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-palaiseau-achat-2026",
+    "title": "Palaiseau : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Palaiseau, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-22",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Palaiseau (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Palaiseau est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Palaiseau",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Le Pileu / Les Garennes et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Palaiseau colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-palaiseau-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Palaiseau et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Palaiseau aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "investir-palaiseau-rendement-locatif-2026",
+    "title": "Investir à Palaiseau en 2026 : rendement réel par quartier",
+    "description": "4,2-4,7 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Palaiseau a du sens.",
+    "publishedAt": "2026-03-29",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,2-4,7 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Palaiseau (4,2-4,7 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER B (gares Palaiseau) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Palaiseau",
+          "contenu": "4,2-4,7 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER B (gares Palaiseau, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Vieux Palaiseau = valeur refuge, rendement minimal. Le Pileu / Les Garennes = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Palaiseau à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Palaiseau a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-palaiseau-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Palaiseau, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Palaiseau et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-palaiseau-arbitrage-2026",
+    "title": "Quitter Paris pour Palaiseau : le vrai calcul en 2026",
+    "description": "Palaiseau face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-05",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Palaiseau.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Palaiseau et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Palaiseau : ville universitaire au pied du plateau de Saclay (36 000 habitants), Polytechnique et le cluster scientifique en surplomb, vieux centre commerçant, vallée de l'Yvette, profil famille-chercheurs porté par l'écosystème Saclay et la ligne 18 à venir. Desserte le RER B (gares Palaiseau, Palaiseau-Villebon et Lozère, Denfert en 25 minutes), la future ligne 18 du Grand Paris Express sur le plateau (2026-2027), et les grandes écoles du plateau de Saclay (Polytechnique, ENSTA, AgroParisTech). Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4500 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Palaiseau, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Palaiseau (4500 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville universitaire au pied du plateau de Saclay (36 000 habitants), Polytechnique et le cluster scientifique en surplomb, vieux centre commerçant, vallée de l'Yvette, profil famille-chercheurs porté par l'écosystème Saclay et la ligne 18 à venir. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER B (gares Palaiseau, Palaiseau-Villebon et Lozère, Denfert en 25 minutes), la future ligne 18 du Grand Paris Express sur le plateau (2026-2027), et les grandes écoles du plateau de Saclay (Polytechnique, ENSTA, AgroParisTech). Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Palaiseau ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-palaiseau-2026-guide-complet) et [Palaiseau ou Antony](/blog/palaiseau-ou-antony-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Palaiseau, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Palaiseau se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-palaiseau",
+    "title": "Acheter à Palaiseau : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Palaiseau, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-12",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Palaiseau, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Palaiseau",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Palaiseau colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-palaiseau-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-palaiseau-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Palaiseau, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Palaiseau aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau"
+      ]
+    }
+  },
+  {
+    "slug": "palaiseau-ou-antony-acheter-2026",
+    "title": "Palaiseau ou Antony : où acheter en 2026",
+    "description": "Palaiseau, universitaire et accessible au pied de Saclay (4 500 €/m²), face à Antony, plus établie et plus chère dans les Hauts-de-Seine (6 100 €/m²), deux étapes du même RER B à 1 600 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-19",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Palaiseau et Antony, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Palaiseau, universitaire et accessible au pied de Saclay (4 500 €/m²), face à Antony, plus établie et plus chère dans les Hauts-de-Seine (6 100 €/m²), deux étapes du même RER B à 1 600 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Palaiseau, universitaire et accessible au pied de Saclay (4 500 €/m²), face à Antony, plus établie et plus chère dans les Hauts-de-Seine (6 100 €/m²), deux étapes du même RER B à 1 600 € d'écart. Palaiseau 4500 €/m² vs Antony 6100 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Palaiseau | Antony) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Palaiseau 4500 €/m² vs Antony 6100 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER B (gares Palaiseau, Palaiseau-Villebon et Lozère, Denfert en 25 minutes), la future ligne 18 du Grand Paris Express sur le plateau (2026-2027), et les grandes écoles du plateau de Saclay (Polytechnique, ENSTA, AgroParisTech) côté Palaiseau. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville universitaire au pied du plateau de Saclay (36 000 habitants), Polytechnique et le cluster scientifique en surplomb, vieux centre commerçant, vallée de l'Yvette, profil famille-chercheurs porté par l'écosystème Saclay et la ligne 18 à venir côté Palaiseau. Décrire le contraste d'ambiance avec Antony."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,2-4,7 % brut côté Palaiseau). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Palaiseau à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Palaiseau, pour qui Antony",
+          "contenu": "Verdict par profil. Linker les deux fiches [Palaiseau](/vivre-a/palaiseau-91471) et [Antony](/vivre-a/antony-92002)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Palaiseau ou Antony : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Palaiseau et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Palaiseau",
+        "Antony"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-savigny-sur-orge-2026",
+    "title": "Vivre à Savigny-sur-Orge en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Savigny-sur-Orge ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-28",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Savigny-sur-Orge et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Savigny-sur-Orge' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Savigny-sur-Orge : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Savigny-sur-Orge : grande ville pavillonnaire de l'Essonne (37 000 habitants), l'un des marchés les plus accessibles de notre comparateur à 3 200 €/m², berges de l'Orge, lycée Corot réputé, profil primo-accédant et famille qui veut une maison à moins de 30 minutes de Paris. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (3200 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Savigny-sur-Orge",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (3 400-3 900 €/m², autour du RER C, commerces, le plus prisé) ; Grand-Vaux (2 900-3 400 €/m², grand ensemble en rénovation, le plus abordable) ; Plateau / Champagne (3 200-3 700 €/m², pavillonnaire familial) ; Bords de l'Orge / Clairefontaine (3 100-3 600 €/m², près des berges vertes de l'Orge). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-savigny-sur-orge-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-savigny-sur-orge-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER C (gare de Savigny-sur-Orge, Bibliothèque François-Mitterrand en 25 minutes et Invalides en 35), les berges de l'Orge aménagées, et l'A6 toute proche. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "grande ville pavillonnaire de l'Essonne (37 000 habitants), l'un des marchés les plus accessibles de notre comparateur à 3 200 €/m², berges de l'Orge, lycée Corot réputé, profil primo-accédant et famille qui veut une maison à moins de 30 minutes de Paris. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Savigny-sur-Orge (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Savigny-sur-Orge est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Savigny-sur-Orge colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Savigny-sur-Orge](/vivre-a/savigny-sur-orge-91589) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-savigny-sur-orge-2026-par-quartier) ou [l'arbitrage quitter Paris pour Savigny-sur-Orge](/blog/quitter-paris-pour-savigny-sur-orge-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Savigny-sur-Orge, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Savigny-sur-Orge aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-savigny-sur-orge-2026-par-quartier",
+    "title": "Prix immobilier Savigny-sur-Orge 2026 : le vrai prix par quartier",
+    "description": "3200 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-07",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Savigny-sur-Orge qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '3200 €/m² de médiane à Savigny-sur-Orge, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 3200 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Bords de l'Orge / Clairefontaine). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (3 400-3 900 €/m², autour du RER C, commerces, le plus prisé) ; Grand-Vaux (2 900-3 400 €/m², grand ensemble en rénovation, le plus abordable) ; Plateau / Champagne (3 200-3 700 €/m², pavillonnaire familial) ; Bords de l'Orge / Clairefontaine (3 100-3 600 €/m², près des berges vertes de l'Orge). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 3 400-3 900 €/m²",
+          "contenu": "autour du RER C, commerces, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Grand-Vaux : 2 900-3 400 €/m²",
+          "contenu": "grand ensemble en rénovation, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau / Champagne : 3 200-3 700 €/m²",
+          "contenu": "pavillonnaire familial. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bords de l'Orge / Clairefontaine : 3 100-3 600 €/m²",
+          "contenu": "près des berges vertes de l'Orge. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Savigny-sur-Orge à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-savigny-sur-orge-acheter-2026) et la fiche [Savigny-sur-Orge](/vivre-a/savigny-sur-orge-91589)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Savigny-sur-Orge en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Savigny-sur-Orge et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-savigny-sur-orge-acheter-2026",
+    "title": "Meilleur quartier de Savigny-sur-Orge pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Savigny-sur-Orge le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-14",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Savigny-sur-Orge mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Savigny-sur-Orge n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Savigny-sur-Orge le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, Grand-Vaux, Plateau / Champagne, Bords de l'Orge / Clairefontaine. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-savigny-sur-orge-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Bords de l'Orge / Clairefontaine et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER C (gare de Savigny-sur-Orge). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Savigny-sur-Orge ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Savigny-sur-Orge ou Massy](/blog/savigny-sur-orge-ou-massy-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Savigny-sur-Orge, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Savigny-sur-Orge se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-savigny-sur-orge-achat-2026",
+    "title": "Savigny-sur-Orge : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Savigny-sur-Orge, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-21",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Savigny-sur-Orge (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Savigny-sur-Orge est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Savigny-sur-Orge",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Bords de l'Orge / Clairefontaine et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Savigny-sur-Orge colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-savigny-sur-orge-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Savigny-sur-Orge et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Savigny-sur-Orge aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "investir-savigny-sur-orge-rendement-locatif-2026",
+    "title": "Investir à Savigny-sur-Orge en 2026 : rendement réel par quartier",
+    "description": "4,7-5,2 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Savigny-sur-Orge a du sens.",
+    "publishedAt": "2026-03-28",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,7-5,2 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Savigny-sur-Orge (4,7-5,2 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER C (gare de Savigny-sur-Orge) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Savigny-sur-Orge",
+          "contenu": "4,7-5,2 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER C (gare de Savigny-sur-Orge, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Bords de l'Orge / Clairefontaine = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Savigny-sur-Orge à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Savigny-sur-Orge a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-savigny-sur-orge-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Savigny-sur-Orge, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Savigny-sur-Orge et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-savigny-sur-orge-arbitrage-2026",
+    "title": "Quitter Paris pour Savigny-sur-Orge : le vrai calcul en 2026",
+    "description": "Savigny-sur-Orge face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-04",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Savigny-sur-Orge.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Savigny-sur-Orge et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Savigny-sur-Orge : grande ville pavillonnaire de l'Essonne (37 000 habitants), l'un des marchés les plus accessibles de notre comparateur à 3 200 €/m², berges de l'Orge, lycée Corot réputé, profil primo-accédant et famille qui veut une maison à moins de 30 minutes de Paris. Desserte le RER C (gare de Savigny-sur-Orge, Bibliothèque François-Mitterrand en 25 minutes et Invalides en 35), les berges de l'Orge aménagées, et l'A6 toute proche. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 3200 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Savigny-sur-Orge, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Savigny-sur-Orge (3200 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "grande ville pavillonnaire de l'Essonne (37 000 habitants), l'un des marchés les plus accessibles de notre comparateur à 3 200 €/m², berges de l'Orge, lycée Corot réputé, profil primo-accédant et famille qui veut une maison à moins de 30 minutes de Paris. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER C (gare de Savigny-sur-Orge, Bibliothèque François-Mitterrand en 25 minutes et Invalides en 35), les berges de l'Orge aménagées, et l'A6 toute proche. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Savigny-sur-Orge ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-savigny-sur-orge-2026-guide-complet) et [Savigny-sur-Orge ou Massy](/blog/savigny-sur-orge-ou-massy-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Savigny-sur-Orge, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Savigny-sur-Orge se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-savigny-sur-orge",
+    "title": "Acheter à Savigny-sur-Orge : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 5-8 % (marché négociable). Le coût total réel d'un achat à Savigny-sur-Orge, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-11",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Savigny-sur-Orge, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 5-8 % (marché négociable), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 5-8 % (marché négociable). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Savigny-sur-Orge",
+          "contenu": "Marge réaliste 5-8 % (marché négociable). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Savigny-sur-Orge colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-savigny-sur-orge-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-savigny-sur-orge-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Savigny-sur-Orge, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Savigny-sur-Orge aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "savigny-sur-orge-ou-massy-acheter-2026",
+    "title": "Savigny-sur-Orge ou Massy : où acheter en 2026",
+    "description": "Savigny-sur-Orge, pavillonnaire et très accessible sur le RER C (3 200 €/m²), face à Massy, hub TGV plus cher et plus tertiaire (4 900 €/m²), deux visages de l'Essonne nord à 1 700 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-18",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Savigny-sur-Orge et Massy, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Savigny-sur-Orge, pavillonnaire et très accessible sur le RER C (3 200 €/m²), face à Massy, hub TGV plus cher et plus tertiaire (4 900 €/m²), deux visages de l'Essonne nord à 1 700 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Savigny-sur-Orge, pavillonnaire et très accessible sur le RER C (3 200 €/m²), face à Massy, hub TGV plus cher et plus tertiaire (4 900 €/m²), deux visages de l'Essonne nord à 1 700 € d'écart. Savigny-sur-Orge 3200 €/m² vs Massy 4900 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Savigny-sur-Orge | Massy) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Savigny-sur-Orge 3200 €/m² vs Massy 4900 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER C (gare de Savigny-sur-Orge, Bibliothèque François-Mitterrand en 25 minutes et Invalides en 35), les berges de l'Orge aménagées, et l'A6 toute proche côté Savigny-sur-Orge. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "grande ville pavillonnaire de l'Essonne (37 000 habitants), l'un des marchés les plus accessibles de notre comparateur à 3 200 €/m², berges de l'Orge, lycée Corot réputé, profil primo-accédant et famille qui veut une maison à moins de 30 minutes de Paris côté Savigny-sur-Orge. Décrire le contraste d'ambiance avec Massy."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,7-5,2 % brut côté Savigny-sur-Orge). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Savigny-sur-Orge à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Savigny-sur-Orge, pour qui Massy",
+          "contenu": "Verdict par profil. Linker les deux fiches [Savigny-sur-Orge](/vivre-a/savigny-sur-orge-91589) et [Massy](/vivre-a/massy-91377)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Savigny-sur-Orge ou Massy : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Savigny-sur-Orge et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Savigny-sur-Orge",
+        "Massy"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-yerres-2026",
+    "title": "Vivre à Yerres en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Yerres ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-27",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Yerres et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Yerres' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Yerres : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Yerres : ville familiale des bords de l'Yerres (29 000 habitants), célèbre propriété Caillebotte peinte par l'impressionniste, vallée classée et forêt de Sénart, esprit village résidentiel très recherché des familles du Val d'Yerres, l'une des meilleures notes qualité-prix du sud-est. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4100 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Yerres",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Caillebotte (4 300-4 900 €/m², autour de la propriété Caillebotte et du centre, le plus prisé) ; Gare / RER D (4 100-4 700 €/m², pratique, commerces) ; Bords de l'Yerres (4 000-4 600 €/m², résidentiel au bord de la rivière) ; Plateau / Gros Bois (3 900-4 500 €/m², pavillonnaire près de la forêt, le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-yerres-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-yerres-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER D (gare d'Yerres, Gare de Lyon en 25 minutes), la vallée de l'Yerres et ses berges classées, et la forêt de Sénart en lisière. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville familiale des bords de l'Yerres (29 000 habitants), célèbre propriété Caillebotte peinte par l'impressionniste, vallée classée et forêt de Sénart, esprit village résidentiel très recherché des familles du Val d'Yerres, l'une des meilleures notes qualité-prix du sud-est. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Yerres (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Yerres est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Yerres colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Yerres](/vivre-a/yerres-91691) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-yerres-2026-par-quartier) ou [l'arbitrage quitter Paris pour Yerres](/blog/quitter-paris-pour-yerres-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Yerres, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Yerres aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-yerres-2026-par-quartier",
+    "title": "Prix immobilier Yerres 2026 : le vrai prix par quartier",
+    "description": "4100 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-06",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Yerres qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4100 €/m² de médiane à Yerres, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4100 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Caillebotte) et le plus abordable (Plateau / Gros Bois). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Caillebotte (4 300-4 900 €/m², autour de la propriété Caillebotte et du centre, le plus prisé) ; Gare / RER D (4 100-4 700 €/m², pratique, commerces) ; Bords de l'Yerres (4 000-4 600 €/m², résidentiel au bord de la rivière) ; Plateau / Gros Bois (3 900-4 500 €/m², pavillonnaire près de la forêt, le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Caillebotte : 4 300-4 900 €/m²",
+          "contenu": "autour de la propriété Caillebotte et du centre, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Gare / RER D : 4 100-4 700 €/m²",
+          "contenu": "pratique, commerces. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bords de l'Yerres : 4 000-4 600 €/m²",
+          "contenu": "résidentiel au bord de la rivière. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau / Gros Bois : 3 900-4 500 €/m²",
+          "contenu": "pavillonnaire près de la forêt, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Yerres à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-yerres-acheter-2026) et la fiche [Yerres](/vivre-a/yerres-91691)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Yerres en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Yerres et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-yerres-acheter-2026",
+    "title": "Meilleur quartier de Yerres pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Yerres le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-13",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Yerres mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Yerres n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Yerres le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Caillebotte, Gare / RER D, Bords de l'Yerres, Plateau / Gros Bois. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-yerres-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Plateau / Gros Bois et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Caillebotte et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER D (gare d'Yerres). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Yerres ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Yerres ou Savigny-sur-Orge](/blog/yerres-ou-savigny-sur-orge-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Yerres, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Yerres se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-yerres-achat-2026",
+    "title": "Yerres : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Yerres, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-20",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Yerres (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Yerres est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Yerres",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Plateau / Gros Bois et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Yerres colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-yerres-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Yerres et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Yerres aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "investir-yerres-rendement-locatif-2026",
+    "title": "Investir à Yerres en 2026 : rendement réel par quartier",
+    "description": "4,3-4,8 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Yerres a du sens.",
+    "publishedAt": "2026-03-27",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,3-4,8 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Yerres (4,3-4,8 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER D (gare d'Yerres) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Yerres",
+          "contenu": "4,3-4,8 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER D (gare d'Yerres, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Caillebotte = valeur refuge, rendement minimal. Plateau / Gros Bois = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Yerres à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Yerres a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-yerres-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Yerres, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Yerres et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-yerres-arbitrage-2026",
+    "title": "Quitter Paris pour Yerres : le vrai calcul en 2026",
+    "description": "Yerres face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-03",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Yerres.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Yerres et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Yerres : ville familiale des bords de l'Yerres (29 000 habitants), célèbre propriété Caillebotte peinte par l'impressionniste, vallée classée et forêt de Sénart, esprit village résidentiel très recherché des familles du Val d'Yerres, l'une des meilleures notes qualité-prix du sud-est. Desserte le RER D (gare d'Yerres, Gare de Lyon en 25 minutes), la vallée de l'Yerres et ses berges classées, et la forêt de Sénart en lisière. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4100 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Yerres, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Yerres (4100 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville familiale des bords de l'Yerres (29 000 habitants), célèbre propriété Caillebotte peinte par l'impressionniste, vallée classée et forêt de Sénart, esprit village résidentiel très recherché des familles du Val d'Yerres, l'une des meilleures notes qualité-prix du sud-est. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER D (gare d'Yerres, Gare de Lyon en 25 minutes), la vallée de l'Yerres et ses berges classées, et la forêt de Sénart en lisière. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Yerres ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-yerres-2026-guide-complet) et [Yerres ou Savigny-sur-Orge](/blog/yerres-ou-savigny-sur-orge-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Yerres, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Yerres se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-yerres",
+    "title": "Acheter à Yerres : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Yerres, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-10",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Yerres, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Yerres",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Yerres colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-yerres-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-yerres-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Yerres, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Yerres aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Yerres"
+      ]
+    }
+  },
+  {
+    "slug": "yerres-ou-savigny-sur-orge-acheter-2026",
+    "title": "Yerres ou Savigny-sur-Orge : où acheter en 2026",
+    "description": "Yerres, bourgeoise et impressionniste au bord de sa rivière (4 100 €/m²), face à Savigny-sur-Orge, plus simple et plus accessible sur le RER C (3 200 €/m²), deux options famille de l'Essonne à comparer selon le budget. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-17",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Yerres et Savigny-sur-Orge, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Yerres, bourgeoise et impressionniste au bord de sa rivière (4 100 €/m²), face à Savigny-sur-Orge, plus simple et plus accessible sur le RER C (3 200 €/m²), deux options famille de l'Essonne à comparer selon le budget. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Yerres, bourgeoise et impressionniste au bord de sa rivière (4 100 €/m²), face à Savigny-sur-Orge, plus simple et plus accessible sur le RER C (3 200 €/m²), deux options famille de l'Essonne à comparer selon le budget. Yerres 4100 €/m² vs Savigny-sur-Orge 3200 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Yerres | Savigny-sur-Orge) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Yerres 4100 €/m² vs Savigny-sur-Orge 3200 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER D (gare d'Yerres, Gare de Lyon en 25 minutes), la vallée de l'Yerres et ses berges classées, et la forêt de Sénart en lisière côté Yerres. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville familiale des bords de l'Yerres (29 000 habitants), célèbre propriété Caillebotte peinte par l'impressionniste, vallée classée et forêt de Sénart, esprit village résidentiel très recherché des familles du Val d'Yerres, l'une des meilleures notes qualité-prix du sud-est côté Yerres. Décrire le contraste d'ambiance avec Savigny-sur-Orge."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,3-4,8 % brut côté Yerres). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Yerres à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Yerres, pour qui Savigny-sur-Orge",
+          "contenu": "Verdict par profil. Linker les deux fiches [Yerres](/vivre-a/yerres-91691) et [Savigny-sur-Orge](/vivre-a/savigny-sur-orge-91589)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Yerres ou Savigny-sur-Orge : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Yerres et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Yerres",
+        "Savigny-sur-Orge"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-romainville-2026",
+    "title": "Vivre à Romainville en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Romainville ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-26",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Romainville et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Romainville' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Romainville : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Romainville : ville en pleine gentrification de l'est (31 000 habitants), désenclavée par le métro 11, fondation d'art contemporain Fiminco dans les anciens laboratoires Roussel, Corniche des Forts boisée, dans le sillage direct des Lilas et de Montreuil. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (5500 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Romainville",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Carnot / Mairie (5 700-6 400 €/m², cœur de ville, métro 11 depuis 2024, le plus prisé) ; Bas-Pays / Fiminco (5 500-6 200 €/m², fondation d'art Fiminco, anciens laboratoires en reconversion) ; Les Bas-Longchamps (5 300-6 000 €/m², résidentiel) ; Youri Gagarine / Marcel Cachin (5 000-5 700 €/m², en renouvellement, le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-romainville-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-romainville-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot, République en 15 minutes), la Corniche des Forts et sa base de loisirs, et la proximité immédiate des Lilas et de Montreuil. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville en pleine gentrification de l'est (31 000 habitants), désenclavée par le métro 11, fondation d'art contemporain Fiminco dans les anciens laboratoires Roussel, Corniche des Forts boisée, dans le sillage direct des Lilas et de Montreuil. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Romainville (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Romainville est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Romainville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Romainville](/vivre-a/romainville-93063) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-romainville-2026-par-quartier) ou [l'arbitrage quitter Paris pour Romainville](/blog/quitter-paris-pour-romainville-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Romainville, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Romainville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-romainville-2026-par-quartier",
+    "title": "Prix immobilier Romainville 2026 : le vrai prix par quartier",
+    "description": "5500 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-05",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Romainville qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '5500 €/m² de médiane à Romainville, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 5500 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Carnot / Mairie) et le plus abordable (Youri Gagarine / Marcel Cachin). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Carnot / Mairie (5 700-6 400 €/m², cœur de ville, métro 11 depuis 2024, le plus prisé) ; Bas-Pays / Fiminco (5 500-6 200 €/m², fondation d'art Fiminco, anciens laboratoires en reconversion) ; Les Bas-Longchamps (5 300-6 000 €/m², résidentiel) ; Youri Gagarine / Marcel Cachin (5 000-5 700 €/m², en renouvellement, le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Carnot / Mairie : 5 700-6 400 €/m²",
+          "contenu": "cœur de ville, métro 11 depuis 2024, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bas-Pays / Fiminco : 5 500-6 200 €/m²",
+          "contenu": "fondation d'art Fiminco, anciens laboratoires en reconversion. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Les Bas-Longchamps : 5 300-6 000 €/m²",
+          "contenu": "résidentiel. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Youri Gagarine / Marcel Cachin : 5 000-5 700 €/m²",
+          "contenu": "en renouvellement, le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Romainville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-romainville-acheter-2026) et la fiche [Romainville](/vivre-a/romainville-93063)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Romainville en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Romainville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-romainville-acheter-2026",
+    "title": "Meilleur quartier de Romainville pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Romainville le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-12",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Romainville mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Romainville n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Romainville le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Carnot / Mairie, Bas-Pays / Fiminco, Les Bas-Longchamps, Youri Gagarine / Marcel Cachin. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-romainville-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Youri Gagarine / Marcel Cachin et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Carnot / Mairie et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Romainville ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Romainville ou Les Lilas](/blog/romainville-ou-les-lilas-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Romainville, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Romainville se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-romainville-achat-2026",
+    "title": "Romainville : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Romainville, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-19",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Romainville (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Romainville est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Romainville",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Youri Gagarine / Marcel Cachin et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Romainville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-romainville-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Romainville et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Romainville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "investir-romainville-rendement-locatif-2026",
+    "title": "Investir à Romainville en 2026 : rendement réel par quartier",
+    "description": "3,8-4,3 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Romainville a du sens.",
+    "publishedAt": "2026-03-26",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,8-4,3 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Romainville (3,8-4,3 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Romainville",
+          "contenu": "3,8-4,3 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Carnot / Mairie = valeur refuge, rendement minimal. Youri Gagarine / Marcel Cachin = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Romainville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Romainville a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-romainville-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Romainville, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Romainville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-romainville-arbitrage-2026",
+    "title": "Quitter Paris pour Romainville : le vrai calcul en 2026",
+    "description": "Romainville face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-02",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Romainville.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Romainville et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Romainville : ville en pleine gentrification de l'est (31 000 habitants), désenclavée par le métro 11, fondation d'art contemporain Fiminco dans les anciens laboratoires Roussel, Corniche des Forts boisée, dans le sillage direct des Lilas et de Montreuil. Desserte le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot, République en 15 minutes), la Corniche des Forts et sa base de loisirs, et la proximité immédiate des Lilas et de Montreuil. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 5500 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Romainville, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Romainville (5500 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville en pleine gentrification de l'est (31 000 habitants), désenclavée par le métro 11, fondation d'art contemporain Fiminco dans les anciens laboratoires Roussel, Corniche des Forts boisée, dans le sillage direct des Lilas et de Montreuil. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot, République en 15 minutes), la Corniche des Forts et sa base de loisirs, et la proximité immédiate des Lilas et de Montreuil. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Romainville ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-romainville-2026-guide-complet) et [Romainville ou Les Lilas](/blog/romainville-ou-les-lilas-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Romainville, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Romainville se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-romainville",
+    "title": "Acheter à Romainville : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Romainville, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-09",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Romainville, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Romainville",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Romainville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-romainville-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-romainville-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Romainville, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Romainville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Romainville"
+      ]
+    }
+  },
+  {
+    "slug": "romainville-ou-les-lilas-acheter-2026",
+    "title": "Romainville ou Les Lilas : où acheter en 2026",
+    "description": "Romainville, en pleine gentrification avec le métro 11 tout neuf (5 500 €/m²), face aux Lilas, village bobo déjà établi une station plus près (7 500 €/m²), le même axe métro à 2 000 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-16",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Romainville et Les Lilas, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Romainville, en pleine gentrification avec le métro 11 tout neuf (5 500 €/m²), face aux Lilas, village bobo déjà établi une station plus près (7 500 €/m²), le même axe métro à 2 000 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Romainville, en pleine gentrification avec le métro 11 tout neuf (5 500 €/m²), face aux Lilas, village bobo déjà établi une station plus près (7 500 €/m²), le même axe métro à 2 000 € d'écart. Romainville 5500 €/m² vs Les Lilas 7500 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Romainville | Les Lilas) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Romainville 5500 €/m² vs Les Lilas 7500 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le métro 11 prolongé en 2024 (stations Serge Gainsbourg et Place Carnot, République en 15 minutes), la Corniche des Forts et sa base de loisirs, et la proximité immédiate des Lilas et de Montreuil côté Romainville. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville en pleine gentrification de l'est (31 000 habitants), désenclavée par le métro 11, fondation d'art contemporain Fiminco dans les anciens laboratoires Roussel, Corniche des Forts boisée, dans le sillage direct des Lilas et de Montreuil côté Romainville. Décrire le contraste d'ambiance avec Les Lilas."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,8-4,3 % brut côté Romainville). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Romainville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Romainville, pour qui Les Lilas",
+          "contenu": "Verdict par profil. Linker les deux fiches [Romainville](/vivre-a/romainville-93063) et [Les Lilas](/vivre-a/les-lilas-93045)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Romainville ou Les Lilas : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Romainville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Romainville",
+        "Les Lilas"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-noisy-le-sec-2026",
+    "title": "Vivre à Noisy-le-Sec en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Noisy-le-Sec ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-25",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Noisy-le-Sec et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Noisy-le-Sec' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Noisy-le-Sec : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Noisy-le-Sec : nœud ferroviaire historique de l'est (46 000 habitants), reconstruite après-guerre avec ses maisons préfabriquées expérimentales classées, RER E direct vers le cœur de Paris, tram T1, dans la dynamique de valorisation de l'axe Pantin-Romainville. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4300 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Noisy-le-Sec",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (4 500-5 100 €/m², RER E et tram T1, le plus prisé) ; Plateau d'Avron / limite Rosny (4 300-4 900 €/m², pavillonnaire sur les hauteurs) ; Petit-Noisy / Boissière (4 100-4 700 €/m², en mutation, future station M11) ; Londeau / La Renardière (3 800-4 400 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-noisy-le-sec-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-noisy-le-sec-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER E (gare de Noisy-le-Sec, Haussmann-Saint-Lazare en 15 minutes), le tram T1, la station Boissière du métro 11 prolongé en limite, et le canal de l'Ourcq au nord. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "nœud ferroviaire historique de l'est (46 000 habitants), reconstruite après-guerre avec ses maisons préfabriquées expérimentales classées, RER E direct vers le cœur de Paris, tram T1, dans la dynamique de valorisation de l'axe Pantin-Romainville. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Noisy-le-Sec (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Noisy-le-Sec est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Noisy-le-Sec colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Noisy-le-Sec](/vivre-a/noisy-le-sec-93053) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-noisy-le-sec-2026-par-quartier) ou [l'arbitrage quitter Paris pour Noisy-le-Sec](/blog/quitter-paris-pour-noisy-le-sec-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Noisy-le-Sec, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Noisy-le-Sec aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-noisy-le-sec-2026-par-quartier",
+    "title": "Prix immobilier Noisy-le-Sec 2026 : le vrai prix par quartier",
+    "description": "4300 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-04",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Noisy-le-Sec qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4300 €/m² de médiane à Noisy-le-Sec, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4300 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Londeau / La Renardière). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (4 500-5 100 €/m², RER E et tram T1, le plus prisé) ; Plateau d'Avron / limite Rosny (4 300-4 900 €/m², pavillonnaire sur les hauteurs) ; Petit-Noisy / Boissière (4 100-4 700 €/m², en mutation, future station M11) ; Londeau / La Renardière (3 800-4 400 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 4 500-5 100 €/m²",
+          "contenu": "RER E et tram T1, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau d'Avron / limite Rosny : 4 300-4 900 €/m²",
+          "contenu": "pavillonnaire sur les hauteurs. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Petit-Noisy / Boissière : 4 100-4 700 €/m²",
+          "contenu": "en mutation, future station M11. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Londeau / La Renardière : 3 800-4 400 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Noisy-le-Sec à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-noisy-le-sec-acheter-2026) et la fiche [Noisy-le-Sec](/vivre-a/noisy-le-sec-93053)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Noisy-le-Sec en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Noisy-le-Sec et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-noisy-le-sec-acheter-2026",
+    "title": "Meilleur quartier de Noisy-le-Sec pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Noisy-le-Sec le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-11",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Noisy-le-Sec mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Noisy-le-Sec n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Noisy-le-Sec le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, Plateau d'Avron / limite Rosny, Petit-Noisy / Boissière, Londeau / La Renardière. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-noisy-le-sec-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Londeau / La Renardière et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER E (gare de Noisy-le-Sec). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Noisy-le-Sec ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Noisy-le-Sec ou Pantin](/blog/noisy-le-sec-ou-pantin-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Noisy-le-Sec, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Noisy-le-Sec se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-noisy-le-sec-achat-2026",
+    "title": "Noisy-le-Sec : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Noisy-le-Sec, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-18",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Noisy-le-Sec (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Noisy-le-Sec est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Noisy-le-Sec",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Londeau / La Renardière et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Noisy-le-Sec colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-noisy-le-sec-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Noisy-le-Sec et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Noisy-le-Sec aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "investir-noisy-le-sec-rendement-locatif-2026",
+    "title": "Investir à Noisy-le-Sec en 2026 : rendement réel par quartier",
+    "description": "4,3-4,8 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Noisy-le-Sec a du sens.",
+    "publishedAt": "2026-03-25",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,3-4,8 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Noisy-le-Sec (4,3-4,8 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER E (gare de Noisy-le-Sec) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Noisy-le-Sec",
+          "contenu": "4,3-4,8 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER E (gare de Noisy-le-Sec, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Londeau / La Renardière = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Noisy-le-Sec à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Noisy-le-Sec a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-noisy-le-sec-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Noisy-le-Sec, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Noisy-le-Sec et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-noisy-le-sec-arbitrage-2026",
+    "title": "Quitter Paris pour Noisy-le-Sec : le vrai calcul en 2026",
+    "description": "Noisy-le-Sec face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-04-01",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Noisy-le-Sec.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Noisy-le-Sec et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Noisy-le-Sec : nœud ferroviaire historique de l'est (46 000 habitants), reconstruite après-guerre avec ses maisons préfabriquées expérimentales classées, RER E direct vers le cœur de Paris, tram T1, dans la dynamique de valorisation de l'axe Pantin-Romainville. Desserte le RER E (gare de Noisy-le-Sec, Haussmann-Saint-Lazare en 15 minutes), le tram T1, la station Boissière du métro 11 prolongé en limite, et le canal de l'Ourcq au nord. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4300 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Noisy-le-Sec, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Noisy-le-Sec (4300 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "nœud ferroviaire historique de l'est (46 000 habitants), reconstruite après-guerre avec ses maisons préfabriquées expérimentales classées, RER E direct vers le cœur de Paris, tram T1, dans la dynamique de valorisation de l'axe Pantin-Romainville. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER E (gare de Noisy-le-Sec, Haussmann-Saint-Lazare en 15 minutes), le tram T1, la station Boissière du métro 11 prolongé en limite, et le canal de l'Ourcq au nord. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Noisy-le-Sec ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-noisy-le-sec-2026-guide-complet) et [Noisy-le-Sec ou Pantin](/blog/noisy-le-sec-ou-pantin-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Noisy-le-Sec, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Noisy-le-Sec se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-noisy-le-sec",
+    "title": "Acheter à Noisy-le-Sec : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-7 %. Le coût total réel d'un achat à Noisy-le-Sec, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-08",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Noisy-le-Sec, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Noisy-le-Sec",
+          "contenu": "Marge réaliste 4-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Noisy-le-Sec colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-noisy-le-sec-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-noisy-le-sec-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Noisy-le-Sec, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Noisy-le-Sec aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec"
+      ]
+    }
+  },
+  {
+    "slug": "noisy-le-sec-ou-pantin-acheter-2026",
+    "title": "Noisy-le-Sec ou Pantin : où acheter en 2026",
+    "description": "Noisy-le-Sec, nœud ferroviaire encore accessible sur le RER E (4 300 €/m²), face à Pantin, le Brooklyn parisien déjà valorisé le long du canal (5 900 €/m²), deux étapes du même RER E à 1 600 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-15",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Noisy-le-Sec et Pantin, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Noisy-le-Sec, nœud ferroviaire encore accessible sur le RER E (4 300 €/m²), face à Pantin, le Brooklyn parisien déjà valorisé le long du canal (5 900 €/m²), deux étapes du même RER E à 1 600 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Noisy-le-Sec, nœud ferroviaire encore accessible sur le RER E (4 300 €/m²), face à Pantin, le Brooklyn parisien déjà valorisé le long du canal (5 900 €/m²), deux étapes du même RER E à 1 600 € d'écart. Noisy-le-Sec 4300 €/m² vs Pantin 5900 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Noisy-le-Sec | Pantin) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Noisy-le-Sec 4300 €/m² vs Pantin 5900 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER E (gare de Noisy-le-Sec, Haussmann-Saint-Lazare en 15 minutes), le tram T1, la station Boissière du métro 11 prolongé en limite, et le canal de l'Ourcq au nord côté Noisy-le-Sec. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "nœud ferroviaire historique de l'est (46 000 habitants), reconstruite après-guerre avec ses maisons préfabriquées expérimentales classées, RER E direct vers le cœur de Paris, tram T1, dans la dynamique de valorisation de l'axe Pantin-Romainville côté Noisy-le-Sec. Décrire le contraste d'ambiance avec Pantin."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,3-4,8 % brut côté Noisy-le-Sec). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Noisy-le-Sec à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Noisy-le-Sec, pour qui Pantin",
+          "contenu": "Verdict par profil. Linker les deux fiches [Noisy-le-Sec](/vivre-a/noisy-le-sec-93053) et [Pantin](/vivre-a/pantin-93055)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Noisy-le-Sec ou Pantin : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Noisy-le-Sec et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Noisy-le-Sec",
+        "Pantin"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-rosny-sous-bois-2026",
+    "title": "Vivre à Rosny-sous-Bois en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Rosny-sous-Bois ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-24",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Rosny-sous-Bois et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Rosny-sous-Bois' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Rosny-sous-Bois : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Rosny-sous-Bois : grande ville de l'est en pleine montée en desserte (47 000 habitants), centre commercial régional Rosny 2, terminus du métro 11 et future gare de la ligne 15 Est à Bois-Perrier, plateau d'Avron pavillonnaire, l'un des meilleurs potentiels transport de l'est. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4400 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Rosny-sous-Bois",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Mairie (4 600-5 200 €/m², cœur de ville commerçant, le plus prisé) ; Bois-Perrier / Rosny 2 (4 400-5 000 €/m², terminus du métro 11 prolongé, centre commercial régional, en valorisation) ; Plateau d'Avron (4 400-5 000 €/m², pavillonnaire sur les hauteurs, recherché) ; La Boissière / Les Marnaudes (4 000-4 600 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-rosny-sous-bois-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-rosny-sous-bois-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois, Haussmann en 18 minutes), le métro 11 prolongé jusqu'à Rosny-Bois-Perrier, la future ligne 15 Est au même endroit, le centre commercial Rosny 2 et l'A86. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "grande ville de l'est en pleine montée en desserte (47 000 habitants), centre commercial régional Rosny 2, terminus du métro 11 et future gare de la ligne 15 Est à Bois-Perrier, plateau d'Avron pavillonnaire, l'un des meilleurs potentiels transport de l'est. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Rosny-sous-Bois (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Rosny-sous-Bois est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Rosny-sous-Bois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Rosny-sous-Bois](/vivre-a/rosny-sous-bois-93064) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-rosny-sous-bois-2026-par-quartier) ou [l'arbitrage quitter Paris pour Rosny-sous-Bois](/blog/quitter-paris-pour-rosny-sous-bois-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Rosny-sous-Bois, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Rosny-sous-Bois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-rosny-sous-bois-2026-par-quartier",
+    "title": "Prix immobilier Rosny-sous-Bois 2026 : le vrai prix par quartier",
+    "description": "4400 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-03",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Rosny-sous-Bois qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4400 €/m² de médiane à Rosny-sous-Bois, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4400 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Mairie) et le plus abordable (La Boissière / Les Marnaudes). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Mairie (4 600-5 200 €/m², cœur de ville commerçant, le plus prisé) ; Bois-Perrier / Rosny 2 (4 400-5 000 €/m², terminus du métro 11 prolongé, centre commercial régional, en valorisation) ; Plateau d'Avron (4 400-5 000 €/m², pavillonnaire sur les hauteurs, recherché) ; La Boissière / Les Marnaudes (4 000-4 600 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Mairie : 4 600-5 200 €/m²",
+          "contenu": "cœur de ville commerçant, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bois-Perrier / Rosny 2 : 4 400-5 000 €/m²",
+          "contenu": "terminus du métro 11 prolongé, centre commercial régional, en valorisation. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau d'Avron : 4 400-5 000 €/m²",
+          "contenu": "pavillonnaire sur les hauteurs, recherché. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "La Boissière / Les Marnaudes : 4 000-4 600 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Rosny-sous-Bois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-rosny-sous-bois-acheter-2026) et la fiche [Rosny-sous-Bois](/vivre-a/rosny-sous-bois-93064)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Rosny-sous-Bois en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Rosny-sous-Bois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-rosny-sous-bois-acheter-2026",
+    "title": "Meilleur quartier de Rosny-sous-Bois pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Rosny-sous-Bois le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-10",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Rosny-sous-Bois mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Rosny-sous-Bois n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Rosny-sous-Bois le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Mairie, Bois-Perrier / Rosny 2, Plateau d'Avron, La Boissière / Les Marnaudes. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-rosny-sous-bois-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : La Boissière / Les Marnaudes et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Mairie et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Rosny-sous-Bois ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Rosny-sous-Bois ou Montreuil](/blog/rosny-sous-bois-ou-montreuil-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Rosny-sous-Bois, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Rosny-sous-Bois se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-rosny-sous-bois-achat-2026",
+    "title": "Rosny-sous-Bois : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Rosny-sous-Bois, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-17",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Rosny-sous-Bois (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Rosny-sous-Bois est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Rosny-sous-Bois",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "La Boissière / Les Marnaudes et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Rosny-sous-Bois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-rosny-sous-bois-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Rosny-sous-Bois et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Rosny-sous-Bois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "investir-rosny-sous-bois-rendement-locatif-2026",
+    "title": "Investir à Rosny-sous-Bois en 2026 : rendement réel par quartier",
+    "description": "4,2-4,7 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Rosny-sous-Bois a du sens.",
+    "publishedAt": "2026-03-24",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,2-4,7 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Rosny-sous-Bois (4,2-4,7 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Rosny-sous-Bois",
+          "contenu": "4,2-4,7 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Mairie = valeur refuge, rendement minimal. La Boissière / Les Marnaudes = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Rosny-sous-Bois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Rosny-sous-Bois a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-rosny-sous-bois-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Rosny-sous-Bois, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Rosny-sous-Bois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-rosny-sous-bois-arbitrage-2026",
+    "title": "Quitter Paris pour Rosny-sous-Bois : le vrai calcul en 2026",
+    "description": "Rosny-sous-Bois face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-03-31",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Rosny-sous-Bois.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Rosny-sous-Bois et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Rosny-sous-Bois : grande ville de l'est en pleine montée en desserte (47 000 habitants), centre commercial régional Rosny 2, terminus du métro 11 et future gare de la ligne 15 Est à Bois-Perrier, plateau d'Avron pavillonnaire, l'un des meilleurs potentiels transport de l'est. Desserte le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois, Haussmann en 18 minutes), le métro 11 prolongé jusqu'à Rosny-Bois-Perrier, la future ligne 15 Est au même endroit, le centre commercial Rosny 2 et l'A86. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4400 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Rosny-sous-Bois, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Rosny-sous-Bois (4400 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "grande ville de l'est en pleine montée en desserte (47 000 habitants), centre commercial régional Rosny 2, terminus du métro 11 et future gare de la ligne 15 Est à Bois-Perrier, plateau d'Avron pavillonnaire, l'un des meilleurs potentiels transport de l'est. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois, Haussmann en 18 minutes), le métro 11 prolongé jusqu'à Rosny-Bois-Perrier, la future ligne 15 Est au même endroit, le centre commercial Rosny 2 et l'A86. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Rosny-sous-Bois ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-rosny-sous-bois-2026-guide-complet) et [Rosny-sous-Bois ou Montreuil](/blog/rosny-sous-bois-ou-montreuil-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Rosny-sous-Bois, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Rosny-sous-Bois se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-rosny-sous-bois",
+    "title": "Acheter à Rosny-sous-Bois : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Rosny-sous-Bois, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-07",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Rosny-sous-Bois, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Rosny-sous-Bois",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Rosny-sous-Bois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-rosny-sous-bois-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-rosny-sous-bois-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Rosny-sous-Bois, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Rosny-sous-Bois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois"
+      ]
+    }
+  },
+  {
+    "slug": "rosny-sous-bois-ou-montreuil-acheter-2026",
+    "title": "Rosny-sous-Bois ou Montreuil : où acheter en 2026",
+    "description": "Rosny-sous-Bois, familiale et boostée par le métro 11 et la ligne 15 (4 400 €/m²), face à Montreuil, plus urbaine, créative et chère collée à Paris (5 800 €/m²), deux marchés de l'est à 1 400 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-14",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Rosny-sous-Bois et Montreuil, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Rosny-sous-Bois, familiale et boostée par le métro 11 et la ligne 15 (4 400 €/m²), face à Montreuil, plus urbaine, créative et chère collée à Paris (5 800 €/m²), deux marchés de l'est à 1 400 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Rosny-sous-Bois, familiale et boostée par le métro 11 et la ligne 15 (4 400 €/m²), face à Montreuil, plus urbaine, créative et chère collée à Paris (5 800 €/m²), deux marchés de l'est à 1 400 € d'écart. Rosny-sous-Bois 4400 €/m² vs Montreuil 5800 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Rosny-sous-Bois | Montreuil) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Rosny-sous-Bois 4400 €/m² vs Montreuil 5800 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER E (gares Rosny-Bois-Perrier et Rosny-sous-Bois, Haussmann en 18 minutes), le métro 11 prolongé jusqu'à Rosny-Bois-Perrier, la future ligne 15 Est au même endroit, le centre commercial Rosny 2 et l'A86 côté Rosny-sous-Bois. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "grande ville de l'est en pleine montée en desserte (47 000 habitants), centre commercial régional Rosny 2, terminus du métro 11 et future gare de la ligne 15 Est à Bois-Perrier, plateau d'Avron pavillonnaire, l'un des meilleurs potentiels transport de l'est côté Rosny-sous-Bois. Décrire le contraste d'ambiance avec Montreuil."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,2-4,7 % brut côté Rosny-sous-Bois). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Rosny-sous-Bois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Rosny-sous-Bois, pour qui Montreuil",
+          "contenu": "Verdict par profil. Linker les deux fiches [Rosny-sous-Bois](/vivre-a/rosny-sous-bois-93064) et [Montreuil](/vivre-a/montreuil-93048)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Rosny-sous-Bois ou Montreuil : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Rosny-sous-Bois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Rosny-sous-Bois",
+        "Montreuil"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-le-raincy-2026",
+    "title": "Vivre à Le Raincy en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Le Raincy ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-02-23",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Le Raincy et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Le Raincy' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Le Raincy : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Le Raincy : le Neuilly de l'est du 93 (15 000 habitants), ville-parc bourgeoise tracée dans l'ancien domaine princier, église Notre-Dame du Raincy des frères Perret classée, allées de villas, revenus parmi les plus élevés du département, l'exception premium de la Seine-Saint-Denis. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (5300 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Le Raincy",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Rond-Point Thiers (5 500-6 200 €/m², avenue de la Résistance commerçante, le plus prisé) ; Plateau / Église Notre-Dame (5 300-6 000 €/m², autour du chef-d'œuvre de béton des frères Perret, résidentiel chic) ; Villas / allées historiques (5 200-5 900 €/m², les allées pavillonnaires de l'ancien parc du château) ; Limite Villemomble / Gagny (5 000-5 700 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-le-raincy-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-le-raincy-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER E (gare Le Raincy-Villemomble-Montfermeil, Haussmann-Saint-Lazare en 20 minutes), les allées plantées de l'ancien parc princier, et un tissu commerçant dense sur l'avenue de la Résistance. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "le Neuilly de l'est du 93 (15 000 habitants), ville-parc bourgeoise tracée dans l'ancien domaine princier, église Notre-Dame du Raincy des frères Perret classée, allées de villas, revenus parmi les plus élevés du département, l'exception premium de la Seine-Saint-Denis. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Le Raincy (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Le Raincy est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Le Raincy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Le Raincy](/vivre-a/le-raincy-93062) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-le-raincy-2026-par-quartier) ou [l'arbitrage quitter Paris pour Le Raincy](/blog/quitter-paris-pour-le-raincy-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Le Raincy, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Le Raincy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-le-raincy-2026-par-quartier",
+    "title": "Prix immobilier Le Raincy 2026 : le vrai prix par quartier",
+    "description": "5300 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-03-02",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Le Raincy qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '5300 €/m² de médiane à Le Raincy, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 5300 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Rond-Point Thiers) et le plus abordable (Limite Villemomble / Gagny). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Rond-Point Thiers (5 500-6 200 €/m², avenue de la Résistance commerçante, le plus prisé) ; Plateau / Église Notre-Dame (5 300-6 000 €/m², autour du chef-d'œuvre de béton des frères Perret, résidentiel chic) ; Villas / allées historiques (5 200-5 900 €/m², les allées pavillonnaires de l'ancien parc du château) ; Limite Villemomble / Gagny (5 000-5 700 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Rond-Point Thiers : 5 500-6 200 €/m²",
+          "contenu": "avenue de la Résistance commerçante, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plateau / Église Notre-Dame : 5 300-6 000 €/m²",
+          "contenu": "autour du chef-d'œuvre de béton des frères Perret, résidentiel chic. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Villas / allées historiques : 5 200-5 900 €/m²",
+          "contenu": "les allées pavillonnaires de l'ancien parc du château. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Limite Villemomble / Gagny : 5 000-5 700 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Le Raincy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-le-raincy-acheter-2026) et la fiche [Le Raincy](/vivre-a/le-raincy-93062)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Le Raincy en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Le Raincy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-le-raincy-acheter-2026",
+    "title": "Meilleur quartier de Le Raincy pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Le Raincy le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-03-09",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Le Raincy mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Le Raincy n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Le Raincy le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Rond-Point Thiers, Plateau / Église Notre-Dame, Villas / allées historiques, Limite Villemomble / Gagny. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-le-raincy-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Limite Villemomble / Gagny et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Rond-Point Thiers et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER E (gare Le Raincy-Villemomble-Montfermeil). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Le Raincy ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Le Raincy ou Rosny-sous-Bois](/blog/le-raincy-ou-rosny-sous-bois-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Le Raincy, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Le Raincy se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-le-raincy-achat-2026",
+    "title": "Le Raincy : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Le Raincy, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-03-16",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Le Raincy (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Le Raincy est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Le Raincy",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Limite Villemomble / Gagny et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Le Raincy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-le-raincy-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Le Raincy et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Le Raincy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "investir-le-raincy-rendement-locatif-2026",
+    "title": "Investir à Le Raincy en 2026 : rendement réel par quartier",
+    "description": "3,4-3,9 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Le Raincy a du sens.",
+    "publishedAt": "2026-03-23",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,4-3,9 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Le Raincy (3,4-3,9 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER E (gare Le Raincy-Villemomble-Montfermeil) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Le Raincy",
+          "contenu": "3,4-3,9 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER E (gare Le Raincy-Villemomble-Montfermeil, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Rond-Point Thiers = valeur refuge, rendement minimal. Limite Villemomble / Gagny = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Le Raincy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Le Raincy a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-le-raincy-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Le Raincy, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Le Raincy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-le-raincy-arbitrage-2026",
+    "title": "Quitter Paris pour Le Raincy : le vrai calcul en 2026",
+    "description": "Le Raincy face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-03-30",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Le Raincy.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Le Raincy et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Le Raincy : le Neuilly de l'est du 93 (15 000 habitants), ville-parc bourgeoise tracée dans l'ancien domaine princier, église Notre-Dame du Raincy des frères Perret classée, allées de villas, revenus parmi les plus élevés du département, l'exception premium de la Seine-Saint-Denis. Desserte le RER E (gare Le Raincy-Villemomble-Montfermeil, Haussmann-Saint-Lazare en 20 minutes), les allées plantées de l'ancien parc princier, et un tissu commerçant dense sur l'avenue de la Résistance. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 5300 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Le Raincy, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Le Raincy (5300 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "le Neuilly de l'est du 93 (15 000 habitants), ville-parc bourgeoise tracée dans l'ancien domaine princier, église Notre-Dame du Raincy des frères Perret classée, allées de villas, revenus parmi les plus élevés du département, l'exception premium de la Seine-Saint-Denis. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER E (gare Le Raincy-Villemomble-Montfermeil, Haussmann-Saint-Lazare en 20 minutes), les allées plantées de l'ancien parc princier, et un tissu commerçant dense sur l'avenue de la Résistance. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Le Raincy ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-le-raincy-2026-guide-complet) et [Le Raincy ou Rosny-sous-Bois](/blog/le-raincy-ou-rosny-sous-bois-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Le Raincy, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Le Raincy se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-le-raincy",
+    "title": "Acheter à Le Raincy : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 3-5 %. Le coût total réel d'un achat à Le Raincy, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-04-06",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Le Raincy, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 3-5 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 3-5 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Le Raincy",
+          "contenu": "Marge réaliste 3-5 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Le Raincy colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-le-raincy-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-le-raincy-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Le Raincy, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Le Raincy aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy"
+      ]
+    }
+  },
+  {
+    "slug": "le-raincy-ou-rosny-sous-bois-acheter-2026",
+    "title": "Le Raincy ou Rosny-sous-Bois : où acheter en 2026",
+    "description": "Le Raincy, ville-parc bourgeoise et son église Perret (5 300 €/m²), face à Rosny-sous-Bois, plus grande, plus commerçante et mieux desservie avec le métro 11 (4 400 €/m²), deux voisines de l'est aux profils opposés. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-04-13",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Le Raincy et Rosny-sous-Bois, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Le Raincy, ville-parc bourgeoise et son église Perret (5 300 €/m²), face à Rosny-sous-Bois, plus grande, plus commerçante et mieux desservie avec le métro 11 (4 400 €/m²), deux voisines de l'est aux profils opposés. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Le Raincy, ville-parc bourgeoise et son église Perret (5 300 €/m²), face à Rosny-sous-Bois, plus grande, plus commerçante et mieux desservie avec le métro 11 (4 400 €/m²), deux voisines de l'est aux profils opposés. Le Raincy 5300 €/m² vs Rosny-sous-Bois 4400 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Le Raincy | Rosny-sous-Bois) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Le Raincy 5300 €/m² vs Rosny-sous-Bois 4400 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER E (gare Le Raincy-Villemomble-Montfermeil, Haussmann-Saint-Lazare en 20 minutes), les allées plantées de l'ancien parc princier, et un tissu commerçant dense sur l'avenue de la Résistance côté Le Raincy. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "le Neuilly de l'est du 93 (15 000 habitants), ville-parc bourgeoise tracée dans l'ancien domaine princier, église Notre-Dame du Raincy des frères Perret classée, allées de villas, revenus parmi les plus élevés du département, l'exception premium de la Seine-Saint-Denis côté Le Raincy. Décrire le contraste d'ambiance avec Rosny-sous-Bois."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,4-3,9 % brut côté Le Raincy). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Le Raincy à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Le Raincy, pour qui Rosny-sous-Bois",
+          "contenu": "Verdict par profil. Linker les deux fiches [Le Raincy](/vivre-a/le-raincy-93062) et [Rosny-sous-Bois](/vivre-a/rosny-sous-bois-93064)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Le Raincy ou Rosny-sous-Bois : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Le Raincy et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Le Raincy",
+        "Rosny-sous-Bois"
+      ]
+    }
   }
 ];
 
