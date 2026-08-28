@@ -2636,7 +2636,6 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
   },
 
   // Batch double août 2026 : Essonne RER B/C/D + est 93. Massy a déjà vivre/prix/déménager.
-  // NB : Palaiseau garde le code 91471 du dataset (erroné mais en ligne, fiche indexée).
   massy: {
     city: "Massy",
     cityShort: "Massy",
@@ -2662,7 +2661,7 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     comparison: {
       city: "Palaiseau",
       base: "palaiseau",
-      ficheSlug: "palaiseau-91471",
+      ficheSlug: "palaiseau-91477",
       price: 4500,
       angle:
         "Massy, hub TGV urbain et tertiaire (4 900 €/m²), face à Palaiseau, plus résidentielle et étudiante au pied du plateau de Saclay (4 500 €/m²), les deux portes d'entrée du pôle scientifique du sud",
@@ -2676,7 +2675,7 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     city: "Palaiseau",
     cityShort: "Palaiseau",
     base: "palaiseau",
-    ficheSlug: "palaiseau-91471",
+    ficheSlug: "palaiseau-91477",
     departement: "Essonne",
     median: 4500,
     evolutionNote: "en hausse sur 5 ans, portée par le plateau de Saclay et la future ligne 18",
@@ -2908,5 +2907,279 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     datasetCount: 176,
     dates: ["2026-02-23", "2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13"],
     skipSlots: [],
+  },
+
+  // Batch double sud-est Essonne RER C/D (août 2026). 7 fiches créées ; Évry a déjà vivre/prix/investir.
+  // NB : Corbeil-Essonnes pas encore dans le dataset (code INSEE 91174, libre depuis la correction du code d'Étampes).
+  "athis-mons": {
+    city: "Athis-Mons",
+    cityShort: "Athis-Mons",
+    base: "athis-mons",
+    ficheSlug: "athis-mons-91027",
+    departement: "Essonne",
+    median: 3100,
+    evolutionNote: "en légère hausse sur 5 ans, marché accessible aux portes d'Orly",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "3 300-3 800 €/m²", note: "cœur de ville, le plus prisé" },
+      { nom: "Plateau / Val", fourchette: "3 100-3 600 €/m²", note: "pavillonnaire familial" },
+      { nom: "Gare / Juvisy", fourchette: "3 000-3 500 €/m²", note: "proche du grand pôle RER de Juvisy" },
+      { nom: "Mons / bords de Seine", fourchette: "2 900-3 400 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER C (gare d'Athis-Mons, Bibliothèque François-Mitterrand en 22 minutes), le pôle RER C-D de Juvisy en limite, le tram T7 vers Orly et Villejuif, et l'aéroport d'Orly à dix minutes",
+    contexte:
+      "ville familiale des coteaux de Seine aux portes d'Orly (36 000 habitants), pavillonnaire accessible autour de 3 100 €/m², terrasse panoramique sur la vallée, marché de primo-accédants et de personnels de la plateforme aéroportuaire",
+    rendement: "4,8-5,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché négociable)",
+    comparison: {
+      city: "Juvisy-sur-Orge",
+      base: "juvisy-sur-orge",
+      ficheSlug: "juvisy-sur-orge-91326",
+      price: 3300,
+      angle:
+        "Athis-Mons, pavillonnaire des coteaux proche d'Orly (3 100 €/m²), face à Juvisy-sur-Orge, plus dense autour de son grand pôle RER C-D (3 300 €/m²), deux voisines accessibles de la vallée de la Seine",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23"],
+    skipSlots: [],
+  },
+
+  "juvisy-sur-orge": {
+    city: "Juvisy-sur-Orge",
+    cityShort: "Juvisy",
+    base: "juvisy-sur-orge",
+    ficheSlug: "juvisy-sur-orge-91326",
+    departement: "Essonne",
+    median: 3300,
+    evolutionNote: "en hausse sur 5 ans, portée par son pôle gare majeur",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "3 500-4 000 €/m²", note: "autour de l'un des plus grands pôles RER d'Île-de-France, le plus prisé" },
+      { nom: "Observatoire / Parc", fourchette: "3 300-3 800 €/m²", note: "hauteurs résidentielles près de l'observatoire Flammarion" },
+      { nom: "Seine / Port-aux-Cerises", fourchette: "3 200-3 700 €/m²", note: "près des berges et de la base de loisirs" },
+      { nom: "Plateau", fourchette: "3 100-3 600 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le pôle de Juvisy, l'un des plus grands nœuds RER d'Île-de-France (RER C et RER D, Gare de Lyon en 20 minutes, Bibliothèque en 18), le tram T7 vers Orly, et un réseau de bus dense vers toute l'Essonne nord",
+    contexte:
+      "petite ville dense autour d'un pôle ferroviaire majeur (17 500 habitants), gare historique refaite, observatoire de Camille Flammarion, à cheval entre Seine et Orge, le meilleur rapport desserte-prix du RER C-D sud avec deux lignes directes",
+    rendement: "4,8-5,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Savigny-sur-Orge",
+      base: "savigny-sur-orge",
+      ficheSlug: "savigny-sur-orge-91589",
+      price: 3200,
+      angle:
+        "Juvisy-sur-Orge, dense et ultra-connectée avec ses deux RER (3 300 €/m²), face à Savigny-sur-Orge, plus pavillonnaire une gare plus loin (3 200 €/m²), deux façons d'habiter la vallée de l'Orge au même budget",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25", "2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22"],
+    skipSlots: [],
+  },
+
+  draveil: {
+    city: "Draveil",
+    cityShort: "Draveil",
+    base: "draveil",
+    ficheSlug: "draveil-91201",
+    departement: "Essonne",
+    median: 3300,
+    evolutionNote: "stable sur 5 ans, marché nature entre Seine et forêt",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "3 500-4 000 €/m²", note: "cœur de ville, le plus prisé" },
+      { nom: "Paris-Jardins", fourchette: "3 400-3 900 €/m²", note: "cité-jardin historique classée, unique en France" },
+      { nom: "Bords de Seine / Port aux Cerises", fourchette: "3 300-3 800 €/m²", note: "près de la base de loisirs" },
+      { nom: "Danton / Mazières", fourchette: "3 000-3 500 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "les gares RER D de Juvisy et de Vigneux toutes proches (Gare de Lyon en 25-30 minutes), la base de loisirs du Port aux Cerises, les bords de Seine et la forêt de Sénart en lisière",
+    contexte:
+      "ville nature entre Seine et forêt de Sénart (29 500 habitants), célèbre cité-jardin Paris-Jardins fondée en 1911, base de loisirs du Port aux Cerises, profil famille qui privilégie l'espace et la verdure, à condition d'accepter la gare dans la ville d'à côté",
+    rendement: "4,5-5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché négociable)",
+    comparison: {
+      city: "Vigneux-sur-Seine",
+      base: "vigneux-sur-seine",
+      ficheSlug: "vigneux-sur-seine-91657",
+      price: 2900,
+      angle:
+        "Draveil, verte et bourgeoise avec sa cité-jardin (3 300 €/m²), face à Vigneux-sur-Seine, plus simple mais avec sa propre gare RER D (2 900 €/m²), deux voisines de Seine à arbitrer entre cadre et desserte",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-03", "2026-03-10", "2026-03-17", "2026-03-24", "2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21"],
+    skipSlots: [],
+  },
+
+  brunoy: {
+    city: "Brunoy",
+    cityShort: "Brunoy",
+    base: "brunoy",
+    ficheSlug: "brunoy-91114",
+    departement: "Essonne",
+    median: 3400,
+    evolutionNote: "stable sur 5 ans, marché familial du Val d'Yerres",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "3 600-4 100 €/m²", note: "cœur de ville commerçant autour du RER D, le plus prisé" },
+      { nom: "Bords de l'Yerres", fourchette: "3 500-4 000 €/m²", note: "près de la rivière et du pont Perronet" },
+      { nom: "Pyramide / forêt de Sénart", fourchette: "3 400-3 900 €/m²", note: "pavillonnaire en lisière de forêt" },
+      { nom: "Les Bosserons / Plateau", fourchette: "3 200-3 700 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER D (gare de Brunoy, Gare de Lyon en 30 minutes), la vallée de l'Yerres et ses berges, et la forêt de Sénart qui borde la ville",
+    contexte:
+      "ville bourgeoise du Val d'Yerres entre rivière et forêt (26 500 habitants), vieux centre autour de l'église Saint-Médard et du pont Perronet, marchés et commerces, profil famille établie qui cherche le charme de vallée à 30 minutes de Gare de Lyon",
+    rendement: "4,4-4,9 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Yerres",
+      base: "yerres",
+      ficheSlug: "yerres-91691",
+      price: 4100,
+      angle:
+        "Brunoy, charmante et plus accessible au bord de la même rivière (3 400 €/m²), face à Yerres, la voisine Caillebotte plus cotée (4 100 €/m²), deux villes du Val d'Yerres à 700 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-02", "2026-03-09", "2026-03-16", "2026-03-23", "2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20"],
+    skipSlots: [],
+  },
+
+  montgeron: {
+    city: "Montgeron",
+    cityShort: "Montgeron",
+    base: "montgeron",
+    ficheSlug: "montgeron-91421",
+    departement: "Essonne",
+    median: 3500,
+    evolutionNote: "stable sur 5 ans, marché familial en lisière de Sénart",
+    quartiers: [
+      { nom: "Centre / Avenue de la République", fourchette: "3 700-4 200 €/m²", note: "axe commerçant et gare RER D, le plus prisé" },
+      { nom: "Lisière de Sénart / Pelouse", fourchette: "3 600-4 100 €/m²", note: "pavillonnaire contre la forêt, la célèbre Pelouse plantée" },
+      { nom: "Glacière / Gibraltar", fourchette: "3 400-3 900 €/m²", note: "résidentiel" },
+      { nom: "La Forêt / Oly", fourchette: "3 200-3 700 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER D (gare de Montgeron-Crosne, Gare de Lyon en 25 minutes), la Pelouse historique qui traverse la ville, et la forêt de Sénart aux portes des maisons",
+    contexte:
+      "ville pavillonnaire en lisière de la forêt de Sénart (24 000 habitants), la Pelouse plantée d'un kilomètre comme colonne vertébrale, peinte par les impressionnistes, profil famille sportive et nature à 25 minutes de Gare de Lyon",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Brunoy",
+      base: "brunoy",
+      ficheSlug: "brunoy-91114",
+      price: 3400,
+      angle:
+        "Montgeron, tirée au cordeau le long de sa Pelouse et de la forêt (3 500 €/m²), face à Brunoy, plus vallonnée au bord de l'Yerres (3 400 €/m²), deux voisines du RER D au coude à coude",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-01", "2026-03-08", "2026-03-15", "2026-03-22", "2026-03-29", "2026-04-05", "2026-04-12", "2026-04-19"],
+    skipSlots: [],
+  },
+
+  "vigneux-sur-seine": {
+    city: "Vigneux-sur-Seine",
+    cityShort: "Vigneux",
+    base: "vigneux-sur-seine",
+    ficheSlug: "vigneux-sur-seine-91657",
+    departement: "Essonne",
+    median: 2900,
+    evolutionNote: "en hausse sur 5 ans, l'un des marchés les plus accessibles avec gare",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "3 100-3 600 €/m²", note: "autour du RER D, le plus prisé" },
+      { nom: "Lac Montalbot / Seine", fourchette: "2 900-3 400 €/m²", note: "près du lac et des berges" },
+      { nom: "La Croix Blanche", fourchette: "2 800-3 300 €/m²", note: "pavillonnaire" },
+      { nom: "Les Bergeries", fourchette: "2 600-3 100 €/m²", note: "grands ensembles en rénovation, le plus abordable" },
+    ],
+    transport:
+      "le RER D (gare de Vigneux-sur-Seine, Gare de Lyon en 30 minutes), le lac Montalbot et les berges de Seine, et la proximité de Draveil et du Port aux Cerises",
+    contexte:
+      "ville populaire des bords de Seine (32 000 habitants), lac Montalbot et étangs, marché parmi les plus accessibles d'Île-de-France avec une gare RER : moins de 3 000 €/m² à 30 minutes de Gare de Lyon, terrain de chasse des primo-accédants",
+    rendement: "5-5,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché négociable)",
+    comparison: {
+      city: "Montgeron",
+      base: "montgeron",
+      ficheSlug: "montgeron-91421",
+      price: 3500,
+      angle:
+        "Vigneux-sur-Seine, la plus accessible avec sa gare et son lac (2 900 €/m²), face à Montgeron, plus établie le long de sa Pelouse (3 500 €/m²), deux étapes du RER D à 600 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-28", "2026-03-07", "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04", "2026-04-11", "2026-04-18"],
+    skipSlots: [],
+  },
+
+  "ris-orangis": {
+    city: "Ris-Orangis",
+    cityShort: "Ris-Orangis",
+    base: "ris-orangis",
+    ficheSlug: "ris-orangis-91521",
+    departement: "Essonne",
+    median: 2800,
+    evolutionNote: "en hausse sur 5 ans, marché accessible aux portes d'Évry",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "3 000-3 500 €/m²", note: "cœur de ville, le plus prisé" },
+      { nom: "Bords de Seine / Docks", fourchette: "2 900-3 400 €/m²", note: "anciens docks des vins en reconversion" },
+      { nom: "Gare / Orangis-Bois de l'Épine", fourchette: "2 800-3 300 €/m²", note: "deux gares RER D, pratique" },
+      { nom: "Le Plateau", fourchette: "2 600-3 100 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "deux gares du RER D (Ris-Orangis et Orangis-Bois de l'Épine, Gare de Lyon en 35 minutes), les berges de Seine et les anciens docks en reconversion, et l'A6 toute proche",
+    contexte:
+      "ville populaire des bords de Seine aux portes d'Évry (30 000 habitants), anciens docks des vins de Paris en reconversion, deux gares RER, marché sous les 3 000 €/m² prisé des primo-accédants qui travaillent sur le pôle d'Évry",
+    rendement: "5-5,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 %",
+    comparison: {
+      city: "Évry-Courcouronnes",
+      base: "evry-courcouronnes",
+      ficheSlug: "evry-courcouronnes-91228",
+      price: 3100,
+      angle:
+        "Ris-Orangis, résidentielle au bord de la Seine (2 800 €/m²), face à Évry-Courcouronnes, la préfecture équipée avec université et cathédrale (3 100 €/m²), deux voisines du RER D à 300 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-27", "2026-03-06", "2026-03-13", "2026-03-20", "2026-03-27", "2026-04-03", "2026-04-10", "2026-04-17"],
+    skipSlots: [],
+  },
+
+  "evry-courcouronnes": {
+    city: "Évry-Courcouronnes",
+    cityShort: "Évry",
+    base: "evry-courcouronnes",
+    ficheSlug: "evry-courcouronnes-91228",
+    departement: "Essonne",
+    median: 3100,
+    evolutionNote: "en hausse sur 5 ans, préfecture de l'Essonne en renouveau",
+    quartiers: [
+      { nom: "Centre urbain / Cathédrale", fourchette: "3 300-3 800 €/m²", note: "autour de la cathédrale Mario Botta et de l'agora, le plus équipé" },
+      { nom: "Évry Village", fourchette: "3 200-3 700 €/m²", note: "le vieux bourg au bord de la Seine, le plus prisé" },
+      { nom: "Parc aux Lièvres / Université", fourchette: "3 000-3 500 €/m²", note: "campus Paris-Saclay-Évry, étudiant" },
+      { nom: "Courcouronnes / Canal", fourchette: "2 800-3 300 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER D (gares Évry-Courcouronnes, Bras de Fer et Orangis-Bois de l'Épine, Gare de Lyon en 35 minutes), l'A6 directe, l'université d'Évry Paris-Saclay et le pôle Genopole",
+    contexte:
+      "préfecture de l'Essonne née ville nouvelle (69 000 habitants), cathédrale de Mario Botta unique au monde, université et biocluster Genopole, grand pôle d'emploi du sud francilien, marché accessible en renouveau urbain",
+    rendement: "5-5,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Créteil",
+      base: "creteil",
+      ficheSlug: "creteil-94028",
+      price: 4800,
+      angle:
+        "Évry-Courcouronnes, préfecture accessible du sud avec université et Genopole (3 100 €/m²), face à Créteil, préfecture de la petite couronne avec métro et lac (4 800 €/m²), le duel des deux préfectures à 1 700 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16"],
+    skipSlots: ["vivre", "s1", "s4"],
   },
 };
