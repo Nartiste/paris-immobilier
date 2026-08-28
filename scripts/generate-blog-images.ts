@@ -103,6 +103,18 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Saint-Denis" est une page d'homonymie (La Réunion…) : on force la basilique royale.
+    match: "saint-denis",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Saint-Denis_-_Basilique_Saint-Denis_-_Fa%C3%A7ade_occidentale_-_Les_%C3%AAtres_vivants_-1.JPG/1280px-Saint-Denis_-_Basilique_Saint-Denis_-_Fa%C3%A7ade_occidentale_-_Les_%C3%AAtres_vivants_-1.JPG",
+      width: 1280,
+      height: 960,
+      alt: "Basilique royale de Saint-Denis, nécropole des rois de France",
+      credit: "Wikipedia · Saint-Denis",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Saint-Denis_(Seine-Saint-Denis)",
+    },
+  },
+  {
     // "Gentilly" est une page d'homonymie sans image : on force l'église Saint-Saturnin.
     match: "gentilly",
     image: {

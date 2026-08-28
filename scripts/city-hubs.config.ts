@@ -2494,4 +2494,144 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-04", "2026-02-11", "2026-02-18", "2026-02-25", "2026-03-04", "2026-03-11", "2026-03-18", "2026-03-25"],
     skipSlots: [],
   },
+
+  // Vague nord-est 93/77 à volume (juillet 2026). Les 4 étaient déjà dans le dataset.
+  "saint-denis": {
+    city: "Saint-Denis",
+    cityShort: "Saint-Denis",
+    base: "saint-denis",
+    ficheSlug: "saint-denis-93066",
+    departement: "Seine-Saint-Denis",
+    median: 4200,
+    evolutionNote: "la plus forte hausse de la petite couronne sur 5 ans, transformée par le métro 14 et l'héritage des JO",
+    quartiers: [
+      { nom: "Pleyel", fourchette: "4 800-5 600 €/m²", note: "terminus du métro 14 et hub des lignes 15-16-17, village olympique, le plus dynamique" },
+      { nom: "Centre / Basilique", fourchette: "4 300-5 000 €/m²", note: "autour de la basilique royale et du marché, métro 13 et tram" },
+      { nom: "La Plaine / Stade de France", fourchette: "4 200-4 900 €/m²", note: "RER B et D, pôle d'emploi et sièges sociaux" },
+      { nom: "Gare / Confluence", fourchette: "4 000-4 700 €/m²", note: "en mutation le long du canal" },
+      { nom: "Franc-Moisin / Bel-Air", fourchette: "3 600-4 300 €/m²", note: "grands ensembles en rénovation, le plus abordable" },
+    ],
+    transport:
+      "le métro 14 en terminus à Saint-Denis-Pleyel (Châtelet en 15 minutes), le futur hub des lignes 15, 16 et 17 au même endroit, le métro 13, les RER B et D, les trams T1 et T8, et le Stade de France",
+    contexte:
+      "ville royale et populaire en pleine métamorphose (113 000 habitants), basilique des rois de France, village olympique reconverti, hub Pleyel le plus connecté du Grand Paris, la plus forte évolution de prix de la petite couronne sur 5 ans, marché encore sous 4 500 €/m²",
+    rendement: "4,5-5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 % (variable selon le quartier)",
+    comparison: {
+      city: "Saint-Ouen-sur-Seine",
+      base: "saint-ouen",
+      ficheSlug: "saint-ouen-sur-seine-93070",
+      price: 7400,
+      angle:
+        "Saint-Denis, immense, royale et encore accessible en pleine transformation olympique (4 200 €/m²), face à Saint-Ouen-sur-Seine, déjà gentrifiée avec ses Puces et ses Docks (7 400 €/m²), deux étapes du même axe métro 14 à 3 200 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-01-20", "2026-01-27", "2026-02-03", "2026-02-10", "2026-02-17", "2026-02-24", "2026-03-03", "2026-03-10"],
+    skipSlots: [],
+  },
+
+  aubervilliers: {
+    city: "Aubervilliers",
+    cityShort: "Aubervilliers",
+    base: "aubervilliers",
+    ficheSlug: "aubervilliers-93001",
+    departement: "Seine-Saint-Denis",
+    median: 4400,
+    evolutionNote: "en très forte hausse sur 5 ans, portée par les métros 12 et 7 et le canal",
+    quartiers: [
+      { nom: "Front Populaire / Plaine", fourchette: "4 800-5 500 €/m²", note: "métro 12, campus Condorcet, le plus proche de Paris" },
+      { nom: "Centre / Mairie", fourchette: "4 400-5 100 €/m²", note: "métro 12 prolongé, marché et commerces" },
+      { nom: "Canal / Victor Hugo", fourchette: "4 300-5 000 €/m²", note: "berges du canal Saint-Denis en mutation" },
+      { nom: "Quatre-Chemins", fourchette: "4 000-4 700 €/m²", note: "métro 7, populaire et commerçant" },
+      { nom: "Fort d'Aubervilliers", fourchette: "3 900-4 600 €/m²", note: "renouvellement urbain et future gare ligne 15, le plus abordable" },
+    ],
+    transport:
+      "le métro 12 prolongé (Mairie d'Aubervilliers depuis 2022, Saint-Lazare en 20 minutes), le métro 7 (Quatre-Chemins, Fort d'Aubervilliers), la future ligne 15 Est au Fort, le canal Saint-Denis et le campus Condorcet",
+    contexte:
+      "grande ville populaire du nord en pleine mutation (91 000 habitants), campus Condorcet des sciences humaines, berges du canal Saint-Denis, ateliers et street-art, la deuxième plus forte hausse de prix de la petite couronne, collée à Paris 19e",
+    rendement: "4,5-5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Pantin",
+      base: "pantin",
+      ficheSlug: "pantin-93055",
+      price: 5900,
+      angle:
+        "Aubervilliers, populaire et en début de transformation le long de son canal (4 400 €/m²), face à Pantin, déjà installée comme le Brooklyn parisien avec Hermès et le RER E (5 900 €/m²), deux voisines de canal à 1 500 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-01-19", "2026-01-26", "2026-02-02", "2026-02-09", "2026-02-16", "2026-02-23", "2026-03-02", "2026-03-09"],
+    skipSlots: [],
+  },
+
+  "noisy-le-grand": {
+    city: "Noisy-le-Grand",
+    cityShort: "Noisy-le-Grand",
+    base: "noisy-le-grand",
+    ficheSlug: "noisy-le-grand-93051",
+    departement: "Seine-Saint-Denis",
+    median: 4100,
+    evolutionNote: "en hausse sur 5 ans, pôle de l'est porté par les futures lignes 15 et 16",
+    quartiers: [
+      { nom: "Centre / Vieux Noisy", fourchette: "4 400-5 000 €/m²", note: "cœur historique commerçant, le plus prisé" },
+      { nom: "Bords de Marne", fourchette: "4 300-4 900 €/m²", note: "résidentiel au bord de l'eau" },
+      { nom: "Mont d'Est / Arènes", fourchette: "4 000-4 600 €/m²", note: "RER A, centre d'affaires et centre commercial les Arcades" },
+      { nom: "Champs / Noisy-Champs", fourchette: "4 000-4 600 €/m²", note: "future gare lignes 15-16, campus Descartes, en valorisation" },
+      { nom: "Pavé Neuf / Palacio", fourchette: "3 700-4 300 €/m²", note: "l'architecture monumentale d'Abraxas, le plus abordable" },
+    ],
+    transport:
+      "le RER A (gares Noisy-le-Grand-Mont d'Est et Noisy-Champs, Châtelet en 25 minutes), la future gare Noisy-Champs des lignes 15 et 16 du Grand Paris Express, le campus Descartes de la Cité Descartes, et l'A4",
+    contexte:
+      "grand pôle tertiaire et résidentiel de l'est (68 000 habitants), célèbre pour l'architecture monumentale des Espaces d'Abraxas et des Arènes de Picasso, Cité Descartes et son campus, bords de Marne, futur hub Noisy-Champs des lignes 15-16, l'une des meilleures notes qualité-prix de l'est",
+    rendement: "4,3-4,8 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Champigny-sur-Marne",
+      base: "champigny-sur-marne",
+      ficheSlug: "champigny-sur-marne-94017",
+      price: 5500,
+      angle:
+        "Noisy-le-Grand, pôle tertiaire équipé et plus accessible sur le RER A (4 100 €/m²), face à Champigny-sur-Marne, plus pavillonnaire au bord de la Marne (5 500 €/m²), deux grandes villes de l'est portées par la ligne 15",
+    },
+    datasetCount: 176,
+    dates: ["2026-01-18", "2026-01-25", "2026-02-01", "2026-02-08", "2026-02-15", "2026-02-22", "2026-03-01", "2026-03-08"],
+    skipSlots: [],
+  },
+
+  chelles: {
+    city: "Chelles",
+    cityShort: "Chelles",
+    base: "chelles",
+    ficheSlug: "chelles-77108",
+    departement: "Seine-et-Marne",
+    median: 3500,
+    evolutionNote: "en hausse sur 5 ans, meilleure note qualité-prix de notre comparateur",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "3 800-4 400 €/m²", note: "RER E et Transilien P, future ligne 16, le plus prisé" },
+      { nom: "Sud / Bords de Marne", fourchette: "3 600-4 200 €/m²", note: "résidentiel près de la Marne et de la base de loisirs" },
+      { nom: "Chantereine / Nord", fourchette: "3 400-4 000 €/m²", note: "pavillonnaire" },
+      { nom: "Les Coudreaux", fourchette: "3 200-3 800 €/m²", note: "pavillonnaire à l'est, le plus abordable" },
+    ],
+    transport:
+      "le RER E et le Transilien P (gare de Chelles-Gournay, Haussmann-Saint-Lazare en 25 minutes et Gare de l'Est en 15), la future gare de la ligne 16 du Grand Paris Express, le canal de Chelles et les bords de Marne",
+    contexte:
+      "première ville de Seine-et-Marne aux portes du 93 (55 000 habitants), berceau mérovingien, canal et bords de Marne, la meilleure note qualité-prix de notre comparateur : moins de 3 600 €/m² avec un RER E direct et la ligne 16 à venir, le marché famille par excellence",
+    rendement: "4,8-5,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (marché négociable)",
+    comparison: {
+      city: "Noisy-le-Grand",
+      base: "noisy-le-grand",
+      ficheSlug: "noisy-le-grand-93051",
+      price: 4100,
+      angle:
+        "Chelles, championne du qualité-prix avec son RER E et la ligne 16 à venir (3 500 €/m²), face à Noisy-le-Grand, plus tertiaire et équipée sur le RER A (4 100 €/m²), deux grands marchés famille de l'est à comparer avant d'acheter",
+    },
+    datasetCount: 176,
+    dates: ["2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07", "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07"],
+    skipSlots: [],
+  },
 };
