@@ -3182,4 +3182,278 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-02-26", "2026-03-05", "2026-03-12", "2026-03-19", "2026-03-26", "2026-04-02", "2026-04-09", "2026-04-16"],
     skipSlots: ["vivre", "s1", "s4"],
   },
+
+  // Batch double vallée de Montmorency / Val-d'Oise (août 2026). 7 fiches créées ; Argenteuil déjà en base.
+  argenteuil: {
+    city: "Argenteuil",
+    cityShort: "Argenteuil",
+    base: "argenteuil",
+    ficheSlug: "argenteuil-95018",
+    departement: "Val-d'Oise",
+    median: 3450,
+    evolutionNote: "en hausse sur 5 ans, la grande ville accessible de la boucle de Seine",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "3 700-4 200 €/m²", note: "cœur de ville commerçant près de la gare, le plus prisé" },
+      { nom: "Coteaux / Orgemont", fourchette: "3 400-3 900 €/m²", note: "hauteurs pavillonnaires, vues sur Paris" },
+      { nom: "Val d'Argenteuil", fourchette: "3 000-3 500 €/m²", note: "en renouvellement urbain" },
+      { nom: "Bords de Seine / Colombes", fourchette: "3 400-3 900 €/m²", note: "berges peintes par les impressionnistes, en mutation" },
+      { nom: "Val Notre-Dame / Utrillo", fourchette: "3 200-3 700 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le Transilien J (gares d'Argenteuil et Val d'Argenteuil, Saint-Lazare en 12-15 minutes), le tram T2 à proximité au pont de Bezons, l'A15 et l'A86",
+    contexte:
+      "troisième ville d'Île-de-France (110 000 habitants), berges de Seine peintes par Monet et Caillebotte, coteaux avec vues sur Paris, marché parmi les plus accessibles de la petite couronne élargie à 15 minutes de Saint-Lazare, gros volume de transactions",
+    rendement: "4,8-5,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 %",
+    comparison: {
+      city: "Sannois",
+      base: "sannois",
+      ficheSlug: "sannois-95582",
+      price: 3900,
+      angle:
+        "Argenteuil, immense et accessible au bord de la Seine (3 450 €/m²), face à Sannois, plus petite et pavillonnaire sur ses hauteurs (3 900 €/m²), deux voisines du Transilien J à comparer selon le profil",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04", "2026-05-11", "2026-05-18", "2026-05-25"],
+    skipSlots: [],
+  },
+
+  sannois: {
+    city: "Sannois",
+    cityShort: "Sannois",
+    base: "sannois",
+    ficheSlug: "sannois-95582",
+    departement: "Val-d'Oise",
+    median: 3900,
+    evolutionNote: "en hausse sur 5 ans, marché pavillonnaire familial",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "4 100-4 600 €/m²", note: "autour du Transilien J, commerces, le plus prisé" },
+      { nom: "Moulin / Coteaux", fourchette: "3 900-4 400 €/m²", note: "hauteurs autour du moulin historique, vues" },
+      { nom: "Voltaire / Gabriel Péri", fourchette: "3 700-4 200 €/m²", note: "pavillonnaire" },
+      { nom: "Bas de Sannois / limite Argenteuil", fourchette: "3 500-4 000 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le Transilien J (gare de Sannois, Saint-Lazare en 20 minutes), le moulin de Sannois et les buttes du Parisis, et l'A15 toute proche",
+    contexte:
+      "ville pavillonnaire des buttes du Parisis (27 000 habitants), moulin à vent historique et vues sur Paris depuis les coteaux, profil famille primo-accédante qui veut une maison à 20 minutes de Saint-Lazare",
+    rendement: "4,5-5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-7 %",
+    comparison: {
+      city: "Ermont",
+      base: "ermont",
+      ficheSlug: "ermont-95219",
+      price: 4000,
+      angle:
+        "Sannois, pavillonnaire sur ses buttes avec son moulin (3 900 €/m²), face à Ermont, mieux connectée avec son hub à trois lignes (4 000 €/m²), deux voisines de la vallée au même budget",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-05", "2026-04-12", "2026-04-19", "2026-04-26", "2026-05-03", "2026-05-10", "2026-05-17", "2026-05-24"],
+    skipSlots: [],
+  },
+
+  ermont: {
+    city: "Ermont",
+    cityShort: "Ermont",
+    base: "ermont",
+    ficheSlug: "ermont-95219",
+    departement: "Val-d'Oise",
+    median: 4000,
+    evolutionNote: "en hausse sur 5 ans, portée par le hub Ermont-Eaubonne",
+    quartiers: [
+      { nom: "Ermont-Eaubonne / Gare", fourchette: "4 200-4 700 €/m²", note: "autour du hub à trois lignes, le plus prisé" },
+      { nom: "Centre / Mairie", fourchette: "4 000-4 500 €/m²", note: "cœur de ville commerçant" },
+      { nom: "Cernay", fourchette: "3 900-4 400 €/m²", note: "pavillonnaire, gare Cernay" },
+      { nom: "Passerelles / Espérances", fourchette: "3 700-4 200 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le hub d'Ermont-Eaubonne, l'un des mieux desservis du Val-d'Oise (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), plus les gares de Cernay et Gros Noyer",
+    contexte:
+      "ville familiale au cœur de la vallée de Montmorency (29 000 habitants), hub ferroviaire à trois lignes qui donne le choix entre Gare du Nord, Saint-Lazare et les Invalides, marché porté par les familles qui veulent la desserte sans le prix de la petite couronne",
+    rendement: "4,4-4,9 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-7 %",
+    comparison: {
+      city: "Franconville",
+      base: "franconville",
+      ficheSlug: "franconville-95252",
+      price: 3700,
+      angle:
+        "Ermont, hub à trois lignes au cœur de la vallée (4 000 €/m²), face à Franconville, plus grande et plus abordable une gare plus loin (3 700 €/m²), l'arbitrage desserte-prix du Transilien H",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-04", "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02", "2026-05-09", "2026-05-16", "2026-05-23"],
+    skipSlots: [],
+  },
+
+  franconville: {
+    city: "Franconville",
+    cityShort: "Franconville",
+    base: "franconville",
+    ficheSlug: "franconville-95252",
+    departement: "Val-d'Oise",
+    median: 3700,
+    evolutionNote: "stable sur 5 ans, grand marché familial de la vallée",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "3 900-4 400 €/m²", note: "Transilien H et J, commerces, le plus prisé" },
+      { nom: "Épine-Guyon", fourchette: "3 600-4 100 €/m²", note: "pavillonnaire familial" },
+      { nom: "Montédour / Hautes-Bornes", fourchette: "3 500-4 000 €/m²", note: "résidentiel" },
+      { nom: "Fontaine-Bertin / Mare des Noues", fourchette: "3 300-3 800 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le Transilien H et J (gare de Franconville-Le Plessis-Bouchard, Gare du Nord en 20 minutes et Saint-Lazare en 25), les buttes du Parisis et l'A15 directe",
+    contexte:
+      "grande ville familiale de la vallée de Montmorency (37 000 habitants), tissu pavillonnaire dominant, centre commercial et marché, profil primo-accédant et famille qui arbitre entre les deux gares parisiennes",
+    rendement: "4,6-5,1 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-7 %",
+    comparison: {
+      city: "Taverny",
+      base: "taverny",
+      ficheSlug: "taverny-95607",
+      price: 3600,
+      angle:
+        "Franconville, grande et pratique sur deux lignes (3 700 €/m²), face à Taverny, plus verte en lisière de la forêt de Montmorency (3 600 €/m²), deux options famille du Transilien H au coude à coude",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01", "2026-05-08", "2026-05-15", "2026-05-22"],
+    skipSlots: [],
+  },
+
+  taverny: {
+    city: "Taverny",
+    cityShort: "Taverny",
+    base: "taverny",
+    ficheSlug: "taverny-95607",
+    departement: "Val-d'Oise",
+    median: 3600,
+    evolutionNote: "stable sur 5 ans, marché nature en lisière de forêt",
+    quartiers: [
+      { nom: "Centre / Notre-Dame", fourchette: "3 800-4 300 €/m²", note: "cœur de ville autour de l'église classée, le plus prisé" },
+      { nom: "Lisière forêt de Montmorency", fourchette: "3 700-4 200 €/m²", note: "pavillonnaire contre les bois" },
+      { nom: "Vaucelles", fourchette: "3 500-4 000 €/m²", note: "quartier gare, pratique" },
+      { nom: "Les Sarments / Plessis", fourchette: "3 300-3 800 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le Transilien H (gares de Taverny et Vaucelles, Gare du Nord en 25-30 minutes), la forêt domaniale de Montmorency (2 000 hectares) en lisière directe, et l'A115",
+    contexte:
+      "ville familiale en lisière de la forêt de Montmorency (27 000 habitants), église Notre-Dame classée du XIIIe siècle, sentiers et châtaigniers à la porte des maisons, profil famille nature qui garde un train direct pour Gare du Nord",
+    rendement: "4,5-5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-7 %",
+    comparison: {
+      city: "Enghien-les-Bains",
+      base: "enghien-les-bains",
+      ficheSlug: "enghien-les-bains-95210",
+      price: 5800,
+      angle:
+        "Taverny, nature et accessible contre la forêt (3 600 €/m²), face à Enghien-les-Bains, la station thermale chic autour de son lac (5 800 €/m²), les deux extrêmes de la même ligne H à 2 200 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-02", "2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30", "2026-05-07", "2026-05-14", "2026-05-21"],
+    skipSlots: [],
+  },
+
+  "enghien-les-bains": {
+    city: "Enghien-les-Bains",
+    cityShort: "Enghien",
+    base: "enghien-les-bains",
+    ficheSlug: "enghien-les-bains-95210",
+    departement: "Val-d'Oise",
+    median: 5800,
+    evolutionNote: "stable sur 5 ans, la station thermale premium du nord parisien",
+    quartiers: [
+      { nom: "Tour du lac", fourchette: "6 200-7 200 €/m²", note: "villas et immeubles de standing face au lac, le plus prestigieux" },
+      { nom: "Centre / Casino", fourchette: "5 800-6 600 €/m²", note: "autour du casino, des thermes et des commerces" },
+      { nom: "Gare / Coteaux", fourchette: "5 500-6 300 €/m²", note: "pratique, Gare du Nord en 12 minutes" },
+      { nom: "Ormesson / limite Deuil", fourchette: "5 200-6 000 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le Transilien H (gare d'Enghien-les-Bains, Gare du Nord en 12 minutes), le lac de 43 hectares, et la seule station thermale et le seul casino d'Île-de-France",
+    contexte:
+      "unique station thermale d'Île-de-France (12 000 habitants), lac romantique, casino le plus important de France, thermes, villas Belle Époque, l'adresse premium incontestée du nord parisien à 12 minutes de Gare du Nord",
+    rendement: "3,5-4 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "3-5 % (marché tendu de petite taille)",
+    comparison: {
+      city: "Saint-Gratien",
+      base: "saint-gratien",
+      ficheSlug: "saint-gratien-95555",
+      price: 4100,
+      angle:
+        "Enghien-les-Bains, thermale et chic autour de son lac (5 800 €/m²), face à Saint-Gratien, sa voisine résidentielle au bord du même lac côté ouest (4 100 €/m²), 1 700 € d'écart pour un plan d'eau partagé",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-01", "2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29", "2026-05-06", "2026-05-13", "2026-05-20"],
+    skipSlots: [],
+  },
+
+  "saint-gratien": {
+    city: "Saint-Gratien",
+    cityShort: "Saint-Gratien",
+    base: "saint-gratien",
+    ficheSlug: "saint-gratien-95555",
+    departement: "Val-d'Oise",
+    median: 4100,
+    evolutionNote: "en hausse sur 5 ans, marché résidentiel au bord du lac d'Enghien",
+    quartiers: [
+      { nom: "Bords du lac / limite Enghien", fourchette: "4 400-4 900 €/m²", note: "le plus proche du lac, le plus prisé" },
+      { nom: "Centre / Mairie", fourchette: "4 100-4 600 €/m²", note: "commerces, RER C" },
+      { nom: "Raguenets", fourchette: "3 800-4 300 €/m²", note: "résidentiel en renouvellement" },
+      { nom: "Plaine / limite Argenteuil", fourchette: "3 700-4 200 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER C (gare de Saint-Gratien, Porte Maillot et les Invalides directs), le lac d'Enghien en voisin immédiat, et les bus vers la gare d'Enghien (Transilien H)",
+    contexte:
+      "ville résidentielle sur la rive ouest du lac d'Enghien (21 000 habitants), profil famille qui veut le cadre du lac sans le prix d'Enghien, RER C direct vers l'ouest parisien, marché en valorisation continue",
+    rendement: "4,4-4,9 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Eaubonne",
+      base: "eaubonne",
+      ficheSlug: "eaubonne-95203",
+      price: 4300,
+      angle:
+        "Saint-Gratien, au bord du lac sur le RER C (4 100 €/m²), face à Eaubonne, plus bourgeoise autour de son hub à trois lignes (4 300 €/m²), deux valeurs sûres de la vallée à 200 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-31", "2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28", "2026-05-05", "2026-05-12", "2026-05-19"],
+    skipSlots: [],
+  },
+
+  eaubonne: {
+    city: "Eaubonne",
+    cityShort: "Eaubonne",
+    base: "eaubonne",
+    ficheSlug: "eaubonne-95203",
+    departement: "Val-d'Oise",
+    median: 4300,
+    evolutionNote: "en hausse sur 5 ans, la valeur bourgeoise de la vallée de Montmorency",
+    quartiers: [
+      { nom: "Centre / Hôtel de ville", fourchette: "4 500-5 000 €/m²", note: "avenues plantées et belles demeures, le plus prisé" },
+      { nom: "Ermont-Eaubonne / Gare", fourchette: "4 300-4 800 €/m²", note: "autour du hub à trois lignes" },
+      { nom: "Mont d'Eaubonne", fourchette: "4 100-4 600 €/m²", note: "pavillonnaire sur les hauteurs" },
+      { nom: "Flammarion / limite Saint-Gratien", fourchette: "3 900-4 400 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), et les avenues plantées héritées du lotissement historique",
+    contexte:
+      "ville bourgeoise de la vallée de Montmorency (25 500 habitants), avenues plantées et villas du lotissement du XIXe, hôpital Simone Veil, profil famille établie qui veut le triple choix de lignes du hub Ermont-Eaubonne",
+    rendement: "4,2-4,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Ermont",
+      base: "ermont",
+      ficheSlug: "ermont-95219",
+      price: 4000,
+      angle:
+        "Eaubonne, bourgeoise avec ses avenues plantées (4 300 €/m²), face à Ermont, plus commerçante de l'autre côté du même hub (4 000 €/m²), les deux copropriétaires de la meilleure gare de la vallée",
+    },
+    datasetCount: 176,
+    dates: ["2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04", "2026-05-11", "2026-05-18"],
+    skipSlots: [],
+  },
 };

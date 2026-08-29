@@ -51466,6 +51466,4018 @@ export const BLOG_POSTS: BlogPost[] = [
         "Créteil"
       ]
     }
+  },
+  {
+    "slug": "vivre-a-argenteuil-2026",
+    "title": "Vivre à Argenteuil en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Argenteuil ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-04-06",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Argenteuil et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Argenteuil' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Argenteuil : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Argenteuil : troisième ville d'Île-de-France (110 000 habitants), berges de Seine peintes par Monet et Caillebotte, coteaux avec vues sur Paris, marché parmi les plus accessibles de la petite couronne élargie à 15 minutes de Saint-Lazare, gros volume de transactions. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (3450 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Argenteuil",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Mairie (3 700-4 200 €/m², cœur de ville commerçant près de la gare, le plus prisé) ; Coteaux / Orgemont (3 400-3 900 €/m², hauteurs pavillonnaires, vues sur Paris) ; Val d'Argenteuil (3 000-3 500 €/m², en renouvellement urbain) ; Bords de Seine / Colombes (3 400-3 900 €/m², berges peintes par les impressionnistes, en mutation) ; Val Notre-Dame / Utrillo (3 200-3 700 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-argenteuil-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-argenteuil-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le Transilien J (gares d'Argenteuil et Val d'Argenteuil, Saint-Lazare en 12-15 minutes), le tram T2 à proximité au pont de Bezons, l'A15 et l'A86. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "troisième ville d'Île-de-France (110 000 habitants), berges de Seine peintes par Monet et Caillebotte, coteaux avec vues sur Paris, marché parmi les plus accessibles de la petite couronne élargie à 15 minutes de Saint-Lazare, gros volume de transactions. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Argenteuil (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Argenteuil est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Argenteuil colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Argenteuil](/vivre-a/argenteuil-95018) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-argenteuil-2026-par-quartier) ou [l'arbitrage quitter Paris pour Argenteuil](/blog/quitter-paris-pour-argenteuil-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Argenteuil, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Argenteuil aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-argenteuil-2026-par-quartier",
+    "title": "Prix immobilier Argenteuil 2026 : le vrai prix par quartier",
+    "description": "3450 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-13",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Argenteuil qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '3450 €/m² de médiane à Argenteuil, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 3450 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Mairie) et le plus abordable (Val Notre-Dame / Utrillo). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Mairie (3 700-4 200 €/m², cœur de ville commerçant près de la gare, le plus prisé) ; Coteaux / Orgemont (3 400-3 900 €/m², hauteurs pavillonnaires, vues sur Paris) ; Val d'Argenteuil (3 000-3 500 €/m², en renouvellement urbain) ; Bords de Seine / Colombes (3 400-3 900 €/m², berges peintes par les impressionnistes, en mutation) ; Val Notre-Dame / Utrillo (3 200-3 700 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Mairie : 3 700-4 200 €/m²",
+          "contenu": "cœur de ville commerçant près de la gare, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Coteaux / Orgemont : 3 400-3 900 €/m²",
+          "contenu": "hauteurs pavillonnaires, vues sur Paris. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Val d'Argenteuil : 3 000-3 500 €/m²",
+          "contenu": "en renouvellement urbain. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bords de Seine / Colombes : 3 400-3 900 €/m²",
+          "contenu": "berges peintes par les impressionnistes, en mutation. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Val Notre-Dame / Utrillo : 3 200-3 700 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Argenteuil à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-argenteuil-acheter-2026) et la fiche [Argenteuil](/vivre-a/argenteuil-95018)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Argenteuil en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Argenteuil et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-argenteuil-acheter-2026",
+    "title": "Meilleur quartier de Argenteuil pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Argenteuil le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-20",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Argenteuil mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Argenteuil n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Argenteuil le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Mairie, Coteaux / Orgemont, Val d'Argenteuil, Bords de Seine / Colombes, Val Notre-Dame / Utrillo. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-argenteuil-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Val Notre-Dame / Utrillo et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Mairie et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le Transilien J (gares d'Argenteuil et Val d'Argenteuil). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Argenteuil ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Argenteuil ou Sannois](/blog/argenteuil-ou-sannois-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Argenteuil, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Argenteuil se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-argenteuil-achat-2026",
+    "title": "Argenteuil : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Argenteuil, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-27",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Argenteuil (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Argenteuil est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Argenteuil",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Val Notre-Dame / Utrillo et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Argenteuil colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-argenteuil-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Argenteuil et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Argenteuil aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "investir-argenteuil-rendement-locatif-2026",
+    "title": "Investir à Argenteuil en 2026 : rendement réel par quartier",
+    "description": "4,8-5,3 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Argenteuil a du sens.",
+    "publishedAt": "2026-05-04",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,8-5,3 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Argenteuil (4,8-5,3 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le Transilien J (gares d'Argenteuil et Val d'Argenteuil) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Argenteuil",
+          "contenu": "4,8-5,3 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le Transilien J (gares d'Argenteuil et Val d'Argenteuil, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Mairie = valeur refuge, rendement minimal. Val Notre-Dame / Utrillo = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Argenteuil à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Argenteuil a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-argenteuil-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Argenteuil, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Argenteuil et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-argenteuil-arbitrage-2026",
+    "title": "Quitter Paris pour Argenteuil : le vrai calcul en 2026",
+    "description": "Argenteuil face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-11",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Argenteuil.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Argenteuil et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Argenteuil : troisième ville d'Île-de-France (110 000 habitants), berges de Seine peintes par Monet et Caillebotte, coteaux avec vues sur Paris, marché parmi les plus accessibles de la petite couronne élargie à 15 minutes de Saint-Lazare, gros volume de transactions. Desserte le Transilien J (gares d'Argenteuil et Val d'Argenteuil, Saint-Lazare en 12-15 minutes), le tram T2 à proximité au pont de Bezons, l'A15 et l'A86. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 3450 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Argenteuil, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Argenteuil (3450 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "troisième ville d'Île-de-France (110 000 habitants), berges de Seine peintes par Monet et Caillebotte, coteaux avec vues sur Paris, marché parmi les plus accessibles de la petite couronne élargie à 15 minutes de Saint-Lazare, gros volume de transactions. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le Transilien J (gares d'Argenteuil et Val d'Argenteuil, Saint-Lazare en 12-15 minutes), le tram T2 à proximité au pont de Bezons, l'A15 et l'A86. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Argenteuil ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-argenteuil-2026-guide-complet) et [Argenteuil ou Sannois](/blog/argenteuil-ou-sannois-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Argenteuil, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Argenteuil se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-argenteuil",
+    "title": "Acheter à Argenteuil : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 5-8 %. Le coût total réel d'un achat à Argenteuil, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-18",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Argenteuil, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 5-8 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 5-8 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Argenteuil",
+          "contenu": "Marge réaliste 5-8 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Argenteuil colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-argenteuil-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-argenteuil-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Argenteuil, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Argenteuil aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil"
+      ]
+    }
+  },
+  {
+    "slug": "argenteuil-ou-sannois-acheter-2026",
+    "title": "Argenteuil ou Sannois : où acheter en 2026",
+    "description": "Argenteuil, immense et accessible au bord de la Seine (3 450 €/m²), face à Sannois, plus petite et pavillonnaire sur ses hauteurs (3 900 €/m²), deux voisines du Transilien J à comparer selon le profil. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-25",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Argenteuil et Sannois, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Argenteuil, immense et accessible au bord de la Seine (3 450 €/m²), face à Sannois, plus petite et pavillonnaire sur ses hauteurs (3 900 €/m²), deux voisines du Transilien J à comparer selon le profil. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Argenteuil, immense et accessible au bord de la Seine (3 450 €/m²), face à Sannois, plus petite et pavillonnaire sur ses hauteurs (3 900 €/m²), deux voisines du Transilien J à comparer selon le profil. Argenteuil 3450 €/m² vs Sannois 3900 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Argenteuil | Sannois) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Argenteuil 3450 €/m² vs Sannois 3900 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le Transilien J (gares d'Argenteuil et Val d'Argenteuil, Saint-Lazare en 12-15 minutes), le tram T2 à proximité au pont de Bezons, l'A15 et l'A86 côté Argenteuil. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "troisième ville d'Île-de-France (110 000 habitants), berges de Seine peintes par Monet et Caillebotte, coteaux avec vues sur Paris, marché parmi les plus accessibles de la petite couronne élargie à 15 minutes de Saint-Lazare, gros volume de transactions côté Argenteuil. Décrire le contraste d'ambiance avec Sannois."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,8-5,3 % brut côté Argenteuil). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Argenteuil à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Argenteuil, pour qui Sannois",
+          "contenu": "Verdict par profil. Linker les deux fiches [Argenteuil](/vivre-a/argenteuil-95018) et [Sannois](/vivre-a/sannois-95582)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Argenteuil ou Sannois : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Argenteuil et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Argenteuil",
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-sannois-2026",
+    "title": "Vivre à Sannois en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Sannois ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-04-05",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Sannois et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Sannois' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Sannois : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Sannois : ville pavillonnaire des buttes du Parisis (27 000 habitants), moulin à vent historique et vues sur Paris depuis les coteaux, profil famille primo-accédante qui veut une maison à 20 minutes de Saint-Lazare. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (3900 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Sannois",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (4 100-4 600 €/m², autour du Transilien J, commerces, le plus prisé) ; Moulin / Coteaux (3 900-4 400 €/m², hauteurs autour du moulin historique, vues) ; Voltaire / Gabriel Péri (3 700-4 200 €/m², pavillonnaire) ; Bas de Sannois / limite Argenteuil (3 500-4 000 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-sannois-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-sannois-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le Transilien J (gare de Sannois, Saint-Lazare en 20 minutes), le moulin de Sannois et les buttes du Parisis, et l'A15 toute proche. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville pavillonnaire des buttes du Parisis (27 000 habitants), moulin à vent historique et vues sur Paris depuis les coteaux, profil famille primo-accédante qui veut une maison à 20 minutes de Saint-Lazare. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Sannois (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Sannois est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sannois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Sannois](/vivre-a/sannois-95582) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-sannois-2026-par-quartier) ou [l'arbitrage quitter Paris pour Sannois](/blog/quitter-paris-pour-sannois-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Sannois, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sannois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-sannois-2026-par-quartier",
+    "title": "Prix immobilier Sannois 2026 : le vrai prix par quartier",
+    "description": "3900 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-12",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Sannois qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '3900 €/m² de médiane à Sannois, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 3900 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Bas de Sannois / limite Argenteuil). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (4 100-4 600 €/m², autour du Transilien J, commerces, le plus prisé) ; Moulin / Coteaux (3 900-4 400 €/m², hauteurs autour du moulin historique, vues) ; Voltaire / Gabriel Péri (3 700-4 200 €/m², pavillonnaire) ; Bas de Sannois / limite Argenteuil (3 500-4 000 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 4 100-4 600 €/m²",
+          "contenu": "autour du Transilien J, commerces, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Moulin / Coteaux : 3 900-4 400 €/m²",
+          "contenu": "hauteurs autour du moulin historique, vues. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Voltaire / Gabriel Péri : 3 700-4 200 €/m²",
+          "contenu": "pavillonnaire. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Bas de Sannois / limite Argenteuil : 3 500-4 000 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sannois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-sannois-acheter-2026) et la fiche [Sannois](/vivre-a/sannois-95582)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Sannois en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sannois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-sannois-acheter-2026",
+    "title": "Meilleur quartier de Sannois pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Sannois le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-19",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Sannois mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Sannois n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Sannois le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, Moulin / Coteaux, Voltaire / Gabriel Péri, Bas de Sannois / limite Argenteuil. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-sannois-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Bas de Sannois / limite Argenteuil et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le Transilien J (gare de Sannois). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Sannois ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Sannois ou Ermont](/blog/sannois-ou-ermont-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Sannois, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Sannois se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-sannois-achat-2026",
+    "title": "Sannois : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Sannois, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-26",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Sannois (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Sannois est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Sannois",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Bas de Sannois / limite Argenteuil et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sannois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-sannois-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Sannois et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sannois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "investir-sannois-rendement-locatif-2026",
+    "title": "Investir à Sannois en 2026 : rendement réel par quartier",
+    "description": "4,5-5 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Sannois a du sens.",
+    "publishedAt": "2026-05-03",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,5-5 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Sannois (4,5-5 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le Transilien J (gare de Sannois) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Sannois",
+          "contenu": "4,5-5 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le Transilien J (gare de Sannois, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Bas de Sannois / limite Argenteuil = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sannois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Sannois a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-sannois-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Sannois, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sannois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-sannois-arbitrage-2026",
+    "title": "Quitter Paris pour Sannois : le vrai calcul en 2026",
+    "description": "Sannois face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-10",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Sannois.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Sannois et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Sannois : ville pavillonnaire des buttes du Parisis (27 000 habitants), moulin à vent historique et vues sur Paris depuis les coteaux, profil famille primo-accédante qui veut une maison à 20 minutes de Saint-Lazare. Desserte le Transilien J (gare de Sannois, Saint-Lazare en 20 minutes), le moulin de Sannois et les buttes du Parisis, et l'A15 toute proche. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 3900 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Sannois, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Sannois (3900 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville pavillonnaire des buttes du Parisis (27 000 habitants), moulin à vent historique et vues sur Paris depuis les coteaux, profil famille primo-accédante qui veut une maison à 20 minutes de Saint-Lazare. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le Transilien J (gare de Sannois, Saint-Lazare en 20 minutes), le moulin de Sannois et les buttes du Parisis, et l'A15 toute proche. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Sannois ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-sannois-2026-guide-complet) et [Sannois ou Ermont](/blog/sannois-ou-ermont-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Sannois, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Sannois se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-sannois",
+    "title": "Acheter à Sannois : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 5-7 %. Le coût total réel d'un achat à Sannois, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-17",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Sannois, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 5-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 5-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Sannois",
+          "contenu": "Marge réaliste 5-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Sannois colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-sannois-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-sannois-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Sannois, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Sannois aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Sannois"
+      ]
+    }
+  },
+  {
+    "slug": "sannois-ou-ermont-acheter-2026",
+    "title": "Sannois ou Ermont : où acheter en 2026",
+    "description": "Sannois, pavillonnaire sur ses buttes avec son moulin (3 900 €/m²), face à Ermont, mieux connectée avec son hub à trois lignes (4 000 €/m²), deux voisines de la vallée au même budget. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-24",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Sannois et Ermont, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Sannois, pavillonnaire sur ses buttes avec son moulin (3 900 €/m²), face à Ermont, mieux connectée avec son hub à trois lignes (4 000 €/m²), deux voisines de la vallée au même budget. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Sannois, pavillonnaire sur ses buttes avec son moulin (3 900 €/m²), face à Ermont, mieux connectée avec son hub à trois lignes (4 000 €/m²), deux voisines de la vallée au même budget. Sannois 3900 €/m² vs Ermont 4000 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Sannois | Ermont) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Sannois 3900 €/m² vs Ermont 4000 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le Transilien J (gare de Sannois, Saint-Lazare en 20 minutes), le moulin de Sannois et les buttes du Parisis, et l'A15 toute proche côté Sannois. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville pavillonnaire des buttes du Parisis (27 000 habitants), moulin à vent historique et vues sur Paris depuis les coteaux, profil famille primo-accédante qui veut une maison à 20 minutes de Saint-Lazare côté Sannois. Décrire le contraste d'ambiance avec Ermont."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,5-5 % brut côté Sannois). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Sannois à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Sannois, pour qui Ermont",
+          "contenu": "Verdict par profil. Linker les deux fiches [Sannois](/vivre-a/sannois-95582) et [Ermont](/vivre-a/ermont-95219)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Sannois ou Ermont : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Sannois et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Sannois",
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-ermont-2026",
+    "title": "Vivre à Ermont en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Ermont ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-04-04",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Ermont et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Ermont' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Ermont : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Ermont : ville familiale au cœur de la vallée de Montmorency (29 000 habitants), hub ferroviaire à trois lignes qui donne le choix entre Gare du Nord, Saint-Lazare et les Invalides, marché porté par les familles qui veulent la desserte sans le prix de la petite couronne. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4000 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Ermont",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Ermont-Eaubonne / Gare (4 200-4 700 €/m², autour du hub à trois lignes, le plus prisé) ; Centre / Mairie (4 000-4 500 €/m², cœur de ville commerçant) ; Cernay (3 900-4 400 €/m², pavillonnaire, gare Cernay) ; Passerelles / Espérances (3 700-4 200 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-ermont-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-ermont-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le hub d'Ermont-Eaubonne, l'un des mieux desservis du Val-d'Oise (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), plus les gares de Cernay et Gros Noyer. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville familiale au cœur de la vallée de Montmorency (29 000 habitants), hub ferroviaire à trois lignes qui donne le choix entre Gare du Nord, Saint-Lazare et les Invalides, marché porté par les familles qui veulent la desserte sans le prix de la petite couronne. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Ermont (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Ermont est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Ermont colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Ermont](/vivre-a/ermont-95219) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-ermont-2026-par-quartier) ou [l'arbitrage quitter Paris pour Ermont](/blog/quitter-paris-pour-ermont-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Ermont, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Ermont aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-ermont-2026-par-quartier",
+    "title": "Prix immobilier Ermont 2026 : le vrai prix par quartier",
+    "description": "4000 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-11",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Ermont qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4000 €/m² de médiane à Ermont, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4000 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Ermont-Eaubonne / Gare) et le plus abordable (Passerelles / Espérances). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Ermont-Eaubonne / Gare (4 200-4 700 €/m², autour du hub à trois lignes, le plus prisé) ; Centre / Mairie (4 000-4 500 €/m², cœur de ville commerçant) ; Cernay (3 900-4 400 €/m², pavillonnaire, gare Cernay) ; Passerelles / Espérances (3 700-4 200 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Ermont-Eaubonne / Gare : 4 200-4 700 €/m²",
+          "contenu": "autour du hub à trois lignes, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Centre / Mairie : 4 000-4 500 €/m²",
+          "contenu": "cœur de ville commerçant. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Cernay : 3 900-4 400 €/m²",
+          "contenu": "pavillonnaire, gare Cernay. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Passerelles / Espérances : 3 700-4 200 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Ermont à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-ermont-acheter-2026) et la fiche [Ermont](/vivre-a/ermont-95219)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Ermont en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Ermont et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-ermont-acheter-2026",
+    "title": "Meilleur quartier de Ermont pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Ermont le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-18",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Ermont mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Ermont n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Ermont le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Ermont-Eaubonne / Gare, Centre / Mairie, Cernay, Passerelles / Espérances. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-ermont-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Passerelles / Espérances et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Ermont-Eaubonne / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le hub d'Ermont-Eaubonne). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Ermont ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Ermont ou Franconville](/blog/ermont-ou-franconville-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Ermont, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Ermont se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-ermont-achat-2026",
+    "title": "Ermont : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Ermont, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-25",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Ermont (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Ermont est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Ermont",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Passerelles / Espérances et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Ermont colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-ermont-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Ermont et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Ermont aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "investir-ermont-rendement-locatif-2026",
+    "title": "Investir à Ermont en 2026 : rendement réel par quartier",
+    "description": "4,4-4,9 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Ermont a du sens.",
+    "publishedAt": "2026-05-02",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,4-4,9 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Ermont (4,4-4,9 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le hub d'Ermont-Eaubonne) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Ermont",
+          "contenu": "4,4-4,9 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le hub d'Ermont-Eaubonne, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Ermont-Eaubonne / Gare = valeur refuge, rendement minimal. Passerelles / Espérances = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Ermont à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Ermont a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-ermont-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Ermont, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Ermont et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-ermont-arbitrage-2026",
+    "title": "Quitter Paris pour Ermont : le vrai calcul en 2026",
+    "description": "Ermont face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-09",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Ermont.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Ermont et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Ermont : ville familiale au cœur de la vallée de Montmorency (29 000 habitants), hub ferroviaire à trois lignes qui donne le choix entre Gare du Nord, Saint-Lazare et les Invalides, marché porté par les familles qui veulent la desserte sans le prix de la petite couronne. Desserte le hub d'Ermont-Eaubonne, l'un des mieux desservis du Val-d'Oise (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), plus les gares de Cernay et Gros Noyer. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4000 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Ermont, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Ermont (4000 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville familiale au cœur de la vallée de Montmorency (29 000 habitants), hub ferroviaire à trois lignes qui donne le choix entre Gare du Nord, Saint-Lazare et les Invalides, marché porté par les familles qui veulent la desserte sans le prix de la petite couronne. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le hub d'Ermont-Eaubonne, l'un des mieux desservis du Val-d'Oise (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), plus les gares de Cernay et Gros Noyer. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Ermont ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-ermont-2026-guide-complet) et [Ermont ou Franconville](/blog/ermont-ou-franconville-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Ermont, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Ermont se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-ermont",
+    "title": "Acheter à Ermont : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-7 %. Le coût total réel d'un achat à Ermont, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-16",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Ermont, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Ermont",
+          "contenu": "Marge réaliste 4-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Ermont colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-ermont-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-ermont-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Ermont, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Ermont aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Ermont"
+      ]
+    }
+  },
+  {
+    "slug": "ermont-ou-franconville-acheter-2026",
+    "title": "Ermont ou Franconville : où acheter en 2026",
+    "description": "Ermont, hub à trois lignes au cœur de la vallée (4 000 €/m²), face à Franconville, plus grande et plus abordable une gare plus loin (3 700 €/m²), l'arbitrage desserte-prix du Transilien H. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-23",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Ermont et Franconville, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Ermont, hub à trois lignes au cœur de la vallée (4 000 €/m²), face à Franconville, plus grande et plus abordable une gare plus loin (3 700 €/m²), l'arbitrage desserte-prix du Transilien H. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Ermont, hub à trois lignes au cœur de la vallée (4 000 €/m²), face à Franconville, plus grande et plus abordable une gare plus loin (3 700 €/m²), l'arbitrage desserte-prix du Transilien H. Ermont 4000 €/m² vs Franconville 3700 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Ermont | Franconville) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Ermont 4000 €/m² vs Franconville 3700 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le hub d'Ermont-Eaubonne, l'un des mieux desservis du Val-d'Oise (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), plus les gares de Cernay et Gros Noyer côté Ermont. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville familiale au cœur de la vallée de Montmorency (29 000 habitants), hub ferroviaire à trois lignes qui donne le choix entre Gare du Nord, Saint-Lazare et les Invalides, marché porté par les familles qui veulent la desserte sans le prix de la petite couronne côté Ermont. Décrire le contraste d'ambiance avec Franconville."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,4-4,9 % brut côté Ermont). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Ermont à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Ermont, pour qui Franconville",
+          "contenu": "Verdict par profil. Linker les deux fiches [Ermont](/vivre-a/ermont-95219) et [Franconville](/vivre-a/franconville-95252)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Ermont ou Franconville : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Ermont et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Ermont",
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-franconville-2026",
+    "title": "Vivre à Franconville en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Franconville ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-04-03",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Franconville et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Franconville' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Franconville : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Franconville : grande ville familiale de la vallée de Montmorency (37 000 habitants), tissu pavillonnaire dominant, centre commercial et marché, profil primo-accédant et famille qui arbitre entre les deux gares parisiennes. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (3700 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Franconville",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Gare (3 900-4 400 €/m², Transilien H et J, commerces, le plus prisé) ; Épine-Guyon (3 600-4 100 €/m², pavillonnaire familial) ; Montédour / Hautes-Bornes (3 500-4 000 €/m², résidentiel) ; Fontaine-Bertin / Mare des Noues (3 300-3 800 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-franconville-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-franconville-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le Transilien H et J (gare de Franconville-Le Plessis-Bouchard, Gare du Nord en 20 minutes et Saint-Lazare en 25), les buttes du Parisis et l'A15 directe. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "grande ville familiale de la vallée de Montmorency (37 000 habitants), tissu pavillonnaire dominant, centre commercial et marché, profil primo-accédant et famille qui arbitre entre les deux gares parisiennes. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Franconville (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Franconville est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Franconville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Franconville](/vivre-a/franconville-95252) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-franconville-2026-par-quartier) ou [l'arbitrage quitter Paris pour Franconville](/blog/quitter-paris-pour-franconville-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Franconville, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Franconville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-franconville-2026-par-quartier",
+    "title": "Prix immobilier Franconville 2026 : le vrai prix par quartier",
+    "description": "3700 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-10",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Franconville qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '3700 €/m² de médiane à Franconville, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 3700 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Gare) et le plus abordable (Fontaine-Bertin / Mare des Noues). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Gare (3 900-4 400 €/m², Transilien H et J, commerces, le plus prisé) ; Épine-Guyon (3 600-4 100 €/m², pavillonnaire familial) ; Montédour / Hautes-Bornes (3 500-4 000 €/m², résidentiel) ; Fontaine-Bertin / Mare des Noues (3 300-3 800 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Gare : 3 900-4 400 €/m²",
+          "contenu": "Transilien H et J, commerces, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Épine-Guyon : 3 600-4 100 €/m²",
+          "contenu": "pavillonnaire familial. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Montédour / Hautes-Bornes : 3 500-4 000 €/m²",
+          "contenu": "résidentiel. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Fontaine-Bertin / Mare des Noues : 3 300-3 800 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Franconville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-franconville-acheter-2026) et la fiche [Franconville](/vivre-a/franconville-95252)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Franconville en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Franconville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-franconville-acheter-2026",
+    "title": "Meilleur quartier de Franconville pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Franconville le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-17",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Franconville mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Franconville n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Franconville le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Gare, Épine-Guyon, Montédour / Hautes-Bornes, Fontaine-Bertin / Mare des Noues. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-franconville-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Fontaine-Bertin / Mare des Noues et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Gare et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le Transilien H et J (gare de Franconville-Le Plessis-Bouchard). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Franconville ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Franconville ou Taverny](/blog/franconville-ou-taverny-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Franconville, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Franconville se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-franconville-achat-2026",
+    "title": "Franconville : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Franconville, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-24",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Franconville (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Franconville est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Franconville",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Fontaine-Bertin / Mare des Noues et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Franconville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-franconville-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Franconville et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Franconville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "investir-franconville-rendement-locatif-2026",
+    "title": "Investir à Franconville en 2026 : rendement réel par quartier",
+    "description": "4,6-5,1 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Franconville a du sens.",
+    "publishedAt": "2026-05-01",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,6-5,1 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Franconville (4,6-5,1 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le Transilien H et J (gare de Franconville-Le Plessis-Bouchard) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Franconville",
+          "contenu": "4,6-5,1 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le Transilien H et J (gare de Franconville-Le Plessis-Bouchard, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Gare = valeur refuge, rendement minimal. Fontaine-Bertin / Mare des Noues = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Franconville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Franconville a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-franconville-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Franconville, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Franconville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-franconville-arbitrage-2026",
+    "title": "Quitter Paris pour Franconville : le vrai calcul en 2026",
+    "description": "Franconville face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-08",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Franconville.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Franconville et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Franconville : grande ville familiale de la vallée de Montmorency (37 000 habitants), tissu pavillonnaire dominant, centre commercial et marché, profil primo-accédant et famille qui arbitre entre les deux gares parisiennes. Desserte le Transilien H et J (gare de Franconville-Le Plessis-Bouchard, Gare du Nord en 20 minutes et Saint-Lazare en 25), les buttes du Parisis et l'A15 directe. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 3700 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Franconville, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Franconville (3700 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "grande ville familiale de la vallée de Montmorency (37 000 habitants), tissu pavillonnaire dominant, centre commercial et marché, profil primo-accédant et famille qui arbitre entre les deux gares parisiennes. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le Transilien H et J (gare de Franconville-Le Plessis-Bouchard, Gare du Nord en 20 minutes et Saint-Lazare en 25), les buttes du Parisis et l'A15 directe. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Franconville ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-franconville-2026-guide-complet) et [Franconville ou Taverny](/blog/franconville-ou-taverny-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Franconville, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Franconville se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-franconville",
+    "title": "Acheter à Franconville : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 5-7 %. Le coût total réel d'un achat à Franconville, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-15",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Franconville, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 5-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 5-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Franconville",
+          "contenu": "Marge réaliste 5-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Franconville colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-franconville-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-franconville-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Franconville, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Franconville aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Franconville"
+      ]
+    }
+  },
+  {
+    "slug": "franconville-ou-taverny-acheter-2026",
+    "title": "Franconville ou Taverny : où acheter en 2026",
+    "description": "Franconville, grande et pratique sur deux lignes (3 700 €/m²), face à Taverny, plus verte en lisière de la forêt de Montmorency (3 600 €/m²), deux options famille du Transilien H au coude à coude. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-22",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Franconville et Taverny, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Franconville, grande et pratique sur deux lignes (3 700 €/m²), face à Taverny, plus verte en lisière de la forêt de Montmorency (3 600 €/m²), deux options famille du Transilien H au coude à coude. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Franconville, grande et pratique sur deux lignes (3 700 €/m²), face à Taverny, plus verte en lisière de la forêt de Montmorency (3 600 €/m²), deux options famille du Transilien H au coude à coude. Franconville 3700 €/m² vs Taverny 3600 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Franconville | Taverny) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Franconville 3700 €/m² vs Taverny 3600 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le Transilien H et J (gare de Franconville-Le Plessis-Bouchard, Gare du Nord en 20 minutes et Saint-Lazare en 25), les buttes du Parisis et l'A15 directe côté Franconville. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "grande ville familiale de la vallée de Montmorency (37 000 habitants), tissu pavillonnaire dominant, centre commercial et marché, profil primo-accédant et famille qui arbitre entre les deux gares parisiennes côté Franconville. Décrire le contraste d'ambiance avec Taverny."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,6-5,1 % brut côté Franconville). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Franconville à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Franconville, pour qui Taverny",
+          "contenu": "Verdict par profil. Linker les deux fiches [Franconville](/vivre-a/franconville-95252) et [Taverny](/vivre-a/taverny-95607)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Franconville ou Taverny : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Franconville et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Franconville",
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-taverny-2026",
+    "title": "Vivre à Taverny en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Taverny ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-04-02",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Taverny et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Taverny' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Taverny : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Taverny : ville familiale en lisière de la forêt de Montmorency (27 000 habitants), église Notre-Dame classée du XIIIe siècle, sentiers et châtaigniers à la porte des maisons, profil famille nature qui garde un train direct pour Gare du Nord. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (3600 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Taverny",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Notre-Dame (3 800-4 300 €/m², cœur de ville autour de l'église classée, le plus prisé) ; Lisière forêt de Montmorency (3 700-4 200 €/m², pavillonnaire contre les bois) ; Vaucelles (3 500-4 000 €/m², quartier gare, pratique) ; Les Sarments / Plessis (3 300-3 800 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-taverny-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-taverny-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le Transilien H (gares de Taverny et Vaucelles, Gare du Nord en 25-30 minutes), la forêt domaniale de Montmorency (2 000 hectares) en lisière directe, et l'A115. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville familiale en lisière de la forêt de Montmorency (27 000 habitants), église Notre-Dame classée du XIIIe siècle, sentiers et châtaigniers à la porte des maisons, profil famille nature qui garde un train direct pour Gare du Nord. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Taverny (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Taverny est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Taverny colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Taverny](/vivre-a/taverny-95607) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-taverny-2026-par-quartier) ou [l'arbitrage quitter Paris pour Taverny](/blog/quitter-paris-pour-taverny-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Taverny, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Taverny aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-taverny-2026-par-quartier",
+    "title": "Prix immobilier Taverny 2026 : le vrai prix par quartier",
+    "description": "3600 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-09",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Taverny qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '3600 €/m² de médiane à Taverny, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 3600 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Notre-Dame) et le plus abordable (Les Sarments / Plessis). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Notre-Dame (3 800-4 300 €/m², cœur de ville autour de l'église classée, le plus prisé) ; Lisière forêt de Montmorency (3 700-4 200 €/m², pavillonnaire contre les bois) ; Vaucelles (3 500-4 000 €/m², quartier gare, pratique) ; Les Sarments / Plessis (3 300-3 800 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Notre-Dame : 3 800-4 300 €/m²",
+          "contenu": "cœur de ville autour de l'église classée, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Lisière forêt de Montmorency : 3 700-4 200 €/m²",
+          "contenu": "pavillonnaire contre les bois. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Vaucelles : 3 500-4 000 €/m²",
+          "contenu": "quartier gare, pratique. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Les Sarments / Plessis : 3 300-3 800 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Taverny à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-taverny-acheter-2026) et la fiche [Taverny](/vivre-a/taverny-95607)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Taverny en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Taverny et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-taverny-acheter-2026",
+    "title": "Meilleur quartier de Taverny pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Taverny le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-16",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Taverny mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Taverny n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Taverny le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Notre-Dame, Lisière forêt de Montmorency, Vaucelles, Les Sarments / Plessis. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-taverny-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Les Sarments / Plessis et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Notre-Dame et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le Transilien H (gares de Taverny et Vaucelles). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Taverny ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Taverny ou Enghien-les-Bains](/blog/taverny-ou-enghien-les-bains-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Taverny, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Taverny se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-taverny-achat-2026",
+    "title": "Taverny : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Taverny, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-23",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Taverny (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Taverny est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Taverny",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Les Sarments / Plessis et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Taverny colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-taverny-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Taverny et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Taverny aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "investir-taverny-rendement-locatif-2026",
+    "title": "Investir à Taverny en 2026 : rendement réel par quartier",
+    "description": "4,5-5 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Taverny a du sens.",
+    "publishedAt": "2026-04-30",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,5-5 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Taverny (4,5-5 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le Transilien H (gares de Taverny et Vaucelles) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Taverny",
+          "contenu": "4,5-5 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le Transilien H (gares de Taverny et Vaucelles, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Notre-Dame = valeur refuge, rendement minimal. Les Sarments / Plessis = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Taverny à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Taverny a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-taverny-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Taverny, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Taverny et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-taverny-arbitrage-2026",
+    "title": "Quitter Paris pour Taverny : le vrai calcul en 2026",
+    "description": "Taverny face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-07",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Taverny.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Taverny et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Taverny : ville familiale en lisière de la forêt de Montmorency (27 000 habitants), église Notre-Dame classée du XIIIe siècle, sentiers et châtaigniers à la porte des maisons, profil famille nature qui garde un train direct pour Gare du Nord. Desserte le Transilien H (gares de Taverny et Vaucelles, Gare du Nord en 25-30 minutes), la forêt domaniale de Montmorency (2 000 hectares) en lisière directe, et l'A115. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 3600 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Taverny, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Taverny (3600 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville familiale en lisière de la forêt de Montmorency (27 000 habitants), église Notre-Dame classée du XIIIe siècle, sentiers et châtaigniers à la porte des maisons, profil famille nature qui garde un train direct pour Gare du Nord. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le Transilien H (gares de Taverny et Vaucelles, Gare du Nord en 25-30 minutes), la forêt domaniale de Montmorency (2 000 hectares) en lisière directe, et l'A115. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Taverny ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-taverny-2026-guide-complet) et [Taverny ou Enghien-les-Bains](/blog/taverny-ou-enghien-les-bains-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Taverny, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Taverny se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-taverny",
+    "title": "Acheter à Taverny : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 5-7 %. Le coût total réel d'un achat à Taverny, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-14",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Taverny, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 5-7 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 5-7 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Taverny",
+          "contenu": "Marge réaliste 5-7 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Taverny colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-taverny-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-taverny-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Taverny, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Taverny aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Taverny"
+      ]
+    }
+  },
+  {
+    "slug": "taverny-ou-enghien-les-bains-acheter-2026",
+    "title": "Taverny ou Enghien-les-Bains : où acheter en 2026",
+    "description": "Taverny, nature et accessible contre la forêt (3 600 €/m²), face à Enghien-les-Bains, la station thermale chic autour de son lac (5 800 €/m²), les deux extrêmes de la même ligne H à 2 200 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-21",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Taverny et Enghien-les-Bains, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Taverny, nature et accessible contre la forêt (3 600 €/m²), face à Enghien-les-Bains, la station thermale chic autour de son lac (5 800 €/m²), les deux extrêmes de la même ligne H à 2 200 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Taverny, nature et accessible contre la forêt (3 600 €/m²), face à Enghien-les-Bains, la station thermale chic autour de son lac (5 800 €/m²), les deux extrêmes de la même ligne H à 2 200 € d'écart. Taverny 3600 €/m² vs Enghien-les-Bains 5800 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Taverny | Enghien-les-Bains) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Taverny 3600 €/m² vs Enghien-les-Bains 5800 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le Transilien H (gares de Taverny et Vaucelles, Gare du Nord en 25-30 minutes), la forêt domaniale de Montmorency (2 000 hectares) en lisière directe, et l'A115 côté Taverny. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville familiale en lisière de la forêt de Montmorency (27 000 habitants), église Notre-Dame classée du XIIIe siècle, sentiers et châtaigniers à la porte des maisons, profil famille nature qui garde un train direct pour Gare du Nord côté Taverny. Décrire le contraste d'ambiance avec Enghien-les-Bains."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,5-5 % brut côté Taverny). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Taverny à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Taverny, pour qui Enghien-les-Bains",
+          "contenu": "Verdict par profil. Linker les deux fiches [Taverny](/vivre-a/taverny-95607) et [Enghien-les-Bains](/vivre-a/enghien-les-bains-95210)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Taverny ou Enghien-les-Bains : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Taverny et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Taverny",
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-enghien-les-bains-2026",
+    "title": "Vivre à Enghien-les-Bains en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Enghien ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-04-01",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Enghien et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Enghien' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Enghien : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Enghien-les-Bains : unique station thermale d'Île-de-France (12 000 habitants), lac romantique, casino le plus important de France, thermes, villas Belle Époque, l'adresse premium incontestée du nord parisien à 12 minutes de Gare du Nord. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (5800 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Enghien",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Tour du lac (6 200-7 200 €/m², villas et immeubles de standing face au lac, le plus prestigieux) ; Centre / Casino (5 800-6 600 €/m², autour du casino, des thermes et des commerces) ; Gare / Coteaux (5 500-6 300 €/m², pratique, Gare du Nord en 12 minutes) ; Ormesson / limite Deuil (5 200-6 000 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-enghien-les-bains-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-enghien-les-bains-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le Transilien H (gare d'Enghien-les-Bains, Gare du Nord en 12 minutes), le lac de 43 hectares, et la seule station thermale et le seul casino d'Île-de-France. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "unique station thermale d'Île-de-France (12 000 habitants), lac romantique, casino le plus important de France, thermes, villas Belle Époque, l'adresse premium incontestée du nord parisien à 12 minutes de Gare du Nord. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Enghien (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Enghien est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Enghien colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Enghien](/vivre-a/enghien-les-bains-95210) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-enghien-les-bains-2026-par-quartier) ou [l'arbitrage quitter Paris pour Enghien](/blog/quitter-paris-pour-enghien-les-bains-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Enghien, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Enghien aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-enghien-les-bains-2026-par-quartier",
+    "title": "Prix immobilier Enghien-les-Bains 2026 : le vrai prix par quartier",
+    "description": "5800 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-08",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Enghien qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '5800 €/m² de médiane à Enghien, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 5800 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Tour du lac) et le plus abordable (Ormesson / limite Deuil). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Tour du lac (6 200-7 200 €/m², villas et immeubles de standing face au lac, le plus prestigieux) ; Centre / Casino (5 800-6 600 €/m², autour du casino, des thermes et des commerces) ; Gare / Coteaux (5 500-6 300 €/m², pratique, Gare du Nord en 12 minutes) ; Ormesson / limite Deuil (5 200-6 000 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Tour du lac : 6 200-7 200 €/m²",
+          "contenu": "villas et immeubles de standing face au lac, le plus prestigieux. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Centre / Casino : 5 800-6 600 €/m²",
+          "contenu": "autour du casino, des thermes et des commerces. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Gare / Coteaux : 5 500-6 300 €/m²",
+          "contenu": "pratique, Gare du Nord en 12 minutes. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Ormesson / limite Deuil : 5 200-6 000 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Enghien à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-enghien-les-bains-acheter-2026) et la fiche [Enghien](/vivre-a/enghien-les-bains-95210)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Enghien en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Enghien et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-enghien-les-bains-acheter-2026",
+    "title": "Meilleur quartier de Enghien-les-Bains pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Enghien le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-15",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Enghien mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Enghien n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Enghien le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Tour du lac, Centre / Casino, Gare / Coteaux, Ormesson / limite Deuil. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-enghien-les-bains-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Ormesson / limite Deuil et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Tour du lac et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le Transilien H (gare d'Enghien-les-Bains). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Enghien ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Enghien ou Saint-Gratien](/blog/enghien-les-bains-ou-saint-gratien-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Enghien, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Enghien se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-enghien-les-bains-achat-2026",
+    "title": "Enghien-les-Bains : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Enghien, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-22",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Enghien (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Enghien est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Enghien",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Ormesson / limite Deuil et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Enghien colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-enghien-les-bains-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Enghien et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Enghien aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "investir-enghien-les-bains-rendement-locatif-2026",
+    "title": "Investir à Enghien-les-Bains en 2026 : rendement réel par quartier",
+    "description": "3,5-4 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Enghien a du sens.",
+    "publishedAt": "2026-04-29",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (3,5-4 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Enghien (3,5-4 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le Transilien H (gare d'Enghien-les-Bains) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Enghien",
+          "contenu": "3,5-4 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le Transilien H (gare d'Enghien-les-Bains, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Tour du lac = valeur refuge, rendement minimal. Ormesson / limite Deuil = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Enghien à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Enghien a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-enghien-les-bains-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Enghien, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Enghien et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-enghien-les-bains-arbitrage-2026",
+    "title": "Quitter Paris pour Enghien-les-Bains : le vrai calcul en 2026",
+    "description": "Enghien face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-06",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Enghien.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Enghien et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Enghien : unique station thermale d'Île-de-France (12 000 habitants), lac romantique, casino le plus important de France, thermes, villas Belle Époque, l'adresse premium incontestée du nord parisien à 12 minutes de Gare du Nord. Desserte le Transilien H (gare d'Enghien-les-Bains, Gare du Nord en 12 minutes), le lac de 43 hectares, et la seule station thermale et le seul casino d'Île-de-France. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 5800 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Enghien, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Enghien (5800 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "unique station thermale d'Île-de-France (12 000 habitants), lac romantique, casino le plus important de France, thermes, villas Belle Époque, l'adresse premium incontestée du nord parisien à 12 minutes de Gare du Nord. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le Transilien H (gare d'Enghien-les-Bains, Gare du Nord en 12 minutes), le lac de 43 hectares, et la seule station thermale et le seul casino d'Île-de-France. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Enghien ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-enghien-les-bains-2026-guide-complet) et [Enghien ou Saint-Gratien](/blog/enghien-les-bains-ou-saint-gratien-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Enghien, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Enghien se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-enghien-les-bains",
+    "title": "Acheter à Enghien-les-Bains : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 3-5 % (marché tendu de petite taille). Le coût total réel d'un achat à Enghien, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-13",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Enghien, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 3-5 % (marché tendu de petite taille), coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 3-5 % (marché tendu de petite taille). Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Enghien",
+          "contenu": "Marge réaliste 3-5 % (marché tendu de petite taille). Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Enghien colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-enghien-les-bains-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-enghien-les-bains-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Enghien, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Enghien aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains"
+      ]
+    }
+  },
+  {
+    "slug": "enghien-les-bains-ou-saint-gratien-acheter-2026",
+    "title": "Enghien-les-Bains ou Saint-Gratien : où acheter en 2026",
+    "description": "Enghien-les-Bains, thermale et chic autour de son lac (5 800 €/m²), face à Saint-Gratien, sa voisine résidentielle au bord du même lac côté ouest (4 100 €/m²), 1 700 € d'écart pour un plan d'eau partagé. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-20",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Enghien et Saint-Gratien, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Enghien-les-Bains, thermale et chic autour de son lac (5 800 €/m²), face à Saint-Gratien, sa voisine résidentielle au bord du même lac côté ouest (4 100 €/m²), 1 700 € d'écart pour un plan d'eau partagé. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Enghien-les-Bains, thermale et chic autour de son lac (5 800 €/m²), face à Saint-Gratien, sa voisine résidentielle au bord du même lac côté ouest (4 100 €/m²), 1 700 € d'écart pour un plan d'eau partagé. Enghien 5800 €/m² vs Saint-Gratien 4100 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Enghien | Saint-Gratien) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Enghien 5800 €/m² vs Saint-Gratien 4100 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le Transilien H (gare d'Enghien-les-Bains, Gare du Nord en 12 minutes), le lac de 43 hectares, et la seule station thermale et le seul casino d'Île-de-France côté Enghien. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "unique station thermale d'Île-de-France (12 000 habitants), lac romantique, casino le plus important de France, thermes, villas Belle Époque, l'adresse premium incontestée du nord parisien à 12 minutes de Gare du Nord côté Enghien. Décrire le contraste d'ambiance avec Saint-Gratien."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (3,5-4 % brut côté Enghien). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Enghien à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Enghien, pour qui Saint-Gratien",
+          "contenu": "Verdict par profil. Linker les deux fiches [Enghien](/vivre-a/enghien-les-bains-95210) et [Saint-Gratien](/vivre-a/saint-gratien-95555)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Enghien ou Saint-Gratien : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Enghien et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Enghien-les-Bains",
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-saint-gratien-2026",
+    "title": "Vivre à Saint-Gratien en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Saint-Gratien ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-31",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Saint-Gratien et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Saint-Gratien' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Saint-Gratien : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Saint-Gratien : ville résidentielle sur la rive ouest du lac d'Enghien (21 000 habitants), profil famille qui veut le cadre du lac sans le prix d'Enghien, RER C direct vers l'ouest parisien, marché en valorisation continue. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4100 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Saint-Gratien",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Bords du lac / limite Enghien (4 400-4 900 €/m², le plus proche du lac, le plus prisé) ; Centre / Mairie (4 100-4 600 €/m², commerces, RER C) ; Raguenets (3 800-4 300 €/m², résidentiel en renouvellement) ; Plaine / limite Argenteuil (3 700-4 200 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-saint-gratien-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-saint-gratien-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le RER C (gare de Saint-Gratien, Porte Maillot et les Invalides directs), le lac d'Enghien en voisin immédiat, et les bus vers la gare d'Enghien (Transilien H). La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville résidentielle sur la rive ouest du lac d'Enghien (21 000 habitants), profil famille qui veut le cadre du lac sans le prix d'Enghien, RER C direct vers l'ouest parisien, marché en valorisation continue. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Saint-Gratien (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Saint-Gratien est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Saint-Gratien colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Saint-Gratien](/vivre-a/saint-gratien-95555) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-saint-gratien-2026-par-quartier) ou [l'arbitrage quitter Paris pour Saint-Gratien](/blog/quitter-paris-pour-saint-gratien-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Saint-Gratien, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Saint-Gratien aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-saint-gratien-2026-par-quartier",
+    "title": "Prix immobilier Saint-Gratien 2026 : le vrai prix par quartier",
+    "description": "4100 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-07",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Saint-Gratien qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4100 €/m² de médiane à Saint-Gratien, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4100 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Bords du lac / limite Enghien) et le plus abordable (Plaine / limite Argenteuil). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Bords du lac / limite Enghien (4 400-4 900 €/m², le plus proche du lac, le plus prisé) ; Centre / Mairie (4 100-4 600 €/m², commerces, RER C) ; Raguenets (3 800-4 300 €/m², résidentiel en renouvellement) ; Plaine / limite Argenteuil (3 700-4 200 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Bords du lac / limite Enghien : 4 400-4 900 €/m²",
+          "contenu": "le plus proche du lac, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Centre / Mairie : 4 100-4 600 €/m²",
+          "contenu": "commerces, RER C. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Raguenets : 3 800-4 300 €/m²",
+          "contenu": "résidentiel en renouvellement. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Plaine / limite Argenteuil : 3 700-4 200 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Saint-Gratien à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-saint-gratien-acheter-2026) et la fiche [Saint-Gratien](/vivre-a/saint-gratien-95555)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Saint-Gratien en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Saint-Gratien et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-saint-gratien-acheter-2026",
+    "title": "Meilleur quartier de Saint-Gratien pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Saint-Gratien le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-14",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Saint-Gratien mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Saint-Gratien n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Saint-Gratien le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Bords du lac / limite Enghien, Centre / Mairie, Raguenets, Plaine / limite Argenteuil. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-saint-gratien-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Plaine / limite Argenteuil et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Bords du lac / limite Enghien et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le RER C (gare de Saint-Gratien). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Saint-Gratien ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Saint-Gratien ou Eaubonne](/blog/saint-gratien-ou-eaubonne-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Saint-Gratien, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Saint-Gratien se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-saint-gratien-achat-2026",
+    "title": "Saint-Gratien : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Saint-Gratien, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-21",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Saint-Gratien (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Saint-Gratien est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Saint-Gratien",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Plaine / limite Argenteuil et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Saint-Gratien colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-saint-gratien-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Saint-Gratien et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Saint-Gratien aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "investir-saint-gratien-rendement-locatif-2026",
+    "title": "Investir à Saint-Gratien en 2026 : rendement réel par quartier",
+    "description": "4,4-4,9 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Saint-Gratien a du sens.",
+    "publishedAt": "2026-04-28",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,4-4,9 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Saint-Gratien (4,4-4,9 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le RER C (gare de Saint-Gratien) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Saint-Gratien",
+          "contenu": "4,4-4,9 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le RER C (gare de Saint-Gratien, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Bords du lac / limite Enghien = valeur refuge, rendement minimal. Plaine / limite Argenteuil = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Saint-Gratien à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Saint-Gratien a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-saint-gratien-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Saint-Gratien, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Saint-Gratien et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-saint-gratien-arbitrage-2026",
+    "title": "Quitter Paris pour Saint-Gratien : le vrai calcul en 2026",
+    "description": "Saint-Gratien face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-05",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Saint-Gratien.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Saint-Gratien et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Saint-Gratien : ville résidentielle sur la rive ouest du lac d'Enghien (21 000 habitants), profil famille qui veut le cadre du lac sans le prix d'Enghien, RER C direct vers l'ouest parisien, marché en valorisation continue. Desserte le RER C (gare de Saint-Gratien, Porte Maillot et les Invalides directs), le lac d'Enghien en voisin immédiat, et les bus vers la gare d'Enghien (Transilien H). Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4100 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Saint-Gratien, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Saint-Gratien (4100 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville résidentielle sur la rive ouest du lac d'Enghien (21 000 habitants), profil famille qui veut le cadre du lac sans le prix d'Enghien, RER C direct vers l'ouest parisien, marché en valorisation continue. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le RER C (gare de Saint-Gratien, Porte Maillot et les Invalides directs), le lac d'Enghien en voisin immédiat, et les bus vers la gare d'Enghien (Transilien H). Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Saint-Gratien ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-saint-gratien-2026-guide-complet) et [Saint-Gratien ou Eaubonne](/blog/saint-gratien-ou-eaubonne-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Saint-Gratien, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Saint-Gratien se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-saint-gratien",
+    "title": "Acheter à Saint-Gratien : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Saint-Gratien, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-12",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Saint-Gratien, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Saint-Gratien",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Saint-Gratien colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-saint-gratien-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-saint-gratien-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Saint-Gratien, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Saint-Gratien aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien"
+      ]
+    }
+  },
+  {
+    "slug": "saint-gratien-ou-eaubonne-acheter-2026",
+    "title": "Saint-Gratien ou Eaubonne : où acheter en 2026",
+    "description": "Saint-Gratien, au bord du lac sur le RER C (4 100 €/m²), face à Eaubonne, plus bourgeoise autour de son hub à trois lignes (4 300 €/m²), deux valeurs sûres de la vallée à 200 € d'écart. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-19",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Saint-Gratien et Eaubonne, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Saint-Gratien, au bord du lac sur le RER C (4 100 €/m²), face à Eaubonne, plus bourgeoise autour de son hub à trois lignes (4 300 €/m²), deux valeurs sûres de la vallée à 200 € d'écart. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Saint-Gratien, au bord du lac sur le RER C (4 100 €/m²), face à Eaubonne, plus bourgeoise autour de son hub à trois lignes (4 300 €/m²), deux valeurs sûres de la vallée à 200 € d'écart. Saint-Gratien 4100 €/m² vs Eaubonne 4300 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Saint-Gratien | Eaubonne) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Saint-Gratien 4100 €/m² vs Eaubonne 4300 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le RER C (gare de Saint-Gratien, Porte Maillot et les Invalides directs), le lac d'Enghien en voisin immédiat, et les bus vers la gare d'Enghien (Transilien H) côté Saint-Gratien. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville résidentielle sur la rive ouest du lac d'Enghien (21 000 habitants), profil famille qui veut le cadre du lac sans le prix d'Enghien, RER C direct vers l'ouest parisien, marché en valorisation continue côté Saint-Gratien. Décrire le contraste d'ambiance avec Eaubonne."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,4-4,9 % brut côté Saint-Gratien). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Saint-Gratien à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Saint-Gratien, pour qui Eaubonne",
+          "contenu": "Verdict par profil. Linker les deux fiches [Saint-Gratien](/vivre-a/saint-gratien-95555) et [Eaubonne](/vivre-a/eaubonne-95203)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Saint-Gratien ou Eaubonne : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Saint-Gratien et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Saint-Gratien",
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "vivre-a-eaubonne-2026",
+    "title": "Vivre à Eaubonne en 2026 : le quotidien, les quartiers, pour qui",
+    "description": "À quoi ressemble vraiment la vie à Eaubonne ? Le quotidien, les quartiers où vivre, le transport, les écoles, l'ambiance et le vrai pour-qui, sans carte postale.",
+    "publishedAt": "2026-03-30",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Personne qui envisage de s'installer à Eaubonne et veut savoir à quoi ressemble la vie au quotidien avant de se décider, au-delà des chiffres immobiliers.",
+      "angle": "Guide lifestyle et expérientiel 'vivre à Eaubonne' : le quotidien réel, l'ambiance, les quartiers où VIVRE (par style de vie, pas par prix), se déplacer, écoles, commerces et loisirs, les vrais plus et moins, pour qui c'est fait. Distinct des articles achat (vers lesquels on renvoie) et de la fiche commune (données).",
+      "ouverture": "Scène de vie concrète qui campe l'ambiance de Eaubonne : un matin, un lieu, un rythme.",
+      "structure": "Vignettes : le quotidien, quartiers où vivre, transport, écoles, commerces et loisirs, plus et moins, pour qui, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, voix incarnée, sans em-dash. Décrire ce que c'est de vivre à Eaubonne : ville bourgeoise de la vallée de Montmorency (25 500 habitants), avenues plantées et villas du lotissement du XIXe, hôpital Simone Veil, profil famille établie qui veut le triple choix de lignes du hub Ermont-Eaubonne. Donner le rythme, l'ambiance, le type d'habitant. Situer le prix médian (4300 €/m²) en passant sans en faire le sujet (renvoyer aux articles achat). Annoncer qu'on raconte le quotidien réel, les quartiers où poser ses valises, et pour qui la ville est faite."
+        },
+        {
+          "titre": "Le quotidien à Eaubonne",
+          "contenu": "Rythme de vie, ambiance, type de population, ce qui change par rapport à Paris. Détails sensoriels concrets (marché, rues, vie de quartier, week-ends)."
+        },
+        {
+          "titre": "Les quartiers où vivre (par style de vie)",
+          "contenu": "Présenter les quartiers sous l'angle MODE DE VIE (familial, animé, calme, proche nature), pas le prix : Centre / Hôtel de ville (4 500-5 000 €/m², avenues plantées et belles demeures, le plus prisé) ; Ermont-Eaubonne / Gare (4 300-4 800 €/m², autour du hub à trois lignes) ; Mont d'Eaubonne (4 100-4 600 €/m², pavillonnaire sur les hauteurs) ; Flammarion / limite Saint-Gratien (3 900-4 400 €/m², le plus abordable). Pour le détail prix et achat, renvoyer vers [les prix par quartier](/blog/prix-immobilier-eaubonne-2026-par-quartier) et [le meilleur quartier pour acheter](/blog/meilleur-quartier-eaubonne-acheter-2026)."
+        },
+        {
+          "titre": "Se déplacer au quotidien",
+          "contenu": "le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), et les avenues plantées héritées du lotissement historique. La réalité du trajet quotidien vers Paris et en local, à vélo et à pied."
+        },
+        {
+          "titre": "Écoles, familles et services",
+          "contenu": "ville bourgeoise de la vallée de Montmorency (25 500 habitants), avenues plantées et villas du lotissement du XIXe, hôpital Simone Veil, profil famille établie qui veut le triple choix de lignes du hub Ermont-Eaubonne. Écoles, santé, équipements, ce qui compte pour une famille au quotidien."
+        },
+        {
+          "titre": "Commerces, marchés, loisirs et culture",
+          "contenu": "Vie locale : commerces de proximité, marchés, restaurants, sport, culture, espaces verts. Ce qui rend le quotidien agréable, ou ce qui manque."
+        },
+        {
+          "titre": "Les vrais plus et les vrais moins",
+          "contenu": "Honnêteté : 3-4 atouts réels et 2-3 limites assumées de la vie à Eaubonne (nuisances, prix, ce qui manque). Pas de carte postale."
+        },
+        {
+          "titre": "Pour qui Eaubonne est faite (et pour qui non)",
+          "contenu": "Profils qui s'y épanouissent vs profils qui seraient déçus. Verdict nuancé par mode de vie."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Eaubonne colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Et si tu veux t'installer",
+          "contenu": "Transition vers le projet concret : renvoyer vers la fiche [Eaubonne](/vivre-a/eaubonne-95203) (données détaillées) et vers [les prix par quartier](/blog/prix-immobilier-eaubonne-2026-par-quartier) ou [l'arbitrage quitter Paris pour Eaubonne](/blog/quitter-paris-pour-eaubonne-arbitrage-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : est-ce agréable de vivre à Eaubonne, pour quel profil c'est fait, quel quartier pour une famille, est-ce bien desservi vers Paris. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Eaubonne aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "prix-immobilier-eaubonne-2026-par-quartier",
+    "title": "Prix immobilier Eaubonne 2026 : le vrai prix par quartier",
+    "description": "4300 €/m² de médiane, mais l'écart entre quartiers change tout. La grille réelle quartier par quartier, données DVF et commentaire sans filtre.",
+    "publishedAt": "2026-04-06",
+    "readingMinutes": 9,
+    "category": "tendance",
+    "brief": {
+      "audience": "Acquéreur décidé sur Eaubonne qui veut savoir où son budget passe vraiment, rue par rue, sans le vernis des annonces.",
+      "angle": "Data moat : grille de prix réelle par quartier croisée DVF plus annonces, commentaire honnête surcote/sous-cote. Ce que MeilleursAgents ne fait pas (un seul chiffre).",
+      "ouverture": "Statistique : '4300 €/m² de médiane à Eaubonne, mais d'un quartier à l'autre tu n'achètes pas la même ville.'",
+      "structure": "Méthodique : sources DVF, grille par quartier, écarts, où c'est justifié, où il reste de la marge, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que la médiane 4300 €/m² ne sert à rien sans le quartier. Citer l'écart entre le plus cher (Centre / Hôtel de ville) et le plus abordable (Flammarion / limite Saint-Gratien). Annoncer données DVF (18 derniers mois) croisées annonces (qui surévaluent de 3-8 %), et qu'on dit où le prix est justifié et où c'est la prime de nom."
+        },
+        {
+          "titre": "Le tableau récapitulatif des prix par quartier",
+          "contenu": "Insère un tableau markdown (colonnes : Quartier | Prix au m² | Profil type) reprenant les quartiers : Centre / Hôtel de ville (4 500-5 000 €/m², avenues plantées et belles demeures, le plus prisé) ; Ermont-Eaubonne / Gare (4 300-4 800 €/m², autour du hub à trois lignes) ; Mont d'Eaubonne (4 100-4 600 €/m², pavillonnaire sur les hauteurs) ; Flammarion / limite Saint-Gratien (3 900-4 400 €/m², le plus abordable). Données réelles, lisibles d'un coup d'œil."
+        },
+        {
+          "titre": "Les sources et la méthode",
+          "contenu": "DVF data.gouv (transactions récentes) croisé annonces SeLoger/PAP. Les annonces surévaluent de 3-8 % vs signé : on raisonne sur le signé. Médianes par quartier, fourchettes (volumes limités)."
+        },
+        {
+          "titre": "Centre / Hôtel de ville : 4 500-5 000 €/m²",
+          "contenu": "avenues plantées et belles demeures, le plus prisé. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Ermont-Eaubonne / Gare : 4 300-4 800 €/m²",
+          "contenu": "autour du hub à trois lignes. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Mont d'Eaubonne : 4 100-4 600 €/m²",
+          "contenu": "pavillonnaire sur les hauteurs. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Flammarion / limite Saint-Gratien : 3 900-4 400 €/m²",
+          "contenu": "le plus abordable. Profil d'acheteur, justification du prix (atout concret) ou surcote, marge de revalorisation."
+        },
+        {
+          "titre": "Où le prix est justifié, où c'est la prime de nom",
+          "contenu": "Distinguer les quartiers où le prix paie un atout réel (transport, eau, calme, école) de ceux surcotés sur le seul prestige. Conseil : raisonner en minutes réelles à pied de la gare et des atouts, pas en étiquette."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Eaubonne à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict prix 2026",
+          "contenu": "Où est la marge restante, où c'est le plafond. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-eaubonne-acheter-2026) et la fiche [Eaubonne](/vivre-a/eaubonne-95203)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le prix au m² à Eaubonne en 2026, quel quartier est le moins cher, lequel le plus cher, les prix montent-ils. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Eaubonne et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "meilleur-quartier-eaubonne-acheter-2026",
+    "title": "Meilleur quartier de Eaubonne pour acheter en 2026",
+    "description": "Famille, primo, investisseur, calme ou proximité gare : à Eaubonne le meilleur quartier dépend de ton projet. Le classement par profil, sans langue de bois.",
+    "publishedAt": "2026-04-13",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui sait que ce sera Eaubonne mais hésite entre les quartiers, veut un classement orienté décision selon SON profil.",
+      "angle": "Classement décision : à chaque profil son meilleur quartier, avec le pourquoi. Distinct de l'article prix (descriptif) : ici on tranche. Renvoyer au prix par quartier pour les chiffres.",
+      "ouverture": "Question retournée : 'Le meilleur quartier de Eaubonne n'existe pas dans l'absolu. Il existe pour ton projet.'",
+      "structure": "Décomposition par profil : critère, famille, primo, prestige, proximité gare, le quartier qui monte, verdict synthèse.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser qu'à Eaubonne le vrai arbitrage n'est pas le risque (faible partout) mais le compromis budget/atouts/transport. Quartiers en jeu : Centre / Hôtel de ville, Ermont-Eaubonne / Gare, Mont d'Eaubonne, Flammarion / limite Saint-Gratien. Annoncer qu'on tranche par profil, qu'on assume une opinion, et qu'on renvoie au guide prix pour les chiffres."
+        },
+        {
+          "titre": "Le seul critère qui compte : ton projet",
+          "contenu": "Poser le cadre et lister les profils traités. Renvoyer vers [le détail des prix par quartier](/blog/prix-immobilier-eaubonne-2026-par-quartier)."
+        },
+        {
+          "titre": "Si tu es une famille",
+          "contenu": "Quel(s) quartier(s) viser (calme, école, espace). Citer les quartiers pertinents avec fourchettes."
+        },
+        {
+          "titre": "Si tu es primo-accédant",
+          "contenu": "Le meilleur ticket d'entrée : Flammarion / limite Saint-Gratien et secteurs abordables. Argument prix vs reste de la commune."
+        },
+        {
+          "titre": "Si tu cherches le prestige et la valeur refuge",
+          "contenu": "Centre / Hôtel de ville et secteurs premium : tu paies le plein tarif mais le bien se revend toujours."
+        },
+        {
+          "titre": "Si le trajet est ta priorité",
+          "contenu": "Quartiers proches des gares (le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes). Gain quotidien réel."
+        },
+        {
+          "titre": "Le quartier qui monte",
+          "contenu": "Le secteur en valorisation (proximité projet transport, requalification). Pari raisonnable à 7-10 ans."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Eaubonne ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict par profil",
+          "contenu": "Synthèse en prose (un quartier par profil). Renvoyer vers [Eaubonne ou Ermont](/blog/eaubonne-ou-ermont-acheter-2026) si l'acheteur hésite de commune."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel est le meilleur quartier de Eaubonne, lequel pour une famille, lequel pour investir, lequel pour un budget serré. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Eaubonne se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "quartiers-eviter-eaubonne-achat-2026",
+    "title": "Eaubonne : les quartiers où je n'achèterais pas (et pourquoi)",
+    "description": "À Eaubonne, le vrai risque n'est pas toujours là où on croit. Surcote, nuisances, charges : les pièges réels, et les faux quartiers à éviter qui sont des opportunités.",
+    "publishedAt": "2026-04-20",
+    "readingMinutes": 9,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur prudent qui veut connaître les pièges avant d'offrir et ne pas surpayer. Cherche un avis franc, pas un argumentaire.",
+      "angle": "Anti-bullshit honnête mais JUSTE et nuancé. Toujours 'à éviter pour qui / quel projet'. Inclure les faux à éviter (opportunités injustement boudées). Jamais de jugement social brut.",
+      "ouverture": "Aveu : ce que 'à éviter' veut dire vraiment à Eaubonne (souvent surpayer, pas l'insécurité).",
+      "structure": "Thèse-antithèse : ce que à éviter veut dire ici, surcote, micro-nuisances, copros à charges, les faux à éviter, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Recadrer : le vrai risque à Eaubonne est de surpayer (prime de nom), de subir une nuisance non anticipée, ou d'hériter de charges lourdes, pas l'insécurité. Annoncer qu'on dit où on paie trop cher pour ce qu'on a, où il y a une vraie marge, avec à chaque fois le pour qui."
+        },
+        {
+          "titre": "Ce que à éviter veut dire à Eaubonne",
+          "contenu": "Recadrer factuellement (pas de peur). À éviter = surpayer, nuisance, charges. Article sur le bon achat."
+        },
+        {
+          "titre": "Le piège de la surcote de prestige",
+          "contenu": "Quartiers/rues vendus plus cher sur le nom sans atout concret. Vérifier ce que l'adresse apporte vraiment vs une rue voisine."
+        },
+        {
+          "titre": "Les micro-nuisances à vérifier",
+          "contenu": "Axes passants, voie ferrée, bruit, qualité d'air, étages bas. La nuisance se joue à la rue près, pas au quartier."
+        },
+        {
+          "titre": "Les copropriétés à charges lourdes",
+          "contenu": "Immeubles anciens avec gardien/ascenseur/ravalements : charges qui plombent le budget réel. Demander 3 derniers PV d'AG, fonds travaux, DPE."
+        },
+        {
+          "titre": "Les faux quartiers à éviter (les opportunités)",
+          "contenu": "Flammarion / limite Saint-Gratien et secteurs boudés par réflexe : moins chers, mêmes atouts de fond, dynamique positive. Pour primo/investisseur, le meilleur rapport."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Eaubonne colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict : où je mettrais mon argent",
+          "contenu": "Synthèse : fuir la surcote sans atout, vérifier nuisances et charges, ne pas snober les quartiers abordables. Renvoyer vers [meilleur quartier pour acheter](/blog/meilleur-quartier-eaubonne-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels quartiers éviter à Eaubonne et pourquoi, est-ce une ville sûre, quel secteur monte, le principal piège pour un acheteur. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Eaubonne aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "investir-eaubonne-rendement-locatif-2026",
+    "title": "Investir à Eaubonne en 2026 : rendement réel par quartier",
+    "description": "4,2-4,7 % brut, c'est l'ordre de grandeur. Demande locative, valeur refuge, montages : où, comment et pour quel profil investir à Eaubonne a du sens.",
+    "publishedAt": "2026-04-27",
+    "readingMinutes": 10,
+    "category": "tendance",
+    "brief": {
+      "audience": "Investisseur 35-60 ans, capacité 300-700 k€, qui pèse rendement vs sécurité du capital et demande locative.",
+      "angle": "Dire la vérité sur le rendement (4,2-4,7 % brut). Mettre en avant demande locative et valeur, comparer nu / meublé LMNP / colocation, où le rendement est le moins mauvais vs valeur refuge.",
+      "ouverture": "Contre-évidence : un rendement modeste mais une demande locative qui ne faiblit pas et un capital protégé.",
+      "structure": "Méthodique : vérité rendement, demande locative, valeur refuge vs rendement, montages, stratégie par quartier, calcul concret, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Annoncer le rendement réel à Eaubonne (4,2-4,7 % brut brut, moins net), assumer que ce n'est pas du cash-flow. Mettre en avant la demande locative solide (familles, cadres, le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes) et la liquidité à la revente. Investissement de protection/valorisation. Annoncer qu'on voit où le rendement est le moins mauvais, quel montage, et le calcul sur un T2."
+        },
+        {
+          "titre": "La vérité sur le rendement à Eaubonne",
+          "contenu": "4,2-4,7 % brut brut, moins net après charges/TF/vacance. Comparer à la grande couronne (5-7 %). Assumer. Faible vacance et liquidité compensent en partie."
+        },
+        {
+          "titre": "Une demande locative solide",
+          "contenu": "Qui loue (familles, cadres via le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes, jeunes actifs). Loyers, vacance faible. Le vrai argument : sécurité du revenu."
+        },
+        {
+          "titre": "Valeur refuge vs rendement : choisir son camp",
+          "contenu": "Centre / Hôtel de ville = valeur refuge, rendement minimal. Flammarion / limite Saint-Gratien = rendement un peu meilleur, pari valorisation."
+        },
+        {
+          "titre": "Nu, meublé LMNP ou colocation ?",
+          "contenu": "Comparer les 3 : simplicité vs fiscalité (LMNP amortissement) vs rendement colocation. Recommander selon le profil de la commune."
+        },
+        {
+          "titre": "Le calcul réel sur un T2",
+          "contenu": "Exemple chiffré honnête à partir du prix d'un quartier abordable et d'un loyer réaliste. Brut puis net après charges/TF/gestion."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Eaubonne à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict investisseur",
+          "contenu": "Pour qui Eaubonne a du sens (patrimonial, transmission) et pour qui non (qui vit des loyers). Renvoyer vers [le guide prix par quartier](/blog/prix-immobilier-eaubonne-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quel rendement locatif à Eaubonne, est-ce rentable d'y investir, quel quartier viser, nu ou meublé. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Eaubonne et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "quitter-paris-pour-eaubonne-arbitrage-2026",
+    "title": "Quitter Paris pour Eaubonne : le vrai calcul en 2026",
+    "description": "Eaubonne face à Paris : ce que tu gagnes vraiment (surface, cadre, écoles) et ce que tu ne gagnes pas. Le calcul honnête, et pour qui le move vaut le coup.",
+    "publishedAt": "2026-05-04",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Parisien en couple ou jeune famille qui étouffe en appartement et envisage Eaubonne.",
+      "angle": "Pont éditorial HONNÊTE. Dire le vrai gain (surface, cadre, écoles, transport) et ne pas survendre le gain budget. Dire qui y gagne et qui ferait mieux de rester à Paris.",
+      "ouverture": "Scène concrète d'un Parisien qui découvre Eaubonne et son cadre.",
+      "structure": "Récit-arbitrage : est-ce vraiment quitter Paris, le calcul prix vs Paris, l'atout cadre, écoles, transport, qui gagne qui reste, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash, honnête. Décrire l'arbitrage Paris vers Eaubonne : ville bourgeoise de la vallée de Montmorency (25 500 habitants), avenues plantées et villas du lotissement du XIXe, hôpital Simone Veil, profil famille établie qui veut le triple choix de lignes du hub Ermont-Eaubonne. Desserte le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), et les avenues plantées héritées du lotissement historique. Dire franchement si le gain est surtout qualité de vie (cadre, surface, écoles) plus que budget au médian 4300 €/m². Annoncer qui réussit le move et qui ferait mieux de rester."
+        },
+        {
+          "titre": "Eaubonne, est-ce vraiment quitter Paris ?",
+          "contenu": "Situer la distance/temps réels et le degré de rupture. Cadrer l'audience."
+        },
+        {
+          "titre": "Le calcul prix vs Paris",
+          "contenu": "Revente d'un 2-3 pièces parisien (~10 500-11 000 €/m²) = quelle surface à Eaubonne (4300 €/m²). Chiffrer le gain de surface réel."
+        },
+        {
+          "titre": "L'atout qui change tout",
+          "contenu": "ville bourgeoise de la vallée de Montmorency (25 500 habitants), avenues plantées et villas du lotissement du XIXe, hôpital Simone Veil, profil famille établie qui veut le triple choix de lignes du hub Ermont-Eaubonne. L'argument numéro un du move au quotidien."
+        },
+        {
+          "titre": "Écoles et familles",
+          "contenu": "Carte scolaire, ambiance, autonomie des enfants. Souvent le déclencheur du move au moment du collège."
+        },
+        {
+          "titre": "Le transport au quotidien",
+          "contenu": "le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), et les avenues plantées héritées du lotissement historique. Réalité du trajet, confort, fréquence."
+        },
+        {
+          "titre": "Qui y gagne, qui ferait mieux de rester à Paris",
+          "contenu": "Verdict nuancé par profil : familles/cadres vs célibataires vie nocturne vs chasseurs d'économie pure."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Une question précise sur un quartier de Eaubonne ? Le concierge IA (bouton iris en bas à droite) répond en moins d'une minute à partir des données réelles.' Pas d'agent."
+        },
+        {
+          "titre": "Le verdict du move",
+          "contenu": "Synthèse honnête. Renvoyer vers [le guide complet](/blog/acheter-eaubonne-2026-guide-complet) et [Eaubonne ou Ermont](/blog/eaubonne-ou-ermont-acheter-2026)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : vaut-il le coup de quitter Paris pour Eaubonne, combien de surface en plus, combien de temps de trajet, pour qui. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Garde la main : pondère tes critères toi-même sur le comparateur et vois où Eaubonne se classe pour TON projet : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "frais-notaire-negociation-achat-eaubonne",
+    "title": "Acheter à Eaubonne : frais, notaire et négociation réelle",
+    "description": "Frais de notaire à 7,5-8 %, marge de négo 4-6 %. Le coût total réel d'un achat à Eaubonne, les coûts cachés et la méthode pour ne pas surpayer.",
+    "publishedAt": "2026-05-11",
+    "readingMinutes": 9,
+    "category": "finance",
+    "brief": {
+      "audience": "Acheteur en phase d'offre à Eaubonne, qui veut le coût total réel et comprendre la marge de négo.",
+      "angle": "Phase transaction concrète. Frais notaire ancien 7,5-8 % chiffrés, marge négo réelle 4-6 %, coûts cachés (copro, parking, DPE), méthode.",
+      "ouverture": "Constat chiffré sur le coût réel au-delà du prix affiché.",
+      "structure": "Méthodique : combien coûtent les frais, marge de négo, coûts cachés, timing, erreurs primo, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser que le prix affiché n'est pas le coût réel : frais notaire 7,5-8 % (chiffrer sur un bien type). Marge de négo 4-6 %. Annoncer qu'on déroule les frais, la négo réelle par type de bien, les coûts cachés et la méthode pour ne pas surpayer ni perdre le bien."
+        },
+        {
+          "titre": "Combien coûtent vraiment les frais de notaire",
+          "contenu": "Ancien 7,5-8 %. Calcul chiffré sur deux montants types. Détailler droits de mutation, émoluments, débours. Neuf à 2-3 % si dispo."
+        },
+        {
+          "titre": "Pourquoi la négo est ce qu'elle est à Eaubonne",
+          "contenu": "Marge réaliste 4-6 %. Expliquer selon tension du marché et type de bien (ancien à rénover, passoire DPE = plus de marge)."
+        },
+        {
+          "titre": "Les coûts cachés des copropriétés",
+          "contenu": "Charges (gardien, ascenseur, ravalements), fonds travaux, DPE passoire. Demander les PV d'AG. Intégrer au budget réel."
+        },
+        {
+          "titre": "Le parking et les autres postes",
+          "contenu": "Parking (prime à l'achat mais revente facilitée), travaux, taxe foncière locale. Postes à anticiper."
+        },
+        {
+          "titre": "La méthode pour ne pas surpayer ni perdre le bien",
+          "contenu": "Accord de principe banque avant de chercher, dossier prêt, réactivité. Selon la tension, négocier ou dégainer vite."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Pas sûr que Eaubonne colle à ton budget ? Lance le quiz Trouve ta ville idéale, en 4 clics on calcule la surface que tu peux viser ici et on te propose des alternatives si le ticket est trop haut. Bouton iris en bas à droite.' Ton aide concrète, jamais d'agent."
+        },
+        {
+          "titre": "Le verdict transaction",
+          "contenu": "Budget frais inclus, marge réaliste, vigilance charges. Renvoyer vers [le guide complet](/blog/acheter-eaubonne-2026-guide-complet) et [les prix par quartier](/blog/prix-immobilier-eaubonne-2026-par-quartier)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : quels sont les frais de notaire à Eaubonne, peut-on négocier et de combien, quels coûts cachés, neuf ou ancien. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Compare Eaubonne aux autres communes sur prix, trajet et qualité de vie : ouvrir [le comparateur](/comparer).' Aucune mention d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne"
+      ]
+    }
+  },
+  {
+    "slug": "eaubonne-ou-ermont-acheter-2026",
+    "title": "Eaubonne ou Ermont : où acheter en 2026",
+    "description": "Eaubonne, bourgeoise avec ses avenues plantées (4 300 €/m²), face à Ermont, plus commerçante de l'autre côté du même hub (4 000 €/m²), les deux copropriétaires de la meilleure gare de la vallée. Le match prix, transport, cadre de vie, écoles et investissement, pour trancher selon ton profil.",
+    "publishedAt": "2026-05-18",
+    "readingMinutes": 10,
+    "category": "guide",
+    "brief": {
+      "audience": "Acquéreur qui hésite entre Eaubonne et Ermont, deux options proches, et veut trancher.",
+      "angle": "Comparaison 1v1 honnête : Eaubonne, bourgeoise avec ses avenues plantées (4 300 €/m²), face à Ermont, plus commerçante de l'autre côté du même hub (4 000 €/m²), les deux copropriétaires de la meilleure gare de la vallée. Match sur prix, transport, cadre, écoles, invest, puis pour qui l'un, pour qui l'autre.",
+      "ouverture": "Mise en scène du dilemme entre les deux communes.",
+      "structure": "Comparaison : prix, transport, cadre de vie, écoles, invest, pour qui l'un/l'autre, verdict.",
+      "sections": [
+        {
+          "titre": "Intro (200 mots, prête à reprendre)",
+          "contenu": "Intro 200 mots, tutoiement, sans em-dash. Poser le duel : Eaubonne, bourgeoise avec ses avenues plantées (4 300 €/m²), face à Ermont, plus commerçante de l'autre côté du même hub (4 000 €/m²), les deux copropriétaires de la meilleure gare de la vallée. Eaubonne 4300 €/m² vs Ermont 4000 €/m². Annoncer qu'on compare point par point et qu'on tranche par profil, sans favori de principe."
+        },
+        {
+          "titre": "Le match en un tableau",
+          "contenu": "Insère un tableau markdown comparatif (colonnes : Critère | Eaubonne | Ermont) sur le prix au m², le trajet vers Paris, l'ambiance et la cible. Synthèse extractible d'un coup d'œil."
+        },
+        {
+          "titre": "Le match prix",
+          "contenu": "Eaubonne 4300 €/m² vs Ermont 4000 €/m². Ce que l'écart paie réellement."
+        },
+        {
+          "titre": "Le match transport",
+          "contenu": "Comparer les dessertes : le hub d'Ermont-Eaubonne (Transilien H vers Gare du Nord en 15 minutes, Transilien J vers Saint-Lazare, RER C vers les Invalides), et les avenues plantées héritées du lotissement historique côté Eaubonne. Avantage selon ta destination quotidienne."
+        },
+        {
+          "titre": "Le match cadre de vie",
+          "contenu": "ville bourgeoise de la vallée de Montmorency (25 500 habitants), avenues plantées et villas du lotissement du XIXe, hôpital Simone Veil, profil famille établie qui veut le triple choix de lignes du hub Ermont-Eaubonne côté Eaubonne. Décrire le contraste d'ambiance avec Ermont."
+        },
+        {
+          "titre": "Le match écoles",
+          "contenu": "Comparer carte scolaire et établissements réputés des deux communes."
+        },
+        {
+          "titre": "Le match investissement",
+          "contenu": "Rendement et valorisation comparés (4,2-4,7 % brut côté Eaubonne). Qui a le meilleur potentiel."
+        },
+        {
+          "titre": "CTA acheteur (encart milieu d'article)",
+          "contenu": "Aside milieu d'article : 'Tu veux comparer Eaubonne à ses voisines sur le prix m2 réel et le trajet ? Le comparateur croise les données DVF sur 176 communes, tu pondères tes critères : ouvrir [le comparateur](/comparer).' Pas d'agent."
+        },
+        {
+          "titre": "Pour qui Eaubonne, pour qui Ermont",
+          "contenu": "Verdict par profil. Linker les deux fiches [Eaubonne](/vivre-a/eaubonne-95203) et [Ermont](/vivre-a/ermont-95219)."
+        },
+        {
+          "titre": "Questions fréquentes",
+          "contenu": "Termine l'article par une section FAQ titrée EXACTEMENT \"Questions fréquentes\" (rendue en ## par toi). Pose 4 questions sur : Eaubonne ou Ermont : laquelle est la moins chère, laquelle pour une famille, laquelle pour investir, laquelle est la mieux desservie. Format STRICT et obligatoire : chaque question commence par \"### \" et finit par un point d'interrogation, suivie immédiatement de 2 à 3 phrases de réponse factuelle et chiffrée. Tutoiement, zéro em-dash. Ces questions ciblent les People Also Ask et les moteurs de réponse IA."
+        },
+        {
+          "titre": "CTA acheteur (bas d'article)",
+          "contenu": "Encart fin, fond gris : 'Tu hésites encore sur la commune ? Lance le quiz Trouve ta ville idéale, on calcule ta surface possible à Eaubonne et on te propose 3 communes qui matchent ton budget et ton trajet.' Bouton concierge iris. Pas d'agent."
+        }
+      ],
+      "references": [
+        "Eaubonne",
+        "Ermont"
+      ]
+    }
   }
 ];
 

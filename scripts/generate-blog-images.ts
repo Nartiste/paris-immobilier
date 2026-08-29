@@ -103,6 +103,54 @@ const SLUG_IMAGE_OVERRIDES: Array<{ match: string; image: BlogCoverImage }> = [
     },
   },
   {
+    // "Argenteuil" : page sans image d'infobox exploitable → basilique Saint-Denys.
+    match: "argenteuil",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Basilique_Saint_Denys_-_Argenteuil_%28FR95%29_-_2023-11-11_-_2.jpg/1280px-Basilique_Saint_Denys_-_Argenteuil_%28FR95%29_-_2023-11-11_-_2.jpg",
+      width: 1280,
+      height: 960,
+      alt: "Basilique Saint-Denys d'Argenteuil, Val-d'Oise",
+      credit: "Wikipedia · Argenteuil",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Argenteuil_(Val-d%27Oise)",
+    },
+  },
+  {
+    // "Franconville" est une page d'homonymie : on force sa gare, cœur de la ville.
+    match: "franconville",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Gare_de_Franconville_-_Le_Plessis-Bouchard_05.jpg/1280px-Gare_de_Franconville_-_Le_Plessis-Bouchard_05.jpg",
+      width: 1280,
+      height: 960,
+      alt: "Gare de Franconville-Le Plessis-Bouchard, Val-d'Oise",
+      credit: "Wikipedia · Franconville",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Franconville_(Val-d%27Oise)",
+    },
+  },
+  {
+    // "Enghien-les-Bains" : on force la vue lac + casino, son identité.
+    match: "enghien",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Enghien_-_Lac_Casino.jpg/1280px-Enghien_-_Lac_Casino.jpg",
+      width: 1280,
+      height: 853,
+      alt: "Le lac et le casino d'Enghien-les-Bains, Val-d'Oise",
+      credit: "Wikipedia · Enghien-les-Bains",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Enghien-les-Bains",
+    },
+  },
+  {
+    // "Saint-Gratien" est une page d'homonymie : on force la mairie.
+    match: "saint-gratien",
+    image: {
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Saint_Gratien-Mairie-20120917.jpg/1280px-Saint_Gratien-Mairie-20120917.jpg",
+      width: 1280,
+      height: 853,
+      alt: "Hôtel de ville de Saint-Gratien, Val-d'Oise",
+      credit: "Wikipedia · Saint-Gratien",
+      sourceUrl: "https://fr.wikipedia.org/wiki/Saint-Gratien_(Val-d%27Oise)",
+    },
+  },
+  {
     // "Massy" est une page d'homonymie sans image : on force sa gare TGV, son identité.
     match: "massy",
     image: {
