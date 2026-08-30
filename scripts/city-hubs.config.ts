@@ -3456,4 +3456,277 @@ export const CITY_HUBS: Record<string, CityHubConfig> = {
     dates: ["2026-03-30", "2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04", "2026-05-11", "2026-05-18"],
     skipSlots: [],
   },
+
+  // Batch double est/nord-est 93 (août 2026). 8 fiches créées.
+  "aulnay-sous-bois": {
+    city: "Aulnay-sous-Bois",
+    cityShort: "Aulnay",
+    base: "aulnay-sous-bois",
+    ficheSlug: "aulnay-sous-bois-93005",
+    departement: "Seine-Saint-Denis",
+    median: 3600,
+    evolutionNote: "en hausse sur 5 ans, grande ville portée par l'arrivée du métro 16",
+    quartiers: [
+      { nom: "Vieux Pays / Centre-gare", fourchette: "3 900-4 400 €/m²", note: "autour du RER B et du vieux bourg, le plus prisé" },
+      { nom: "Nonneville / Sud pavillonnaire", fourchette: "3 700-4 200 €/m²", note: "vastes quartiers de maisons, recherchés des familles" },
+      { nom: "Chanteloup / Prévoyants", fourchette: "3 500-4 000 €/m²", note: "résidentiel" },
+      { nom: "Gros Saule / Rose des Vents", fourchette: "2 900-3 400 €/m²", note: "grands ensembles en rénovation, le plus abordable" },
+    ],
+    transport:
+      "le RER B (gare d'Aulnay-sous-Bois, Gare du Nord en 20 minutes), le Transilien K, le tram T4 vers Bondy et Montfermeil, la future gare du métro 16 (2026) et l'ancienne emprise PSA en reconversion",
+    contexte:
+      "grande ville double visage du nord-est (86 000 habitants), moitié sud pavillonnaire prisée autour du parc Dumont, moitié nord en rénovation urbaine, arrivée du métro 16 qui rebat les cartes, marché de volume au potentiel de valorisation net",
+    rendement: "4,8-5,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 % (très variable selon le quartier)",
+    comparison: {
+      city: "Sevran",
+      base: "sevran",
+      ficheSlug: "sevran-93071",
+      price: 3100,
+      angle:
+        "Aulnay-sous-Bois, grande et contrastée avec son sud pavillonnaire (3 600 €/m²), face à Sevran, plus accessible et dopée par deux gares du métro 16 (3 100 €/m²), deux voisines du RER B en pleine mutation",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01", "2026-05-08", "2026-05-15", "2026-05-22", "2026-05-29"],
+    skipSlots: [],
+  },
+
+  sevran: {
+    city: "Sevran",
+    cityShort: "Sevran",
+    base: "sevran",
+    ficheSlug: "sevran-93071",
+    departement: "Seine-Saint-Denis",
+    median: 3100,
+    evolutionNote: "en forte hausse sur 5 ans, deux gares du métro 16 en approche",
+    quartiers: [
+      { nom: "Centre / Sevran-Livry", fourchette: "3 400-3 900 €/m²", note: "autour du RER B et du canal de l'Ourcq, le plus prisé" },
+      { nom: "Freinville / Westinghouse", fourchette: "3 200-3 700 €/m²", note: "pavillonnaire en valorisation, future gare M16" },
+      { nom: "Perrin / Trèfles", fourchette: "3 000-3 500 €/m²", note: "résidentiel" },
+      { nom: "Beaudottes / Montceleux", fourchette: "2 600-3 100 €/m²", note: "grands ensembles en rénovation, futures gares M16, le plus abordable" },
+    ],
+    transport:
+      "le RER B (gares Sevran-Livry et Sevran-Beaudottes, Gare du Nord en 22 minutes), deux futures gares du métro 16 (Sevran-Livry et Sevran-Beaudottes, 2026), le canal de l'Ourcq et le parc forestier de la Poudrerie",
+    contexte:
+      "ville populaire du canal de l'Ourcq (52 000 habitants), parc de la Poudrerie de 137 hectares, seule commune d'Île-de-France avec deux gares du métro 16, l'un des plus forts potentiels de valorisation du Grand Paris sous les 3 200 €/m²",
+    rendement: "5,2-5,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 %",
+    comparison: {
+      city: "Livry-Gargan",
+      base: "livry-gargan",
+      ficheSlug: "livry-gargan-93046",
+      price: 3800,
+      angle:
+        "Sevran, accessible et transformée par le métro 16 (3 100 €/m²), face à Livry-Gargan, plus pavillonnaire et établie le long du T4 (3 800 €/m²), deux voisines du canal à 700 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-09", "2026-04-16", "2026-04-23", "2026-04-30", "2026-05-07", "2026-05-14", "2026-05-21", "2026-05-28"],
+    skipSlots: [],
+  },
+
+  "livry-gargan": {
+    city: "Livry-Gargan",
+    cityShort: "Livry-Gargan",
+    base: "livry-gargan",
+    ficheSlug: "livry-gargan-93046",
+    departement: "Seine-Saint-Denis",
+    median: 3800,
+    evolutionNote: "en hausse sur 5 ans, marché pavillonnaire familial du T4",
+    quartiers: [
+      { nom: "Centre / Chanzy", fourchette: "4 000-4 500 €/m²", note: "cœur commerçant le long de la RN3, le plus prisé" },
+      { nom: "Gargan / T4", fourchette: "3 800-4 300 €/m²", note: "autour du tram, pratique" },
+      { nom: "Poudrerie / Sévigné", fourchette: "3 700-4 200 €/m²", note: "pavillonnaire près du parc" },
+      { nom: "Danton / L'Abbaye", fourchette: "3 500-4 000 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le tram T4 (stations Gargan, Lycée Henri Sellier, L'Abbaye, vers Bondy RER E et Aulnay RER B), le parc forestier de la Poudrerie, et la RN3 commerçante",
+    contexte:
+      "ville pavillonnaire familiale de l'ex-allée de Sévigné (45 000 habitants), tissu de maisons dominant, marchés et commerces le long de la RN3, parc de la Poudrerie en voisin, profil primo-accédant famille qui veut du pavillon à moins de 4 000 €/m²",
+    rendement: "4,6-5,1 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-7 %",
+    comparison: {
+      city: "Les Pavillons-sous-Bois",
+      base: "les-pavillons-sous-bois",
+      ficheSlug: "les-pavillons-sous-bois-93057",
+      price: 4100,
+      angle:
+        "Livry-Gargan, grande et commerçante le long du T4 (3 800 €/m²), face aux Pavillons-sous-Bois, plus petites et un cran plus cotées vers Paris (4 100 €/m²), le même tissu pavillonnaire à deux prix",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29", "2026-05-06", "2026-05-13", "2026-05-20", "2026-05-27"],
+    skipSlots: [],
+  },
+
+  "le-blanc-mesnil": {
+    city: "Le Blanc-Mesnil",
+    cityShort: "Le Blanc-Mesnil",
+    base: "le-blanc-mesnil",
+    ficheSlug: "le-blanc-mesnil-93007",
+    departement: "Seine-Saint-Denis",
+    median: 3300,
+    evolutionNote: "en hausse sur 5 ans, marché accessible entre RER B et pôle du Bourget",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "3 500-4 000 €/m²", note: "cœur de ville et parc Jacques Duclos, le plus prisé" },
+      { nom: "Sud pavillonnaire / Aviation", fourchette: "3 400-3 900 €/m²", note: "maisons des années 30, recherché" },
+      { nom: "Gare / Drancy", fourchette: "3 200-3 700 €/m²", note: "proche du RER B" },
+      { nom: "Tilleuls / Casanova", fourchette: "2 800-3 300 €/m²", note: "grands ensembles en rénovation, le plus abordable" },
+    ],
+    transport:
+      "le RER B (gare du Blanc-Mesnil en limite de Drancy, Gare du Nord en 20 minutes), la proximité du pôle Grand Paris du Bourget (métros 16 et 17), et l'A1-A3",
+    contexte:
+      "ville pavillonnaire et populaire du pôle Bourget (57 000 habitants), parc urbain Jacques Duclos, à deux pas du cluster aéronautique et des futures gares 16-17 du Bourget, marché accessible qui profite de la dynamique olympique et Grand Paris du secteur",
+    rendement: "5-5,5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-8 %",
+    comparison: {
+      city: "Aulnay-sous-Bois",
+      base: "aulnay-sous-bois",
+      ficheSlug: "aulnay-sous-bois-93005",
+      price: 3600,
+      angle:
+        "Le Blanc-Mesnil, accessible près du pôle du Bourget (3 300 €/m²), face à Aulnay-sous-Bois, plus grande avec son propre métro 16 (3 600 €/m²), deux marchés de volume du RER B nord",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-07", "2026-04-14", "2026-04-21", "2026-04-28", "2026-05-05", "2026-05-12", "2026-05-19", "2026-05-26"],
+    skipSlots: [],
+  },
+
+  bondy: {
+    city: "Bondy",
+    cityShort: "Bondy",
+    base: "bondy",
+    ficheSlug: "bondy-93010",
+    departement: "Seine-Saint-Denis",
+    median: 3800,
+    evolutionNote: "en hausse sur 5 ans, nœud RER E + T4 porté par la ligne 15 Est à venir",
+    quartiers: [
+      { nom: "Centre / Gare", fourchette: "4 000-4 500 €/m²", note: "RER E et T4, future ligne 15 Est, le plus prisé" },
+      { nom: "Bondy Sud / Mainguy", fourchette: "3 800-4 300 €/m²", note: "pavillonnaire calme" },
+      { nom: "Canal de l'Ourcq / Nord", fourchette: "3 600-4 100 €/m²", note: "berges en mutation" },
+      { nom: "Terre Saint-Blaise / La Sablière", fourchette: "3 300-3 800 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER E (gare de Bondy, Haussmann-Saint-Lazare en 15 minutes), le tram T4 en terminus vers Aulnay et Montfermeil, la future gare de la ligne 15 Est, le canal de l'Ourcq et l'A3",
+    contexte:
+      "nœud de transport de l'est (55 000 habitants), RER E direct vers le cœur de Paris et hub du T4, canal de l'Ourcq au nord, future ligne 15 Est qui va démultiplier la desserte, marché encore sous les 4 000 €/m² à 15 minutes de Saint-Lazare",
+    rendement: "4,8-5,3 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-7 %",
+    comparison: {
+      city: "Noisy-le-Sec",
+      base: "noisy-le-sec",
+      ficheSlug: "noisy-le-sec-93053",
+      price: 4300,
+      angle:
+        "Bondy, hub RER E + T4 encore accessible (3 800 €/m²), face à Noisy-le-Sec, sa voisine plus proche de Paris déjà mieux valorisée (4 300 €/m²), le même RER E à 500 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-06", "2026-04-13", "2026-04-20", "2026-04-27", "2026-05-04", "2026-05-11", "2026-05-18", "2026-05-25"],
+    skipSlots: [],
+  },
+
+  "les-pavillons-sous-bois": {
+    city: "Les Pavillons-sous-Bois",
+    cityShort: "Les Pavillons-sous-Bois",
+    base: "les-pavillons-sous-bois",
+    ficheSlug: "les-pavillons-sous-bois-93057",
+    departement: "Seine-Saint-Denis",
+    median: 4100,
+    evolutionNote: "en hausse sur 5 ans, petit marché pavillonnaire recherché",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "4 300-4 800 €/m²", note: "cœur de ville, le plus prisé" },
+      { nom: "Canal de l'Ourcq", fourchette: "4 100-4 600 €/m²", note: "berges aménagées, promenades" },
+      { nom: "Fontainebleau / T4", fourchette: "4 000-4 500 €/m²", note: "autour du tram, pratique" },
+      { nom: "Nord / limite Bondy", fourchette: "3 800-4 300 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le tram T4 (stations Les Pavillons-sous-Bois et Gargan, vers le RER E à Bondy et le RER B à Aulnay), les berges du canal de l'Ourcq, et l'ex-RN3 commerçante",
+    contexte:
+      "petite ville pavillonnaire homogène née du lotissement de l'allée de Sévigné (24 000 habitants), canal de l'Ourcq pour les balades, tissu de maisons avec jardins qui en fait l'une des adresses famille les plus stables de l'est proche",
+    rendement: "4,5-5 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Bondy",
+      base: "bondy",
+      ficheSlug: "bondy-93010",
+      price: 3800,
+      angle:
+        "Les Pavillons-sous-Bois, pavillonnaires et homogènes le long du canal (4 100 €/m²), face à Bondy, plus urbaine mais mieux connectée avec son RER E (3 800 €/m²), l'arbitrage cadre-desserte de l'est proche",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-05", "2026-04-12", "2026-04-19", "2026-04-26", "2026-05-03", "2026-05-10", "2026-05-17", "2026-05-24"],
+    skipSlots: [],
+  },
+
+  gagny: {
+    city: "Gagny",
+    cityShort: "Gagny",
+    base: "gagny",
+    ficheSlug: "gagny-93032",
+    departement: "Seine-Saint-Denis",
+    median: 3900,
+    evolutionNote: "en hausse sur 5 ans, grand marché pavillonnaire du RER E",
+    quartiers: [
+      { nom: "Centre / Gare de Gagny", fourchette: "4 100-4 600 €/m²", note: "RER E, commerces, le plus prisé" },
+      { nom: "Époque / Maison Blanche", fourchette: "3 900-4 400 €/m²", note: "pavillonnaire familial" },
+      { nom: "Le Chénay", fourchette: "3 800-4 300 €/m²", note: "seconde gare RER E, résidentiel" },
+      { nom: "Jean Bouin / Les Abbesses", fourchette: "3 500-4 000 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "deux gares du RER E (Gagny et Le Chénay-Gagny, Haussmann-Saint-Lazare en 20 minutes), les carrières de l'ouest en cours de renaturation, et la proximité de Chelles et du futur métro 16",
+    contexte:
+      "grande ville pavillonnaire de l'est (70 000 habitants), deux gares RER E, anciennes carrières de gypse devenues espaces verts, profil famille qui cherche la maison avec jardin desservie, entre Le Raincy le chic et Chelles la championne qualité-prix",
+    rendement: "4,6-5,1 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "5-7 %",
+    comparison: {
+      city: "Chelles",
+      base: "chelles",
+      ficheSlug: "chelles-77108",
+      price: 3500,
+      angle:
+        "Gagny, pavillonnaire du 93 avec deux gares RER E (3 900 €/m²), face à Chelles, la voisine de Seine-et-Marne encore plus accessible avec la ligne 16 en approche (3 500 €/m²), le duel famille de l'est à 400 € d'écart",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-04", "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02", "2026-05-09", "2026-05-16", "2026-05-23"],
+    skipSlots: [],
+  },
+
+  villemomble: {
+    city: "Villemomble",
+    cityShort: "Villemomble",
+    base: "villemomble",
+    ficheSlug: "villemomble-93077",
+    departement: "Seine-Saint-Denis",
+    median: 4600,
+    evolutionNote: "stable sur 5 ans, la valeur bourgeoise discrète de l'est",
+    quartiers: [
+      { nom: "Centre / Mairie", fourchette: "4 800-5 300 €/m²", note: "autour du château seigneurial et des commerces, le plus prisé" },
+      { nom: "Gare / Le Raincy-Villemomble", fourchette: "4 600-5 100 €/m²", note: "RER E partagé avec Le Raincy" },
+      { nom: "Les Coquetiers / T4", fourchette: "4 400-4 900 €/m²", note: "pavillonnaire, tram" },
+      { nom: "Bénoni-Eustache / limite Rosny", fourchette: "4 200-4 700 €/m²", note: "le plus abordable" },
+    ],
+    transport:
+      "le RER E (gare Le Raincy-Villemomble-Montfermeil, Haussmann en 20 minutes), le tram T4 (Les Coquetiers), et la proximité de Rosny 2 et de l'A86",
+    contexte:
+      "ville résidentielle bourgeoise et discrète (30 000 habitants), château seigneurial et pavillons de caractère, gare partagée avec Le Raincy, l'alternative un cran plus accessible que sa célèbre voisine pour le même train",
+    rendement: "4,2-4,7 % brut",
+    fraisNotaire: "7,5-8 %",
+    negoMargin: "4-6 %",
+    comparison: {
+      city: "Le Raincy",
+      base: "le-raincy",
+      ficheSlug: "le-raincy-93062",
+      price: 5300,
+      angle:
+        "Villemomble, bourgeoise discrète avec son château (4 600 €/m²), face au Raincy, la ville-parc star de l'est (5 300 €/m²), la même gare RER E pour 700 € d'écart au mètre carré",
+    },
+    datasetCount: 176,
+    dates: ["2026-04-03", "2026-04-10", "2026-04-17", "2026-04-24", "2026-05-01", "2026-05-08", "2026-05-15", "2026-05-22"],
+    skipSlots: [],
+  },
 };
