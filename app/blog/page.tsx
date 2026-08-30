@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { BookOpen } from "lucide-react";
 import { PUBLISHED_BLOG_POSTS } from "@/lib/blog-published";
+import { FEATURED_SLUGS } from "@/lib/blog-featured";
+import { COMMUNE_COUNT } from "@/lib/sample-data";
 import { getBlogSearchDocs } from "@/lib/blog-search";
 import BlogClientShell, { type PostListItem } from "@/components/BlogClientShell";
 
@@ -49,10 +51,18 @@ const CATEGORY_GRADIENTS: Record<string, string> = {
 const CATEGORIES = ["all", "guide", "finance", "tendance", "persona", "transport"] as const;
 
 export default async function BlogIndexPage() {
-  const allPosts = [...PUBLISHED_BLOG_POSTS].sort(
+  // Vitrine éditoriale : les articles premium (FEATURED_SLUGS) passent en tête
+  // dans l'ordre curaté (le 1er devient la une), le reste suit par date.
+  const byDate = [...PUBLISHED_BLOG_POSTS].sort(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
+  const featuredRank = new Map(FEATURED_SLUGS.map((s, i) => [s, i]));
+  const featured = byDate
+    .filter((p) => featuredRank.has(p.slug))
+    .sort((a, b) => featuredRank.get(a.slug)! - featuredRank.get(b.slug)!);
+  const rest = byDate.filter((p) => !featuredRank.has(p.slug));
+  const allPosts = [...featured, ...rest];
 
   // On ne sérialise au client que ce qu'il a besoin pour render la grille.
   // Pas de brief, pas de content : il faut rester light pour le bundle.
@@ -155,7 +165,7 @@ export default async function BlogIndexPage() {
               de lecture
             </span>
             <span>
-              <strong className="text-brand-bleu">175</strong> communes étudiées
+              <strong className="text-brand-bleu">{COMMUNE_COUNT}</strong> communes étudiées
             </span>
           </div>
         </div>
